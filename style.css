@@ -949,16 +949,23 @@ header nav>a{padding:.4rem .8rem}
 #idioma{min-height:40px;font-size:.92rem}
 .btn.btn-pwa{min-height:42px;font-size:.92rem;padding:.55rem 1.2rem;box-shadow:0 6px 18px rgba(11,127,165,.28)}
 
-/* Na página de protocolos, o menu aberto cresce no fluxo para não cobrir o conteúdo. */
-.pagina-protocolos header nav .nav-mais[open]{flex:1 0 100%}
-.pagina-protocolos .nav-grupos{
-  position:static;
-  left:auto;
+/* Menu "Mais": sobrepõe o conteúdo, mas com fundo sólido e acima de tudo, sem misturar o texto de trás. */
+header{position:relative;z-index:30;isolation:isolate}
+header .nav-mais{position:static}
+header .nav-mais[open]>.nav-grupos{
+  position:absolute;
+  top:calc(100% + .5rem);
+  left:50%;
   right:auto;
-  transform:none;
-  width:min(100%,38rem);
-  margin:.5rem auto 0;
-  max-height:60vh;
+  transform:translateX(-50%);
+  z-index:31;
+  width:min(38rem,calc(100vw - 1.5rem));
+  max-height:70vh;
+  overflow:auto;
+  background-color:var(--card);
+  background-image:none;
+  opacity:1;
+  box-shadow:0 18px 50px rgba(0,0,0,.35);
 }
 .pagina-protocolos .prot-alertas-painel:empty{display:none}
 .pagina-protocolos .prot-alertas-painel{

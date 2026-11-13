@@ -1,5 +1,5 @@
 // Rede primeiro (conteúdo sempre atual); se estiver offline, usa o cache.
-const VERSAO = "guia-202611121535";
+const VERSAO = "guia-202611131200";
 const BASE = ["index.html", "meus-protocolos.html", "style.css", "manifest.webmanifest", "data.js", "data-extra.js", "data-mecanismos.js", "revisoes.js", "aprovacoes.js", "revisao-pendente.js", "core.js", "i18n.js", "app.js", "ads.js", "icons/icon-192.png"];
 
 self.addEventListener("install", e => {

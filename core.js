@@ -582,6 +582,17 @@ function sugestoesBusca() {
 }
 function montarLayout(titulo) {
   setTimeout(sugestoesBusca, 0);
+  if (!window.__menuMaisFecha) {
+    window.__menuMaisFecha = true;
+    document.addEventListener("click", e => {
+      const m = document.querySelector(".nav-mais[open]");
+      if (m && !m.contains(e.target)) m.open = false;
+    });
+    document.addEventListener("keydown", e => {
+      const m = document.querySelector(".nav-mais[open]");
+      if (e.key === "Escape" && m) { m.open = false; m.querySelector("summary").focus(); }
+    });
+  }
   const topo = document.getElementById("topo");
   if (topo) {
     topo.innerHTML = `<button id="tema" type="button" aria-label="Alternar tema">🌓</button>
