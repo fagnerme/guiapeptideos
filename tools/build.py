@@ -3,7 +3,7 @@ import re, sys, unicodedata, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 raiz = pathlib.Path(__file__).resolve().parent.parent
-site = (sys.argv[1] if len(sys.argv) > 1 else "https://SEU-DOMINIO.com").rstrip("/")
+site = (sys.argv[1] if len(sys.argv) > 1 else "https://fagnerme.github.io/guiapeptideos").rstrip("/")
 
 def slug(nome):
     s = unicodedata.normalize("NFD", nome.lower())

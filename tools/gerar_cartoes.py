@@ -4,7 +4,7 @@ import re, sys, json, html, unicodedata, pathlib
 from PIL import Image, ImageDraw, ImageFont
 
 raiz = pathlib.Path(__file__).resolve().parent.parent
-site = (sys.argv[1] if len(sys.argv) > 1 else "https://SEU-DOMINIO.com").rstrip("/")
+site = (sys.argv[1] if len(sys.argv) > 1 else "https://fagnerme.github.io/guiapeptideos").rstrip("/")
 
 def slug(nome):
     s = unicodedata.normalize("NFD", nome.lower())

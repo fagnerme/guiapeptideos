@@ -160,4 +160,4 @@ def gerar_comparacoes(site, itens, familias):
     return feitos
 
 if __name__ == "__main__":
-    gerar((sys.argv[1] if len(sys.argv) > 1 else "https://SEU-DOMINIO.com").rstrip("/"))
+    gerar((sys.argv[1] if len(sys.argv) > 1 else "https://fagnerme.github.io/guiapeptideos").rstrip("/"))
