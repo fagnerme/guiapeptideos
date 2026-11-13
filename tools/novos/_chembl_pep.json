@@ -1,0 +1,6159 @@
+[
+ {
+  "nome": "INTERMEDINE",
+  "chembl": "CHEMBL214332",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alpha-melanocyte stimulating hormone",
+   ".alpha.-melanotropin",
+   ".alpha.-melanotropin (human)",
+   ".alpha.-melanotropin (ox)",
+   ".alpha.-melanotropin (sheep)",
+   ".alpha.-msh"
+  ]
+ },
+ {
+  "nome": "TEPROTIDE",
+  "chembl": "CHEMBL408983",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "SO 20881",
+   "SO-20881",
+   "SQ 20881",
+   "SQ-20881",
+   "Tepromide",
+   "Teprotida"
+  ]
+ },
+ {
+  "nome": "ENDOTHELIN",
+  "chembl": "CHEMBL437472",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Endothelin",
+   "Endothelin",
+   "Endothelin-1",
+   "Endothelin 1 (human)",
+   "Endothelin 1 (pig)",
+   "Endothelin 1 (rana ridibunda)"
+  ]
+ },
+ {
+  "nome": "THYMOSIN",
+  "chembl": "CHEMBL412531",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Thymosin"
+  ]
+ },
+ {
+  "nome": "GASTRIN",
+  "chembl": "CHEMBL413654",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Gastrin"
+  ]
+ },
+ {
+  "nome": "CYCLOSPORINE",
+  "chembl": "CHEMBL160",
+  "fase": "4.0",
+  "aprov": 1983,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "27-400",
+   "ANTIBIOTIC S-7481F1",
+   "Atopica",
+   "Capimune",
+   "Capsorin",
+   "Cequa"
+  ]
+ },
+ {
+  "nome": "OXECLOSPORIN",
+  "chembl": "CHEMBL217642",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "IMM-125",
+   "IMM125",
+   "Oxeclosporin",
+   "Oxeclosporina",
+   "Oxeclosporine",
+   "SDZ-IMM-125"
+  ]
+ },
+ {
+  "nome": "SARALASIN",
+  "chembl": "CHEMBL938",
+  "fase": "4.0",
+  "aprov": 1982,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "1-sar-8-ala-angiotensin ii",
+   "Saralasin",
+   "Saralasin",
+   "Saralasina",
+   "Saralasine",
+   "Sar-arg-val-tyr-val-his-pro-ala"
+  ]
+ },
+ {
+  "nome": "ANGIOTENSIN AMIDE",
+  "chembl": "CHEMBL409803",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Angiotensinamida",
+   "Angiotensin amide",
+   "Angiotensin amide",
+   "Angiotensinamide",
+   "Angiotensinamide",
+   "Angiotensinamide"
+  ]
+ },
+ {
+  "nome": "BRADYKININ",
+  "chembl": "CHEMBL406291",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bradykinin",
+   "Bradykinin",
+   "BRS-640",
+   "Callidin i",
+   "Kallidin-9",
+   "Kallidin i"
+  ]
+ },
+ {
+  "nome": "SEGLITIDE",
+  "chembl": "CHEMBL311695",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "L-363586",
+   "Seglitida",
+   "Seglitide"
+  ]
+ },
+ {
+  "nome": "GLASPIMOD",
+  "chembl": "CHEMBL412415",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Glaspimod",
+   "SB-107647",
+   "SK&F 107647",
+   "SK&F-107647",
+   "SKF-107647"
+  ]
+ },
+ {
+  "nome": "NETAZEPIDE",
+  "chembl": "CHEMBL324547",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Netazepida",
+   "Netazepide",
+   "Netazepide",
+   "Sograzepide",
+   "YF-476",
+   "Yf476"
+  ]
+ },
+ {
+  "nome": "EPTIFIBATIDE",
+  "chembl": "CHEMBL1174",
+  "fase": "4.0",
+  "aprov": 1998,
+  "seq": "CPWDGK",
+  "tam": 6,
+  "sinonimos": [
+   "Eptifibatida",
+   "Eptifibatide",
+   "Eptifibatide",
+   "Eptifibatide",
+   "Eptifibatide",
+   "Eptifibatide"
+  ]
+ },
+ {
+  "nome": "OVEMOTIDE",
+  "chembl": "CHEMBL263441",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YLEPGPVTV",
+  "tam": 9,
+  "sinonimos": [
+   "Elagigiltv",
+   "Gp100:280-288(288v) peptide",
+   "(leu27)-melan-a, mart 1 (26-35)",
+   "Mart-1:26-35(27l) peptide",
+   "Melan-a(aa26-35*a27l))",
+   "MPS-21"
+  ]
+ },
+ {
+  "nome": "DISOMOTIDE",
+  "chembl": "CHEMBL263429",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "IMDQVPFSV",
+  "tam": 9,
+  "sinonimos": [
+   "Disomotida",
+   "Disomotide",
+   "Disomotide",
+   "Disomotide",
+   "Gp-100:209-217(210m) peptide",
+   "Gp100:209-217(210m) peptide"
+  ]
+ },
+ {
+  "nome": "PRAZARELIX",
+  "chembl": "CHEMBL409018",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "APKLFFSAFA",
+  "tam": 10,
+  "sinonimos": [
+   "Prazarelix"
+  ]
+ },
+ {
+  "nome": "ACYLINE",
+  "chembl": "CHEMBL262747",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Acyline",
+   "MER-104"
+  ]
+ },
+ {
+  "nome": "ROMIDEPSIN",
+  "chembl": "CHEMBL343448",
+  "fase": "4.0",
+  "aprov": 2009,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CHROMADAX",
+   "Chromadax",
+   "CYCLIC (1.FWDARW.2)-DISULFIDE",
+   "CYCLIC PEPTIDE DERIV.(E)-(1S,4S,10S,21R)-7-[(Z)-ETHYLIDENE]-4,21-DIISOPROPYL-2- OXA-12,13-DITHIA-5,8,20,23- TETRAAZABICYCLO[8.7.6]TRICOS-16-ENE-3,6,9,19,22-PENTONEL-VALINE",
+   "Depsipeptide",
+   "DEPSIPEPTIDE"
+  ]
+ },
+ {
+  "nome": "DEMOXYTOCIN",
+  "chembl": "CHEMBL435716",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "1-deaminooxytocin",
+   "Deaminooxytocin",
+   "Demoxitocina",
+   "Demoxytocin",
+   "Demoxytocin",
+   "Demoxytocine"
+  ]
+ },
+ {
+  "nome": "PEPTIDE T",
+  "chembl": "CHEMBL180971",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Peptide t",
+   "Peptide t",
+   "Peptide-t"
+  ]
+ },
+ {
+  "nome": "ABT-510",
+  "chembl": "CHEMBL386115",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Abt 510",
+   "ABT 510",
+   "Abt-510",
+   "ABT-526"
+  ]
+ },
+ {
+  "nome": "ATOSIBAN",
+  "chembl": "CHEMBL382301",
+  "fase": "4.0",
+  "aprov": 2000,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Antocile",
+   "Antocin",
+   "Antocin ii",
+   "Atosiban",
+   "Atosiban",
+   "Atosiban"
+  ]
+ },
+ {
+  "nome": "PENETRATIN",
+  "chembl": "CHEMBL439448",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "L-penetratin",
+   "Penetratin",
+   "Penetratin",
+   "Penetratin 1",
+   "Penetratin (synthetic)",
+   "Transportan (synthetic)"
+  ]
+ },
+ {
+  "nome": "GRAMICIDIN S",
+  "chembl": "CHEMBL373496",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Gramicidina s",
+   "Gramicidin c",
+   "Gramicidine s",
+   "Gramicidin s",
+   "Gramicidin s 1",
+   "Gramicidin s-a"
+  ]
+ },
+ {
+  "nome": "ELEDOISIN",
+  "chembl": "CHEMBL373569",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "ELD 950",
+   "ELD-950",
+   "Eledoisin",
+   "Eledoisina",
+   "Eledoisine"
+  ]
+ },
+ {
+  "nome": "KISSPEPTIN-10",
+  "chembl": "CHEMBL376756",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Human metastin 45-54",
+   "Kisspeptin-10",
+   "Kisspeptin-10 (human)"
+  ]
+ },
+ {
+  "nome": "THEOPHYLLINE",
+  "chembl": "CHEMBL190",
+  "fase": "4.0",
+  "aprov": 1940,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ },
+ {
+  "nome": "PROTIRELIN",
+  "chembl": "CHEMBL1472",
+  "fase": "4.0",
+  "aprov": 1976,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "5-oxo-pro-his-pro-nh2",
+   "A-38579",
+   "ABBOTT-38579",
+   "Lopremone",
+   "NSC-760113",
+   "Protirelin"
+  ]
+ },
+ {
+  "nome": "ANGIOTENSIN II",
+  "chembl": "CHEMBL408403",
+  "fase": "4.0",
+  "aprov": 2017,
+  "seq": "H-Asp-Arg-Val-Tyr-IIe-His-Pro-Phe-OH",
+  "tam": 36,
+  "sinonimos": [
+   "5-l-isoleucineangiotensin ii",
+   "Angiotensina ii",
+   "Angiotensine ii",
+   "Angiotensin ii",
+   "Angiotensin ii",
+   "Angiotensin ii"
+  ]
+ },
+ {
+  "nome": "CILENGITIDE",
+  "chembl": "CHEMBL429876",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "RGDFV",
+  "tam": 5,
+  "sinonimos": [
+   "Cilengitida",
+   "Cilengitide",
+   "Cilengitide",
+   "Cilengitide",
+   "Cilengitide",
+   "EMD-12192"
+  ]
+ },
+ {
+  "nome": "BOMBESIN",
+  "chembl": "CHEMBL437027",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bombesin",
+   "Bombesin",
+   "Bombesin 14"
+  ]
+ },
+ {
+  "nome": "EFEGATRAN",
+  "chembl": "CHEMBL273196",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Efegatran",
+   "LY-294468",
+   "LY294468"
+  ]
+ },
+ {
+  "nome": "DACTINOMYCIN",
+  "chembl": "CHEMBL1554",
+  "fase": "4.0",
+  "aprov": 1964,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Actinomycin c1",
+   "Actinomycin d",
+   "Actinomycin d",
+   "Actinomycin-d",
+   "Actinomycin i1",
+   "Actinomycin iv"
+  ]
+ },
+ {
+  "nome": "ROTIGAPTIDE",
+  "chembl": "CHEMBL450656",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "GAP (WYETH)",
+   "Rotigaptida",
+   "Rotigaptide",
+   "Rotigaptide",
+   "Rotigaptide",
+   "ZP-123"
+  ]
+ },
+ {
+  "nome": "NERINETIDE",
+  "chembl": "CHEMBL502630",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "FN-023",
+   "FN023",
+   "NA-1",
+   "Nerinetida",
+   "Nerinetide",
+   "Nerinetide"
+  ]
+ },
+ {
+  "nome": "[18F]-FBA-A20FMDV2",
+  "chembl": "CHEMBL504111",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "[18f]-fba-a20fmdv2"
+  ]
+ },
+ {
+  "nome": "TELAVANCIN",
+  "chembl": "CHEMBL507870",
+  "fase": "4.0",
+  "aprov": 2009,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Telavancin",
+   "Telavancin",
+   "Telavancin",
+   "Telavancin",
+   "Telavancina",
+   "Telavancine"
+  ]
+ },
+ {
+  "nome": "TT-232",
+  "chembl": "CHEMBL539934",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Tln-232",
+   "TLN-232",
+   "Tt-232"
+  ]
+ },
+ {
+  "nome": "CARFILZOMIB",
+  "chembl": "CHEMBL451887",
+  "fase": "4.0",
+  "aprov": 2009,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Carfilzomib",
+   "Carfilzomib",
+   "Carfilzomib",
+   "Carfilzomib",
+   "Carfilzomib",
+   "Carfilzomib"
+  ]
+ },
+ {
+  "nome": "TYROTHRICIN",
+  "chembl": "CHEMBL577736",
+  "fase": "4.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bactratycin",
+   "Coltirot",
+   "Dermotricine",
+   "Hydrotricine",
+   "Martricin",
+   "NSC-757363"
+  ]
+ },
+ {
+  "nome": "ANG1005",
+  "chembl": "CHEMBL1089636",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "ANG-1005",
+   "Ang1005",
+   "ANG1005",
+   "Paclitaxel trevatida",
+   "Paclitaxel trevatide",
+   "Paclitaxel trevatide"
+  ]
+ },
+ {
+  "nome": "VALSPODAR",
+  "chembl": "CHEMBL1086218",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "VLLAALVLGV",
+  "tam": 10,
+  "sinonimos": [
+   "Amdray",
+   "PSC 833",
+   "PSC833",
+   "SDZ PSC 833",
+   "SDZ-PSC 833",
+   "Valspodar"
+  ]
+ },
+ {
+  "nome": "BACITRACIN",
+  "chembl": "CHEMBL1200558",
+  "fase": "4.0",
+  "aprov": 1948,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Albac 50",
+   "Baciferm 50",
+   "Baciguent",
+   "Baciim",
+   "Bacilliquin",
+   "Baci-rx"
+  ]
+ },
+ {
+  "nome": "LYPRESSIN",
+  "chembl": "CHEMBL1200690",
+  "fase": "4.0",
+  "aprov": 1982,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "8-l-lysinevasopressin",
+   "Diapid",
+   "L-8",
+   "Lipresina",
+   "Lypressin",
+   "Lypressin"
+  ]
+ },
+ {
+  "nome": "CERULETIDE",
+  "chembl": "CHEMBL1200755",
+  "fase": "4.0",
+  "aprov": 1982,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Caerulein diethylamine",
+   "Ceosunin",
+   "Ceruletide diethylamine",
+   "Ceruletide diethylamine",
+   "Ceruletide diethylamine",
+   "Ceruletide diethylamine salt"
+  ]
+ },
+ {
+  "nome": "CORTICORELIN TRIFLUTATE",
+  "chembl": "CHEMBL1201591",
+  "fase": "4.0",
+  "aprov": 1996,
+  "seq": "SQEPPISLDLTFHLLREVLEMTKADQLAQQAHSNRKLLDIA",
+  "tam": 41,
+  "sinonimos": [
+   "Acthrel",
+   "Corticorelin ovine triflutate",
+   "Corticorelin ovine triflutate",
+   "Corticorelin ovine triflutate"
+  ]
+ },
+ {
+  "nome": "NESIRITIDE",
+  "chembl": "CHEMBL1201668",
+  "fase": "4.0",
+  "aprov": 2001,
+  "seq": "SPKMVQGSGCFGRKMDRISSSSGLGCKVLRRH",
+  "tam": 32,
+  "sinonimos": [
+   "Bnp-32",
+   "Brain natriuretic peptide 32",
+   "C01DX19",
+   "Natrecor",
+   "Nesiritida",
+   "Nesiritide"
+  ]
+ },
+ {
+  "nome": "SERACTIDE",
+  "chembl": "CHEMBL1201489",
+  "fase": "4.0",
+  "aprov": 1978,
+  "seq": "SYSMEHFRWGKPVGKKRRPVKVYPDAGEDQSAEAFPLEF",
+  "tam": 39,
+  "sinonimos": [
+   "Seractide acetate",
+   "Seractide acetate hydrate"
+  ]
+ },
+ {
+  "nome": "TROLAMINE POLYPEPTIDE OLEATE CONDENSATE",
+  "chembl": "CHEMBL1201537",
+  "fase": "4.0",
+  "aprov": 1958,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cerumenex",
+   "Trolamine polypeptide oleate condensate"
+  ]
+ },
+ {
+  "nome": "DESIRUDIN",
+  "chembl": "CHEMBL1201662",
+  "fase": "4.0",
+  "aprov": 1997,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "63-desulfohirudin",
+   "63-desulfohirudin (recombinant)",
+   "CGP 39393",
+   "CGP-39393",
+   "Desirudin",
+   "Desirudin"
+  ]
+ },
+ {
+  "nome": "LUTROPIN",
+  "chembl": "CHEMBL1201419",
+  "fase": "4.0",
+  "aprov": 2000,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "ATC G03 GA GONADOTROPINS",
+   "Luteinising hormone",
+   "Luteinising hormone (human)",
+   "Lutropina alfa",
+   "Lutropin alfa",
+   "Lutropin alfa"
+  ]
+ },
+ {
+  "nome": "ECALLANTIDE",
+  "chembl": "CHEMBL1201837",
+  "fase": "4.0",
+  "aprov": 2009,
+  "seq": "EAMHSFCAFKADDGPCRAAHPRWFFNIFTRQCEEFIYGGCEGNQNRFESLEECKKMCTRD",
+  "tam": 60,
+  "sinonimos": [
+   "DX-88",
+   "Ecalantida",
+   "Ecallantide",
+   "Ecallantide",
+   "Ecallantide",
+   "Ecallantide"
+  ]
+ },
+ {
+  "nome": "BLEOMYCIN A6",
+  "chembl": "CHEMBL1231529",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bleomycin a6",
+   "Boanmycin",
+   "Pingyangmycin a6",
+   "Zhengguangmycin a6"
+  ]
+ },
+ {
+  "nome": "GLP-1",
+  "chembl": "CHEMBL1240772",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Glp-1",
+   "Glp-1"
+  ]
+ },
+ {
+  "nome": "SCY 635",
+  "chembl": "CHEMBL1269597",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Scy 635",
+   "SCY-635"
+  ]
+ },
+ {
+  "nome": "AMINOPHYLLINE",
+  "chembl": "CHEMBL1370561",
+  "fase": "4.0",
+  "aprov": 1940,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Aminofilina",
+   "Aminophyllin",
+   "Aminophylline",
+   "Aminophylline",
+   "Aminophylline",
+   "Aminophylline"
+  ]
+ },
+ {
+  "nome": "OMIGANAN",
+  "chembl": "CHEMBL1615933",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "KRRWPWWPWRLI",
+  "tam": 12,
+  "sinonimos": [
+   "Omiganan",
+   "Omiganan",
+   "Omiganan"
+  ]
+ },
+ {
+  "nome": "SPR-741",
+  "chembl": "CHEMBL1631770",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "NAB-741",
+   "Spr-741",
+   "Spr741"
+  ]
+ },
+ {
+  "nome": "ALISPORIVIR",
+  "chembl": "CHEMBL1651956",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alisporivir",
+   "Alisporivir",
+   "Alisporivir",
+   "DEB 025",
+   "DEB-025",
+   "DEB025"
+  ]
+ },
+ {
+  "nome": "NIM811",
+  "chembl": "CHEMBL1688529",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nim-811",
+   "Nim811",
+   "NIM811"
+  ]
+ },
+ {
+  "nome": "FRIULIMICIN B",
+  "chembl": "CHEMBL1688547",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Friulimicin b",
+   "Friulimycin b"
+  ]
+ },
+ {
+  "nome": "SELEPRESSIN",
+  "chembl": "CHEMBL1817709",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "FE 202158",
+   "Fe-202158",
+   "FE-202158",
+   "FE202158",
+   "Selepresina",
+   "Selepressin"
+  ]
+ },
+ {
+  "nome": "ORNIPRESSIN",
+  "chembl": "CHEMBL1819440",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "8-l-ornithinevasopressin",
+   "8-ornithinevasopressin",
+   "Orn(8)-vasopressin",
+   "Ornipresina",
+   "Ornipressin",
+   "Ornipressin"
+  ]
+ },
+ {
+  "nome": "SOMATOSTATIN",
+  "chembl": "CHEMBL1823872",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Somatostatin",
+   "Somatostatin",
+   "Somatostatin",
+   "Somatostatin-14",
+   "Somatostatina",
+   "Somatostatine"
+  ]
+ },
+ {
+  "nome": "NEPADUTANT",
+  "chembl": "CHEMBL1908318",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "NDWFL",
+  "tam": 5,
+  "sinonimos": [
+   "Nepadutant",
+   "Nepadutant"
+  ]
+ },
+ {
+  "nome": "FBA-A20FMDV2",
+  "chembl": "CHEMBL1908904",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ },
+ {
+  "nome": "LIVOLETIDE",
+  "chembl": "CHEMBL2029605",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "AZP 531",
+   "Azp-531",
+   "AZP-531",
+   "AZP531",
+   "Livoletida",
+   "Livoletide"
+  ]
+ },
+ {
+  "nome": "GDC-0152",
+  "chembl": "CHEMBL2063869",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Gdc-0152"
+  ]
+ },
+ {
+  "nome": "COSYNTROPIN",
+  "chembl": "CHEMBL2103784",
+  "fase": "4.0",
+  "aprov": 1970,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Corticotropin tetracosapeptide",
+   "Cortrosyn",
+   "Cosyntropin",
+   "Cosyntropin",
+   "Cosyntropin",
+   "Cosyntropin"
+  ]
+ },
+ {
+  "nome": "SINAPULTIDE",
+  "chembl": "CHEMBL2103901",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "KLLLLKLLLLKLLLLKLLLLK",
+  "tam": 21,
+  "sinonimos": [
+   "ATI 01",
+   "ATI-01",
+   "KL-4",
+   "KL4",
+   "Kl4 peptide",
+   "PEPTIDE KL-4"
+  ]
+ },
+ {
+  "nome": "TOSACTIDE",
+  "chembl": "CHEMBL2103904",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   ".alpha.1-28-corticotropin",
+   ".alpha.1-28-corticotropin (human)",
+   "Tosactida",
+   "Tosactide"
+  ]
+ },
+ {
+  "nome": "ULARITIDE",
+  "chembl": "CHEMBL2103920",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "TAPRSLRRSSCFGGRMDRIGAQSGLGCNSFRY",
+  "tam": 32,
+  "sinonimos": [
+   "Ularitida",
+   "Ularitide",
+   "Ularitide",
+   "Ularitide acetate",
+   "Urodilatin",
+   "Urodilatin ularitide"
+  ]
+ },
+ {
+  "nome": "AMPHOMYCIN",
+  "chembl": "CHEMBL2103921",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Amfomycin",
+   "Amfomycin",
+   "Amfomycine",
+   "Amphomycin",
+   "Amphomycin",
+   "Anfomicina"
+  ]
+ },
+ {
+  "nome": "TRICOSACTIDE",
+  "chembl": "CHEMBL2103923",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "HOE-254",
+   "Tricosactida",
+   "Tricosactide"
+  ]
+ },
+ {
+  "nome": "NORLEUSACTIDE",
+  "chembl": "CHEMBL2103941",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "DW 75",
+   "DW-75",
+   "Norleusactida",
+   "Norleusactide"
+  ]
+ },
+ {
+  "nome": "TEVERELIX",
+  "chembl": "CHEMBL2103945",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "APKLKYSAFA",
+  "tam": 10,
+  "sinonimos": [
+   "Antarelix",
+   "D-23234",
+   "EP-24332",
+   "Teverelix",
+   "Teverelix"
+  ]
+ },
+ {
+  "nome": "DELTIBANT",
+  "chembl": "CHEMBL2103953",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "RRPNGFCFLR",
+  "tam": 10,
+  "sinonimos": [
+   "Bradycor",
+   "CP-0127",
+   "Deltibant",
+   "Deltibant",
+   "Deltibant hexahydrochloride",
+   "Deltibant hydrochloride"
+  ]
+ },
+ {
+  "nome": "SEMPARATIDE",
+  "chembl": "CHEMBL2103974",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "ATHLKELLKELLERRRLDQISKGKDHLLQHESVA",
+  "tam": 34,
+  "sinonimos": [
+   "RS-66271",
+   "Semparatida",
+   "Semparatide"
+  ]
+ },
+ {
+  "nome": "AVORELIN",
+  "chembl": "CHEMBL2103984",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "PRLWYSWHN",
+  "tam": 9,
+  "sinonimos": [
+   "Avorelin",
+   "Avorelina",
+   "Avoreline",
+   "EP-23904",
+   "Meterelin",
+   "MF-6001"
+  ]
+ },
+ {
+  "nome": "CODACTIDE",
+  "chembl": "CHEMBL2104378",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BA-41795",
+   "Codactida",
+   "Codactide"
+  ]
+ },
+ {
+  "nome": "ASPARTOCIN",
+  "chembl": "CHEMBL2104384",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "A 8999",
+   "A-8999",
+   "Aspartocin",
+   "Aspartocin",
+   "Aspartocina",
+   "Aspartocine"
+  ]
+ },
+ {
+  "nome": "CARPERITIDE",
+  "chembl": "CHEMBL2104386",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "SLRRSSCFGGRMDDIGAQSGLGCNSFRY",
+  "tam": 28,
+  "sinonimos": [
+   "Atrial natriuretic peptide",
+   "Atrial natriuretic peptide",
+   "Atrial natriuretic peptide carperitide",
+   "Carperitida",
+   "Carperitide",
+   "Carperitide"
+  ]
+ },
+ {
+  "nome": "CEMADOTIN",
+  "chembl": "CHEMBL2104387",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cemadotin",
+   "Cemadotina",
+   "Cemadotine",
+   "NSC-D-669356"
+  ]
+ },
+ {
+  "nome": "ELCATONIN",
+  "chembl": "CHEMBL2104402",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Elcatonin",
+   "Elcatonin",
+   "Elcatonina",
+   "Elcatonine"
+  ]
+ },
+ {
+  "nome": "THYMOCARTIN",
+  "chembl": "CHEMBL2104516",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "H-arg-lys-asp-val-oh",
+   "Thymocartin",
+   "Thymocartine",
+   "Timocartina"
+  ]
+ },
+ {
+  "nome": "AZETIRELIN",
+  "chembl": "CHEMBL2104559",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Azetirelin",
+   "Azetirelina",
+   "Azetireline"
+  ]
+ },
+ {
+  "nome": "POSATIRELIN",
+  "chembl": "CHEMBL2105243",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Posatirelin",
+   "Posatirelina",
+   "Posatireline"
+  ]
+ },
+ {
+  "nome": "THYMOTRINAN",
+  "chembl": "CHEMBL2105488",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Thymotrinan",
+   "Timotrinan"
+  ]
+ },
+ {
+  "nome": "TRILETIDE",
+  "chembl": "CHEMBL2105562",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Triletida",
+   "Triletide"
+  ]
+ },
+ {
+  "nome": "DAVALINTIDE",
+  "chembl": "CHEMBL2105635",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "AC-2307",
+   "Ac2307",
+   "AC2307",
+   "Davalintida",
+   "Davalintide",
+   "Davalintide"
+  ]
+ },
+ {
+  "nome": "DIRUCOTIDE",
+  "chembl": "CHEMBL2105639",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dirucotida",
+   "Dirucotide",
+   "Dirucotide",
+   "Dirucotide",
+   "Dirucotide",
+   "MBP-8298"
+  ]
+ },
+ {
+  "nome": "EFEPRISTIN",
+  "chembl": "CHEMBL2105803",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Efepristin",
+   "Efepristina",
+   "Efepristine",
+   "Ostreogrycin b2",
+   "Pristinamycin ib",
+   "Vernamycin b.beta."
+  ]
+ },
+ {
+  "nome": "ISEGANAN",
+  "chembl": "CHEMBL2105862",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "IB-367-03",
+   "Iseganan hydrochloride",
+   "Iseganan hydrochloride",
+   "Iseganan hydrochloride",
+   "Iseganan hydrochloride",
+   "Iseganan hydrochloride anhydrous"
+  ]
+ },
+ {
+  "nome": "LABRADIMIL",
+  "chembl": "CHEMBL2105864",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "RPGASPR",
+  "tam": 7,
+  "sinonimos": [
+   "Labradimil",
+   "Labradimil",
+   "Labradimil",
+   "Lobradimil",
+   "RMP-7"
+  ]
+ },
+ {
+  "nome": "AMBOMYCIN",
+  "chembl": "CHEMBL2105946",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ambomicina",
+   "Ambomycin",
+   "Ambomycin",
+   "Ambomycine"
+  ]
+ },
+ {
+  "nome": "THYMOCTONAN",
+  "chembl": "CHEMBL2106038",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Leu-glu-asp-gly-pro-lys-phe-leu",
+   "Thf-gamma 2",
+   "Thymic humoral factor-gamma 2",
+   "(-)-thymoctonan",
+   "Thymoctonan",
+   "Timoctonan"
+  ]
+ },
+ {
+  "nome": "CASOKEFAMIDE",
+  "chembl": "CHEMBL2106384",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YAFAY",
+  "tam": 5,
+  "sinonimos": [
+   "Casokefamida",
+   "Casokefamide"
+  ]
+ },
+ {
+  "nome": "EBIRATIDE",
+  "chembl": "CHEMBL2106396",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ebiratida",
+   "Ebiratide"
+  ]
+ },
+ {
+  "nome": "DESGLUGASTRIN",
+  "chembl": "CHEMBL2106407",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Desglugastrin",
+   "Desglugastrina",
+   "Desglugastrine",
+   "Diagastrin"
+  ]
+ },
+ {
+  "nome": "DETIRELIX",
+  "chembl": "CHEMBL2106408",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Detirelix",
+   "Detirelix acetate",
+   "Detirelix acetate",
+   "RS-68439"
+  ]
+ },
+ {
+  "nome": "NONATHYMULIN",
+  "chembl": "CHEMBL2106455",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nonathymulin",
+   "Nonathymuline",
+   "Nonatimulina",
+   "Serum thymic factor (porcine)",
+   "Thymulin"
+  ]
+ },
+ {
+  "nome": "TALTIRELIN",
+  "chembl": "CHEMBL2107016",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "TA-0910",
+   "Taltirelin",
+   "Taltirelina",
+   "Taltireline"
+  ]
+ },
+ {
+  "nome": "CORTICORELIN",
+  "chembl": "CHEMBL2107324",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Corticorelin acetate",
+   "Corticorelin acetate",
+   "Corticorelin acetate human",
+   "NEU 3002",
+   "NEU-3002 ACETATE",
+   "Xerecept"
+  ]
+ },
+ {
+  "nome": "RUSALATIDE",
+  "chembl": "CHEMBL2107369",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Chrysalin",
+   "Rusalatide acetate",
+   "Rusalatide acetate",
+   "Rusalatide acetate (3:2)",
+   "TP 508",
+   "TP-508 ACETATE"
+  ]
+ },
+ {
+  "nome": "TASIDOTIN",
+  "chembl": "CHEMBL2107376",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "ILX-651",
+   "ILX651",
+   "Tasidotin hydrochloride",
+   "Tasidotin hydrochloride"
+  ]
+ },
+ {
+  "nome": "GECLOSPORIN",
+  "chembl": "CHEMBL2107422",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cyclosporin a, 7-l-norvaline-",
+   "Cyclosporine g",
+   "Cyclosporin g",
+   "Cyclosporin g",
+   "Cyclosporin-g",
+   "Geclosporin"
+  ]
+ },
+ {
+  "nome": "EDRATIDE",
+  "chembl": "CHEMBL2107743",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GYYWSWIRQPPGKGEEWIG",
+  "tam": 19,
+  "sinonimos": [
+   "Edratida",
+   "Edratide",
+   "Edratide",
+   "Edratide",
+   "Edratide",
+   "TV-4710"
+  ]
+ },
+ {
+  "nome": "ICROCAPTIDE",
+  "chembl": "CHEMBL2107753",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Icrocaptida",
+   "Icrocaptide",
+   "ITF-1697",
+   "ITF1697"
+  ]
+ },
+ {
+  "nome": "NEMIFITIDE",
+  "chembl": "CHEMBL2107761",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nemifitida",
+   "Nemifitide"
+  ]
+ },
+ {
+  "nome": "DULANERMIN",
+  "chembl": "CHEMBL2107846",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "AMG-951",
+   "APO2L/TRAIL",
+   "B lymphocyte stimulator (human)",
+   "Dulanermin",
+   "Dulanermin",
+   "Dulanermin"
+  ]
+ },
+ {
+  "nome": "DENENICOKIN",
+  "chembl": "CHEMBL2107855",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BMS-982470",
+   "Denenicokin",
+   "Denenicokin",
+   "Denenicokin",
+   "Denenicokina",
+   "Denenicokine"
+  ]
+ },
+ {
+  "nome": "TASPOGLUTIDE",
+  "chembl": "CHEMBL2107860",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BIM-51077",
+   "BIM51077",
+   "R-1583",
+   "R1583",
+   "RO-5073031",
+   "RO5073031"
+  ]
+ },
+ {
+  "nome": "VONICOG",
+  "chembl": "CHEMBL2107873",
+  "fase": "4.0",
+  "aprov": 2018,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BAX 111",
+   "BAX-111",
+   "Veyvondi",
+   "Vonicog alfa",
+   "Vonicog alfa",
+   "Vonicog alfa"
+  ]
+ },
+ {
+  "nome": "SOMATOSALM",
+  "chembl": "CHEMBL2108003",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Somatosalm"
+  ]
+ },
+ {
+  "nome": "SOMENOPOR",
+  "chembl": "CHEMBL2108004",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Somenopor",
+   "Somenopor",
+   "Somenopor"
+  ]
+ },
+ {
+  "nome": "PEFORELIN",
+  "chembl": "CHEMBL2108043",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GPKWDHSWH",
+  "tam": 9,
+  "sinonimos": [
+   "Gnrh iii",
+   "Lamprey lh-rh iii",
+   "Maprelin xp10",
+   "Peforelin",
+   "Peforelina",
+   "Peforeline"
+  ]
+ },
+ {
+  "nome": "TRAFERMIN",
+  "chembl": "CHEMBL2108081",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CAB-2001",
+   "Fiblast",
+   "Recombinant human basic fibroblast growth factor (2-154)",
+   "RHBFGF",
+   "Trafermin",
+   "Trafermin"
+  ]
+ },
+ {
+  "nome": "SULGLICOTIDE",
+  "chembl": "CHEMBL2108085",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Demucine",
+   "Gliptide",
+   "Sulglicotida",
+   "Sulglicotide",
+   "Sulglicotide"
+  ]
+ },
+ {
+  "nome": "SOMAGREBOVE",
+  "chembl": "CHEMBL2108098",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CL 291,894",
+   "CL-291894",
+   "Somagrebove",
+   "Somagrebove",
+   "Somagrebovo"
+  ]
+ },
+ {
+  "nome": "SOMETRIBOVE",
+  "chembl": "CHEMBL2108099",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Boostin s",
+   "Lactotropin",
+   "Posilac",
+   "Sometribove",
+   "Sometribove",
+   "Sometribove"
+  ]
+ },
+ {
+  "nome": "PLUSONERMIN",
+  "chembl": "CHEMBL2108132",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Plusonermin",
+   "Plusonermina",
+   "Plusonermine"
+  ]
+ },
+ {
+  "nome": "ERSOFERMIN",
+  "chembl": "CHEMBL2108199",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ersofermin",
+   "Ersofermin",
+   "Ersofermina",
+   "Ersofermine"
+  ]
+ },
+ {
+  "nome": "ELPAMOTIDE",
+  "chembl": "CHEMBL2108295",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "RFVPDGNRI",
+  "tam": 9,
+  "sinonimos": [
+   "Elpamotida",
+   "Elpamotide",
+   "Elpamotide",
+   "VEGFR2-169",
+   "Vegfr2-169 peptide vaccine"
+  ]
+ },
+ {
+  "nome": "LENOMORELIN",
+  "chembl": "CHEMBL2108303",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GSSFLSPEHQRVQQRKESKKPPAKLQPR",
+  "tam": 28,
+  "sinonimos": [
+   "Lenomorelin",
+   "Lenomorelin",
+   "Lenomorelina",
+   "Lenomoreline"
+  ]
+ },
+ {
+  "nome": "TERTOMOTIDE",
+  "chembl": "CHEMBL2108308",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "EARPALLTSRLRFIPK",
+  "tam": 16,
+  "sinonimos": [
+   "GV-1001",
+   "Gv1001",
+   "GV1001",
+   "Htert (534-549)",
+   "Tertomotida",
+   "Tertomotide"
+  ]
+ },
+ {
+  "nome": "OZARELIX",
+  "chembl": "CHEMBL2108312",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "APRAKYSAFA",
+  "tam": 10,
+  "sinonimos": [
+   "D-63153",
+   "D63153",
+   "Ozarelix",
+   "Ozarelix"
+  ]
+ },
+ {
+  "nome": "NEPIDERMIN",
+  "chembl": "CHEMBL2108314",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "NSDSECPLSHDGYCLHDGVCMYIEALDKYACNCVVGYIGERCQYRDLKWWELR",
+  "tam": 53,
+  "sinonimos": [
+   "Epidermal growth factor",
+   "Nepidermin",
+   "Nepidermin",
+   "Nepidermina",
+   "Nepidermine"
+  ]
+ },
+ {
+  "nome": "ELSIGLUTIDE",
+  "chembl": "CHEMBL2108318",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "HGEGSFSSELSTILDALAARDFIAWLIATKITDKKKKKK",
+  "tam": 39,
+  "sinonimos": [
+   "Elsiglutida",
+   "Elsiglutide",
+   "Elsiglutide",
+   "ZP-1846",
+   "Zp1846",
+   "ZP1846"
+  ]
+ },
+ {
+  "nome": "LANCOVUTIDE",
+  "chembl": "CHEMBL2108327",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Duramycin",
+   "Lancovutida",
+   "Lancovutide",
+   "Lancovutide",
+   "Leucopeptin",
+   "MOLI-1901"
+  ]
+ },
+ {
+  "nome": "OBINEPITIDE",
+  "chembl": "CHEMBL2108338",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "APLEPVYPGDNATPEQMAQYAADLRRYINMLTRQRY",
+  "tam": 36,
+  "sinonimos": [
+   "Obinepitida",
+   "Obinepitide",
+   "TM-30338",
+   "TM30338"
+  ]
+ },
+ {
+  "nome": "TRIDECACTIDE",
+  "chembl": "CHEMBL2108340",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "SYSMEHFRWGKPV",
+  "tam": 13,
+  "sinonimos": [
+   ".alpha.1-13-acth",
+   ".alpha.-1-13-corticotropin, human",
+   "Alpha-1-13-corticotropin, human",
+   "Tridecactida",
+   "Tridecactide",
+   "Tridecactide"
+  ]
+ },
+ {
+  "nome": "DISITERTIDE",
+  "chembl": "CHEMBL2108346",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "TSLDASIIWAMMQN",
+  "tam": 14,
+  "sinonimos": [
+   "Disitertida",
+   "Disitertide",
+   "P-144",
+   "P144",
+   "Peptide 144 tgf beta-1-inhibitor"
+  ]
+ },
+ {
+  "nome": "DUMORELIN",
+  "chembl": "CHEMBL2108374",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dumorelin",
+   "Dumorelina",
+   "Dumoreline"
+  ]
+ },
+ {
+  "nome": "LECONOTIDE",
+  "chembl": "CHEMBL2108419",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "CRGVTGSCSGSCCDYMLKSCKAGKSKC",
+  "tam": 27,
+  "sinonimos": [
+   "Leconotida",
+   "Leconotide",
+   "Omega-conopeptide mviia"
+  ]
+ },
+ {
+  "nome": "MOBENAKIN",
+  "chembl": "CHEMBL2108425",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Mobenakin",
+   "Mobenakina",
+   "Mobenakine",
+   "Oct-43",
+   "Serine(71)-interleukin-1 beta",
+   "Serine(71)-interleukin-1 .beta."
+  ]
+ },
+ {
+  "nome": "DELMITIDE",
+  "chembl": "CHEMBL2108587",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Delmitida",
+   "Delmitide"
+  ]
+ },
+ {
+  "nome": "TIFUVIRTIDE",
+  "chembl": "CHEMBL2108654",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "FWEWLSAWKDLKQLEYENKEQQIQAQELLATIKQEWEQW",
+  "tam": 39,
+  "sinonimos": [
+   "T-1249",
+   "T1249",
+   "Tifuvirtida",
+   "Tifuvirtide"
+  ]
+ },
+ {
+  "nome": "SOMAVUBOVE",
+  "chembl": "CHEMBL2108689",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Somatotropin (ox), 127-l-leucine-",
+   "Somavubove",
+   "Somavubove",
+   "Somavubovo"
+  ]
+ },
+ {
+  "nome": "SOMETRIPOR",
+  "chembl": "CHEMBL2108690",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Equigen",
+   "Methionyl porcine somatotropin",
+   "Reporcin",
+   "Sometripor",
+   "Sometripor",
+   "Sometripor"
+  ]
+ },
+ {
+  "nome": "SOMIDOBOVE",
+  "chembl": "CHEMBL2108691",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "EL-349",
+   "EL349",
+   "L-177837",
+   "LY-177837",
+   "LY177837",
+   "Somidobove"
+  ]
+ },
+ {
+  "nome": "CENDERITIDE",
+  "chembl": "CHEMBL2108721",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CD-NP",
+   "Cenderitida",
+   "Cenderitide",
+   "Cenderitide",
+   "Cenderitide"
+  ]
+ },
+ {
+  "nome": "SOMALAPOR",
+  "chembl": "CHEMBL2108861",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Somalapor",
+   "Somalapor",
+   "Somalapor"
+  ]
+ },
+ {
+  "nome": "SOMATORELIN",
+  "chembl": "CHEMBL2108862",
+  "fase": "4.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Esfarase",
+   "Ghrh(1-44) amide",
+   "Ghrh(1-44)nh2",
+   "Ghrh ferring",
+   "Grf 1-44",
+   "Somatocrinin"
+  ]
+ },
+ {
+  "nome": "SONERMIN",
+  "chembl": "CHEMBL2108863",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Sonermin",
+   "Sonermina",
+   "Sonermine"
+  ]
+ },
+ {
+  "nome": "TIPLIMOTIDE",
+  "chembl": "CHEMBL2108869",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "PTRPTVINAFLHVVPKA",
+  "tam": 17,
+  "sinonimos": [
+   "Nbi-5788",
+   "Tiplimotida",
+   "Tiplimotide",
+   "Tiplimotide"
+  ]
+ },
+ {
+  "nome": "ANARITIDE",
+  "chembl": "CHEMBL2108934",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Anaritida",
+   "Anaritide",
+   "Anaritide",
+   "Anaritide acetate",
+   "Anaritide acetate",
+   "WY-47,663"
+  ]
+ },
+ {
+  "nome": "ARGIPRESSIN",
+  "chembl": "CHEMBL2108986",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Argipresina",
+   "Argipressin",
+   "Argipressin",
+   "Argipressin",
+   "Argipressine",
+   "Argipressin tannate"
+  ]
+ },
+ {
+  "nome": "ATEXAKIN",
+  "chembl": "CHEMBL2108992",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Atexakina alfa",
+   "Atexakin alfa",
+   "Atexakin alfa",
+   "Atexakine alfa",
+   "Recombinant interleukin 6",
+   "Son-080"
+  ]
+ },
+ {
+  "nome": "AMLINTIDE",
+  "chembl": "CHEMBL2109025",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YTNSGVNTSSLIAGFNNSSHVLFNALRQTACTATNCK",
+  "tam": 37,
+  "sinonimos": [
+   "AC-001",
+   "AC001",
+   "Amlintida",
+   "Amlintide",
+   "Amlintide",
+   "Amylin"
+  ]
+ },
+ {
+  "nome": "BETIATIDE",
+  "chembl": "CHEMBL2109104",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Betiatida",
+   "Betiatide",
+   "Betiatide",
+   "Betiatide",
+   "MP-600",
+   "S-benzoylmercaptoacetyltriglycine"
+  ]
+ },
+ {
+  "nome": "DOREPTIDE",
+  "chembl": "CHEMBL2109123",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Doreptida",
+   "Doreptide"
+  ]
+ },
+ {
+  "nome": "MOROCTOCOG",
+  "chembl": "CHEMBL2109137",
+  "fase": "4.0",
+  "aprov": 1999,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Moroctocog alfa",
+   "Moroctocog alfa",
+   "Moroctocog alfa",
+   "Moroctocog alfa",
+   "Moroctocog alfa",
+   "Refacto"
+  ]
+ },
+ {
+  "nome": "GONADOTROPIN, SERUM",
+  "chembl": "CHEMBL2109149",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Gonadotrofina serica",
+   "Gonadotrophine serique",
+   "Gonadotrophin, serum",
+   "Gonadotrophin, serum",
+   "Gonadotrophin, serum",
+   "Gonadotrophin, serum"
+  ]
+ },
+ {
+  "nome": "MURODERMIN",
+  "chembl": "CHEMBL2109202",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Murine epidermal growth factor",
+   "Murodermin",
+   "Murodermina",
+   "Murodermine"
+  ]
+ },
+ {
+  "nome": "PAREPTIDE",
+  "chembl": "CHEMBL2111011",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Pareptida",
+   "Pareptide"
+  ]
+ },
+ {
+  "nome": "ENVIOMYCIN",
+  "chembl": "CHEMBL2146142",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Enviomicina",
+   "Enviomycin",
+   "Enviomycin",
+   "Enviomycine",
+   "Tuberactinomycin n",
+   "Tuberactinomycin n"
+  ]
+ },
+ {
+  "nome": "PROCALCITONIN",
+  "chembl": "CHEMBL2207138",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Calcitonin, pro",
+   "Procalcitonin",
+   "Procalcitonin human"
+  ]
+ },
+ {
+  "nome": "LAGATIDE",
+  "chembl": "CHEMBL2218863",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "AQPKTVP",
+  "tam": 7,
+  "sinonimos": [
+   "BN-52080",
+   "BN52080",
+   "Lagatida",
+   "Lagatide"
+  ]
+ },
+ {
+  "nome": "CARGUTOCIN",
+  "chembl": "CHEMBL2218869",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cargutocin",
+   "Cargutocina",
+   "Cargutocine",
+   "Statocin",
+   "Y-5350"
+  ]
+ },
+ {
+  "nome": "BARUSIBAN",
+  "chembl": "CHEMBL2218898",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Barusiban",
+   "Barusiban",
+   "Fe-200440"
+  ]
+ },
+ {
+  "nome": "NACARTOCIN",
+  "chembl": "CHEMBL2218901",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nacartocin",
+   "Nacartocina",
+   "Nacartocine"
+  ]
+ },
+ {
+  "nome": "LUSUPULTIDE",
+  "chembl": "CHEMBL2218909",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GIPFFPVHLKRLLIVVVVVVLIVVVIVGALLIGL",
+  "tam": 34,
+  "sinonimos": [
+   "B-9420-001",
+   "B9420-001",
+   "Lusupultida",
+   "Lusupultide",
+   "Lusupultide",
+   "Rsp-c surfactant"
+  ]
+ },
+ {
+  "nome": "CAPREOMYCIN",
+  "chembl": "CHEMBL2218913",
+  "fase": "4.0",
+  "aprov": 1971,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "34977",
+   "Capastat sulfate",
+   "Capastat sulphate",
+   "Capreomycin disulfate",
+   "Capreomycini sulfas",
+   "Capreomycin sulfate"
+  ]
+ },
+ {
+  "nome": "ARFALASIN",
+  "chembl": "CHEMBL2218920",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Arfalasin",
+   "Arfalasina",
+   "Arfalasine"
+  ]
+ },
+ {
+  "nome": "METKEPHAMID",
+  "chembl": "CHEMBL2220405",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Metkefamida",
+   "Metkefamide"
+  ]
+ },
+ {
+  "nome": "PENTIGETIDE",
+  "chembl": "CHEMBL2304033",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Asp-ser-asp-pro-arg",
+   "HEP-P",
+   "HEPP",
+   "Human ige pentapeptide",
+   "IGE PENTAPEPTIDE",
+   "PENTAPEPTIDE DSDPR"
+  ]
+ },
+ {
+  "nome": "MONTIRELIN",
+  "chembl": "CHEMBL2304039",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CG-3703",
+   "CNK-602A",
+   "Montirelin",
+   "Montirelina",
+   "Montireline",
+   "NS-3"
+  ]
+ },
+ {
+  "nome": "ATILMOTIN",
+  "chembl": "CHEMBL2369989",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "VPIFTYGELQRLK",
+  "tam": 13,
+  "sinonimos": [
+   "Atilmotin",
+   "Atilmotin",
+   "Atilmotina",
+   "Atilmotine",
+   "BAX-ACC-1638",
+   "MOT-288"
+  ]
+ },
+ {
+  "nome": "TIGAPOTIDE TRIFLUTATE",
+  "chembl": "CHEMBL2369994",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "PCK3145",
+   "Tigapotide triflutate",
+   "Tigapotide triflutate"
+  ]
+ },
+ {
+  "nome": "GIRACTIDE",
+  "chembl": "CHEMBL2370090",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Giractida",
+   "Giractide"
+  ]
+ },
+ {
+  "nome": "ARGIPRESTOCIN",
+  "chembl": "CHEMBL2370156",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "8-arginineoxytocin",
+   "Arginine vasotocin",
+   "Argiprestocin",
+   "Argiprestocina",
+   "Argiprestocine"
+  ]
+ },
+ {
+  "nome": "LUTRELIN",
+  "chembl": "CHEMBL2370578",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Lutrelin",
+   "Lutrelina",
+   "Lutreline"
+  ]
+ },
+ {
+  "nome": "SUROTOMYCIN",
+  "chembl": "CHEMBL2375161",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cb-183, 315",
+   "CB-183,315",
+   "CB-183315",
+   "Surotomicina",
+   "Surotomycin",
+   "Surotomycin"
+  ]
+ },
+ {
+  "nome": "TECEMOTIDE",
+  "chembl": "CHEMBL3039544",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "STAPPAHGVTSAPDTRPAPGSTAPPKG",
+  "tam": 27,
+  "sinonimos": [
+   "Blp 25",
+   "BLP-25",
+   "BLP25",
+   "Blp-25 lipopeptide",
+   "Blp25 lipopeptide",
+   "BP-1-148"
+  ]
+ },
+ {
+  "nome": "TIGAPOTIDE",
+  "chembl": "CHEMBL3040192",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "EWQTDNCETCTCYET",
+  "tam": 15,
+  "sinonimos": [
+   "PCK-3145",
+   "Tigapotida",
+   "Tigapotide",
+   "Tigapotide"
+  ]
+ },
+ {
+  "nome": "VIOMYCIN",
+  "chembl": "CHEMBL3085436",
+  "fase": "4.0",
+  "aprov": 1982,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Celiomycin",
+   "Florimycin",
+   "Tuberactinomycin b",
+   "Tuberactinomycin b",
+   "Vinacetin a",
+   "Vioactane"
+  ]
+ },
+ {
+  "nome": "BENPENOLISIN",
+  "chembl": "CHEMBL3085476",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Benpenolisin",
+   "Benpenolisina",
+   "Benpenolisine"
+  ]
+ },
+ {
+  "nome": "FELYPRESSIN",
+  "chembl": "CHEMBL3185126",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Felipresina",
+   "Felypressin",
+   "Felypressin",
+   "Felypressin",
+   "Felypressine",
+   "PLV-2"
+  ]
+ },
+ {
+  "nome": "SOVATELITIDE",
+  "chembl": "CHEMBL3188091",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Irl-1620",
+   "IRL-1620",
+   "PMZ-1620",
+   "Sovatelitide",
+   "Sovatelitide",
+   "Sovateltide"
+  ]
+ },
+ {
+  "nome": "FERTIRELIN",
+  "chembl": "CHEMBL3272563",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Fertirelin",
+   "Fertirelin",
+   "Fertirelina",
+   "Fertireline",
+   "TAP 031",
+   "TAP-031"
+  ]
+ },
+ {
+  "nome": "DALBAVANCIN",
+  "chembl": "CHEMBL3301650",
+  "fase": "4.0",
+  "aprov": 2014,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dalbavancin hydrochloride",
+   "Dalbavancin hydrochloride",
+   "Dalbavancin hydrochloride",
+   "Dalbavancin hydrochloride (1:1.6)",
+   "Dalbavancin hydrochloride (5:8)",
+   "Dalvance"
+  ]
+ },
+ {
+  "nome": "VAPREOTIDE",
+  "chembl": "CHEMBL3349523",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BMY-41606",
+   "RC-160",
+   "Vapreotida",
+   "Vapreotide",
+   "Vapreotide",
+   "Vapreotide"
+  ]
+ },
+ {
+  "nome": "RAPASTINEL",
+  "chembl": "CHEMBL3544917",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "GLYX-13",
+   "Rapastinel",
+   "Rapastinel",
+   "Rapastinel",
+   "Rapastinelum",
+   "Tppt-amide"
+  ]
+ },
+ {
+  "nome": "CTCE-9908",
+  "chembl": "CHEMBL3544949",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CTCE 9908",
+   "Ctce-9908",
+   "PTX-9908 FREE BASE"
+  ]
+ },
+ {
+  "nome": "ZOPTARELIN DOXORUBICIN",
+  "chembl": "CHEMBL3544954",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Aezs-108",
+   "AN-152",
+   "Zoptarelina doxorubicina",
+   "Zoptarelin doxorubicin",
+   "Zoptarelin doxorubicin",
+   "Zoptarelin doxorubicin"
+  ]
+ },
+ {
+  "nome": "TAVILERMIDE",
+  "chembl": "CHEMBL3544981",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "D-3",
+   "MIM-D3",
+   "Tavilermida",
+   "Tavilermide",
+   "Tavilermide",
+   "Tavilermide"
+  ]
+ },
+ {
+  "nome": "FEXAPOTIDE",
+  "chembl": "CHEMBL3545061",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Fexapotida",
+   "Fexapotide",
+   "Fexapotide",
+   "Fexapotide",
+   "Fexapotide",
+   "NX-1207"
+  ]
+ },
+ {
+  "nome": "MODIMELANOTIDE",
+  "chembl": "CHEMBL3545104",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "ABT-719",
+   "Ap-214",
+   "Ap214",
+   "Modimelanotida",
+   "Modimelanotide",
+   "Modimelanotide"
+  ]
+ },
+ {
+  "nome": "DOLCANATIDE",
+  "chembl": "CHEMBL3545122",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dolcanatida",
+   "Dolcanatide",
+   "Dolcanatide",
+   "Dolcanatide",
+   "SP-333"
+  ]
+ },
+ {
+  "nome": "ETELCALCETIDE",
+  "chembl": "CHEMBL3545183",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "AMG 416",
+   "Etelcalcetide hydrochloride",
+   "Etelcalcetide hydrochloride",
+   "Etelcalcetide hydrochloride",
+   "Etelcalcetide hydrochloride",
+   "Etelcalcetide hydrochloride"
+  ]
+ },
+ {
+  "nome": "DUSQUETIDE",
+  "chembl": "CHEMBL3545314",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Arg-ile-val-pro-ala-nh2",
+   "Dusquetida",
+   "Dusquetide",
+   "Dusquetide",
+   "Dusquetide",
+   "IMX-942"
+  ]
+ },
+ {
+  "nome": "RECANACLOTIDE",
+  "chembl": "CHEMBL3707244",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "IW-9179",
+   "Recanaclotida",
+   "Recanaclotide",
+   "Recanaclotide",
+   "Recanaclotide"
+  ]
+ },
+ {
+  "nome": "RUCLOSPORIN",
+  "chembl": "CHEMBL3707272",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ruclosporin",
+   "Ruclosporin",
+   "Ruclosporina",
+   "Ruclosporine",
+   "SCY-641"
+  ]
+ },
+ {
+  "nome": "FEXAPOTIDE TRIFLUTATE",
+  "chembl": "CHEMBL3707309",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Fexapotide triflutate",
+   "Fexapotide triflutate",
+   "NX-1207",
+   "NX-1207 TRIFLUOROACETATE"
+  ]
+ },
+ {
+  "nome": "MMI-0100",
+  "chembl": "CHEMBL3809901",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "MMI 0100",
+   "Mmi-0100"
+  ]
+ },
+ {
+  "nome": "ADH-1",
+  "chembl": "CHEMBL3818130",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Adh 1",
+   "Adh-1",
+   "Cys-his-ala-val-cys",
+   "Exherin",
+   "NSC-729477"
+  ]
+ },
+ {
+  "nome": "MUREPAVADIN",
+  "chembl": "CHEMBL3946483",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Murepavadin",
+   "Murepavadin",
+   "Murepavadin",
+   "Murepavadina",
+   "Murepavadine",
+   "POL-7080"
+  ]
+ },
+ {
+  "nome": "PL-8177",
+  "chembl": "CHEMBL3977876",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Pl-8177",
+   "Pl8177"
+  ]
+ },
+ {
+  "nome": "FORIGERIMOD",
+  "chembl": "CHEMBL3989409",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Forigerimod",
+   "Forigerimod",
+   "Forigerimod",
+   "IPP 201101",
+   "IPP-201101",
+   "IPP201101"
+  ]
+ },
+ {
+  "nome": "ALSACTIDE",
+  "chembl": "CHEMBL3989434",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alsactida",
+   "Alsactide",
+   "Alsactide",
+   "HOE-433",
+   "Synchrodyn"
+  ]
+ },
+ {
+  "nome": "ITURELIX",
+  "chembl": "CHEMBL3989438",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "APKLKKSAFA",
+  "tam": 10,
+  "sinonimos": [
+   "Antide",
+   "Iturelix",
+   "Iturelix",
+   "Nal-lys anatagonist",
+   "ORF-32541"
+  ]
+ },
+ {
+  "nome": "FRAKEFAMIDE",
+  "chembl": "CHEMBL3989481",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bch-3963",
+   "Frakefamida",
+   "Frakefamide",
+   "LEF-576",
+   "SPD-759",
+   "SPD759"
+  ]
+ },
+ {
+  "nome": "FLUCICLATIDE F 18",
+  "chembl": "CHEMBL3989518",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "KCRGDCF",
+  "tam": 7,
+  "sinonimos": [
+   "(18F)AH-111585",
+   "(18F)AH111585",
+   "[18F]AH111585",
+   "AH-111585 (18F)",
+   "AH-111585 F-18",
+   "Fluciclatida (18f)"
+  ]
+ },
+ {
+  "nome": "BASIFUNGIN",
+  "chembl": "CHEMBL3989753",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Aureobasidin a",
+   "Basifungin",
+   "Basifungin",
+   "Basifungina",
+   "Basifungine",
+   "LY-295337"
+  ]
+ },
+ {
+  "nome": "MARACICLATIDE",
+  "chembl": "CHEMBL3989765",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "KCRGDCF",
+  "tam": 7,
+  "sinonimos": [
+   "Maraciclatida",
+   "Maraciclatide",
+   "Maraciclatide",
+   "Maraciclatide",
+   "NC 100692",
+   "NC-100692"
+  ]
+ },
+ {
+  "nome": "COLIMECYCLINE",
+  "chembl": "CHEMBL3989802",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Colimeciclina",
+   "Colimecycline"
+  ]
+ },
+ {
+  "nome": "RAMORELIX",
+  "chembl": "CHEMBL3989808",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ramorelix"
+  ]
+ },
+ {
+  "nome": "APIMOSTINEL",
+  "chembl": "CHEMBL3989872",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Apimostinel",
+   "Apimostinel",
+   "Apimostinel",
+   "Nrx-1074",
+   "NRX-1074",
+   "NRX1074"
+  ]
+ },
+ {
+  "nome": "VELDOREOTIDE",
+  "chembl": "CHEMBL3989911",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "COR-005",
+   "DG-3173",
+   "Dg3173",
+   "DG3173",
+   "PTR 3173",
+   "PTR-3173"
+  ]
+ },
+ {
+  "nome": "RELTECIMOD",
+  "chembl": "CHEMBL3989950",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "AB103",
+   "Reltecimod",
+   "Reltecimod",
+   "Reltecimod"
+  ]
+ },
+ {
+  "nome": "PEGILODECAKIN",
+  "chembl": "CHEMBL3989992",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "COCCOCCCN[C@@H](CCSC)C(O)=O |r,Sg:n:2,3,4::ht|",
+  "tam": 46,
+  "sinonimos": [
+   "AM-0010",
+   "AM0010",
+   "LY-3500518",
+   "LY3500518",
+   "Pegilodecakin",
+   "Pegilodecakin"
+  ]
+ },
+ {
+  "nome": "FLUCICLATIDE",
+  "chembl": "CHEMBL3990277",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "AH-111585",
+   "Fluciclatide"
+  ]
+ },
+ {
+  "nome": "PX-478",
+  "chembl": "CHEMBL4061538",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Px 478",
+   "Px-478"
+  ]
+ },
+ {
+  "nome": "SOR-C13",
+  "chembl": "CHEMBL4228250",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Sor-c13"
+  ]
+ },
+ {
+  "nome": "OCILTIDE",
+  "chembl": "CHEMBL4297081",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ociltida",
+   "Ociltide"
+  ]
+ },
+ {
+  "nome": "ALBUVIRTIDE",
+  "chembl": "CHEMBL4297257",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Albuvirtide",
+   "FB-006M",
+   "Labuvirtide",
+   "Labuvirtide"
+  ]
+ },
+ {
+  "nome": "AMY-101",
+  "chembl": "CHEMBL4297260",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Amy 101",
+   "Amy-101",
+   "Compstatin 40",
+   "Compstatin analog peptide cp40"
+  ]
+ },
+ {
+  "nome": "FOXY-5",
+  "chembl": "CHEMBL4297281",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Foxy 5",
+   "Foxy-5",
+   "Foxy5",
+   "N-formyl-met-asp-gly-cys-glu-leu",
+   "Wnt-5a derived hexapeptide foxy-5"
+  ]
+ },
+ {
+  "nome": "BEZISTERIM",
+  "chembl": "CHEMBL4297284",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bezisterim",
+   "Bezisterim",
+   "Bezisterim",
+   "Bezisterim",
+   "Bezisterim",
+   "HE 3286"
+  ]
+ },
+ {
+  "nome": "NBI-6024",
+  "chembl": "CHEMBL4297306",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nbi-6024"
+  ]
+ },
+ {
+  "nome": "NEROFE",
+  "chembl": "CHEMBL4297308",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nerofe",
+   "Tcapf",
+   "Tumor-cells apoptosis factor"
+  ]
+ },
+ {
+  "nome": "PL-3994",
+  "chembl": "CHEMBL4297320",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Pl-3994"
+  ]
+ },
+ {
+  "nome": "PZ-128",
+  "chembl": "CHEMBL4297323",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Palmitate-kksralf-nh2",
+   "Pz-128"
+  ]
+ },
+ {
+  "nome": "BRIMAPITIDE, C-TERMINAL ACID",
+  "chembl": "CHEMBL4297348",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Am-111",
+   "AM-111",
+   "Brimapitide, c-terminal acid",
+   "D-jnki-1",
+   "Xg-102 c-terminal acid"
+  ]
+ },
+ {
+  "nome": "CBP-501",
+  "chembl": "CHEMBL4297362",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cbp 501",
+   "Cbp-501",
+   "Cbp501",
+   "CBP501"
+  ]
+ },
+ {
+  "nome": "SER-100",
+  "chembl": "CHEMBL4297428",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ac-ryyrwkkkkkkk-nh2",
+   "Ser-100",
+   "Ser100",
+   "SER100",
+   "ZP 120",
+   "Zp-120"
+  ]
+ },
+ {
+  "nome": "TRV-120027",
+  "chembl": "CHEMBL4297447",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Sar-val-tyr-ile-his-pro-d-ala-oh",
+   "TRV 027",
+   "TRV-027",
+   "Trv027",
+   "TRV027",
+   "Trv-120027"
+  ]
+ },
+ {
+  "nome": "ATN-161",
+  "chembl": "CHEMBL4297456",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ac-phscn-nh2",
+   "ATN 161",
+   "Atn-161",
+   "ATN-161"
+  ]
+ },
+ {
+  "nome": "GO-203-2C",
+  "chembl": "CHEMBL4297466",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Go-203-2c",
+   "GO-203-2C"
+  ]
+ },
+ {
+  "nome": "ZETOMIPZOMIB",
+  "chembl": "CHEMBL4297468",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Kzr-616",
+   "KZR-616",
+   "Zetomipzomib",
+   "Zetomipzomib",
+   "Zetomipzomib"
+  ]
+ },
+ {
+  "nome": "RISUTEGANIB",
+  "chembl": "CHEMBL4297529",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alg-1001",
+   "ALG-1001",
+   "ALG1001",
+   "ALG-1001 HEXAPEPTIDE",
+   "GLY-ARG-GLY-CYA-THR-PRO",
+   "Luminate"
+  ]
+ },
+ {
+  "nome": "SATOREOTIDE TETRAXETAN",
+  "chembl": "CHEMBL4297531",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "DOTA-JR-11",
+   "Dota satoreotide",
+   "Satoreotida tetraxetan",
+   "Satoreotide dota",
+   "Satoreotide tetraxetan",
+   "Satoreotide tetraxetan"
+  ]
+ },
+ {
+  "nome": "SATOREOTIDE TRIZOXETAN",
+  "chembl": "CHEMBL4297532",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "JR-11-NODAGA",
+   "NODAGA-JR11",
+   "OPS-202",
+   "Ops202",
+   "Satoreotida trizoxetan",
+   "Satoreotide trizoxetan"
+  ]
+ },
+ {
+  "nome": "EFGARTIGIMOD",
+  "chembl": "CHEMBL4297551",
+  "fase": "4.0",
+  "aprov": 2021,
+  "seq": "6-6' $ 9-9' $ 41-101 $ 41'-101' $ 147-205 $ 147'-205'",
+  "tam": 53,
+  "sinonimos": [
+   "Argx-113",
+   "ARGX-113",
+   "Efgartigimod",
+   "Efgartigimod alfa",
+   "Efgartigimod alfa",
+   "Efgartigimod alfa"
+  ]
+ },
+ {
+  "nome": "VALANAFUSP",
+  "chembl": "CHEMBL4297553",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Agt-181",
+   "AGT-181",
+   "Valanafusp alfa",
+   "Valanafusp alfa"
+  ]
+ },
+ {
+  "nome": "TAGRAXOFUSP",
+  "chembl": "CHEMBL4297573",
+  "fase": "4.0",
+  "aprov": 2018,
+  "seq": "187-202 $ 407-475",
+  "tam": 17,
+  "sinonimos": [
+   "DT-3881L3",
+   "DT388IL3",
+   "Elzonris",
+   "Molecule 129",
+   "MOLECULE-129",
+   "Sl-401"
+  ]
+ },
+ {
+  "nome": "TRORILUZOLE",
+  "chembl": "CHEMBL4297586",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BHV-4157a",
+   "Trigriluzole",
+   "Troriluzole",
+   "Troriluzole",
+   "Troriluzole",
+   "Troriluzole"
+  ]
+ },
+ {
+  "nome": "MIBENRATIDE",
+  "chembl": "CHEMBL4297617",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Jnj-54452840",
+   "JNJ-54452840",
+   "Mibenratida",
+   "Mibenratide",
+   "Mibenratide"
+  ]
+ },
+ {
+  "nome": "RUXOTEMITIDE",
+  "chembl": "CHEMBL4297628",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Kkwwkkw-.beta.-phenyl-fk-nh2",
+   "Kkwwkkwdipk-nh2",
+   "Ltx 315",
+   "Ltx-315",
+   "Oncopore",
+   "Ruxotemitida"
+  ]
+ },
+ {
+  "nome": "BRIMAPITIDE",
+  "chembl": "CHEMBL4297650",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Brimapitida",
+   "Brimapitide",
+   "Brimapitide",
+   "Xg-102"
+  ]
+ },
+ {
+  "nome": "NOGAPENDEKIN",
+  "chembl": "CHEMBL4297690",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "Asn-79",
+  "tam": 6,
+  "sinonimos": [
+   "Alt-803",
+   "ALT-803",
+   "IL-15N72D",
+   "N-803",
+   "N-803",
+   "Nogapendekina alfa"
+  ]
+ },
+ {
+  "nome": "ANFIBATIDE",
+  "chembl": "CHEMBL4297694",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Agkisacucetin",
+   "Anfibatide"
+  ]
+ },
+ {
+  "nome": "BULEVIRTIDE",
+  "chembl": "CHEMBL4297711",
+  "fase": "4.0",
+  "aprov": null,
+  "seq": "X1(SMILES): CCCCCCCCCCCCCC(=O)NC(O)=O",
+  "tam": 37,
+  "sinonimos": [
+   "915207G",
+   "Bulevirtida",
+   "Bulevirtide",
+   "Bulevirtide",
+   "Bulevirtide",
+   "Bulevirtide"
+  ]
+ },
+ {
+  "nome": "DALAZATIDE",
+  "chembl": "CHEMBL4297738",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dalazatida",
+   "Dalazatide",
+   "Dalazatide",
+   "SHK-186",
+   "SHK186"
+  ]
+ },
+ {
+  "nome": "ONVITRELIN UCALONTIDE",
+  "chembl": "CHEMBL4297748",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "KFAKFAKKFAKFAKKFAKQHWSYGLRPG",
+  "tam": 28,
+  "sinonimos": [
+   "Ep 100",
+   "Ep-100",
+   "EP-100",
+   "EP100",
+   "EP-100 (PEPTIDE)",
+   "Onvitrelina ucalontida"
+  ]
+ },
+ {
+  "nome": "GI HEPTAPEPTIDE",
+  "chembl": "CHEMBL4297759",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Gi heptapeptide"
+  ]
+ },
+ {
+  "nome": "NANGIBOTIDE",
+  "chembl": "CHEMBL4297793",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "LR-12",
+   "LR12",
+   "Motrem",
+   "Nangibotida",
+   "Nangibotide",
+   "Nangibotide"
+  ]
+ },
+ {
+  "nome": "SOMATROGON",
+  "chembl": "CHEMBL4297830",
+  "fase": "4.0",
+  "aprov": 2022,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ctp-somatropin fusion protein",
+   "Mod-4023",
+   "MOD-4023",
+   "MOD4023",
+   "Ngenla",
+   "PF-06836922"
+  ]
+ },
+ {
+  "nome": "CENEGERMIN",
+  "chembl": "CHEMBL4297852",
+  "fase": "4.0",
+  "aprov": 2017,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cenegermin",
+   "Cenegermin",
+   "Cenegermin",
+   "Cenegermin",
+   "Cenegermin bkbj",
+   "Cenegermin-bkbj"
+  ]
+ },
+ {
+  "nome": "EFMITERMANT",
+  "chembl": "CHEMBL4297867",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Asn-95 $ Asn-95' $ Asn-259 $ Asn-259' $ Asn-368 $ Asn-368'",
+  "tam": 58,
+  "sinonimos": [
+   "Ace-083",
+   "ACE-083",
+   "Efmitermant alfa",
+   "Efmitermant alfa",
+   "Efmitermant alfa"
+  ]
+ },
+ {
+  "nome": "OCTOCOG",
+  "chembl": "CHEMBL4297873",
+  "fase": "4.0",
+  "aprov": 2000,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Advate",
+   "Advate",
+   "Antihemophilic factor, human recombinant",
+   "BAY 14-2222",
+   "BAY-14-2222",
+   "BAY 81-8973"
+  ]
+ },
+ {
+  "nome": "SOLNATIDE",
+  "chembl": "CHEMBL4297885",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ap-301",
+   "AP-301",
+   "Ap301",
+   "AP301",
+   "Solnatida",
+   "Solnatide"
+  ]
+ },
+ {
+  "nome": "PEPTIDE B27PD",
+  "chembl": "CHEMBL4297903",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alnedlsswtaadt",
+   "Amino acids 125-138 of hla-b",
+   "B-27PD",
+   "B27pd",
+   "B27PD",
+   "Optiquel"
+  ]
+ },
+ {
+  "nome": "TALDEFGROBEP",
+  "chembl": "CHEMBL4297914",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "6-6' $ 9-9' $ 41-101 $ 41'-101' $ 147-205 $ 147'-205'",
+  "tam": 53,
+  "sinonimos": [
+   "Bms-986089",
+   "BMS-986089",
+   "RO-7239361",
+   "Ro7239361",
+   "RO7239361",
+   "Taldefgrobep alfa"
+  ]
+ },
+ {
+  "nome": "ACLERASTIDE",
+  "chembl": "CHEMBL4297940",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Aclerastida",
+   "Aclerastide",
+   "Aclerastide",
+   "Asp-arg-nle-tyr-ile-his-pro",
+   "Dsc-127",
+   "Dsc127"
+  ]
+ },
+ {
+  "nome": "EFMOROCTOCOG",
+  "chembl": "CHEMBL4297945",
+  "fase": "4.0",
+  "aprov": 2015,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Efmoroctocog alfa",
+   "Efmoroctocog alfa",
+   "Efmoroctocog alfa",
+   "Efraloctocog alfa",
+   "Elocta",
+   "Elocta"
+  ]
+ },
+ {
+  "nome": "AVEXITIDE",
+  "chembl": "CHEMBL4297949",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "DLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS1",
+  "tam": 32,
+  "sinonimos": [
+   "Avexitida",
+   "Avexitide",
+   "Avexitide",
+   "Avexitide",
+   "Exendin-3 (9-39) amide",
+   "Exendin 9-39"
+  ]
+ },
+ {
+  "nome": "GLUCAGON-LIKE PEPTIDE II",
+  "chembl": "CHEMBL4297958",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "1-33-glucagon-like peptide ii",
+   "Glp-2",
+   "Glp-2",
+   "Glp-2 (1-33)",
+   "Glp-2 (human)",
+   "Glucagon-like peptide 2"
+  ]
+ },
+ {
+  "nome": "ACT-1 PEPTIDE",
+  "chembl": "CHEMBL4297964",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Act-1 peptide",
+   "Acti peptide",
+   "Granexin",
+   "Granexin peptide",
+   "Peptide 328967"
+  ]
+ },
+ {
+  "nome": "CALCITONIN EEL",
+  "chembl": "CHEMBL4297974",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Calcitonin eel",
+   "Eel calcitonin",
+   "Hc-58",
+   "HC-58"
+  ]
+ },
+ {
+  "nome": "ONFEKAFUSP",
+  "chembl": "CHEMBL4298007",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Fibromun",
+   "L19-tnf",
+   "L19tnf",
+   "Onfekafusp alfa",
+   "Onfekafusp alfa",
+   "Onfekafusp alfa component of daromun  l19tnf"
+  ]
+ },
+ {
+  "nome": "BINTRAFUSP",
+  "chembl": "CHEMBL4298024",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "300 $ 300'' $ 518 $ 518'' $ 542 $ 542'' $ 602 $ 602''",
+  "tam": 53,
+  "sinonimos": [
+   "8L9YQ2N6PA",
+   "Bintrafusp alfa",
+   "Bintrafusp alfa",
+   "Bintrafusp alfa",
+   "M-7824",
+   "M7824"
+  ]
+ },
+ {
+  "nome": "BIZAXOFUSP",
+  "chembl": "CHEMBL4298027",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "10-63 $ 29-122 $ 91-101 $ 154-176",
+  "tam": 33,
+  "sinonimos": [
+   "Bizaxofusp",
+   "Bizaxofusp",
+   "Bizaxofusp",
+   "Bizaxofusp",
+   "Il4(38-37)-pe38kdel",
+   "MDNA-55"
+  ]
+ },
+ {
+  "nome": "ALDAFERMIN",
+  "chembl": "CHEMBL4298055",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "32-44 $ 76-94",
+  "tam": 13,
+  "sinonimos": [
+   "Aldafermin",
+   "Aldafermin",
+   "Aldafermin",
+   "Aldafermina",
+   "Aldafermine",
+   "NGM-282"
+  ]
+ },
+ {
+  "nome": "CANOCTAKIN",
+  "chembl": "CHEMBL4298068",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Canoctakin",
+   "Canoctakin",
+   "Canoctakina",
+   "Canoctakine",
+   "Glycafilin",
+   "Pa-401"
+  ]
+ },
+ {
+  "nome": "ANPOCOGIN",
+  "chembl": "CHEMBL4298082",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "6-50 $ 15-46 $ 20-41 $ 24-70 $ 52-64",
+  "tam": 36,
+  "sinonimos": [
+   "Ab 201",
+   "AB-201",
+   "AB201",
+   "Anpocogin",
+   "Anpocogin",
+   "Anpocogin"
+  ]
+ },
+ {
+  "nome": "BALORAMOTIDE",
+  "chembl": "CHEMBL4298083",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Baloramotida",
+   "Baloramotide",
+   "Baloramotide",
+   "Lage-2, recombinant",
+   "Recombinant ny-eso-1 protein"
+  ]
+ },
+ {
+  "nome": "SIMLUKAFUSP",
+  "chembl": "CHEMBL4298090",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Asn-297 $ Asn-297''",
+  "tam": 19,
+  "sinonimos": [
+   "FAP-IL2v",
+   "FAP-IL-2V",
+   "FAP-IL2V FP RO6874281",
+   "RG-7461",
+   "RG7461",
+   "RO-6874281"
+  ]
+ },
+ {
+  "nome": "LONAPEGSOMATROPIN",
+  "chembl": "CHEMBL4298185",
+  "fase": "4.0",
+  "aprov": 2021,
+  "seq": "53-165 $ 182-189",
+  "tam": 16,
+  "sinonimos": [
+   "ACP-011",
+   "Lonapegsomatropin",
+   "Lonapegsomatropin",
+   "Lonapegsomatropin",
+   "Lonapegsomatropin",
+   "Lonapegsomatropin"
+  ]
+ },
+ {
+  "nome": "PANCREATIC POLYPEPTIDE",
+  "chembl": "CHEMBL4540843",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Human pancreatic polypeptide",
+   "Pancreatic hormone iii",
+   "Pancreatic polypeptide",
+   "Pancreatic polypeptide (human)",
+   "Pancreatic polypeptide human"
+  ]
+ },
+ {
+  "nome": "FE 203799",
+  "chembl": "CHEMBL4563522",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Fe 203799"
+  ]
+ },
+ {
+  "nome": "SULFOMYXIN",
+  "chembl": "CHEMBL4594215",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dynamyxin",
+   "GS-6742",
+   "Sulfomixina",
+   "Sulfomyxin",
+   "Sulfomyxin",
+   "Sulfomyxine"
+  ]
+ },
+ {
+  "nome": "TIMBETASIN",
+  "chembl": "CHEMBL4594313",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "S1(SMILES):CC(=O)N[C@@H](CO)C(O)=O",
+  "tam": 34,
+  "sinonimos": [
+   "Timbetasin",
+   "Timbetasin",
+   "Timbetasina",
+   "Timbetasine"
+  ]
+ },
+ {
+  "nome": "AMLISIMOD",
+  "chembl": "CHEMBL4594346",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Amlisimod",
+   "Amlisimod",
+   "SDP-4",
+   "Silk-derived protein-4"
+  ]
+ },
+ {
+  "nome": "ANX-042",
+  "chembl": "CHEMBL4594397",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "ANX 042",
+   "Anx-042",
+   "Asbnp.1",
+   "Bnp.1"
+  ]
+ },
+ {
+  "nome": "C-PEPTIDE",
+  "chembl": "CHEMBL4594409",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "C-peptide",
+   "Human c-peptide",
+   "Human proinsulin c-peptide",
+   "Insulin c-peptide",
+   "Nmij-crm 6901a",
+   "Proinsulin c-peptide"
+  ]
+ },
+ {
+  "nome": "TZP-102",
+  "chembl": "CHEMBL4594424",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Tzp-102",
+   "TZP-102"
+  ]
+ },
+ {
+  "nome": "GLUCAGON-LIKE PEPTIDE 1",
+  "chembl": "CHEMBL4594475",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Glp-1",
+   "Glucagon-like peptide 1"
+  ]
+ },
+ {
+  "nome": "NAVEPEGRITIDE",
+  "chembl": "CHEMBL4594507",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "22-38",
+  "tam": 5,
+  "sinonimos": [
+   "Navepegritida",
+   "Navepegritide",
+   "Navepegritide",
+   "Navepegritide",
+   "Transcon cnp",
+   "Transcon cnp-38"
+  ]
+ },
+ {
+  "nome": "TIVIDENOFUSP",
+  "chembl": "CHEMBL4594537",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "N6 $ N90 $ N300 $ N488, N512 $ N607 $  N77'",
+  "tam": 43,
+  "sinonimos": [
+   "Dnl-310",
+   "DNL-310",
+   "Dnl310",
+   "DNL310",
+   "Etv:ids",
+   "Tividenofusp alfa"
+  ]
+ },
+ {
+  "nome": "EFLEPEDOCOKIN",
+  "chembl": "CHEMBL4594542",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Eflepedocokina alfa",
+   "Eflepedocokin alfa",
+   "Eflepedocokin alfa",
+   "Eflepedocokine alfa",
+   "F 652",
+   "F-652"
+  ]
+ },
+ {
+  "nome": "PABINAFUSP",
+  "chembl": "CHEMBL4594565",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Jr-141",
+   "JR-141",
+   "JR141",
+   "Pabinafusp alfa",
+   "Pabinafusp alfa",
+   "Pabinafusp alfa"
+  ]
+ },
+ {
+  "nome": "EFTRENONACOG",
+  "chembl": "CHEMBL4594598",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alprolix",
+   "Alprolix",
+   "BIIB-029",
+   "Eftrenonacog alfa",
+   "Eftrenonacog alfa",
+   "Eftrenonacog alfa"
+  ]
+ },
+ {
+  "nome": "LONOCTOCOG",
+  "chembl": "CHEMBL4594603",
+  "fase": "4.0",
+  "aprov": 2017,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Afstyla",
+   "Afstyla",
+   "CSL-627",
+   "CSL627",
+   "Lonoctocog alfa",
+   "Lonoctocog alfa"
+  ]
+ },
+ {
+  "nome": "SULFOMYXIN FREE ACID",
+  "chembl": "CHEMBL4596966",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ },
+ {
+  "nome": "ROZIBAFUSP",
+  "chembl": "CHEMBL4650245",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Asn-297 $ Asn-297''",
+  "tam": 19,
+  "sinonimos": [
+   "AMG 570",
+   "AMG-570",
+   "MEDI-0700",
+   "Rozibafusp alfa",
+   "Rozibafusp alfa",
+   "Rozibafusp alfa"
+  ]
+ },
+ {
+  "nome": "RUSFERTIDE",
+  "chembl": "CHEMBL4650270",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "PTG-300 ACETATE",
+   "PTG300 ACETATE",
+   "Rusfertide acetate"
+  ]
+ },
+ {
+  "nome": "NENDRATAREOTIDE UZATANSINE",
+  "chembl": "CHEMBL4650335",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nendratareotide uzatansine",
+   "Nendratareotide uzatansine",
+   "Pen-221"
+  ]
+ },
+ {
+  "nome": "ZELPULTIDE",
+  "chembl": "CHEMBL4650375",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "35-40 $ 281-373 $ 351-365",
+  "tam": 25,
+  "sinonimos": [
+   "At 100",
+   "At-100",
+   "AT-100",
+   "AT100",
+   "Recombinant sp-d",
+   "Zelpultide alfa"
+  ]
+ },
+ {
+  "nome": "HEPALATIDE",
+  "chembl": "CHEMBL4650398",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Hepalatide",
+   "L47"
+  ]
+ },
+ {
+  "nome": "LERODALCIBEP",
+  "chembl": "CHEMBL4650405",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Lerodalcibep",
+   "Lerodalcibep"
+  ]
+ },
+ {
+  "nome": "PEGSEBRENATIDE",
+  "chembl": "CHEMBL4650495",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSFAPPPSC",
+  "tam": 40,
+  "sinonimos": [
+   "Nly-01",
+   "NLY-01",
+   "Nly01",
+   "NLY01",
+   "Pegsebrenatida",
+   "Pegsebrenatide"
+  ]
+ },
+ {
+  "nome": "BALIXAFORTIDE",
+  "chembl": "CHEMBL4802129",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Balixafortida",
+   "Balixafortide",
+   "Balixafortide",
+   "Balixafortide",
+   "POL-6326",
+   "Pol6326"
+  ]
+ },
+ {
+  "nome": "BMS-686117",
+  "chembl": "CHEMBL4802140",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BMS 686117",
+   "Bms-686117"
+  ]
+ },
+ {
+  "nome": "EA-230",
+  "chembl": "CHEMBL4802142",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ea-230",
+   "Nmpf-46"
+  ]
+ },
+ {
+  "nome": "ENSOVIBEP",
+  "chembl": "CHEMBL4802171",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ensovibep",
+   "Ensovibep",
+   "MP-0420",
+   "Mp0420",
+   "MP0420"
+  ]
+ },
+ {
+  "nome": "PEGLOXENATIDE",
+  "chembl": "CHEMBL4802213",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Peg-40 kd-loxenatide",
+   "Peg loxenatide",
+   "Pegloxenatide",
+   "Pegloxenatide",
+   "PEX-168",
+   "Pex168"
+  ]
+ },
+ {
+  "nome": "MOTIXAFORTIDE",
+  "chembl": "CHEMBL5095030",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "4F-benzoyl-TN14003",
+   "4F-BENZOYL-TN-14003",
+   "BKT-140",
+   "Bkt140",
+   "BKT140",
+   "Bl 8040"
+  ]
+ },
+ {
+  "nome": "SELCOPINTIDE",
+  "chembl": "CHEMBL5095083",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Selcopintida",
+   "Selcopintide",
+   "Selcopintide"
+  ]
+ },
+ {
+  "nome": "LEFLEUGANAN",
+  "chembl": "CHEMBL5095104",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Lefleuganan",
+   "Lefleuganan",
+   "Lefleuganan"
+  ]
+ },
+ {
+  "nome": "GERSIZANGITIDE",
+  "chembl": "CHEMBL5095123",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "LRRFSTAPFAFIDINDVINE",
+  "tam": 20,
+  "sinonimos": [
+   "AXT-107",
+   "AXT107",
+   "Gersizangitida",
+   "Gersizangitide",
+   "Gersizangitide",
+   "Gersizangitide"
+  ]
+ },
+ {
+  "nome": "LATIKAFUSP",
+  "chembl": "CHEMBL5095129",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "301 $ 301''",
+  "tam": 11,
+  "sinonimos": [
+   "Amg 256",
+   "Latikafusp",
+   "Latikafusp",
+   "Latikafusp",
+   "Latikafusp"
+  ]
+ },
+ {
+  "nome": "PALSUCIBEP PEGOL",
+  "chembl": "CHEMBL5095139",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "76-175",
+  "tam": 6,
+  "sinonimos": [
+   "Palsucibep pegol",
+   "Palsucibep pegol",
+   "Palsucibep pegol"
+  ]
+ },
+ {
+  "nome": "PECELEGANAN",
+  "chembl": "CHEMBL5095140",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "KWKSFLKTFKSAAKTVLHTALKAISS",
+  "tam": 26,
+  "sinonimos": [
+   "Peceleganan",
+   "Peceleganan",
+   "Peceleganan"
+  ]
+ },
+ {
+  "nome": "PEZADEFTIDE",
+  "chembl": "CHEMBL5095144",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "4-51 $ 15-35 $ 21-45 $ 25-47",
+  "tam": 28,
+  "sinonimos": [
+   "Pezadeftida",
+   "Pezadeftide",
+   "Pezadeftide"
+  ]
+ },
+ {
+  "nome": "RILUNERMIN",
+  "chembl": "CHEMBL5095150",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "383 $ 383' $ 383''",
+  "tam": 18,
+  "sinonimos": [
+   "Rilunermina alfa",
+   "Rilunermin alfa",
+   "Rilunermine alfa"
+  ]
+ },
+ {
+  "nome": "RIMTOREGTIDE",
+  "chembl": "CHEMBL5095151",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "I1(SMILES):CC[C@H](C)[C@H](NC(C)=O)C(O)=O",
+  "tam": 41,
+  "sinonimos": [
+   "Rimtoregtida",
+   "Rimtoregtide",
+   "Rimtoregtide"
+  ]
+ },
+ {
+  "nome": "SUDOCETAXEL ZENDUSORTIDE",
+  "chembl": "CHEMBL5095153",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "303 $ 303''",
+  "tam": 11,
+  "sinonimos": [
+   "Sudocetaxel zendusortida",
+   "Sudocetaxel zendusortide",
+   "Sudocetaxel zendusortide",
+   "Sudocetaxel zendusortide",
+   "Sudocetaxel zendusortide",
+   "TH-1902"
+  ]
+ },
+ {
+  "nome": "UTREGLUTIDE",
+  "chembl": "CHEMBL5095156",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "X1(SMILES): CNC(C)(C)C(C)=O",
+  "tam": 27,
+  "sinonimos": [
+   "Utreglutida",
+   "Utreglutide",
+   "Utreglutide"
+  ]
+ },
+ {
+  "nome": "ZENDUSORTIDE",
+  "chembl": "CHEMBL5095162",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GVRAKAGVRNXFKSESY",
+  "tam": 17,
+  "sinonimos": [
+   "TH-19P01",
+   "TH19P01",
+   "Zendusortida",
+   "Zendusortide",
+   "Zendusortide",
+   "Zendusortide"
+  ]
+ },
+ {
+  "nome": "SULANEMADLIN",
+  "chembl": "CHEMBL5095209",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alrn 6924",
+   "ALRN-6924",
+   "ALRN6924",
+   "Sulanemadlin",
+   "Sulanemadlin"
+  ]
+ },
+ {
+  "nome": "DALUTRAFUSP",
+  "chembl": "CHEMBL5095272",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dalutrafusp alfa"
+  ]
+ },
+ {
+  "nome": "EFANESOCTOCOG",
+  "chembl": "CHEMBL5095275",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Altuviiio",
+   "Altuviiio",
+   "Altuvoct",
+   "Efanesoctocog alfa",
+   "Efanesoctocog alfa",
+   "Efanesoctocog alfa"
+  ]
+ },
+ {
+  "nome": "PEGLOPRASTIDE",
+  "chembl": "CHEMBL5095310",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "X1EEEEFXPLGCAGRRRRRRRRX2",
+  "tam": 24,
+  "sinonimos": [
+   "AVB-620",
+   "AVB620",
+   "Pegloprastide",
+   "Pegloprastide"
+  ]
+ },
+ {
+  "nome": "ENEBOPARATIDE",
+  "chembl": "CHEMBL5095311",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "AVAEIQLMHQRAKWIQDARRRAFLHKLIAEIHTAEI",
+  "tam": 36,
+  "sinonimos": [
+   "AZP-3601",
+   "AZP3601",
+   "Eneboparatida",
+   "Eneboparatide",
+   "Eneboparatide",
+   "Eneboparatide"
+  ]
+ },
+ {
+  "nome": "NOMLABOFUSP",
+  "chembl": "CHEMBL5095325",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "51-64",
+  "tam": 5,
+  "sinonimos": [
+   "CTI 1601",
+   "CTI-1601",
+   "CTI1601",
+   "Nomlabofusp",
+   "Nomlabofusp",
+   "Nomlabofusp"
+  ]
+ },
+ {
+  "nome": "ELAREKIBEP",
+  "chembl": "CHEMBL5095371",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "24-101",
+  "tam": 6,
+  "sinonimos": [
+   "Azd-1402",
+   "Azd1402",
+   "Elarekibep",
+   "Elarekibep",
+   "Elarekibep",
+   "Elarekibep"
+  ]
+ },
+ {
+  "nome": "ENSEREPTIDE",
+  "chembl": "CHEMBL5095372",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ensereptide",
+   "PXL-01",
+   "PXL01"
+  ]
+ },
+ {
+  "nome": "RETLIRAFUSP",
+  "chembl": "CHEMBL5095383",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Retlirafusp alfa",
+   "Shr 1701",
+   "SHR-1701",
+   "SHR1701"
+  ]
+ },
+ {
+  "nome": "NANRILKEFUSP",
+  "chembl": "CHEMBL5095385",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "168 $ 176",
+  "tam": 9,
+  "sinonimos": [
+   "Nanrilkefusp alfa",
+   "Nanrilkefusp alfa",
+   "Nanrilkefusp alfa",
+   "Nanrilkefusp alfa",
+   "Nanrilkefusp alfa",
+   "SO-C101"
+  ]
+ },
+ {
+  "nome": "COBITOLIMOD",
+  "chembl": "CHEMBL5095448",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "(3'-5')-d-(G-G-A-A-C-A-G-T-T-C-G-T-C-C-A-T-G-G-C) 18Na",
+  "tam": 54,
+  "sinonimos": [
+   "AEL",
+   "Cobitolimod sodium",
+   "DIMS-0150",
+   "DIMS0150",
+   "IDX-0150",
+   "IDX0150"
+  ]
+ },
+ {
+  "nome": "PALOPEGTERIPARATIDE",
+  "chembl": "CHEMBL5095475",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "XSVSEIQLMHNLGKHLNSMERVEWLRKKLQDVHNF",
+  "tam": 35,
+  "sinonimos": [
+   "ACP-014",
+   "Mpeg 40000-teriparatide",
+   "Palopegteriparatide",
+   "Palopegteriparatide",
+   "Palopegteriparatide",
+   "Palopegteriparatide"
+  ]
+ },
+ {
+  "nome": "PELTOPEPIMUT-S",
+  "chembl": "CHEMBL5095477",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "HYCYSLYGTTLEQQYNKPLCDLLIR",
+  "tam": 25,
+  "sinonimos": [
+   "ISA101b",
+   "Peltopepimut-s",
+   "Peltopepimut-s"
+  ]
+ },
+ {
+  "nome": "PEXIPEPIMUT-S",
+  "chembl": "CHEMBL5095479",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "PDS0101",
+   "Pexipepimut-s",
+   "Pexipepimut-s"
+  ]
+ },
+ {
+  "nome": "POLYMYXIN B",
+  "chembl": "CHEMBL5314354",
+  "fase": "4.0",
+  "aprov": 1957,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Polimixina b",
+   "Polymixin b",
+   "Polymyxin b",
+   "Polymyxin b",
+   "Polymyxin b",
+   "Polymyxin b"
+  ]
+ },
+ {
+  "nome": "VOCLOSPORIN",
+  "chembl": "CHEMBL5314379",
+  "fase": "4.0",
+  "aprov": 2021,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "ISA-247",
+   "ISA247",
+   "ISATX-247",
+   "ISATX247",
+   "Lupkynis",
+   "LX-211"
+  ]
+ },
+ {
+  "nome": "ZETOMIPZOMIB MALEATE",
+  "chembl": "CHEMBL5314567",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "KZR-616 maleate",
+   "Zetomipzomib maleate"
+  ]
+ },
+ {
+  "nome": "FEQUESETIDE",
+  "chembl": "CHEMBL5314679",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Fequesetida",
+   "Fequesetide",
+   "Fequesetide"
+  ]
+ },
+ {
+  "nome": "LUNAXAFUSP",
+  "chembl": "CHEMBL5314689",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "290-364 $ 435-500",
+  "tam": 17,
+  "sinonimos": [
+   "Lunaxafusp",
+   "Lunaxafusp",
+   "Lunaxafusp"
+  ]
+ },
+ {
+  "nome": "MILPOCITIDE",
+  "chembl": "CHEMBL5314692",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GTNECLDNLGGCSHVCRDLEIGYECLCPEGFQLVAKRRCE",
+  "tam": 40,
+  "sinonimos": [
+   "Milpocitide",
+   "Milpocitide",
+   "Milpocitide"
+  ]
+ },
+ {
+  "nome": "PIMROCKTAKIN (BOVINE)",
+  "chembl": "CHEMBL5314699",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "51-78 $ 53-94",
+  "tam": 13,
+  "sinonimos": [
+   "Pimrocktakina (bovina)",
+   "Pimrocktakin (bovine)",
+   "Pimrocktakine (bovine)"
+  ]
+ },
+ {
+  "nome": "CEMAVAFUSP",
+  "chembl": "CHEMBL5314730",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "290-364 $ 290'-364' $ 418-482 $ 418'-482'",
+  "tam": 41,
+  "sinonimos": [
+   "Cemavafusp",
+   "Cemavafusp",
+   "Cemavafusp"
+  ]
+ },
+ {
+  "nome": "EDERIMOTIDE",
+  "chembl": "CHEMBL5314734",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YMFPNAPYK",
+  "tam": 9,
+  "sinonimos": [
+   "Ederimotida",
+   "Ederimotide",
+   "Ederimotide",
+   "Wt-1 a1",
+   "Wt1-a1"
+  ]
+ },
+ {
+  "nome": "ETIMUMOTIDE",
+  "chembl": "CHEMBL5314741",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "FMTYWHLLNAFTVTVPKDL",
+  "tam": 19,
+  "sinonimos": [
+   "Etimumotida",
+   "Etimumotide",
+   "Etimumotide"
+  ]
+ },
+ {
+  "nome": "GULGAFAFUSP",
+  "chembl": "CHEMBL5314744",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "301 $ 301''",
+  "tam": 11,
+  "sinonimos": [
+   "GMA-102",
+   "GMA102",
+   "Gulgafafusp alfa",
+   "Gulgafafusp alfa",
+   "Gulgafafusp alfa"
+  ]
+ },
+ {
+  "nome": "IMSAMOTIDE",
+  "chembl": "CHEMBL5314745",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DTLLKALLEIASCLEKALQVF",
+  "tam": 21,
+  "sinonimos": [
+   "Imsamotida",
+   "Imsamotide",
+   "Imsamotide"
+  ]
+ },
+ {
+  "nome": "INPEGSOMATROPIN",
+  "chembl": "CHEMBL5314747",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "53-165 $ 182-189",
+  "tam": 16,
+  "sinonimos": [
+   "Inpegsomatropin",
+   "Inpegsomatropina",
+   "Inpegsomatropine"
+  ]
+ },
+ {
+  "nome": "MARLUMOTIDE",
+  "chembl": "CHEMBL5314752",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SGQAYMFPNAPYLPSCLES",
+  "tam": 19,
+  "sinonimos": [
+   "Marlumotida",
+   "Marlumotide",
+   "Marlumotide",
+   "Wt1-122a1 long",
+   "Wt-1 122 long"
+  ]
+ },
+ {
+  "nome": "PEGTARAZIMOD",
+  "chembl": "CHEMBL5314762",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "IALILEPICCQERAA",
+  "tam": 15,
+  "sinonimos": [
+   "Pa-dpeg24",
+   "Pegtarazimod",
+   "Pegtarazimod",
+   "Pegtarazimod"
+  ]
+ },
+ {
+  "nome": "QUAZOMOTIDE",
+  "chembl": "CHEMBL5314767",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "RSDELVRHHNMHQRNMTKL",
+  "tam": 19,
+  "sinonimos": [
+   "Quazomotida",
+   "Quazomotide",
+   "Quazomotide",
+   "Wt-1 427 long",
+   "Wt1-427 long"
+  ]
+ },
+ {
+  "nome": "SOTIBURAFUSP",
+  "chembl": "CHEMBL5314774",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "293 $ 293''",
+  "tam": 11,
+  "sinonimos": [
+   "Sotiburafusp alfa",
+   "Sotiburafusp alfa",
+   "Sotiburafusp alfa"
+  ]
+ },
+ {
+  "nome": "VENSOBAFUSP",
+  "chembl": "CHEMBL5314785",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "302 $ 302''",
+  "tam": 11,
+  "sinonimos": [
+   "KP-104",
+   "Vensobafusp alfa",
+   "Vensobafusp alfa",
+   "Vensobafusp alfa"
+  ]
+ },
+ {
+  "nome": "VORUMOTIDE",
+  "chembl": "CHEMBL5314789",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "PGCNKRYFKLSHLQMHSRKHTG",
+  "tam": 22,
+  "sinonimos": [
+   "Vorumotida",
+   "Vorumotide",
+   "Vorumotide",
+   "Wt-1 331 long",
+   "Wt1-331 long"
+  ]
+ },
+ {
+  "nome": "EFPEGERGLUCAGON",
+  "chembl": "CHEMBL5314827",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "3-3' $ 35-95 $ 35'-95' $ 141-199 $ 141'-199'",
+  "tam": 44,
+  "sinonimos": [
+   "Efpegerglucagon",
+   "Efpegerglucagon",
+   "Efpegerglucagon",
+   "HM-15136",
+   "Hm15136"
+  ]
+ },
+ {
+  "nome": "ENAVERMOTIDE",
+  "chembl": "CHEMBL5314828",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "KSVWSKLQSIGIRQH",
+  "tam": 15,
+  "sinonimos": [
+   "Enavermotida",
+   "Enavermotide",
+   "Enavermotide"
+  ]
+ },
+ {
+  "nome": "GANIPATIDE",
+  "chembl": "CHEMBL5314835",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YXEGTFISDYSIAXDKIRQQDFVKWLLAQKP",
+  "tam": 31,
+  "sinonimos": [
+   "Ganipatide",
+   "Ganipatide",
+   "Ganipatide"
+  ]
+ },
+ {
+  "nome": "IRUCALANTIDE",
+  "chembl": "CHEMBL5314840",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Irucalantida",
+   "Irucalantide",
+   "Irucalantide"
+  ]
+ },
+ {
+  "nome": "LIMARESIQUIMOD",
+  "chembl": "CHEMBL5314845",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Limaresiquimod",
+   "Limaresiquimod",
+   "Limaresiquimod"
+  ]
+ },
+ {
+  "nome": "LUCICEBTIDE",
+  "chembl": "CHEMBL5314846",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "VAEAREELERLEARLGQARGELKKWKMRRNQFWLKLQR",
+  "tam": 38,
+  "sinonimos": [
+   "Lucicebtida",
+   "Lucicebtide",
+   "Lucicebtide",
+   "Lucicebtide",
+   "ST-101 (D-AMINO ACID PEPTIDE)",
+   "ST101 (peptide)"
+  ]
+ },
+ {
+  "nome": "OMRAMOTIDE",
+  "chembl": "CHEMBL5314855",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "FLPFGFILPV",
+  "tam": 10,
+  "sinonimos": [
+   "Omramotida",
+   "Omramotide",
+   "Omramotide"
+  ]
+ },
+ {
+  "nome": "OXIMBOMOTIDE",
+  "chembl": "CHEMBL5314861",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "LMDLSTTEV",
+  "tam": 9,
+  "sinonimos": [
+   "Oximbomotida",
+   "Oximbomotide",
+   "Oximbomotide"
+  ]
+ },
+ {
+  "nome": "PEGMISPOTIDE",
+  "chembl": "CHEMBL5314863",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "ERDGTATKATERLAXFLQRSSFGAILSSTEVGSNTP",
+  "tam": 36,
+  "sinonimos": [
+   "BT-051",
+   "BT051",
+   "Pegmispotida",
+   "Pegmispotide",
+   "Pegmispotide"
+  ]
+ },
+ {
+  "nome": "POBROLITIDE",
+  "chembl": "CHEMBL5314865",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YGRKKRRQRRRGKTLRVAKAIYKRYIE",
+  "tam": 27,
+  "sinonimos": [
+   "Pobrolitida",
+   "Pobrolitide",
+   "Pobrolitide"
+  ]
+ },
+ {
+  "nome": "SUCANTOMOTIDE",
+  "chembl": "CHEMBL5314883",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "FMLGEFLKL",
+  "tam": 9,
+  "sinonimos": [
+   "Sucantomotida",
+   "Sucantomotide",
+   "Sucantomotide"
+  ]
+ },
+ {
+  "nome": "UCASAREOTIDE DASAROXETAN",
+  "chembl": "CHEMBL5314889",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Sartate",
+   "Ucasareotida dasaroxetan",
+   "Ucasareotide dasaroxetan",
+   "Ucasareotide dasaroxetan"
+  ]
+ },
+ {
+  "nome": "VICATERTIDE",
+  "chembl": "CHEMBL5314893",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "LQVVYLH",
+  "tam": 7,
+  "sinonimos": [
+   "Vicatertida",
+   "Vicatertide",
+   "Vicatertide"
+  ]
+ },
+ {
+  "nome": "VISEPEGENATIDE",
+  "chembl": "CHEMBL5314895",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPC",
+  "tam": 39,
+  "sinonimos": [
+   "Visepegenatida",
+   "Visepegenatide",
+   "Visepegenatide"
+  ]
+ },
+ {
+  "nome": "ZALFERMIN",
+  "chembl": "CHEMBL5314897",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "76-94",
+  "tam": 5,
+  "sinonimos": [
+   "NN-9499",
+   "Zalfermin",
+   "Zalfermina",
+   "Zalfermine"
+  ]
+ },
+ {
+  "nome": "ZALOGANAN",
+  "chembl": "CHEMBL5314898",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "RRWVRRVRRVWRRVVRVVRRWVRR",
+  "tam": 24,
+  "sinonimos": [
+   "Zaloganan",
+   "Zaloganan",
+   "Zaloganan"
+  ]
+ },
+ {
+  "nome": "ZELECIMENT BASIVARSEN",
+  "chembl": "CHEMBL5314900",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "1 $ 1''",
+  "tam": 7,
+  "sinonimos": [
+   "Zeleciment basivarsen",
+   "Zeleciment basivarsen",
+   "Zeleciment basivarsen"
+  ]
+ },
+ {
+  "nome": "ZELENECTIDE",
+  "chembl": "CHEMBL5314902",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BCY-8116",
+   "BCY8126",
+   "BCY8161",
+   "Zelenectida",
+   "Zelenectide",
+   "Zelenectide"
+  ]
+ },
+ {
+  "nome": "ZELENECTIDE PEVEDOTIN",
+  "chembl": "CHEMBL5314903",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BT-8009",
+   "Bt8009",
+   "BT8009",
+   "Zelenectida pevedotina",
+   "Zelenectide pavedotin",
+   "Zelenectide pevedotin"
+  ]
+ },
+ {
+  "nome": "CN-105",
+  "chembl": "CHEMBL5314912",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ac-val-ser-arg-arg-arg-nh2",
+   "Cn-105"
+  ]
+ },
+ {
+  "nome": "INVOPRESSIN",
+  "chembl": "CHEMBL5314925",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Invopressin",
+   "Invopressin",
+   "Invopressina",
+   "Invopressine",
+   "Oce-205"
+  ]
+ },
+ {
+  "nome": "BT-5528",
+  "chembl": "CHEMBL5314953",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bt 5528",
+   "Bt-5528",
+   "Bt5528"
+  ]
+ },
+ {
+  "nome": "DAPIGLUTIDE",
+  "chembl": "CHEMBL5314980",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dapiglutide"
+  ]
+ },
+ {
+  "nome": "ECISKAFUSP",
+  "chembl": "CHEMBL5314982",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "300 $ 300''",
+  "tam": 11,
+  "sinonimos": [
+   "Eciskafusp alfa",
+   "Eciskafusp alfa",
+   "Eciskafusp alfa",
+   "Eciskafusp alfa",
+   "Eciskafusp alfa",
+   "PD1-IL2v"
+  ]
+ },
+ {
+  "nome": "FRONIGLUTIDE",
+  "chembl": "CHEMBL5314983",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Froniglutide",
+   "Glymera",
+   "PB-1023",
+   "PB1023",
+   "PF-1801",
+   "PF1801"
+  ]
+ },
+ {
+  "nome": "LSALT PEPTIDE",
+  "chembl": "CHEMBL5314991",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Lsalt peptide",
+   "Metablok"
+  ]
+ },
+ {
+  "nome": "CERTEPETIDE",
+  "chembl": "CHEMBL5315026",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CEND-1",
+   "Certepetida",
+   "Certepetide",
+   "Certepetide",
+   "Certepetide",
+   "Certepetide"
+  ]
+ },
+ {
+  "nome": "NISOTIROSTIDE",
+  "chembl": "CHEMBL5315028",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "PKPEKPGEDASPEEWQRYYAELRHYLNWLTRQRY",
+  "tam": 34,
+  "sinonimos": [
+   "LY-3457263",
+   "Ly3457263",
+   "LY3457263",
+   "Nisostirotide",
+   "Nisotirostida",
+   "Nisotirostide"
+  ]
+ },
+ {
+  "nome": "FOLLITROPIN DELTA",
+  "chembl": "CHEMBL5315064",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "N52 $ N78 $ N7 $ N24",
+  "tam": 20,
+  "sinonimos": [
+   "FE 999049",
+   "FE-999049",
+   "FE-999049 (RECOMBINANT FSH)",
+   "FE-999049 (R-HFSH)",
+   "Follitropin delta",
+   "Follitropin delta"
+  ]
+ },
+ {
+  "nome": "SUSOCTOCOG",
+  "chembl": "CHEMBL5315075",
+  "fase": "4.0",
+  "aprov": 2015,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BAX-802",
+   "BAX802",
+   "Obizur",
+   "Susoctocog alfa",
+   "Susoctocog alfa"
+  ]
+ },
+ {
+  "nome": "ALBUTREPENONACOG",
+  "chembl": "CHEMBL5315076",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Albutrepenonacog alfa",
+   "Albutrepenonacog alfa",
+   "CSL-654",
+   "Csl654",
+   "Idelvion"
+  ]
+ },
+ {
+  "nome": "ENLICITIDE CHLORIDE",
+  "chembl": "CHEMBL6067978",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Chlorure d'enlicitide",
+   "Chloruro de enlicitida",
+   "Enlicitide chloride"
+  ]
+ },
+ {
+  "nome": "ZAMUBAFUSP",
+  "chembl": "CHEMBL6068002",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "291 $ 291''",
+  "tam": 11,
+  "sinonimos": [
+   "Zamubafusp alfa",
+   "Zamubafusp alfa",
+   "Zamubafusp alfa"
+  ]
+ },
+ {
+  "nome": "LEAD (212PB) BAMZIREOTIDE NAVOXETAN",
+  "chembl": "CHEMBL6068067",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Lead (212pb) bamzireotide navoxetan",
+   "Plomb (212pb) bamzireotide navoxetan",
+   "Plomo (212pb) bamzireotida navoxetan"
+  ]
+ },
+ {
+  "nome": "LEAD (212PB) LAPEMELANOTIDE ZAPIXETAN",
+  "chembl": "CHEMBL6068068",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Lead (212pb) lapemelanotide zapixetan",
+   "Plomb (212pb) lapemelanotide zapixetan",
+   "Plomo (212pb) lapemelanotide zapixetan"
+  ]
+ },
+ {
+  "nome": "AZIRKITUG",
+  "chembl": "CHEMBL6068092",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "300 $ 300''",
+  "tam": 11,
+  "sinonimos": [
+   "Azirkitug",
+   "Azirkitug",
+   "Azirkitug"
+  ]
+ },
+ {
+  "nome": "BOFANGLUTIDE",
+  "chembl": "CHEMBL6068096",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "HGEGTFTSDVSSYLEGQAAKEFIAWLVRGRG",
+  "tam": 31,
+  "sinonimos": [
+   "Bofanglutida",
+   "Bofanglutide",
+   "Bofanglutide"
+  ]
+ },
+ {
+  "nome": "BRIVEKIMIG",
+  "chembl": "CHEMBL6068097",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "22-97 $ 155-230 $ 288-362 $ 412-486 $ 536-610",
+  "tam": 45,
+  "sinonimos": [
+   "Brivekimig",
+   "Brivekimig",
+   "Brivekimig"
+  ]
+ },
+ {
+  "nome": "ETAKAFUSP",
+  "chembl": "CHEMBL6068121",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "299 $ 299''",
+  "tam": 11,
+  "sinonimos": [
+   "AB-248",
+   "Ab248",
+   "Etakafusp alfa",
+   "Etakafusp alfa",
+   "Etakafusp alfa"
+  ]
+ },
+ {
+  "nome": "LORUTENGITIDE",
+  "chembl": "CHEMBL6068133",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Lorutengitida",
+   "Lorutengitide",
+   "Lorutengitide"
+  ]
+ },
+ {
+  "nome": "LUCORAFUSP",
+  "chembl": "CHEMBL6068134",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "AK-130",
+   "Ak130",
+   "Lucorafusp alfa",
+   "Lucorafusp alfa",
+   "Lucorafusp alfa"
+  ]
+ },
+ {
+  "nome": "MIFOMELATIDE",
+  "chembl": "CHEMBL6068142",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Mifomelatida",
+   "Mifomelatide",
+   "Mifomelatide"
+  ]
+ },
+ {
+  "nome": "OLATOREPATIDE",
+  "chembl": "CHEMBL6068153",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YXEGTFTSDYSIYLEKIAAQEFVNWLLAGGPSSGAPPPSK",
+  "tam": 40,
+  "sinonimos": [
+   "Olatorepatida",
+   "Olatorepatide",
+   "Olatorepatide"
+  ]
+ },
+ {
+  "nome": "PALURATIDE",
+  "chembl": "CHEMBL6068161",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Paluratida",
+   "Paluratide",
+   "Paluratide"
+  ]
+ },
+ {
+  "nome": "SONEFPEGLUTIDE",
+  "chembl": "CHEMBL6068175",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "3-3' $ 35-95 $ 35'-95' $ 141-199 $ 141'-199'",
+  "tam": 44,
+  "sinonimos": [
+   "Sonefpeglutida",
+   "Sonefpeglutide",
+   "Sonefpeglutide"
+  ]
+ },
+ {
+  "nome": "VEZOCOLMITIDE",
+  "chembl": "CHEMBL6068188",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "PPGPPGPPGPPGPPGPPGPPG",
+  "tam": 21,
+  "sinonimos": [
+   "Vezocolmitida",
+   "Vezocolmitide",
+   "Vezocolmitide"
+  ]
+ },
+ {
+  "nome": "VISLARAFUSP",
+  "chembl": "CHEMBL6068189",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "300 $ 300''",
+  "tam": 11,
+  "sinonimos": [
+   "IMM-2902",
+   "Imm2902",
+   "Vislarafusp alfa",
+   "Vislarafusp alfa",
+   "Vislarafusp alfa"
+  ]
+ },
+ {
+  "nome": "ZIFOGAPTIDE",
+  "chembl": "CHEMBL6068192",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "RQPKIWFPNRRKPWKKRPRPDDLEI",
+  "tam": 25,
+  "sinonimos": [
+   "Zifogaptide",
+   "Zifogaptide",
+   "Zifogaptide"
+  ]
+ },
+ {
+  "nome": "AMEZOSVATEIN",
+  "chembl": "CHEMBL6068202",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "178-190 $ 196-206 $ 357-383 $ 366-375 $ 402-412",
+  "tam": 47,
+  "sinonimos": [
+   "Amezosvatein",
+   "Amezosvateina",
+   "Amezosvateine"
+  ]
+ },
+ {
+  "nome": "CANVUPARATIDE",
+  "chembl": "CHEMBL6068219",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SVSEIQLMHNLGKHLNSMERVEWLRKKLQDVH",
+  "tam": 32,
+  "sinonimos": [
+   "Canvuparatida",
+   "Canvuparatide",
+   "Canvuparatide"
+  ]
+ },
+ {
+  "nome": "EFMEDAGLUTIDE",
+  "chembl": "CHEMBL6068240",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "70-70' $ 100-160 $ 100'-160' $ 206-264 $ 206'-264'",
+  "tam": 50,
+  "sinonimos": [
+   "Efmedaglutida alfa",
+   "Efmedaglutide alfa",
+   "Efmedaglutide alfa"
+  ]
+ },
+ {
+  "nome": "GLEMTIMBETASIN",
+  "chembl": "CHEMBL6068252",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GSDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEEQEKQAGES",
+  "tam": 45,
+  "sinonimos": [
+   "Glemtimbetasin",
+   "Glemtimbetasina",
+   "Glemtimbetasine"
+  ]
+ },
+ {
+  "nome": "POSNAFUSP",
+  "chembl": "CHEMBL6068285",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "62 $ 62'' $ 372 $ 372'' $ 485 $ 3485'' $ 634 $ 634''",
+  "tam": 52,
+  "sinonimos": [
+   "Posnafusp alfa",
+   "Posnafusp alfa",
+   "Posnafusp alfa"
+  ]
+ },
+ {
+  "nome": "SOLABAFUSP",
+  "chembl": "CHEMBL6068294",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "297 $ 297''",
+  "tam": 11,
+  "sinonimos": [
+   "Solabafusp alfa",
+   "Solabafusp alfa",
+   "Solabafusp alfa"
+  ]
+ },
+ {
+  "nome": "VENSEMAGLUTIDE",
+  "chembl": "CHEMBL6068314",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GCHXEGTFTSDVSSYLEGQAAKEFIAWLVRGRG",
+  "tam": 33,
+  "sinonimos": [
+   "Vensemaglutida",
+   "Vensemaglutide",
+   "Vensemaglutide"
+  ]
+ },
+ {
+  "nome": "XELAFASLATIDE",
+  "chembl": "CHEMBL6068318",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "HHIYLGAVNY",
+  "tam": 10,
+  "sinonimos": [
+   "Onl-1204",
+   "Onl1204",
+   "ONL1204",
+   "Xelafaslatida",
+   "Xelafaslatide",
+   "Xelafaslatide"
+  ]
+ },
+ {
+  "nome": "NORARAMTIDE",
+  "chembl": "CHEMBL6068397",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BHV-1100",
+   "KP-1237",
+   "KP1237",
+   "Noraramtida",
+   "Noraramtide",
+   "Noraramtide"
+  ]
+ },
+ {
+  "nome": "ETIMUPEPIMUT",
+  "chembl": "CHEMBL6068399",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "FMTYWHLLNAFTVTVPKDL",
+  "tam": 19,
+  "sinonimos": [
+   "Etimupepimut",
+   "I0103",
+   "Io103"
+  ]
+ },
+ {
+  "nome": "IMSAPEPIMUT",
+  "chembl": "CHEMBL6068401",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DTLLKALLEIASCLEKALQVF",
+  "tam": 21,
+  "sinonimos": [
+   "Imsapepimut",
+   "Io102",
+   "IO102"
+  ]
+ },
+ {
+  "nome": "ACTINIUM AC 225 DOTATATE",
+  "chembl": "CHEMBL6068416",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "[225Ac]DOTATATE",
+   "225ac-dotatate",
+   "225ac-oxodotreotide",
+   "Actinium ac 225 dotatate",
+   "Actinium ac-225 dotatate",
+   "Actinium oxodotreotide ac-225"
+  ]
+ },
+ {
+  "nome": "ENLICITIDE DECANOATE",
+  "chembl": "CHEMBL6068420",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Enlicitide decanoate",
+   "Mk-0616",
+   "MK-0616"
+  ]
+ },
+ {
+  "nome": "TINDUPEPIMUT",
+  "chembl": "CHEMBL6068443",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Tindupepimut"
+  ]
+ },
+ {
+  "nome": "COLULINTIDE",
+  "chembl": "CHEMBL6068472",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Colulintide",
+   "LY-3541105",
+   "Ly3541105",
+   "LY3541105"
+  ]
+ },
+ {
+  "nome": "FULIPIFTIDE",
+  "chembl": "CHEMBL6068486",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BR21001",
+   "Fulipiftide"
+  ]
+ },
+ {
+  "nome": "MACUPATIDE",
+  "chembl": "CHEMBL6068487",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "LY3532226",
+   "Macupatide"
+  ]
+ },
+ {
+  "nome": "PROTEIN S",
+  "chembl": "CHEMBL6068491",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Protein s",
+   "Protein s human",
+   "Protein s human component of balfaxar"
+  ]
+ },
+ {
+  "nome": "PROTHROMBIN",
+  "chembl": "CHEMBL6068492",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Factor ii (prothrombin)",
+   "Prothrombin",
+   "Prothrombin component of balfaxar"
+  ]
+ },
+ {
+  "nome": "SPX-101",
+  "chembl": "CHEMBL6068525",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Spx-101"
+  ]
+ },
+ {
+  "nome": "ALM-201",
+  "chembl": "CHEMBL6068535",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alm-201",
+   "Alm201"
+  ]
+ },
+ {
+  "nome": "BT-1718",
+  "chembl": "CHEMBL6068546",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bt-1718",
+   "Bt1718"
+  ]
+ },
+ {
+  "nome": "ADRENOMEDULLIN",
+  "chembl": "CHEMBL6068569",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Adrenomedullin"
+  ]
+ },
+ {
+  "nome": "IMCY-0098",
+  "chembl": "CHEMBL6068583",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Imcy-0098"
+  ]
+ },
+ {
+  "nome": "LTI-03",
+  "chembl": "CHEMBL6068584",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Csp-7",
+   "Lti-03",
+   "Phe-thr-thr-phe-thr-val-thr"
+  ]
+ },
+ {
+  "nome": "SILK FIBROIN",
+  "chembl": "CHEMBL6068590",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Fibroin",
+   "Fibroins",
+   "Silk fibroin"
+  ]
+ },
+ {
+  "nome": "TIFALIBEP",
+  "chembl": "CHEMBL6068597",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Aby-039",
+   "Tifalibep"
+  ]
+ },
+ {
+  "nome": "CHF-6467",
+  "chembl": "CHEMBL6068602",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Chf-6467",
+   "Chf6467"
+  ]
+ },
+ {
+  "nome": "G-3215",
+  "chembl": "CHEMBL6068605",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "G-3215",
+   "G3215"
+  ]
+ },
+ {
+  "nome": "IRL-201104",
+  "chembl": "CHEMBL6068613",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "IRL 201104",
+   "Irl-201104",
+   "Irl201104",
+   "PIN-201104"
+  ]
+ },
+ {
+  "nome": "PROTHROMBIN COMPLEX CONCENTRATE",
+  "chembl": "CHEMBL6068614",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Kcentra",
+   "Octaplex 500 iu",
+   "Prothrombin complex concentrate"
+  ]
+ },
+ {
+  "nome": "RUGECITIDE",
+  "chembl": "CHEMBL6068616",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "GGGGSGHEEPCGPSHKSFCLNGGLCYQIPTIPSPFCRCVENYTGARCEKVFL",
+  "tam": 52,
+  "sinonimos": [
+   "LY-3461767",
+   "Ly3461767",
+   "LY3461767",
+   "Rugecitide",
+   "Rugecitide"
+  ]
+ },
+ {
+  "nome": "MEDI-7219",
+  "chembl": "CHEMBL6068617",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Medi-7219",
+   "Medi7219",
+   "MEDI-7219 (GLP-1 RECEPTOR AGONIST)"
+  ]
+ },
+ {
+  "nome": "GELSOLIN",
+  "chembl": "CHEMBL6068622",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Gelsolin",
+   "Gelsolin recombinant",
+   "Recombinant human gelsolin",
+   "Rhu-pgsn",
+   "RHUPGSN"
+  ]
+ },
+ {
+  "nome": "LEAD BAMZIREOTIDE NAVOXETAN",
+  "chembl": "CHEMBL6068769",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ },
+ {
+  "nome": "LEAD LAPEMELANOTIDE ZAPIXETAN",
+  "chembl": "CHEMBL6068770",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ },
+ {
+  "nome": "ACTINIUM DOTATATE",
+  "chembl": "CHEMBL6068772",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ },
+ {
+  "nome": "ENLICITIDE",
+  "chembl": "CHEMBL6068773",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ }
+]

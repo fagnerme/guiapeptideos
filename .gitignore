@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+tools/_bk_*/
+tools/_pep.json
+.DS_Store
+Thumbs.db

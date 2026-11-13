@@ -1,0 +1,4705 @@
+{
+ "geradoEm": "2026-11-06T01:43:15.063803+00:00",
+ "sugestoes": [
+  "TB-500 (Timosina beta-4): 4 ensaio(s) de fase 3 encontrados, catálogo marca 'Pré-clínico (animais)'.",
+  "MGF / PEG-MGF: 14 ensaio(s) de fase 3 encontrados, catálogo marca 'Pré-clínico (animais)'.",
+  "Folistatina-344: 1 ensaio(s) de fase 3 encontrados, catálogo marca 'Pré-clínico (animais)'.",
+  "Kisspeptina-10: 3 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "LL-37: 1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Angiotensina-(1-7): 8 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Argireline (acetil hexapeptídeo-8): 1 ensaio(s) de fase 3 encontrados, catálogo marca 'In vitro'.",
+  "Defensinas humanas: 2 ensaio(s) de fase 3 encontrados, catálogo marca 'In vitro'.",
+  "Carnosina: 4 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "NAD+: 26 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "NMN (mononucleotídeo de nicotinamida): 1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Nicotinamida ribosídeo (NR): 5 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Taurina: há registro na FDA, mas o catálogo marca 'Fase 2'.",
+  "Glicina: 24 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Resveratrol: 18 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Pterostilbeno: 2 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Urolitina A: 1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Espermidina: 1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "PQQ (pirroloquinolina quinona): 1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Fisetina: 2 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Quercetina: 5 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Biotina (vitamina B7): há registro na FDA, mas o catálogo marca 'Fase 3'.",
+  "Petrelintida: 3 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Eloralintida: 8 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'.",
+  "Glicina: aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo.",
+  "Riboflavina (vitamina B2): aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo.",
+  "Orforglipron: aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+ ],
+ "itens": {
+  "semaglutida": {
+   "ensaios": 797,
+   "fase1": 127,
+   "fase2": 153,
+   "fase3": 186,
+   "recrutando": 176,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 5852,
+   "artigosAno": 2382,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2019-09-20",
+    "marcas": [
+     "Ozempic",
+     "Rybelsus"
+    ]
+   },
+   "segurancaAno": 1069,
+   "revisoesAno": 191,
+   "bula": {
+    "atualizada": "2026-07-30",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 46,
+    "recentes": [
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Carolina Infusion, LLC",
+      "motivo": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
+      "produto": "SEMAGLUTIDE/CYANOCOBALAMIN 9/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL di"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Carolina Infusion, LLC",
+      "motivo": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
+      "produto": "SEMAGLUTIDE/CYANOCOBALAMIN 3/2 MG/ML INJECTABLE,  Packaged in single-use dosage syringes, total mL d"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Carolina Infusion, LLC",
+      "motivo": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
+      "produto": "SEMAGLUTIDE 3 MG/ML INJECTABLE, 8 x 0.1 mL syringes, Carolina Infusion LLC, 95 Bees Creek Road, Ridg"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2018-02-08",
+    "marcas": [
+     "Kayshild",
+     "Kyinsu",
+     "Ozempic",
+     "Rybelsus",
+     "Wegovy"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927783227
+  },
+  "tirzepatida": {
+   "ensaios": 310,
+   "fase1": 41,
+   "fase2": 80,
+   "fase3": 60,
+   "recrutando": 102,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 2743,
+   "artigosAno": 1439,
+   "fdaRegistros": 2,
+   "fdaAprovacao": {
+    "desde": "2022-05-13",
+    "marcas": [
+     "Mounjaro",
+     "Mounjaro (Autoinjector)",
+     "Mounjaro Kwikpen",
+     "Zepbound",
+     "Zepbound (Autoinjector)"
+    ]
+   },
+   "segurancaAno": 673,
+   "revisoesAno": 121,
+   "bula": {
+    "atualizada": "2026-08-28",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 27,
+    "recentes": [
+     {
+      "data": "2026-10-21",
+      "classe": "Class II",
+      "empresa": "Houston Rx LLC",
+      "motivo": "Lack of assurance of sterility.",
+      "produto": "Tirzepatide/Niacinamide 2mL vial (40 MG per Vial) Inj 20mg/2mg/mL, RX Only, Houston RX LLC, 15430 Va"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Carolina Infusion, LLC",
+      "motivo": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
+      "produto": "TIRZEPATIDE/CYANOCOBALAMIN 26/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL d"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Apothecary Pharma LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Tirzepatide Injection, 18mg/mL, 4 mL Sterile Multi-Dose Vial, Rx only, Apothecary Pharma, LLC, 1913 "
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2022-09-15",
+    "marcas": [
+     "Mounjaro"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927795047
+  },
+  "ocitocina": {
+   "ensaios": 936,
+   "fase1": 92,
+   "fase2": 184,
+   "fase3": 73,
+   "recrutando": 78,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 29443,
+   "artigosAno": 1164,
+   "fdaRegistros": 3,
+   "fdaAprovacao": {
+    "desde": "1980-07-09",
+    "marcas": [
+     "Oxytocin",
+     "Pitocin"
+    ]
+   },
+   "segurancaAno": 267,
+   "revisoesAno": 43,
+   "bula": {
+    "atualizada": "2026-09-01",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 3,
+    "recentes": [
+     {
+      "data": "2025-10-22",
+      "classe": "Class I",
+      "empresa": "IntegraDose Compounding Services LLC",
+      "motivo": "Subpotent Drug: Testing revealed there was no oxytocin in the IV bag.",
+      "produto": "Oxytocin 30 Units/500 mL in 0.9% Sodium Chloride for intravenous use, Rx only, IntegraDose Compoundi"
+     },
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Oxytocin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boc"
+     },
+     {
+      "data": "2024-10-30",
+      "classe": "Class II",
+      "empresa": "Fresenius Kabi Compounding, LLC",
+      "motivo": "cGMP violations",
+      "produto": "Oxytocin 0.9% Sodium Chloride Injection USP, 30 units per 500 mL Single Dose Bag, Rx only, Fagron St"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927806653
+  },
+  "bpc-157": {
+   "ensaios": 4,
+   "fase1": 2,
+   "fase2": 1,
+   "fase3": 0,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-09-03",
+   "artigos": 224,
+   "artigosAno": 34,
+   "fdaRegistros": 0,
+   "segurancaAno": 18,
+   "revisoesAno": 1,
+   "bula": null,
+   "alertas": {
+    "total": 2,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "BPC-157 for Injection, 15mg/10mL vial, all presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Bo"
+     },
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "BPC-157/Thymosin Beta-4 for Injection, a) 10/10mg, b) 15/15mg, c) 15mg/15mg, all presentations, Geno"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927817454
+  },
+  "tb-500-timosina-beta-4": {
+   "ensaios": 18,
+   "fase1": 4,
+   "fase2": 12,
+   "fase3": 4,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 604,
+   "artigosAno": 17,
+   "fdaRegistros": 0,
+   "segurancaAno": 9,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 2,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Thymosin Beta-4 (TB4) for Injection, 15mg, all presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 20"
+     },
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "BPC-157/Thymosin Beta-4 for Injection, a) 10/10mg, b) 15/15mg, c) 15mg/15mg, all presentations, Geno"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927827843
+  },
+  "hormonio-do-crescimento-somatropina": {
+   "ensaios": 820,
+   "fase1": 81,
+   "fase2": 169,
+   "fase3": 184,
+   "recrutando": 45,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 422,
+   "artigosAno": 44,
+   "fdaRegistros": 5,
+   "fdaAprovacao": {
+    "desde": "1986-10-16",
+    "marcas": [
+     "Bio-Tropin",
+     "Genotropin",
+     "Genotropin Preservative Free",
+     "Humatrope",
+     "Norditropin"
+    ]
+   },
+   "segurancaAno": 27,
+   "revisoesAno": 1,
+   "bula": {
+    "atualizada": "2026-08-20",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2001-02-15",
+    "marcas": [
+     "NutropinAq",
+     "Omnitrope",
+     "Skytrofa (previously Lonapegsomatropin Ascendis Pharma)"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/skytrofa"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927840922
+  },
+  "ipamorelina-cjc-1295": {
+   "ensaios": 3,
+   "fase1": 0,
+   "fase2": 2,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2026-07-21",
+   "artigos": 51,
+   "artigosAno": 10,
+   "fdaRegistros": 0,
+   "segurancaAno": 10,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927859552
+  },
+  "liraglutida": {
+   "ensaios": 520,
+   "fase1": 72,
+   "fase2": 79,
+   "fase3": 113,
+   "recrutando": 26,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 5729,
+   "artigosAno": 803,
+   "fdaRegistros": 9,
+   "fdaAprovacao": {
+    "desde": "2010-01-25",
+    "marcas": [
+     "Liraglutide",
+     "Saxenda",
+     "Victoza"
+    ]
+   },
+   "segurancaAno": 377,
+   "revisoesAno": 102,
+   "bula": {
+    "atualizada": "2026-07-27",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2026-05-27",
+      "classe": "Class II",
+      "empresa": "Lupin Pharmaceuticals Inc.",
+      "motivo": "Presence of particulate matter: a white thread-like structure in the cartridge",
+      "produto": "Liraglutide Injection, 18 mg/3 mL (6 mg/mL), Rx only, Manufactured for: Lupin Pharmaceuticals, Inc.,"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2009-06-30",
+    "marcas": [
+     "Ablymico",
+     "Liraglutide STADA",
+     "Saxenda",
+     "Victoza",
+     "Xultophy"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/liraglutide-stada"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927871497
+  },
+  "insulina": {
+   "ensaios": 8244,
+   "fase1": 786,
+   "fase2": 987,
+   "fase3": 932,
+   "recrutando": 517,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 464386,
+   "artigosAno": 20575,
+   "fdaRegistros": 27,
+   "fdaAprovacao": {
+    "desde": "1982-10-28",
+    "marcas": [
+     "Admelog",
+     "Admelog Solostar",
+     "Afrezza",
+     "Apidra",
+     "Apidra Solostar"
+    ]
+   },
+   "segurancaAno": 4733,
+   "revisoesAno": 745,
+   "bula": {
+    "atualizada": "2026-09-03",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 2,
+    "recentes": [
+     {
+      "data": "2026-09-09",
+      "classe": "Class II",
+      "empresa": "Baxter Healthcare Corporation",
+      "motivo": "CGMP Deviations",
+      "produto": "MYXREDLIN, Insulin Human in 0.9% Sodium Chloride Injection, 100 units/100 mL (1 unit/mL), Rx only, B"
+     },
+     {
+      "data": "2024-04-24",
+      "classe": "Class II",
+      "empresa": "Eli Lilly & Company",
+      "motivo": "CGMP Deviations",
+      "produto": "Sterile Diluent, HUMALOG U-100 (insulin lispro injection), HUMULIN R U-100 REGULAR (insulin human in"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "1996-04-30",
+    "marcas": [
+     "Abasaglar (previously Abasria)",
+     "Actraphane",
+     "Actrapid",
+     "Apidra",
+     "Awiqli"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dazparda"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927884887
+  },
+  "teriparatida": {
+   "ensaios": 182,
+   "fase1": 18,
+   "fase2": 46,
+   "fase3": 34,
+   "recrutando": 6,
+   "ultimaAtualizacao": "2026-10-08",
+   "artigos": 3077,
+   "artigosAno": 296,
+   "fdaRegistros": 2,
+   "fdaAprovacao": {
+    "desde": "2002-11-26",
+    "marcas": [
+     "Forteo",
+     "Teriparatide"
+    ]
+   },
+   "segurancaAno": 92,
+   "revisoesAno": 20,
+   "bula": {
+    "atualizada": "2026-08-03",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2003-06-10",
+    "marcas": [
+     "Forsteo",
+     "Kauliv",
+     "Livogiva",
+     "Movymia",
+     "Sondelbay"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kauliv"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927896696
+  },
+  "ghk-cu": {
+   "ensaios": 4,
+   "fase1": 0,
+   "fase2": 1,
+   "fase3": 0,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-10-22",
+   "artigos": 84,
+   "artigosAno": 25,
+   "fdaRegistros": 0,
+   "segurancaAno": 11,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "GHK-Cu (Copper Peptide) for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd "
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927907767
+  },
+  "melanotan-ii": {
+   "ensaios": 1,
+   "fase1": 0,
+   "fase2": 1,
+   "fase3": 0,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-02-27",
+   "artigos": 252,
+   "artigosAno": 11,
+   "fdaRegistros": 0,
+   "segurancaAno": 6,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927921637
+  },
+  "tesamorelina": {
+   "ensaios": 24,
+   "fase1": 2,
+   "fase2": 10,
+   "fase3": 2,
+   "recrutando": 3,
+   "ultimaAtualizacao": "2026-05-19",
+   "artigos": 95,
+   "artigosAno": 15,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2010-11-10",
+    "marcas": [
+     "Egrifta"
+    ]
+   },
+   "segurancaAno": 10,
+   "revisoesAno": 2,
+   "bula": {
+    "atualizada": "2026-07-29",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Tesamorelin for Injection, 15mg, 10 mL Multi-Dose Vial, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "retirado",
+    "desde": null,
+    "marcas": [
+     "Egrifta"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/egrifta"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927939239
+  },
+  "retatrutida": {
+   "ensaios": 33,
+   "fase1": 14,
+   "fase2": 4,
+   "fase3": 14,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-10-08",
+   "artigos": 210,
+   "artigosAno": 114,
+   "fdaRegistros": 0,
+   "segurancaAno": 66,
+   "revisoesAno": 9,
+   "bula": null,
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Retatrutide for Injection, 60mg / 10mL vial, all presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste "
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927949362
+  },
+  "cagrilintida": {
+   "ensaios": 45,
+   "fase1": 17,
+   "fase2": 5,
+   "fase3": 23,
+   "recrutando": 11,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 105,
+   "artigosAno": 59,
+   "fdaRegistros": 0,
+   "segurancaAno": 34,
+   "revisoesAno": 9,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927960023
+  },
+  "survodutida": {
+   "ensaios": 29,
+   "fase1": 14,
+   "fase2": 3,
+   "fase3": 12,
+   "recrutando": 3,
+   "ultimaAtualizacao": "2026-10-30",
+   "artigos": 91,
+   "artigosAno": 52,
+   "fdaRegistros": 0,
+   "segurancaAno": 25,
+   "revisoesAno": 7,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927970576
+  },
+  "mazdutida": {
+   "ensaios": 44,
+   "fase1": 11,
+   "fase2": 13,
+   "fase3": 11,
+   "recrutando": 9,
+   "ultimaAtualizacao": "2026-10-27",
+   "artigos": 56,
+   "artigosAno": 36,
+   "fdaRegistros": 0,
+   "segurancaAno": 21,
+   "revisoesAno": 5,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927981505
+  },
+  "pramlintida": {
+   "ensaios": 65,
+   "fase1": 8,
+   "fase2": 19,
+   "fase3": 8,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 446,
+   "artigosAno": 17,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2005-03-16",
+    "marcas": [
+     "Symlin"
+    ]
+   },
+   "segurancaAno": 3,
+   "revisoesAno": 0,
+   "bula": {
+    "atualizada": "2019-12-18",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793927996303
+  },
+  "setmelanotida": {
+   "ensaios": 27,
+   "fase1": 4,
+   "fase2": 11,
+   "fase3": 10,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-08-10",
+   "artigos": 221,
+   "artigosAno": 69,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2020-11-25",
+    "marcas": [
+     "Imcivree"
+    ]
+   },
+   "segurancaAno": 21,
+   "revisoesAno": 2,
+   "bula": {
+    "atualizada": "2026-04-01",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2021-07-16",
+    "marcas": [
+     "Imcivree"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imcivree"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928008182
+  },
+  "aod-9604": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 11,
+   "artigosAno": 2,
+   "fdaRegistros": 0,
+   "segurancaAno": 2,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928019015
+  },
+  "pegbelfermina": {
+   "ensaios": 12,
+   "fase1": 6,
+   "fase2": 5,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2022-12-20",
+   "artigos": 24,
+   "artigosAno": 4,
+   "fdaRegistros": 0,
+   "segurancaAno": 2,
+   "revisoesAno": 3,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928030817
+  },
+  "dasiglucagona": {
+   "ensaios": 21,
+   "fase1": 2,
+   "fase2": 10,
+   "fase3": 10,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2026-08-03",
+   "artigos": 48,
+   "artigosAno": 2,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2021-03-22",
+    "marcas": [
+     "Zegalogue",
+     "Zegalogue (Autoinjector)"
+    ]
+   },
+   "segurancaAno": 0,
+   "revisoesAno": 0,
+   "bula": {
+    "atualizada": "2023-01-01",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2024-07-24",
+    "marcas": [
+     "Zegalogue"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zegalogue"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928042602
+  },
+  "sermorelina": {
+   "ensaios": 27,
+   "fase1": 5,
+   "fase2": 7,
+   "fase3": 4,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-05-19",
+   "artigos": 25,
+   "artigosAno": 7,
+   "fdaRegistros": 0,
+   "segurancaAno": 5,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 3,
+    "recentes": [
+     {
+      "data": "2026-10-21",
+      "classe": "Class II",
+      "empresa": "Houston Rx LLC",
+      "motivo": "Lack of process control",
+      "produto": "Sermorelin, 1 mg/mL, 10 ml vial, Sterile injectable solution, RX Only, Houston RX LLC, 15430 Vantage"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Carolina Infusion, LLC",
+      "motivo": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
+      "produto": "SERMORELIN ACETATE 1 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed ba"
+     },
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Sermorelin Lyophilized powder for reconstitution, 10mg, Vial capacity 10 mL Multi-Dose, GenoGenix, L"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928053816
+  },
+  "ghrp-6": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 639,
+   "artigosAno": 13,
+   "fdaRegistros": 0,
+   "segurancaAno": 3,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928064489
+  },
+  "ghrp-2-pralmorelina": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 15,
+   "artigosAno": 1,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928075446
+  },
+  "hexarelina": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 291,
+   "artigosAno": 4,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928086565
+  },
+  "igf-1-lr3": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 11,
+   "artigosAno": 1,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928097596
+  },
+  "mgf-peg-mgf": {
+   "ensaios": 107,
+   "fase1": 16,
+   "fase2": 28,
+   "fase3": 14,
+   "recrutando": 7,
+   "ultimaAtualizacao": "2026-10-28",
+   "artigos": 194,
+   "artigosAno": 2,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928108276
+  },
+  "folistatina-344": {
+   "ensaios": 15,
+   "fase1": 4,
+   "fase2": 2,
+   "fase3": 1,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-10-26",
+   "artigos": 2985,
+   "artigosAno": 143,
+   "fdaRegistros": 0,
+   "segurancaAno": 17,
+   "revisoesAno": 4,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928119556
+  },
+  "kisspeptina-10": {
+   "ensaios": 36,
+   "fase1": 12,
+   "fase2": 8,
+   "fase3": 3,
+   "recrutando": 5,
+   "ultimaAtualizacao": "2026-08-26",
+   "artigos": 3337,
+   "artigosAno": 221,
+   "fdaRegistros": 0,
+   "segurancaAno": 32,
+   "revisoesAno": 4,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928130345
+  },
+  "gonadorelina-gnrh": {
+   "ensaios": 1164,
+   "fase1": 103,
+   "fase2": 408,
+   "fase3": 300,
+   "recrutando": 115,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 299,
+   "artigosAno": 14,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928141297
+  },
+  "leuprorrelina": {
+   "ensaios": 520,
+   "fase1": 44,
+   "fase2": 212,
+   "fase3": 124,
+   "recrutando": 55,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 2359,
+   "artigosAno": 90,
+   "fdaRegistros": 20,
+   "fdaAprovacao": {
+    "desde": "1989-01-26",
+    "marcas": [
+     "Camcevi Kit",
+     "Eligard Kit",
+     "Fensolvi Kit",
+     "Leuprolide Acetate",
+     "Leuprolide Acetate For Depot Suspension"
+    ]
+   },
+   "segurancaAno": 37,
+   "revisoesAno": 4,
+   "bula": {
+    "atualizada": "2026-05-25",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2022-05-24",
+    "marcas": [
+     "Camcevi"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/camcevi"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928153347
+  },
+  "octreotida": {
+   "ensaios": 328,
+   "fase1": 49,
+   "fase2": 111,
+   "fase3": 74,
+   "recrutando": 27,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 9397,
+   "artigosAno": 329,
+   "fdaRegistros": 15,
+   "fdaAprovacao": {
+    "desde": "1988-10-21",
+    "marcas": [
+     "Bynfezia Pen",
+     "Mycapssa",
+     "Octreotide Acetate",
+     "Octreotide Acetate (Preservative Free)",
+     "Sandostatin"
+    ]
+   },
+   "segurancaAno": 71,
+   "revisoesAno": 8,
+   "bula": {
+    "atualizada": "2026-07-22",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 4,
+    "recentes": [
+     {
+      "data": "2026-05-13",
+      "classe": "Class II",
+      "empresa": "Teva Pharmaceuticals USA, Inc",
+      "motivo": "Lack of Assurance of Sterility: Quality system deficiencies identified during a routine U.S Food and Drug Administration (FDA) inspection at the contract manufacturer.",
+      "produto": "Octreotide Acetate for Injectable Suspension, for gluteal intramuscular use, 30 mg, In Single-Dose k"
+     },
+     {
+      "data": "2026-04-01",
+      "classe": "Class II",
+      "empresa": "Teva Pharmaceuticals USA, Inc",
+      "motivo": "Lack of Assurance of Sterility: Quality system deficiencies identified during a routine U.S Food and Drug Administration (FDA) inspection at the contract manufacturer.",
+      "produto": "Octreotide Acetate for Injectable Suspension, for gluteal intramuscular use, 20 mg, Single-dose 8 mL"
+     },
+     {
+      "data": "2026-04-01",
+      "classe": "Class II",
+      "empresa": "Teva Pharmaceuticals USA, Inc",
+      "motivo": "Lack of Assurance of Sterility: Quality system deficiencies identified during a routine U.S Food and Drug Administration (FDA) inspection at the contract manufacturer.",
+      "produto": "Octreotide Acetate for Injectable Suspension, for gluteal intramuscular use, 10 mg, Single-dose 8 mL"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2025-06-30",
+    "marcas": [
+     "Oczyesa"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/oczyesa"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928165110
+  },
+  "abaloparatida": {
+   "ensaios": 25,
+   "fase1": 5,
+   "fase2": 7,
+   "fase3": 7,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-10-13",
+   "artigos": 410,
+   "artigosAno": 63,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2017-04-28",
+    "marcas": [
+     "Tymlos"
+    ]
+   },
+   "segurancaAno": 24,
+   "revisoesAno": 5,
+   "bula": {
+    "atualizada": "2026-08-11",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2022-12-12",
+    "marcas": [
+     "Eladynos"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/eladynos"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928176766
+  },
+  "vosoritida": {
+   "ensaios": 17,
+   "fase1": 2,
+   "fase2": 12,
+   "fase3": 5,
+   "recrutando": 3,
+   "ultimaAtualizacao": "2026-10-22",
+   "artigos": 130,
+   "artigosAno": 60,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2021-11-19",
+    "marcas": [
+     "Voxzogo"
+    ]
+   },
+   "segurancaAno": 28,
+   "revisoesAno": 3,
+   "bula": {
+    "atualizada": "2025-11-25",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2021-08-26",
+    "marcas": [
+     "Voxzogo"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/voxzogo"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928187891
+  },
+  "timosina-alfa-1": {
+   "ensaios": 66,
+   "fase1": 7,
+   "fase2": 33,
+   "fase3": 8,
+   "recrutando": 11,
+   "ultimaAtualizacao": "2026-10-20",
+   "artigos": 582,
+   "artigosAno": 12,
+   "fdaRegistros": 0,
+   "segurancaAno": 5,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928199465
+  },
+  "ll-37": {
+   "ensaios": 20,
+   "fase1": 3,
+   "fase2": 5,
+   "fase3": 1,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 2551,
+   "artigosAno": 201,
+   "fdaRegistros": 0,
+   "segurancaAno": 38,
+   "revisoesAno": 1,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928210152
+  },
+  "kpv": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 68,
+   "artigosAno": 8,
+   "fdaRegistros": 0,
+   "segurancaAno": 3,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928220396
+  },
+  "cibinetida-ara-290": {
+   "ensaios": 4,
+   "fase1": 1,
+   "fase2": 4,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2024-10-04",
+   "artigos": 14,
+   "artigosAno": 3,
+   "fdaRegistros": 0,
+   "segurancaAno": 2,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928231368
+  },
+  "larazotida": {
+   "ensaios": 29,
+   "fase1": 6,
+   "fase2": 13,
+   "fase3": 9,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-10-27",
+   "artigos": 52,
+   "artigosAno": 5,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928242644
+  },
+  "teduglutida": {
+   "ensaios": 50,
+   "fase1": 6,
+   "fase2": 10,
+   "fase3": 22,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-10-15",
+   "artigos": 367,
+   "artigosAno": 49,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2012-12-21",
+    "marcas": [
+     "Gattex Kit"
+    ]
+   },
+   "segurancaAno": 25,
+   "revisoesAno": 1,
+   "bula": {
+    "atualizada": "2025-09-05",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2012-08-30",
+    "marcas": [
+     "Revestive",
+     "Teduglutide Viatris"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/teduglutide-viatris"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928254560
+  },
+  "apraglutida": {
+   "ensaios": 10,
+   "fase1": 5,
+   "fase2": 3,
+   "fase3": 3,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-08-04",
+   "artigos": 29,
+   "artigosAno": 7,
+   "fdaRegistros": 0,
+   "segurancaAno": 4,
+   "revisoesAno": 1,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928264718
+  },
+  "zilucoplana": {
+   "ensaios": 19,
+   "fase1": 2,
+   "fase2": 9,
+   "fase3": 10,
+   "recrutando": 4,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 100,
+   "artigosAno": 41,
+   "fdaRegistros": 0,
+   "segurancaAno": 15,
+   "revisoesAno": 2,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2023-12-01",
+    "marcas": [
+     "Zilbrysq"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zilbrysq"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928275434
+  },
+  "pegcetacoplana": {
+   "ensaios": 37,
+   "fase1": 8,
+   "fase2": 12,
+   "fase3": 12,
+   "recrutando": 8,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 332,
+   "artigosAno": 105,
+   "fdaRegistros": 2,
+   "fdaAprovacao": {
+    "desde": "2021-05-14",
+    "marcas": [
+     "Empaveli",
+     "Syfovre"
+    ]
+   },
+   "segurancaAno": 34,
+   "revisoesAno": 3,
+   "bula": {
+    "atualizada": "2026-08-21",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2021-12-13",
+    "marcas": [
+     "Aspaveli"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aspaveli"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928287967
+  },
+  "angiotensina-1-7": {
+   "ensaios": 79,
+   "fase1": 17,
+   "fase2": 32,
+   "fase3": 8,
+   "recrutando": 13,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 2448,
+   "artigosAno": 110,
+   "fdaRegistros": 0,
+   "segurancaAno": 38,
+   "revisoesAno": 2,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928298939
+  },
+  "elamipretida-ss-31": {
+   "ensaios": 21,
+   "fase1": 5,
+   "fase2": 15,
+   "fase3": 4,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-10-27",
+   "artigos": 208,
+   "artigosAno": 46,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2025-09-19",
+    "marcas": [
+     "Forzinity"
+    ]
+   },
+   "segurancaAno": 11,
+   "revisoesAno": 1,
+   "bula": {
+    "atualizada": "2025-12-10",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928310790
+  },
+  "mots-c": {
+   "ensaios": 5,
+   "fase1": 0,
+   "fase2": 1,
+   "fase3": 0,
+   "recrutando": 3,
+   "ultimaAtualizacao": "2026-07-08",
+   "artigos": 264,
+   "artigosAno": 63,
+   "fdaRegistros": 0,
+   "segurancaAno": 16,
+   "revisoesAno": 1,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928321254
+  },
+  "humanina": {
+   "ensaios": 3,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-07-08",
+   "artigos": 550,
+   "artigosAno": 61,
+   "fdaRegistros": 0,
+   "segurancaAno": 13,
+   "revisoesAno": 1,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928332540
+  },
+  "foxo4-dri": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 19,
+   "artigosAno": 4,
+   "fdaRegistros": 0,
+   "segurancaAno": 0,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928343623
+  },
+  "epitalon-epithalon": {
+   "ensaios": 1,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2026-10-22",
+   "artigos": 64,
+   "artigosAno": 5,
+   "fdaRegistros": 0,
+   "segurancaAno": 3,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928354221
+  },
+  "semax": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 210,
+   "artigosAno": 10,
+   "fdaRegistros": 0,
+   "segurancaAno": 4,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928365903
+  },
+  "selank": {
+   "ensaios": 2,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2023-09-15",
+   "artigos": 68,
+   "artigosAno": 1,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928376537
+  },
+  "dihexa": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 18,
+   "artigosAno": 2,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928387105
+  },
+  "davunetida": {
+   "ensaios": 5,
+   "fase1": 1,
+   "fase2": 4,
+   "fase3": 1,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2019-04-05",
+   "artigos": 82,
+   "artigosAno": 7,
+   "fdaRegistros": 0,
+   "segurancaAno": 0,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928397810
+  },
+  "pinealon": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 15,
+   "artigosAno": 1,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928409094
+  },
+  "bremelanotida-pt-141": {
+   "ensaios": 10,
+   "fase1": 1,
+   "fase2": 4,
+   "fase3": 3,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2026-01-13",
+   "artigos": 95,
+   "artigosAno": 10,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2019-06-21",
+    "marcas": [
+     "Vyleesi (Autoinjector)"
+    ]
+   },
+   "segurancaAno": 4,
+   "revisoesAno": 2,
+   "bula": {
+    "atualizada": "2025-11-13",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928421129
+  },
+  "dermorfina": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 535,
+   "artigosAno": 2,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928432465
+  },
+  "argireline-acetil-hexapeptideo-8": {
+   "ensaios": 7,
+   "fase1": 1,
+   "fase2": 2,
+   "fase3": 1,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2026-10-19",
+   "artigos": 25,
+   "artigosAno": 6,
+   "fdaRegistros": 0,
+   "segurancaAno": 0,
+   "revisoesAno": 0,
+   "bula": {
+    "atualizada": "2025-01-08",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928443435
+  },
+  "matrixyl-palmitoil-pentapeptideo-4": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 9,
+   "artigosAno": 2,
+   "fdaRegistros": 0,
+   "segurancaAno": 2,
+   "revisoesAno": 0,
+   "bula": {
+    "atualizada": "2025-01-08",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928454263
+  },
+  "melitina": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 3098,
+   "artigosAno": 129,
+   "fdaRegistros": 0,
+   "segurancaAno": 53,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928465011
+  },
+  "nisina": {
+   "ensaios": 5,
+   "fase1": 1,
+   "fase2": 1,
+   "fase3": 0,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-07-09",
+   "artigos": 3129,
+   "artigosAno": 139,
+   "fdaRegistros": 0,
+   "segurancaAno": 51,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928476078
+  },
+  "defensinas-humanas": {
+   "ensaios": 22,
+   "fase1": 1,
+   "fase2": 1,
+   "fase3": 2,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-08-12",
+   "artigos": 7480,
+   "artigosAno": 410,
+   "fdaRegistros": 0,
+   "segurancaAno": 111,
+   "revisoesAno": 1,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928487249
+  },
+  "glutationa": {
+   "ensaios": 275,
+   "fase1": 41,
+   "fase2": 69,
+   "fase3": 28,
+   "recrutando": 23,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 180550,
+   "artigosAno": 10980,
+   "fdaRegistros": 1,
+   "segurancaAno": 3645,
+   "revisoesAno": 84,
+   "bula": {
+    "atualizada": "2026-09-09",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 6,
+    "recentes": [
+     {
+      "data": "2026-10-28",
+      "classe": "Class I",
+      "empresa": "Greenwich Rx",
+      "motivo": "Microbial Contamination of Sterile Products",
+      "produto": "Glutathione Injection (Glutathione-L, Ascorbic Acid, Sodium Hydroxide, Bacteriostatic Water), 200 mg"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Not Yet Classified",
+      "empresa": "Centric Compounding LLC",
+      "motivo": "Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+      "produto": "Tri-Immune Boost (Glutathione: 200 mg, Ascorbic Acid: 200 mg, Zinc: 2.5 mg), 30 mL vial, Rx only, Ce"
+     },
+     {
+      "data": "2026-09-09",
+      "classe": "Class I",
+      "empresa": "OPTIMAL BALANCE PHARMACY",
+      "motivo": "Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+      "produto": "Glutathione 200 mg/mL, 30 mL sterile multidose vial, Each vial contains: Glutathione, Ascorbic Acid,"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928498130
+  },
+  "carnosina": {
+   "ensaios": 53,
+   "fase1": 4,
+   "fase2": 9,
+   "fase3": 4,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-10-30",
+   "artigos": 3224,
+   "artigosAno": 198,
+   "fdaRegistros": 0,
+   "segurancaAno": 34,
+   "revisoesAno": 4,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928509034
+  },
+  "testosterona": {
+   "ensaios": 1037,
+   "fase1": 106,
+   "fase2": 280,
+   "fase3": 181,
+   "recrutando": 98,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 103474,
+   "artigosAno": 3898,
+   "fdaRegistros": 39,
+   "fdaAprovacao": {
+    "desde": "1972-07-13",
+    "marcas": [
+     "Androgel",
+     "Aveed",
+     "Azmiro",
+     "Depo-Testosterone",
+     "Natesto"
+    ]
+   },
+   "segurancaAno": 1132,
+   "revisoesAno": 144,
+   "bula": {
+    "atualizada": "2026-08-24",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 47,
+    "recentes": [
+     {
+      "data": "2026-10-28",
+      "classe": "Class II",
+      "empresa": "Right Value Drug Stores LLC",
+      "motivo": "Lack of sterility assurance.",
+      "produto": "Testosterone Cypionate, 200 mg/mL, packaged in a) 5 mL vials (NDC 73271-1225-1) and b) 30 m vials ( "
+     },
+     {
+      "data": "2026-02-18",
+      "classe": "Class II",
+      "empresa": "F.H. INVESTMENTS, Inc. (dba Asteria Health)",
+      "motivo": "Presence of Foreign substance - potential presence of metal particulate matter",
+      "produto": "Testosterone, 100 mg, 1 Sterile Pellet, Asteria Health 432 Industrial Ln, Birmingham, AL 35211, NDC:"
+     },
+     {
+      "data": "2026-02-18",
+      "classe": "Class II",
+      "empresa": "F.H. INVESTMENTS, Inc. (dba Asteria Health)",
+      "motivo": "Presence of Foreign substance - potential presence of metal particulate matter",
+      "produto": "Testosterone, 200 mg, 1 Sterile Pellet, Asteria Health 432 Industrial Ln, Birmingham, AL 35211, NDC:"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "retirado",
+    "desde": "2006-07-28",
+    "marcas": [
+     "Intrinsa",
+     "Livensa"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/intrinsa"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928521043
+  },
+  "estradiol": {
+   "ensaios": 2022,
+   "fase1": 436,
+   "fase2": 567,
+   "fase3": 358,
+   "recrutando": 205,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 97654,
+   "artigosAno": 2856,
+   "fdaRegistros": 234,
+   "fdaAprovacao": {
+    "desde": "1994-12-22",
+    "marcas": [
+     "Climara",
+     "Elestrin",
+     "Estradiol",
+     "Estradiol Valerate",
+     "Estrogel"
+    ]
+   },
+   "segurancaAno": 734,
+   "revisoesAno": 64,
+   "bula": {
+    "atualizada": "2026-09-09",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 23,
+    "recentes": [
+     {
+      "data": "2026-10-07",
+      "classe": "Class II",
+      "empresa": "Amneal Pharmaceuticals, LLC",
+      "motivo": "Defective Container; packets were found to be either empty or partially full.",
+      "produto": "Estradiol Gel, 0.1%, 0.25 mg, 30-packets per carton, Rx only, Distributed by: Amneal Pharmaceuticals"
+     },
+     {
+      "data": "2026-06-24",
+      "classe": "Class II",
+      "empresa": "Glenmark Pharmaceuticals Inc., USA",
+      "motivo": "Failed Impurities/Degradation Specifications: This recall is being initiated due to out-of-specification results total impurities.",
+      "produto": "Alyacen 7/7/7, Norethindrone and Ethinyl Estradiol Tablets USP, 0.5mg/0.035mg, 0.75mg/0.035mg, 1 mg/"
+     },
+     {
+      "data": "2026-05-27",
+      "classe": "Class II",
+      "empresa": "ANI Pharmaceuticals, Inc.",
+      "motivo": "Defective Container; packets were found to be either empty or partially full.",
+      "produto": "Estradiol Gel, 0.1%, 0.25 mg, 0.25 g per packet, 30 packets per carton, Rx only, Distributed by: ANI"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2002-08-22",
+    "marcas": [
+     "Evra",
+     "Ryeqo",
+     "Zoely"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ryeqo"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928540103
+  },
+  "progesterona": {
+   "ensaios": 1265,
+   "fase1": 103,
+   "fase2": 273,
+   "fase3": 214,
+   "recrutando": 123,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 102306,
+   "artigosAno": 3122,
+   "fdaRegistros": 14,
+   "fdaAprovacao": {
+    "desde": "1997-07-31",
+    "marcas": [
+     "Crinone",
+     "Endometrin",
+     "Progesterone",
+     "Prometrium"
+    ]
+   },
+   "segurancaAno": 600,
+   "revisoesAno": 67,
+   "bula": {
+    "atualizada": "2026-08-24",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 3,
+    "recentes": [
+     {
+      "data": "2025-01-15",
+      "classe": "Class II",
+      "empresa": "Eugia US LLC",
+      "motivo": "Presence of Particulate Matter: A market complaint was received of a glass piece in the vial.",
+      "produto": "Progesterone Injection USP, 500mg per 10 mL (50mg/mL), 10 mL Multiple Dose Vial, Rx Only, Mfd. in In"
+     },
+     {
+      "data": "2024-08-07",
+      "classe": "Class II",
+      "empresa": "Eugia US LLC",
+      "motivo": "Presence of Particulate Matter: Complaint received of a glass particle in the vial.",
+      "produto": "Progesterone Injection, USP, 500 mg per 10 mL (50mg/mL), 10 mL Multiple-Dose Vial, Rx Only, Mfd. in "
+     },
+     {
+      "data": "2024-07-03",
+      "classe": "Class II",
+      "empresa": "Coast Quality Pharmacy, LLC dba Anazao Health",
+      "motivo": "Presence of Foreign Substance; Broken metal piece found embedded in tablet.",
+      "produto": "Progesterone 200 mg, Compounded, 90-count bottle, Rx, Dissolve One Sublingual Tablet After Dinner Ni"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928551804
+  },
+  "hidrocortisona-cortisol": {
+   "ensaios": 1596,
+   "fase1": 133,
+   "fase2": 262,
+   "fase3": 163,
+   "recrutando": 177,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 21406,
+   "artigosAno": 559,
+   "fdaRegistros": 62,
+   "fdaAprovacao": {
+    "desde": "1952-12-15",
+    "marcas": [
+     "Ala-Cort",
+     "Ala-Scalp",
+     "Alkindi Sprinkle",
+     "Anusol Hc",
+     "Colocort"
+    ]
+   },
+   "segurancaAno": 187,
+   "revisoesAno": 19,
+   "bula": {
+    "atualizada": "2026-09-04",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 9,
+    "recentes": [
+     {
+      "data": "2026-10-21",
+      "classe": "Class II",
+      "empresa": "Zydus Pharmaceuticals (USA) Inc",
+      "motivo": "Failed Impurities/Degradation Specifications.",
+      "produto": "Hydrocortisone Sodium Succinate for Injection, USP 100 mg/vial, 1 Vial, Rx Only, Manufactured by: Zy"
+     },
+     {
+      "data": "2026-06-24",
+      "classe": "Class II",
+      "empresa": "Dabur India Limited",
+      "motivo": "CGMP Deviations; deficiencies observed during FDA inspection",
+      "produto": "Med Pride, HYDROCORTISONE CREAM 1%, Net Wt. 1 oz (28.3g) tubes, Manufactured for: Shield Line LLC, 5"
+     },
+     {
+      "data": "2026-06-24",
+      "classe": "Class II",
+      "empresa": "Dabur India Limited",
+      "motivo": "CGMP Deviations; deficiencies observed during FDA inspection",
+      "produto": "Med Pride, HYDROCORTISONE CREAM 1%, Net Wt. 16oz (454g) tubes, Manufactured for: Shield Line LLC, 59"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2011-11-03",
+    "marcas": [
+     "Alkindi",
+     "Efmody",
+     "Plenadren"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/alkindi"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928566351
+  },
+  "dhea-prasterona": {
+   "ensaios": 141,
+   "fase1": 12,
+   "fase2": 35,
+   "fase3": 47,
+   "recrutando": 8,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 184,
+   "artigosAno": 14,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2016-11-16",
+    "marcas": [
+     "Intrarosa"
+    ]
+   },
+   "segurancaAno": 4,
+   "revisoesAno": 1,
+   "bula": {
+    "atualizada": "2026-07-17",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2018-01-08",
+    "marcas": [
+     "Intrarosa"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/intrarosa"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928577708
+  },
+  "levotiroxina-t4": {
+   "ensaios": 341,
+   "fase1": 41,
+   "fase2": 44,
+   "fase3": 37,
+   "recrutando": 29,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 6670,
+   "artigosAno": 623,
+   "fdaRegistros": 20,
+   "fdaAprovacao": {
+    "desde": "2000-08-21",
+    "marcas": [
+     "Levo-T",
+     "Levothyroxine Sodium",
+     "Levoxyl",
+     "Synthroid",
+     "Thyquidity"
+    ]
+   },
+   "segurancaAno": 161,
+   "revisoesAno": 18,
+   "bula": {
+    "atualizada": "2026-09-10",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 66,
+    "recentes": [
+     {
+      "data": "2026-10-28",
+      "classe": "Class II",
+      "empresa": "Pfizer",
+      "motivo": "Subpotent Drug: confirmed out-of-specification (OOS) assay during stability testing.",
+      "produto": "Levoxyl (levothyroxine sodium tablets, USP), tablets, 175 mcg, 100 tablet bottle, Rx only, Distribut"
+     },
+     {
+      "data": "2026-10-28",
+      "classe": "Class II",
+      "empresa": "Pfizer",
+      "motivo": "Subpotent Drug: confirmed out-of-specification (OOS) assay during stability testing.",
+      "produto": "Levoxyl (levothyroxine sodium tablets, USP), tablets, 175 mcg, 1000-count bottle, Rx only,  Distribu"
+     },
+     {
+      "data": "2026-09-23",
+      "classe": "Class I",
+      "empresa": "VITRUVIAS THERAPEUTICS INC",
+      "motivo": "Superpotent Drug",
+      "produto": "Thyroid Tablets, USP, 1/2 Grain (30 mg), Each tablet contains: levothyroxine (T4) 19 mcg, liothyroni"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928589619
+  },
+  "liotironina-t3": {
+   "ensaios": 906,
+   "fase1": 80,
+   "fase2": 98,
+   "fase3": 46,
+   "recrutando": 115,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 478,
+   "artigosAno": 35,
+   "fdaRegistros": 7,
+   "fdaAprovacao": {
+    "desde": "1956-05-08",
+    "marcas": [
+     "Cytomel",
+     "Liothyronine Sodium"
+    ]
+   },
+   "segurancaAno": 10,
+   "revisoesAno": 3,
+   "bula": {
+    "atualizada": "2026-06-04",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 4,
+    "recentes": [
+     {
+      "data": "2026-09-23",
+      "classe": "Class I",
+      "empresa": "VITRUVIAS THERAPEUTICS INC",
+      "motivo": "Superpotent Drug",
+      "produto": "Thyroid Tablets, USP, 1/2 Grain (30 mg), Each tablet contains: levothyroxine (T4) 19 mcg, liothyroni"
+     },
+     {
+      "data": "2023-12-20",
+      "classe": "Class II",
+      "empresa": "SUN PHARMACEUTICAL INDUSTRIES INC",
+      "motivo": "Failed Impurities/Degradation Specifications",
+      "produto": "Liothyronine Sodium Tablets, USP 5 mcg, 100-count bottle, Rx Only, Distributed by: Sun Pharmaceutica"
+     },
+     {
+      "data": "2023-11-08",
+      "classe": "Class II",
+      "empresa": "SUN PHARMACEUTICAL INDUSTRIES INC",
+      "motivo": "Failed Impurities/Degradation Specifications.",
+      "produto": "Liothyronine Sodium Tablets, USP, 5 mcg, 100-count bottles, Rx only, Distributed by: Sun Pharmaceuti"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928600866
+  },
+  "melatonina": {
+   "ensaios": 725,
+   "fase1": 55,
+   "fase2": 152,
+   "fase3": 100,
+   "recrutando": 88,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 36071,
+   "artigosAno": 2300,
+   "fdaRegistros": 0,
+   "segurancaAno": 605,
+   "revisoesAno": 105,
+   "bula": {
+    "atualizada": "2026-09-08",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2007-06-29",
+    "marcas": [
+     "Circadin",
+     "Melatonin Neurim",
+     "Slenyto"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/slenyto"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928612546
+  },
+  "gonadotrofina-corionica-hcg": {
+   "ensaios": 414,
+   "fase1": 22,
+   "fase2": 57,
+   "fase3": 64,
+   "recrutando": 26,
+   "ultimaAtualizacao": "2026-10-23",
+   "artigos": 19533,
+   "artigosAno": 661,
+   "fdaRegistros": 1,
+   "segurancaAno": 109,
+   "revisoesAno": 15,
+   "bula": {
+    "atualizada": "2025-04-11",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928629419
+  },
+  "glucagon": {
+   "ensaios": 1531,
+   "fase1": 242,
+   "fase2": 306,
+   "fase3": 250,
+   "recrutando": 192,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 56943,
+   "artigosAno": 5777,
+   "fdaRegistros": 6,
+   "fdaAprovacao": {
+    "desde": "2015-05-08",
+    "marcas": [
+     "Baqsimi",
+     "Glucagon",
+     "Gvoke Hypopen",
+     "Gvoke Kit",
+     "Gvoke Pfs"
+    ]
+   },
+   "segurancaAno": 2220,
+   "revisoesAno": 367,
+   "bula": {
+    "atualizada": "2026-08-11",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2026-07-08",
+      "classe": "Class II",
+      "empresa": "Lupin Pharmaceuticals Inc.",
+      "motivo": "CGMP deviation: OOS result observed for the Gliding Force functionality test during 12-month long term stability testing.",
+      "produto": "Glucagon Emergency Kit for Low Blood Sugar, Glucagon for Injection USP, 1mg per vial, Diluent for Gl"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2019-12-16",
+    "marcas": [
+     "Baqsimi",
+     "Ogluo",
+     "Zegalogue"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zegalogue"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928642270
+  },
+  "calcitonina": {
+   "ensaios": 154,
+   "fase1": 11,
+   "fase2": 15,
+   "fase3": 17,
+   "recrutando": 14,
+   "ultimaAtualizacao": "2026-10-19",
+   "artigos": 30001,
+   "artigosAno": 1093,
+   "fdaRegistros": 11,
+   "fdaAprovacao": {
+    "desde": "1986-07-03",
+    "marcas": [
+     "Calcitonin-Salmon",
+     "Miacalcin"
+    ]
+   },
+   "segurancaAno": 268,
+   "revisoesAno": 39,
+   "bula": {
+    "atualizada": "2026-09-10",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "retirado",
+    "desde": "1999-01-11",
+    "marcas": [
+     "Forcaltonin"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/forcaltonin"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928654546
+  },
+  "desmopressina": {
+   "ensaios": 127,
+   "fase1": 6,
+   "fase2": 19,
+   "fase3": 23,
+   "recrutando": 10,
+   "ultimaAtualizacao": "2026-10-30",
+   "artigos": 4303,
+   "artigosAno": 233,
+   "fdaRegistros": 19,
+   "fdaAprovacao": {
+    "desde": "1984-03-30",
+    "marcas": [
+     "Ddavp",
+     "Desmoda",
+     "Desmopressin Acetate",
+     "Stimate",
+     "Stimate (Needs No Refrigeration)"
+    ]
+   },
+   "segurancaAno": 64,
+   "revisoesAno": 11,
+   "bula": {
+    "atualizada": "2026-08-27",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2026-04-22",
+      "classe": "Class II",
+      "empresa": "Apotex Corp.",
+      "motivo": "Defective container: defect in a batch of bottle caps, specifically involving dislodged or missing cap liners.",
+      "produto": "Desmopressin Nasal Spray, USP, 10 mcg/0.1 mL, 5 mL bottle (50 doses), Rx only, Mfg by: Apotek inc., "
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928666182
+  },
+  "metreleptina": {
+   "ensaios": 39,
+   "fase1": 4,
+   "fase2": 23,
+   "fase3": 6,
+   "recrutando": 5,
+   "ultimaAtualizacao": "2026-10-27",
+   "artigos": 256,
+   "artigosAno": 29,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2014-02-24",
+    "marcas": [
+     "Myalept"
+    ]
+   },
+   "segurancaAno": 5,
+   "revisoesAno": 0,
+   "bula": {
+    "atualizada": "2024-03-25",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2018-07-30",
+    "marcas": [
+     "Myalepta"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/myalepta"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928677276
+  },
+  "vitamina-d3-colecalciferol": {
+   "ensaios": 3310,
+   "fase1": 203,
+   "fase2": 482,
+   "fase3": 391,
+   "recrutando": 157,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 4076,
+   "artigosAno": 213,
+   "fdaRegistros": 5,
+   "segurancaAno": 65,
+   "revisoesAno": 10,
+   "bula": {
+    "atualizada": "2026-07-23",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928689805
+  },
+  "vitamina-b12-cobalamina": {
+   "ensaios": 763,
+   "fase1": 42,
+   "fase2": 126,
+   "fase3": 100,
+   "recrutando": 61,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 1671,
+   "artigosAno": 65,
+   "fdaRegistros": 20,
+   "fdaAprovacao": {
+    "desde": "1971-10-20",
+    "marcas": [
+     "Cyanocobalamin",
+     "Nascobal",
+     "Vibisone"
+    ]
+   },
+   "segurancaAno": 17,
+   "revisoesAno": 0,
+   "bula": {
+    "atualizada": "2026-09-02",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 23,
+    "recentes": [
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Carolina Infusion, LLC",
+      "motivo": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
+      "produto": "TIRZEPATIDE/CYANOCOBALAMIN 26/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL d"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Carolina Infusion, LLC",
+      "motivo": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
+      "produto": "TIRZEPATIDE/CYANOCOBALAMIN 85/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL d"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "Carolina Infusion, LLC",
+      "motivo": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
+      "produto": "TIRZEPATIDE/CYANOCOBALAMIN 64/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL d"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928703613
+  },
+  "vitamina-c-acido-ascorbico": {
+   "ensaios": 1252,
+   "fase1": 111,
+   "fase2": 241,
+   "fase3": 160,
+   "recrutando": 94,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 43882,
+   "artigosAno": 1953,
+   "fdaRegistros": 9,
+   "fdaAprovacao": {
+    "desde": "2017-10-02",
+    "marcas": [
+     "Ascor",
+     "Ascorbic Acid"
+    ]
+   },
+   "segurancaAno": 421,
+   "revisoesAno": 17,
+   "bula": {
+    "atualizada": "2026-08-19",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 8,
+    "recentes": [
+     {
+      "data": "2026-10-28",
+      "classe": "Class I",
+      "empresa": "Greenwich Rx",
+      "motivo": "Microbial Contamination of Sterile Products",
+      "produto": "Glutathione Injection (Glutathione-L, Ascorbic Acid, Sodium Hydroxide, Bacteriostatic Water), 200 mg"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Not Yet Classified",
+      "empresa": "Centric Compounding LLC",
+      "motivo": "Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+      "produto": "Tri-Immune Boost (Glutathione: 200 mg, Ascorbic Acid: 200 mg, Zinc: 2.5 mg), 30 mL vial, Rx only, Ce"
+     },
+     {
+      "data": "2026-09-09",
+      "classe": "Class I",
+      "empresa": "OPTIMAL BALANCE PHARMACY",
+      "motivo": "Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+      "produto": "Glutathione 200 mg/mL, 30 mL sterile multidose vial, Each vial contains: Glutathione, Ascorbic Acid,"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928718760
+  },
+  "vitamina-b6-piridoxina": {
+   "ensaios": 388,
+   "fase1": 23,
+   "fase2": 64,
+   "fase3": 74,
+   "recrutando": 29,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 7210,
+   "artigosAno": 206,
+   "fdaRegistros": 9,
+   "fdaAprovacao": {
+    "desde": "1972-08-14",
+    "marcas": [
+     "Pyridoxine Hydrochloride"
+    ]
+   },
+   "segurancaAno": 62,
+   "revisoesAno": 4,
+   "bula": {
+    "atualizada": "2026-08-24",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 6,
+    "recentes": [
+     {
+      "data": "2026-09-09",
+      "classe": "Class III",
+      "empresa": "Bionpharma Inc.",
+      "motivo": "Presence of Foreign Tablets/Capsules",
+      "produto": "Doxylamine Succinate and Pyridoxine HCl Delayed-Release tablets 10 mg/10 mg, 100-count bottle, Rx On"
+     },
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "B6 (Pyridoxine HCl) for Injections, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave"
+     },
+     {
+      "data": "2025-07-02",
+      "classe": "Class II",
+      "empresa": "Thrive Health and Wellness, LLC, dba Thrive Health Solutions (Colorado)",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "LX Bioboost Plus, (Each 1mL contains Methionine 25 mg, Inositol 50 mg, Choline Chloride 50 mg, Pyrid"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928732032
+  },
+  "folato-vitamina-b9": {
+   "ensaios": 2744,
+   "fase1": 471,
+   "fase2": 1153,
+   "fase3": 580,
+   "recrutando": 312,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 29056,
+   "artigosAno": 1280,
+   "fdaRegistros": 13,
+   "fdaAprovacao": {
+    "desde": "1986-02-18",
+    "marcas": [
+     "Folic Acid"
+    ]
+   },
+   "segurancaAno": 384,
+   "revisoesAno": 54,
+   "bula": {
+    "atualizada": "2026-09-11",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 2,
+    "recentes": [
+     {
+      "data": "2026-05-27",
+      "classe": "Class II",
+      "empresa": "Safecor Health, LLC",
+      "motivo": "Presence of a Foreign Substance; black particles observed in liquid",
+      "produto": "Vitamin B-Complex, Vitamin C & Folic Acid Dietary Supplement Oral Liquid, Contains: Folic Acid 799 m"
+     },
+     {
+      "data": "2024-01-03",
+      "classe": "Class II",
+      "empresa": "CARDINAL HEALTHCARE",
+      "motivo": "CGMP Deviations: Products were exposed to temperatures outside of the products labeled storage conditions.",
+      "produto": "FOLIC ACID TABLETS, USP, 1MG, 100 Tablets per bottle, Rx Only, Manufactured by: Leading Pharma, LLC,"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "retirado",
+    "desde": null,
+    "marcas": [
+     "Neocepri"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/neocepri"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928743366
+  },
+  "vitamina-k2-menaquinona": {
+   "ensaios": 9,
+   "fase1": 0,
+   "fase2": 2,
+   "fase3": 3,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2025-06-27",
+   "artigos": 192,
+   "artigosAno": 5,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928754978
+  },
+  "vitamina-a-retinol": {
+   "ensaios": 789,
+   "fase1": 82,
+   "fase2": 161,
+   "fase3": 116,
+   "recrutando": 44,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 16952,
+   "artigosAno": 510,
+   "fdaRegistros": 0,
+   "segurancaAno": 120,
+   "revisoesAno": 5,
+   "bula": {
+    "atualizada": "2026-03-07",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928765825
+  },
+  "vitamina-e-tocoferol": {
+   "ensaios": 282,
+   "fase1": 23,
+   "fase2": 74,
+   "fase3": 48,
+   "recrutando": 13,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 18197,
+   "artigosAno": 403,
+   "fdaRegistros": 4,
+   "segurancaAno": 78,
+   "revisoesAno": 3,
+   "bula": {
+    "atualizada": "2026-07-23",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928776807
+  },
+  "niacina-vitamina-b3": {
+   "ensaios": 1455,
+   "fase1": 318,
+   "fase2": 554,
+   "fase3": 221,
+   "recrutando": 101,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 6247,
+   "artigosAno": 262,
+   "fdaRegistros": 8,
+   "fdaAprovacao": {
+    "desde": "2000-05-03",
+    "marcas": [
+     "Niacin",
+     "Niacor"
+    ]
+   },
+   "segurancaAno": 60,
+   "revisoesAno": 6,
+   "bula": {
+    "atualizada": "2026-08-11",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 6,
+    "recentes": [
+     {
+      "data": "2026-06-17",
+      "classe": "Class II",
+      "empresa": "Golden State Medical Supply Inc.",
+      "motivo": "Failed Dissolution Specifications: During 12-month long-term stability testing, subject lot was out of specification (low) for stage 3 dissolution at the 24-hour timepoint.",
+      "produto": "GSMS Incorporated, NIACIN EXTENDED-RELEASE TABLETS, USP, 1,000 MG, 90 tablets, Rx only, Manufactured"
+     },
+     {
+      "data": "2026-06-10",
+      "classe": "Class II",
+      "empresa": "Lannett Company Inc.",
+      "motivo": "Failed Dissolution Specifications: during 12M LT stability testing OOS low for Stage 3 dissolution at the 24-hour timepoint.",
+      "produto": "Niacin Extended-release Tablets, USP, 1,000 mg, 90-count bottles, Rx Only, Distributed by: Lannett C"
+     },
+     {
+      "data": "2025-11-26",
+      "classe": "Class II",
+      "empresa": "Golden State Medical Supply Inc.",
+      "motivo": "Failed Dissolution Specifications",
+      "produto": "NIACIN Extended-Release Tablets, USP, 1,000 mg, 90 tablets per bottle, Rx only, Manufactured by: Kre"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928787697
+  },
+  "nad": {
+   "ensaios": 270,
+   "fase1": 45,
+   "fase2": 71,
+   "fase3": 26,
+   "recrutando": 46,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 17193,
+   "artigosAno": 969,
+   "fdaRegistros": 0,
+   "segurancaAno": 177,
+   "revisoesAno": 4,
+   "bula": null,
+   "alertas": {
+    "total": 4,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "NAD+ (Nicotinamide adenine dinucleotide), a) 50 mg/mL, b) 100 mg/mL, 10 mL multi-dose vials, all str"
+     },
+     {
+      "data": "2025-10-15",
+      "classe": "Class I",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Microbial Contamination of Sterile Products: elevated endotoxin levels",
+      "produto": "NAD+ (Nicotinamide adenine dinucleotide) for Injection, a) 100 mg/mL b) 200 mg/mL, 10 mL multi-dose "
+     },
+     {
+      "data": "2025-07-02",
+      "classe": "Class II",
+      "empresa": "Thrive Health and Wellness, LLC, dba Thrive Health Solutions (Colorado)",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Nicotinamide adenine dinucleotide (NAD+): 100mg/mL, pre-filled syringe, Thrive Health Solutions, 88 "
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928798375
+  },
+  "nmn-mononucleotideo-de-nicotinamida": {
+   "ensaios": 33,
+   "fase1": 6,
+   "fase2": 6,
+   "fase3": 1,
+   "recrutando": 12,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 1552,
+   "artigosAno": 237,
+   "fdaRegistros": 0,
+   "segurancaAno": 53,
+   "revisoesAno": 5,
+   "bula": {
+    "atualizada": "2026-07-05",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928809069
+  },
+  "nicotinamida-ribosideo-nr": {
+   "ensaios": 126,
+   "fase1": 20,
+   "fase2": 48,
+   "fase3": 5,
+   "recrutando": 36,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 959,
+   "artigosAno": 142,
+   "fdaRegistros": 0,
+   "segurancaAno": 31,
+   "revisoesAno": 4,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928820505
+  },
+  "l-carnitina": {
+   "ensaios": 314,
+   "fase1": 16,
+   "fase2": 89,
+   "fase3": 55,
+   "recrutando": 19,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 6777,
+   "artigosAno": 342,
+   "fdaRegistros": 0,
+   "segurancaAno": 106,
+   "revisoesAno": 11,
+   "bula": {
+    "atualizada": "2026-08-25",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 3,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "L-Carnitine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 "
+     },
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Lipo MIC + L-Carnitine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd A"
+     },
+     {
+      "data": "2025-07-02",
+      "classe": "Class II",
+      "empresa": "Thrive Health and Wellness, LLC, dba Thrive Health Solutions (Colorado)",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "LX Bioboost Plus, (Each 1mL contains Methionine 25 mg, Inositol 50 mg, Choline Chloride 50 mg, Pyrid"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928831252
+  },
+  "acetil-l-carnitina": {
+   "ensaios": 67,
+   "fase1": 6,
+   "fase2": 21,
+   "fase3": 9,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-10-06",
+   "artigos": 1183,
+   "artigosAno": 47,
+   "fdaRegistros": 0,
+   "segurancaAno": 11,
+   "revisoesAno": 2,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928842533
+  },
+  "acido-alfa-lipoico": {
+   "ensaios": 242,
+   "fase1": 39,
+   "fase2": 67,
+   "fase3": 36,
+   "recrutando": 18,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 4047,
+   "artigosAno": 280,
+   "fdaRegistros": 0,
+   "segurancaAno": 88,
+   "revisoesAno": 8,
+   "bula": {
+    "atualizada": "2025-03-20",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Alpha Lipoic Acid for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave St"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928853523
+  },
+  "n-acetilcisteina-nac": {
+   "ensaios": 673,
+   "fase1": 105,
+   "fase2": 223,
+   "fase3": 113,
+   "recrutando": 46,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 15966,
+   "artigosAno": 1045,
+   "fdaRegistros": 0,
+   "segurancaAno": 425,
+   "revisoesAno": 29,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928864517
+  },
+  "coenzima-q10": {
+   "ensaios": 265,
+   "fase1": 20,
+   "fase2": 64,
+   "fase3": 41,
+   "recrutando": 24,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 5194,
+   "artigosAno": 383,
+   "fdaRegistros": 0,
+   "segurancaAno": 102,
+   "revisoesAno": 20,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928875561
+  },
+  "creatina": {
+   "ensaios": 369,
+   "fase1": 17,
+   "fase2": 37,
+   "fase3": 23,
+   "recrutando": 51,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 54751,
+   "artigosAno": 2449,
+   "fdaRegistros": 0,
+   "segurancaAno": 658,
+   "revisoesAno": 77,
+   "bula": {
+    "atualizada": "2026-01-20",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928886740
+  },
+  "taurina": {
+   "ensaios": 155,
+   "fase1": 16,
+   "fase2": 36,
+   "fase3": 11,
+   "recrutando": 15,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 17294,
+   "artigosAno": 840,
+   "fdaRegistros": 4,
+   "segurancaAno": 191,
+   "revisoesAno": 12,
+   "bula": {
+    "atualizada": "2026-08-19",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Taurine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "retirado",
+    "desde": null,
+    "marcas": [
+     "Albrioza"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/albrioza"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928898959
+  },
+  "glicina": {
+   "ensaios": 247,
+   "fase1": 37,
+   "fase2": 65,
+   "fase3": 24,
+   "recrutando": 16,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 77028,
+   "artigosAno": 3013,
+   "fdaRegistros": 14,
+   "fdaAprovacao": {
+    "desde": "1978-02-06",
+    "marcas": [
+     "Aminoacetic Acid 1.5% In Plastic Container",
+     "Glycine 1.5% In Plastic Container"
+    ]
+   },
+   "segurancaAno": 466,
+   "revisoesAno": 19,
+   "bula": {
+    "atualizada": "2026-08-19",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 7,
+    "recentes": [
+     {
+      "data": "2026-08-19",
+      "classe": "Class II",
+      "empresa": "Apollo Care, LLC",
+      "motivo": "Presence of Particulate Matter; identified as a nylon/polyamide and silk/proteinaceous-type material",
+      "produto": "SEMAGLUTIDE 7.5mg (5mg/mL), Glycine 7.5 mg (5mg/mL), 1.5 mL Sterile Multi-Dose Vial, Rx Only, For Su"
+     },
+     {
+      "data": "2026-08-19",
+      "classe": "Class II",
+      "empresa": "Apollo Care, LLC",
+      "motivo": "Presence of Particulate Matter; identified as a nylon/polyamide and silk/proteinaceous-type material",
+      "produto": "SEMAGLUTIDE 2.5mg (1mg/mL), Glycine 12.5 mg (5mg/mL), 2.5 mL Sterile Multi-Dose Vial, Rx Only, For S"
+     },
+     {
+      "data": "2026-08-19",
+      "classe": "Class II",
+      "empresa": "Apollo Care, LLC",
+      "motivo": "Presence of Particulate Matter; identified as a nylon/polyamide and silk/proteinaceous-type material",
+      "produto": "SEMAGLUTIDE 20mg (5mg/mL), Glycine 20 mg (5mg/mL), 4 mL Sterile Multi-Dose Vial, Rx Only, For Subcut"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928911988
+  },
+  "omega-3-epa-dha": {
+   "ensaios": 527,
+   "fase1": 30,
+   "fase2": 88,
+   "fase3": 64,
+   "recrutando": 40,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 1,
+   "artigosAno": 1,
+   "fdaRegistros": 0,
+   "segurancaAno": 0,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928923287
+  },
+  "citicolina": {
+   "ensaios": 74,
+   "fase1": 5,
+   "fase2": 12,
+   "fase3": 15,
+   "recrutando": 7,
+   "ultimaAtualizacao": "2026-10-06",
+   "artigos": 700,
+   "artigosAno": 66,
+   "fdaRegistros": 0,
+   "segurancaAno": 19,
+   "revisoesAno": 9,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928934390
+  },
+  "ergotioneina": {
+   "ensaios": 4,
+   "fase1": 1,
+   "fase2": 1,
+   "fase3": 0,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-08-06",
+   "artigos": 119,
+   "artigosAno": 13,
+   "fdaRegistros": 0,
+   "segurancaAno": 4,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928944819
+  },
+  "resveratrol": {
+   "ensaios": 238,
+   "fase1": 33,
+   "fase2": 40,
+   "fase3": 18,
+   "recrutando": 13,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 21510,
+   "artigosAno": 1733,
+   "fdaRegistros": 0,
+   "segurancaAno": 507,
+   "revisoesAno": 44,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928955351
+  },
+  "pterostilbeno": {
+   "ensaios": 21,
+   "fase1": 4,
+   "fase2": 5,
+   "fase3": 2,
+   "recrutando": 4,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 1152,
+   "artigosAno": 129,
+   "fdaRegistros": 0,
+   "segurancaAno": 36,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928966437
+  },
+  "urolitina-a": {
+   "ensaios": 35,
+   "fase1": 1,
+   "fase2": 4,
+   "fase3": 1,
+   "recrutando": 7,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 725,
+   "artigosAno": 169,
+   "fdaRegistros": 0,
+   "segurancaAno": 62,
+   "revisoesAno": 4,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928977566
+  },
+  "espermidina": {
+   "ensaios": 24,
+   "fase1": 2,
+   "fase2": 3,
+   "fase3": 1,
+   "recrutando": 4,
+   "ultimaAtualizacao": "2026-10-27",
+   "artigos": 10976,
+   "artigosAno": 499,
+   "fdaRegistros": 0,
+   "segurancaAno": 111,
+   "revisoesAno": 2,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928988502
+  },
+  "pqq-pirroloquinolina-quinona": {
+   "ensaios": 8,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 1,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2026-09-02",
+   "artigos": 738,
+   "artigosAno": 66,
+   "fdaRegistros": 0,
+   "segurancaAno": 13,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793928999070
+  },
+  "fisetina": {
+   "ensaios": 38,
+   "fase1": 8,
+   "fase2": 26,
+   "fase3": 2,
+   "recrutando": 10,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 1643,
+   "artigosAno": 190,
+   "fdaRegistros": 0,
+   "segurancaAno": 66,
+   "revisoesAno": 1,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929009632
+  },
+  "quercetina": {
+   "ensaios": 135,
+   "fase1": 29,
+   "fase2": 40,
+   "fase3": 5,
+   "recrutando": 16,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 33470,
+   "artigosAno": 3419,
+   "fdaRegistros": 0,
+   "segurancaAno": 882,
+   "revisoesAno": 41,
+   "bula": {
+    "atualizada": "2026-06-24",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929020533
+  },
+  "slu-pp-332": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 3,
+   "artigosAno": 0,
+   "fdaRegistros": 0,
+   "segurancaAno": 0,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929031354
+  },
+  "5-amino-1mq": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 34,
+   "artigosAno": 8,
+   "fdaRegistros": 0,
+   "segurancaAno": 3,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929042429
+  },
+  "magnesio": {
+   "ensaios": 2150,
+   "fase1": 211,
+   "fase2": 396,
+   "fase3": 311,
+   "recrutando": 180,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 82068,
+   "artigosAno": 4289,
+   "fdaRegistros": 103,
+   "fdaAprovacao": {
+    "desde": "1986-09-08",
+    "marcas": [
+     "Esomeprazole Magnesium",
+     "Magnesium Sulfate",
+     "Magnesium Sulfate In Dextrose 5% In Plastic Container",
+     "Magnesium Sulfate In Plastic Container",
+     "Nexium"
+    ]
+   },
+   "segurancaAno": 919,
+   "revisoesAno": 80,
+   "bula": {
+    "atualizada": "2026-09-04",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 19,
+    "recentes": [
+     {
+      "data": "2026-04-22",
+      "classe": "Class III",
+      "empresa": "Avantor Performance Materials LLC",
+      "motivo": "Subpotent drug",
+      "produto": "Magnesium Chloride, 6-Hydrate, Crystal, 500G per bottle, Bulk active pharmaceutical ingredient (API)"
+     },
+     {
+      "data": "2026-04-08",
+      "classe": "Class I",
+      "empresa": "Amneal Pharmaceuticals, LLC",
+      "motivo": "Product mix up: a foil pouch labeled \"Magnesium Sulfate in Water for Injection, 4 g/100 mL\" actually contained an IV bag of Tranexamic Acid instead.",
+      "produto": "Magnesium Sulfate in Water for Injection, 4g/100 mL (40mg/mL) IV bag, further packaged in cartons of"
+     },
+     {
+      "data": "2026-02-04",
+      "classe": "Class II",
+      "empresa": "Sato Pharmaceutical Co., Ltd",
+      "motivo": "Failed Disintegration Specifications: above the time expected.",
+      "produto": "INON ACE Antacid tablets (magnesium aluminosilicate, magnesium hydroxide and simethicone), 75-count "
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929054359
+  },
+  "zinco": {
+   "ensaios": 1147,
+   "fase1": 70,
+   "fase2": 153,
+   "fase3": 148,
+   "recrutando": 79,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 174632,
+   "artigosAno": 10739,
+   "fdaRegistros": 13,
+   "fdaAprovacao": {
+    "desde": "1986-06-26",
+    "marcas": [
+     "Zinc Chloride",
+     "Zinc Chloride In Plastic Container",
+     "Zinc Sulfate"
+    ]
+   },
+   "segurancaAno": 2530,
+   "revisoesAno": 104,
+   "bula": {
+    "atualizada": "2026-10-02",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 47,
+    "recentes": [
+     {
+      "data": "2026-10-14",
+      "classe": "Not Yet Classified",
+      "empresa": "Centric Compounding LLC",
+      "motivo": "Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+      "produto": "Tri-Immune Boost (Glutathione: 200 mg, Ascorbic Acid: 200 mg, Zinc: 2.5 mg), 30 mL vial, Rx only, Ce"
+     },
+     {
+      "data": "2026-10-14",
+      "classe": "Class II",
+      "empresa": "K.C. Pharmaceuticals, Inc.",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Sterile EYE DROPS AC (tetrahydrozoline HCl 0.05%, zinc sulfate 0.25%), 0.5 fl. oz. (15 mL) bottles; "
+     },
+     {
+      "data": "2026-09-02",
+      "classe": "Class II",
+      "empresa": "Church & Dwight Co., Inc.",
+      "motivo": "CGMP Deviations; FDA inspection of the contract manufacturer noted out of limit results for microbiological testing",
+      "produto": "Zicam, Cold Remedy, Medicated Nasal Swabs, With Cooling Menthol & Eucalyptus, 20 Single-Use Swabs pe"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2004-10-12",
+    "marcas": [
+     "Wilzin"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wilzin"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929065920
+  },
+  "selenio": {
+   "ensaios": 350,
+   "fase1": 23,
+   "fase2": 53,
+   "fase3": 58,
+   "recrutando": 16,
+   "ultimaAtualizacao": "2026-11-02",
+   "artigos": 43404,
+   "artigosAno": 2916,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "1991-01-10",
+    "marcas": [
+     "Selenium Sulfide"
+    ]
+   },
+   "segurancaAno": 959,
+   "revisoesAno": 45,
+   "bula": {
+    "atualizada": "2026-09-04",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2023-12-27",
+      "classe": "Class II",
+      "empresa": "Private Label Partners, Inc.",
+      "motivo": "CGMP Deviations: Stability data does not support expiry date.",
+      "produto": "Selenium Sulfide 2.25% Shampoo, 180mL bottle, Rx Only, Manufactured for: Bi-Coastal Pharma Int. LLC,"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929076991
+  },
+  "ferro": {
+   "ensaios": 2462,
+   "fase1": 166,
+   "fase2": 320,
+   "fase3": 306,
+   "recrutando": 208,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 279480,
+   "artigosAno": 18778,
+   "fdaRegistros": 5,
+   "fdaAprovacao": {
+    "desde": "1974-04-29",
+    "marcas": [
+     "Infed",
+     "Iron Sucrose",
+     "Venofer"
+    ]
+   },
+   "segurancaAno": 3919,
+   "revisoesAno": 214,
+   "bula": {
+    "atualizada": "2026-08-11",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 4,
+    "recentes": [
+     {
+      "data": "2025-03-12",
+      "classe": "Class II",
+      "empresa": "Safecor Health, LLC",
+      "motivo": "Defective Delivery System: Leakage observed after oral solution was repackaged into unit-dose syringes.",
+      "produto": "Ferrous Sulfate 7.5 mg Iron/0.5 mL Oral Syringe, Delivers: 0.5 mL, Iron Supplement Drops, Mfg by: Ak"
+     },
+     {
+      "data": "2024-12-11",
+      "classe": "Class II",
+      "empresa": "American Regent, Inc.",
+      "motivo": "Presence of Particulate Matter: Potential for glass delamination from the vials.",
+      "produto": "Venofer (iron sucrose) Injection, USP 100 mg Elemental Iron per 5 mL (20 mg/mL), 5 mL Single-Dose Vi"
+     },
+     {
+      "data": "2024-12-11",
+      "classe": "Class II",
+      "empresa": "American Regent, Inc.",
+      "motivo": "Presence of Particulate Matter: Potential for glass delamination from the vials.",
+      "produto": "Venofer (iron sucrose) Injection, USP 50 mg Elemental Iron per 2.5 mL (20 mg/mL), 2.5 mL Single-Dose"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2023-05-26",
+    "marcas": [
+     "Qaialdo"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/qaialdo"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929089194
+  },
+  "tiamina-vitamina-b1": {
+   "ensaios": 268,
+   "fase1": 20,
+   "fase2": 55,
+   "fase3": 46,
+   "recrutando": 22,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 13280,
+   "artigosAno": 562,
+   "fdaRegistros": 14,
+   "fdaAprovacao": {
+    "desde": "1972-06-20",
+    "marcas": [
+     "Thiamine Hydrochloride"
+    ]
+   },
+   "segurancaAno": 108,
+   "revisoesAno": 10,
+   "bula": {
+    "atualizada": "2026-08-31",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 4,
+    "recentes": [
+     {
+      "data": "2026-02-18",
+      "classe": "Class II",
+      "empresa": "Fresenius Kabi Compounding, LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "thiamine HCl, 500 mg, 500 mg added to 100 mL, 0.9% Sodium Chloride Injection, USP, Fagron Sterile Se"
+     },
+     {
+      "data": "2024-10-30",
+      "classe": "Class II",
+      "empresa": "Fresenius Kabi Compounding, LLC",
+      "motivo": "cGMP violations",
+      "produto": "Thiamine HCl 0.9% Sodium Chloride Injection USP, 500 mg per 100 mL, Single Dose Bag, Rx only, Fagron"
+     },
+     {
+      "data": "2024-01-03",
+      "classe": "Class II",
+      "empresa": "AnazaoHealth Corporation",
+      "motivo": "Presence of Particulate Matter.",
+      "produto": "Thiamine HCl/Pyridoxine HCl 20 mg/mL /100mg/ml Injection Solution, 30mL Amber Glass Vial, Rx only, A"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929100070
+  },
+  "riboflavina-vitamina-b2": {
+   "ensaios": 351,
+   "fase1": 24,
+   "fase2": 75,
+   "fase3": 76,
+   "recrutando": 27,
+   "ultimaAtualizacao": "2026-10-26",
+   "artigos": 13888,
+   "artigosAno": 735,
+   "fdaRegistros": 6,
+   "fdaAprovacao": {
+    "desde": "2016-04-15",
+    "marcas": [
+     "Epioxa Hd/Epioxa Kit",
+     "Photrexa Viscous In Dextran 20%",
+     "Photrexa Viscous In Dextran 20%/Photrexa"
+    ]
+   },
+   "segurancaAno": 164,
+   "revisoesAno": 11,
+   "bula": {
+    "atualizada": "2026-08-11",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2024-01-03",
+      "classe": "Class II",
+      "empresa": "AnazaoHealth Corporation",
+      "motivo": "Presence of Particulate Matter.",
+      "produto": "B-Complex, Thiamine HCI / Riboflavin / Niacinamide / Dexpanthenol / Pyridoxine HCI injection, 74/2/7"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929111512
+  },
+  "biotina-vitamina-b7": {
+   "ensaios": 122,
+   "fase1": 22,
+   "fase2": 19,
+   "fase3": 10,
+   "recrutando": 13,
+   "ultimaAtualizacao": "2026-10-29",
+   "artigos": 33193,
+   "artigosAno": 926,
+   "fdaRegistros": 4,
+   "segurancaAno": 116,
+   "revisoesAno": 2,
+   "bula": {
+    "atualizada": "2026-07-03",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Biotin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca "
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929123167
+  },
+  "exenatida": {
+   "ensaios": 380,
+   "fase1": 59,
+   "fase2": 74,
+   "fase3": 93,
+   "recrutando": 12,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 2884,
+   "artigosAno": 239,
+   "fdaRegistros": 2,
+   "fdaAprovacao": {
+    "desde": "2005-04-28",
+    "marcas": [
+     "Byetta",
+     "Exenatide Synthetic"
+    ]
+   },
+   "segurancaAno": 119,
+   "revisoesAno": 50,
+   "bula": {
+    "atualizada": "2026-05-27",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2026-09-30",
+      "classe": "Class II",
+      "empresa": "Amneal Pharmaceuticals of New York, LLC",
+      "motivo": "Defective Delivery System: Possibility of no medication in the prefilled pen.",
+      "produto": "Exenatide Injection, USP, 250 mcg/mL, 1.2 mL per prefilled pen, Rx Only, Subcutaneous Use Only, For "
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "retirado",
+    "desde": "2006-11-20",
+    "marcas": [
+     "Bydureon",
+     "Byetta"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/byetta"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929135207
+  },
+  "lixisenatida": {
+   "ensaios": 77,
+   "fase1": 7,
+   "fase2": 9,
+   "fase3": 33,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-11-02",
+   "artigos": 737,
+   "artigosAno": 81,
+   "fdaRegistros": 1,
+   "segurancaAno": 49,
+   "revisoesAno": 17,
+   "bula": {
+    "atualizada": "2026-03-18",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2017-01-11",
+    "marcas": [
+     "Suliqua"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/suliqua"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929146700
+  },
+  "dulaglutida": {
+   "ensaios": 143,
+   "fase1": 24,
+   "fase2": 28,
+   "fase3": 36,
+   "recrutando": 10,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 1334,
+   "artigosAno": 296,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2014-09-18",
+    "marcas": [
+     "Trulicity"
+    ]
+   },
+   "segurancaAno": 168,
+   "revisoesAno": 42,
+   "bula": {
+    "atualizada": "2026-06-16",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2014-11-21",
+    "marcas": [
+     "Trulicity"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/trulicity"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929158751
+  },
+  "maridebart-cafraglutida-maritide": {
+   "ensaios": 29,
+   "fase1": 14,
+   "fase2": 3,
+   "fase3": 12,
+   "recrutando": 6,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 13,
+   "artigosAno": 10,
+   "fdaRegistros": 0,
+   "segurancaAno": 3,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929169662
+  },
+  "petrelintida": {
+   "ensaios": 9,
+   "fase1": 3,
+   "fase2": 3,
+   "fase3": 3,
+   "recrutando": 4,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 8,
+   "artigosAno": 7,
+   "fdaRegistros": 0,
+   "segurancaAno": 3,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929180226
+  },
+  "eloralintida": {
+   "ensaios": 21,
+   "fase1": 9,
+   "fase2": 4,
+   "fase3": 8,
+   "recrutando": 12,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 10,
+   "artigosAno": 10,
+   "fdaRegistros": 0,
+   "segurancaAno": 8,
+   "revisoesAno": 1,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929191528
+  },
+  "orforglipron": {
+   "ensaios": 53,
+   "fase1": 21,
+   "fase2": 3,
+   "fase3": 27,
+   "recrutando": 10,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 158,
+   "artigosAno": 114,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2026-04-01",
+    "marcas": [
+     "Foundayo"
+    ]
+   },
+   "segurancaAno": 72,
+   "revisoesAno": 15,
+   "bula": {
+    "atualizada": "2026-07-29",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "retirado",
+    "desde": null,
+    "marcas": [
+     "Foundayo"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/foundayo"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929202682
+  },
+  "lanreotida": {
+   "ensaios": 119,
+   "fase1": 4,
+   "fase2": 34,
+   "fase3": 39,
+   "recrutando": 5,
+   "ultimaAtualizacao": "2026-11-03",
+   "artigos": 1244,
+   "artigosAno": 63,
+   "fdaRegistros": 3,
+   "fdaAprovacao": {
+    "desde": "2007-08-30",
+    "marcas": [
+     "Lanreotide Acetate",
+     "Somatuline Depot"
+    ]
+   },
+   "segurancaAno": 15,
+   "revisoesAno": 3,
+   "bula": {
+    "atualizada": "2025-02-01",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 3,
+    "recentes": [
+     {
+      "data": "2026-04-15",
+      "classe": "Class II",
+      "empresa": "Cipla USA, Inc.",
+      "motivo": "Lack of Assurance of Sterility: Due to an FDA observation at the contract manufacturing site for deficiencies in their visual inspection procedure.",
+      "produto": "Lanreotide Injection, 120 mg/0.5 mL, Box contains 1 Pre-filled syringe, Single dose only, Rx Only, M"
+     },
+     {
+      "data": "2026-04-15",
+      "classe": "Class II",
+      "empresa": "Cipla USA, Inc.",
+      "motivo": "Lack of Assurance of Sterility: Due to an FDA observation at the contract manufacturing site for deficiencies in their visual inspection procedure.",
+      "produto": "Lanreotide Injection, 120 mg*/0.5 mL, Box contains 1 Pre-filled syringe and 1 safety needle, Single "
+     },
+     {
+      "data": "2026-01-21",
+      "classe": "Class II",
+      "empresa": "Cipla USA, Inc.",
+      "motivo": "Presence of Particulate Matter.",
+      "produto": "Lanreotide Injection, 120 mg/0.5 mL, 0.5 mL per pre-filled syringe, For deep subcutaneous injection,"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929214517
+  },
+  "pasireotida": {
+   "ensaios": 87,
+   "fase1": 18,
+   "fase2": 45,
+   "fase3": 12,
+   "recrutando": 5,
+   "ultimaAtualizacao": "2026-10-08",
+   "artigos": 775,
+   "artigosAno": 47,
+   "fdaRegistros": 2,
+   "fdaAprovacao": {
+    "desde": "2012-12-14",
+    "marcas": [
+     "Signifor",
+     "Signifor Lar Kit"
+    ]
+   },
+   "segurancaAno": 16,
+   "revisoesAno": 6,
+   "bula": {
+    "atualizada": "2026-02-17",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2012-04-24",
+    "marcas": [
+     "Signifor"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/signifor"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929226316
+  },
+  "vasopressina": {
+   "ensaios": 434,
+   "fase1": 19,
+   "fase2": 80,
+   "fase3": 85,
+   "recrutando": 42,
+   "ultimaAtualizacao": "2026-10-30",
+   "artigos": 38129,
+   "artigosAno": 809,
+   "fdaRegistros": 10,
+   "fdaAprovacao": {
+    "desde": "2014-04-17",
+    "marcas": [
+     "Vasopressin",
+     "Vasopressin In Dextrose 5%",
+     "Vasopressin In Sodium Chloride 0.9%",
+     "Vasostrict"
+    ]
+   },
+   "segurancaAno": 167,
+   "revisoesAno": 13,
+   "bula": {
+    "atualizada": "2026-08-17",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 7,
+    "recentes": [
+     {
+      "data": "2026-09-09",
+      "classe": "Class II",
+      "empresa": "Baxter Healthcare Corporation",
+      "motivo": "CGMP Deviations",
+      "produto": "Vasopressin, in 0.9% Sodium Chloride Injection, 20 units per 100 mL (0.2 units/mL), 100mL Single-Dos"
+     },
+     {
+      "data": "2026-09-09",
+      "classe": "Class II",
+      "empresa": "Baxter Healthcare Corporation",
+      "motivo": "CGMP Deviations",
+      "produto": "Vasopressin, in 0.9% Sodium Chloride Injection, 40 units per 100 mL (0.4 units/mL), 100mL Single-Dos"
+     },
+     {
+      "data": "2026-06-24",
+      "classe": "Class II",
+      "empresa": "IntegraDose Compounding Services LLC",
+      "motivo": "Subpotent Drug",
+      "produto": "Vasopressin 2 Units/2 mL in 0.9% Sodium Chloride, syringe, IntegraDose Compounding Services, LLC. 36"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929237819
+  },
+  "terlipressina": {
+   "ensaios": 116,
+   "fase1": 3,
+   "fase2": 26,
+   "fase3": 28,
+   "recrutando": 4,
+   "ultimaAtualizacao": "2026-10-27",
+   "artigos": 1204,
+   "artigosAno": 72,
+   "fdaRegistros": 0,
+   "segurancaAno": 29,
+   "revisoesAno": 3,
+   "bula": null,
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2024-02-28",
+      "classe": "Class II",
+      "empresa": "Mallinckrodt Hospital Products Inc.",
+      "motivo": "cGMP deviations: Temperature excursion due to shipping delay from manufacturer to distributor. Affected distributor has been notified.",
+      "produto": "Terlivaz (terlipressin for injection), 0.85mg/vial, Single-Dose Vial, Rx only, Distributed by: Malli"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929249220
+  },
+  "degarelix": {
+   "ensaios": 170,
+   "fase1": 16,
+   "fase2": 79,
+   "fase3": 40,
+   "recrutando": 22,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 381,
+   "artigosAno": 32,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2008-12-24",
+    "marcas": [
+     "Firmagon"
+    ]
+   },
+   "segurancaAno": 17,
+   "revisoesAno": 1,
+   "bula": {
+    "atualizada": "2024-01-30",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2009-02-17",
+    "marcas": [
+     "Degarelix Accord",
+     "Firmagon"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/degarelix-accord"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929261354
+  },
+  "cetrorrelix": {
+   "ensaios": 140,
+   "fase1": 5,
+   "fase2": 26,
+   "fase3": 29,
+   "recrutando": 6,
+   "ultimaAtualizacao": "2026-10-29",
+   "artigos": 576,
+   "artigosAno": 15,
+   "fdaRegistros": 3,
+   "fdaAprovacao": {
+    "desde": "2000-08-11",
+    "marcas": [
+     "Cetrorelix Acetate",
+     "Cetrotide"
+    ]
+   },
+   "segurancaAno": 5,
+   "revisoesAno": 1,
+   "bula": {
+    "atualizada": "2025-09-22",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2026-02-18",
+      "classe": "Class II",
+      "empresa": "Meitheal Pharmaceuticals, Inc",
+      "motivo": "Defective Delivery System: Missing or duplicated needles within the injection kit",
+      "produto": "Cetrorelix Acetate for Injection (Kit), 0.25 mg per vial, Single-Dose Kit, Rx Only, Mfd. for: Meithe"
+     }
+    ]
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "1999-04-12",
+    "marcas": [
+     "Cetrotide"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cetrotide"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929273234
+  },
+  "triptorrelina": {
+   "ensaios": 298,
+   "fase1": 6,
+   "fase2": 80,
+   "fase3": 86,
+   "recrutando": 38,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 1007,
+   "artigosAno": 43,
+   "fdaRegistros": 4,
+   "fdaAprovacao": {
+    "desde": "2000-06-15",
+    "marcas": [
+     "Trelstar",
+     "Triptodur Kit"
+    ]
+   },
+   "segurancaAno": 19,
+   "revisoesAno": 2,
+   "bula": {
+    "atualizada": "2026-06-30",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929285292
+  },
+  "goserelina": {
+   "ensaios": 417,
+   "fase1": 38,
+   "fase2": 184,
+   "fase3": 126,
+   "recrutando": 49,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 1214,
+   "artigosAno": 46,
+   "fdaRegistros": 2,
+   "fdaAprovacao": {
+    "desde": "1989-12-29",
+    "marcas": [
+     "Zoladex"
+    ]
+   },
+   "segurancaAno": 24,
+   "revisoesAno": 3,
+   "bula": {
+    "atualizada": "2026-03-24",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2026-10-07",
+      "classe": "Class II",
+      "empresa": "TerSera Therapeutics LLC",
+      "motivo": "Temperature Abuse: Product sat in a non-temperature-controlled FedEx trailer at ambient outdoor conditions for 25.5 hours.",
+      "produto": "Zoladex (goserelin) implant, 3.6 mg, One single-Use Syringe packaged in a carton, Rx only, Manufactu"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929297272
+  },
+  "bivalirudina": {
+   "ensaios": 92,
+   "fase1": 3,
+   "fase2": 7,
+   "fase3": 23,
+   "recrutando": 6,
+   "ultimaAtualizacao": "2026-11-04",
+   "artigos": 1939,
+   "artigosAno": 89,
+   "fdaRegistros": 10,
+   "fdaAprovacao": {
+    "desde": "2000-12-15",
+    "marcas": [
+     "Angiomax",
+     "Angiomax Rtu",
+     "Bivalirudin"
+    ]
+   },
+   "segurancaAno": 43,
+   "revisoesAno": 3,
+   "bula": {
+    "atualizada": "2026-08-20",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "retirado",
+    "desde": "2004-09-20",
+    "marcas": [
+     "Angiox"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/angiox"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929308205
+  },
+  "ziconotida": {
+   "ensaios": 14,
+   "fase1": 0,
+   "fase2": 2,
+   "fase3": 3,
+   "recrutando": 2,
+   "ultimaAtualizacao": "2026-09-10",
+   "artigos": 341,
+   "artigosAno": 18,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2004-12-28",
+    "marcas": [
+     "Prialt"
+    ]
+   },
+   "segurancaAno": 7,
+   "revisoesAno": 0,
+   "bula": {
+    "atualizada": "2025-05-31",
+    "caixaPreta": true
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2005-02-21",
+    "marcas": [
+     "Prialt"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/prialt"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929319314
+  },
+  "linaclotida": {
+   "ensaios": 60,
+   "fase1": 6,
+   "fase2": 14,
+   "fase3": 16,
+   "recrutando": 3,
+   "ultimaAtualizacao": "2026-10-08",
+   "artigos": 478,
+   "artigosAno": 54,
+   "fdaRegistros": 0,
+   "segurancaAno": 30,
+   "revisoesAno": 11,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2012-11-26",
+    "marcas": [
+     "Constella"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/constella"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929330184
+  },
+  "icatibanto": {
+   "ensaios": 33,
+   "fase1": 2,
+   "fase2": 9,
+   "fase3": 11,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2026-10-22",
+   "artigos": 781,
+   "artigosAno": 41,
+   "fdaRegistros": 7,
+   "fdaAprovacao": {
+    "desde": "2011-08-25",
+    "marcas": [
+     "Firazyr",
+     "Icatibant Acetate"
+    ]
+   },
+   "segurancaAno": 10,
+   "revisoesAno": 2,
+   "bula": {
+    "atualizada": "2025-07-07",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2008-07-11",
+    "marcas": [
+     "Firazyr",
+     "Icatibant Accord"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/firazyr"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929341822
+  },
+  "enfuvirtida": {
+   "ensaios": 54,
+   "fase1": 6,
+   "fase2": 15,
+   "fase3": 14,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2026-11-05",
+   "artigos": 830,
+   "artigosAno": 3,
+   "fdaRegistros": 0,
+   "segurancaAno": 0,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2003-05-27",
+    "marcas": [
+     "Fuzeon"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fuzeon"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929352598
+  },
+  "difelikefalina": {
+   "ensaios": 23,
+   "fase1": 4,
+   "fase2": 9,
+   "fase3": 11,
+   "recrutando": 1,
+   "ultimaAtualizacao": "2026-10-23",
+   "artigos": 125,
+   "artigosAno": 25,
+   "fdaRegistros": 1,
+   "fdaAprovacao": {
+    "desde": "2021-08-23",
+    "marcas": [
+     "Korsuva"
+    ]
+   },
+   "segurancaAno": 9,
+   "revisoesAno": 3,
+   "bula": {
+    "atualizada": "2025-08-26",
+    "caixaPreta": false
+   },
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "ema": {
+    "situacao": "autorizado",
+    "desde": "2022-04-25",
+    "marcas": [
+     "Kapruvia"
+    ],
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kapruvia"
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929363834
+  },
+  "cerebrolisina": {
+   "ensaios": 43,
+   "fase1": 3,
+   "fase2": 11,
+   "fase3": 7,
+   "recrutando": 4,
+   "ultimaAtualizacao": "2026-09-29",
+   "artigos": 639,
+   "artigosAno": 35,
+   "fdaRegistros": 0,
+   "segurancaAno": 12,
+   "revisoesAno": 3,
+   "bula": null,
+   "alertas": {
+    "total": 1,
+    "recentes": [
+     {
+      "data": "2025-10-15",
+      "classe": "Class II",
+      "empresa": "GenoGenix  LLC",
+      "motivo": "Lack of Assurance of Sterility",
+      "produto": "Cerebrolysin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204"
+     }
+    ]
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929374433
+  },
+  "timalina": {
+   "ensaios": 0,
+   "fase1": 0,
+   "fase2": 0,
+   "fase3": 0,
+   "recrutando": 0,
+   "ultimaAtualizacao": null,
+   "artigos": 234,
+   "artigosAno": 0,
+   "fdaRegistros": 0,
+   "segurancaAno": 0,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929384831
+  },
+  "timopentina": {
+   "ensaios": 10,
+   "fase1": 1,
+   "fase2": 2,
+   "fase3": 2,
+   "recrutando": 0,
+   "ultimaAtualizacao": "2025-05-25",
+   "artigos": 445,
+   "artigosAno": 5,
+   "fdaRegistros": 0,
+   "segurancaAno": 1,
+   "revisoesAno": 0,
+   "bula": null,
+   "alertas": {
+    "total": 0,
+    "recentes": []
+   },
+   "fdaOk": true,
+   "emaVerificado": true,
+   "quando": 1793929395053
+  }
+ }
+}

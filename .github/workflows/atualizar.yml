@@ -1,0 +1,40 @@
+name: Atualizar dados ao vivo
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # toda segunda-feira, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Coletar dados (ClinicalTrials.gov, PubMed, openFDA)
+        run: python tools/atualizar.py
+      - name: Instalar navegador (valida o catalogo nas importacoes) e Pillow
+        run: |
+          pip install pillow; sudo apt-get install -y chromium-browser >/dev/null 2>&1 || true
+      - name: Importar peptideos novos do ChEMBL (valida e desfaz se algo falhar)
+        continue-on-error: true
+        run: python tools/atualizar_chembl.py
+      - name: Suplementos do DSLD/NIH (relatorio, mercado e fichas novas; valida e desfaz se algo falhar)
+        continue-on-error: true
+        run: python tools/atualizar_dsld.py --importar --min 300 --limite 10
+      - name: Gerar cartões, sitemap e service worker
+        run: |
+          python tools/gerar_cartoes.py "${{ vars.SITE_URL || 'https://SEU-DOMINIO.com' }}"
+          python tools/build.py "${{ vars.SITE_URL || 'https://SEU-DOMINIO.com' }}"
+      - name: Commit se houver mudanças
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data*.js core.js tools/novos tools/relatorio_dsld.md live-data.json aprovacoes.js historico.js sitemap.xml robots.txt sw.js cards tools/_pep.json "*.html"
+          git diff --staged --quiet || git commit -m "chore: atualiza dados ao vivo"
+          git push

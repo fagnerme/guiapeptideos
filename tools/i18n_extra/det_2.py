@@ -1,0 +1,231 @@
+# -*- coding: utf-8 -*-
+DET = {
+    "semax": {
+        "en": {
+            "aviso": "Semax is not approved by the FDA or by Anvisa. The clinical use described is regional (Russia) and independent evidence is limited. Check directly with regulatory agencies.",
+            "oque": "Synthetic peptide derived from ACTH (fragment 4–10) with the addition of Pro-Gly-Pro, developed in Russia.",
+            "age": ["Modulates neurotrophic factors such as BDNF.", "May influence neurotransmitters and the stress response."],
+            "hist": "Used clinically in Russia for stroke and other conditions; it is not approved by the FDA.",
+            "estudos": "Most studies are Russian, with few independent trials and heterogeneous designs.",
+            "evitar": "Limited international evidence. Check the regulatory status directly with the agency in your country.",
+        },
+        "es": {
+            "aviso": "Semax no está aprobado por la FDA ni por la Anvisa. El uso clínico descrito es regional (Rusia) y la evidencia independiente es limitada. Confírmelo directamente con los organismos reguladores.",
+            "oque": "Péptido sintético derivado de la ACTH (fragmento 4–10) con la adición de Pro-Gly-Pro, desarrollado en Rusia.",
+            "age": ["Modula factores neurotróficos, como el BDNF.", "Puede influir en los neurotransmisores y en la respuesta al estrés."],
+            "hist": "Se usa clínicamente en Rusia en accidente cerebrovascular y otras afecciones; no está aprobado por la FDA.",
+            "estudos": "La mayoría de los estudios son rusos, con pocos ensayos independientes y diseños heterogéneos.",
+            "evitar": "Evidencia internacional limitada. Consulte la situación regulatoria directamente con el organismo de su país.",
+        },
+    },
+    "bremelanotida-pt-141": {
+        "en": {
+            "oque": "Melanocortin analog that acts on the central nervous system, approved for low sexual desire in premenopausal women.",
+            "age": ["Activates melanocortin receptors in the brain.", "Modulates sexual desire pathways, not blood flow like erectile dysfunction drugs."],
+            "hist": "Approved by the FDA in 2019 (Vyleesi).",
+            "estudos": "The RECONNECT studies showed a modest improvement in desire compared with placebo.",
+            "evitar": "May temporarily raise blood pressure; avoid in uncontrolled hypertension or cardiovascular disease. Nausea is common.",
+        },
+        "es": {
+            "oque": "Análogo de melanocortina que actúa en el sistema nervioso central, aprobado para el deseo sexual bajo en mujeres premenopáusicas.",
+            "age": ["Activa receptores de melanocortina en el cerebro.", "Modula las vías del deseo sexual, no la circulación como los fármacos para la erección."],
+            "hist": "Aprobada por la FDA en 2019 (Vyleesi).",
+            "estudos": "Los estudios RECONNECT mostraron una mejora modesta del deseo en comparación con el placebo.",
+            "evitar": "Puede elevar la presión arterial de forma transitoria; evitar en hipertensión no controlada o enfermedad cardiovascular. Las náuseas son frecuentes.",
+        },
+    },
+    "nisina": {
+        "en": {
+            "oque": "Antimicrobial peptide (lantibiotic) produced by milk bacteria, used as a food preservative.",
+            "age": ["Binds to lipid II in the cell wall of Gram-positive bacteria.", "Forms pores in the membrane and blocks cell wall construction."],
+            "hist": "Used in food preservation for decades; recognized as safe (GRAS) for this use.",
+            "estudos": "There are many studies in foods; clinical applications are still under research.",
+            "evitar": "Its use as a preservative is regulated; it is not an approved medicine for treating infections.",
+        },
+        "es": {
+            "oque": "Péptido antimicrobiano (lantibiótico) producido por bacterias de la leche, usado como conservante alimentario.",
+            "age": ["Se une al lípido II de la pared de las bacterias grampositivas.", "Forma poros en la membrana y bloquea la construcción de la pared celular."],
+            "hist": "Se usa en la conservación de alimentos desde hace décadas; reconocida como segura (GRAS) para ese uso.",
+            "estudos": "Hay muchos estudios en alimentos; las aplicaciones clínicas aún están en investigación.",
+            "evitar": "Su uso como conservante está regulado; no es un medicamento aprobado para tratar infecciones.",
+        },
+    },
+    "glutationa": {
+        "en": {
+            "aviso": "Debated evidence: oral absorption is considered low, but some studies report different results. Infusions and cosmetic uses lack solid support. Seek medical advice.",
+            "oque": "Tripeptide made of glutamate, cysteine and glycine; the main antioxidant produced inside cells.",
+            "age": ["Neutralizes free radicals and peroxides.", "Takes part in drug detoxification in the liver.", "Keeps other antioxidants, such as vitamin C, in their active form."],
+            "hist": "Discovered in 1921; today it is a topic of supplementation and of clinical use in specific settings (such as the antidote N-acetylcysteine, which supplies cysteine).",
+            "estudos": "Oral absorption is low, and results of supplements and infusions for skin lightening or detoxification lack solid evidence.",
+            "evitar": "Infusions outside medical indication do not have well-established safety. Asthma may worsen with the inhaled form.",
+        },
+        "es": {
+            "aviso": "Evidencia debatida: la absorción oral se considera baja, pero hay estudios con resultados distintos. Las infusiones y los usos estéticos no tienen un respaldo sólido. Busque orientación médica.",
+            "oque": "Tripéptido formado por glutamato, cisteína y glicina; principal antioxidante producido dentro de las células.",
+            "age": ["Neutraliza radicales libres y peróxidos.", "Participa en la desintoxicación de fármacos en el hígado.", "Mantiene otros antioxidantes, como la vitamina C, en su forma activa."],
+            "hist": "Descubierta en 1921; hoy es objeto de suplementación y de uso clínico en contextos específicos (como el antídoto N-acetilcisteína, que aporta cisteína).",
+            "estudos": "La absorción oral es baja y los resultados de suplementos e infusiones para aclarar la piel o desintoxicar no tienen evidencia sólida.",
+            "evitar": "Las infusiones sin indicación médica no tienen una seguridad bien establecida. El asma puede empeorar con la forma inhalada.",
+        },
+    },
+    "testosterona": {
+        "en": {
+            "oque": "Steroid hormone (not a peptide) produced mainly in the testes and, in smaller amounts, in the ovaries and adrenal glands.",
+            "age": ["Crosses the cell membrane and binds to the androgen receptor.", "In some tissues it is converted into dihydrotestosterone (more potent) or into estradiol.", "These signals maintain muscle mass, bone, libido, mood and red blood cell production."],
+            "hist": "Isolated in 1935 and synthesized the same year; it is one of the foundations of modern endocrinology. Gels, long-acting ester injections and patches are available.",
+            "estudos": "In men with confirmed hypogonadism, it improves libido, mild mood symptoms, lean mass and bone density. The TRAVERSE trial showed no increase in major cardiovascular events in at-risk men, but reported more atrial fibrillation and other events.",
+            "evitar": "Prostate or breast cancer, polycythemia, untreated severe sleep apnea, wish to have children (it suppresses fertility). Cosmetic or sports use is prohibited by WADA and is not an approved indication.",
+        },
+        "es": {
+            "oque": "Hormona esteroidea (no es un péptido) producida principalmente en los testículos y, en menor cantidad, en los ovarios y las suprarrenales.",
+            "age": ["Atraviesa la membrana de las células y se une al receptor de andrógenos.", "En algunos tejidos se convierte en dihidrotestosterona (más potente) o en estradiol.", "Estas señales mantienen la masa muscular, el hueso, la libido, el estado de ánimo y la producción de glóbulos rojos."],
+            "hist": "Aislada en 1935 y sintetizada ese mismo año; es una de las bases de la endocrinología moderna. Existen geles, inyecciones de ésteres de acción prolongada y parches.",
+            "estudos": "En hombres con hipogonadismo comprobado, mejora la libido, el ánimo de forma leve, la masa magra y la densidad ósea. El estudio TRAVERSE no mostró aumento de eventos cardiovasculares mayores en hombres de riesgo, pero señaló más fibrilación auricular y otros eventos.",
+            "evitar": "Cáncer de próstata o de mama, policitemia, apnea del sueño grave no tratada, deseo de tener hijos (suprime la fertilidad). El uso estético o deportivo está prohibido por la AMA (WADA) y no es una indicación aprobada.",
+        },
+    },
+    "estradiol": {
+        "en": {
+            "oque": "The main estrogen, a steroid hormone produced mostly in the ovaries before menopause.",
+            "age": ["Binds to estrogen receptors alpha and beta in the uterus, breast, bone, blood vessels and brain.", "Regulates the menstrual cycle, maintains the vaginal lining and slows bone loss.", "Acts on the brain's temperature center, which explains its effect on hot flashes."],
+            "hist": "Isolated in 1930. Menopausal hormone therapy underwent a major review after the WHI study (2002), which changed recommendations on age and duration.",
+            "estudos": "Reduces hot flashes and bone loss. The risk of thrombosis and breast cancer depends on the route (oral versus skin), combination with a progestogen, age at initiation and duration of use.",
+            "evitar": "Hormone-dependent breast or endometrial cancer, prior thrombosis, undiagnosed genital bleeding, severe liver disease, smoking combined with the oral route at older ages.",
+        },
+        "es": {
+            "oque": "Principal estrógeno, hormona esteroidea producida sobre todo en los ovarios antes de la menopausia.",
+            "age": ["Se une a los receptores de estrógeno alfa y beta en el útero, la mama, el hueso, los vasos y el cerebro.", "Regula el ciclo menstrual, mantiene la mucosa vaginal y frena la pérdida de hueso.", "Actúa en el centro de la temperatura del cerebro, lo que explica su efecto sobre los sofocos."],
+            "hist": "Aislado en 1930. La terapia hormonal de la menopausia se revisó a fondo tras el estudio WHI (2002), que cambió las recomendaciones de edad y duración.",
+            "estudos": "Reduce los sofocos y la pérdida ósea. El riesgo de trombosis y de cáncer de mama depende de la vía (oral frente a cutánea), de la combinación con progestágeno, de la edad de inicio y del tiempo de uso.",
+            "evitar": "Cáncer de mama o de endometrio hormonodependiente, trombosis previa, sangrado genital sin diagnóstico, enfermedad hepática grave, tabaquismo asociado a la vía oral a edades más avanzadas.",
+        },
+    },
+    "progesterona": {
+        "en": {
+            "oque": "Steroid hormone produced mainly after ovulation and, during pregnancy, by the placenta.",
+            "age": ["Binds to progesterone receptors in the uterus, breast and brain.", "Transforms the endometrium, preparing it for implantation, and maintains pregnancy.", "Protects the endometrium from excess estrogen in menopausal therapy."],
+            "hist": "Isolated in 1934. The micronized form, identical to the natural hormone, enabled oral and vaginal use.",
+            "estudos": "Reduces the risk of endometrial hyperplasia with estrogen. In women with a short cervix, vaginal progesterone reduces preterm birth; for recurrent miscarriage the benefit is limited to subgroups.",
+            "evitar": "Undiagnosed genital bleeding, breast cancer, active thrombosis, severe liver disease. It may cause drowsiness, so it is usually taken at night.",
+        },
+        "es": {
+            "oque": "Hormona esteroidea producida principalmente después de la ovulación y, durante la gestación, por la placenta.",
+            "age": ["Se une a los receptores de progesterona en el útero, la mama y el cerebro.", "Transforma el endometrio, preparándolo para la implantación, y mantiene la gestación.", "Protege el endometrio del exceso de estrógeno en la terapia de la menopausia."],
+            "hist": "Aislada en 1934. La forma micronizada, idéntica a la natural, permitió el uso oral y vaginal.",
+            "estudos": "Reduce el riesgo de hiperplasia endometrial con estrógeno. En mujeres con cuello uterino corto, la progesterona vaginal reduce el parto prematuro; en el aborto de repetición el beneficio se limita a subgrupos.",
+            "evitar": "Sangrado genital sin diagnóstico, cáncer de mama, trombosis activa, enfermedad hepática grave. Puede causar somnolencia, por eso suele tomarse por la noche.",
+        },
+    },
+    "hidrocortisona-cortisol": {
+        "en": {
+            "oque": "Pharmaceutical form of cortisol, the main glucocorticoid produced by the adrenal glands.",
+            "age": ["Binds to the glucocorticoid receptor, which changes the expression of many genes.", "Raises glucose, mobilizes fat and protein, and maintains blood pressure.", "Reduces the production of inflammatory signals and suppresses the immune response."],
+            "hist": "Cortisone was first used in arthritis in 1948 and earned the 1950 Nobel Prize for Kendall, Hench and Reichstein.",
+            "estudos": "It is the basis of replacement therapy in Addison's disease and congenital adrenal hyperplasia. As an anti-inflammatory it has proven efficacy, but risk increases with dose and duration.",
+            "evitar": "Long-term use requires monitoring of glucose, blood pressure, bone and infections. Withdrawal must be gradual to avoid adrenal crisis. Stopping without guidance is dangerous.",
+        },
+        "es": {
+            "oque": "Forma farmacéutica del cortisol, el principal glucocorticoide producido por las suprarrenales.",
+            "age": ["Se une al receptor de glucocorticoides, que modifica la expresión de muchos genes.", "Eleva la glucosa, moviliza grasa y proteínas y mantiene la presión arterial.", "Reduce la producción de señales inflamatorias y suprime la respuesta inmunitaria."],
+            "hist": "La cortisona se usó por primera vez en la artritis en 1948 y valió el Nobel de 1950 a Kendall, Hench y Reichstein.",
+            "estudos": "Es la base de la reposición en la enfermedad de Addison y en la hiperplasia suprarrenal congénita. Como antiinflamatorio tiene eficacia comprobada, pero el riesgo aumenta con la dosis y el tiempo.",
+            "evitar": "El uso prolongado exige vigilar glucosa, presión, hueso e infecciones. La retirada debe ser gradual para evitar una crisis suprarrenal. Suspenderla sin orientación es peligroso.",
+        },
+    },
+    "dhea-prasterona": {
+        "en": {
+            "oque": "Steroid hormone produced in the adrenal glands, a precursor of testosterone and estradiol; its levels fall with age.",
+            "age": ["It is converted in tissues into androgens and estrogens according to local needs.", "The vaginal form acts locally on the mucosa, with little absorption into the bloodstream."],
+            "hist": "Popularized as the “youth hormone” in the 1990s; the vaginal form was approved by the FDA in 2016 (Intrarosa).",
+            "estudos": "The vaginal form improves postmenopausal dyspareunia. For oral use in healthy people, studies show no consistent benefit and there are safety concerns.",
+            "evitar": "Hormone-dependent cancers, undiagnosed vaginal bleeding, pregnancy. Prohibited in sports competition by WADA.",
+        },
+        "es": {
+            "oque": "Hormona esteroidea producida en las suprarrenales, precursora de la testosterona y el estradiol; sus niveles disminuyen con la edad.",
+            "age": ["Se convierte en los tejidos en andrógenos y estrógenos según la necesidad local.", "La forma vaginal actúa localmente sobre la mucosa, con poca absorción a la sangre."],
+            "hist": "Popularizada como “hormona de la juventud” en los años 1990; la forma vaginal fue aprobada por la FDA en 2016 (Intrarosa).",
+            "estudos": "La forma vaginal mejora la dispareunia posmenopáusica. Para el uso oral en personas sanas, los estudios no muestran un beneficio consistente y hay dudas sobre su seguridad.",
+            "evitar": "Cánceres hormonodependientes, sangrado vaginal sin diagnóstico, gestación. Prohibida en competiciones deportivas por la AMA (WADA).",
+        },
+    },
+    "levotiroxina-t4": {
+        "en": {
+            "oque": "Synthetic form of T4, the main hormone produced by the thyroid.",
+            "age": ["It is converted into T3 in tissues, which binds to receptors in the cell nucleus.", "Increases energy expenditure, heart rate and heat production."],
+            "hist": "Thyroxine was isolated in 1914 and synthesized in 1927. It is one of the most prescribed medicines in the world.",
+            "estudos": "Normalizes TSH and improves hypothyroidism symptoms. In mild subclinical hypothyroidism in older adults, trials showed no clear benefit.",
+            "evitar": "Take on an empty stomach and separate from calcium, iron and antacids. Excess causes palpitations, bone loss and arrhythmia. It is not for weight loss.",
+        },
+        "es": {
+            "oque": "Forma sintética de la T4, principal hormona producida por la tiroides.",
+            "age": ["Se convierte en T3 en los tejidos, que se une a receptores en el núcleo de las células.", "Aumenta el gasto de energía, la frecuencia cardiaca y la producción de calor."],
+            "hist": "La tiroxina se aisló en 1914 y se sintetizó en 1927. Es uno de los medicamentos más recetados del mundo.",
+            "estudos": "Normaliza la TSH y mejora los síntomas del hipotiroidismo. En el hipotiroidismo subclínico leve en personas mayores, los ensayos no mostraron un beneficio claro.",
+            "evitar": "Tomar en ayunas y separar del calcio, el hierro y los antiácidos. El exceso causa palpitaciones, pérdida ósea y arritmia. No sirve para adelgazar.",
+        },
+    },
+    "liotironina-t3": {
+        "en": {
+            "oque": "Active form of thyroid hormone, with rapid and short action.",
+            "age": ["Binds directly to nuclear thyroid hormone receptors.", "Takes effect within a few hours, but requires divided doses to avoid peaks."],
+            "hist": "Used since the 1950s in situations where a rapid or reversible effect is desired.",
+            "estudos": "The T4 + T3 combination showed no consistent advantage in most trials; it may be considered in selected cases by a specialist.",
+            "evitar": "People with heart disease and older adults need caution. Use for weight loss is dangerous and not approved.",
+        },
+        "es": {
+            "oque": "Forma activa de la hormona tiroidea, de acción rápida y corta.",
+            "age": ["Se une directamente a los receptores nucleares de hormona tiroidea.", "Hace efecto en pocas horas, pero requiere dosis divididas para evitar picos."],
+            "hist": "Se usa desde los años 1950 en situaciones en las que se busca un efecto rápido o reversible.",
+            "estudos": "La combinación T4 + T3 no mostró una ventaja consistente en la mayoría de los ensayos; puede considerarse en casos seleccionados por un especialista.",
+            "evitar": "Las personas con cardiopatía y las mayores requieren precaución. El uso para adelgazar es peligroso y no está aprobado.",
+        },
+    },
+    "melatonina": {
+        "en": {
+            "oque": "Hormone produced at night by the pineal gland that helps regulate the sleep–wake rhythm.",
+            "age": ["Binds to MT1 and MT2 receptors, mainly in the suprachiasmatic nucleus of the hypothalamus.", "Signals darkness and advances or delays the biological clock depending on when it is taken."],
+            "hist": "Discovered in 1958. In the US it is sold as a supplement, while in Europe there is a prolonged-release medicine (Circadin).",
+            "estudos": "Slightly reduces the time to fall asleep and helps in delayed sleep phase and jet lag. The effect in common insomnia is modest.",
+            "evitar": "Caution with anticoagulants and sedatives. Supplement labels may differ from actual content; children only with medical guidance.",
+        },
+        "es": {
+            "oque": "Hormona producida por la noche por la glándula pineal, que ayuda a regular el ritmo de sueño y vigilia.",
+            "age": ["Se une a los receptores MT1 y MT2, sobre todo en el núcleo supraquiasmático del hipotálamo.", "Señala la oscuridad y adelanta o retrasa el reloj biológico según la hora a la que se toma."],
+            "hist": "Descubierta en 1958. En EE. UU. se vende como suplemento, mientras que en Europa existe un medicamento de liberación prolongada (Circadin).",
+            "estudos": "Reduce ligeramente el tiempo para conciliar el sueño y ayuda en el retraso de fase del sueño y el jet lag. El efecto en el insomnio común es modesto.",
+            "evitar": "Precaución con anticoagulantes y sedantes. Las etiquetas de los suplementos pueden diferir del contenido real; en niños, solo con orientación médica.",
+        },
+    },
+    "gonadotrofina-corionica-hcg": {
+        "en": {
+            "oque": "Hormone produced by the placenta during pregnancy; it is a glycoprotein, not a short peptide, and acts like LH.",
+            "age": ["Binds to the LH/hCG receptor on Leydig cells in the testes and in the ovaries.", "Stimulates testosterone production or ovulation, depending on the context."],
+            "hist": "It was identified in the urine of pregnant women in the 1920s, the basis of the first pregnancy tests.",
+            "estudos": "Effective for inducing ovulation and in secondary hypogonadism. Trials showed it does not help with weight loss.",
+            "evitar": "Hormone-sensitive cancers, pregnancy (outside fertility protocols). Prohibited by WADA in men.",
+        },
+        "es": {
+            "oque": "Hormona producida por la placenta durante la gestación; es una glucoproteína, no un péptido corto, que actúa como la LH.",
+            "age": ["Se une al receptor de LH/hCG en las células de Leydig de los testículos y en los ovarios.", "Estimula la producción de testosterona o la ovulación, según el contexto."],
+            "hist": "Se identificó en la orina de embarazadas en los años 1920, base de las primeras pruebas de embarazo.",
+            "estudos": "Eficaz para inducir la ovulación y en el hipogonadismo secundario. Los ensayos mostraron que no ayuda a adelgazar.",
+            "evitar": "Cánceres sensibles a hormonas, gestación (fuera de protocolos de fertilidad). Prohibida por la AMA (WADA) en hombres.",
+        },
+    },
+    "glucagon": {
+        "en": {
+            "oque": "29-amino-acid peptide hormone produced by the alpha cells of the pancreas.",
+            "age": ["Binds to the glucagon receptor in the liver.", "Stimulates glycogen breakdown and glucose production, raising blood glucose within minutes."],
+            "hist": "Discovered in 1923. Ready-to-use and nasal forms now exist, making rescue by lay people easier.",
+            "estudos": "Reverses severe hypoglycemia with efficacy demonstrated in trials; the effect depends on the presence of glycogen in the liver.",
+            "evitar": "Less effective in prolonged fasting, alcoholism and adrenal insufficiency. May cause nausea and vomiting; turn the patient onto their side.",
+        },
+        "es": {
+            "oque": "Hormona peptídica de 29 aminoácidos producida por las células alfa del páncreas.",
+            "age": ["Se une al receptor de glucagón en el hígado.", "Estimula la degradación del glucógeno y la producción de glucosa, elevando la glucemia en minutos."],
+            "hist": "Descubierto en 1923. Hoy existen formas listas para usar y nasales, que facilitan el auxilio por personas legas.",
+            "estudos": "Revierte la hipoglucemia grave con eficacia demostrada en ensayos; el efecto depende de que haya glucógeno en el hígado.",
+            "evitar": "Menos eficaz en ayuno prolongado, alcoholismo e insuficiencia suprarrenal. Puede causar náuseas y vómitos; coloque al paciente de lado.",
+        },
+    },
+}

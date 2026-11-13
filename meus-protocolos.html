@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meus protocolos — Guia Educativo de Peptídeos, Hormônios e Suplementos</title>
+<meta name="description" content="Diário pessoal para registrar o que você usa: substância, dose, frequência, via, início e observações, com alertas de interação. Fica salvo só no seu aparelho.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b7fa5">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+<!--seo-->
+<meta name="site-root" content="https://SEU-DOMINIO.com">
+<link rel="canonical" href="https://SEU-DOMINIO.com/meus-protocolos.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Guia Educativo de Peptídeos, Hormônios e Suplementos">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Meus protocolos — Guia Educativo de Peptídeos, Hormônios e Suplementos">
+<meta property="og:description" content="Diário pessoal para registrar o que você usa: substância, dose, frequência, via, início e observações, com alertas de interação. Fica salvo só no seu aparelho.">
+<meta property="og:url" content="https://SEU-DOMINIO.com/meus-protocolos.html">
+<meta property="og:image" content="https://SEU-DOMINIO.com/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<!--/seo-->
+</head>
+<body class="pagina-protocolos">
+<header id="topo"></header>
+<main>
+  <h2>Meus protocolos</h2>
+  <p>Organize seus protocolos, marque cada aplicação e acompanhe medidas ao longo do tempo. Os dados ficam <b>só neste aparelho</b> (nada é enviado). Este guia <b>não sugere doses</b>: registre apenas o que foi orientado por profissional de saúde.</p>
+  <details class="boas nao-imprimir como-usar-box" open><summary><b>📖 Como usar (3 passos)</b></summary>
+    <ol class="passos"><li>Cadastre o protocolo e a programação conforme a orientação recebida.</li><li>Use o calendário para registrar ou corrigir cada aplicação.</li><li>Acompanhe o resumo semanal, a evolução mensal e suas medidas; exporte uma cópia de segurança.</li></ol></details>
+  <div class="calc-acoes nao-imprimir"><button type="button" class="btn btn-prim" id="novo">➕ Novo protocolo</button> <a class="btn" href="calculadora.html">🧮 Calculadora</a> <a class="btn" href="consulta.html">🩺 Levar ao médico</a></div>
+  <p id="msg-prot" role="status" aria-live="polite" hidden></p>
+  <section class="boas nao-imprimir" id="secao-form" hidden>
+    <h3 id="form-titulo">Novo protocolo</h3>
+    <form id="form-prot" class="prot-formulario">
+      <p class="prot-form-intro">Preencha o que você já sabe. Os cálculos compatíveis com a dose e a apresentação serão atualizados junto com o protocolo.</p>
+      <fieldset class="prot-form-grupo">
+        <legend>Substância e dose</legend>
+        <label class="prot-form-largo">Substância <input type="text" id="f-nome" maxlength="120" required autocomplete="off" placeholder="Digite para buscar no catálogo ou escreva livremente"></label>
+        <p id="f-dica"></p>
+        <div id="f-alertas" class="prot-alertas-form" aria-live="polite" hidden></div>
+        <div class="prot-form-linha">
+          <label>Dose por aplicação <input type="number" id="f-dose" min="0" step="any" inputmode="decimal"></label>
+          <label>Unidade da dose <select id="f-unid"></select></label>
+          <label>Via de uso <select id="f-via"></select></label>
+        </div>
+        <div class="prot-form-linha">
+          <label>Meia-vida para o gráfico (horas)
+            <input type="number" id="f-meia-vida" min="0.001" max="8760" step="any" inputmode="decimal">
+          </label>
+          <p id="f-meia-vida-ajuda" class="prot-ajuda-form"></p>
+        </div>
+        <details id="f-calculadora" class="prot-dias">
+          <summary>Dados do frasco e da calculadora (opcional)</summary>
+          <p><small>Registre os dados do rótulo. Quando a apresentação for injetável, eles também calculam automaticamente o consumo do estoque, quando possível. Os cálculos são aritméticos, não orientações de preparo ou uso.</small></p>
+          <div class="prot-calc-campos">
+            <label>Apresentação
+              <select id="f-calc-tipo">
+                <option value="po">Pó para diluir</option>
+                <option value="pronto">Solução pronta</option>
+              </select>
+            </label>
+            <label>Quantidade total no frasco / ampola
+              <input type="number" id="f-calc-frasco" min="0" step="any" inputmode="decimal">
+            </label>
+            <label>Unidade do rótulo
+              <select id="f-calc-unid">
+                <option value="mg">mg</option>
+                <option value="mcg">mcg</option>
+                <option value="UI">UI</option>
+              </select>
+            </label>
+            <label id="f-calc-diluente-wrap">Volume de diluente (mL)
+              <input type="number" id="f-calc-diluente" min="0" step="any" inputmode="decimal">
+            </label>
+            <label>Seringa considerada (mL)
+              <select id="f-calc-seringa">
+                <option value="">Não informado</option>
+                <option value="0.3">0,3</option>
+                <option value="0.5">0,5</option>
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+          </div>
+          <p id="f-calc-resumo" class="prot-calc-resumo" role="status" aria-live="polite"></p>
+        </details>
+      </fieldset>
+      <fieldset class="prot-form-grupo">
+        <legend>Programação</legend>
+        <label>Frequência <select id="f-freq"></select></label>
+        <fieldset id="f-dias" class="prot-dias">
+          <legend>Dias para acompanhar</legend>
+          <p id="f-dias-dica"><small>Marque somente os dias combinados com o profissional. Sem dias definidos, não haverá lembrete de aplicação.</small></p>
+          <div class="prot-dias-opcoes">
+            <label><input type="checkbox" value="1"> Segunda</label>
+            <label><input type="checkbox" value="2"> Terça</label>
+            <label><input type="checkbox" value="3"> Quarta</label>
+            <label><input type="checkbox" value="4"> Quinta</label>
+            <label><input type="checkbox" value="5"> Sexta</label>
+            <label><input type="checkbox" value="6"> Sábado</label>
+            <label><input type="checkbox" value="0"> Domingo</label>
+          </div>
+        </fieldset>
+        <label>Horário <select id="f-hora"></select></label>
+        <fieldset id="f-horarios-dia" class="prot-dias" hidden>
+          <legend>Horários das aplicações</legend>
+          <p><small>Informe os horários conforme a orientação recebida. Os lembretes aparecem quando esta página estiver aberta.</small></p>
+          <label id="f-aplicacoes-dia-wrap">Aplicações por dia
+            <input type="number" id="f-aplicacoes-dia" min="1" max="24" step="1" value="1" required>
+          </label>
+          <div id="f-horarios-dia-lista" class="prot-dias-opcoes"></div>
+        </fieldset>
+        <label>Início <input type="date" id="f-inicio"></label>
+        <label>Tipo de fim
+          <select id="f-fim-tipo">
+            <option value="nenhum">Sem fim previsto</option>
+            <option value="data">Data final</option>
+            <option value="semanas">Duração em semanas</option>
+          </select>
+        </label>
+        <label id="f-fim-data-wrap">Fim previsto <input type="date" id="f-fim"></label>
+        <label id="f-fim-semanas-wrap" hidden>Duração em semanas <input type="number" id="f-fim-semanas" min="1" max="260" step="1" inputmode="numeric"></label>
+      </fieldset>
+      <details id="f-estoque" class="prot-dias">
+        <summary>Estoque e previsão de término (opcional)</summary>
+        <p><small>Use o total disponível na data de conferência, antes das aplicações previstas nesse dia. A previsão é estimada; confira o estoque real.</small></p>
+        <p id="f-estoque-ajuda"><small>A previsão usa a apresentação, a dose e a programação do protocolo quando esses dados permitem o cálculo.</small></p>
+        <div class="prot-calc-campos">
+          <label class="prot-estoque-forma-wrap">Como você conta esse estoque?
+            <select id="f-estoque-forma">
+              <option value="injecao">Injetável</option>
+              <option value="comprimido">Comprimidos</option>
+              <option value="capsula">Cápsulas</option>
+              <option value="outra">Outra apresentação</option>
+            </select>
+          </label>
+          <label id="f-estoque-quantidade-label">Quantidade disponível
+            <input type="number" id="f-estoque-quantidade" min="0" step="any" inputmode="decimal">
+          </label>
+          <label id="f-estoque-unidade-wrap">Unidade do estoque
+            <select id="f-estoque-unidade"></select>
+          </label>
+          <label id="f-estoque-potencia-wrap" hidden>Conteúdo por comprimido / cápsula
+            <span><input type="number" id="f-estoque-potencia" min="0" step="any" inputmode="decimal"> <span id="f-estoque-potencia-unidade">mg</span> por unidade</span>
+          </label>
+          <label id="f-estoque-uso-label">Quantidade usada por aplicação
+            <input type="number" id="f-estoque-uso" min="0" step="any" inputmode="decimal">
+          </label>
+          <label>Estoque conferido em
+            <input type="date" id="f-estoque-data" required>
+          </label>
+        </div>
+        <p id="f-estoque-resumo" class="prot-calc-resumo" role="status" aria-live="polite"></p>
+      </details>
+      <fieldset class="prot-form-grupo">
+        <legend>Detalhes adicionais</legend>
+        <label>Produto / marca / lote (opcional) <input type="text" id="f-produto" maxlength="120"></label>
+        <label>Situação <select id="f-status"></select></label>
+        <label class="prot-form-largo">Observações <textarea id="f-obs" rows="3" maxlength="300" placeholder="Ex.: prescrito pelo Dr. X, reação, ajuste combinado"></textarea></label>
+      </fieldset>
+      <p class="prot-ajuda-form">Cada marcação representa uma aplicação. A dose e os horários são apenas registros pessoais; siga a orientação recebida.</p>
+      <div class="calc-acoes"><button type="submit" class="btn btn-prim">💾 Salvar protocolo</button> <button type="button" class="btn btn-sec" id="f-cancelar">Cancelar</button></div>
+    </form>
+  </section>
+  <p id="prot-vazio" class="boas">Ainda não há protocolos. Comece em “Novo protocolo” ou salve uma configuração a partir da <a href="calculadora.html">calculadora</a>.</p>
+  <p id="resumo-prot" class="contagem" aria-live="polite"></p>
+  <section id="alertas-prot" class="prot-alertas-painel" aria-live="polite"></section>
+  <div id="painel-acompanhamento" class="prot-painel-grid">
+    <section id="acomp-semanal" class="boas" aria-live="polite" hidden></section>
+    <section id="secao-evolucao" class="boas">
+      <h3>Acompanhamento de resultados</h3>
+      <p>Registre medidas e observações ao longo do tempo e compare as datas com as aplicações registradas. O gráfico mostra associação temporal, não comprova que um ativo causou uma mudança. A dose exibida é a salva no registro; em marcações antigas sem dose individual salva, a dose cadastrada no protocolo aparece identificada como referência.</p>
+      <form id="form-evolucao" class="prot-formulario">
+        <label>Indicador
+          <select id="ev-indicador">
+            <option value="peso">Peso</option>
+            <option value="cintura">Circunferência abdominal</option>
+            <option value="gordura-corporal">Gordura corporal (estimativa)</option>
+            <option value="gordura-visceral">Gordura visceral (estimativa da balança)</option>
+            <option value="massa-magra">Massa magra (estimativa)</option>
+            <option value="forca">Força / desempenho</option>
+            <option value="sono">Sono</option>
+            <option value="energia">Energia percebida</option>
+            <option value="sintomas">Sintomas / bem-estar</option>
+            <option value="outro">Outro indicador</option>
+          </select>
+        </label>
+        <label id="ev-nome-wrap" hidden>Nome do indicador <input id="ev-nome" type="text" maxlength="60"></label>
+        <label>Valor <input id="ev-valor" type="number" step="any" required inputmode="decimal"></label>
+        <label>Unidade <input id="ev-unidade" type="text" maxlength="20" required></label>
+        <label>Data da medição <input id="ev-data" type="date" required></label>
+        <label>Observações (opcional) <input id="ev-notas" type="text" maxlength="240"></label>
+        <fieldset id="ev-protocolos" class="prot-dias">
+          <legend>Protocolos relacionados (opcional)</legend>
+          <p><small>Associe somente os protocolos que deseja comparar com esta medição. O gráfico usa esses vínculos salvos, não todos os protocolos.</small></p>
+          <div class="prot-protocolos-toolbar">
+            <span id="ev-protocolos-resumo" role="status" aria-live="polite"></span>
+            <button type="button" class="btn" id="ev-protocolos-limpar">Limpar seleção</button>
+          </div>
+          <div id="ev-protocolos-selecionados" class="prot-protocolos-selecionados"></div>
+          <div id="ev-protocolos-opcoes" class="prot-dias-opcoes"></div>
+        </fieldset>
+        <p id="ev-erro" class="prot-form-erro" role="alert" hidden></p>
+        <p id="ev-msg" role="status" aria-live="polite" hidden></p>
+        <div class="calc-acoes"><button type="submit" class="btn btn-prim">Salvar medição</button></div>
+      </form>
+    </section>
+    <section id="secao-grafico" class="boas prot-grafico-painel">
+      <h3>Evolução e histórico de medições</h3>
+      <div class="prot-evolucao-grafico">
+        <label>Indicador no gráfico <select id="ev-grafico-indicador"></select></label>
+        <p id="ev-grafico-ajuda" class="prot-grafico-ajuda"></p>
+        <div id="ev-grafico" aria-live="polite"></div>
+        <h4>Registros de medição</h4>
+        <ul id="ev-historico" class="prot-evolucao-historico"></ul>
+      </div>
+    </section>
+  </div>
+  <h3 id="titulo-protocolos">Seus protocolos</h3>
+  <div class="seg nao-imprimir" id="abas" role="group" aria-label="Filtrar por situação"></div>
+  <div id="lista-prot"></div>
+  <section id="secao-meia-vida" class="boas prot-meia-vida-painel">
+    <h3>Curva teórica de meia-vida</h3>
+    <p>A curva estima a quantidade remanescente a partir das aplicações registradas e projeta aplicações futuras conforme a programação. Não representa concentração no sangue nem uma medição individual.</p>
+    <label>Protocolo no gráfico <select id="meia-vida-protocolo"></select></label>
+    <p id="meia-vida-resumo" class="prot-meia-vida-resumo" aria-live="polite"></p>
+    <div id="meia-vida-grafico" aria-live="polite"></div>
+    <p><small>Modelo educacional de eliminação exponencial: dose × 0,5^(tempo / meia-vida). Não considera absorção, distribuição, formulação depot, metabolismo individual ou exames. Os registros têm precisão de data; quando não há horário, a simulação usa o meio-dia. Confira a meia-vida da apresentação específica com fontes clínicas.</small></p>
+  </section>
+  <dialog id="dialogo-dose" class="prot-dose-dialog" aria-labelledby="dialogo-dose-titulo">
+    <form id="form-registro-dose">
+      <h3 id="dialogo-dose-titulo">Registrar aplicação</h3>
+      <p id="dialogo-dose-contexto"></p>
+      <fieldset class="prot-dose-opcoes">
+        <legend>A dose mudou?</legend>
+        <label><input type="radio" name="dose-mudou" value="nao" checked> Não, manter a dose registrada</label>
+        <label><input type="radio" name="dose-mudou" value="sim"> Sim, informar a nova dose</label>
+      </fieldset>
+      <div id="dose-nova-wrap" hidden>
+        <label for="dose-nova">Nova dose por aplicação</label>
+        <div class="prot-dose-entrada"><input id="dose-nova" type="number" min="0.000001" step="any" inputmode="decimal"><b id="dose-nova-unidade"></b></div>
+        <small>A nova dose atualiza o protocolo a partir de hoje. O histórico anterior não será alterado.</small>
+      </div>
+      <p id="dose-registro-erro" class="prot-form-erro" role="alert" hidden></p>
+      <div class="calc-acoes">
+        <button type="button" class="btn btn-sec" id="dose-cancelar">Cancelar</button>
+        <button type="submit" class="btn btn-prim">Confirmar aplicação</button>
+      </div>
+    </form>
+  </dialog>
+  <section class="boas nao-imprimir" id="secao-acoes">
+    <h3>Cópia de segurança e compartilhamento</h3>
+    <p><small>Os dados ficam só neste navegador. Exporte uma cópia para guardar ou transferir. Importar adiciona registros que ainda não existem; para restaurar após apagar, importe o arquivo completo.</small></p>
+    <div class="calc-acoes">
+      <button type="button" class="btn" id="exportar">⬇️ Exportar cópia</button>
+      <label class="btn">⬆️ Importar / restaurar cópia <input type="file" id="importar" accept="application/json,.json" hidden></label>
+      <button type="button" class="btn" id="copiar-res">📋 Copiar resumo</button>
+      <button type="button" class="btn" id="imprimir">🖨️ Imprimir / PDF</button>
+    </div>
+    <h4>Excluir dados salvos neste aparelho</h4>
+    <p><small>Você pode apagar protocolos e medições separadamente. A exclusão de protocolos também remove as aplicações registradas neles. Antes de qualquer exclusão, será necessário baixar uma cópia completa.</small></p>
+    <div class="calc-acoes">
+      <button type="button" class="btn btn-perigo" id="apagar-protocolos">Apagar protocolos</button>
+      <button type="button" class="btn btn-perigo" id="apagar-medidas">Apagar medições</button>
+      <button type="button" class="btn btn-perigo" id="apagar-tudo">Apagar tudo</button>
+    </div>
+    <p id="msg-imp" role="status" aria-live="polite"></p>
+  </section>
+  <dialog id="dialogo-exclusao" class="prot-dose-dialog" aria-labelledby="dialogo-exclusao-titulo">
+    <form id="form-exclusao">
+      <h3 id="dialogo-exclusao-titulo">Confirmar exclusão</h3>
+      <p id="exclusao-contagem" aria-live="polite"></p>
+      <p id="exclusao-contexto"></p>
+      <p><small>A cópia baixada inclui protocolos e medições. Para recuperar depois, use “Importar / restaurar cópia”; a importação adiciona registros ausentes sem substituir os atuais.</small></p>
+      <button type="button" class="btn" id="exclusao-baixar-backup">⬇️ Baixar cópia completa</button>
+      <label class="prot-exclusao-confirma"><input type="checkbox" id="exclusao-backup-confirmada"> Confirmo que baixei e guardei a cópia em local seguro.</label>
+      <label for="exclusao-frase">Digite APAGAR para confirmar
+        <input type="text" id="exclusao-frase" autocomplete="off" spellcheck="false">
+      </label>
+      <p id="exclusao-erro" class="prot-form-erro" role="alert" hidden></p>
+      <div class="calc-acoes">
+        <button type="button" class="btn btn-sec" id="exclusao-cancelar">Cancelar</button>
+        <button type="submit" class="btn btn-perigo" id="exclusao-confirmar" disabled>Confirmar exclusão</button>
+      </div>
+    </form>
+  </dialog>
+  <div class="aviso">⚠️ Registro pessoal, não prescrição. Os lembretes aparecem somente quando esta página está aberta; não são notificações do sistema. Em caso de efeito adverso, procure atendimento médico (SAMU 192). Veja também <a href="interacoes.html">Interações e cuidados</a>.</div>
+  <div class="ad-slot" data-slot="meio"></div>
+</main>
+<footer id="rodape"></footer>
+<script defer src="data.js"></script>
+<script defer src="data-extra.js"></script>
+<script defer src="data-vias.js"></script>
+<script defer src="data-mecanismos.js"></script>
+<script defer src="data-interacoes.js"></script>
+<script defer src="data-farmaco.js"></script>
+<script defer src="aprovacoes.js"></script>
+<script defer src="revisao-pendente.js"></script><script defer src="core.js"></script>
+<script>/*i18n-lazy*/if((localStorage.getItem("lang")||"pt")!=="pt")document.write('<script src="i18n-conteudo.js"><\/script><script src="i18n-detalhes.js"><\/script><script src="i18n-paginas.js"><\/script>')</script>
+<script defer src="i18n.js"></script>
+<script defer src="protocolos.js"></script>
+<script defer src="ads.js"></script>
+</body>
+</html>

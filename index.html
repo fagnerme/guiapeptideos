@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guia Educativo de Peptídeos, Hormônios e Suplementos</title>
+<meta name="description" content="Guia educativo sobre peptídeos, hormônios, vitaminas, minerais, NAD+ e suplementos: evidências, riscos e informações regulatórias.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b7fa5">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+<!--seo-->
+<meta name="site-root" content="https://SEU-DOMINIO.com">
+<link rel="canonical" href="https://SEU-DOMINIO.com/index.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Guia Educativo de Peptídeos, Hormônios e Suplementos">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Guia Educativo de Peptídeos, Hormônios e Suplementos">
+<meta property="og:description" content="Guia educativo sobre peptídeos, hormônios, vitaminas, minerais, NAD+ e suplementos: evidências, riscos e informações regulatórias.">
+<meta property="og:url" content="https://SEU-DOMINIO.com/index.html">
+<meta property="og:image" content="https://SEU-DOMINIO.com/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Guia Educativo de Peptídeos, Hormônios e Suplementos", "url": "https://SEU-DOMINIO.com/", "inLanguage": "pt-BR", "potentialAction": {"@type": "SearchAction", "target": "https://SEU-DOMINIO.com/buscar.html?q={search_term_string}", "query-input": "required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Guia Educativo de Peptídeos, Hormônios e Suplementos", "url": "https://SEU-DOMINIO.com/", "logo": "https://SEU-DOMINIO.com/icons/icon-512.png"}</script>
+<!--/seo-->
+</head>
+<body>
+<header id="topo"></header>
+<main>
+  <div class="filtros">
+    <input id="busca" type="search" placeholder="Buscar substância, mecanismo, categoria...">
+    <select id="tipo" aria-label="Tipo de substância"><option value="">Todos os tipos</option></select>
+    <select id="fase"><option value="">Todas as fases</option></select>
+    <select id="categoria"><option value="">Todas as categorias</option></select>
+    <select id="selo" aria-label="Nível de confiança"><option value="">Todos os níveis de confiança</option></select>
+    <select id="origem" aria-label="Origem do texto"><option value="">Qualquer origem do texto</option></select>
+    <select id="ordem" aria-label="Ordenar"><option value="az">Ordem A–Z</option><option value="fase">Ordenar por fase</option><option value="confianca">Ordenar por confiança</option></select>
+    <label class="chk"><input type="checkbox" id="so-fav"> Só favoritos</label>
+    <label class="chk"><input type="checkbox" id="facil-idx"> Explique fácil</label>
+  </div>
+  <details class="boas legenda-tipos"><summary><b>Qual a diferença entre peptídeo, hormônio, vitamina, mineral e suplemento?</b></summary><ul id="legenda-tipos"></ul><p><small><b>Resumindo:</b> o <b>tipo</b> diz o que a substância é (a sua natureza química); a <b>categoria</b> diz para que ela é estudada ou usada (emagrecimento, sono, pele, desempenho). Um mesmo tipo pode ter várias categorias, e uma categoria pode reunir tipos diferentes. Nenhuma dessas informações substitui a avaliação de um profissional de saúde.</small></p></details>
+  <div id="alertas"></div>
+  <div class="ad-slot" data-slot="topo"></div>
+  <p id="contagem" class="contagem"></p>
+  <section id="lista" class="grid"></section>
+  <div id="paginacao" class="paginacao" hidden><button id="carregar-mais" class="btn" type="button">Carregar mais</button></div>
+  <div class="ad-slot" data-slot="meio"></div>
+  <section id="indice" class="boas">
+    <h2>Índice A–Z</h2>
+    <p id="az"></p>
+  </section>
+  <section id="glossario" class="boas">
+    <h2>Glossário</h2>
+    <dl id="gloss"></dl>
+  </section>
+  <section id="fontes" class="boas">
+    <h2>Fontes de referência</h2>
+    <p>Este catálogo não é exaustivo: existem milhares de peptídeos e inúmeras outras substâncias, como hormônios, vitaminas e suplementos. Confirme sempre as informações nas fontes oficiais.</p>
+    <ul id="fontes-lista"></ul>
+  </section>
+  <section class="boas" id="selos">
+    <h2>Como ler os selos de confiança</h2>
+    <ul id="legenda-selos"></ul>
+    <p><small>Os selos são um resumo educativo (fase de desenvolvimento + evidência descrita). Não indicam que o uso é seguro ou recomendado para você.</small></p>
+  </section>
+  <section id="boas-praticas" class="boas">
+    <h2>Boas práticas de estudo</h2>
+    <ul id="boas"></ul>
+  </section>
+<div class="ad-slot" data-slot="rodape"></div>
+</main>
+<footer id="rodape"></footer>
+<script defer src="data.js"></script>
+<script defer src="data-extra.js"></script>
+<script defer src="data-mecanismos.js"></script>
+<script defer src="revisoes.js"></script>
+<script defer src="aprovacoes.js"></script>
+<script defer src="revisao-pendente.js"></script><script defer src="core.js"></script>
+<script>/*i18n-lazy*/if((localStorage.getItem("lang")||"pt")!=="pt")document.write('<script src="i18n-conteudo.js"><\/script><script src="i18n-detalhes.js"><\/script><script src="i18n-paginas.js"><\/script>')</script>
+<script defer src="i18n.js"></script>
+<script defer src="app.js"></script>
+<script defer src="ads.js"></script>
+</body>
+</html>
+
+
+
+
+
+

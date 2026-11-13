@@ -1,0 +1,47 @@
+GUIA PARA NOVOS ITENS DO CATALOGO (Guia Educativo de Peptideos, Hormonios e Suplementos)
+
+Voce escreve conteudo em PORTUGUES (pt-BR, com acentos corretos) para novos itens. NAO edite nenhum arquivo do site.
+Crie APENAS arquivos Python em UTF-8 em: c:\Users\BR0436417018\Documents\Projetos Pessoais\guia-peptideos\tools\novos\novos_<SEU_ID>_<n>.py
+USE A FERRAMENTA "create" PARA GRAVAR OS ARQUIVOS (nunca passe texto com acentos por python/powershell stdin: corrompe).
+Divida em varios arquivos de ~10 itens cada: novos_<SEU_ID>_1.py, novos_<SEU_ID>_2.py ...
+
+FORMATO (cada arquivo define a lista NOVOS):
+
+NOVOS = [
+  {
+    "nome": "VIP (peptideo intestinal vasoativo) / aviptadil",     # nome de exibicao; pode ter parenteses
+    "termo_en": "vasoactive intestinal peptide",                    # nome em ingles/INN para buscas no PubMed/ClinicalTrials
+    "categoria": "Imunomodulador",                                  # ver categorias permitidas
+    "fase": "Fase 2",                                               # Aprovado | Fase 1 | Fase 2 | Fase 3 | Pré-clínico (animais) | In vitro | Descontinuado
+    "status": "...",                    # situacao regulatoria honesta (ex.: "Não aprovado; ..." ou "Aprovado (FDA/EMA) para ...")
+    "mecanismo": "...",                 # 1-2 frases tecnicas, claras
+    "evidencia": "...",                 # comece por Alta / Moderada / Baixa / Muito baixa + justificativa curta
+    "riscos": "...",                    # efeitos adversos, contraindicacoes, riscos de produtos sem controle
+    "fontes": ["FDA label ...", "NIH ODS ..."],   # 1-3 fontes GENERICAS e verdadeiras (orgao/base/revisao). NAO invente citacao com autor/ano/volume se nao tiver certeza.
+    "oque": "...",                      # 1 frase simples: o que faz
+    "beneficios": "...",                # 1-2 frases: o que os estudos mostraram (honesto sobre limites)
+    "det": {                            # secao "Entenda a fundo"
+        "oque": "...",                  # 2 frases
+        "age": ["...", "...", "..."],   # 3 frases curtas: como age, passo a passo
+        "hist": "...",                  # 1-2 frases de historia
+        "estudos": "...",               # 1-2 frases do que os estudos mostraram
+        "evitar": "...",                # 1-2 frases: quem deve ter cuidado
+    },
+    "vias": [["sc","h"], ["oral","a"]], # vias estudadas: via em sc|im|iv|oral|nasal|top|inal|vit|intra|cel ; estudo em h (humanos) | a (so animais) | v (so in vitro/celulas)
+    "farmaco": {"h": 2.0, "txt": "Meia-vida de cerca de 2 horas...", "arm": "Armazenamento conforme a bula/fabricante..."},  # h em horas ou None se nao ha dado confiavel
+    "timeline": [[1970, "Descoberto por ..."]],       # opcional, so fatos que voce tem certeza (ano inteiro)
+    "familia": "imune",                 # id de familia em data-mecanismos.js (leia o arquivo). Obrigatorio.
+    "alvos": ["cortisol"],              # chaves existentes em data-alvos.js (leia o arquivo; pode ser lista vazia)
+  },
+]
+
+REGRAS IMPORTANTES
+- Verdade acima de tudo. Voce escreve de memoria: seja conservador, nao invente dados, numeros de ensaios, datas ou aprovacoes. Se nao tem certeza, use formulacao geral ("estudos em animais sugerem...") ou omita (timeline e opcional).
+- O site e EDUCATIVO: NUNCA forneca doses, protocolos de autoadministracao, "ciclos" ou como obter/usar. Descreva riscos sem rodeios. Para substancias nao aprovadas, deixe claro que nao ha uso humano validado.
+- Para anabolizantes/dopagem/uso nao medico: tom informativo e de saude publica, foco em riscos, status legal/regulatorio (proibido pela WADA quando for o caso) e usos medicos reais.
+- Status regulatorio varia por pais; cite FDA/EMA/Anvisa apenas quando tiver certeza, senao diga "status varia por pais; confira o orgao regulador".
+- NAO duplique itens que ja existem: leia data.js (linhas P("Nome", ...) e o array PEPTIDES inicial) e confira antes. Se um item da sua lista ja existir (inclusive com outro nome, ex.: "Ipamorelina / CJC-1295" ja existe combinado; KPV ja existe), pule-o e avise no resumo final.
+- Categorias permitidas (use exatamente): Hormônio, Metabolismo, Vitamina, Suplemento e metabólito, Longevidade, Secretagogos de GH, Imunomodulador, Antimicrobiano, Neuroproteção, Gastrointestinal, Mineral, Cardiovascular, Mitocondrial, Nootrópico, NAD e precursores, Experimental, Opioide, Cosmético, Antioxidante, Mimético de exercício, Muscular, Sexual, Antitumoral. (Se nenhuma servir, use a mais proxima; nao crie categoria nova.)
+- "familia": use um id existente em data-mecanismos.js (leia o arquivo: campo id de cada familia).
+- Use aspas duplas e escape correto (\" dentro de strings). Sem quebra de linha dentro de strings. Cada arquivo deve importar sem erro: teste com `python -c "import runpy; d=runpy.run_path(r'<arquivo>'); print(len(d['NOVOS']))"`.
+- Ao terminar, responda com UMA linha por arquivo criado + lista de itens pulados por ja existirem. Nada mais.

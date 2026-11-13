@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa de conexões — Guia Educativo de Peptídeos, Hormônios e Suplementos</title>
+<meta name="description" content="Mapa visual e clicável que relaciona as substâncias do catálogo aos alvos do corpo e a outros itens que atuam nos mesmos alvos.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b7fa5">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+<!--seo-->
+<meta name="site-root" content="https://SEU-DOMINIO.com">
+<link rel="canonical" href="https://SEU-DOMINIO.com/grafo.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Guia Educativo de Peptídeos, Hormônios e Suplementos">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Mapa de conexões — Guia Educativo de Peptídeos, Hormônios e Suplementos">
+<meta property="og:description" content="Mapa visual e clicável que relaciona as substâncias do catálogo aos alvos do corpo e a outros itens que atuam nos mesmos alvos.">
+<meta property="og:url" content="https://SEU-DOMINIO.com/grafo.html">
+<meta property="og:image" content="https://SEU-DOMINIO.com/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<!--/seo-->
+</head>
+<body>
+<header id="topo"></header>
+<main id="principal">
+  <h2>Mapa de conexões</h2>
+  <p class="sub-calc">Escolha uma substância do catálogo ou um alvo. Clique em qualquer bolha para centralizar o mapa nela e seguir explorando.</p>
+  <div class="g-controles nao-imprimir">
+    <label for="g-busca">Buscar item ou alvo</label>
+    <input type="search" id="g-busca" list="g-opcoes" placeholder="Ex.: Semaglutida, Testosterona, Mitocôndria..." autocomplete="off">
+    <datalist id="g-opcoes"></datalist>
+    <span class="g-legenda"><i class="lg-p"></i> substância do catálogo <i class="lg-a"></i> alvo no corpo</span>
+  </div>
+  <section class="boas">
+    <h3 id="g-titulo"></h3>
+    <div id="g-svg" class="g-svg"></div>
+    <p id="g-acoes" class="acoes"></p>
+  </section>
+  <section class="boas"><h3 id="g-lista-t"></h3><ul id="g-lista" class="explore"></ul></section>
+  <p><small>Conexões baseadas nos alvos descritos em <a href="alvos.html">Hormônios e alvos</a>. “Age no mesmo alvo” não significa que os itens possam ser combinados: veja <a href="interacoes.html">Interações e cuidados</a>.</small></p>
+  <div class="ad-slot" data-slot="meio"></div>
+</main>
+<footer id="rodape"></footer>
+<script defer src="data.js"></script>
+<script defer src="data-extra.js"></script>
+<script defer src="aprovacoes.js"></script>
+<script defer src="data-alvos.js"></script>
+<script defer src="revisao-pendente.js"></script><script defer src="core.js"></script>
+<script>/*i18n-lazy*/if((localStorage.getItem("lang")||"pt")!=="pt")document.write('<script src="i18n-conteudo.js"><\/script><script src="i18n-detalhes.js"><\/script><script src="i18n-paginas.js"><\/script>')</script>
+<script defer src="i18n.js"></script>
+<script defer src="grafo.js"></script>
+<script defer src="ads.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿D = {
+ "Todos os tipos": ("All types", "Todos los tipos"),
+ "Tipo de substância": ("Substance type", "Tipo de sustancia"),
+ "Qual a diferença entre peptídeo, hormônio, vitamina, mineral e suplemento?": ("What is the difference between peptide, hormone, vitamin, mineral and supplement?", "¿Cuál es la diferencia entre péptido, hormona, vitamina, mineral y suplemento?"),
+ "O <b>tipo</b> diz o que a substância é; a <b>categoria</b> diz para que ela é estudada ou usada. Um mesmo tipo pode ter várias categorias.": ("The <b>type</b> says what the substance is; the <b>category</b> says what it is studied or used for. One type can have several categories.", "El <b>tipo</b> dice qué es la sustancia; la <b>categoría</b> dice para qué se estudia o se usa. Un mismo tipo puede tener varias categorías."),
+ "Peptídeo ou proteína": ("Peptide or protein", "Péptido o proteína"),
+ "Hormônio (não peptídico)": ("Hormone (non-peptide)", "Hormona (no peptídica)"),
+ "Vitamina": ("Vitamin", "Vitamina"),
+ "Mineral": ("Mineral", "Mineral"),
+ "Suplemento ou composto": ("Supplement or compound", "Suplemento o compuesto"),
+ "Cadeia de aminoácidos. Ex.: semaglutida, BPC-157, insulina. Costuma ser injetável, pois o estômago digere peptídeos.": ("Chain of amino acids. E.g. semaglutide, BPC-157, insulin. Usually injectable, because the stomach digests peptides.", "Cadena de aminoácidos. Ej.: semaglutida, BPC-157, insulina. Suele ser inyectable, porque el estómago digiere los péptidos."),
+ "Mensageiro químico do corpo, como esteroides e hormônios da tireoide. Ex.: testosterona, estradiol, levotiroxina. Quase sempre exige prescrição.": ("Chemical messenger of the body, such as steroids and thyroid hormones. E.g. testosterone, estradiol, levothyroxine. Almost always requires a prescription.", "Mensajero químico del cuerpo, como los esteroides y las hormonas tiroideas. Ej.: testosterona, estradiol, levotiroxina. Casi siempre requiere receta."),
+ "Micronutriente orgânico que o corpo precisa em pequena quantidade. Ex.: vitaminas D, C e B12.": ("Organic micronutrient the body needs in small amounts. E.g. vitamins D, C and B12.", "Micronutriente orgánico que el cuerpo necesita en pequeña cantidad. Ej.: vitaminas D, C y B12."),
+ "Elemento químico essencial, como zinco, magnésio e ferro.": ("Essential chemical element, such as zinc, magnesium and iron.", "Elemento químico esencial, como zinc, magnesio y hierro."),
+ "Molécula pequena que não é peptídeo, hormônio, vitamina nem mineral: aminoácidos, ácidos graxos, antioxidantes e metabólitos. Ex.: creatina, carnitina, NAD+.": ("Small molecule that is not a peptide, hormone, vitamin or mineral: amino acids, fatty acids, antioxidants and metabolites. E.g. creatine, carnitine, NAD+.", "Molécula pequeña que no es péptido, hormona, vitamina ni mineral: aminoácidos, ácidos grasos, antioxidantes y metabolitos. Ej.: creatina, carnitina, NAD+."),
+}

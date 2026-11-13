@@ -1,0 +1,4750 @@
+[
+ {
+  "nome": "ROMIDEPSIN",
+  "chembl": "CHEMBL343448",
+  "fase": "4.0",
+  "aprov": 2009,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CHROMADAX",
+   "Chromadax",
+   "CYCLIC (1.FWDARW.2)-DISULFIDE",
+   "CYCLIC PEPTIDE DERIV.(E)-(1S,4S,10S,21R)-7-[(Z)-ETHYLIDENE]-4,21-DIISOPROPYL-2- OXA-12,13-DITHIA-5,8,20,23- TETRAAZABICYCLO[8.7.6]TRICOS-16-ENE-3,6,9,19,22-PENTONEL-VALINE",
+   "Depsipeptide",
+   "DEPSIPEPTIDE"
+  ]
+ },
+ {
+  "nome": "THEOPHYLLINE",
+  "chembl": "CHEMBL190",
+  "fase": "4.0",
+  "aprov": 1940,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ },
+ {
+  "nome": "DACTINOMYCIN",
+  "chembl": "CHEMBL1554",
+  "fase": "4.0",
+  "aprov": 1964,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Actinomycin c1",
+   "Actinomycin d",
+   "Actinomycin d",
+   "Actinomycin-d",
+   "Actinomycin i1",
+   "Actinomycin iv"
+  ]
+ },
+ {
+  "nome": "CARFILZOMIB",
+  "chembl": "CHEMBL451887",
+  "fase": "4.0",
+  "aprov": 2009,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Carfilzomib",
+   "Carfilzomib",
+   "Carfilzomib",
+   "Carfilzomib",
+   "Carfilzomib",
+   "Carfilzomib"
+  ]
+ },
+ {
+  "nome": "PEGFILGRASTIM",
+  "chembl": "CHEMBL1201568",
+  "fase": "4.0",
+  "aprov": 2002,
+  "seq": "MTPLGPASSLPQSFLLKCLEQVRKIQGDGAALQEKLCATYKLCHPEELVLLGHSLGIPWAPLSSCPSQALQLAGCLSQLHSGLFLYQGLLQALEGISPELGPTLDTLQLDVADFATTIWQQMEELGMAPALQPTQGAMPAFASAFQRRAGGVLVASHLQSFLEVSYRVLRHLAQP",
+  "tam": 175,
+  "sinonimos": [
+   "B-12019",
+   "B12019",
+   "Cegfila",
+   "Cegfila (previously pegfilgrastim mundipharma)",
+   "Chs-1701",
+   "Fulphila"
+  ]
+ },
+ {
+  "nome": "DENILEUKIN DIFTITOX",
+  "chembl": "CHEMBL1201550",
+  "fase": "4.0",
+  "aprov": 1999,
+  "seq": "MGADDVVDSSKSFVMENFSSYHGTKPGYVDSIQKGIQKPKSGTQGNYDDDWKGFYSTDNKYDAAGYSVDNENPLSGKAGGVVKVTYPGLTKVLALKVDNAETIKKELGLSLTEPLMEQVGTEEFIKRFGDGASRVVLSLPFAEGSSSVEYINNWEQAKALSVELEINFETRGKRGQDAMYEYMAQACAGNRVRRSVGSSLSCINLDWDVIRDKTKTKIESLKEHGPIKNKMSESPNKTVSEEKAKQYLEEFHQTALEHPELSELKTVTGTNPVFAGANYAAWAVNVAQVIDSETADNLEKTTAALSILPGIGSVMGIADGAVHHNTEEIVAQSIALSSLMVAQAIPLVGELVDIGFAAYNFVESIINLFQVVHNSYNRPAYSPGHKTHAPTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWI TFCQSIISTLT",
+  "tam": 522,
+  "sinonimos": [
+   "DAB-389IL2",
+   "DAB389 IL2",
+   "DAB389IL2",
+   "DAB(SUB 389)IL2",
+   "Denileukin",
+   "Denileukina diftitox"
+  ]
+ },
+ {
+  "nome": "INTERFERON -2B",
+  "chembl": "CHEMBL1201558",
+  "fase": "4.0",
+  "aprov": 1986,
+  "seq": "CDLPQTHSLGSRRTLMLLAQMRRISLFSCLKDRHDFGFPQEEFGNQFQKAETIPVLHEMIQQIFNLFSTKDSSAAWDETLLDKFYTELYQQLNDLEACVIQGVGVTETPLMKEDSILAVRKYFQRITLYLKEKKYSPCAWEVVRAEIMRSFSLSTNLQESLRSKE",
+  "tam": 165,
+  "sinonimos": [
+   "Interferon alfa-2b",
+   "Interferon alfa-2b",
+   "Interferon alfa-2b",
+   "Interferon alfa-2b",
+   "Interferon alfa-2b",
+   "Interferon alfa-2b"
+  ]
+ },
+ {
+  "nome": "ETANERCEPT",
+  "chembl": "CHEMBL1201572",
+  "fase": "4.0",
+  "aprov": 1998,
+  "seq": "LPAQVAFTPYAPEPGSTCRLREYYDQTAQMCCSKCSPGQHAKVFCTKTSDTVCDSCEDSTYTQLWNWVPECLSCGSRCSSDQVETQACTREQNRICTCRPGWYCALSKQEGCRLCAPLRKCRPGFGVARPGTETSDVVCKPCAPGTFSNTTSSTDICRPHQICNVVAIPGNASMDAVCTSTSPTRSMAPGAVHLPQPVSTRSQHTQPTPEPSTAPSTSFLLPMGPSPPAEGSTGDEPKSCDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPQVKFNWYVDGVQVHNAKTKPREQQYNSTYRVVSVLTVLHQNWLDGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 467,
+  "sinonimos": [
+   "Benepali",
+   "Chs-0214",
+   "Davictrel",
+   "Dwp-422",
+   "Enbrel",
+   "Enia-11"
+  ]
+ },
+ {
+  "nome": "BECAPLERMIN",
+  "chembl": "CHEMBL1201556",
+  "fase": "4.0",
+  "aprov": 1997,
+  "seq": "SLGSLTIAEPAMIAECKTRTEVFEISRRLIDRTNANFLVWPPCVEVQRCSGCCNNRNVQCRPTQVQLRPVQVRKIEIVRKKPIFKKATVTLEDHLACKCETVAAARPVT",
+  "tam": 109,
+  "sinonimos": [
+   "Becaplermin",
+   "Becaplermin",
+   "Becaplermin",
+   "Becaplermin",
+   "Becaplermin",
+   "Becaplermin"
+  ]
+ },
+ {
+  "nome": "SOMATREM",
+  "chembl": "CHEMBL1201620",
+  "fase": "4.0",
+  "aprov": 1985,
+  "seq": "MFPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF",
+  "tam": 192,
+  "sinonimos": [
+   "Protropin",
+   "Protropin (genentech)",
+   "Somatotropin methionyl human growth hormone",
+   "Somatrem",
+   "Somatrem",
+   "Somatrem"
+  ]
+ },
+ {
+  "nome": "INSULIN SUSP ISOPHANE SEMISYNTHETIC PURIFIED",
+  "chembl": "CHEMBL1201627",
+  "fase": "4.0",
+  "aprov": 1985,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulin susp isophane semisynthetic purified human"
+  ]
+ },
+ {
+  "nome": "RIMABOTULINUMTOXINB",
+  "chembl": "CHEMBL1201569",
+  "fase": "4.0",
+  "aprov": 2000,
+  "seq": "MPVTINNFNYNDPIDNNNIIMMEPPFARGTGRYYKAFKITDRIWIIPERYTFGYKPEDFNKSSGIFNRDVCEYYDPDYLNTNDKKNIFLQTMIKLFNRIKSKPLGEKLLEMIINGIPYLGDRRVPLEEFNTNIASVTVNKLISNPGEVERKKGIFANLIIFGPGPVLNENETIDIGIQNHFASREGFGGIMQMKFCPEYVSVFNNVQENKGASIFNRRGYFSDPALILMHELIHVLHGLYGIKVDDLPIVPNEKKFFMQSTDAIQAEELYTFGGQDPSIITPSTDKSIYDKVLQNFRGIVDRLNKVLVCISDPNININIYKNKFKDKYKFVEDSEGKYSIDVESFDKLYKSLMFGFTETNIAENYKIKTRASYFSDSLPPVKIKNLLDNEIYTIEEGFNISDKDMEKEYRGQNKAINKQAYEEISKEHLAVYKIQMCKSVK",
+  "tam": 441,
+  "sinonimos": [
+   "AN-0772",
+   "AN0772",
+   "Botulin b",
+   "Botulinum b toxin",
+   "Botulinum neurotoxin type b",
+   "Botulinum toxin type b"
+  ]
+ },
+ {
+  "nome": "INTERFERON GAMMA-1B",
+  "chembl": "CHEMBL1201564",
+  "fase": "4.0",
+  "aprov": 1999,
+  "seq": "MQDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVKFFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQMLFRGR",
+  "tam": 140,
+  "sinonimos": [
+   "Actimmune",
+   "Ifn-.gamma.",
+   "Ifn-.gamma.1b",
+   "Imifn",
+   "Immukin",
+   "Immune ifn"
+  ]
+ },
+ {
+  "nome": "ANTITHROMBIN",
+  "chembl": "CHEMBL1201554",
+  "fase": "4.0",
+  "aprov": 2006,
+  "seq": "HGSPVDICTAKPRDIPMNPMCIYRSPEKKATEDEGSEQKIPEATNRRVWELSKANSRFATTFYQHLADSKNDNDNIFLSPLSISTAFAMTKLGACNDTLQQLMEVFKFDTISEKTSDQIHFFFAKLNCRLYRKANKSSKLVSANRLFGDKSLTFNETYQDISELVYGAKLQPLDFKENAEQSRAAINKWVSNKTEGRITDVIPSEAINELTVLVLVNTIYFKGLWKSKFSPENTRKELFYKADGESCSASMMYQEGKFRYRRVAEGTQVLELPFKGDDITMVLILPKPEKSLAKVEKELTPEVLQEWLDELEEMMLVVHMPRFRIEDGFSLKEQLQDMGLVDLFSPEKSKLPGIVAEGRDDLYVSDAFHKAFLEVNEEGSEAAASTAVVIAGRSLNPNRVTFKANRPFLVFIREVPLNTIIFMGRVANPCVK",
+  "tam": 432,
+  "sinonimos": [
+   "Antithrombin alfa",
+   "Antithrombin alfa",
+   "Antithrombin alfa",
+   "Antithrombin alfa",
+   "Antithrombin alfa",
+   "Antithrombine alfa"
+  ]
+ },
+ {
+  "nome": "ALBUMIN",
+  "chembl": "CHEMBL1201451",
+  "fase": "4.0",
+  "aprov": 1997,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Albumin",
+   "Albuminar-5",
+   "Albumin, blood",
+   "Albumin (bovine)",
+   "Albumin bovine",
+   "Albumin, bovine"
+  ]
+ },
+ {
+  "nome": "ALBUMIN, CHROMATED CR 51 SERUM",
+  "chembl": "CHEMBL1201450",
+  "fase": "4.0",
+  "aprov": 1976,
+  "seq": "DAHKSEVAHRFKDLGEENFKALVLIAFAQYLQQCPFEDHVKLVNEVTEFAKTCVADESAENCDKSLHTLFGDKLCTVATLRETYGEMADCCAKQEPERNECFLQHKDDNPNLPRLVRPEVDVMCTAFHDNEETFLKKYLYEIARRHPYFYAPELLFFAKRYKAAFTECCQAADKAACLLPKLDELRDEGKASSAKQRLKCASLQKFGERAFKAWAVARLSQRFPKAEFAEVSKLVTDLTKVHTECCHGDLLECADDRADLAKYICENQDSISSKLKECCEKPLLEKSHCIAEVENDEMPADLPSLAADFVESKDVCKNYAEAKDVFLGMFLYEYARRHPDYSVVLLLRLAKTYETTLEKCCAAADPHECYAKVFDEFKPLVEEPQNLIKQNCELFEQLGEYKFQNALLVRYTKKVPQVSTPTLVEVSRNLGKVGSKCCKHPEAKRMPCAEDYLSVVLNQLCVLHEKTPVSDRVTKCCTESLVNRRPCFSALEVDETYVPKEFNAETFTFHADICTLSEKERQIKKQTALVELVKHKPKATKEQLKAVMDDFAAFVEKCCKADDKETCFAEEGKKLVAASQAALGL",
+  "tam": 585,
+  "sinonimos": [
+   "51cr",
+   "Albumin chromated cr-51 serum",
+   "Albumin, chromated cr 51 serum",
+   "Albumin, chromated cr 51 serum",
+   "Albumin, chromated cr-51 serum",
+   "Albumin,chromated cr-51 serum"
+  ]
+ },
+ {
+  "nome": "FILGRASTIM",
+  "chembl": "CHEMBL1201567",
+  "fase": "4.0",
+  "aprov": 1991,
+  "seq": "MTPLGPASSLPQSFLLKCLEQVRKIQGDGAALQEKLCATYKLCHPEELVLLGHSLGIPWAPLSSCPSQALQLAGCLSQLHSGLFLYQGLLQALEGISPELGPTLDTLQLDVADFATTIWQQMEELGMAPALQPTQGAMPAFASAFQRRAGGVLVASHLQSFLEVSYRVLRHLAQP",
+  "tam": 175,
+  "sinonimos": [
+   "Accofil",
+   "Biograstim",
+   "EP-2006",
+   "Ep2006",
+   "Filgrastim",
+   "Filgrastim"
+  ]
+ },
+ {
+  "nome": "LEPIRUDIN",
+  "chembl": "CHEMBL1201666",
+  "fase": "4.0",
+  "aprov": 1997,
+  "seq": "LTYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQSHNDGDFEEIPEEYLQ",
+  "tam": 65,
+  "sinonimos": [
+   "Hirudin lepirudin",
+   "Lepirudin",
+   "Lepirudin",
+   "Lepirudin",
+   "Lepirudin",
+   "Lepirudin"
+  ]
+ },
+ {
+  "nome": "INSULIN SUSP ISOPHANE BEEF",
+  "chembl": "CHEMBL1201545",
+  "fase": "4.0",
+  "aprov": 1982,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulin susp isophane beef"
+  ]
+ },
+ {
+  "nome": "INSULIN ASPART PROTAMINE RECOMBINANT",
+  "chembl": "CHEMBL1201664",
+  "fase": "4.0",
+  "aprov": 2001,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulin aspart protamine recombinant"
+  ]
+ },
+ {
+  "nome": "INSULIN LISPRO PROTAMINE RECOMBINANT",
+  "chembl": "CHEMBL1201611",
+  "fase": "4.0",
+  "aprov": 1999,
+  "seq": "GIVEQCCTSICSLYQLENYCN",
+  "tam": 21,
+  "sinonimos": [
+   "Insulin lispro protamine recombinant"
+  ]
+ },
+ {
+  "nome": "ALDESLEUKIN",
+  "chembl": "CHEMBL1201438",
+  "fase": "4.0",
+  "aprov": 1992,
+  "seq": "PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFSQSIISTLT",
+  "tam": 132,
+  "sinonimos": [
+   "Aldesleukin",
+   "Aldesleukin",
+   "Aldesleukin",
+   "Aldesleukin",
+   "Aldesleukin",
+   "Aldesleukin"
+  ]
+ },
+ {
+  "nome": "TROLAMINE POLYPEPTIDE OLEATE CONDENSATE",
+  "chembl": "CHEMBL1201537",
+  "fase": "4.0",
+  "aprov": 1958,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cerumenex",
+   "Trolamine polypeptide oleate condensate"
+  ]
+ },
+ {
+  "nome": "ALEFACEPT",
+  "chembl": "CHEMBL1201571",
+  "fase": "4.0",
+  "aprov": 2003,
+  "seq": "CFSQQIYGVVYGNVTFHVPSNVPLKEVLWKKQKDKVAELENSEFRAFSSFKNRVYLDTVSGSLTIYNLTSSDEDEYEMESPNITDTMKFFLYVLESLPSPTLTCALTNGSIEVQCMIPEHYNSHRGLIMYSWDCPMEQCKRNSTSIYFKMENDLPQKIQCTLSNPLFNTTSSIILTTCIPSSGHSRHRYALIPIPLAVITTCIVLYMNGILKCDRKPDRTNSNRVEPKSCDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPQVKFNWYVDGVQVHNAKTKPREQQYNSTYRVVSVLTVLHQNWLDGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 457,
+  "sinonimos": [
+   "Alefacept",
+   "Alefacept",
+   "Alefacept",
+   "Alefacept",
+   "Alefacept",
+   "Alefacept"
+  ]
+ },
+ {
+  "nome": "DARBEPOETIN",
+  "chembl": "CHEMBL1201566",
+  "fase": "4.0",
+  "aprov": 2001,
+  "seq": "APPRLICDSRVLERYLLEAKEAENITTGCNETCSLNENITVPDTKVNFYAWKRMEVGQQAVEVWQGLALLSEAVLRGQALLVNSSQVNETLQLHVDKAVSGLRSLTTLLRALGAQKEAISPPDAASAAPLRTITADTFRKLFRVYSNFLRGKLKLYTGEACRTGD",
+  "tam": 165,
+  "sinonimos": [
+   "Aranesp",
+   "Aranesp sureclick",
+   "DA-3880",
+   "Da3880",
+   "Darbepoetin",
+   "Darbepoetina alfa"
+  ]
+ },
+ {
+  "nome": "CHORIOGONADOTROPIN",
+  "chembl": "CHEMBL1201464",
+  "fase": "4.0",
+  "aprov": 2000,
+  "seq": "APDVQDCPECTLQENPFFSQPGAPILQCMGCCFSRAYPTPLRSKKTMLVQKNVTSESTCCVAKSYNRVTVMGGFKVENHTACHCSTCYYHKS",
+  "tam": 92,
+  "sinonimos": [
+   "ATC CODE G03 GA GONADOTROPINS",
+   "Choriogonadotropin alfa",
+   "Choriogonadotropin alfa",
+   "Choriogonadotropin alfa",
+   "Choriogonadotropin alfa",
+   "Choriogonadotropin alfa"
+  ]
+ },
+ {
+  "nome": "INTERFERON -1A",
+  "chembl": "CHEMBL1201562",
+  "fase": "4.0",
+  "aprov": 1996,
+  "seq": "MSYNLLGFLQRSSNFQCQKLLWQLNGRLEYCLKDRMNFDIPEEIKQLQQFQKEDAALTIYEMLQNIFAIFRQDSSSTGWNETIVENLLANVYHQINHLKTVLEEKLEKEDFTRGKLMSSLHLKRYYGRILHYLKAKEYSHCAWTIVRVEILRNFYFINRLTGYLRN",
+  "tam": 166,
+  "sinonimos": [
+   "Avonex",
+   "Cinnovex",
+   "Interferon beta-1a",
+   "Interferon beta-1a",
+   "Interferon beta-1a",
+   "Interferon beta-1a"
+  ]
+ },
+ {
+  "nome": "DESIRUDIN",
+  "chembl": "CHEMBL1201662",
+  "fase": "4.0",
+  "aprov": 1997,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "63-desulfohirudin",
+   "63-desulfohirudin (recombinant)",
+   "CGP 39393",
+   "CGP-39393",
+   "Desirudin",
+   "Desirudin"
+  ]
+ },
+ {
+  "nome": "LUTROPIN",
+  "chembl": "CHEMBL1201419",
+  "fase": "4.0",
+  "aprov": 2000,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "ATC G03 GA GONADOTROPINS",
+   "Luteinising hormone",
+   "Luteinising hormone (human)",
+   "Lutropina alfa",
+   "Lutropin alfa",
+   "Lutropin alfa"
+  ]
+ },
+ {
+  "nome": "OPRELVEKIN",
+  "chembl": "CHEMBL1201573",
+  "fase": "4.0",
+  "aprov": 1997,
+  "seq": "GPPPGPPRVSPDPRAELDSTVLLTRSLLADTRQLAAQLRDKFPADGDHNLDSLPTLAMSAGALGALQLPGVLTRLRADLLSYLRHVQWLRRAGGSSLKTLEPELGTLQARLDRLLRRLQLLMSRLALPQPPPDPPAPPLAPPSSAWGGIRAAHAILGGLHLTLDWAVRGLLLLKTRL",
+  "tam": 177,
+  "sinonimos": [
+   "Interleukin-11 (2-178)",
+   "Neumega",
+   "Oprelvekin",
+   "Oprelvekin",
+   "Oprelvekin",
+   "Oprelvekin"
+  ]
+ },
+ {
+  "nome": "PEGINTERFERON -2A",
+  "chembl": "CHEMBL1201560",
+  "fase": "4.0",
+  "aprov": 2002,
+  "seq": "CDLPQTHSLGSRRTLMLLAQMRKISLFSCLKDRHDFGFPQEEFGNQFQKAETIPVLHEMIQQIFNLFSTKDSSAAWDETLLDKFYTELYQQLNDLEACVIQGVGVTETPLMKEDSILAVRKYFQRITLYLKEKKYSPCAWEVVRAEIMRSFSLSTNLQESLRSKE",
+  "tam": 165,
+  "sinonimos": [
+   "Pegasys",
+   "Peginterferon alfa",
+   "Peg-interferon alfa 2a",
+   "Peg-interferon alfa-2a",
+   "Peginterferon alfa-2a",
+   "Peginterferon alfa-2a"
+  ]
+ },
+ {
+  "nome": "INTERFERON -1B",
+  "chembl": "CHEMBL1201563",
+  "fase": "4.0",
+  "aprov": 1993,
+  "seq": "SYNLLGFLQRSSNFQSQKLLWQLNGRLEYCLKDRMNFDIPEEIKQLQQFQKEDAALTIYEMLQNIFAIFRQDSSSTGWNETIVENLLANVYHQINHLKTVLEEKLEKEDFTRGKLMSSLHLKRYYGRILHYLKAKEYSHCAWTIVRVEILRNFYFINRLTGYLRN",
+  "tam": 165,
+  "sinonimos": [
+   "BAY 86-5046",
+   "BAY-86-5046",
+   "Betaferon",
+   "Betaseron",
+   "Extavia",
+   "Interferon beta-1b"
+  ]
+ },
+ {
+  "nome": "SARGRAMOSTIM",
+  "chembl": "CHEMBL1201670",
+  "fase": "4.0",
+  "aprov": 1991,
+  "seq": "APARSPSPSTQPWEHVNAIQEALRLLNLSRDTAAEMNETVEVISEMFDLQEPTCLQTRLELYKQGLRGSLTKLKGPLTMMASHYKQHCPPTPETSCATQIITFESFKENLKDFLLVIPFDCWEPVQE",
+  "tam": 127,
+  "sinonimos": [
+   "B1 61.012",
+   "B1-61012",
+   "Granulocyte-macrophage colony-stimulating factor sargramostim",
+   "Leukine",
+   "RHU GM-CSF",
+   "RHU-GM-CSF"
+  ]
+ },
+ {
+  "nome": "ANAKINRA",
+  "chembl": "CHEMBL1201570",
+  "fase": "4.0",
+  "aprov": 2001,
+  "seq": "MRPSGRKSSKMQAFRIWDVNQKTFYLRNNQLVAGYLQGPNVNLEEKIDVVPIEPHALFLGIHGGKMCLSCVKSGDETRLQLEAVNITDLSENRKQDKRFAFIRSDSGPTTSFESAACPGWFLCTAMEADQPVSLTNMPDEGVMVTKFYFQEDE",
+  "tam": 153,
+  "sinonimos": [
+   "Alta-2530",
+   "Alta2530",
+   "AMG-719",
+   "Anakinra",
+   "Anakinra",
+   "Anakinra"
+  ]
+ },
+ {
+  "nome": "INSULIN GLULISINE",
+  "chembl": "CHEMBL1201613",
+  "fase": "4.0",
+  "aprov": 2004,
+  "seq": "GIVEQCCTSICSLYQLENYCN",
+  "tam": 21,
+  "sinonimos": [
+   "Apidra",
+   "Glulisine apidra",
+   "HMR 1964",
+   "HMR-1964",
+   "HMR1964",
+   "Ins apidra"
+  ]
+ },
+ {
+  "nome": "THYROTROPIN",
+  "chembl": "CHEMBL1201533",
+  "fase": "4.0",
+  "aprov": 1998,
+  "seq": "APDVQDCPECTLQENPFFSQPGAPILQCMGCCFSRAYPTPLRSKKTMLVQKNVTSESTCCVAKSYNRVTVMGGFKVENHTACHCSTCYYHKS",
+  "tam": 92,
+  "sinonimos": [
+   "GX-30",
+   "Thyrogen",
+   "Thyrotropin alfa",
+   "Thyrotropin alfa",
+   "Thyrotropin alfa",
+   "Thyrotropin alfa"
+  ]
+ },
+ {
+  "nome": "INSULIN SUSP ISOPHANE RECOMBINANT",
+  "chembl": "CHEMBL1201540",
+  "fase": "4.0",
+  "aprov": 1982,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulin susp isophane recombinant human",
+   "Isophane insulin human suspension",
+   "Nph human insulin"
+  ]
+ },
+ {
+  "nome": "INTERFERON ALFACON-1",
+  "chembl": "CHEMBL1201557",
+  "fase": "4.0",
+  "aprov": 1997,
+  "seq": "MCDLPQTHSLGNRRALILLAQMRRISPFSCLKDRHDFGFPQEEFDGNQFQKAQAISVLHEMIQQTFNLFSTKDSSAAWDESLLEKFYTELYQQLNDLEACVIQEVGVEETPLMNVDSILAVKKYFQRITLYLTEKKYSPCAWEVVRAEIMRSFSLSTNLQERLRRKE",
+  "tam": 167,
+  "sinonimos": [
+   "Infergen",
+   "Interferon alfacon-1",
+   "Interferon alfacon-1",
+   "Interferon alfacon-1",
+   "Interferon alfacon-1",
+   "Interferon alfacon-1"
+  ]
+ },
+ {
+  "nome": "PEGINTERFERON -2B",
+  "chembl": "CHEMBL1201561",
+  "fase": "4.0",
+  "aprov": 2000,
+  "seq": "CDLPQTHSLGSRRTLMLLAQMRRISLFSCLKDRHDFGFPQEEFGNQFQKAETIPVLHEMIQQIFNLFSTKDSSAAWDETLLDKFYTELYQQLNDLEACVIQGVGVTETPLMKEDSILAVRKYFQRITLYLKEKKYSPCAWEVVRAEIMRSFSLSTNLQESLRSKE",
+  "tam": 165,
+  "sinonimos": [
+   "Pegifn alfa-2b",
+   "Peg-interferon alfa-2b",
+   "Peginterferon alfa-2b",
+   "Peginterferon alfa-2b",
+   "Peginterferon alfa-2b",
+   "Peginterferon alfa-2b"
+  ]
+ },
+ {
+  "nome": "INSULIN SUSP RECOMBINANT",
+  "chembl": "CHEMBL1201644",
+  "fase": "4.0",
+  "aprov": 1985,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulin zinc susp recombinant human"
+  ]
+ },
+ {
+  "nome": "MECASERMIN RINFABATE",
+  "chembl": "CHEMBL1201717",
+  "fase": "4.0",
+  "aprov": 2005,
+  "seq": "GPETLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSAGASSAGLGPVVRCEPCDARALAQCAPPPAVCAELVREPGCGCCLTCALSEGQPCGIYTERCGSGLRCQPSPDEARPLQALLDGRGLCVNASAVSRLRAYLLPAPPAPGNASESEEDRSAGSVESPSVSSTHRVSDPKFHPLHSKIIIIKKGHAKDSQRYKVDYESQSTDTQNFSSESKRETEYGPCRREMEDTLNHLKFLNVLSPRGVHIPNCDKKGFYKKKQCRPSKGRKRGFCWCVDKYGQPLPGYTTKGKEDVHCYSMQSK",
+  "tam": 334,
+  "sinonimos": [
+   "Mecasermina rinfabato",
+   "Mecasermine rinfabate",
+   "Mecasermin rinfabate",
+   "Mecasermin rinfabate",
+   "Mecasermin rinfabate",
+   "Mecasermin rinfabate"
+  ]
+ },
+ {
+  "nome": "PALIFERMIN",
+  "chembl": "CHEMBL1201821",
+  "fase": "4.0",
+  "aprov": 2005,
+  "seq": "MSYDYMEGGDIRVRRLFCRTQWYLRIDKRGKVKGTQEMKNNYNIMEIRTVAVGIVAIKGVESEFYLAMNKEGKLYAKKECNEDCNFKELILENHYNTYASAKWTHNGGEMFVALNQKGIPVRGKKTKKEQKTAHFLPMAIT",
+  "tam": 141,
+  "sinonimos": [
+   "Kepivance",
+   "Palifermin",
+   "Palifermin",
+   "Palifermin",
+   "Palifermin",
+   "Palifermin"
+  ]
+ },
+ {
+  "nome": "ABATACEPT",
+  "chembl": "CHEMBL1201823",
+  "fase": "4.0",
+  "aprov": 2006,
+  "seq": "MGVLLTQRTLLSLVLALLFPSMASMAMHVAQPAVVLASSRGIASFVCEYASPGKATEVRVTVLRQADSQVTEVCAATYMMGNELTFLDDSICTGTSSGNQVNLTIQGLRAMDTGLYICKVELMYPPPYYLGIGNGTQIYVIDPEPCPDSDQEPKSSDKTHTSPPSPAPELLGGSSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 383,
+  "sinonimos": [
+   "Abatacept",
+   "Abatacept",
+   "Abatacept",
+   "Abatacept",
+   "Abatacept",
+   "Abatacept"
+  ]
+ },
+ {
+  "nome": "RILONACEPT",
+  "chembl": "CHEMBL1201830",
+  "fase": "4.0",
+  "aprov": 2008,
+  "seq": "SERCDDWGLDTMRQIQVFEDEPARIKCPLFEHFLKFNYSTAHSAGLTLIWYWTRQDRDLEEPINFRLPENRISKEKDVLWFRPTLLNDTGNYTCMLRNTTYCSKVAFPLEVVQKDSCFNSPMKLPVHKLYIEYGIQRITCPNVDGYFPSSVKPTITWYMGCYKIQNFNNVIPEGMNLSFLIALISNNGNYTCVVTYPENGRTFHLTRTLTVKVVGSPKNAVPPVIHSPNDHVVYEKEPGEELLIPCTVYFSFLMDSRNEVWWTIDGKKPDDITIDVTINESISHSRTEDETRTQILSIKKVTSEDLKRSYVCHARSAKGEVAKAAKVKQKVPAPRYTVEKCKEREEKIILVSSANEIDVRPCPLNPNEHKGTITWYKDDSKTPVSTEQASRIHQHKEKLWFVPAKVEDSGHYYCVVRNSSYCLRIKISAKFVENEPNLCYNAQAIFKQKLPVAGDGGLVCPYMEFFKNENNELPKLQWYKDCKPLLLDNIHFSGVKDRLIVMNVAEKHRGNYTCHASYTYLGKQYPITRVIEFITLEENKPTRPVIVSPANETMEVDLGSQIQLICNVTGQLSDIAYWKWNGSVIDEDDPVLGEDYYSVENPANKRRSTLITVLNISEIESRFYKHPFTCFAKNTHGIDAAYIQLIYPVTNSGDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 880,
+  "sinonimos": [
+   "Arcalyst",
+   "IL-1 TRAP",
+   "IL-1-TRAP",
+   "INTERLEUKIN-1 TRAP",
+   "Kpl-914",
+   "KPL-914"
+  ]
+ },
+ {
+  "nome": "ROMIPLOSTIM",
+  "chembl": "CHEMBL1201832",
+  "fase": "4.0",
+  "aprov": 2008,
+  "seq": "MDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGKGGGGGIEGPTLRQWLAARAGGGGGGGGIEGPTLRQWLAARA",
+  "tam": 269,
+  "sinonimos": [
+   "AMG 531",
+   "Nplate",
+   "Romiplate",
+   "Romiplostim",
+   "Romiplostim",
+   "Romiplostim"
+  ]
+ },
+ {
+  "nome": "AMINOPHYLLINE",
+  "chembl": "CHEMBL1370561",
+  "fase": "4.0",
+  "aprov": 1940,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Aminofilina",
+   "Aminophyllin",
+   "Aminophylline",
+   "Aminophylline",
+   "Aminophylline",
+   "Aminophylline"
+  ]
+ },
+ {
+  "nome": "AFLIBERCEPT",
+  "chembl": "CHEMBL1742982",
+  "fase": "4.0",
+  "aprov": 2011,
+  "seq": "SDTGRPFVEMYSEIPEIIHMTEGRELVIPCRVTSPNITVTLKKFPLDTLIPDGKRIIWDSRKGFIISNATYKEIGLLTCEATVNGHLYKTNYLTHRQTNTIIDVVLSPSHGIELSVGEKLVLNCTARTELNVGIDFNWEYPSSKHQHKKLVNRDLKTQSGSEMKKFLSTLTIDGVTRSDQGLYTCAASSGLMTKKNSTFVRVHEKDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPG",
+  "tam": 431,
+  "sinonimos": [
+   "ABP-938",
+   "Aflibercept",
+   "Aflibercept",
+   "Aflibercept",
+   "Aflibercept",
+   "Aflibercept"
+  ]
+ },
+ {
+  "nome": "ATACICEPT",
+  "chembl": "CHEMBL1742986",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "AMRSCPEEQYWDPLLGTCMSCKTICNHQSQRTCAAFCRSLSCRKEQGKFYDHLLRDCISCASICGQHPKQCAYFCENKLRSEPKSSDKTHTCPPCPAPEAEGAPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPSSIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 313,
+  "sinonimos": [
+   "Atacicept",
+   "Atacicept",
+   "Atacicept",
+   "Atacicept",
+   "TACI-FC5",
+   "TACI-IG"
+  ]
+ },
+ {
+  "nome": "BAMINERCEPT",
+  "chembl": "CHEMBL1742988",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "AVPPYASENQTCRDQEKEYYEPQHRICCSRCPPGTYVSAKCSRIRDTVCATCAENSYNEHWNYLTICQLCRPCDPVMGLEEIAPCTSKRKTQCRCQPGMFCAAWALECTHCELLSDCPPGTEAELKDEVGKGNNHCVPCKAGHFQNTSSPSARCQPHTRCENQGLVEAAPGTAQSDTTCKNPLEPLPPEMSGTMVDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPG",
+  "tam": 421,
+  "sinonimos": [
+   "Baminercept",
+   "Baminercept",
+   "Baminercept",
+   "Baminercept alfa",
+   "Baminercept alfa (rch)",
+   "BG 9924"
+  ]
+ },
+ {
+  "nome": "BELATACEPT",
+  "chembl": "CHEMBL1742990",
+  "fase": "4.0",
+  "aprov": 2011,
+  "seq": "MHVAQPAVVLASSRGIASFVCEYASPGKYTEVRVTVLRQADSQVTEVCAATYMMGNELTFLDDSICTGTSSGNQVNLTIQGLRAMDTGLYICKVELMYPPPYYEGIGNGTQIYVIDPEPCPDSDQEPKSSDKTHTSPPSPAPELLGGSSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 357,
+  "sinonimos": [
+   "Belatacept",
+   "Belatacept",
+   "Belatacept",
+   "Belatacept",
+   "Belatacept",
+   "Belatacept"
+  ]
+ },
+ {
+  "nome": "PEGSUNERCEPT",
+  "chembl": "CHEMBL1743057",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MDSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVCGCRKNQYRHYWSENLFQCFN",
+  "tam": 106,
+  "sinonimos": [
+   "Pegsunercept",
+   "Pegsunercept",
+   "Pegsunercept",
+   "STNF-RI"
+  ]
+ },
+ {
+  "nome": "SOTATERCEPT",
+  "chembl": "CHEMBL1743073",
+  "fase": "4.0",
+  "aprov": null,
+  "seq": "ILGRSETQECLFFNANWEKDRTNQTGVEPCYGDKDKRRHCFATWKNISGSIEIVKQGCWLDDINCYDRTDCVEKKDSPEVYFCCCEGNMCNEKFSYFPEMEVTQPTSNPVTPKPPTGGGTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPVPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 344,
+  "sinonimos": [
+   "ACE-001",
+   "ACE-011",
+   "ACE011",
+   "Sotatercept",
+   "Sotatercept",
+   "Sotatercept"
+  ]
+ },
+ {
+  "nome": "PEGINESATIDE",
+  "chembl": "CHEMBL1963684",
+  "fase": "4.0",
+  "aprov": 2012,
+  "seq": "(Gly Gly Leu Tyr Ala Cys His Met Gly Pro Ile Thr Nal Val Cys Gln Pro Leu Arg Sar Lys)2",
+  "tam": 86,
+  "sinonimos": [
+   "AF37702",
+   "AF 37702 ACETATE",
+   "AF-37702 ACETATE",
+   "AF37702 ACETATE",
+   "Hematide acetate",
+   "Omontys"
+  ]
+ },
+ {
+  "nome": "OCRIPLASMIN",
+  "chembl": "CHEMBL2095222",
+  "fase": "4.0",
+  "aprov": 2010,
+  "seq": "APSFDCGKPQVEPKKCPGR",
+  "tam": 19,
+  "sinonimos": [
+   "Jetrea",
+   "Jetrea",
+   "MICROPLASMIN",
+   "Microplasmin (synthetic human)",
+   "Ocriplasmin",
+   "Ocriplasmin"
+  ]
+ },
+ {
+  "nome": "INSULIN DETEMIR",
+  "chembl": "CHEMBL2104391",
+  "fase": "4.0",
+  "aprov": 2004,
+  "seq": "GIVEQCCTSICSLYQLENYCN",
+  "tam": 21,
+  "sinonimos": [
+   "Detemir",
+   "Ins levemir",
+   "Insulina detemir",
+   "Insulin detemir",
+   "Insulin detemir",
+   "Insulin detemir"
+  ]
+ },
+ {
+  "nome": "BRIOBACEPT",
+  "chembl": "CHEMBL2107844",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DVRRGPRSLRGRDAPAPTPCNPAECFDPLVRHCVACGLLRTPRPKPAGASSPAPRTALQPQESVGAGAGEAAVDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPG-249",
+  "tam": 303,
+  "sinonimos": [
+   "BR-3-FC",
+   "BR3-FC",
+   "Briobacept",
+   "Briobacept",
+   "SS-79"
+  ]
+ },
+ {
+  "nome": "VONICOG",
+  "chembl": "CHEMBL2107873",
+  "fase": "4.0",
+  "aprov": 2018,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BAX 111",
+   "BAX-111",
+   "Veyvondi",
+   "Vonicog alfa",
+   "Vonicog alfa",
+   "Vonicog alfa"
+  ]
+ },
+ {
+  "nome": "REGRAMOSTIM",
+  "chembl": "CHEMBL2107881",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "GMC 89-107",
+   "GMC-89-107",
+   "GM-CSF",
+   "GM-CSF (CHO CELL)",
+   "Leucotropin glycoform gmc 89-107",
+   "Regramostim"
+  ]
+ },
+ {
+  "nome": "TASONERMIN",
+  "chembl": "CHEMBL2107891",
+  "fase": "4.0",
+  "aprov": 1999,
+  "seq": "VRSSSRTPSDKPVAHVVANPQAEGQLQWLNRRANALLANGVELRDNQLVVPSEGLYLIYSQVLFKGQGCPSTHVLLTHTISRIAVSYQTKVNLLSAIKSPCQRETPEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLDFAESGQVYFGIIAL",
+  "tam": 157,
+  "sinonimos": [
+   "Beromun",
+   "Beromun",
+   "FK 516",
+   "FK-516",
+   "Tasonermin",
+   "Tasonermin"
+  ]
+ },
+ {
+  "nome": "TECELEUKIN",
+  "chembl": "CHEMBL2107892",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BG 8301",
+   "BG-8301",
+   "Imunace",
+   "Interleukin-2 teceleukin",
+   "RO 23-6019",
+   "RO-23-6019"
+  ]
+ },
+ {
+  "nome": "ONERCEPT",
+  "chembl": "CHEMBL2107911",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Onercept",
+   "Onercept",
+   "Onercept",
+   "R-HTBP-1"
+  ]
+ },
+ {
+  "nome": "OVANDROTONE ALBUMIN",
+  "chembl": "CHEMBL2107919",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "GR 33207",
+   "Ovandrotona albumina",
+   "Ovandrotone albumin",
+   "Ovandrotone albumin",
+   "Ovandrotone albumine"
+  ]
+ },
+ {
+  "nome": "REPIFERMIN",
+  "chembl": "CHEMBL2107956",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SYNHLQGDVRWRKLFSFTKYFLKIEKNGKVSGTKKENCPYSILEITSVEIGVVAVKAINSNYYLAMNKKGKLYGSKEFNNDCKLKERIEENGYNTYASFNWQHNGRQMYVALNGKGAPRRGQKTRRKNTSAHFLPMVVHS",
+  "tam": 140,
+  "sinonimos": [
+   "KGF-2",
+   "Repifermin",
+   "Repifermin",
+   "Repifermina",
+   "Repifermine"
+  ]
+ },
+ {
+  "nome": "PEGNARTOGRASTIM",
+  "chembl": "CHEMBL2107983",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MAPTYRASSLPQSFELKSLEQVRKIQGDGAALQEKLCATYKLCHPEELVLLGHSLGIPWAPLSSCPSQALQLAGCLSQLHSGLFLYQGLLQALEGISPELGPTLDTLQLDVADFATTIWQQMEELGMAPALQPTQGAMPAFASAFQRRAGGVLVASHLQSFLEVSYRVLRHLAQP",
+  "tam": 175,
+  "sinonimos": [
+   "Pegnartograstim",
+   "Pegnartograstim",
+   "RO-25-8315/000",
+   "RO-258315000"
+  ]
+ },
+ {
+  "nome": "PEGALDESLEUKIN",
+  "chembl": "CHEMBL2107984",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Pegaldesleukin",
+   "Pegaldesleukina",
+   "Pegaldesleukine"
+  ]
+ },
+ {
+  "nome": "EPOETIN EPSILON",
+  "chembl": "CHEMBL2108002",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Epoetina epsilon",
+   "Epoetine epsilon",
+   "Epoetin epsilon"
+  ]
+ },
+ {
+  "nome": "SOMFASEPOR",
+  "chembl": "CHEMBL2108006",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Grolene",
+   "Leanstar",
+   "P-3232",
+   "P-3895",
+   "Somfaepor",
+   "Somfasepor"
+  ]
+ },
+ {
+  "nome": "DAPICLERMIN",
+  "chembl": "CHEMBL2108024",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "AFTEHSPLTPHRRDLASRSIWLARKIRSDLTALTESYVKHQGLNKNINLDSADGMPVASTDRWSELTEAERLQENLQAYRTFHVLLARLLEDQQVHFTPTEGDFHQAIHTLLLQVAAFAYQIEELMILLEYKIPRNEADGMPINVGDGGLFEKKLWGLKVLQELSQWTVRSIHDLRFISSHQTG",
+  "tam": 184,
+  "sinonimos": [
+   "Axokine",
+   "Dapiclermin",
+   "Dapiclermin",
+   "Dapiclermina",
+   "Dapiclermine"
+  ]
+ },
+ {
+  "nome": "IBOCTADEKIN",
+  "chembl": "CHEMBL2108034",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YFGKLESKLSVIRNLNDQVLFIDQGNRPLFEDMTDSDCRDNAPRTIFIISMYKDSQPRGMAVTISVKCEKISTLSCENKIISFKEMNPPDNIKDTKSDIIFFQRSVPGHDNKMQFESSSYEGYFLACEKERDLFKLILKKEDELGDRSIMFTVQNED",
+  "tam": 157,
+  "sinonimos": [
+   "Iboctadekin",
+   "Iboctadekin",
+   "Iboctadekin",
+   "Iboctadekina",
+   "Iboctadekine",
+   "Ifn-gamma-inducing factor"
+  ]
+ },
+ {
+  "nome": "MIROCOCEPT",
+  "chembl": "CHEMBL2108040",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "CDGPKKKKKKSPSKSSG",
+  "tam": 17,
+  "sinonimos": [
+   "APT 070",
+   "APT-070",
+   "Mirococept"
+  ]
+ },
+ {
+  "nome": "VANUTIDE CRIDIFICAR",
+  "chembl": "CHEMBL2108058",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GADDVVDSSKSFVMENFSSYHGTKPGYVDSIQKGIQKPKSGTQGNYDDDWKEFYSTDNKYDAAGYSVDNENPLSGKAGGVVKVTYPGLTKVLALKVDNAETIKKELGLSLTEPLMEQVGTEEFIKRFGDGASRVVLSLPFAEGSSSVEYINNWEQAKALSVELEINFETRGKRGQDAMYEYMAQACAGNRVRRSVGSSLSCINLDWDVIRDKTKTKIESLKEHGPIKNKMSESPNKTVSEEKAKQYLEEFHQTALEHPELSELKTVTGTNPVFAGANYAAWAVNVAQVIDSETADNLEKTTAALSILPGIGSVMGIADGAVHHNTEEIVAQSIALSSLMVAQAIPLVGELVDIGFAAYNFVESIINLFQVVHNSYNRPAYSPGHKTQPFLHDGYAVSWNTVEDSIIRTGFQGESGHDIKITAENTPLPIAGVLLPTIPGKLDVNKSKTHISVNGRKIRMRCRAIDGDVTFCRPKSPVYVGNGVHANLHVAFHRSSSEKIHSNEISSDSIGVLGYQKTVDHTKVNSKLSLFFEIKS",
+  "tam": 535,
+  "sinonimos": [
+   "ACC-001",
+   "Vanutida cridificar",
+   "Vanutide cridificar",
+   "Vanutide cridificar",
+   "Vanutide cridificar"
+  ]
+ },
+ {
+  "nome": "VELAFERMIN",
+  "chembl": "CHEMBL2108059",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MAPLAEVGGFLGGLEGLGQQVGSHFLLPPAGERPPLLGERRSAAERSARGGPGAAQLAHLHGILRRRQLYCRTGFHLQILPDGSVQGTRQDHSLFGILEFISVAVGLVSIRGVDSGLYLGMNDKGELYGSEKLTSECIFREQFEENWYNTYSSNIYKHGDTGRRYFVALNKDGTPRDGARSKRHQKFTHFLPRPVDPERVPELYKDLLMYT",
+  "tam": 211,
+  "sinonimos": [
+   "CG-53135-05",
+   "CG53135-05",
+   "Velafermin",
+   "Velafermin",
+   "Velafermin",
+   "Velafermina"
+  ]
+ },
+ {
+  "nome": "PARATHYROID HORMONE",
+  "chembl": "CHEMBL2108078",
+  "fase": "4.0",
+  "aprov": 2006,
+  "seq": "SVSEIQLMHNLGKHLNSMERVEWLRKKLQDVHNFVALGAPLAPRDAGSQRPRKKEDNVLVESHEKSLGEADKADVNVLTKAKSQ",
+  "tam": 84,
+  "sinonimos": [
+   "ALX-1-11",
+   "ALX-111",
+   "ALX1-11",
+   "Hormona paratiroidea",
+   "Hormone parathyroide",
+   "Natpar"
+  ]
+ },
+ {
+  "nome": "TRAFERMIN",
+  "chembl": "CHEMBL2108081",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "CAB-2001",
+   "Fiblast",
+   "Recombinant human basic fibroblast growth factor (2-154)",
+   "RHBFGF",
+   "Trafermin",
+   "Trafermin"
+  ]
+ },
+ {
+  "nome": "PEGACARISTIM",
+  "chembl": "CHEMBL2108120",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SPAPPACDLRVLSKLLRDSHVLHSRLSQCPEVHPLPTPVLLPAVDFSLGEWKTQMEETKAQDILGAVTLLLEGVMAARGQLGPTCLSSLLGQLSGQVRLLLGALQSLLGTQLPPQGRTTAHKDPNAIFLSFQHLLRGKVRFLMLVGGSTLCVRRAPPTTAVPS",
+  "tam": 163,
+  "sinonimos": [
+   "Pegacaristim",
+   "Pegacaristim"
+  ]
+ },
+ {
+  "nome": "ECOGRAMOSTIM",
+  "chembl": "CHEMBL2108149",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ecogramostim"
+  ]
+ },
+ {
+  "nome": "CELMOLEUKIN",
+  "chembl": "CHEMBL2108176",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Celeuk",
+   "Celmoleukin",
+   "Celmoleukina",
+   "Celmoleukine",
+   "Hil2",
+   "Interleukin 2 (human)"
+  ]
+ },
+ {
+  "nome": "ARDENERMIN",
+  "chembl": "CHEMBL2108180",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "AVQGPEETVTQDCLQLIADSETPTIQKGSYTFVPWLLSFKRGSALEEKENKILVKETGYFFIYGQVLYTDKTYAMGHLIQRKKVHVFGDELSLVTLFRCIQNMPETLPNNSCYSAGIAKLEEGDELQLAIPRENAQISLDGDVTFFGALKLL",
+  "tam": 152,
+  "sinonimos": [
+   "Ardenermin",
+   "Ardenermin",
+   "Ardenermin",
+   "Ardenermina",
+   "Ardenermine",
+   "BAFF"
+  ]
+ },
+ {
+  "nome": "CORIFOLLITROPIN",
+  "chembl": "CHEMBL2108185",
+  "fase": "4.0",
+  "aprov": 2010,
+  "seq": "APDVQDCPECTLQENPFFSQPGAPILQCMGCCFSRAYPTPLRSKKTMLVQKNVTSESTCCVAKSYNRVTVMGGFKVENHTACHCSTCYYHKS",
+  "tam": 92,
+  "sinonimos": [
+   "Corifolitropina alfa",
+   "Corifollitropin alfa",
+   "Corifollitropin alfa",
+   "Corifollitropin alfa",
+   "Corifollitropin alfa",
+   "Corifollitropin alfa"
+  ]
+ },
+ {
+  "nome": "DANIPLESTIM",
+  "chembl": "CHEMBL2108192",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "ANCSIMIDEIIHHLKRPPNPLLDPNNLNSEDMDILMERNLRTPNLLAFVRAVKHLENASGIEAILRNLQPCLPSATAAPSRHPIIIKAGDWQEFREKLTFYLVTLEQAQEQQ",
+  "tam": 112,
+  "sinonimos": [
+   "Daniplestim",
+   "Daniplestim",
+   "SC-55494"
+  ]
+ },
+ {
+  "nome": "EPOETIN GAMMA",
+  "chembl": "CHEMBL2108193",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Epoetina gamma",
+   "Epoetine gamma",
+   "Epoetin gamma",
+   "Epoetin gamma"
+  ]
+ },
+ {
+  "nome": "LENERCEPT",
+  "chembl": "CHEMBL2108208",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Lenercept",
+   "Lenercept",
+   "Lenercept",
+   "Lenercept",
+   "Ro-452081",
+   "RO 45-2081"
+  ]
+ },
+ {
+  "nome": "INSULIN, GLOBIN",
+  "chembl": "CHEMBL2108211",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Globin zinc insulin injection",
+   "Insulin, globin zinc",
+   "Inyectable de insulina cinc globina",
+   "Prep. injectable d'insuline zinc globine"
+  ]
+ },
+ {
+  "nome": "CILMOSTIM",
+  "chembl": "CHEMBL2108239",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cilmostim",
+   "Cilmostim",
+   "Cilmostim",
+   "Csf-1",
+   "M-csf",
+   "Rhm-csf"
+  ]
+ },
+ {
+  "nome": "CETERMIN",
+  "chembl": "CHEMBL2108269",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "ALDAAYCFRNVQDNCCLRPLYIDFKRDLGWKWIHEPKGYNANFCAGACPYLWSSDTQHSRVLSLYNTINPEASASPCCVSQDLEPLTILYYIGKTPKIEQLSNMIVKSCKCS",
+  "tam": 112,
+  "sinonimos": [
+   "Cetermin",
+   "Cetermina",
+   "Cetermine",
+   "Tgf-.beta.2 (human)",
+   "Transforming growth factor-beta 2"
+  ]
+ },
+ {
+  "nome": "EPOETIN KAPPA",
+  "chembl": "CHEMBL2108276",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Epoetina kappa",
+   "Epoetine kappa",
+   "Epoetin kappa",
+   "Epoetin kappa"
+  ]
+ },
+ {
+  "nome": "CATRIDECACOG",
+  "chembl": "CHEMBL2108282",
+  "fase": "4.0",
+  "aprov": 2012,
+  "seq": "SETSRTAFGGRRAVPPNNSNAAEDDLPTVELQGVVPRGVNLQEFLNVTSVHLFKERWDTNKVDHHTDKYENNKLIVRRGQSFYVQIDFSRPYDPRRDLFRVEYVIGRYPQENKGTYIPVPIVSELQSGKWGAKIVMREDRSVRLSIQSSPKCIVGKFRMYVAVWTPYGVLRTSRNPETDTYILFNPWCEDDAVYLDNEKEREEYVLNDIGVIFYGEVNDIKTRSWSYGQFEDGILDTCLYVMDRAQMDLSGRGNPIKVSRVGSAMVNAKDDEGVLVGSWDNIYAYGVPPSAWTGSVDILLEYRSSENPVRYGQCWVFAGVFNTFLRCLGIPARIVTNYFSAHDNDANLQMDIFLEEDGNVNSKLTKDSVWNYHCWNEAWMTRPDLPVGFGGWQAVDSTPQENSDGMYRCGPASVQAIKHGHVCFQFDAPFVFAEVNSDLIYITAKKDGTHVVENVDATHIGKLIVTKQIGGDGMMDITDTYKFQEGQEEERLALETALMYGAKKPLNTEGVMKSRSNVDMDFEVENAVLGKDFKLSITFRNNSHNRYTITAYLSANITFYTGVPKAEFKKETFDVTLEPLSFKKEAVLIQAGEYMGQLLEQASLHFFVTARINETRDVLAKQKSTVLTIPEIIIKVRGTQVVGSDMTVTVEFTNPLKETLRNVWVHLDGPGVTRPMKKMFREIRPNSTVQWEEVCRPWVSGHRKLIASMSSDSLRHVYGELDVQIQRRPSM",
+  "tam": 731,
+  "sinonimos": [
+   "Catridecacog",
+   "Catridecacog",
+   "Catridecacog",
+   "Catridecacog",
+   "Catridecacog",
+   "Novothirteen"
+  ]
+ },
+ {
+  "nome": "ROLIPOLTIDE",
+  "chembl": "CHEMBL2108284",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MKVTVAFNQFGPNRRVFIKRVSNVIIHGRRIDIFASKNFHLQKNTIGTGRRWKNNRIWLQFAKLTGFTLMGRRLKMPMYIAGYKTFDGRRVDGIIAAYQNPASWK",
+  "tam": 105,
+  "sinonimos": [
+   "Rolipoltida",
+   "Rolipoltide"
+  ]
+ },
+ {
+  "nome": "TUROCTOCOG",
+  "chembl": "CHEMBL2108286",
+  "fase": "4.0",
+  "aprov": 2013,
+  "seq": "ATRRYYLGAVELSWDYMQSDLGELPVDARFPPRVPKSFPFNTSVVYKKTLFVEFTDHLFNIAKPRPPWMGLLGPTIQAEVYDTVVITLKNMASHPVSLHAVGVSYWKASEGAEYDDQTSQREKEDDKVFPGGSHTYVWQVLKENGPMASDPLCLTYSYLSHVDLVKDLNSGLIGALLVCREGSLAKEKTQTLHKFILLFAVFDEGKSWHSETKNSLMQDRDAASARAWPKMHTVNGYVNRSLPGLIGCHRKSVYWHVIGMGTTPEVHSIFLEGHTFLVRNHRQASLEISPITFLTAQTLLMDLGQFLLFCHISSHQHDGMEAYVKVDSCPEEPQLRMKNNEEAEDYDDDLTDSEMDVVRFDDDNSPSFIQIRSVAKKHPKTWVHYIAAEEEDWDYAPLVLAPDDRSYKSQYLNNGPQRIGRKYKKVRFMAYTDETFKTREAIQHESGILGPLLYGEVGDTLLIIFKNQASRPYNIYPHGITDVRPLYSRRLPKGVKHLKDFPILPGEIFKYKWTVTVEDGPTKSDPRCLTRYYSSFVNMERDLASGLIGPLLICYKESVDQRGNQIMSDKRNVILFSVFDENRSWYLTENIQRFLPNPAGVQLEDPEFQASNIMHSINGYVFDSLQLSVCLHEVAYWYILSIGAQTDFLSVFFSGYTFKHKMVYEDTLTLFPFSGETVFMSMENPGLWILGCHNSDFRNRGMTALLKVSSCDKNTGDYYEDSYEDISAYLLSKNNAIEPRSFSQNSRHPSQNPPVLKRHQREITRTTLQSDQEEIDYDDTISVEMKKEDFDIYDEDENQSPRSFQKKTRHYFIAAVERLWDYGMSSSPHVLRNRAQSGSVPQFKKVVFQEFTDGSFTQPLYRGELNEHLGLLGPYIRAEVEDNIMVTFRNQASRPYSFYSSLISYEEDQRQGAEPRKNFVKPNETKTYFWKVQHHMAPTKDEFDCKAWAYFSDVDLEKDVHSGLIGPLLVCHTNTLNPAHGRQVTVQEFALFFTIFDETKSWYFTENMERNCRAPCNIQMEDPTFKENYRFHAINGYIMDTLPGLVMAQDQRIRWYLLSMGSNENIHSIHFSGHVFTVRKKEEYKMALYNLYPGVFETVEMLPSKAGIWRVECLIGEHLHAGMSTLFLVYSNKCQTPLGMASGHIRDFQITASGQYGQWAPKLARLHYSGSINAWSTKEPFSWIKVDLLAPMIIHGIKTQGARQKFSSLYISQFIIMYSLDGKKWQTYRGNSTGTLMVFFGNVDSSGIKHNIFNPPIIARYIRLHPTHYSIRSTLRMELMGCDLNSCSMPLGMESKAISDAQITASSYFTNMFATWSPSKARLHLQGRSNAWRPQVNNPKEWLQVDFQKTMKVTGVTTQGVKSLLTSMYVKEFLISSSQDGHQWTLFFQNGKVKVFQGNQDSFTPVVNSLDPPLLTRYLRIHPQSWVHQIALRMEVLGCEAQDLY",
+  "tam": 1445,
+  "sinonimos": [
+   "NN-7008",
+   "NN7008",
+   "Novoeight",
+   "Novoeight",
+   "Turoctocog alfa",
+   "Turoctocog alfa"
+  ]
+ },
+ {
+  "nome": "EPOETIN THETA",
+  "chembl": "CHEMBL2108290",
+  "fase": "4.0",
+  "aprov": 2009,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Biopoin",
+   "Epoetina zeta",
+   "Epoetine theta",
+   "Epoetin theta",
+   "Epoetin theta",
+   "Epoetin theta"
+  ]
+ },
+ {
+  "nome": "RISMORELIN",
+  "chembl": "CHEMBL2108294",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GADAIFTNNYRRVLTQLSARRLLQDILSRQQGERNQEQGARVRLGRQVDSLWADQRQLALESILATLLQEHRNSQG",
+  "tam": 76,
+  "sinonimos": [
+   "Rismorelin",
+   "Rismorelina",
+   "Rismoreline"
+  ]
+ },
+ {
+  "nome": "SPRIFERMIN",
+  "chembl": "CHEMBL2108302",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MEENVDFRIHVENQTRARDDVSRKQLRLYQLYSRTSGKHIQVLGRRISARGEDGDKYAQLLVETDTFGSQVRIKGKETEFYLCMNRKGKLVGKPDGTSKECVFIEKVLENNYTALMSAKYSGWYVGFTKKGRPRKGPKTRENQQDVHFMKRYPKGQPELQKPFKYTTVTK",
+  "tam": 170,
+  "sinonimos": [
+   "AS-902330",
+   "AS902330",
+   "Esprifermina",
+   "Sprifermin",
+   "Sprifermin",
+   "Sprifermine"
+  ]
+ },
+ {
+  "nome": "INSULIN TREGOPIL",
+  "chembl": "CHEMBL2108305",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GIVEQCCTSICSLYQLENYCN",
+  "tam": 21,
+  "sinonimos": [
+   "IN-105",
+   "Insulina tregopilo",
+   "Insuline tregopil",
+   "Insulin tregopil",
+   "Insulin tregopil"
+  ]
+ },
+ {
+  "nome": "CONBERCEPT",
+  "chembl": "CHEMBL2108313",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "GRPFVEMYSEIPEIIHMTEGRELVIPCRVTSPNITVTLKKFPLDTLIPDGKRIIWDSRKGFIISNATYKEIGLLTCEATVNGHLYKTNYLTHRQTNTIIDVVLSPSHGIELSVGEKLVLNCTARTELNVGIDFNWEYPSSKHQHKKLVNRDLKTQSGSEMKKFLSTLTIDGVTRSDQGLYTCAASSGLMTKKNSTFVRVHEKPFVAFGSGMESLVEATVGERVRIPAKYLGYPPPEIKWYKNGIPLESNHTIKAGHVLTIMEVSERDTGNYTVILTNPISKEKQSHVVSLVVYVPPGPGDKTHTCPLCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKATPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 526,
+  "sinonimos": [
+   "Conbercept",
+   "Conbercept",
+   "KH-902",
+   "Kh902"
+  ]
+ },
+ {
+  "nome": "SOMATROPIN PEGOL",
+  "chembl": "CHEMBL2108315",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF",
+  "tam": 191,
+  "sinonimos": [
+   "NNC-126-0083",
+   "NNC-1260083",
+   "NNC126-0083",
+   "Somatropina pegol",
+   "Somatropine pegol",
+   "Somatropin pegol"
+  ]
+ },
+ {
+  "nome": "SIMOCTOCOG",
+  "chembl": "CHEMBL2108319",
+  "fase": "4.0",
+  "aprov": 2014,
+  "seq": "ATRRYYLGAVELSWDYMQSDLGELPVDARFPPRVPKSFPFNTSVVYKKTLFVEFTDHLFNIAKPRPPWMGLLGPTIQAEVYDTVVITLKNMASHPVSLHAVGVSYWKASEGAEYDDQTSQREKEDDKVFPGGSHTYVWQVLKENGPMASDPLCLTYSYLSHVDLVKDLNSGLIGALLVCREGSLAKEKTQTLHKFILLFAVFDEGKSWHSETKNSLMQDRDAASARAWPKMHTVNGYVNRSLPGLIGCHRKSVYWHVIGMGTTPEVHSIFLEGHTFLVRNHRQASLEISPITFLTAQTLLMDLGQFLLFCHISSHQHDGMEAYVKVDSCPEEPQLRMKNNEEAEDYDDDLTDSEMDVVRFDDDNSPSFIQIRSVAKKHPKTWVHYIAAEEEDWDYAPLVLAPDDRSYKSQYLNNGPQRIGRKYKKVRFMAYTDETFKTREAIQHESGILGPLLYGEVGDTLLIIFKNQASRPYNIYPHGITDVRPLYSRRLPKGVKHLKDFPILPGEIFKYKWTVTVEDGPTKSDPRCLTRYYSSFVNMERDLASGLIGPLLICYKESVDQRGNQIMSDKRNVILFSVFDENRSWYLTENIQRFLPNPAGVQLEDPEFQASNIMHSINGYVFDSLQLSVCLHEVAYWYILSIGAQTDFLSVFFSGYTFKHKMVYEDTLTLFPFSGETVFMSMENPGLWILGCHNSDFRNRGMTALLKVSSCDKNTGDYYEDSYEDISAYLLSKNNAIEPRSFSQNSRHQAYRYRRGEITRTTLQSDQEEIDYDDTISVEMKKEDFDIYDEDENQSPRSFQKKTRHYFIAAVERLWDYGMSSSPHVLRNRAQSGSVPQFKKVVFQEFTDGSFTQPLYRGELNEHLGLLGPYIRAEVEDNIMVTFRNQASRPYSFYSSLISYEEDQRQGAEPRKNFVKPNETKTYFWKVQHHMAPTKDEFDCKAWAYFSDVDLEKDVHSGLIGPLLVCHTNTLNPAHGRQVTVQEFALFFTIFDETKSWYFTENMERNCRAPCNIQMEDPTFKENYRFHAINGYIMDTLPGLVMAQDQRIRWYLLSMGSNENIHSIHFSGHVFTVRKKEEYKMALYNLYPGVFETVEMLPSKAGIWRVECLIGEHLHAGMSTLFLVYSNKCQTPLGMASGHIRDFQITASGQYGQWAPKLARLHYSGSINAWSTKEPFSWIKVDLLAPMIIHGIKTQGARQKFSSLYISQFIIMYSLDGKKWQTYRGNSTGTLMVFFGNVDSSGIKHNIFNPPIIARYIRLHPTHYSIRSTLRMELMGCDLNSCSMPLGMESKAISDAQITASSYFTNMFATWSPSKARLHLQGRSNAWRPQVNNPKEWLQVDFQKTMKVTGVTTQGVKSLLTSMYVKEFLISSSQDGHQWTLFFQNGKVKVFQGNQDSFTPVVNSLDPPLLTRYLRIHPQSWVHQIALRMEVLGCEAQDLY",
+  "tam": 1440,
+  "sinonimos": [
+   "Human-cl rh fviii",
+   "Nuwiq",
+   "Nuwiq",
+   "Simoctocog alfa",
+   "Simoctocog alfa",
+   "Simoctocog alfa"
+  ]
+ },
+ {
+  "nome": "AMILOMOTIDE",
+  "chembl": "CHEMBL2108328",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "AKLETVTLGNIGKDGKQTLVLNPRGVNPTNGVASLSQAGAVPALEKRVTVSVSQPSRNRKNYKVQVKIQNPTACTANGSCDPSVTRQAYADVTFSFTQYSTDEERAFVRTELAALLASPLLIDAIDQLNPAY",
+  "tam": 132,
+  "sinonimos": [
+   "Amilomotida",
+   "Amilomotide",
+   "Amilomotide",
+   "CAD-106",
+   "Cad106",
+   "CAD106"
+  ]
+ },
+ {
+  "nome": "EPTACOG (ACTIVATED)",
+  "chembl": "CHEMBL2108334",
+  "fase": "4.0",
+  "aprov": 1996,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Activated recombinant human factor vii",
+   "Coagulation factor viia (recombinant)",
+   "Coagulation factor viia recombinant human",
+   "Eptacog alfa",
+   "Eptacog alfa (activado)",
+   "Eptacog alfa (activated)"
+  ]
+ },
+ {
+  "nome": "NONACOG PEGOL",
+  "chembl": "CHEMBL2108348",
+  "fase": "4.0",
+  "aprov": 2017,
+  "seq": "YNSGKLEEFVQGNLERECMEEKCSFEEAREVFENTERTTEFWKQYVDGDQCESNPCLNGGSCKDDINSYECWCPFGFEGKNCELDVTCNIKNGRCEQFCKNSADNKVVCSCTEGYRLAENQKSCEPAVPFPCGRVSVSQTSKLTRAEAVFPDVDYVNSTEAETILDNITQSTQSFNDFTRVVGGEDAKPGQFPWQVVLNGKVDAFCGGSIVNEKWIVTAAHCVETGVKITVVAGEHNIEETEHTEQKRNVIRIIPHHNYNAAINKYNHDIALLELDEPLVLNSYVTPICIADKEYTNIFLKFGSGYVSGWGRVFHKGRSALVLQYLRVPLVDRATCLRSTKFTIYNNMFCAGFHEGGRDSCQGDSGGPHVTEVEGTSFLTGIISWGEECAMKGKYGIYTKVSRYVNWIKEKTKLT",
+  "tam": 415,
+  "sinonimos": [
+   "Nonacog beta pegol",
+   "Nonacog beta pegol",
+   "Nonacog beta pegol",
+   "Nonacog beta pegol",
+   "Rebinyn",
+   "Refixia"
+  ]
+ },
+ {
+  "nome": "CONESTAT",
+  "chembl": "CHEMBL2108350",
+  "fase": "4.0",
+  "aprov": 2010,
+  "seq": "NPNATSSSSQDPESLQDRGEGKVATTVISKMLFVEPILEVSSLPTTNSTTNSATKITANTTDEPTTQPTTEPTTQPTIQPTQPTTQLPTDSPTQPTTGSFCPGPVTLCSDLESHSTEAVLGDALVDFSLKLYHAFSAMKKVETNMAFSPFSIASLLTQVLLGAGENTKTNLESILSYPKDFTCVHQALKGFTTKGVTSVSQIFHSPDLAIRDTFVNASRTLYSSSPRVLSNNSDANLELINTWVAKNTNNKISRLLDSLPSDTRLVLLNAIYLSAKWKTTFDPKKTRMEPFHFKNSVIKVPMMNSKKYPVAHFIDQTLKAKVGQLQLSHNLSLVILVPQNLKHRLEDMEQALSPSVFKAIMEKLEMSKFQPTLLTLPRIKVTTSQDMLSIMEKLEFFDFSYDLNLCGLTEDPDLQVSAMQHQTVLELTETGVEAAAASAISVARTLLVFEVQQPFLFVLWDQQHKFPVFMGRVYDPRA",
+  "tam": 478,
+  "sinonimos": [
+   "C1 esterase inhibitor",
+   "Complement c1 esterase inhibitor",
+   "Conestat alfa",
+   "Conestat alfa",
+   "Conestat alfa",
+   "Conestat alfa"
+  ]
+ },
+ {
+  "nome": "LIATERMIN",
+  "chembl": "CHEMBL2108380",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MSPDKQMAVLPRRERNRQAAAANPENSRGKGRRGQRGKNRGCVLTAIHLNVTDLGLGYETKEELIFRYCSGSCDAAETTYDKILKNLSRNRRLVSDKVGQACCRPIAFDDDLSFLDDNLVYHILRKHSAKRCGCI",
+  "tam": 135,
+  "sinonimos": [
+   "Gdnf liatermin",
+   "Liatermin",
+   "Liatermin",
+   "Liatermin",
+   "Liatermina",
+   "Liatermine"
+  ]
+ },
+ {
+  "nome": "EMFILERMIN",
+  "chembl": "CHEMBL2108400",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SPLPITPVNATCAIRHPCHNNLMNQIRSQLAQLNGSANALFILYYTAQGEPFPNNLDKLCGPNVTDFPPFHANGTEKAKLVELYRIVVYLGTSLGNITRDQKILNPSALSLHSKLNATADILRGLLSNVLCRLCSKYHVGHVDVTYGPDTSGKDVFQKKKLGCQLLGKYKQIIAVLAQAF",
+  "tam": 180,
+  "sinonimos": [
+   "AM-424",
+   "AM424",
+   "Emfilermin",
+   "Emfilermin",
+   "Emfilermina",
+   "Emfilermine"
+  ]
+ },
+ {
+  "nome": "BIFARCEPT",
+  "chembl": "CHEMBL2108411",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MLLSQNAFIVRSLNLVLMVYISLVFGISYDSPDYTDESCTFKISLRNFRSILSWELKNHSIVPTHYTLLYTIMSKPEDLKVVKNCANTTRSFCDLTDEWRSTHEAYVTVLEGFSGNTTLFSCSHNFWLAIDMSFEPPEFEIVGFTNHINVMVKFPSIVEEELQFDLSLVIEEQSEGIVKKHKPEIKGNMSGNFTYIIDKLIPNTNYCVSVYLEHSDEQAVIKSPLKCTLLPPGQESEFS",
+  "tam": 239,
+  "sinonimos": [
+   "Bifarcept"
+  ]
+ },
+ {
+  "nome": "BINETRAKIN",
+  "chembl": "CHEMBL2108412",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKNTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEANQSTLENFLERLKTIMREKYSKCSS",
+  "tam": 129,
+  "sinonimos": [
+   "Binetrakin",
+   "Binetrakin",
+   "Binetrakina",
+   "Binetrakine",
+   "Il-4 (human; nonglycosylated)",
+   "Quadrakine"
+  ]
+ },
+ {
+  "nome": "LERIDISTIM",
+  "chembl": "CHEMBL2108421",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "ANCSNMIDEIITHLKQPPLPLLDFNNLNGEDQDILMDNNLRRPNLEAFNRAVKSLQNASAIESILKNLLPCLPLATAAPTRHPIHIKDGDWNEFRRKLTFYLKTLENAQAQQYVEGGGGSPGEPSGPISTINPSPPSKESHKSPNMATPLGPASSLPQSFLLKSLEQVRKIQGDGAALQEKLCATYKLCHPEELVLLGHSLGIPWAPLSSCPSQALQLAGCLSQLHSGLFLYQGLLQALEGISPELGPTLDTLQLDVADFATTIWQQMEELGMAPALQPTQGAMPAFASAFQRRAGGVLVASHLQSFLEVSYRVLRHLAQP",
+  "tam": 321,
+  "sinonimos": [
+   "Leridistim",
+   "Leridistim",
+   "Leridistim",
+   "SC-70935"
+  ]
+ },
+ {
+  "nome": "MILODISTIM",
+  "chembl": "CHEMBL2108438",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "APARSPSPSTQPWEHVNAIQEALRLLDLSRDTAAEMNEEVEVISEMFDLQEPTCLQTRLELYKQGLRGSLTKLKGPLTMMASHYKQHCPPTPETSCATQIITFESFKENLKDFLLVIPFDCWEPVQEGGGGSGGGGGSADMTQTTPLKTSWVDCSNMIDEIITHLKQPPLPLLDFNNLNGEDQDILMENNLRRPNLEAFNRAVKSLQDASAIESILKNLLPCLPLATAAPTRHPIHIKDGDWNEFRRKLTFYLKTLENAQAQQTTLSLAIF",
+  "tam": 271,
+  "sinonimos": [
+   "Interleukin-3 fusion protein with gm-csf",
+   "Milodistim",
+   "Milodistim",
+   "PIXY-321",
+   "PIXY321"
+  ]
+ },
+ {
+  "nome": "MIRIMOSTIM",
+  "chembl": "CHEMBL2108439",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Costilate",
+   "Leukoprol",
+   "Macrophage colony-stimulating factor mirimostim",
+   "M-csf (1-214; nonglycosylated)",
+   "Mirimostim"
+  ]
+ },
+ {
+  "nome": "GARNOCESTIM",
+  "chembl": "CHEMBL2108464",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "TELRCQCLQTLQGIHLKNIQSVKVKSPGPHCAQTEVIATLKNGQKACLNPASPMVKKIIEKMLKNGKSN",
+  "tam": 69,
+  "sinonimos": [
+   "Garnocestim",
+   "Garnocestim",
+   "SB-251353"
+  ]
+ },
+ {
+  "nome": "MUPLESTIM",
+  "chembl": "CHEMBL2108469",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Hemokine",
+   "Il-3 (non-glycosylated)",
+   "Interleukin-3",
+   "Interleukin-3 human (recombinant)",
+   "Interleukin-3 muplestim",
+   "Interleukin-3 (non-glycosylated)"
+  ]
+ },
+ {
+  "nome": "INSULIN , EXTENDED",
+  "chembl": "CHEMBL2108492",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Crystalline (aqueous suspension)",
+   "Ins humulin zn",
+   "Insulin zinc, extended",
+   "Insulin zinc, extended",
+   "Insulin zinc injection",
+   "Insulin zinc injection, crystalline (aqueous suspension)"
+  ]
+ },
+ {
+  "nome": "INSULIN , PROMPT",
+  "chembl": "CHEMBL2108493",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Amorphous (aqueous suspension)",
+   "Ins semit mc",
+   "Insulin zinc injection",
+   "Insulin zinc injection, amorphous (aqueous suspension)",
+   "Insulin zinc, prompt",
+   "Insulin zinc, prompt"
+  ]
+ },
+ {
+  "nome": "INTERFERON",
+  "chembl": "CHEMBL2108494",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Interferon",
+   "Interferon",
+   "Interferon"
+  ]
+ },
+ {
+  "nome": "INSULIN ARGINE",
+  "chembl": "CHEMBL2108502",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulina argina",
+   "Insulin argine",
+   "Insuline argine"
+  ]
+ },
+ {
+  "nome": "INTERFERON -2A",
+  "chembl": "CHEMBL2108508",
+  "fase": "4.0",
+  "aprov": 1986,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alpheon",
+   "Canferon",
+   "Canferon a",
+   "Cha-ifnalpha2a",
+   "Interferon alfa-2a",
+   "Interferon alfa-2a"
+  ]
+ },
+ {
+  "nome": "INTERFERON -N1",
+  "chembl": "CHEMBL2108509",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Interferon alfa-n1",
+   "Interferon alfa-n1",
+   "Interferon alfa-n1",
+   "Interferon alfa-n1",
+   "Interferon alfa-n1",
+   "Well-feron"
+  ]
+ },
+ {
+  "nome": "INTERFERON GAMMA-1A",
+  "chembl": "CHEMBL2108511",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Biogamma",
+   "Imunomax",
+   "Interferon gamma-1a",
+   "Interferon gamma-1a",
+   "Interferon gamma-1a (genetical recombination)",
+   "SUN-4800"
+  ]
+ },
+ {
+  "nome": "PIFONAKIN",
+  "chembl": "CHEMBL2108538",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SAPFSFLSNVKXNFMRZZKYEFILNDALNQSIZRADDQYLTAAALHNLDEAVKFDMGAYKSSKDDAKITVILRZSKTQLYVTAQDEDQPVLLKEMPEIPKTITGSETNLLFFWETHGTKNYFTSVAHPNLFIATKQDXWVSLAGGPPSITDFQILENQA",
+  "tam": 159,
+  "sinonimos": [
+   "Pifonakin",
+   "Pifonakina",
+   "Pifonakine"
+  ]
+ },
+ {
+  "nome": "TELBERMIN",
+  "chembl": "CHEMBL2108557",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "APMAEGGGQNHHEVVKFMDVYQRSYCHPIETLVDIFQEYPDEIEYIFKPSCVPLMRCGGCCNDEGLECVPTEESNITMQIMRIKPHQGQHIGEMSFLQHNKCECRPKKDRARQENPCGPCSERRKHLFVQDPQTCKCSCKNTDSRCKARQLELNERTCRCDKPRR",
+  "tam": 165,
+  "sinonimos": [
+   "RH VEGF",
+   "RH-VEGF",
+   "RHVEG-F",
+   "RHVEGF",
+   "SNN0029",
+   "Telbermin"
+  ]
+ },
+ {
+  "nome": "INSULIN PEGLISPRO",
+  "chembl": "CHEMBL2108569",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulina peglispro",
+   "Insuline peglispro",
+   "Insulin peglispro",
+   "Insulin peglispro",
+   "Insulin peglispro",
+   "LY-2605541"
+  ]
+ },
+ {
+  "nome": "ADARGILEUKIN",
+  "chembl": "CHEMBL2108571",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISRINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT",
+  "tam": 133,
+  "sinonimos": [
+   "Adargileukina alfa",
+   "Adargileukin alfa",
+   "Adargileukine alfa"
+  ]
+ },
+ {
+  "nome": "BALUGRASTIM",
+  "chembl": "CHEMBL2108572",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Balugrastim",
+   "Balugrastim",
+   "Balugrastim",
+   "Balugrastim",
+   "Balugrastim",
+   "CG-10639"
+  ]
+ },
+ {
+  "nome": "CINTREDEKIN BESUDOTOX",
+  "chembl": "CHEMBL2108583",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "MHSPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFNKASGGPEGGSLAALTAHQACHLPLETFTRHRQPRGWEQLEQCGYPVQRLVALYLAARLSWNQVDQVIRNALASPGSGGDLGEAIREQPEQARLALTLAAAESERFVRQGTGNDEAGAANGPADSGDALLERNYPTGAEFLGDGGDVSFSTRGTQNWTVERLLQAHRQLEERGYVFVGYHGTFLEAAQSIVFGGVRARSQDLDAIWRGFYIAGDPALAYGYAQDQEPDARGRIRNGALLRVYVPRSSLPGFYRTSLTLAAPEAAGEVERLIGHPLPLRLDAITGPEEEGGRLETILGWPLAERTVVIPSAIPTDPRNVGGDLDPSSIPDQEQAISALPDYASQPGQPPREDLR",
+  "tam": 468,
+  "sinonimos": [
+   "Cintredekina besudotox",
+   "Cintredekin besudotox",
+   "Cintredekin besudotox",
+   "Cintredekin besudotox",
+   "Cintredekin besudotox",
+   "Cintredekine besudotox"
+  ]
+ },
+ {
+  "nome": "EPOETIN ZETA",
+  "chembl": "CHEMBL2108593",
+  "fase": "4.0",
+  "aprov": 2007,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Epoetina dseta",
+   "Epoetine zeta",
+   "Epoetin zeta",
+   "Epoetin zeta",
+   "Epoetin zeta",
+   "Epoetin zeta"
+  ]
+ },
+ {
+  "nome": "EPTOTERMIN",
+  "chembl": "CHEMBL2108594",
+  "fase": "4.0",
+  "aprov": 2001,
+  "seq": "STGSKQRSQNRSKTPKNQEALRMANVAENSSSDQRQACKKHELYVSFRDLGWQDWIIAPEGYAAYYCEGECAFPLNSYMNATNHAIVQTLVHFINPETVPKPCCAPTQLNAISVLYFDDSSNVILKKYRNMVVRACGCH",
+  "tam": 139,
+  "sinonimos": [
+   "Bmp-7",
+   "Bone morphogenetic protein 7",
+   "Eptotermina alfa",
+   "Eptotermin alfa",
+   "Eptotermin alfa",
+   "Eptotermin alfa"
+  ]
+ },
+ {
+  "nome": "LANIMOSTIM",
+  "chembl": "CHEMBL2108614",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SEYCSHMIGSGHLQSLQRLIDSQMETSCQITFEFVDQEQLKDPVCYLKKAFLLVQDIMEDTMRFRDNTPNAIAIVQLQELSLRLKSCFTKDYEEHDKACVRTFYETPLQLLEKVKNVFNETKNLLDKDWNIFSKNCNNSFAECSSQDVVTKPDCNCLYPKAIPSSDPASVSPHQPLAPSMAPVAGLTWEDSEGTEGSSLLPGEQPLHTVDPGSAKQRP",
+  "tam": 218,
+  "sinonimos": [
+   "Lanimostim",
+   "Lanimostim"
+  ]
+ },
+ {
+  "nome": "RADOTERMIN",
+  "chembl": "CHEMBL2108637",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "PLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR",
+  "tam": 119,
+  "sinonimos": [
+   "MP52",
+   "Radotermin",
+   "Radotermin",
+   "Radotermina",
+   "Radotermine",
+   "Rhgdf-5"
+  ]
+ },
+ {
+  "nome": "PEGINTERFERON -1A",
+  "chembl": "CHEMBL2108677",
+  "fase": "4.0",
+  "aprov": 2014,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BIIB-017",
+   "BIIB017",
+   "Biib017",
+   "Peginterferon beta",
+   "Peginterferon beta-1a",
+   "Peginterferon beta-1a"
+  ]
+ },
+ {
+  "nome": "PEGMUSIRUDIN",
+  "chembl": "CHEMBL2108753",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSKGERNQCVTGEGTPRPQSHNDGDFEEIPEEYLQ",
+  "tam": 65,
+  "sinonimos": [
+   "Peg-hirudin (spp200)",
+   "Pegmusirudin",
+   "Pegmusirudina",
+   "Pegmusirudine",
+   "SPP-200",
+   "SPP200"
+  ]
+ },
+ {
+  "nome": "AVOTERMIN",
+  "chembl": "CHEMBL2108833",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "ALDTNYCFRNLEENCCVRPLYIDFRQDLGWKWVHEPKDYYANFCSGPCPYLRSADTTHSTVLGLYNTLNPEASASPCCVPQDLEPLTILYYVGRTPKVEQLSNMVVKSCKCS",
+  "tam": 112,
+  "sinonimos": [
+   "Avotermin",
+   "Avotermin",
+   "Avotermina",
+   "Avotermine",
+   "Human tgfb3",
+   "Juvista"
+  ]
+ },
+ {
+  "nome": "ALVIRCEPT SUDOTOX",
+  "chembl": "CHEMBL2108842",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alvircept sudotox",
+   "Alvircept sudotox",
+   "Alvircept sudotox",
+   "SCD4-PE40",
+   "U-85,855",
+   "U-85855"
+  ]
+ },
+ {
+  "nome": "ALBUMIN, AGGREGATED",
+  "chembl": "CHEMBL2108890",
+  "fase": "4.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Albumin aggregated",
+   "Albumin, aggregated",
+   "Albumin, aggregated",
+   "Albumin,aggregated",
+   "MP 4006",
+   "MP-4006"
+  ]
+ },
+ {
+  "nome": "EPOETIN OMEGA",
+  "chembl": "CHEMBL2108954",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Epoetina omega",
+   "Epoetine omega",
+   "Epoetin omega"
+  ]
+ },
+ {
+  "nome": "INSULIN DEFALAN",
+  "chembl": "CHEMBL2108959",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulina defalan",
+   "Insulin defalan",
+   "Insuline defalan"
+  ]
+ },
+ {
+  "nome": "INSULIN, ISOPHANE",
+  "chembl": "CHEMBL2108964",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ins hum insulat",
+   "Ins hum protaphane",
+   "Ins humulin i",
+   "Ins hypurin bov isop",
+   "Ins hypurin pore isop",
+   "Ins innolet insulat"
+  ]
+ },
+ {
+  "nome": "INSULIN, NEUTRAL",
+  "chembl": "CHEMBL2108966",
+  "fase": "4.0",
+  "aprov": 2007,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulin human winthrop",
+   "Insulin, neutral",
+   "Insulin, neutral",
+   "Insulin, neutral",
+   "Inyectable neutro de insulina",
+   "Neutral insulin injection"
+  ]
+ },
+ {
+  "nome": "INSULIN [INJECTION], BIPHASIC",
+  "chembl": "CHEMBL2108968",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Biphasic insulin injection",
+   "Biphasic insulin injection",
+   "Ins rapit mc",
+   "Insulin [injection], biphasic",
+   "Insulin [injection], biphasic",
+   "Inyectable de insulina bifasica"
+  ]
+ },
+ {
+  "nome": "INSULIN , ISOPHANE",
+  "chembl": "CHEMBL2108973",
+  "fase": "4.0",
+  "aprov": 2002,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulatard",
+   "Insulin human, isophane",
+   "Insulin human, isophane",
+   "Insulin human, isophane",
+   "Protaphane"
+  ]
+ },
+ {
+  "nome": "ANCESTIM",
+  "chembl": "CHEMBL2108975",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MEGICRNRVTNNVKDVTKLVANLPKDYMITLKYVPGMDVLPSHCWISEMVVQLSDSLTDLLDKFSNISEGLSNYSIIDKLVNIVDDLVECVKENSSKDLKKSFKSPEPRLFTPEEFFRIFNRSIDAFKDFVVASETSDCVVSSTLSPEKDSRVSVTKPFMLPPVAA",
+  "tam": 166,
+  "sinonimos": [
+   "Amj-9302",
+   "Ancestim",
+   "Ancestim",
+   "Ancestim",
+   "Ancestim",
+   "Ancestim (genetical recombination)"
+  ]
+ },
+ {
+  "nome": "ILODECAKIN",
+  "chembl": "CHEMBL2109037",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN",
+  "tam": 160,
+  "sinonimos": [
+   "Il-10 (nonglycosylated)",
+   "Ilodecakin",
+   "Ilodecakin",
+   "Ilodecakin",
+   "Ilodecakina",
+   "Ilodecakine"
+  ]
+ },
+ {
+  "nome": "INSULIN, DALANATED",
+  "chembl": "CHEMBL2109043",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dalanated insulin",
+   "Insulina dalanatada",
+   "Insulin dalanated beef",
+   "Insulin dalanated pork",
+   "Insulin dalanted",
+   "Insuline dalanatee"
+  ]
+ },
+ {
+  "nome": "INSULIN, PROTAMINE",
+  "chembl": "CHEMBL2109046",
+  "fase": "4.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ins hypurin bov prot zn",
+   "Ins prot zn bp",
+   "Insulin, protamine zinc",
+   "Insulin, protamine zinc",
+   "Insulin zinc protamine injection (aqueous suspension)",
+   "Inyectable de insulina cinc protamina"
+  ]
+ },
+ {
+  "nome": "INTERFERON -N3",
+  "chembl": "CHEMBL2109047",
+  "fase": "4.0",
+  "aprov": 1989,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alferon",
+   "Alferon n",
+   ".alpha.-interferons",
+   "Interferon alfa-n3",
+   "Interferon alfa-n3",
+   "Interferon alfa-n3"
+  ]
+ },
+ {
+  "nome": "EDODEKIN",
+  "chembl": "CHEMBL2109059",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "IWELKKDVYVVELDWYPDAPGEMVVLTCDTPEEDGITWTLDQSSEVLGSGKTLTIQVKEFGDAGQYTCHKGGEVLSHSLLLLHKKEDGIWSTDILKDQKEPKNKTFLRCEAKNYSGRFTCWWLTTISTDLTFSVKSSRGSSDPQGVTCGAATLSAERVRGDNKEYEYSVECQEDSACPAAEESLPIEVMVDAVHKLKYENYTSSFFIRDIIKPDPPKNLQLKPLKNSRQVEVSWEYPDTWSTPHSYFSLTFCVQVQGKSKREKKDRVFTDKTSATVICRKNASISVRAQDRYYSSSWSEWASVPCS",
+  "tam": 306,
+  "sinonimos": [
+   "Edodekina alfa",
+   "Edodekin alfa",
+   "Edodekin alfa",
+   "Edodekin alfa",
+   "Edodekine alfa",
+   "Human il-12 (recombinant)"
+  ]
+ },
+ {
+  "nome": "DROTRECOGIN (ACTIVATED)",
+  "chembl": "CHEMBL2109065",
+  "fase": "4.0",
+  "aprov": 2001,
+  "seq": "ANSFLJJLRHSSLJRJCIJJICDFJJAKJIFQNVDDTLAFWSKHVDGDQCLVLPLEHPCASLCCGHGTCIBGIGSFSCDCRSGWEGRFCQREVSFLNCSLDNGGCTHYCLEEVGWRRCSCAPGYKLGDDLLQCHPAVKFPCGRPWKRMEKKRSHL",
+  "tam": 155,
+  "sinonimos": [
+   "Activated protein c",
+   "Drotrecogina alfa (activada)",
+   "Drotrecogin alfa",
+   "Drotrecogin alfa",
+   "Drotrecogin alfa",
+   "Drotrecogin-alfa"
+  ]
+ },
+ {
+  "nome": "EMOCTAKIN",
+  "chembl": "CHEMBL2109088",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SAKELRCQCIKTYSKPFHPKFIKELRVIESGPHCANTEIIVKLSDGRELCLDPKENWVQRVVEKFLKRAENS",
+  "tam": 72,
+  "sinonimos": [
+   "Emoctakin",
+   "Emoctakine",
+   "Il-8(6-77)",
+   "Interleukin 8 (6-77)",
+   "Interleukin-8 (6-77)"
+  ]
+ },
+ {
+  "nome": "EPOETIN DELTA",
+  "chembl": "CHEMBL2109093",
+  "fase": "4.0",
+  "aprov": 2002,
+  "seq": "APPRLICDSRVLERYLLEAKEAENITTGCAEHCSLNENITVPDTKVNFYAWKRMEVGQQAVEVWQGLALLSEAVLRGQALLVNSSQPWEPLQLHVDKAVSGLRSLTTLLRALGAQKEAISPPDAASAAPLRTITADTFRKLFRVYSNFLRGKLKLYTGEACRTGD",
+  "tam": 165,
+  "sinonimos": [
+   "Dynepo",
+   "Epoetina delta",
+   "Epoetin delta",
+   "Epoetin delta",
+   "Epoetin delta",
+   "Epoetin delta"
+  ]
+ },
+ {
+  "nome": "BOTULISM ANTITOXIN",
+  "chembl": "CHEMBL2109115",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Botulinum antitoxin",
+   "Botulism antitoxin",
+   "Botulism antitoxin"
+  ]
+ },
+ {
+  "nome": "LENOGRASTIM",
+  "chembl": "CHEMBL2109128",
+  "fase": "4.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "G-csf (cho cell derived)",
+   "Glycosylated recombinant g-csf",
+   "Granocyte",
+   "Granocyte-13",
+   "Granocyte-34",
+   "Granulocyte colony-stimulating factor lenograstim"
+  ]
+ },
+ {
+  "nome": "MOLGRAMOSTIM",
+  "chembl": "CHEMBL2109134",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Granulocyte-macrophage colony-stimulating factor molgramostim",
+   "Leucomax",
+   "Molgradex",
+   "Molgramostim",
+   "Molgramostim",
+   "Molgramostim"
+  ]
+ },
+ {
+  "nome": "MOROCTOCOG",
+  "chembl": "CHEMBL2109137",
+  "fase": "4.0",
+  "aprov": 1999,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Moroctocog alfa",
+   "Moroctocog alfa",
+   "Moroctocog alfa",
+   "Moroctocog alfa",
+   "Moroctocog alfa",
+   "Refacto"
+  ]
+ },
+ {
+  "nome": "DIBOTERMIN",
+  "chembl": "CHEMBL2109171",
+  "fase": "4.0",
+  "aprov": 2002,
+  "seq": "QAKHKQRKRLKSSCKRHPLYVDFSDVGWNDWIVAPPGYHAFYCHGECPFPLADHLNSTNHAIVQTLVNSVNSKIPKACCVPTELSAISMLYLDENEKVVLKNYQDMVVEGCGCR",
+  "tam": 114,
+  "sinonimos": [
+   "Dibotermin",
+   "Dibotermina alfa",
+   "Dibotermin alfa",
+   "Dibotermin alfa",
+   "Dibotermin alfa",
+   "Dibotermin alfa"
+  ]
+ },
+ {
+  "nome": "NARTOGRASTIM",
+  "chembl": "CHEMBL2109179",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Granulocyte colony-stimulating factor nartograstim",
+   "KW-2228",
+   "Marograstim",
+   "Nartograstim",
+   "Nartograstim (genetical recombination)",
+   "Noyap"
+  ]
+ },
+ {
+  "nome": "COAGULATION FACTOR IX RECOMBINANT",
+  "chembl": "CHEMBL2109205",
+  "fase": "4.0",
+  "aprov": 1997,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Benefix",
+   "Coagulation factor ix recombinant human",
+   "Coagulation factor ix recombinant human",
+   "Factor ix,recombinant",
+   "Nonacog alfa",
+   "Nonacog alfa"
+  ]
+ },
+ {
+  "nome": "DALANTERCEPT",
+  "chembl": "CHEMBL2109662",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "DPVKPSRGPLVTCTCESPHCKGPTCRGAWCTVVLVREEGRHPQEHRGCGNLHRELCRGRPTEFVNHYCCDSHLCNHNVSLVLEATQPPSEQPGTDGQLATGGGTHTCPPCPAPEALGAPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPVPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGPFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 328,
+  "sinonimos": [
+   "ACE-041",
+   "Dalantercept",
+   "Dalantercept",
+   "Dalantercept"
+  ]
+ },
+ {
+  "nome": "PEGBOVIGRASTIM",
+  "chembl": "CHEMBL2364661",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Imrestor",
+   "Imrestor",
+   "LY-2953726",
+   "LY2953726",
+   "Pegbovigrastim",
+   "Pegbovigrastim"
+  ]
+ },
+ {
+  "nome": "CIMAGLERMIN",
+  "chembl": "CHEMBL3039542",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "GNEAAPAGASVCYSSPPSVGSVQELAQRAAVVIEGKVHPQRRQQGALDRKAAAAAGEAGAWGGDREPPAAGPRALGPPAEEPLLAANGTVPSWPTAPVPSAGEPGEEAPYLVKVHQVWAVKAGGLKKDSLLTVRLGTWGHPAFPSCGRLKEDSRYIFFMEPDANSTSRAPAAFRASFPPLETGRNLKKEVSRVLCKRCALPPQLKEMKSQESAAGSKLVLRCETSSEYSSLRFKWFKNGNELNRKNKPQNIKIQKKPGKSELRINKASLADSGEYMCKVISKLGNDSASANITIVESNATSTSTTGTSHLVKCAEKEKTFCVNGGECFMVKDLSNPSRYLCKCPNEFTGDRCQNYVMASFYSTSTPFLSLPE",
+  "tam": 372,
+  "sinonimos": [
+   "Cimaglermina alfa",
+   "Cimaglermin alfa",
+   "Cimaglermin alfa",
+   "Cimaglermin alfa",
+   "Cimaglermine alfa",
+   "GGF-2"
+  ]
+ },
+ {
+  "nome": "LUSPATERCEPT",
+  "chembl": "CHEMBL3039545",
+  "fase": "4.0",
+  "aprov": 2019,
+  "seq": "ETRECIYYNANWELERTNQSGLERCEGEQDKRLHCYASWRNSSGTIELVKKGCWDDDFNCYDRQECVATEENPQVYFCCCEGNFCNERFTHLPEAGGPEVTYEPPPTGGGTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+  "tam": 335,
+  "sinonimos": [
+   "ACE-536",
+   "Luspatercept",
+   "Luspatercept",
+   "Luspatercept",
+   "Luspatercept",
+   "Luspatercept"
+  ]
+ },
+ {
+  "nome": "IPAFRICEPT",
+  "chembl": "CHEMBL3301577",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "ASAKELACQEITVPLCKGIGYNYTYMPNQFNHDTQDEAGLEVHQFWPLVEIQCSPDLKFFLCSMYTPICLEDYKKPLPPCRSVCERAKAGCAPLMRQYGFAWPDRMRCDRLPEQGNPDTLCMDYNRTDLTTEPKSSDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPG",
+  "tam": 362,
+  "sinonimos": [
+   "Ipafricept",
+   "Ipafricept",
+   "Ipafricept",
+   "OMP-54F28"
+  ]
+ },
+ {
+  "nome": "ANDEXANET",
+  "chembl": "CHEMBL3301583",
+  "fase": "4.0",
+  "aprov": 2019,
+  "seq": "ANSFLFWNKYKDGDQCETSPCQNQGKCKDGLGEYTCTCLEGFEGKNCELFTRKLCSLDNGDCDQFCHEEQNSVVCSCARGYTLADNGKACIPTGPYPCGKQTLERIVGGQECKDGECPWQALLINEENEGFCGGTILSEFYILTAAHCLYQAKRFKVRVGDRNTEQEEGGEAVHEVEVVIKHNRFTKETYDFDIAVLRLKTPITFRMNVAPACLPERDWAESTLMTQKTGIVSGFGRTHEKGRQSTRLKMLEVPYVDRNSCKLSSSFIITQNMFCAGYDTKQEDACQGDAGGPHVTRFKDTYFVTGIVSWGEGCARKGKYGIYTKVTAFLKWIDRSMKTRGLPKAKSHAPEVITSSPLK",
+  "tam": 359,
+  "sinonimos": [
+   "Andexanet alfa",
+   "Andexanet alfa",
+   "Andexanet alfa",
+   "Andexanet alfa",
+   "Andexanet alfa",
+   "Andexxa"
+  ]
+ },
+ {
+  "nome": "METHOXY POLYETHYLENE GLYCOL-EPOETIN",
+  "chembl": "CHEMBL3707314",
+  "fase": "4.0",
+  "aprov": 2007,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Methoxy polyethylene glycol-epoetin beta",
+   "Methoxy polyethylene glycol-epoetin beta",
+   "Methoxy polyethylene glycol-epoetin beta",
+   "Methoxy polyethylene glycol-epoetin beta",
+   "Mircera",
+   "Pegzerepoetin alfa"
+  ]
+ },
+ {
+  "nome": "SOMAVARATAN",
+  "chembl": "CHEMBL3707323",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "AEPAGSPTSTEEGTPGSGTASSSPGSSTPSGATGSPGASPGTSSTGSPGSPAGSPTSTEEGTSESATPESGPGTSTEPSEGSAPGSPAGSPTSTEEGTSTEPSEGSAPGTSTEPSEGSAPGTSESATPESGPGSEPATSGSETPGSEPATSGSETPGSPAGSPTSTEEGTSESATPESGPGTSTEPSEGSAPGTSTEPSEGSAPGSPAGSPTSTEEGTSTEPSEGSAPGTSTEPSEGSAPGTSESATPESGPGTSTEPSEGSAPGTSESATPESGPGSEPATSGSETPGTSTEPSEGSAPGTSTEPSEGSAPGTSESATPESGPGTSESATPESGPGSPAGSPTSTEEGTSESATPESGPGSEPATSGSETPGTSESATPESGPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGSPAGSPTSTEEGTSTEPSEGSAPGTSESATPESGPGSEPATSGSETPGTSESATPESGPGSEPATSGSETPGTSESATPESGPGTSTEPSEGSAPGTSESATPESGPGSPAGSPTSTEEGSPAGSPTSTEEGSPAGSPTSTEEGTSESATPESGPGTSTEPSEGSAPGTSESATPESGPGSEPATSGSETPGTSESATPESGPGSEPATSGSETPGTSESATPESGPGTSTEPSEGSAPGSPAGSPTSTEEGTSESATPESGPGSEPATSGSETPGTSESATPESGPGSPAGSPTSTEEGSPAGSPTSTEEGTSTEPSEGSAPGTSESATPESGPGTSESATPESGPGTSESATPESGPGSEPATSGSETPGSEPATSGSETPGSPAGSPTSTEEGTSTEPSEGSAPGTSTEPSEGSAPGSEPATSGSETPGTSESATPESGPGTSTEPSEGSAPGFPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGFGGTSESATPESGPGTSTEPSEGSAPGTSTEPSEGSAPGTSESATPESGPGTSTEPSEGSAPGTSTEPSEGSAPGTSESATPESGPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGSPAGSPTSTEEGTSTEPSEGSAPG",
+  "tam": 1250,
+  "sinonimos": [
+   "Somavaratan",
+   "Somavaratan",
+   "Somavaratan",
+   "VRS-317"
+  ]
+ },
+ {
+  "nome": "EFLAPEGRASTIM",
+  "chembl": "CHEMBL3833384",
+  "fase": "4.0",
+  "aprov": 2022,
+  "seq": "11'-11''|36-42|43'-103'|43''-103''|64-74|149'-207'|149''-207''",
+  "tam": 62,
+  "sinonimos": [
+   "Eflapegrastim",
+   "Eflapegrastim",
+   "Eflapegrastim",
+   "Eflapegrastim",
+   "Eflapegrastim",
+   "Eflapegrastim-xnst"
+  ]
+ },
+ {
+  "nome": "PEGAPAMODUTIDE",
+  "chembl": "CHEMBL3990012",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "B1(SMILES):CC(C)(N)C(O)=O$C1C2(SMILES):[H][C@@](N)(CSC1CC(=O)N(CCC(=O)NCCCOCCOC)C1=O)C(=O)N[C@]([H])(CSC1CC(=O)N(CCC(=O)NCCCOCCOC)C1=O)C(N)=O |r,Sg:n:18,19,20::ht,Sg:n:45,46,47::ht|",
+  "tam": 181,
+  "sinonimos": [
+   "LY-2944876",
+   "LY2944876",
+   "Pegapamodutida",
+   "Pegapamodutide",
+   "Pegapamodutide",
+   "Pegapamodutide"
+  ]
+ },
+ {
+  "nome": "NIVOBOTULINUMTOXINA",
+  "chembl": "CHEMBL3990013",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "MNINDNLSINSPVDNKNVVVVRARKTDTVFKAFKVAPNIWVAPERYYGESLSIDEEYKVDGGIYDSNFLSQDSEKDKFLQAIITLLKRINSTNAGEKLLSLISTAIPFPYGYIGGGYYAPNMITFGSAPKSNKKLNSLISSTIPFPYAGYRETNYLSSEDNKSFYASNIVIFGPGANIVENNTVFYKKEDAENGMGTMTEIWFQPFLTYKYDEFYIDPAIELIKCLIKSLYFLYGIKPSDDLVIPYRLRSELENIEYSQLNIVDLLVSGGIDPKFINTDPYWFTDNYFSNAKKVFEDHRNIYETEIEGNNAIGNDIKLRLKQKFRININDIWELNLNYFSKEFSIMMPDRFNNALKHFYRKQYYKIDYPENYSINGFVNGQINAQLSLSDRNQDIINKPEEIINLLNGNNVSLMRSNIYGDGLKSTVDDFYSNYKIPYNRAYEYHFNNSNDSSLDNVNIGVIDNIPEIIDVNPYKENCDKFSPVQKITSTREINTNIPWPINYLQAQNTNNEKFSLSSDFVEVVSSKDKSLVYSFLSNVMFYLDSIKDNSPIDTDKKYYLWLREIFRNYSFDITATQEINTNCGINKVVTWFGKALNILNTSDSFVEEFQNLGAISLINKKENLSMPIIESYEIPNDMLGLPLNDLNEKLFNIYSKNTAYFKKIYYNFLDQWWTQYYSQYFDLICMAKRSVLAQETLIKRIIQKKLSYLIGNSNISSDNLALMNLTTTNTLRDISNESQIAMNNVDSFLNNAAICVFESNIYPKFISFMEQCINNINIKTKEFIQKCTNINEDEKLQLINQNVFNSLDFEFLNIQNMKSLFSSETALLIKEETWPYELVLYAFKEPGNNVIGDASGKNTSIEYSKDIGLVYGINSDALYLNGSNQSISFSNDFFENGLTNSFSIYFWLRNLGKDTIKSKLIGSKEDNCGWEIYFQDTGLVFNMIDSNGNEKNIYLSDVSNNSWHYITISVDRLKEQLLIFIDDNLVANESIKEILNIYSSNIISLLSENNPSYIEGLTILNKPTTSQEVLSNYFEVLNNSYIRDSNEERLEYNKTYQLYNYVFSDKPICEVKQNNNIYLTINNTNNLNLQASKFKLLSINPNKQYVQKLDEVIISVLDNMEKYIDISEDNRLQLIDNKNNAKKMIISNDIFISNCLTLSYNGKYICLSMKDENHNWMICNNDMSKYLYLWSFK",
+  "tam": 1193,
+  "sinonimos": [
+   "MT 10109",
+   "MT-10109",
+   "MT10109",
+   "MT10109-DS",
+   "MT10109L",
+   "Nivobotulinumtoxina"
+  ]
+ },
+ {
+  "nome": "TOZULERISTIDE",
+  "chembl": "CHEMBL3990023",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "K1(SMILES):CC1(C)\\C(=C\\C=C\\C=C\\C=C\\C2=[N+](CCCCS([O-])(=O)=O)C3=C(C4=C(C=CC=C4)C=C3)C2(C)C)N(CCCCCC(=O)NCCCC[C@H](N)C(O)=O)C2=C1C1=C(C=CC=C1)C=C2 |r,c:11,25,27,30,55,60,62,65,t:21,23,58|",
+  "tam": 186,
+  "sinonimos": [
+   "BLZ-100",
+   "Tozuleristida",
+   "Tozuleristide",
+   "Tozuleristide",
+   "Tozuleristide"
+  ]
+ },
+ {
+  "nome": "PX-478 FREE BASE",
+  "chembl": "CHEMBL4117516",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": []
+ },
+ {
+  "nome": "C1-ESTERASE INHIBITOR",
+  "chembl": "CHEMBL4297549",
+  "fase": "4.0",
+  "aprov": 2011,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Berinert",
+   "C1 inhibitor (human)",
+   "C1 inhibitor human",
+   "C1-inhibitor, plasma derived",
+   "C1-inhibitor, plasma derived",
+   "Cetor"
+  ]
+ },
+ {
+  "nome": "EFGARTIGIMOD",
+  "chembl": "CHEMBL4297551",
+  "fase": "4.0",
+  "aprov": 2021,
+  "seq": "6-6' $ 9-9' $ 41-101 $ 41'-101' $ 147-205 $ 147'-205'",
+  "tam": 53,
+  "sinonimos": [
+   "Argx-113",
+   "ARGX-113",
+   "Efgartigimod",
+   "Efgartigimod alfa",
+   "Efgartigimod alfa",
+   "Efgartigimod alfa"
+  ]
+ },
+ {
+  "nome": "VALANAFUSP",
+  "chembl": "CHEMBL4297553",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Agt-181",
+   "AGT-181",
+   "Valanafusp alfa",
+   "Valanafusp alfa"
+  ]
+ },
+ {
+  "nome": "TAGRAXOFUSP",
+  "chembl": "CHEMBL4297573",
+  "fase": "4.0",
+  "aprov": 2018,
+  "seq": "187-202 $ 407-475",
+  "tam": 17,
+  "sinonimos": [
+   "DT-3881L3",
+   "DT388IL3",
+   "Elzonris",
+   "Molecule 129",
+   "MOLECULE-129",
+   "Sl-401"
+  ]
+ },
+ {
+  "nome": "ABICIPAR PEGOL",
+  "chembl": "CHEMBL4297684",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "GSDLDKKLLEAARAGQDDEVRILMANGADVNARDSTGWTPLHLAAPWGHPEIVEVLLKNGADVNAADFQGWTPLHLAAAVGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQKAAGGGSGGGSC1",
+  "tam": 136,
+  "sinonimos": [
+   "Abicipar pegol",
+   "Abicipar pegol",
+   "Abicipar pegol",
+   "Abicipar pegol",
+   "Agn-150998",
+   "AGN-150998"
+  ]
+ },
+ {
+  "nome": "IZOKIBEP",
+  "chembl": "CHEMBL4297686",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "AEAKYAKEADDAAVEIASLPNLTWDQWYAFIQKLRDDPSQSSELLSEAKKLNDSQAPKASGSLAEAKEAANAELDSYGVSDFYKRLIDKAKTVEGVEALKDAILAALPGTGGGGSAEAKYAKEADDAAVEIASLPNLTWDQWYAFIQKLRDDPSQSSELLSEAKKLNDSQAPK",
+  "tam": 173,
+  "sinonimos": [
+   "Aby-035",
+   "ABY-035",
+   "Aby035",
+   "Aby-035/afo2",
+   "IMG-020",
+   "Izokibep"
+  ]
+ },
+ {
+  "nome": "DARLEUKIN",
+  "chembl": "CHEMBL4297740",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Darleukin",
+   "L19-il2",
+   "L19IL2"
+  ]
+ },
+ {
+  "nome": "PEGTEOGRASTIM",
+  "chembl": "CHEMBL4297800",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Neulapeg",
+   "Pegteograstim",
+   "Pegteograstim",
+   "Pegteograstim"
+  ]
+ },
+ {
+  "nome": "ZINPENTRAXIN",
+  "chembl": "CHEMBL4297814",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "36-95 $ 36'-95' $ 36''-95'' $ 32'' $ 36'''-95''' $ 36''''-95''''",
+  "tam": 64,
+  "sinonimos": [
+   "Pentraxin-2",
+   "Pentraxin 2 (human)",
+   "Prm-151",
+   "PRM-151",
+   "Ptx-2",
+   "Recombinant human pentraxin 2"
+  ]
+ },
+ {
+  "nome": "CINREBAFUSP",
+  "chembl": "CHEMBL4297815",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+  "tam": 214,
+  "sinonimos": [
+   "Cinrebafusp alfa",
+   "Cinrebafusp alfa",
+   "Cinrebafusp alfa",
+   "Prs 343",
+   "Prs-343",
+   "PRS-343"
+  ]
+ },
+ {
+  "nome": "ROPEGINTERFERON -2B",
+  "chembl": "CHEMBL4297819",
+  "fase": "4.0",
+  "aprov": 2019,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Aop2014",
+   "Besremi",
+   "Besremi",
+   "P-1101",
+   "P1101",
+   "Ropeginterferon alfa-2b"
+  ]
+ },
+ {
+  "nome": "MODAKAFUSP",
+  "chembl": "CHEMBL4297836",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "22-96 $ 22''-96'' $ 23'-88' $ 23'''-88''' $ 134'-194' $ 134'''-194''' $ 134-214' $ 134''-214''' $ 147-203 $ 147''-203'' $ 226-226'' $ 229-229'' $ 261-321 $ 261''-321'' $ 367-425 $ 367''-425'' $ 448-545 $ 448''-545'' $ 476-585 $ 476''-585''",
+  "tam": 239,
+  "sinonimos": [
+   "Modakafusp alfa",
+   "Modakafusp alfa",
+   "Modakafusp alfa",
+   "Tak-573",
+   "TAK-573",
+   "TAK573"
+  ]
+ },
+ {
+  "nome": "CENEGERMIN",
+  "chembl": "CHEMBL4297852",
+  "fase": "4.0",
+  "aprov": 2017,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cenegermin",
+   "Cenegermin",
+   "Cenegermin",
+   "Cenegermin",
+   "Cenegermin bkbj",
+   "Cenegermin-bkbj"
+  ]
+ },
+ {
+  "nome": "BOTULINUM TOXIN TYPE A",
+  "chembl": "CHEMBL4297862",
+  "fase": "4.0",
+  "aprov": 2019,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Agn-151607",
+   "Ant-1401",
+   "Ant-1403",
+   "Botulift",
+   "Botulinum a toxin",
+   "Botulinum toxin type a"
+  ]
+ },
+ {
+  "nome": "OCTOCOG",
+  "chembl": "CHEMBL4297873",
+  "fase": "4.0",
+  "aprov": 2000,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Advate",
+   "Advate",
+   "Antihemophilic factor, human recombinant",
+   "BAY 14-2222",
+   "BAY-14-2222",
+   "BAY 81-8973"
+  ]
+ },
+ {
+  "nome": ". .1-PROTEINASE INHIBITOR",
+  "chembl": "CHEMBL4297879",
+  "fase": "4.0",
+  "aprov": 2015,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alfa1 antitrypsin",
+   "Alfa1 antitrypsin",
+   "Alpha-1-antiproteinase",
+   ".alpha.1-antitrypsin",
+   "Alpha 1-antitrypsin",
+   "Alpha-1-antitrypsin"
+  ]
+ },
+ {
+  "nome": "EVORPACEPT",
+  "chembl": "CHEMBL4297880",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "25-91 $ 25'-91' $ 125-125' $ 128-128' $ 160-220 $ 160'-220' $ 266-324 $ 266'-324'",
+  "tam": 81,
+  "sinonimos": [
+   "Alx 148",
+   "Alx-148",
+   "ALX-148",
+   "Alx148",
+   "ALX148",
+   "Evorpacept"
+  ]
+ },
+ {
+  "nome": "ASUNERCEPT",
+  "chembl": "CHEMBL4297886",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "APG-101",
+   "Apg101",
+   "APG101",
+   "Apocept",
+   "Asinercept",
+   "Asunercept"
+  ]
+ },
+ {
+  "nome": "RASDEGAFUSP",
+  "chembl": "CHEMBL4297923",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MGWSCIILFLVATATGVHSEIVLTQSPATLSLSPGERATLSCRASQSVSSYLAWYQQKPGQAPRLLIYDASNRATGIPARFSGSGSGTDFTLTISSLEPERNWPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+  "tam": 223,
+  "sinonimos": [
+   "Cdx-1401",
+   "CDX-1401",
+   "Rasdegafusp alfa",
+   "Rasdegafusp alfa"
+  ]
+ },
+ {
+  "nome": "EFMOROCTOCOG",
+  "chembl": "CHEMBL4297945",
+  "fase": "4.0",
+  "aprov": 2015,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Efmoroctocog alfa",
+   "Efmoroctocog alfa",
+   "Efmoroctocog alfa",
+   "Efraloctocog alfa",
+   "Elocta",
+   "Elocta"
+  ]
+ },
+ {
+  "nome": "EFBEMALENOGRASTIM",
+  "chembl": "CHEMBL4297950",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Benegrastim",
+   "Efbemalenograstim alfa",
+   "Efbemalenograstim alfa",
+   "Efbemalenograstim alfa",
+   "Efbemalenograstim alfa",
+   "Efbemalenograstim alfa"
+  ]
+ },
+ {
+  "nome": "INTERLEUKIN 15, RECOMBINANT NON-GLYCOSYLATED",
+  "chembl": "CHEMBL4297989",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Il-15",
+   "Interleukin 15, recombinant non-glycosylated"
+  ]
+ },
+ {
+  "nome": "TEBENTAFUSP",
+  "chembl": "CHEMBL4297990",
+  "fase": "4.0",
+  "aprov": 2022,
+  "seq": "AQQGEEDPQALSIQEGENATMNCSYKTSINNLQWYRQNSGRGLVHLILIRSNEREKHSGRLRVTLDTSKKSSSLLITASRAADTASYFCATDGSTPMQFGKGTRLSVIANIQKPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDT",
+  "tam": 195,
+  "sinonimos": [
+   "IMCgp 100",
+   "IMCGP-100",
+   "Imcgp100",
+   "IMCGP100",
+   "IMMTAC IMCGP100",
+   "ImmTAC IMCgpgp 100"
+  ]
+ },
+ {
+  "nome": "ONFEKAFUSP",
+  "chembl": "CHEMBL4298007",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Fibromun",
+   "L19-tnf",
+   "L19tnf",
+   "Onfekafusp alfa",
+   "Onfekafusp alfa",
+   "Onfekafusp alfa component of daromun  l19tnf"
+  ]
+ },
+ {
+  "nome": "BINTRAFUSP",
+  "chembl": "CHEMBL4298024",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "300 $ 300'' $ 518 $ 518'' $ 542 $ 542'' $ 602 $ 602''",
+  "tam": 53,
+  "sinonimos": [
+   "8L9YQ2N6PA",
+   "Bintrafusp alfa",
+   "Bintrafusp alfa",
+   "Bintrafusp alfa",
+   "M-7824",
+   "M7824"
+  ]
+ },
+ {
+  "nome": "BIZAXOFUSP",
+  "chembl": "CHEMBL4298027",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "10-63 $ 29-122 $ 91-101 $ 154-176",
+  "tam": 33,
+  "sinonimos": [
+   "Bizaxofusp",
+   "Bizaxofusp",
+   "Bizaxofusp",
+   "Bizaxofusp",
+   "Il4(38-37)-pe38kdel",
+   "MDNA-55"
+  ]
+ },
+ {
+  "nome": "EFGIVANERMIN",
+  "chembl": "CHEMBL4298030",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Cys7-Cys7$Cys10-Cys10$Cys42-Cys102$Cys148-Cys206$Cys298-Cys318",
+  "tam": 62,
+  "sinonimos": [
+   "Efgivanermina alfa",
+   "Efgivanermin alfa",
+   "Efgivanermin alfa",
+   "Efgivanermin alfa",
+   "Efgivanermine alfa",
+   "Medi 1873"
+  ]
+ },
+ {
+  "nome": "BEMPEGALDESLEUKIN",
+  "chembl": "CHEMBL4298058",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "58-105",
+  "tam": 6,
+  "sinonimos": [
+   "Aldesleukin prodrug nktr-214",
+   "Bempegaldesleukin",
+   "Bempegaldesleukin",
+   "Bempegaldesleukin",
+   "Bempegaldesleukina",
+   "Bempegaldesleukine"
+  ]
+ },
+ {
+  "nome": "SIMLUKAFUSP",
+  "chembl": "CHEMBL4298090",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Asn-297 $ Asn-297''",
+  "tam": 19,
+  "sinonimos": [
+   "FAP-IL2v",
+   "FAP-IL-2V",
+   "FAP-IL2V FP RO6874281",
+   "RG-7461",
+   "RG7461",
+   "RO-6874281"
+  ]
+ },
+ {
+  "nome": "VALZIFLOCEPT",
+  "chembl": "CHEMBL4298105",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "26-68$107-151",
+  "tam": 13,
+  "sinonimos": [
+   "SHP-652",
+   "SHP652",
+   "SM-101",
+   "Sm101",
+   "SM101",
+   "Valziflocept"
+  ]
+ },
+ {
+  "nome": "EFAVALEUKIN",
+  "chembl": "CHEMBL4298204",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Thr-234",
+  "tam": 7,
+  "sinonimos": [
+   "AMG 592",
+   "AMG-592",
+   "Efavaleukina alfa",
+   "Efavaleukin alfa",
+   "Efavaleukin alfa",
+   "Efavaleukin alfa"
+  ]
+ },
+ {
+  "nome": "LIPEGFILGRASTIM",
+  "chembl": "CHEMBL4594230",
+  "fase": "4.0",
+  "aprov": 2013,
+  "seq": "MTPLGPASSLPQSFLLKCLEQVRKIQGDGAALQEKLXXXCATYKLCHPEELVLLGHSLGIPWAPLSSCPSQALQLAGCLSQLHSGLFLYQGLLQALEGISPELGPTLDTLQLDVADFATTIWQQMEELGMAPALQPTQGAMPAFASAFQRRAGGVLVASHLQSFLEVSYRVLRHLAQP",
+  "tam": 178,
+  "sinonimos": [
+   "Lipegfilgrastim",
+   "Lipegfilgrastim",
+   "Lipegfilgrastim",
+   "Lipegfilgrastim",
+   "Lipegfilgrastim",
+   "Lipegfilgrastim"
+  ]
+ },
+ {
+  "nome": "RELABOTULINUMTOXINA",
+  "chembl": "CHEMBL4594317",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "429-453 $ 1234-1279",
+  "tam": 19,
+  "sinonimos": [
+   "QM1114",
+   "Relabotulinumtoxina",
+   "Relabotulinumtoxina"
+  ]
+ },
+ {
+  "nome": "INBAKICEPT",
+  "chembl": "CHEMBL4594318",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Thr-2 $ Thr-2' $ Asn-147 $ Asn-147'",
+  "tam": 35,
+  "sinonimos": [
+   "Inbakicept",
+   "Inbakicept",
+   "Inbakicept",
+   "Inbakicept component of alt-803  il-15r.alpha.su/fc fusion protein",
+   "Inbakicept component of n-803  il-15r.alpha.su/fc fusion protein",
+   "N-803"
+  ]
+ },
+ {
+  "nome": "MAVEROPEPIMUT-S",
+  "chembl": "CHEMBL4594319",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "L-Leucine, L-alanyl-L-glutaminyl-L-tyrosyl-L-isoleucyl-L-lysyl-L-alanyl-L-asparaginyl-L-seryl-L-lysyl-L-phenylalanyl-L-isoleucylglycl-L-isoleucyl-L-threonyl-L-alpha-glutamyl-",
+  "tam": 174,
+  "sinonimos": [
+   "DPX-Survivac",
+   "Maveropepimut-s",
+   "Maveropepimut-s"
+  ]
+ },
+ {
+  "nome": "EFTOZANERMIN",
+  "chembl": "CHEMBL4594322",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "111-280 $ 111'-280' $ 513-513' $ 519-519' $ 522-522' $ 554-614 $ 554'-614' $ 660-718 $ 660'-718'",
+  "tam": 96,
+  "sinonimos": [
+   "Abbv 621",
+   "Abbv-621",
+   "ABBV-621",
+   "Eftozanermina alfa",
+   "Eftozanermin alfa",
+   "Eftozanermin alfa"
+  ]
+ },
+ {
+  "nome": "DAZODALIBEP",
+  "chembl": "CHEMBL4594331",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "27-69 $ 132-174 $ 253-262 $ 275-290 $ 291-301 $ 324-368 $ 369-377 $ 400-445 $ 446-453 $ 465-478 $ 479-489 $ 516-560 $ 561-569 $ 592-637 $ 638-648 $ 661-676 $ 677-687 $ 714-758 $ 759-767",
+  "tam": 185,
+  "sinonimos": [
+   "Dazodalibep",
+   "Dazodalibep",
+   "Dazodalibep",
+   "Medi 4920",
+   "MEDI-4920",
+   "MEDI4920"
+  ]
+ },
+ {
+  "nome": "GEMIBOTULINUMTOXIN A",
+  "chembl": "CHEMBL4594337",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "MNINDNLSINSPVDNKNVVVVRARKTDTVFKAFKVAPNIWVAPERYYGESLSIDEEYKVDGGIYDSNFLSQDSEKDKFLQAIITLLKRINSTNAGEKLLSLISTAIPFPYGYIGGGYYAPNMITFGSAPKSNKKLNSLISSTIPFPYAGYRETNYLSSEDNKSFYASNIVIFGPGANIVENNTVFYKKEDAENGMGTMTEIWFQPFLTYKYDEFYIDPAIELIKCLIKSLYFLYGIKPSDDLVIPYRLRSELENIEYSQLNIVDLLVSGGIDPKFINTDPYWFTDNYFSNAKKVFEDHRNIYETEIEGNNAIGNDIKLRLKQKFRININDIWELNLNYFSKEFSIMMPDRFNNALKHFYRKQYYKIDYPENYSINGFVNGQINAQLSLSDRNQDIINKPEEIINLLNGNNVSLMRSNIYGDGLKSTVDDFYSNYKIPYNRAYEYHFNNSNDSSLDNVNIGVIDNIPEIIDVNPYKENCDKFSPVQKITSTREINTNIPWPINYLQAQNTNNEKFSLSSDFVEVVSSKDKSLVYSFLSNVMFYLDSIKDNSPIDTDKKYYLWLREIFRNYSFDITATQEINTNCGINKVVTWFGKALNILNTSDSFVEEFQNLGAISLINKKENLSMPIIESYEIPNDMLGLPLNDLNEKLFNIYSKNTAYFKKIYYNFLDQWWTQYYSQYFDLICMAKRSVLAQETLIKRIIQKKLSYLIGNSNISSDNLALMNLTTTNTLRDISNESQIAMNNVDSFLNNAAICVFESNIYPKFISFMEQCINNINIKTKEFIQKCTNINEDEKLQLINQNVFNSLDFEFLNIQNMKSLFSSETALLIKEETWPYELVLYAFKEPGNNVIGDASGKNTSIEYSKDIGLVYGINSDALYLNGSNQSISFSNDFFENGLTNSFSIYFWLRNLGKDTIKSKLIGSKEDNCGWEIYFQDTGLVFNMIDSNGNEKNIYLSDVSNNSWHYITISVDRLKEQLLIFIDDNLVANESIKEILNIYSSNIISLLSENNPSYIEGLTILNKPTTSQEVLSNYFEVLNNSYIRDSNEERLEYNKTYQLYNYVFSDKPICEVKQNNNIYLTINNTNNLNLQASKFKLLSINPNKQYVQKLDEVIISVLDNMEKYIDISEDNRLQLIDNKNNAKKMIISNDIFISNCLTLSYNGKYICLSMKDENHNWMICNNDMSKYLYLWSFK",
+  "tam": 1193,
+  "sinonimos": [
+   "AGN-151607",
+   "Gemibotulinumtoxin a",
+   "Gemibotulinumtoxin a component of botulinum neurotoxin type a non-toxic",
+   "PM-12759"
+  ]
+ },
+ {
+  "nome": "CLERVONAFUSP",
+  "chembl": "CHEMBL4594347",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Asn-311 $ Asn-404 $ Asn-561 $ Asn-641 $ Asn-823 $ Asn-1053 $ Asn-1096",
+  "tam": 69,
+  "sinonimos": [
+   "Clervonafusp alfa",
+   "Clervonafusp alfa",
+   "Clervonafusp alfa",
+   "Val-1221",
+   "VAL-1221",
+   "VAL1221"
+  ]
+ },
+ {
+  "nome": "TANFANERCEPT",
+  "chembl": "CHEMBL4594387",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "DSVCPQGKYIHPQNNSICCTKCHKGTYVYNDCPGPGQDTDCRECESGSFTAMENFLPGCLSCSKCRKEMGQVEISSCTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGTVHLSCQENQNTVCTCHAGFFLRENECVSCSNCKKSLECTKLCLPQIENVKGTEDSGTT",
+  "tam": 171,
+  "sinonimos": [
+   "HL-036337",
+   "HL036337",
+   "Tanfanercept",
+   "Tanfanercept"
+  ]
+ },
+ {
+  "nome": "BATIRAXCEPT",
+  "chembl": "CHEMBL4594462",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "Asn-11 $ Asn-11'' $ Asn-125 $ Asn-125'' $ Asn-166 $ Asn-166'' $ Asn-277 $ Asn-277''",
+  "tam": 83,
+  "sinonimos": [
+   "Aravive-S6",
+   "AVB-500",
+   "AVB S6 500",
+   "Avb-s6-500",
+   "AVB-S6-500",
+   "AVBS6500"
+  ]
+ },
+ {
+  "nome": "EFEPOETIN",
+  "chembl": "CHEMBL4594471",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Efepoetina alfa",
+   "Efepoetin alfa",
+   "Efepoetin alfa",
+   "Efepoetin alfa",
+   "Efepoetine alfa"
+  ]
+ },
+ {
+  "nome": "TIVIDENOFUSP",
+  "chembl": "CHEMBL4594537",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "N6 $ N90 $ N300 $ N488, N512 $ N607 $  N77'",
+  "tam": 43,
+  "sinonimos": [
+   "Dnl-310",
+   "DNL-310",
+   "Dnl310",
+   "DNL310",
+   "Etv:ids",
+   "Tividenofusp alfa"
+  ]
+ },
+ {
+  "nome": "TRENIBOTULINUMTOXINE",
+  "chembl": "CHEMBL4594539",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "412-426",
+  "tam": 7,
+  "sinonimos": [
+   "AGN-151586",
+   "BoNT/E",
+   "Bontoxilysin-e",
+   "Botulinum neurotoxin type e",
+   "Botulinum toxin type e",
+   "Eb-001"
+  ]
+ },
+ {
+  "nome": "PABINAFUSP",
+  "chembl": "CHEMBL4594565",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Jr-141",
+   "JR-141",
+   "JR141",
+   "Pabinafusp alfa",
+   "Pabinafusp alfa",
+   "Pabinafusp alfa"
+  ]
+ },
+ {
+  "nome": "EFINEPTAKIN",
+  "chembl": "CHEMBL4594590",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "5-95 $ 5'-95' $ 37-132 $ 37'-132' $ 50-144 $ 50'-144' $ 184-184' $ 214-274 $ 214'-274' $ 320-378 $ 320'-378'",
+  "tam": 108,
+  "sinonimos": [
+   "Efineptakina alfa",
+   "Efineptakin alfa",
+   "Efineptakin alfa",
+   "Efineptakin alfa",
+   "Efineptakine alfa",
+   "Hyleukin"
+  ]
+ },
+ {
+  "nome": "EFTRENONACOG",
+  "chembl": "CHEMBL4594598",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Alprolix",
+   "Alprolix",
+   "BIIB-029",
+   "Eftrenonacog alfa",
+   "Eftrenonacog alfa",
+   "Eftrenonacog alfa"
+  ]
+ },
+ {
+  "nome": "LONOCTOCOG",
+  "chembl": "CHEMBL4594603",
+  "fase": "4.0",
+  "aprov": 2017,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Afstyla",
+   "Afstyla",
+   "CSL-627",
+   "CSL627",
+   "Lonoctocog alfa",
+   "Lonoctocog alfa"
+  ]
+ },
+ {
+  "nome": "ROZIBAFUSP",
+  "chembl": "CHEMBL4650245",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Asn-297 $ Asn-297''",
+  "tam": 19,
+  "sinonimos": [
+   "AMG 570",
+   "AMG-570",
+   "MEDI-0700",
+   "Rozibafusp alfa",
+   "Rozibafusp alfa",
+   "Rozibafusp alfa"
+  ]
+ },
+ {
+  "nome": "EFMARODOCOKIN",
+  "chembl": "CHEMBL4650250",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "7-99 $ 7'-99' $ 56-145 $ 56'-145' $ 156-156' $ 159-159' $ 191-251 $ 191'-251' $ 297-355 $ 297'-355'",
+  "tam": 99,
+  "sinonimos": [
+   "Efmarodocokin alfa",
+   "Efmarodocokin alfa",
+   "Il 22-fc",
+   "RG-7880",
+   "RG7880",
+   "RO-7021610"
+  ]
+ },
+ {
+  "nome": "IDESTOPOETIN",
+  "chembl": "CHEMBL4650268",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "Asn-24 $ Asn-38 $ Asn-83",
+  "tam": 24,
+  "sinonimos": [
+   "Epocat",
+   "Idestopoetin alfa",
+   "KIND 510a",
+   "KIND-510A",
+   "KIND510A"
+  ]
+ },
+ {
+  "nome": "RECIFERCEPT",
+  "chembl": "CHEMBL4650420",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "76 $ 203 $ 240 $ 272 $ 293 $ 306 $ 342",
+  "tam": 38,
+  "sinonimos": [
+   "PF-07256472",
+   "Recifercept",
+   "Recifercept",
+   "Recifercept",
+   "Ta-46",
+   "TA-46"
+  ]
+ },
+ {
+  "nome": "PEGENZILEUKIN",
+  "chembl": "CHEMBL4650426",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "58-105",
+  "tam": 6,
+  "sinonimos": [
+   "Il-2 variant thor-707",
+   "Pegenzileukin",
+   "Pegenzileukin",
+   "Pegenzileukin",
+   "Pegenzileukina",
+   "Pegenzileukine"
+  ]
+ },
+ {
+  "nome": "INTERFERON -2B KINOID",
+  "chembl": "CHEMBL4650474",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ifn-k",
+   "Interferon alfa-2b kinoid",
+   "Interferon.alpha.kinoid"
+  ]
+ },
+ {
+  "nome": "GOFLIKICEPT",
+  "chembl": "CHEMBL4650513",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Goflikicept",
+   "Goflikicept",
+   "Goflikicept",
+   "RPH 104",
+   "Rph-104",
+   "RPH-104"
+  ]
+ },
+ {
+  "nome": "MAPLIRPACEPT",
+  "chembl": "CHEMBL4802185",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "EEELQVIOPDKSVSVAAGESAILHCTVTSLIPVGPIQWFRGAGPARELIYNOKEGHFPRVTTVSESTKRENMDFSISISNITPADAGTYYCVKFRKGSPDTEFKSGAGTELSVRAKPSESKYGPPCPPCPAPEFLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSQEDPEVQFNWYVDGVEVHNAKTKPREEQFNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKGLPSSIEKTISKAKGQPREPQVYTLPPSQEEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSRLTVDKSRWOEGNVFSCSVMHEALHNHYTOKSLSLSLCGK",
+  "tam": 348,
+  "sinonimos": [
+   "Maplirpacept",
+   "Maplirpacept",
+   "Maplirpacept",
+   "Maplirpacept",
+   "Maplirpacept",
+   "PF-07901801"
+  ]
+ },
+ {
+  "nome": "BELZUPACAP SAROTALOCAN",
+  "chembl": "CHEMBL4802193",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "Modified residues (SMILES): C[Si](C)([O-])CCC[N+](CCCS(=O)(=O)[O-])(CCCS(=O)(=O)O)CCCS(=O)(=O)O.C[Si](C)([O-])CCC[N+](CCCS(=O)(=O)[O-])(CCCS(=O)(=O)O)CCCS(=O)(=O)O.O=C(O)CCCCCNC(=O)OCCCOc1cccc2c1-c1nc-2nc2[n-]c(nc3nc(nc4[n-]c(n1)c1ccccc41)-c1ccccc1-3)c1ccccc21.[SiH8+4]",
+  "tam": 269,
+  "sinonimos": [
+   "Au-011",
+   "AU-011",
+   "AU011",
+   "Belzupacap sarotalocan",
+   "Belzupacap sarotalocan",
+   "Belzupacap sarotalocan"
+  ]
+ },
+ {
+  "nome": "PEGIPANERMIN",
+  "chembl": "CHEMBL4802208",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MRSSSRTPSDKPVAHVVANPQAEGQLQWLNCRANALLANGVELRDNQLVVPSEGLYLIYSQVLFKGQGVPSTHVLLTHTISRIAVSHQTKVNLLSAIKSPAQRETPEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLDFRESGQVYFGIIAL",
+  "tam": 157,
+  "sinonimos": [
+   "DN-TNF",
+   "INB-03",
+   "Inb03",
+   "INB03",
+   "Livnate",
+   "Pegipanermin"
+  ]
+ },
+ {
+  "nome": "HEMOGLOBIN SUCISTIL (BOVINE)",
+  "chembl": "CHEMBL5095124",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MLTAEEKAAVTAFWGKVKVDEVGGEALGRLLVVYPWTQRFFESFGDLSTADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAALSELHCDKLHVDPENFKLLGNVLVVVLARNFGKEFTPVLQADFQKVVAGVANALAHRYH",
+  "tam": 145,
+  "sinonimos": [
+   "Hemoglobina sucistilo (bovina)",
+   "Hemoglobine sucistil (bovine)",
+   "Hemoglobin sucistil (bovine)"
+  ]
+ },
+ {
+  "nome": "LATIKAFUSP",
+  "chembl": "CHEMBL5095129",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "301 $ 301''",
+  "tam": 11,
+  "sinonimos": [
+   "Amg 256",
+   "Latikafusp",
+   "Latikafusp",
+   "Latikafusp",
+   "Latikafusp"
+  ]
+ },
+ {
+  "nome": "EFOCIPEGTRUTIDE",
+  "chembl": "CHEMBL5095149",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "PSCPAPEFLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSQEDPEVQFNWYVDGVEVHNAKTKPREEQFNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKGLPSSIEKTISKAKGQPREPQVYTLPPSQEEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSRLTVDKSRWQEGNVFSCSVMHEALHNHYTQKSLSLSLGK",
+  "tam": 221,
+  "sinonimos": [
+   "Efocipegtrutida",
+   "Efocipegtrutide",
+   "Efocipegtrutide"
+  ]
+ },
+ {
+  "nome": "SOZINIBERCEPT",
+  "chembl": "CHEMBL5095152",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "27-87 $ 27'-87' $ 60-69 $ 60'-69' $ 134-182 $ 134'-182' $ 228-286 $ 228'-286' $ 310-310' $ 316-316' $ 319-319' $ 351-411 $ 351'-411' $ 457-515 $ 457'-515'",
+  "tam": 154,
+  "sinonimos": [
+   "Opt-302",
+   "OPT-302",
+   "OPT302",
+   "Sozinibercept",
+   "Sozinibercept",
+   "Sozinibercept"
+  ]
+ },
+ {
+  "nome": "DALUTRAFUSP",
+  "chembl": "CHEMBL5095272",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dalutrafusp alfa"
+  ]
+ },
+ {
+  "nome": "EFANESOCTOCOG",
+  "chembl": "CHEMBL5095275",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Altuviiio",
+   "Altuviiio",
+   "Altuvoct",
+   "Efanesoctocog alfa",
+   "Efanesoctocog alfa",
+   "Efanesoctocog alfa"
+  ]
+ },
+ {
+  "nome": "MECAPEGFILGRASTIM",
+  "chembl": "CHEMBL5095279",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "HHPG-19K",
+   "Mecapegfilgrastim"
+  ]
+ },
+ {
+  "nome": "NEMVALEUKIN",
+  "chembl": "CHEMBL5095282",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "N187 $ N206 $ T212",
+  "tam": 18,
+  "sinonimos": [
+   "ALKS 4230",
+   "ALKS-4230",
+   "ALKS4230",
+   "Nemvaleukin alfa",
+   "Nemvaleukin alfa",
+   "RDB-1450"
+  ]
+ },
+ {
+  "nome": "TELITACICEPT",
+  "chembl": "CHEMBL5095293",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Telitacicept"
+  ]
+ },
+ {
+  "nome": "ACAZICOLCEPT",
+  "chembl": "CHEMBL5095304",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DTQEKEVRAMVGSDVELSCACPEGSRFDLNDVYVYWQTSESKTVVTYHIPQHSSLEYVDSRYRNRALMSPAGMLRGDFSLRLFNVTPQDEQKFHCLVLSRSLGFQEVLSVEVTLHVAANFSVGGGGSGGGGSEPKSSDKTHTCPPCPAPEAEGAPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPG",
+  "tam": 363,
+  "sinonimos": [
+   "Acazicolcept",
+   "Acazicolcept",
+   "ALPN-101",
+   "Vigd (variant immunoglobulin domain)"
+  ]
+ },
+ {
+  "nome": "DAVOCETICEPT",
+  "chembl": "CHEMBL5095305",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "19 $ 19' $ 55 $ 55' $ 64 $ 64' $ 196 $ 196'",
+  "tam": 43,
+  "sinonimos": [
+   "ALPN-202",
+   "ALPN202",
+   "Davoceticept",
+   "Davoceticept",
+   "Vigd"
+  ]
+ },
+ {
+  "nome": "POVETACICEPT",
+  "chembl": "CHEMBL5095306",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "4-19 $ 4'-19' $ 22-33 $ 22'-33' $ 26-37 $ 26'-37' $ 61-61' $ 64-64' $ 96-156 $ 96'-156' $ 202-260 $ 202'-260'",
+  "tam": 109,
+  "sinonimos": [
+   "ALPN-303",
+   "Povetacicept",
+   "Povetacicept",
+   "Povetacicept",
+   "Povetacicept",
+   "Povetacicept"
+  ]
+ },
+ {
+  "nome": "FICERAFUSP",
+  "chembl": "CHEMBL5095314",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DILLTQSPVILSVSPGERVSFSCRASQSIGTNIHWYQQRTNGSPRLLIKYASESISGIPSRFSGSGSGTDFTLSINSVESEDIADYYCQQNNNWPTTFGAGTKLELKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGGGGSGGGGSGGGGSTIPPHVQKSVNNDMIVTDNNGAVKFPQLCKFCDVRFSTCDNQKSCMSNCSITSICEKPQEVCVAVWRKNDENITLETVCHDPKLPYHDFILEDAASPKCIMKEKKKPGETFFMCSCSSDECNDNIIFSEEYNTSNPD",
+  "tam": 366,
+  "sinonimos": [
+   "Bca 101",
+   "Bca-101",
+   "BCA101",
+   "Ficerafusp alfa",
+   "Ficerafusp alfa",
+   "Ficerafusp alfa"
+  ]
+ },
+ {
+  "nome": "NOMLABOFUSP",
+  "chembl": "CHEMBL5095325",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "51-64",
+  "tam": 5,
+  "sinonimos": [
+   "CTI 1601",
+   "CTI-1601",
+   "CTI1601",
+   "Nomlabofusp",
+   "Nomlabofusp",
+   "Nomlabofusp"
+  ]
+ },
+ {
+  "nome": "LUSACOMFAR",
+  "chembl": "CHEMBL5095336",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "3-48 $ 34-62 $ 67-111 $ 96-123 $ 128-174 $ 160-192 $ 187-233 $ 219-244 $ 249-291 $ 276-302 $307-356 $ 339-367 $ 371-413 $ 398-424 $ 430-476 $459-487 $ 491-535 $ 518-546 $ 551-593 $ 579-605 $612-655 $ 641-666 $ 673-715 $ 701-726 $ 735-774 $763-785 $ 793-835 $ 821-846 $ 852-897 $ 883-908 $913-955 $ 941-966 $ 971-1014 $ 1000-1025 $ 1030-1073 $1059-1084 $ 1091-1134 $ 1120-1145 $ 1149-1200 $ 1183-1210",
+  "tam": 399,
+  "sinonimos": [
+   "Complement factor h",
+   "GEM-103",
+   "GEM103",
+   "H factor 1",
+   "Lusacomfar alfa",
+   "Lusacomfar alfa"
+  ]
+ },
+ {
+  "nome": "INSULIN EFSITORA",
+  "chembl": "CHEMBL5095357",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Insulin efsitora alfa",
+   "LY-3209590",
+   "LY3209590"
+  ]
+ },
+ {
+  "nome": "VUROLENATIDE",
+  "chembl": "CHEMBL5095367",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPSGGSPAGSPTSTEEGTSESATPESGPGTSTEPSEGSAPGSPAGSPTSTEEGTSTEPSEGSAPGTSTEPSEGSAPGTSESATPESGPGSEPATSGSETPGSEPATSGSETPGSPAGSPTSTEEGTSESATPESGPGTSTEPSEGSAPGTSTEPSEGSAPGSPAGSPTSTEEGTSTEPSEGSAPGTSTEPSEGSAPGTSESATPESGPGTSTEPSEGSAPGTSESATPESGPGSEPATSGSETPGTSTEPSEGSAPGTSTEPSEGSAPGTSESATPESGPGTSESATPESGPGSPAGSPTSTEEGTSESATPESGPGSEPATSGSETPGTSESATPESGPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGTSTEPSEGSAPGSPAGSPTSTEEGTSTEPSEGSAPGTSESATPESGPGSEPATSGSETPGTSESATPESGPGSEPATSGSETPGTSESATPESGPGTSTEPSEGSAPGTSESATPESGPGSPAGSPTSTEEGSPAGSPTSTEEGSPAGSPTSTEEGTSESATPESGPGTSTEPSEGSAPGTSESATPESGPGSEPATSGSETPGTSESATPESGPGSEPATSGSETPGTSESATPESGPGTSTEPSEGSAPGSPAGSPTSTEEGTSESATPESGPGSEPATSGSETPGTSESATPESGPGSPAGSPTSTEEGSPAGSPTSTEEGTSTEPSEGSAPGTSESATPESGPGTSESATPESGPGTSESATPESGPGSEPATSGSETPGSEPATSGSETPGSPAGSPTSTEEGTSTEPSEGSAPGTSTEPSEGSAPGSEPATSGSETPGTSESATPESGPGTSTEPSEGSAPG",
+  "tam": 905,
+  "sinonimos": [
+   "GLP-1-XTEN",
+   "NB-1001",
+   "NB1001",
+   "NM-002",
+   "Vurolenatida",
+   "Vurolenatide"
+  ]
+ },
+ {
+  "nome": "MELREDABLEUKIN",
+  "chembl": "CHEMBL5095376",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "293 $ 294''",
+  "tam": 11,
+  "sinonimos": [
+   "Melredableukin alfa",
+   "Melredableukin alfa",
+   "RG-7835",
+   "RG7835",
+   "RO-7049665",
+   "RO7049665"
+  ]
+ },
+ {
+  "nome": "ENGLUMAFUSP",
+  "chembl": "CHEMBL5095378",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "DIVMTQTPLSLLIYRVSKRFISCKSSQSLETSTGTTYLNWYLQKPGQSPQLSVTPGQPASSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCLQLLEDPYTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+  "tam": 219,
+  "sinonimos": [
+   "Englumafusp alfa",
+   "Englumafusp alfa",
+   "Ensomafusp alfa",
+   "Ensomafusp alfa",
+   "RG-6076",
+   "RG6076"
+  ]
+ },
+ {
+  "nome": "RETLIRAFUSP",
+  "chembl": "CHEMBL5095383",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Retlirafusp alfa",
+   "Shr 1701",
+   "SHR-1701",
+   "SHR1701"
+  ]
+ },
+ {
+  "nome": "NANRILKEFUSP",
+  "chembl": "CHEMBL5095385",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "168 $ 176",
+  "tam": 9,
+  "sinonimos": [
+   "Nanrilkefusp alfa",
+   "Nanrilkefusp alfa",
+   "Nanrilkefusp alfa",
+   "Nanrilkefusp alfa",
+   "Nanrilkefusp alfa",
+   "SO-C101"
+  ]
+ },
+ {
+  "nome": "REZPEGALDESLEUKIN",
+  "chembl": "CHEMBL5095458",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "57-104",
+  "tam": 6,
+  "sinonimos": [
+   "Il-2 peg conjugate (nktr-358)",
+   "LY-3471851",
+   "LY3471851",
+   "NKTR-358",
+   "Rezpegaldesleukin",
+   "Rezpegaldesleukin"
+  ]
+ },
+ {
+  "nome": "OREMEPERMIN",
+  "chembl": "CHEMBL5095468",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "VVNGIPTRTNIGWMVSLRYRNKHICGGSLIKESWVLTARQCFPSRDLKDYEAWLGIHDVHGRGDEKCKQVLNVSQLVYGPEGSDLVLMKLARPAVLDDFVSTIDLPNYGCTIPEKTSCSVYGWGYTGLINYDGLLRVAHLYIMGNEKCSQHHRGKVTLNESEICAGAEKIGSGPCEGDYGGPLVCEQHKMRMVLGVIVPGRGCAIPNRPGIFVRVAYYAKWIHKIILTYKVPQS",
+  "tam": 234,
+  "sinonimos": [
+   "KP-100",
+   "KP100",
+   "Oremepermin alfa"
+  ]
+ },
+ {
+  "nome": "EREPDEKINRA",
+  "chembl": "CHEMBL5314675",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Erepdekinra",
+   "Erepdekinra",
+   "Erepdekinra"
+  ]
+ },
+ {
+  "nome": "LUNAXAFUSP",
+  "chembl": "CHEMBL5314689",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "290-364 $ 435-500",
+  "tam": 17,
+  "sinonimos": [
+   "Lunaxafusp",
+   "Lunaxafusp",
+   "Lunaxafusp"
+  ]
+ },
+ {
+  "nome": "XEMPRITOLIMOD",
+  "chembl": "CHEMBL5314718",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "AQVINTNSLSLLTQNNLNKSQSSLSSAIERLSSGLRINSAKDDAAGQATANRFTSNIKGLTQASRNANDGISIAQTTEGALNEINNNLQRVRELSVQATNGTNSDSDLKSIQDETQQRLEEIDRVSNQTQFNGVKVLSQDNQMKIQVGANDGETITIDLQKIDVKSLGLDGFNVNSPGISGGGGGILDSMGTLINEDAAAAKKSTANPLASIDSALSKVDAVRSSLGAIQNRFDSAITNLGNTVINLNSARSRIEDADYATEVSNMSKAQILQQAGTSVLAQANQVPQNVLSLLR",
+  "tam": 295,
+  "sinonimos": [
+   "KMRC-011",
+   "KMRC011",
+   "Xempritolimod",
+   "Xempritolimod",
+   "Xempritolimod",
+   "Xempritolimod"
+  ]
+ },
+ {
+  "nome": "BRENETAFUSP",
+  "chembl": "CHEMBL5314729",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "GDAKTTQPNSMESNEEEPVHLPCNHSTISGTDYIHWYRQLPSQGPEYVIHGLTSNVNNRMASLAIAEDRKSSTLILHRATLRDAAVYYCILILGHSRLGNYIATFGKGTKLSVIPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDT",
+  "tam": 201,
+  "sinonimos": [
+   "Brenetafusp",
+   "Brenetafusp",
+   "Brenetafusp",
+   "Brenetafusp",
+   "IMC F106C",
+   "Imc-f106c"
+  ]
+ },
+ {
+  "nome": "CEMAVAFUSP",
+  "chembl": "CHEMBL5314730",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "290-364 $ 290'-364' $ 418-482 $ 418'-482'",
+  "tam": 41,
+  "sinonimos": [
+   "Cemavafusp",
+   "Cemavafusp",
+   "Cemavafusp"
+  ]
+ },
+ {
+  "nome": "EFBALROPENDEKIN",
+  "chembl": "CHEMBL5314735",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "ITCPPPMSVEHADIWVKSYSLYSRERYICNSGFKRKAGTSSLTECVLNKATNVAHWTTPSLKCIRGGGGSEPKSSDKTHTCPPCPAPPVAGPSVFLFPPKPKDTLMISRTPEVTCVVVDVKHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSREQMTKNQVKLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVLHEALHSHYTQKSLSLSPGK",
+  "tam": 301,
+  "sinonimos": [
+   "Efbalropendekina alfa",
+   "Efbalropendekin alfa",
+   "Efbalropendekine alfa"
+  ]
+ },
+ {
+  "nome": "ELRITERCEPT",
+  "chembl": "CHEMBL5314737",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "12-42 $ 12'-42' $ 32-60 $ 32'-60' $ 67-86 $  67'-86' $ 73-85 $ 73'-85' $ 87-92 $ 87'-92' $ 153-213 $ 153'-213' $ 259-317 $ 259'-317'",
+  "tam": 132,
+  "sinonimos": [
+   "ActRIIA/B-Fc",
+   "Elritercept",
+   "Elritercept",
+   "Elritercept",
+   "Elritercept",
+   "Ker-050"
+  ]
+ },
+ {
+  "nome": "GULGAFAFUSP",
+  "chembl": "CHEMBL5314744",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "301 $ 301''",
+  "tam": 11,
+  "sinonimos": [
+   "GMA-102",
+   "GMA102",
+   "Gulgafafusp alfa",
+   "Gulgafafusp alfa",
+   "Gulgafafusp alfa"
+  ]
+ },
+ {
+  "nome": "SOTIBURAFUSP",
+  "chembl": "CHEMBL5314774",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "293 $ 293''",
+  "tam": 11,
+  "sinonimos": [
+   "Sotiburafusp alfa",
+   "Sotiburafusp alfa",
+   "Sotiburafusp alfa"
+  ]
+ },
+ {
+  "nome": "TIMDARPACEPT",
+  "chembl": "CHEMBL5314779",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "215 $ 215''",
+  "tam": 11,
+  "sinonimos": [
+   "Timdarpacept",
+   "Timdarpacept",
+   "Timdarpacept"
+  ]
+ },
+ {
+  "nome": "VENSOBAFUSP",
+  "chembl": "CHEMBL5314785",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "302 $ 302''",
+  "tam": 11,
+  "sinonimos": [
+   "KP-104",
+   "Vensobafusp alfa",
+   "Vensobafusp alfa",
+   "Vensobafusp alfa"
+  ]
+ },
+ {
+  "nome": "ALSECOVATEIN",
+  "chembl": "CHEMBL5314791",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "2-123 $ 118-153 $ 278-288 $ 323-348 $ 366-419 $ 378-512 $ 467-475 $ 525-577 $ 604-636 $ 649-658 $ 725-747 $ 730-736 $ 827-838 $ 1019-1030 $ 1069-1113",
+  "tam": 149,
+  "sinonimos": [
+   "Alsecovatein",
+   "Alsecovateina",
+   "Alsecovateine"
+  ]
+ },
+ {
+  "nome": "ENLICOVATEIN",
+  "chembl": "CHEMBL5314793",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "VNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPGSASSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYTHHHHHH",
+  "tam": 1264,
+  "sinonimos": [
+   "Enlicovatein",
+   "Enlicovateina",
+   "Enlicovateine"
+  ]
+ },
+ {
+  "nome": "LARICOVATEIN",
+  "chembl": "CHEMBL5314794",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "QCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAISGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTYGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIDDTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPGSASSVASQSIIAYTMSLGAENSVAYSNNSIAIPINFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSPIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGPALQIPFPMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTPSALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILARLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTHNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQGYIPEAPRDGQAYVRKDGEWVLLSTFL",
+  "tam": 1219,
+  "sinonimos": [
+   "Laricovatein",
+   "Laricovateina",
+   "Laricovateine"
+  ]
+ },
+ {
+  "nome": "RITICOVATEIN",
+  "chembl": "CHEMBL5314795",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "2-123 $ 118-151 $ 276-286 $ 321-346 $ 364-417 $ 376-510 $ 465-473 $ 523-575 $ 602-634 $ 647-656 $ 723-745 $ 728-734 $ 825-836 $ 1017-1028 $ 1067-1111",
+  "tam": 149,
+  "sinonimos": [
+   "Riticovatein",
+   "Riticovateina",
+   "Riticovateine"
+  ]
+ },
+ {
+  "nome": "SELVACOVATEIN",
+  "chembl": "CHEMBL5314796",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "18-43 $ 61-114 $ 73-207 $ 162-70 $ 237-262 $ 280-333 $ 292-426 $ 381-389",
+  "tam": 72,
+  "sinonimos": [
+   "Bimervax",
+   "Selvacovatein",
+   "Selvacovatein",
+   "Selvacovateina",
+   "Selvacovateine"
+  ]
+ },
+ {
+  "nome": "SORIMCOVATEIN",
+  "chembl": "CHEMBL5314797",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "2-121 $ 116-148 $ 275-285 $ 320-345 $ 363-416 $ 375-509 $ 464-472 $ 522-574 $ 601-633 $ 646-655 $ 722-744 $ 727-733 $ 824-835 $ 1016-1027 $ 1066-1110",
+  "tam": 149,
+  "sinonimos": [
+   "Sorimcovatein",
+   "Sorimcovateina",
+   "Sorimcovateine"
+  ]
+ },
+ {
+  "nome": "TIBRECOVATEIN",
+  "chembl": "CHEMBL5314798",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "4 $ 48 $ 61 $ 109 $ 136 $ 152 $ 221 $ 266 $ 315 $ 327 $ 587 $ 600 $ 641 $ 693 $ 701 $ 785 $ 1058 $ 1082 $ 1118 $ 1142 $ 1157 $ 1178",
+  "tam": 131,
+  "sinonimos": [
+   "Tibrecovatein",
+   "Tibrecovateina",
+   "Tibrecovateine"
+  ]
+ },
+ {
+  "nome": "UPALSECOVATEIN",
+  "chembl": "CHEMBL5314805",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "45 $ 56 $ 104 $ 131 $ 147 $ 216 $ 264 $ 313 $ 325 $ 585 $ 598 $ 639 $ 691 $ 699 $ 783 $ 1056 $ 1080 $ 1116 $ 1140 $ 1155 $ 1176",
+  "tam": 127,
+  "sinonimos": [
+   "Upalsecovatein",
+   "Upalsecovateina",
+   "Upalsecovateine"
+  ]
+ },
+ {
+  "nome": "CIBOTERCEPT",
+  "chembl": "CHEMBL5314818",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "10-40 $ 10'-40' $ 30-58 $ 30'-58' $ 65-84 $ 65'-84' $ 71-83 $ 71'-83' $ 85-90 $ 85'-90' $ 124-124' $ 127-127' $ 159-219 $ 159'-219' $ 265-323 $ 265'-323'",
+  "tam": 153,
+  "sinonimos": [
+   "Cibotercept",
+   "Cibotercept",
+   "Cibotercept"
+  ]
+ },
+ {
+  "nome": "EFERCOLEUKIN",
+  "chembl": "CHEMBL5314826",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "6-6' $ 9-9' $ 41-101 $ 41'-101' $ 129-134' $ 147-205 $ 147'-205' $ 256-266 $ 279-330 $ 294-306 $ 301'-348'",
+  "tam": 106,
+  "sinonimos": [
+   "Efercoleukina alfa",
+   "Efercoleukin alfa",
+   "Efercoleukine alfa"
+  ]
+ },
+ {
+  "nome": "ONVAPEGLEUKIN",
+  "chembl": "CHEMBL5314857",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "58-105",
+  "tam": 6,
+  "sinonimos": [
+   "Onvapegleukina alfa",
+   "Onvapegleukin alfa",
+   "Onvapegleukine alfa"
+  ]
+ },
+ {
+  "nome": "SIFAROBOCEPT",
+  "chembl": "CHEMBL5314877",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "31-89 $ 31'-89' $ 133-182 $ 133'-182' $ 220-220' $ 223-223' $ 255-315 $ 255'-315' $ 361-419 $ 361'-419'",
+  "tam": 103,
+  "sinonimos": [
+   "Sifarobocept",
+   "Sifarobocept",
+   "Sifarobocept"
+  ]
+ },
+ {
+  "nome": "VEVOCTADEKIN",
+  "chembl": "CHEMBL5314892",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "YFGKLESKLSVIRNLNDQVLFIDQGNRPLFEDMTDSDSRDNAPRTIFIISKYSDSLARGLAVTISVKDEKISTLSCENKIISFKEMNPPDNIKDTKSDIIFFQRDVPGHSRKMQFESSSYEGYFLACEKERDLFKLILKKEDELGDRSIMFTVQNED",
+  "tam": 157,
+  "sinonimos": [
+   "St-067",
+   "Vevoctadekin",
+   "Vevoctadekina",
+   "Vevoctadekine"
+  ]
+ },
+ {
+  "nome": "VIMEKOFUSP",
+  "chembl": "CHEMBL5314977",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "12-16 $ 12'-16' $ 209-226 $ 209'-226' $ 279-301 $ 279'-301' $ 413-509 $ 413'-509' $ 463-515 $ 463'-515'",
+  "tam": 103,
+  "sinonimos": [
+   "Amt-101",
+   "Vimekofusp",
+   "Vimekofusp",
+   "Vimekofusp",
+   "Vimekofusp"
+  ]
+ },
+ {
+  "nome": "ECISKAFUSP",
+  "chembl": "CHEMBL5314982",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "300 $ 300''",
+  "tam": 11,
+  "sinonimos": [
+   "Eciskafusp alfa",
+   "Eciskafusp alfa",
+   "Eciskafusp alfa",
+   "Eciskafusp alfa",
+   "Eciskafusp alfa",
+   "PD1-IL2v"
+  ]
+ },
+ {
+  "nome": "ONTORPACEPT",
+  "chembl": "CHEMBL5314996",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ontorpacept"
+  ]
+ },
+ {
+  "nome": "FOLLITROPIN DELTA",
+  "chembl": "CHEMBL5315064",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "N52 $ N78 $ N7 $ N24",
+  "tam": 20,
+  "sinonimos": [
+   "FE 999049",
+   "FE-999049",
+   "FE-999049 (RECOMBINANT FSH)",
+   "FE-999049 (R-HFSH)",
+   "Follitropin delta",
+   "Follitropin delta"
+  ]
+ },
+ {
+  "nome": "DAMOCTOCOG PEGOL",
+  "chembl": "CHEMBL5315069",
+  "fase": "4.0",
+  "aprov": 2018,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Antihemophilic factor (recombinant), pegylated aucl",
+   "Damoctocog alfa pegol",
+   "Damoctocog alfa pegol",
+   "Jivi"
+  ]
+ },
+ {
+  "nome": "TUROCTOCOG PEGOL",
+  "chembl": "CHEMBL5315071",
+  "fase": "4.0",
+  "aprov": 2019,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Esperoct",
+   "N8-gp",
+   "Turoctocog alfa pegol",
+   "Turoctocog alfa pegol"
+  ]
+ },
+ {
+  "nome": "SUSOCTOCOG",
+  "chembl": "CHEMBL5315075",
+  "fase": "4.0",
+  "aprov": 2015,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BAX-802",
+   "BAX802",
+   "Obizur",
+   "Susoctocog alfa",
+   "Susoctocog alfa"
+  ]
+ },
+ {
+  "nome": "ALBUTREPENONACOG",
+  "chembl": "CHEMBL5315076",
+  "fase": "4.0",
+  "aprov": 2016,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Albutrepenonacog alfa",
+   "Albutrepenonacog alfa",
+   "CSL-654",
+   "Csl654",
+   "Idelvion"
+  ]
+ },
+ {
+  "nome": "ZAMUBAFUSP",
+  "chembl": "CHEMBL6068002",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "291 $ 291''",
+  "tam": 11,
+  "sinonimos": [
+   "Zamubafusp alfa",
+   "Zamubafusp alfa",
+   "Zamubafusp alfa"
+  ]
+ },
+ {
+  "nome": "OPINERCEPT",
+  "chembl": "CHEMBL6068080",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "Asn-149 $ Asn-171 $ Asn-317",
+  "tam": 27,
+  "sinonimos": [
+   "Opinercept",
+   "Opinercept",
+   "Opinercept",
+   "Opinercept"
+  ]
+ },
+ {
+  "nome": "EMPEGFILGRASTIM",
+  "chembl": "CHEMBL6068081",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MTPLGPASSLPQSFLLKCLEQVRKIQGDGAALQEKLCATYKLCHPEELVLLGHSLGIPWAPLSSCPSQALQLAGCLSQLHSGLFLYQGLLQALEGISPELGPTLDTLQLDVADFATTIWQQMEELGMAPALQPTQGAMPAFASAFQRRAGGVLVASHLQSFLEVSYRVLRHLAQP",
+  "tam": 175,
+  "sinonimos": [
+   "Empegfilgrastim",
+   "Empegfilgrastim",
+   "Empegfilgrastim",
+   "Empegfilgrastim"
+  ]
+ },
+ {
+  "nome": "PEGINTERFERON ALFACON-2",
+  "chembl": "CHEMBL6068082",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "1-99 $ 29-139",
+  "tam": 13,
+  "sinonimos": [
+   "Peginterferon alfacon-2",
+   "Peginterferon alfacon-2",
+   "Peginterferon alfacon-2",
+   "Peginterferon alfacon-2"
+  ]
+ },
+ {
+  "nome": "ALBIPAGRASTIM",
+  "chembl": "CHEMBL6068085",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "53-62 $ 75-91 $ 90-101 $ 124-169 $ 168-177 $ 200-246 $ 245-253 $ 265-279 $ 278-289 $ 316-361 $ 360-369 $ 392-438 $ 437-448 $ 461-477 $ 476-487 $ 514-559 $ 558-567 $ 621-627 $ 649-659",
+  "tam": 182,
+  "sinonimos": [
+   "Albipagrastim alfa",
+   "Albipagrastim alfa",
+   "Albipagrastim alfa"
+  ]
+ },
+ {
+  "nome": "AMULIRAFUSP",
+  "chembl": "CHEMBL6068088",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "QIVLSQSPAILSASPGEKVTMTCRASSSVSYIHWFQQKPGSSPKPWIYATSNLASGVPVRFSGSGSGTSYSLTISRVEAEDAATYYCQQWTSNPPTFGGGTKHELKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+  "tam": 213,
+  "sinonimos": [
+   "Amulirafusp alfa",
+   "Amulirafusp alfa",
+   "Amulirafusp alfa"
+  ]
+ },
+ {
+  "nome": "EBRIBAFUSP",
+  "chembl": "CHEMBL6068113",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DVVMTQSPLSLPVTLGQPASISCKSSQSLLDSDGKTYLNWFQQRPGQSPRRLIYLVSKLDSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCWQGTHFPRTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+  "tam": 219,
+  "sinonimos": [
+   "Adx-097",
+   "Ebribafusp alfa",
+   "Ebribafusp alfa",
+   "Ebribafusp alfa"
+  ]
+ },
+ {
+  "nome": "EFIMOSFERMIN",
+  "chembl": "CHEMBL6068114",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "6-6' $ 9-9' $ 41-101 $ 41'-101' $ 147-205 $ 147'-205' $ 252-345 $ 252'-345' $ 300-318 $ 300'-318'",
+  "tam": 97,
+  "sinonimos": [
+   "Efimosfermin alfa",
+   "Efimosfermin alfa",
+   "Efimosfermin alfa",
+   "LLF-580",
+   "Llf580"
+  ]
+ },
+ {
+  "nome": "EFPAREPOETIN",
+  "chembl": "CHEMBL6068115",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "7-161 $ 7'-161' $ 29-33 $ 29'-33' $ 187-187' $ 190-190' $ 221-281 $ 221'-281' $ 327-385 $ 327'-385'",
+  "tam": 99,
+  "sinonimos": [
+   "Efparepoetin alfa",
+   "Efparepoetin alfa",
+   "Efparepoetin alfa"
+  ]
+ },
+ {
+  "nome": "ETAKAFUSP",
+  "chembl": "CHEMBL6068121",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "299 $ 299''",
+  "tam": 11,
+  "sinonimos": [
+   "AB-248",
+   "Ab248",
+   "Etakafusp alfa",
+   "Etakafusp alfa",
+   "Etakafusp alfa"
+  ]
+ },
+ {
+  "nome": "INVIKAFUSP",
+  "chembl": "CHEMBL6068126",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DIQMTQSPSFLSASVGDRVTITCKASQNVADRVVWHQQKPGKAPKALIYSSSHRYKGVPSRFSGSGSGTEFTLTISSLQPEDFATYFCQQFKSYPLTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+  "tam": 214,
+  "sinonimos": [
+   "Invikafusp alfa",
+   "Invikafusp alfa",
+   "Invikafusp alfa"
+  ]
+ },
+ {
+  "nome": "LESIGERCEPT",
+  "chembl": "CHEMBL6068128",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "26-68 $ 26'-68' $ 107-151 $ 107'-151' $ 209-209' $ 239-299 $ 239'-299' $ 345-403 $ 345'-403'",
+  "tam": 92,
+  "sinonimos": [
+   "Lesigercept",
+   "Lesigercept",
+   "Lesigercept"
+  ]
+ },
+ {
+  "nome": "LUCORAFUSP",
+  "chembl": "CHEMBL6068134",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "AK-130",
+   "Ak130",
+   "Lucorafusp alfa",
+   "Lucorafusp alfa",
+   "Lucorafusp alfa"
+  ]
+ },
+ {
+  "nome": "PALVERAFUSP",
+  "chembl": "CHEMBL6068162",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DIQMTQSPSSLSASVGDRVTITCRASQDVSTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQYLYHPATFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+  "tam": 214,
+  "sinonimos": [
+   "IMM-2510",
+   "Imm2510",
+   "Palverafusp alfa",
+   "Palverafusp alfa",
+   "Palverafusp alfa"
+  ]
+ },
+ {
+  "nome": "REDALSOMATROPIN",
+  "chembl": "CHEMBL6068166",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "53-165 $ 182-189 $ 244-253 $ 266-282 $ 281-292 $ 315-360 $ 359-368 $ 391-437 $ 436-444 $ 456-470 $ 469-480 $ 507-552 $ 551-560 $ 583-629 $ 628-639 $ 652-668 $ 667-678 $ 705-750 $ 749-758",
+  "tam": 186,
+  "sinonimos": [
+   "JR-142",
+   "Redalsomatropina alfa",
+   "Redalsomatropin alfa",
+   "Redalsomatropine alfa"
+  ]
+ },
+ {
+  "nome": "VISLARAFUSP",
+  "chembl": "CHEMBL6068189",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "300 $ 300''",
+  "tam": 11,
+  "sinonimos": [
+   "IMM-2902",
+   "Imm2902",
+   "Vislarafusp alfa",
+   "Vislarafusp alfa",
+   "Vislarafusp alfa"
+  ]
+ },
+ {
+  "nome": "AMTABAFUSP",
+  "chembl": "CHEMBL6068204",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "QAVVTQEPSLTVSPGGTVTLTCGSSTGAVTTGHYANWVQQKPGQAPRGLIGGTSNRAPGVPARFSGSLLGGKAALTISGAQPEDEAEYYCALWYSNRWVFGGGTKLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDEYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+  "tam": 215,
+  "sinonimos": [
+   "Amtabafusp alfa",
+   "Amtabafusp alfa",
+   "Amtabafusp alfa"
+  ]
+ },
+ {
+  "nome": "BEZEOTERMIN",
+  "chembl": "CHEMBL6068213",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "SASSRRRQQSRNRSTQSQDVARVSSASDYNSSELKTACRKHELYVSFQDLGWQDWIIAPKGYAANYCDGECSFPLNAHMNATNHAIVQTLVHLMNPEYVPKPCCAPTKLNAISVLYFDDNSNVILKKYRNMVVRACGCH",
+  "tam": 139,
+  "sinonimos": [
+   "Bezeotermina alfa",
+   "Bezeotermin alfa",
+   "Bezeotermine alfa"
+  ]
+ },
+ {
+  "nome": "EFARINDODEKIN",
+  "chembl": "CHEMBL6068236",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKENWYVDGVEVHNAKTKPREEQYASTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVCTLPPSRDELTKNQVSLSCAVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLVSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGGGSGGGSGKIDACKRGDVTVKPSHVILLGSTVNITCSLKPRQGCFHYSRRNKLILYKFDRRINFHHGHSLNSQVTGLPLGTTLFVCKLACINSDEIQICGAEIFVGVAPEQPQNLSCIQKGEQGTVACTWERGRDTHLYTEYTLQLSGPKNLTWQKQCKDIYCDYLDFGINLTPESPESNFTAKVTAVNSLGSSSSLPSTFTFLDIVRPLPPWDIRIKFQKASVSRSTLYWRDEGLVLLNRLRYRPSNSRLWNMVNVTKAKGRHDLLDLKPFTEYEFQISSKLHLYKGSWSDWSESLRAQTPEE",
+  "tam": 530,
+  "sinonimos": [
+   "Efarindodekina alfa",
+   "Efarindodekin alfa",
+   "Efarindodekine alfa"
+  ]
+ },
+ {
+  "nome": "EFDELIKOFUSP",
+  "chembl": "CHEMBL6068237",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "16-82 $ 16'-82' $ 128-182 $ 128'-182' $ 234-234' $ 237-237' $ 269-329 $ 269'-329' $ 375-433 $ 375'-433' $ 517-564 $ 517'-564'",
+  "tam": 125,
+  "sinonimos": [
+   "Efdelikofusp alfa",
+   "Efdelikofusp alfa",
+   "Efdelikofusp alfa"
+  ]
+ },
+ {
+  "nome": "EFSUBAGLUTIDE",
+  "chembl": "CHEMBL6068241",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "49-49' $ 52-52' $ 55-55' $ 86-146 $ 86'-146' $ 192-250 $ 192'-250'",
+  "tam": 66,
+  "sinonimos": [
+   "Efsubaglutida alfa",
+   "Efsubaglutide alfa",
+   "Efsubaglutide alfa"
+  ]
+ },
+ {
+  "nome": "EFSUDENERMIN",
+  "chembl": "CHEMBL6068242",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "5-5' $ 5''-5''' $ 5''''-5''''' $ 8-8' $ 8''-8''' $ 8''''-8''''' $ 40- 100 $ 40'- 100' $ 40''-100'' $ 40'''- 100''' $ 40''''-100'''' $ 40'''''-100''''' $ 146- 204 $ 146'- 204' $ 146''-204'' $ 146'''-204''' $ 146''''-204'''' $ 146'''''-204''''' $ 321- 335 $ 321'- 335' $ 321''-335'' $ 321'''-335''' $ 321''''-335'''' $ 321'''''-335''''",
+  "tam": 333,
+  "sinonimos": [
+   "Efsudenermina alfa",
+   "Efsudenermin alfa",
+   "Efsudenermine alfa"
+  ]
+ },
+ {
+  "nome": "EFZILONKOFUSP",
+  "chembl": "CHEMBL6068243",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "16-82 $ 16'-82' $ 128-182 $ 128'-182' $ 234-234' $ 237-237' $ 269-329 $ 269'-329' $ 375-433 $ 375'-433'' $ 517-564 $ 517'-564'",
+  "tam": 126,
+  "sinonimos": [
+   "Efzilonkofusp alfa",
+   "Efzilonkofusp alfa",
+   "Efzilonkofusp alfa"
+  ]
+ },
+ {
+  "nome": "LARNEFPENDEKIN",
+  "chembl": "CHEMBL6068258",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DTCPPPMSVEHADIWVKSYSLYSRERYICNSGFKRKAGTSSLTECVLNKATNVAHWITPSLKCIRDPALVHORPAPPSTVTTAGVTPQPESLSPSGKEPAASSGAEGGGRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVOWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+  "tam": 216,
+  "sinonimos": [
+   "Larnefpendekina alfa",
+   "Larnefpendekin alfa",
+   "Larnefpendekine alfa"
+  ]
+ },
+ {
+  "nome": "MIVALSECOVATEIN",
+  "chembl": "CHEMBL6068266",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "45 $ 58 $ 106 $ 132 $ 148 $ 217 $ 265 $ 314 $ 326 $ 586 $ 599 $ 640 $ 692 $ 700 $ 784 $ 1057 $ 1081 $ 1117 $ 1141 $ 1156",
+  "tam": 120,
+  "sinonimos": [
+   "Mivalsecovatein",
+   "Mivalsecovateina",
+   "Mivalsecovateine",
+   "NVX-COV2601"
+  ]
+ },
+ {
+  "nome": "PRODUVOFUSP",
+  "chembl": "CHEMBL6068284",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "3-48 $ 34-62 $ 67-111 $ 96-123 $ 128-174 $ 160-187 $ 192-233 $ 219-244 $ 249-29 $ 276-302 $ 327-401 $ 440-453",
+  "tam": 109,
+  "sinonimos": [
+   "Produvofusp",
+   "Produvofusp",
+   "Produvofusp"
+  ]
+ },
+ {
+  "nome": "POSNAFUSP",
+  "chembl": "CHEMBL6068285",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "62 $ 62'' $ 372 $ 372'' $ 485 $ 3485'' $ 634 $ 634''",
+  "tam": 52,
+  "sinonimos": [
+   "Posnafusp alfa",
+   "Posnafusp alfa",
+   "Posnafusp alfa"
+  ]
+ },
+ {
+  "nome": "SOLABAFUSP",
+  "chembl": "CHEMBL6068294",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "297 $ 297''",
+  "tam": 11,
+  "sinonimos": [
+   "Solabafusp alfa",
+   "Solabafusp alfa",
+   "Solabafusp alfa"
+  ]
+ },
+ {
+  "nome": "TABIRAFUSP",
+  "chembl": "CHEMBL6068303",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "36 $ 36'' $ 68 $ 68'' $ 123 $ 123'' $ 196 $ 196'' $ 514 $ 514''",
+  "tam": 63,
+  "sinonimos": [
+   "OG-2072",
+   "OG2072",
+   "Tabirafusp alfa",
+   "Tabirafusp alfa",
+   "Tabirafusp alfa"
+  ]
+ },
+ {
+  "nome": "TABIRAFUSP TEDROMER",
+  "chembl": "CHEMBL6068304",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "36 $ 36'' $ 68 $ 68'' $ 123 $ 123'' $ 196 $ 196'' $ 514 $ 514''",
+  "tam": 63,
+  "sinonimos": [
+   "OG-2072 TEDROMER",
+   "OG2072 TEDROMER",
+   "Tabirafusp alfa tedromer",
+   "Tabirafusp alfa tedromere",
+   "Tabirafusp alfa tedromero"
+  ]
+ },
+ {
+  "nome": "VERENAFUSP",
+  "chembl": "CHEMBL6068315",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "DIQMTQSPSSLSASLGERVSLTCRASQDIGGNLYWLQQGPDGTIKRLIYATSSLDSGVPKRESGSRSGSDYSLTISSLESEDEVDYYCLEYSSSPWTEGGGTKMEIKRIVAAPSVEIFPPSDEQLKSGTASVVCLLNNEYPREAKVQWKVDALQSGNSQESTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGISSPVTKSENRGEC",
+  "tam": 212,
+  "sinonimos": [
+   "Verenafusp alfa",
+   "Verenafusp alfa",
+   "Verenafusp alfa"
+  ]
+ },
+ {
+  "nome": "NOGAPENDEKIN INBAKICEPT",
+  "chembl": "CHEMBL6068330",
+  "fase": "4.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Anktiva",
+   "Nogapendekin alfa inbakicept",
+   "Nogapendekin alfa inbakicept-pmln"
+  ]
+ },
+ {
+  "nome": "COAGULATION FACTOR VII",
+  "chembl": "CHEMBL6068490",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Coagulation factor vii human",
+   "Coagulation factor vii human component of balfaxar",
+   "Factor vii (proconvertin)"
+  ]
+ },
+ {
+  "nome": "PROTEIN S",
+  "chembl": "CHEMBL6068491",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Protein s",
+   "Protein s human",
+   "Protein s human component of balfaxar"
+  ]
+ },
+ {
+  "nome": "PROTHROMBIN",
+  "chembl": "CHEMBL6068492",
+  "fase": "4.0",
+  "aprov": 2023,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Factor ii (prothrombin)",
+   "Prothrombin",
+   "Prothrombin component of balfaxar"
+  ]
+ },
+ {
+  "nome": "BONE MORPHOGENETIC PROTEIN 2",
+  "chembl": "CHEMBL6068575",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bmp-2",
+   "Bone morphogenetic protein 2",
+   "Bone morphogenetic protein 2a"
+  ]
+ },
+ {
+  "nome": "REDASEMTIDE",
+  "chembl": "CHEMBL6068588",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Redasemtide",
+   "S-005151"
+  ]
+ },
+ {
+  "nome": "BASIC FIBROBLAST GROWTH FACTOR ( )",
+  "chembl": "CHEMBL6068603",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Basic fibroblast growth factor",
+   "Basic fibroblast growth factor",
+   "Basic fibroblast growth factor (human)",
+   "Bio-fd&c bfgf",
+   "Cg-bfgf",
+   "Fibroblast growth factor 2"
+  ]
+ },
+ {
+  "nome": "PROTHROMBIN COMPLEX CONCENTRATE",
+  "chembl": "CHEMBL6068614",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Kcentra",
+   "Octaplex 500 iu",
+   "Prothrombin complex concentrate"
+  ]
+ },
+ {
+  "nome": "SERUM ALBUMIN, RECOMBINANT RICE-DERIVED",
+  "chembl": "CHEMBL6068619",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Human serum albumin, recombinant rice-derived",
+   "Osrhsa"
+  ]
+ },
+ {
+  "nome": "MIROSTIPEN",
+  "chembl": "CHEMBL6197888",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "MDRFHATSADCCISYTPRSIPCSLLESYFETNSECSKPGVIFLTKKGRRFCANPSDKQVQVCMRMLKLDTRIKTRKN",
+  "tam": 77,
+  "sinonimos": [
+   "Mirostipen",
+   "Mirostipen",
+   "Mirostipeno"
+  ]
+ }
+]

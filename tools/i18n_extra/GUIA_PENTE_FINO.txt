@@ -1,0 +1,26 @@
+PENTE FINO: o site deixou de ser só de peptídeos
+================================================
+O site (pasta guia-peptideos, HTML/JS puro, português com i18n EN/ES) nasceu como guia de peptídeos. Hoje o catálogo (140 itens em PEPTIDES, data.js + data-extra.js) inclui: peptídeos (GLP-1, secretagogos, regenerativos, cosméticos...), HORMÔNIOS (testosterona, estradiol, tireoide, cortisol, insulina...), VITAMINAS, MINERAIS, NAD+/NMN/NR e SUPLEMENTOS/metabólitos (L-carnitina, ácido alfa-lipoico, creatina, CoQ10, ômega-3, resveratrol, urolitina A...) e miméticos de exercício (SLU-PP-332, 5-amino-1MQ).
+Nome oficial atual: "Guia Educativo de Peptídeos, Hormônios e Suplementos".
+
+REGRAS DE LINGUAGEM
+- Quando o texto fala do CATÁLOGO INTEIRO, não diga "peptídeo(s)". Use "substância(s)" (ex.: "Comparar substâncias", "140 substâncias", "Escolha uma substância"), ou "item/itens" quando soar melhor, ou cite explicitamente "peptídeos, hormônios e suplementos".
+- Mantenha "peptídeo" SÓ quando for realmente específico de peptídeos (ex.: "o que é um peptídeo?", cadeia de aminoácidos, famílias que são mesmo de peptídeos, conteúdo biológico sobre peptídeos).
+- Não mude nomes de variáveis, IDs, URLs, nomes de arquivo (peptideo.html, urlPeptideo, PEPTIDES, m.peptideos etc. ficam como estão: são código interno).
+- Não invente fatos: conteúdo educativo, sem doses, sem recomendar uso; mantenha o aviso "confirme em fontes oficiais". Datas/aprovações só quando você tiver certeza; na dúvida, omita o item.
+- Sem comentários de código desnecessários. Arquivos em UTF-8 sem BOM. NUNCA passe texto com acentos por stdin do PowerShell (vira "?"): edite com as ferramentas de edição/criação de arquivo.
+
+TRADUÇÃO (obrigatória para tudo o que você alterar ou criar em PT)
+- O i18n troca nós de texto do DOM por CORRESPONDÊNCIA EXATA da string PT (i18n.js: tr()). Para cada string PT nova/alterada visível ao usuário, adicione em UM arquivo `tools/i18n_extra/i18n_pente_<seu_nome>.py` com `D = {"texto pt exato": ("English", "Español"), ...}` e opcionalmente `REGEX = [(r"^padrão (.+)$", "EN $1", "ES $1")]` (strings com valores dinâmicos). Arquivos i18n_pente*.py SOBRESCREVEM traduções antigas.
+- Atributos placeholder/aria-label/title/content da meta description também passam por tr() quando são texto do DOM visível; meta description e <title> não. Títulos de página (document.title) são montados em JS: traduza os textos exatos usados nos nós visíveis.
+- Strings dentro de template literals com ${...} NÃO casam por exato: reescreva para que o texto fixo fique em um nó próprio (ex.: <span>) ou use REGEX.
+- Se sua string PT nova depender de algo já traduzido, ainda assim inclua no seu arquivo.
+- Valide: `python tools\gerar_i18n_conteudo.py` (roda sem erro) e abra a página afetada no navegador em PT, EN e ES (http://localhost:8765/, o idioma está em localStorage 'lang': 'pt'|'en'|'es'; o service worker pode servir cache: desregistre com navigator.serviceWorker.getRegistrations e caches.delete) conferindo que não há erros de console e que não sobra texto PT antigo.
+- NÃO rode tools\gerar_paginas.py nem tools\build.py (o coordenador roda no final). NÃO edite arquivos fora do seu escopo.
+
+LISTA DE TRADUÇÃO DOS CAMPOS DAS FICHAS (mecanismo, beneficios, evidencia, riscos, status, protocolo)
+----------------------------------------------------------------------------------------------------
+Obtenha a lista no navegador (Playwright, página compartilhada ou abra uma): abra http://localhost:8765/peptideo.html?p=nad e execute em page.evaluate:
+  const L=[];const vis=new Set();['mecanismo','beneficios','evidencia','riscos','status','protocolo'].forEach(f=>PEPTIDES.forEach(p=>{const s=p[f];if(typeof s==='string'&&s.trim()&&!I18N.en[s.trim()]&&!I18N.en[s]&&!vis.has(s)){vis.add(s);L.push(s)}}));
+  return JSON.stringify(L.slice(INICIO,FIM))
+(A ordem é estável enquanto ninguém edita data.js/data-extra.js/i18n-conteudo.js; NÃO regenere i18n-conteudo.js antes de buscar sua fatia.) Se a saída for grande ela é gravada em arquivo temporário: leia-o com a ferramenta view em partes. Traduza cada string inteira PT -> EN e ES mantendo exatamente a string PT como chave (a chave deve ser IDÊNTICA ao texto original, incluindo pontuação/acentos; copie, não redigite). Mantenha tom educativo, termos médicos corretos (EN: nomes INN; ES: terminologia latinoamericana/espanhola neutra), sem acrescentar doses/conselhos. Escreva o arquivo (ferramenta `create`, em blocos se grande: crie `..._a.py`, `..._b.py`) `tools/i18n_extra/i18n_pente_campos<N>.py` com `D = {"pt": ("en", "es"), ...}`. Valide com python (exec do arquivo; todos valores tuplas de 2 strings não vazias; número de chaves = tamanho da sua fatia). Não rode gerar_paginas/build; pode rodar `python tools\gerar_i18n_conteudo.py` para testar. Responda com 1-2 linhas.

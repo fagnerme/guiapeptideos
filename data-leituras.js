@@ -1,0 +1,12 @@
+/* Leituras recomendadas: links diretos para fontes institucionais, sem afiliados. */
+const AFILIADOS = { amazonTag: "" };
+const LEITURAS = [
+  { tipo: "Fonte oficial", titulo: "Office of Dietary Supplements (NIH): informações sobre suplementos", autor: "National Institutes of Health (NIH)", url: "https://ods.od.nih.gov/", nota: "Fichas informativas sobre vitaminas, minerais e outros suplementos, com fontes e limitações da evidência." },
+  { tipo: "Fonte oficial", titulo: "Dietary Supplements: o que consumidores devem saber", autor: "U.S. Food and Drug Administration (FDA)", url: "https://www.fda.gov/food/dietary-supplements", nota: "Informações oficiais sobre regulação, rotulagem e segurança de suplementos alimentares nos Estados Unidos." },
+  { tipo: "Fonte oficial", titulo: "Dietary Supplements", autor: "MedlinePlus — U.S. National Library of Medicine", url: "https://medlineplus.gov/dietarysupplements.html", nota: "Visão geral para o público sobre suplementos, segurança e como avaliar informações." },
+  { tipo: "Fonte oficial", titulo: "Endocrine Library", autor: "Endocrine Society", url: "https://www.endocrine.org/patient-engagement/endocrine-library", nota: "Materiais educativos sobre hormônios, sistema endócrino e condições relacionadas." },
+  { tipo: "Fonte oficial", titulo: "Consulta de medicamentos", autor: "Anvisa", url: "https://consultas.anvisa.gov.br/", nota: "Consulte informações regulatórias de produtos no Brasil; confirme o produto e a indicação nas fontes oficiais." },
+  { tipo: "Fonte oficial", titulo: "Medicines", autor: "European Medicines Agency (EMA)", url: "https://www.ema.europa.eu/en/medicines", nota: "Informações regulatórias sobre medicamentos avaliados pela EMA na União Europeia." },
+  { tipo: "Fonte oficial", titulo: "Drugs@FDA", autor: "U.S. Food and Drug Administration (FDA)", url: "https://www.accessdata.fda.gov/scripts/cder/daf/", nota: "Base oficial de medicamentos aprovados pela FDA e informações de rotulagem nos Estados Unidos." },
+  { tipo: "Fonte científica", titulo: "Cochrane Library", autor: "Cochrane", url: "https://www.cochranelibrary.com/", nota: "Revisões sistemáticas e evidências sobre intervenções de saúde; avalie a data e o escopo de cada revisão." }
+];

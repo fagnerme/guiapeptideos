@@ -1,0 +1,117 @@
+﻿0	Agonista do receptor GLP-1: aumenta secreção de insulina dependente de glicose, reduz apetite e retarda esvaziamento gástrico.
+1	Agonista duplo GIP/GLP-1.
+2	Atua no receptor de ocitocina, induzindo contração uterina e ejeção do leite.
+3	Fragmento de proteína gástrica; em roedores sugere efeito em angiogênese e reparo tecidual (mecanismo pouco esclarecido).
+4	Relacionado à timosina β4, envolvida em migração celular e reparo; dados majoritariamente pré-clínicos.
+5	Reposição de GH, estimulando IGF-1 e crescimento/metabolismo.
+6	Estimulam liberação de GH (agonista de grelina / análogo de GHRH).
+7	Agonista do receptor GLP-1 de ação mais curta que a semaglutida.
+8	Hormônio peptídico que promove captação de glicose pelas células e reduz a glicemia.
+9	Fragmento do paratormônio (PTH 1-34) que estimula a formação óssea.
+10	Tripeptídeo ligado ao cobre; estudos in vitro sugerem estímulo de colágeno e reparo da pele.
+11	Análogo de α-MSH que ativa receptores de melanocortina, estimulando a pigmentação.
+12	Análogo do GHRH que estimula liberação de GH e reduz gordura visceral.
+13	Agonista triplo dos receptores GIP, GLP-1 e glucagon.
+14	Análogo de longa ação da amilina; reduz apetite e esvaziamento gástrico.
+15	Agonista duplo glucagon/GLP-1; foco em obesidade e doença hepática (MASH).
+16	Agonista duplo GLP-1/glucagon (oxintomodulina-like).
+17	Análogo sintético da amilina; retarda esvaziamento gástrico e reduz glucagon pós-prandial.
+18	Agonista do receptor de melanocortina 4 (MC4R).
+19	Fragmento (177-191) do GH; hipótese de efeito lipolítico sem ação no crescimento.
+20	Análogo do FGF21 pegilado para esteatohepatite.
+21	Análogo estável do glucagon.
+22	Fragmento 1-29 do GHRH que estimula liberação de GH.
+23	Agonista do receptor de grelina (GHS-R); estimula GH e apetite.
+24	Agonista de grelina que estimula GH.
+25	Secretagogo de GH, também com possível ação cardíaca em estudos iniciais.
+26	Variante de IGF-1 com maior meia-vida; ativa o receptor de IGF-1.
+27	Variante de splicing do IGF-1 muscular; hipótese de ativação de células-satélite.
+28	Inibe a miostatina e outros membros da família TGF-β.
+29	Ativa o receptor KISS1R, estimulando o eixo GnRH/LH.
+30	Estimula liberação de LH e FSH pela hipófise.
+31	Agonista de GnRH; após estímulo inicial, suprime o eixo gonadal.
+32	Análogo da somatostatina.
+33	Análogo do PTHrP que estimula formação óssea.
+34	Análogo do peptídeo natriurético tipo C (CNP).
+35	Modula a ativação de células T e células dendríticas.
+36	Catelicidina humana: ação antimicrobiana e imunomoduladora.
+37	Tripeptídeo derivado do α-MSH com efeito anti-inflamatório em modelos de colite.
+38	Peptídeo derivado da eritropoetina que ativa o receptor de reparo inato (sem eritropoese).
+39	Modula tight junctions intestinais.
+40	Análogo do GLP-2 que promove crescimento da mucosa intestinal.
+41	Análogo de longa ação do GLP-2.
+42	Peptídeo macrocíclico inibidor de C5 do complemento.
+43	Peptídeo pegilado inibidor de C3.
+44	Ativa o receptor Mas, com efeitos vasodilatadores e anti-inflamatórios.
+45	Liga-se à cardiolipina na membrana mitocondrial interna.
+46	Regula metabolismo celular via AMPK; efeitos em sensibilidade à insulina em roedores.
+47	Peptídeo mitocondrial com efeito citoprotetor em modelos de doenças neurodegenerativas.
+48	Peptídeo senolítico que interfere na interação FOXO4–p53 em células senescentes.
+49	Tetrapeptídeo sintético ligado à telomerase em estudos iniciais, majoritariamente de um grupo russo.
+50	Análogo de fragmento do ACTH; hipótese de modulação de BDNF.
+51	Análogo da tuftsina com possível efeito ansiolítico/imunomodulador.
+52	Derivado da angiotensina IV; promove sinaptogênese em modelos animais (via HGF/c-Met).
+53	Fragmento da proteína ADNP, estabiliza microtúbulos.
+54	Tripeptídeo (Glu-Asp-Arg) estudado em modelos de neuroproteção, principalmente na Rússia.
+55	Agonista de receptores de melanocortina no SNC.
+56	Peptídeo opioide natural de anfíbios, agonista μ de alta potência.
+57	Inibe parcialmente a formação do complexo SNARE, reduzindo contração muscular local (in vitro).
+58	Fragmento do colágeno tipo I que pode estimular síntese de matriz em fibroblastos.
+59	Principal peptídeo do veneno de abelha; forma poros em membranas celulares.
+60	Lantibiótico que forma poros em bactérias Gram-positivas.
+61	Peptídeos catiônicos da imunidade inata com ação antimicrobiana.
+62	Tripeptídeo (Glu-Cys-Gly), principal antioxidante intracelular.
+63	Dipeptídeo (β-alanil-L-histidina) com tamponamento e ação antiglicação.
+64	Liga-se ao receptor de androgênios e, após conversão, ao de estrogênios; regula massa muscular, osso, libido e produção de glóbulos vermelhos.
+65	Ativa receptores de estrogênio em útero, mama, osso, vasos e cérebro.
+66	Ativa receptores de progesterona; prepara o endométrio e protege-o do excesso de estrogênio.
+67	Ativa receptores de glicocorticoides: eleva glicose, modula a imunidade e reduz inflamação.
+68	Precursor de androgênios e estrogênios; depende da conversão em outros hormônios sexuais.
+69	Forma sintética do T4; é convertida em T3, que ativa receptores nucleares e regula o metabolismo.
+70	Forma ativa do hormônio da tireoide; age mais rápido e dura menos que o T4.
+71	Ativa receptores MT1 e MT2 e sinaliza ao cérebro o início da noite.
+72	Mimetiza o LH e estimula a produção de testosterona nos testículos ou a ovulação nos ovários.
+73	Ativa o receptor de glucagon no fígado, liberando glicose armazenada.
+74	Ativa o receptor de calcitonina e reduz a reabsorção óssea pelos osteoclastos.
+75	Análogo da vasopressina que ativa o receptor V2 nos rins e retém água.
+76	Análogo da leptina; ativa o receptor de leptina e reduz fome e resistência à insulina em quem tem deficiência.
+77	É convertida em calcitriol, que ativa o receptor de vitamina D e controla a absorção de cálcio e o metabolismo ósseo.
+78	Cofator em enzimas da síntese de DNA e da mielina; trabalha em conjunto com o folato.
+79	Cofator na síntese de colágeno; antioxidante hidrossolúvel que regenera outros antioxidantes.
+80	Cofator em mais de 100 reações do metabolismo de aminoácidos e na síntese de neurotransmissores.
+81	Fornece grupos de um carbono para síntese de DNA e metabolismo da homocisteína.
+82	Cofator da carboxilação de proteínas da coagulação e do osso (osteocalcina).
+83	Forma retinal (visão) e ácido retinoico, que ativa receptores nucleares e regula o crescimento celular.
+84	Antioxidante lipossolúvel que protege membranas celulares de danos por radicais livres.
+85	Precursora de NAD+ e NADP+, coenzimas centrais do metabolismo de energia.
+86	Coenzima de reações de oxirredução e substrato de sirtuínas e PARPs; os níveis caem com a idade em modelos animais.
+87	É convertido em NAD+ nas células; estudado para metabolismo e envelhecimento.
+88	É convertido em NAD+; estudado em envelhecimento, músculo, coração e doenças neurodegenerativas.
+89	Transporta certos ácidos graxos para a mitocôndria para produção de energia; levocarnitina repõe carnitina em deficiências específicas.
+90	Forma acetilada da carnitina, envolvida no metabolismo energético e estudada em função nervosa.
+91	Cofator de enzimas mitocondriais do metabolismo energético e composto redox; estudado sobretudo em neuropatia diabética.
+92	Fornece cisteína para síntese de glutationa e pode fluidificar muco em formulações farmacêuticas.
+93	Componente da cadeia de transporte de elétrons mitocondrial e antioxidante lipossolúvel presente nas células.
+94	Creatina e fosfocreatina ajudam a regenerar ATP, fonte de energia celular, sobretudo em músculo e cérebro.
+95	Composto abundante em tecidos, envolvido em equilíbrio osmótico, sais biliares e sinalização celular.
+96	Aminoácido usado na síntese de proteínas, glutationa e creatina; também é neurotransmissor e coagonista de NMDA.
+97	EPA e DHA integram membranas e são precursores de mediadores lipídicos.
+98	Fonte de colina e citidina, envolvida na síntese de fosfolipídios e no metabolismo da acetilcolina.
+99	Composto alimentar contendo enxofre, transportado para tecidos e estudado por propriedades redox.
+100	Polifenol vegetal estudado por efeitos sobre sinalização metabólica e inflamação; achados mecanísticos não comprovam benefício.
+101	Polifenol relacionado ao resveratrol, estudado em modelos pré-clínicos por efeitos antioxidantes e metabólicos.
+102	Metabólito produzido por algumas microbiotas a partir de elagitaninos; investigado por relação com mitocôndrias e mitofagia.
+103	Poliamina celular e alimentar, ligada ao crescimento celular e investigada em estudos de autofagia.
+104	Composto redox estudado em células e animais; alegações de biogênese mitocondrial não equivalem a efeito clínico comprovado.
+105	Flavonoide alimentar investigado em laboratório por efeitos antioxidantes e senolíticos; efeito em humanos não está estabelecido.
+106	Flavonoide alimentar com atividade antioxidante em modelos experimentais; efeitos celulares não garantem benefício clínico.
+107	Pequena molécula experimental que ativa receptores ERR; resultados metabólicos em animais não comprovam que substitua exercício.
+108	Molécula experimental que inibe NNMT em estudos pré-clínicos; os achados não estabelecem benefício ou segurança em pessoas.
+109	Cofator de centenas de enzimas, participa da função neuromuscular, produção de energia e estrutura óssea.
+110	Cofator enzimático e componente de proteínas que participam da imunidade, síntese de DNA e cicatrização.
+111	Compõe selenoproteínas, incluindo enzimas antioxidantes e proteínas envolvidas no metabolismo dos hormônios tireoidianos.
+112	Parte da hemoglobina e de enzimas; permite transportar oxigênio e sustenta a produção de energia.
+113	Forma coenzimas necessárias ao metabolismo de carboidratos e ao funcionamento dos nervos e do coração.
+114	Precursor das coenzimas FMN e FAD, que participam de reações de energia e oxidação-redução.
+115	Cofator de enzimas que participam do metabolismo de gorduras, carboidratos e aminoácidos.
+116	Peptídeo mimético de incretina que ativa o receptor de GLP-1 e aumenta a insulina de modo dependente da glicose.

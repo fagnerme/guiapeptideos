@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de conversão de doses — Guia Educativo de Peptídeos, Hormônios e Suplementos</title>
+<meta name="description" content="Calculadora de reconstituição: converta a dose prescrita em volume e unidades da seringa de insulina U-100.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b7fa5">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+<!--seo-->
+<meta name="site-root" content="https://SEU-DOMINIO.com">
+<link rel="canonical" href="https://SEU-DOMINIO.com/calculadora.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Guia Educativo de Peptídeos, Hormônios e Suplementos">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Calculadora de conversão de doses — Guia Educativo de Peptídeos, Hormônios e Suplementos">
+<meta property="og:description" content="Calculadora de reconstituição: converta a dose prescrita em volume e unidades da seringa de insulina U-100.">
+<meta property="og:url" content="https://SEU-DOMINIO.com/calculadora.html">
+<meta property="og:image" content="https://SEU-DOMINIO.com/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<!--/seo-->
+</head>
+<body>
+<header id="topo"></header>
+<main>
+  <h2>Calculadora de reconstituição e dose</h2>
+  <p class="sub-calc">Converta a dose em mg no volume e nas unidades da seringa de insulina U-100.</p>
+  <div class="aviso">⚠️ Esta ferramenta só faz <b>conta</b> e não sugere doses: use apenas a dose da <b>sua prescrição ou da bula</b>. Canetas pré-preenchidas (Ozempic, Mounjaro, Wegovy) seguem as instruções da caneta, sem seringa. Confirme com seu médico ou farmacêutico.</div>
+  <details class="boas como-usar-box" open><summary><b>📖 Como usar esta calculadora (4 passos)</b></summary>
+    <ol class="passos"><li>Informe o frasco: tipo (pó ou solução pronta) e quantidade total (ver rótulo).</li><li>Informe o diluente (mL) e escolha a seringa e a via de aplicação.</li><li>Digite a dose da sua prescrição: o resultado aparece no painel ao lado, em mL e em unidades.</li><li>Para guardar, use “Salvar configuração atual” no fim da página: vai para Meus protocolos.</li></ol></details>
+  <section class="boas como-usar-box"><h3>🧠 Como o cálculo funciona</h3>
+    <ol><li><b>Concentração</b> = massa do frasco ÷ volume de diluente.</li><li><b>Volume</b> = dose ÷ concentração.</li><li><b>Unidades</b> = volume em mL × 100 (na seringa U-100, 1 mL = 100 unidades).</li></ol>
+    <p id="exemplo-calc"></p>
+    <p><small>Produtos manipulados ou comprados sem registro podem ter teor diferente do rótulo; veja <a href="seguranca.html">Segurança e legalidade</a>.</small></p></section>
+  <p id="calc-ctx" class="calc-ctx" hidden></p>
+  <div class="calc-layout">
+    <div class="calc-form">
+      <section class="calc-card"><h3><span class="passo">1</span> Tipo e conteúdo do frasco</h3>
+        <div class="seg" id="ch-tipo" role="group" aria-label="Tipo de frasco"></div>
+        <div class="seg" id="ch-unid" role="group" aria-label="Unidade"></div>
+        <p class="calc-dica" id="dica-frasco">Quantidade total do frasco</p>
+        <div class="chips" id="ch-frasco" role="group" aria-label="Conteúdo do frasco"></div></section>
+      <section class="calc-card" id="card-dil"><h3><span class="passo">2</span> Volume de diluente</h3><p class="calc-dica">Água bacteriostática / NaCl</p>
+        <div class="chips" id="ch-diluente" role="group" aria-label="Volume de diluente"></div></section>
+      <section class="calc-card"><h3><span class="passo">3</span> Seringa e via de aplicação</h3>
+        <div class="vias-op" id="ch-via" role="group" aria-label="Via de aplicação"></div>
+        <p class="calc-dica" id="dica-via"></p>
+        <div class="seringas" id="ch-seringa" role="group" aria-label="Seringa"></div></section>
+      <section class="calc-card"><h3><span class="passo">4</span> Dose desejada</h3><p class="calc-dica">Quantidade por aplicação (a da sua prescrição)</p>
+        <div class="chips chips-dose" id="ch-dose" role="group" aria-label="Dose desejada"></div>
+        <p class="calc-dica calc-dica2">Aplicações por semana (opcional, para estimar quanto dura o frasco)</p>
+        <div class="chips" id="ch-freq" role="group" aria-label="Aplicações por semana"></div></section>
+    </div>
+    <aside class="calc-res" aria-live="polite">
+      <p class="rotulo">RESULTADO</p>
+      <div id="seringa-svg"></div>
+      <p class="rotulo">Volume estimado:</p>
+      <div class="destaque" id="destaque">—</div>
+      <div id="avisos-calc"></div>
+      <div class="mini-grid"><div><span class="rotulo">Concentração</span><b id="r-conc">—</b></div><div><span class="rotulo">Doses no frasco</span><b id="r-doses">—</b></div><div><span class="rotulo">Duração estimada</span><b id="r-dur">—</b></div></div>
+      <table class="tab-res" id="tab-doses"><thead><tr><th>Dose</th><th>Volume</th><th id="th-un">Unidades</th></tr></thead><tbody></tbody></table>
+      <div class="calc-acoes nao-imprimir"><button type="button" class="btn btn-prim" id="copiar">📋 Copiar resultado</button> <button type="button" class="btn" id="whats">WhatsApp</button> <button type="button" class="btn" id="link">🔗 Copiar link</button> <button type="button" class="btn" id="pdf">🖨️ PDF / imprimir</button> <button type="button" class="btn btn-sec" id="resetar">↺ Recomeçar</button></div>
+    </aside>
+  </div>
+  <section class="boas nao-imprimir" id="prot"><h3>Salvar em “Meus protocolos”</h3>
+    <p><small>Escolha a substância e salve: o cálculo vai junto para a sua lista pessoal, onde você acompanha o que está usando. Fica guardado só neste aparelho.</small></p>
+    <div class="prot-form"><input type="text" id="prot-nome" maxlength="120" placeholder="Substância (ex.: Semaglutida)" aria-label="Substância do protocolo" autocomplete="off"> <button type="button" class="btn btn-prim" id="prot-salvar">💾 Salvar configuração atual</button></div>
+    <p id="prot-ok" hidden>✅ Salvo. <a href="meus-protocolos.html">Ver em Meus protocolos</a></p>
+    <ul class="prot-lista" id="prot-lista"></ul>
+    <p><a href="meus-protocolos.html">📒 Abrir Meus protocolos</a></p></section>
+  <section class="boas nao-imprimir" id="conv"><h3>Conversor entre UI e mg</h3>
+    <p>Alguns produtos (hCG, hormônio do crescimento, insulina, vitaminas) trazem a dose em <b>UI</b> (unidades internacionais) e outros em <b>mg</b>. Esta ferramenta converte de um para o outro, usando a <b>potência</b> do produto.</p>
+    <ol class="passos conv-passos">
+      <li><b>O que você tem?</b> <span class="seg" role="group" aria-label="Direção da conversão"><button type="button" class="seg-op" id="conv-d-ui" aria-pressed="true">Tenho UI → quero mg</button><button type="button" class="seg-op" id="conv-d-mg" aria-pressed="false">Tenho mg → quero UI</button></span></li>
+      <li><b>Qual a potência?</b> Escolha uma referência ou digite a que está no seu rótulo (UI por mg).
+        <div class="conv-form"><label>Referência <select id="conv-ref"></select></label>
+        <label>Potência (UI por mg) <input type="number" id="conv-pot" min="0" step="any" inputmode="decimal" placeholder="Ex.: 3"></label></div>
+        <p id="conv-ref-nota" class="conv-nota"></p></li>
+      <li><b id="conv-q">Quantas UI?</b> <div class="conv-form"><label><span id="conv-lab">Valor em UI</span> <input type="number" id="conv-val" min="0" step="any" inputmode="decimal"></label></div></li>
+    </ol>
+    <div id="conv-saida" class="conv-saida" aria-live="polite" hidden><span class="conv-big" id="conv-big"></span><span id="conv-conta" class="conv-conta"></span></div>
+    <p id="conv-vazio" class="conv-nota">Preencha os passos acima para ver o resultado.</p>
+    <p class="conv-nota">⚠️ A potência muda conforme o produto e o fabricante: o rótulo ou a bula sempre prevalecem sobre as referências da lista. Para vitaminas, 1 UI não equivale ao mesmo número de mg em todas as formas.</p></section>
+  <div class="ad-slot" data-slot="meio"></div>
+</main>
+<footer id="rodape"></footer>
+<script defer src="data.js"></script>
+<script defer src="data-extra.js"></script>
+<script defer src="aprovacoes.js"></script>
+<script defer src="revisao-pendente.js"></script><script defer src="core.js"></script>
+<script>/*i18n-lazy*/if((localStorage.getItem("lang")||"pt")!=="pt")document.write('<script src="i18n-conteudo.js"><\/script><script src="i18n-detalhes.js"><\/script><script src="i18n-paginas.js"><\/script>')</script>
+<script defer src="i18n.js"></script>
+<script defer src="calculadora.js"></script>
+<script defer src="ads.js"></script>
+</body>
+</html>
