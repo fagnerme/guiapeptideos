@@ -27,9 +27,9 @@
 <header id="topo"></header>
 <main>
   <h2>Meus protocolos</h2>
-  <p>Organize seus protocolos, marque cada aplicação e acompanhe medidas ao longo do tempo. Os dados ficam <b>só neste aparelho</b> (nada é enviado). Este guia <b>não sugere doses</b>: registre apenas o que foi orientado por profissional de saúde.</p>
+  <p>Organize seus protocolos, marque cada aplicação e acompanhe o calendário e o estoque. Os dados ficam <b>só neste aparelho</b> (nada é enviado). Este guia <b>não sugere doses</b>: registre apenas o que foi orientado por profissional de saúde.</p>
   <details class="boas nao-imprimir como-usar-box" open><summary><b>📖 Como usar (3 passos)</b></summary>
-    <ol class="passos"><li>Cadastre o protocolo e a programação conforme a orientação recebida.</li><li>Use o calendário para registrar ou corrigir cada aplicação.</li><li>Acompanhe o resumo semanal, a evolução mensal e suas medidas; exporte uma cópia de segurança.</li></ol></details>
+    <ol class="passos"><li>Cadastre o protocolo e a programação conforme a orientação recebida.</li><li>Use o calendário para registrar ou corrigir cada aplicação.</li><li>Acompanhe o resumo semanal e a evolução mensal; exporte uma cópia de segurança.</li></ol></details>
   <div class="calc-acoes nao-imprimir"><button type="button" class="btn btn-prim" id="novo">➕ Novo protocolo</button> <a class="btn" href="calculadora.html">🧮 Calculadora</a> <a class="btn" href="consulta.html">🩺 Levar ao médico</a></div>
   <p id="msg-prot" role="status" aria-live="polite" hidden></p>
   <section class="boas nao-imprimir" id="secao-form" hidden>
@@ -171,7 +171,7 @@
   <section id="alertas-prot" class="prot-alertas-painel" aria-live="polite"></section>
   <div id="painel-acompanhamento" class="prot-painel-grid">
     <section id="acomp-semanal" class="boas" aria-live="polite" hidden></section>
-    <section id="secao-evolucao" class="boas">
+    <section id="secao-evolucao" class="boas" hidden>
       <h3>Acompanhamento de resultados</h3>
       <p>Registre medidas e observações ao longo do tempo e compare as datas com as aplicações registradas. O gráfico mostra associação temporal, não comprova que um ativo causou uma mudança. A dose exibida é a salva no registro; em marcações antigas sem dose individual salva, a dose cadastrada no protocolo aparece identificada como referência.</p>
       <form id="form-evolucao" class="prot-formulario">
@@ -209,7 +209,7 @@
         <div class="calc-acoes"><button type="submit" class="btn btn-prim">Salvar medição</button></div>
       </form>
     </section>
-    <section id="secao-grafico" class="boas prot-grafico-painel">
+    <section id="secao-grafico" class="boas prot-grafico-painel" hidden>
       <h3>Evolução e histórico de medições</h3>
       <div class="prot-evolucao-grafico">
         <label>Indicador no gráfico <select id="ev-grafico-indicador"></select></label>
@@ -262,10 +262,10 @@
       <button type="button" class="btn" id="imprimir">🖨️ Imprimir / PDF</button>
     </div>
     <h4>Excluir dados salvos neste aparelho</h4>
-    <p><small>Você pode apagar protocolos e medições separadamente. A exclusão de protocolos também remove as aplicações registradas neles. Antes de qualquer exclusão, será necessário baixar uma cópia completa.</small></p>
+    <p><small>Você pode apagar protocolos ou tudo. A exclusão de protocolos também remove as aplicações registradas neles. Antes de qualquer exclusão, será necessário baixar uma cópia completa.</small></p>
     <div class="calc-acoes">
       <button type="button" class="btn btn-perigo" id="apagar-protocolos">Apagar protocolos</button>
-      <button type="button" class="btn btn-perigo" id="apagar-medidas">Apagar medições</button>
+      <button type="button" class="btn btn-perigo" id="apagar-medidas" hidden style="display:none">Apagar medições</button>
       <button type="button" class="btn btn-perigo" id="apagar-tudo">Apagar tudo</button>
     </div>
     <p id="msg-imp" role="status" aria-live="polite"></p>
