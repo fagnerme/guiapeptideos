@@ -137,6 +137,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/cisteina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/citicolina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/clomifeno.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/clorofila.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/cn-105.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/cobitolimod.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/cobre.html</loc></url>
@@ -282,6 +283,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/g-3215.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/gaba.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/galanina.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/gamacaroteno.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/ganipatide.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/ganirrelix.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/gastrin.html</loc></url>
@@ -569,6 +571,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/seglitide.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/selank.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/selcopintide.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/selenometionina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/selepressin.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/selenio.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/semaglutida.html</loc></url>
@@ -614,6 +617,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/surotomycin.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/survodutida.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/syn-ake-dipeptideo-diaminobutiroil-benzilamida-diacetato.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/sodio.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/taldefgrobep.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/taltirelin.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/tamoxifeno.html</loc></url>
@@ -711,6 +715,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/zinco.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/zoptarelin-doxorubicin.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-alfa-lipoico.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-estearico.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-hialuronico.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-linoleico.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-lipoico.html</loc></url>
@@ -2395,6 +2400,11 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/hesperidina-vs-l-carnitina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/crisina-vs-l-carnitina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/flavan-3-ol-vs-l-carnitina.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/clorofila-vs-l-carnitina.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/l-carnitina-vs-sodio.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acido-estearico-vs-l-carnitina.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/gamacaroteno-vs-l-carnitina.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/l-carnitina-vs-selenometionina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acetil-l-carnitina-vs-n-acetilcisteina-nac.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acetil-l-carnitina-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acido-alfa-lipoico-vs-n-acetilcisteina-nac.html</loc></url>
@@ -2443,6 +2453,11 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/hesperidina-vs-n-acetilcisteina-nac.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/crisina-vs-n-acetilcisteina-nac.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/flavan-3-ol-vs-n-acetilcisteina-nac.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/clorofila-vs-n-acetilcisteina-nac.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/n-acetilcisteina-nac-vs-sodio.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acido-estearico-vs-n-acetilcisteina-nac.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/gamacaroteno-vs-n-acetilcisteina-nac.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/n-acetilcisteina-nac-vs-selenometionina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/coenzima-q10-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/creatina-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/omega-3-epa-dha-vs-taurina.html</loc></url>
@@ -2486,6 +2501,11 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/hesperidina-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/crisina-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/flavan-3-ol-vs-omega-3-epa-dha.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/clorofila-vs-omega-3-epa-dha.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/omega-3-epa-dha-vs-sodio.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acido-estearico-vs-omega-3-epa-dha.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/gamacaroteno-vs-omega-3-epa-dha.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/omega-3-epa-dha-vs-selenometionina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/dermorfina-vs-difelikefalina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/dermorfina-vs-ziconotida.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/difelikefalina-vs-ziconotida.html</loc></url>

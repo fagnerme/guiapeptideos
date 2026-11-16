@@ -755,3 +755,13 @@ Object.assign(EXTRA, {
 });
 
 var DSLD_DADOS = (typeof DSLD_DADOS !== "undefined" ? DSLD_DADOS : []).concat(["alfa-caroteno", "omega-9", "acido-oleico", "acido-malico", "acido-lactico", "carotenoide", "benfotiamina", "crocetina", "flavonoide", "molibdenio", "diosmina", "inositol", "acido-lipoico", "acido-linoleico", "cisteina", "hesperidina", "crisina", "flavan-3-ol"]);
+
+Object.assign(EXTRA, {
+  "Clorofila": ["Clorofila é o nome de um grupo de pigmentos verdes que permite que plantas, algas e cianobactérias aproveitem a energia da luz na fotossíntese. Nas plantas e nas algas, ela se concentra nos cloroplastos e dá a folhas e outros tecidos grande parte de sua cor verde.", "Esta ficha é automática e não traz texto editorial sobre benefícios; consulte os estudos e as revisões nas fontes."],
+  "Sódio": ["O sódio é um elemento químico de símbolo Na, de número atômico 11, massa atômica 23 u. É um metal alcalino, sólido na temperatura ambiente, macio, untuoso, de coloração branca, ligeiramente prateada. Foi isolado em 1807 por Sir Humphry Davy por meio da eletrólise da soda cáustica fundida. O sódio metálico emprega-se em síntese orgânica como agente redutor. É também componente do cloreto de sódio (NaCl) necessário para a vida. É um elemento químico essencial.", "Esta ficha é automática e não traz texto editorial sobre benefícios; consulte os estudos e as revisões nas fontes."],
+  "Ácido esteárico": ["O ácido esteárico é o ácido graxo saturado com 18 carbonos, presente em óleos e gorduras animais e vegetais, de fórmula química CH3(CH2)16COOH.\nÀ temperatura ambiente ele é sólido, se parecendo com uma cera microgranulada.", "Esta ficha é automática e não traz texto editorial sobre benefícios; consulte os estudos e as revisões nas fontes."],
+  "Gamacaroteno": ["Gamacaroteno é um carotenoide e um vitâmero da vitamina A em animais herbívoros e omnívoros, formado a partir da ciclização de licopeno.", "Esta ficha é automática e não traz texto editorial sobre benefícios; consulte os estudos e as revisões nas fontes."],
+  "Selenometionina": ["A L-selenometionina é uma entidade química única que contém selénio molecularmente integrado em vez de enxofre na molécula de metionina, um aminoácido essencial. Por esta razão, constitui um modo de suplementação em selénio especialmente seguro pois, contrariamente a outras formas, não liberta selénio inorgânico no organismo.", "Esta ficha é automática e não traz texto editorial sobre benefícios; consulte os estudos e as revisões nas fontes."],
+});
+
+var DSLD_DADOS = (typeof DSLD_DADOS !== "undefined" ? DSLD_DADOS : []).concat(["clorofila", "sodio", "acido-estearico", "gamacaroteno", "selenometionina"]);

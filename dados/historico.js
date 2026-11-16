@@ -2,6 +2,13 @@
 const HISTORICO_AUTO = [
  {
   "data": "2026-11-16",
+  "slug": "bivalirudina",
+  "nome": "Bivalirudina",
+  "tipo": "seguranca",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-16",
   "slug": "ocitocina",
   "nome": "Ocitocina",
   "tipo": "conteudo",
@@ -2092,12 +2099,5 @@ const HISTORICO_AUTO = [
   "nome": "Colágeno hidrolisado",
   "tipo": "estudos",
   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 55; fase 1/2/3 0/0/0 → 2/0/0; recrutando 0 → 7; registro mais recente 2026-11-12."
- },
- {
-  "data": "2026-11-16",
-  "slug": "colageno-hidrolisado",
-  "nome": "Colágeno hidrolisado",
-  "tipo": "conteudo",
-  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
  }
 ];

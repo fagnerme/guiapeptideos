@@ -4561,5 +4561,12 @@ const REVISAO_PENDENTE = {
    "tipo": "fase",
    "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
   }
+ ],
+ "bivalirudina": [
+  {
+   "data": "2026-11-16",
+   "tipo": "seguranca",
+   "texto": "Registro de aprovação no Drugs@FDA mudou."
+  }
  ]
 };
