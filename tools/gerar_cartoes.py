@@ -12,7 +12,7 @@ def slug(nome):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 def lj(f):
-    return (raiz / f).read_text(encoding="utf-8-sig")
+    return (raiz / "dados" / f).read_text(encoding="utf-8-sig")
 
 dados = lj("data.js")
 itens = []

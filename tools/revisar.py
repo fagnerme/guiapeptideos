@@ -9,14 +9,14 @@ from datetime import date
 raiz = pathlib.Path(__file__).resolve().parent.parent
 
 def ler(nome, var):
-    arq = raiz / nome
+    arq = raiz / "dados" / nome
     if not arq.exists():
         return {}
     m = re.search(r"=\s*(\{.*\});", arq.read_text(encoding="utf-8"), re.S)
     return json.loads(m.group(1)) if m else {}
 
 def gravar(nome, var, comentario, dados):
-    (raiz / nome).write_text(f"/* {comentario} */\nconst {var} = " + json.dumps(dados, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
+    (raiz / "dados" / nome).write_text(f"/* {comentario} */\nconst {var} = " + json.dumps(dados, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
 
 def main():
     a = sys.argv[1:]

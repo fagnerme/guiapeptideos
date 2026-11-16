@@ -22,12 +22,16 @@ def js(x):
     return json.dumps(x, ensure_ascii=False)
 
 
+def _caminho(nome):
+    return RAIZ / ("js" if nome == "core.js" else "dados") / nome
+
+
 def ler(nome):
-    return (RAIZ / nome).read_bytes().decode("utf-8").replace("\r\n", "\n")
+    return _caminho(nome).read_bytes().decode("utf-8").replace("\r\n", "\n")
 
 
 def gravar(nome, txt):
-    (RAIZ / nome).write_bytes(txt.encode("utf-8"))
+    _caminho(nome).write_bytes(txt.encode("utf-8"))
 
 
 def main():

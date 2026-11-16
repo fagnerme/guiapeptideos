@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Atualizações automáticas — Guia Educativo de Peptídeos, Hormônios e Suplementos</title>
-<meta name="description" content="Sinais detectados nas fontes oficiais (bulas, revisões, ensaios, aprovações) que pedem revisão do texto das fichas.">
+<meta name="description" content="Histórico semanal de mudanças em registros regulatórios, estudos e sinais de segurança nas fontes públicas consultadas.">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0b7fa5">
 <link rel="icon" href="icons/icon-192.png">
@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="Guia Educativo de Peptídeos, Hormônios e Suplementos">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Atualizações automáticas — Guia Educativo de Peptídeos, Hormônios e Suplementos">
-<meta property="og:description" content="Sinais detectados nas fontes oficiais (bulas, revisões, ensaios, aprovações) que pedem revisão do texto das fichas.">
+<meta property="og:description" content="Histórico semanal de mudanças em registros regulatórios, estudos e sinais de segurança nas fontes públicas consultadas.">
 <meta property="og:url" content="https://fagnerme.github.io/guiapeptideos/revisao.html">
 <meta property="og:image" content="https://fagnerme.github.io/guiapeptideos/icons/icon-512.png">
 <meta name="twitter:card" content="summary">
@@ -27,21 +27,25 @@
 <header id="topo"></header>
 <main>
   <h2>Atualizações automáticas</h2>
-  <p>O guia consulta fontes oficiais toda semana. Quando algo muda (bula atualizada, novo alerta, nova revisão sistemática, nova fase), a ficha é <b>reescrita automaticamente</b>: fase e situação de aprovação são atualizadas e o aviso aparece na própria ficha. Esta página lista tudo o que foi atualizado.</p>
+  <p>O guia consulta semanalmente FDA, EMA, Anvisa, Health Canada e ClinicalTrials.gov. Status regulatórios, registros encontrados e contagens de estudos são atualizados automaticamente nas fichas, inclusive quando não há registro localizado nas bases consultadas. Isso não prova ausência de aprovação em outros países ou indicações. Resumos editoriais de mecanismo, benefícios e riscos não são inferidos de contagens: sinais novos ficam registrados aqui para revisão, com data e fonte.</p>
   <p id="resumo-revisao" class="contagem" aria-live="polite"></p>
+  <section class="boas">
+    <h3>Execuções da coleta</h3>
+    <p id="status-coleta" aria-live="polite"></p>
+    <ol id="log-coletas"></ol>
+  </section>
   <div id="lista-revisao"></div>
   <div class="ad-slot" data-slot="meio"></div>
 </main>
 <footer id="rodape"></footer>
-<script defer src="data.js"></script>
-<script defer src="data-extra.js"></script>
-<script defer src="revisoes.js"></script>
-<script defer src="revisao-pendente.js"></script>
-<script defer src="aprovacoes.js"></script>
-<script defer src="core.js"></script>
-<script>/*i18n-lazy*/if((localStorage.getItem("lang")||"pt")!=="pt")document.write('<script src="i18n-conteudo.js"><\/script><script src="i18n-detalhes.js"><\/script><script src="i18n-paginas.js"><\/script>')</script>
-<script defer src="i18n.js"></script>
-<script defer src="revisao.js"></script>
-<script defer src="ads.js"></script>
+<script defer src="dados/data.js"></script>
+<script defer src="dados/data-extra.js"></script>
+<script defer src="dados/revisoes.js"></script>
+<script defer src="dados/revisao-pendente.js"></script>
+<script defer src="dados/aprovacoes.js"></script>
+<script defer src="js/core.js"></script>
+<script defer src="js/i18n.js"></script>
+<script defer src="js/revisao.js"></script>
+<script defer src="js/ads.js"></script>
 </body>
 </html>

@@ -115,7 +115,7 @@ def preencher(termos):
 
 def catalogo():
     cat = faltam_chembl.chaves_catalogo()
-    txt = (RAIZ / "data.js").read_bytes().decode("utf-8") + "".join(f.read_bytes().decode("utf-8", "ignore") for f in NOVOS.glob("novos_*.py"))
+    txt = (RAIZ / "dados" / "data.js").read_bytes().decode("utf-8") + "".join(f.read_bytes().decode("utf-8", "ignore") for f in NOVOS.glob("novos_*.py"))
     for m in re.findall(r'P\("([^"]+)"|"nome":\s*"([^"]+)"', txt):
         n = re.sub(r"\s*\(.*?\)", "", m[0] or m[1])
         cat.add(faltam_chembl.stem(n))
@@ -288,7 +288,7 @@ def importar(fichas, sem, simular):
     bk = TOOLS / "_bk_dsld"
     bk.mkdir(exist_ok=True)
     for n in atualizar_chembl.ARQ:
-        shutil.copy2(RAIZ / n, bk / n)
+        shutil.copy2(RAIZ / n, bk / Path(n).name)
     marc = NOVOS / "_mesclados.json"
     marc_bk = marc.read_bytes() if marc.exists() else None
     r = subprocess.run([sys.executable, str(TOOLS / "mesclar_novos.py")], capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -299,7 +299,7 @@ def importar(fichas, sem, simular):
     if r.returncode != 0 or depois != antes + n:
         print("FALHA na validacao (%s -> %s, esperado +%d). Desfazendo." % (antes, depois, n))
         for f in atualizar_chembl.ARQ:
-            shutil.copy2(bk / f, RAIZ / f)
+            shutil.copy2(bk / Path(f).name, RAIZ / f)
         if marc_bk is not None:
             marc.write_bytes(marc_bk)
         elif marc.exists():

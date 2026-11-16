@@ -12,8 +12,8 @@ NOVOS = TOOLS / "novos"
 sys.path.insert(0, str(TOOLS))
 import faltam_chembl, auto_fichas, gerar_fichas  # noqa
 
-ARQ = ["data.js", "data-extra.js", "data-detalhes.js", "data-vias.js", "data-farmaco.js", "data-timeline.js",
-       "data-mecanismos.js", "data-alvos.js", "core.js"]
+ARQ = ["dados/data.js", "dados/data-extra.js", "dados/data-detalhes.js", "dados/data-vias.js", "dados/data-farmaco.js", "dados/data-timeline.js",
+       "dados/data-mecanismos.js", "dados/data-alvos.js", "js/core.js"]
 EXCL = re.compile(r"insulin|albumin|heparin|aprotinin|immunoglobulin|antithrombin|(cept|leukin|poetin|toxin|toxine|toxina|plasmin|plase|stim|mab|kinra|ase|cog)$|botulinum|interferon|feron", re.I)
 
 
@@ -48,7 +48,7 @@ def main():
     bk = TOOLS / "_bk_chembl"
     bk.mkdir(exist_ok=True)
     for n in ARQ:
-        shutil.copy2(RAIZ / n, bk / n)
+        shutil.copy2(RAIZ / n, bk / Path(n).name)
     marc = NOVOS / "_mesclados.json"
     marc_bk = marc.read_bytes() if marc.exists() else None
     r = subprocess.run([sys.executable, str(TOOLS / "mesclar_novos.py")], capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -59,7 +59,7 @@ def main():
     if r.returncode != 0 or depois != antes + n:
         print("FALHA na validacao (%s -> %s, esperado +%d). Desfazendo." % (antes, depois, n))
         for f in ARQ:
-            shutil.copy2(bk / f, RAIZ / f)
+            shutil.copy2(bk / Path(f).name, RAIZ / f)
         if marc_bk is not None:
             marc.write_bytes(marc_bk)
         elif marc.exists():

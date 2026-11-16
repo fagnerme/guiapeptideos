@@ -2,8 +2,15 @@ name: Atualizar dados ao vivo
 
 on:
   schedule:
-    - cron: "0 6 * * 1"   # toda segunda-feira, 06:00 UTC
+    - cron: "17 7 * * 1"   # toda segunda-feira, 07:17 UTC
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/atualizar.yml"
+      - "tools/atualizar.py"
+      - "tools/atualizar_chembl.py"
+      - "tools/atualizar_dsld.py"
 
 permissions:
   contents: write
@@ -16,7 +23,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Coletar dados (ClinicalTrials.gov, PubMed, openFDA)
+      - name: Coletar fontes oficiais (Anvisa, FDA, EMA, Health Canada, ClinicalTrials.gov e PubMed)
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          OPENFDA_API_KEY: ${{ secrets.OPENFDA_API_KEY }}
         run: python tools/atualizar.py
       - name: Instalar navegador (valida o catalogo nas importacoes) e Pillow
         run: |
@@ -29,12 +39,13 @@ jobs:
         run: python tools/atualizar_dsld.py --importar --min 300 --limite 10
       - name: Gerar cartões, sitemap e service worker
         run: |
-          python tools/gerar_cartoes.py "${{ vars.SITE_URL || 'https://SEU-DOMINIO.com' }}"
-          python tools/build.py "${{ vars.SITE_URL || 'https://SEU-DOMINIO.com' }}"
+          python tools/gerar_cartoes.py "${{ vars.SITE_URL || 'https://fagnerme.github.io/guiapeptideos' }}"
+          python tools/build.py "${{ vars.SITE_URL || 'https://fagnerme.github.io/guiapeptideos' }}"
       - name: Commit se houver mudanças
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data*.js core.js tools/novos tools/relatorio_dsld.md live-data.json aprovacoes.js historico.js sitemap.xml robots.txt sw.js cards tools/_pep.json "*.html"
+          git add dados js/core.js tools/novos tools/relatorio_dsld.md sitemap.xml robots.txt sw.js cards tools/_pep.json "*.html" fichas comparar
           git diff --staged --quiet || git commit -m "chore: atualiza dados ao vivo"
           git push

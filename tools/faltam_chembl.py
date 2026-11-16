@@ -40,9 +40,9 @@ def base(nome):
 def chaves_catalogo():
     ch = set()
     txt = ""
-    for f in RAIZ.glob("*.js"):
-        if f.name.startswith(("data", "core")):
-            txt += f.read_bytes().decode("utf-8", "ignore")
+    for f in (RAIZ / "dados").glob("data*.js"):
+        txt += f.read_bytes().decode("utf-8", "ignore")
+    txt += (RAIZ / "js" / "core.js").read_bytes().decode("utf-8", "ignore")
     for f in (Path(__file__).resolve().parent / "novos").glob("novos_*.py"):
         txt += f.read_bytes().decode("utf-8", "ignore")
     for m in re.findall(r'P\("([^"]+)"', txt):

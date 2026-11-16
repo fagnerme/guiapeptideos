@@ -10,12 +10,12 @@ def slug(nome):
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
-texto = (raiz / "data.js").read_text(encoding="utf-8")
+texto = (raiz / "dados" / "data.js").read_text(encoding="utf-8")
 nomes = re.findall(r'^\s*nome: "([^"]+)"', texto, re.M) + re.findall(r'^P\("([^"]+)"', texto, re.M)
 
 import gerar_fichas
 fichas, comps = gerar_fichas.gerar(site)
-paginas = ["index.html", "privacidade.html"] + [f"ficha-{s}.html" for s in fichas] + comps
+paginas = ["index.html", "privacidade.html"] + [f"fichas/{s}.html" for s in fichas] + comps
 for extra in ["comparar.html", "aprender.html", "quiz.html", "linha-do-tempo.html", "novidades.html", "sobre.html",
               "buscar.html", "grafo.html", "mecanismos.html", "alegacoes.html", "seguranca.html", "estatisticas.html",
               "alertas.html", "mudancas.html", "revisao.html", "glossario.html", "consulta.html", "calculadora.html", "meus-protocolos.html", "como-usar.html", "quiz-familias.html",
@@ -23,7 +23,7 @@ for extra in ["comparar.html", "aprender.html", "quiz.html", "linha-do-tempo.htm
     if (raiz / extra).exists():
         paginas.append(extra)
 
-paginas += [f"alvo.html?a={k}" for k in re.findall(r'^  "([a-z0-9-]+)": \{ nome', (raiz / "data-alvos.js").read_text(encoding="utf-8"), re.M)]
+paginas += [f"alvo.html?a={k}" for k in re.findall(r'^  "([a-z0-9-]+)": \{ nome', (raiz / "dados" / "data-alvos.js").read_text(encoding="utf-8"), re.M)]
 
 urls = "\n".join(f"  <url><loc>{site}/{p.replace('&', '&amp;')}</loc></url>" for p in paginas)
 (raiz / "sitemap.xml").write_text(
@@ -73,31 +73,31 @@ for f in sorted(raiz.glob("*.html")):
 print("SEO injetado em", len(list(raiz.glob("*.html"))), "paginas")
 
 # Desempenho: scripts com defer (nao bloqueiam a renderizacao) e traducoes (~800 KB) so baixadas quando o idioma nao e portugues.
-LOADER = '<script>/*i18n-lazy*/if((localStorage.getItem("lang")||"pt")!=="pt")document.write(\'<script src="i18n-conteudo.js"><\\/script><script src="i18n-detalhes.js"><\\/script><script src="i18n-paginas.js"><\\/script>\')</script>'
-for f in sorted(raiz.glob("*.html")):
+LOADER = '<script>/*i18n-lazy*/if((localStorage.getItem("lang")||"pt")!=="pt")document.write(\'<script src="dados/i18n-conteudo.js"><\\/script><script src="dados/i18n-detalhes.js"><\\/script><script src="dados/i18n-paginas.js"><\\/script>\')</script>'
+# js/ = codigo das paginas; dados/ = catalogo e arquivos gerados pelas coletas.
+LOCAL = {f.name: f"{pasta}/{f.name}" for pasta in ("js", "dados") for f in (raiz / pasta).glob("*.js")}
+PAGINAS_HTML = sorted(raiz.glob("*.html")) + sorted((raiz / "fichas").glob("*.html")) + sorted((raiz / "comparar").glob("*.html"))
+for f in PAGINAS_HTML:
     t = f.read_text(encoding="utf-8")
     t0 = t
     t = re.sub(r'<script>/\*i18n-lazy\*/.*?</script>\n?', "", t, flags=re.S) if "i18n-lazy" in t else t
     achou = []
     def sub(m):
-        nome = m.group(1)
+        nome = m.group(1).rsplit("/", 1)[-1]
         if nome in ("i18n-conteudo.js", "i18n-detalhes.js", "i18n-paginas.js"):
-            if not achou:
-                achou.append(1)
-                return LOADER
             return ""
-        return f'<script defer src="{nome}"></script>'
+        return f'<script defer src="{LOCAL.get(nome, m.group(1))}"></script>'
     t = re.sub(r'<script(?: defer)? src="([^"]+)"></script>', sub, t)
     if t != t0:
         f.write_text(t, encoding="utf-8")
-print("defer e i18n sob demanda aplicados")
+print("defer e caminhos js/dados aplicados")
 
 
 # Regenera a lista de arquivos do service worker (offline) e muda a versao para renovar o cache.
 import time
-arqs = ["index.html", "style.css", "manifest.webmanifest", "data.js", "data-extra.js",
-        "data-mecanismos.js", "revisoes.js", "aprovacoes.js", "core.js", "i18n.js",
-        "app.js", "ads.js", "icons/icon-192.png"]
+arqs = ["index.html", "style.css", "manifest.webmanifest", "dados/data.js", "dados/data-extra.js",
+        "dados/data-mecanismos.js", "dados/revisoes.js", "dados/aprovacoes.js", "js/core.js", "js/i18n.js",
+        "js/app.js", "js/ads.js", "icons/icon-192.png"]
 sw = (raiz / "sw.js").read_text(encoding="utf-8-sig")
 sw = re.sub(r'const VERSAO = "[^"]*";', f'const VERSAO = "guia-{time.strftime("%Y%m%d%H%M")}";', sw)
 sw = re.sub(r'const BASE = \[.*?\];', lambda m: "const BASE = " + __import__("json").dumps(arqs) + ";", sw, flags=re.S)

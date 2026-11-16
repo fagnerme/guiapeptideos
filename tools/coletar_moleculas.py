@@ -110,7 +110,7 @@ def aplicar_manuais(d):
 
 def main():
     so = sys.argv[sys.argv.index("--so") + 1:] if "--so" in sys.argv else None
-    arq = raiz / "moleculas.js"
+    arq = raiz / "dados" / "moleculas.js"
     atual = {}
     if arq.exists():
         t = arq.read_text(encoding="utf-8-sig")

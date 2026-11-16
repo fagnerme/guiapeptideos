@@ -29,8 +29,9 @@ HEAD = """<!DOCTYPE html>
 
 
 def scripts(extra, js):
-    base = ["data.js", "data-extra.js"] + extra + ["aprovacoes.js", "core.js", "i18n.js", "i18n-conteudo.js", "i18n-paginas.js", js, "ads.js"]
-    return "\n".join(f'<script src="{s}"></script>' for s in base)
+    base = ["data.js", "data-extra.js"] + extra + ["aprovacoes.js", "core.js", "i18n.js", js, "ads.js"]
+    local = {f.name: f"{p}/{f.name}" for p in ("js", "dados") for f in (raiz / p).glob("*.js")}
+    return "\n".join(f'<script src="{local.get(s, s)}"></script>' for s in base)
 
 
 PAGINAS = {
@@ -122,9 +123,9 @@ PAGINAS = {
   <div class="filtros" id="filtro-tipo" role="group" aria-label="Filtrar por tipo"></div>
   <ul id="lista-mudancas" class="mudancas"></ul>
   <div class="ad-slot" data-slot="meio"></div>""", ["data-mudancas.js", "historico.js"], "mudancas.js"),
-    "revisao": ("Atualizações automáticas", "Sinais detectados nas fontes oficiais (bulas, revisões, ensaios, aprovações) que pedem revisão do texto das fichas.",
+    "revisao": ("Atualizações automáticas", "Histórico semanal de mudanças em registros regulatórios, estudos e sinais de segurança nas fontes públicas consultadas.",
         """  <h2>Atualizações automáticas</h2>
-  <p>O guia consulta fontes oficiais toda semana. Quando algo muda (bula atualizada, novo alerta, nova revisão sistemática, nova fase), a ficha entra aqui para o texto ser revisado por uma pessoa. Os textos de mecanismo, benefícios e riscos <b>não são reescritos automaticamente</b>.</p>
+  <p>O guia consulta semanalmente FDA, EMA, Anvisa, Health Canada e ClinicalTrials.gov. Status regulatórios, registros encontrados e contagens de estudos são atualizados automaticamente nas fichas, inclusive quando não há registro localizado nas bases consultadas. Isso não prova ausência de aprovação em outros países ou indicações. Resumos editoriais de mecanismo, benefícios e riscos não são inferidos de contagens: sinais novos ficam registrados aqui para revisão, com data e fonte.</p>
   <p id="resumo-revisao" class="contagem" aria-live="polite"></p>
   <div id="lista-revisao"></div>
   <div class="ad-slot" data-slot="meio"></div>""", ["revisoes.js", "revisao-pendente.js"], "revisao.js"),
