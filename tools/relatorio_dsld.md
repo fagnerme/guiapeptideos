@@ -23,7 +23,6 @@ Gerado em 2026-11-16. Ativos de rótulos de suplementos no mercado dos EUA que a
 | Vitamin B2 | Vitamina | 10388 |
 | Isoleucyl-Prolyl-Proline | Suplemento e metabólito | 10107 |
 | Valyl-Prolyl-Proline | Suplemento e metabólito | 10107 |
-| Panthenol | Suplemento e metabólito | 9674 |
 | Calcium Ascorbate | Suplemento e metabólito | 8599 |
 | Sulbutiamine | Suplemento e metabólito | 8524 |
 | Macaenes | Suplemento e metabólito | 8204 |
