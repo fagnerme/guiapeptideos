@@ -2,6 +2,20 @@
 const HISTORICO_AUTO = [
  {
   "data": "2026-11-16",
+  "slug": "iodo",
+  "nome": "Iodo",
+  "tipo": "seguranca",
+  "texto": "Situação ou registros na Health Canada mudaram: consulta_parcial → consulta_parcial."
+ },
+ {
+  "data": "2026-11-16",
+  "slug": "cromo",
+  "nome": "Cromo",
+  "tipo": "seguranca",
+  "texto": "Situação ou registros na Health Canada mudaram: consulta_parcial → consulta_parcial."
+ },
+ {
+  "data": "2026-11-16",
   "slug": "terlipressina",
   "nome": "Terlipressina",
   "tipo": "seguranca",
@@ -2085,19 +2099,5 @@ const HISTORICO_AUTO = [
   "nome": "Maca (Lepidium meyenii)",
   "tipo": "seguranca",
   "texto": "Situação na EMA mudou: autorizado → sem registro."
- },
- {
-  "data": "2026-11-16",
-  "slug": "cafeina",
-  "nome": "Cafeína",
-  "tipo": "aprovacao",
-  "texto": "Situação na EMA mudou: sem registro → autorizado."
- },
- {
-  "data": "2026-11-16",
-  "slug": "cafeina",
-  "nome": "Cafeína",
-  "tipo": "aprovacao",
-  "texto": "Situação ou registros na Health Canada mudaram: sem_registro → autorizado."
  }
 ];

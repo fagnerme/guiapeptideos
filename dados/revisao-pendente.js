@@ -3208,6 +3208,11 @@ const REVISAO_PENDENTE = {
  "iodo": [
   {
    "data": "2026-11-16",
+   "tipo": "seguranca",
+   "texto": "Situação ou registros na Health Canada mudaram: consulta_parcial → consulta_parcial."
+  },
+  {
+   "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
   },
@@ -3280,6 +3285,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "cromo": [
+  {
+   "data": "2026-11-16",
+   "tipo": "seguranca",
+   "texto": "Situação ou registros na Health Canada mudaram: consulta_parcial → consulta_parcial."
+  },
   {
    "data": "2026-11-16",
    "tipo": "seguranca",
