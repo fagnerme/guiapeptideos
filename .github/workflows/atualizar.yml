@@ -28,9 +28,9 @@ jobs:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           OPENFDA_API_KEY: ${{ secrets.OPENFDA_API_KEY }}
         run: python tools/atualizar.py
-      - name: Instalar navegador (valida o catalogo nas importacoes) e Pillow
+      - name: Instalar Pillow (o Chrome já vem no runner e valida o catálogo nas importações)
         run: |
-          pip install pillow; sudo apt-get install -y chromium-browser >/dev/null 2>&1 || true
+          pip install pillow; which google-chrome || true
       - name: Importar peptideos novos do ChEMBL (valida e desfaz se algo falhar)
         continue-on-error: true
         run: python tools/atualizar_chembl.py
@@ -46,6 +46,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dados js/core.js tools/novos tools/relatorio_dsld.md sitemap.xml robots.txt sw.js cards tools/_pep.json "*.html" fichas comparar
+          git add dados js/core.js tools/novos tools/relatorio_dsld.md sitemap.xml robots.txt sw.js cards "*.html" fichas comparar
           git diff --staged --quiet || git commit -m "chore: atualiza dados ao vivo"
           git push

@@ -22,7 +22,7 @@ def achar_edge():
               r"C:\Program Files\Google\Chrome\Application\chrome.exe"]:
         if os.path.exists(c):
             return c
-    return shutil.which("msedge") or shutil.which("chromium") or shutil.which("google-chrome")
+    return shutil.which("msedge") or shutil.which("google-chrome") or shutil.which("google-chrome-stable") or shutil.which("chromium") or shutil.which("chromium-browser")
 
 def despejar():
     edge = achar_edge()
@@ -34,9 +34,11 @@ def despejar():
                       '<script>document.getElementById("o").textContent="@@"+JSON.stringify({P:PEPTIDES,M:MECANISMOS,T:TERMO_EN})+"@@"</script></body></html>', encoding="utf-8")
     try:
         with tempfile.TemporaryDirectory() as perfil:
-            r = subprocess.run([edge, "--headless=new", "--disable-gpu", f"--user-data-dir={perfil}", "--virtual-time-budget=8000",
+            r = subprocess.run([edge, "--headless=new", "--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage", f"--user-data-dir={perfil}", "--virtual-time-budget=8000",
                                 "--dump-dom", pagina.as_uri()], capture_output=True, timeout=90)
         saida = r.stdout.decode("utf-8", "replace")
+        if not re.search(r'<pre id="o">@@', saida):
+            print("AVISO: navegador sem saida util:", r.stderr.decode("utf-8", "replace")[-400:])
     finally:
         pagina.unlink(missing_ok=True)
     m = re.search(r'<pre id="o">@@(.*?)@@</pre>', saida, re.S)
