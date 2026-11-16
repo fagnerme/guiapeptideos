@@ -951,3 +951,5 @@ Object.assign(TERMO_EN, {"Penetratin": "penetratin", "Gi Heptapeptide": "gi hept
 Object.assign(TERMO_EN, {"Alfa-Caroteno": "alpha-carotene", "Ômega 9": "omega-9", "Ácido oleico": "oleic acid", "Ácido málico": "malic acid", "Ácido láctico": "lactic acid", "Carotenoide": "carotenoids", "Benfotiamina": "benfotiamine", "Crocetina": "crocetin", "Flavonoide": "flavonoids", "Molibdênio": "molybdenum", "Diosmina": "diosmin", "Inositol": "inositol", "Ácido lipoico": "lipoic acid", "Ácido linoleico": "linoleic acid", "Cisteína": "cysteine", "Hesperidina": "hesperidin", "Crisina": "chrysin", "Flavan-3-ol": "flavanols"});
 
 Object.assign(TERMO_EN, {"Clorofila": "chlorophyll", "Sódio": "sodium", "Ácido esteárico": "stearic acid", "Gamacaroteno": "gamma-carotene", "Selenometionina": "selenomethionine"});
+
+Object.assign(TERMO_EN, {"Pantenol": "panthenol"});

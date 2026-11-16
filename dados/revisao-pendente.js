@@ -1125,6 +1125,11 @@ const REVISAO_PENDENTE = {
  "terlipressina": [
   {
    "data": "2026-11-16",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
   },
@@ -4565,8 +4570,34 @@ const REVISAO_PENDENTE = {
  "bivalirudina": [
   {
    "data": "2026-11-16",
+   "tipo": "aprovacao",
+   "texto": "Registro de aprovação no Drugs@FDA mudou."
+  },
+  {
+   "data": "2026-11-16",
    "tipo": "seguranca",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
+  }
+ ],
+ "cerebrolisina": [
+  {
+   "data": "2026-11-16",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  }
+ ],
+ "sodio": [
+  {
+   "data": "2026-11-16",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "gamacaroteno": [
+  {
+   "data": "2026-11-16",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Pré-clínico (animais)'."
   }
  ]
 };
