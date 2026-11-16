@@ -266,45 +266,19 @@ const APROVACOES_AUTO = {
  },
  "bpc-157": {
   "fda": null,
-<<<<<<< Updated upstream
   "fdaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
   "ema": null,
   "emaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
   "anvisa": {
    "situacao": "sem_registro",
    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
-=======
-<<<<<<< HEAD
-  "fdaVerificadoEm": "2026-11-16T18:34:36.306511+00:00",
-  "ema": null,
-  "emaVerificadoEm": "2026-11-16T18:34:36.306511+00:00",
-  "anvisa": {
-   "situacao": "sem_registro",
-   "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
-=======
-  "fdaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
-  "ema": null,
-  "emaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
-  "anvisa": {
-   "situacao": "sem_registro",
-   "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-<<<<<<< Updated upstream
    "verificadoEm": "2026-11-16T18:14:34.865744+00:00",
-=======
-<<<<<<< HEAD
-   "verificadoEm": "2026-11-16T18:34:36.306511+00:00",
-=======
-   "verificadoEm": "2026-11-16T18:14:34.865744+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -316,11 +290,7 @@ const APROVACOES_AUTO = {
    "fase3": 0,
    "recrutando": 1,
    "ultimaAtualizacao": "2026-09-03",
-   "foco": {
-    "fase1": 1,
-    "fase2": 1,
-    "fase3": 0
-   }
+   "foco": null
   }
  },
  "tb-500-timosina-beta-4": {
@@ -738,15 +708,7 @@ const APROVACOES_AUTO = {
     "Egrifta"
    ]
   },
-<<<<<<< Updated upstream
   "fdaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
-=======
-<<<<<<< HEAD
-  "fdaVerificadoEm": "2026-11-16T18:34:41.323333+00:00",
-=======
-  "fdaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -755,39 +717,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/egrifta"
   },
-<<<<<<< Updated upstream
   "emaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
   "anvisa": {
    "situacao": "sem_registro",
    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
-=======
-<<<<<<< HEAD
-  "emaVerificadoEm": "2026-11-16T18:34:41.323333+00:00",
-  "anvisa": {
-   "situacao": "sem_registro",
-   "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
-=======
-  "emaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
-  "anvisa": {
-   "situacao": "sem_registro",
-   "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-<<<<<<< Updated upstream
    "verificadoEm": "2026-11-16T18:14:54.364672+00:00",
-=======
-<<<<<<< HEAD
-   "verificadoEm": "2026-11-16T18:34:41.322320+00:00",
-=======
-   "verificadoEm": "2026-11-16T18:14:54.364672+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -799,54 +739,24 @@ const APROVACOES_AUTO = {
    "fase3": 2,
    "recrutando": 3,
    "ultimaAtualizacao": "2026-11-12",
-   "foco": {
-    "fase1": 0,
-    "fase2": 5,
-    "fase3": 0
-   }
+   "foco": null
   }
  },
  "retatrutida": {
   "fda": null,
-<<<<<<< Updated upstream
   "fdaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
   "ema": null,
   "emaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
   "anvisa": {
    "situacao": "sem_registro",
    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
-=======
-<<<<<<< HEAD
-  "fdaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
-  "ema": null,
-  "emaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
-  "anvisa": {
-   "situacao": "sem_registro",
-   "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
-=======
-  "fdaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
-  "ema": null,
-  "emaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
-  "anvisa": {
-   "situacao": "sem_registro",
-   "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-<<<<<<< Updated upstream
    "verificadoEm": "2026-11-16T18:14:44.232056+00:00",
-=======
-<<<<<<< HEAD
-   "verificadoEm": "2026-11-16T18:34:44.520353+00:00",
-=======
-   "verificadoEm": "2026-11-16T18:14:44.232056+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -858,54 +768,24 @@ const APROVACOES_AUTO = {
    "fase3": 14,
    "recrutando": 2,
    "ultimaAtualizacao": "2026-11-13",
-   "foco": {
-    "fase1": 3,
-    "fase2": 2,
-    "fase3": 14
-   }
+   "foco": null
   }
  },
  "cagrilintida": {
   "fda": null,
-<<<<<<< Updated upstream
   "fdaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
   "ema": null,
   "emaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
   "anvisa": {
    "situacao": "sem_registro",
    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
-=======
-<<<<<<< HEAD
-  "fdaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
-  "ema": null,
-  "emaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
-  "anvisa": {
-   "situacao": "sem_registro",
-   "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
-=======
-  "fdaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
-  "ema": null,
-  "emaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
-  "anvisa": {
-   "situacao": "sem_registro",
-   "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-<<<<<<< Updated upstream
    "verificadoEm": "2026-11-16T18:14:45.519106+00:00",
-=======
-<<<<<<< HEAD
-   "verificadoEm": "2026-11-16T18:34:43.033763+00:00",
-=======
-   "verificadoEm": "2026-11-16T18:14:45.519106+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -917,11 +797,7 @@ const APROVACOES_AUTO = {
    "fase3": 23,
    "recrutando": 11,
    "ultimaAtualizacao": "2026-11-16",
-   "foco": {
-    "fase1": 17,
-    "fase2": 4,
-    "fase3": 20
-   }
+   "foco": null
   }
  },
  "survodutida": {
@@ -25165,6 +25041,91 @@ const APROVACOES_AUTO = {
    "fase3": 1,
    "recrutando": 4,
    "ultimaAtualizacao": "2026-10-29",
+   "foco": null
+  }
+ },
+ "clorofila": {
+  "fda": null,
+  "fdaVerificadoEm": null,
+  "ema": null,
+  "emaVerificadoEm": null,
+  "anvisa": null,
+  "canada": null,
+  "estudos": {
+   "ensaios": null,
+   "fase1": null,
+   "fase2": null,
+   "fase3": null,
+   "recrutando": null,
+   "ultimaAtualizacao": null,
+   "foco": null
+  }
+ },
+ "sodio": {
+  "fda": null,
+  "fdaVerificadoEm": null,
+  "ema": null,
+  "emaVerificadoEm": null,
+  "anvisa": null,
+  "canada": null,
+  "estudos": {
+   "ensaios": null,
+   "fase1": null,
+   "fase2": null,
+   "fase3": null,
+   "recrutando": null,
+   "ultimaAtualizacao": null,
+   "foco": null
+  }
+ },
+ "acido-estearico": {
+  "fda": null,
+  "fdaVerificadoEm": null,
+  "ema": null,
+  "emaVerificadoEm": null,
+  "anvisa": null,
+  "canada": null,
+  "estudos": {
+   "ensaios": null,
+   "fase1": null,
+   "fase2": null,
+   "fase3": null,
+   "recrutando": null,
+   "ultimaAtualizacao": null,
+   "foco": null
+  }
+ },
+ "gamacaroteno": {
+  "fda": null,
+  "fdaVerificadoEm": null,
+  "ema": null,
+  "emaVerificadoEm": null,
+  "anvisa": null,
+  "canada": null,
+  "estudos": {
+   "ensaios": null,
+   "fase1": null,
+   "fase2": null,
+   "fase3": null,
+   "recrutando": null,
+   "ultimaAtualizacao": null,
+   "foco": null
+  }
+ },
+ "selenometionina": {
+  "fda": null,
+  "fdaVerificadoEm": null,
+  "ema": null,
+  "emaVerificadoEm": null,
+  "anvisa": null,
+  "canada": null,
+  "estudos": {
+   "ensaios": null,
+   "fase1": null,
+   "fase2": null,
+   "fase3": null,
+   "recrutando": null,
+   "ultimaAtualizacao": null,
    "foco": null
   }
  }

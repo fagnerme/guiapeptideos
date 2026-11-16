@@ -1,54 +1,11 @@
 {
-<<<<<<< Updated upstream
  "geradoEm": "2026-11-16T18:35:05.449619+00:00",
  "execucao": {
-=======
-<<<<<<< HEAD
- "geradoEm": "2026-11-16T18:34:44.660468+00:00",
- "execucao": {
-  "iniciadaEm": "2026-11-16T18:33:44.410889+00:00",
-  "concluidaEm": "2026-11-16T18:34:44.660468+00:00",
-  "status": "concluida",
-  "escopo": "parcial",
-  "itensProcessados": 4,
-=======
- "geradoEm": "2026-11-16T18:35:05.449619+00:00",
- "execucao": {
->>>>>>> Stashed changes
-  "iniciadaEm": "2026-11-16T18:13:12.038453+00:00",
-  "concluidaEm": "2026-11-16T18:35:05.449619+00:00",
-  "status": "concluida_com_falhas",
-  "escopo": "catalogo",
-  "itensProcessados": 718,
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
   "itensNoCatalogo": 718,
   "consultasSemResposta": 0
  },
  "execucoes": [
   {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-   "iniciadaEm": "2026-11-16T18:33:44.410889+00:00",
-   "concluidaEm": "2026-11-16T18:34:44.660468+00:00",
-   "status": "concluida",
-   "escopo": "parcial",
-   "itensProcessados": 4,
-   "itensNoCatalogo": 718,
-   "consultasSemResposta": 0
-=======
->>>>>>> Stashed changes
-   "iniciadaEm": "2026-11-16T18:13:12.038453+00:00",
-   "concluidaEm": "2026-11-16T18:35:05.449619+00:00",
-   "status": "concluida_com_falhas",
-   "escopo": "catalogo",
-   "itensProcessados": 718,
-   "itensNoCatalogo": 718,
-   "consultasSemResposta": 19
-<<<<<<< Updated upstream
-=======
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
   },
   {
    "iniciadaEm": "2026-11-16T16:58:06.910680+00:00",
@@ -619,60 +576,23 @@
    },
    "fdaOk": true,
    "emaVerificado": true,
-<<<<<<< Updated upstream
    "quando": 1794852883754,
    "canada": {
     "situacao": "sem_registro",
     "verificadoEm": "2026-11-16T18:14:34.865744+00:00",
-=======
-<<<<<<< HEAD
-   "quando": 1794854076306,
-   "canada": {
-    "situacao": "sem_registro",
-    "verificadoEm": "2026-11-16T18:34:36.306511+00:00",
-=======
-   "quando": 1794852883754,
-   "canada": {
-    "situacao": "sem_registro",
-    "verificadoEm": "2026-11-16T18:14:34.865744+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
     "parcial": false,
     "registros": [],
     "totalCorrespondenciasExatas": 0
    },
    "anvisa": {
     "situacao": "sem_registro",
-<<<<<<< Updated upstream
     "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
-=======
-<<<<<<< HEAD
-    "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
-=======
-    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
     "registrosAtivos": 0,
     "registros": [],
     "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
    },
-<<<<<<< Updated upstream
    "fdaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
    "emaVerificadoEm": "2026-11-16T18:14:43.754833+00:00"
-=======
-<<<<<<< HEAD
-   "fdaVerificadoEm": "2026-11-16T18:34:36.306511+00:00",
-   "emaVerificadoEm": "2026-11-16T18:34:36.306511+00:00",
-   "estudosFoco": {
-    "fase1": 1,
-    "fase2": 1,
-    "fase3": 0
-   }
-=======
-   "fdaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
-   "emaVerificadoEm": "2026-11-16T18:14:43.754833+00:00"
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
   },
   "tb-500-timosina-beta-4": {
    "ensaios": 18,
@@ -1256,60 +1176,23 @@
    },
    "fdaOk": true,
    "emaVerificado": true,
-<<<<<<< Updated upstream
    "quando": 1794852894364,
    "canada": {
     "situacao": "sem_registro",
     "verificadoEm": "2026-11-16T18:14:54.364672+00:00",
-=======
-<<<<<<< HEAD
-   "quando": 1794854081323,
-   "canada": {
-    "situacao": "sem_registro",
-    "verificadoEm": "2026-11-16T18:34:41.322320+00:00",
-=======
-   "quando": 1794852894364,
-   "canada": {
-    "situacao": "sem_registro",
-    "verificadoEm": "2026-11-16T18:14:54.364672+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
     "parcial": false,
     "registros": [],
     "totalCorrespondenciasExatas": 0
    },
    "anvisa": {
     "situacao": "sem_registro",
-<<<<<<< Updated upstream
     "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
-=======
-<<<<<<< HEAD
-    "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
-=======
-    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
     "registrosAtivos": 0,
     "registros": [],
     "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
    },
-<<<<<<< Updated upstream
    "fdaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
    "emaVerificadoEm": "2026-11-16T18:14:54.364868+00:00"
-=======
-<<<<<<< HEAD
-   "fdaVerificadoEm": "2026-11-16T18:34:41.323333+00:00",
-   "emaVerificadoEm": "2026-11-16T18:34:41.323333+00:00",
-   "estudosFoco": {
-    "fase1": 0,
-    "fase2": 5,
-    "fase3": 0
-   }
-=======
-   "fdaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
-   "emaVerificadoEm": "2026-11-16T18:14:54.364868+00:00"
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
   },
   "retatrutida": {
    "ensaios": 33,
@@ -1338,60 +1221,23 @@
    },
    "fdaOk": true,
    "emaVerificado": true,
-<<<<<<< Updated upstream
    "quando": 1794852894365,
    "canada": {
     "situacao": "sem_registro",
     "verificadoEm": "2026-11-16T18:14:44.232056+00:00",
-=======
-<<<<<<< HEAD
-   "quando": 1794854084521,
-   "canada": {
-    "situacao": "sem_registro",
-    "verificadoEm": "2026-11-16T18:34:44.520353+00:00",
-=======
-   "quando": 1794852894365,
-   "canada": {
-    "situacao": "sem_registro",
-    "verificadoEm": "2026-11-16T18:14:44.232056+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
     "parcial": false,
     "registros": [],
     "totalCorrespondenciasExatas": 0
    },
    "anvisa": {
     "situacao": "sem_registro",
-<<<<<<< Updated upstream
     "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
-=======
-<<<<<<< HEAD
-    "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
-=======
-    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
     "registrosAtivos": 0,
     "registros": [],
     "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
    },
-<<<<<<< Updated upstream
    "fdaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
    "emaVerificadoEm": "2026-11-16T18:14:54.364996+00:00"
-=======
-<<<<<<< HEAD
-   "fdaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
-   "emaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
-   "estudosFoco": {
-    "fase1": 3,
-    "fase2": 2,
-    "fase3": 14
-   }
-=======
-   "fdaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
-   "emaVerificadoEm": "2026-11-16T18:14:54.364996+00:00"
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
   },
   "cagrilintida": {
    "ensaios": 45,
@@ -1412,60 +1258,23 @@
    },
    "fdaOk": true,
    "emaVerificado": true,
-<<<<<<< Updated upstream
    "quando": 1794852894365,
    "canada": {
     "situacao": "sem_registro",
     "verificadoEm": "2026-11-16T18:14:45.519106+00:00",
-=======
-<<<<<<< HEAD
-   "quando": 1794854084522,
-   "canada": {
-    "situacao": "sem_registro",
-    "verificadoEm": "2026-11-16T18:34:43.033763+00:00",
-=======
-   "quando": 1794852894365,
-   "canada": {
-    "situacao": "sem_registro",
-    "verificadoEm": "2026-11-16T18:14:45.519106+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
     "parcial": false,
     "registros": [],
     "totalCorrespondenciasExatas": 0
    },
    "anvisa": {
     "situacao": "sem_registro",
-<<<<<<< Updated upstream
     "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
-=======
-<<<<<<< HEAD
-    "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
-=======
-    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
     "registrosAtivos": 0,
     "registros": [],
     "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
    },
-<<<<<<< Updated upstream
    "fdaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
    "emaVerificadoEm": "2026-11-16T18:14:54.365071+00:00"
-=======
-<<<<<<< HEAD
-   "fdaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
-   "emaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
-   "estudosFoco": {
-    "fase1": 17,
-    "fase2": 4,
-    "fase3": 20
-   }
-=======
-   "fdaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
-   "emaVerificadoEm": "2026-11-16T18:14:54.365071+00:00"
->>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
->>>>>>> Stashed changes
   },
   "survodutida": {
    "ensaios": 30,
