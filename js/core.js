@@ -8,6 +8,28 @@ const porSlug = s => PEPTIDES.find(p => slug(p.nome) === s);
 const faseClasse = f => "fase-" + semAcento(f.toLowerCase()).replace(/[^a-z0-9]+/g, "");
 const urlPeptideo = nome => "peptideo.html?p=" + slug(nome);
 
+/* Marcos com a data real do fato (aprovação, início de estudo), vindos das fontes oficiais coletadas, não a data da coleta. */
+function marcosOficiais(nome) {
+  const a = (typeof APROVACOES_AUTO !== "undefined" && APROVACOES_AUTO[slug(nome)]) || {};
+  const out = [], marcas = m => (m && m.marcas && m.marcas.length ? ` (${m.marcas.join(", ")})` : "");
+  if (a.fda && a.fda.desde) out.push({ data: a.fda.desde, atualizado: a.fdaVerificadoEm, txt: `Aprovação original na FDA${marcas(a.fda)}.`, fonte: "FDA" });
+  if (a.ema && a.ema.desde) out.push({ data: a.ema.desde, atualizado: a.emaVerificadoEm, txt: `Autorização de comercialização na EMA${marcas(a.ema)}.`, fonte: "EMA" });
+  const ca = ((a.canada && a.canada.registros) || []).filter(r => /approved|marketed/i.test(r.situacao) && r.data).map(r => r.data).sort()[0];
+  if (ca) out.push({ data: ca, atualizado: a.canada.verificadoEm, txt: "Primeiro registro aprovado no Health Canada.", fonte: "Health Canada" });
+  const foco = (a.estudos && a.estudos.foco) || {};
+  [1, 2, 3].forEach(n => { if (foco["inicio" + n]) out.push({ data: foco["inicio" + n], atualizado: a.fdaVerificadoEm || a.emaVerificadoEm, txt: `Início do estudo de fase ${n} mais antigo registrado com o ativo (desde 2015).`, fonte: "ClinicalTrials.gov" }); });
+  return out;
+}
+const dataMarco = d => d.split("-").reverse().join("/");
+const dataAtualizacao = d => d ? ` · ${tr("atualizado automaticamente em")} ${new Date(d).toLocaleDateString(LOCALE)}` : "";
+/* Sinal da fila de revisão: data do fato (quando a fonte informa) e data da detecção automática. */
+const datasSinal = x => `${x.fato ? `${tr("data do fato")}: ${dataMarco(x.fato)} · ` : ""}${tr("atualizado automaticamente em")} ${dataMarco(x.data)}`;
+/* Data do fato (aprovação) e data da atualização automática (consulta) são mostradas separadas. */
+function datasFonte(x) {
+  const partes = [x.desde && `${tr("aprovado em")} ${dataMarco(x.desde)}`, x.data && `${tr("atualizado automaticamente em")} ${new Date(x.data).toLocaleDateString(LOCALE)}`].filter(Boolean);
+  return partes.length ? ` (${esc(partes.join(" · "))})` : "";
+}
+
 function links(nome) {
   const termo = encodeURIComponent(nome.replace(/\s*\(.*\)/, ""));
   return `<a href="https://pubmed.ncbi.nlm.nih.gov/?term=${termo}" target="_blank" rel="noopener">PubMed</a> · ` +
@@ -79,7 +101,7 @@ if (typeof REVISAO_PENDENTE !== "undefined") {
     (REVISAO_PENDENTE[slug(p.nome)] || []).forEach(x => {
       const c = CAMPO[x.tipo];
       if (!c || typeof p[c] !== "string") return;
-      p[c] = `${p[c].replace(/\.?\s*$/, ".")} [Atualização automática ${x.data}: ${notaAuto(x.texto).replace(/\.$/, "")}.]`;
+      p[c] = `${p[c].replace(/\.?\s*$/, ".")} [Atualização automática ${dataMarco(x.data)}${x.fato ? `; data do fato ${dataMarco(x.fato)}` : ""}: ${notaAuto(x.texto).replace(/\.$/, "")}.]`;
     });
   });
 }
@@ -101,10 +123,10 @@ function fontesRegulatorias(p) {
   const anvisa = a.anvisa?.situacao || (a.anvisa?.verificadoEm ? "sem_registro" : "nao_verificado");
   const canada = a.canada?.situacao || (a.canada?.verificadoEm ? "sem_registro" : "nao_verificado");
   return [
-    { orgao: "FDA (EUA)", situacao: fda, data: a.fdaVerificadoEm, detalhe: a.fda?.marcas?.join(", "), url: "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process&searchterm=" + encodeURIComponent(termoEn(p.nome)) },
-    { orgao: "EMA (União Europeia)", situacao: ema, data: a.emaVerificadoEm, detalhe: a.ema?.marcas?.join(", "), url: a.ema?.url || "https://www.ema.europa.eu/en/medicines" },
+    { orgao: "FDA (EUA)", situacao: fda, data: a.fdaVerificadoEm, desde: a.fda?.desde, detalhe: a.fda?.marcas?.join(", "), url: "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=BasicSearch.process&searchterm=" + encodeURIComponent(termoEn(p.nome)) },
+    { orgao: "EMA (União Europeia)", situacao: ema, data: a.emaVerificadoEm, desde: a.ema?.desde, detalhe: a.ema?.marcas?.join(", "), url: a.ema?.url || "https://www.ema.europa.eu/en/medicines" },
     { orgao: "Anvisa (Brasil)", situacao: anvisa, data: a.anvisa?.verificadoEm, detalhe: (a.anvisa?.registros || []).map(x => `${x.nome}${x.registro ? ` · registro ${x.registro}` : ""}`).join("; "), url: "https://consultas.anvisa.gov.br/#/medicamentos/" },
-    { orgao: "Health Canada", situacao: canada, data: a.canada?.verificadoEm, detalhe: `${(a.canada?.registros || []).map(x => `${x.produto || x.din}${x.situacao ? ` · ${x.situacao}` : ""}`).join("; ")}${a.canada?.parcial ? ` (${tr("verificação parcial")})` : ""}`, url: "https://health-products.canada.ca/dpd-bdpp/index-eng.jsp" },
+    { orgao: "Health Canada", situacao: canada, data: a.canada?.verificadoEm, desde: ((a.canada?.registros || []).filter(r => /approved|marketed/i.test(r.situacao) && r.data).map(r => r.data).sort()[0]), detalhe: `${(a.canada?.registros || []).map(x => `${x.produto || x.din}${x.situacao ? ` · ${x.situacao}` : ""}`).join("; ")}${a.canada?.parcial ? ` (${tr("verificação parcial")})` : ""}`, url: "https://health-products.canada.ca/dpd-bdpp/index-eng.jsp" },
   ];
 }
 function htmlLocais(p, completo) {
@@ -123,7 +145,7 @@ function htmlLocais(p, completo) {
     nao_verificado: tr("Ainda não verificado"),
   };
   if (!completo) {
-    const chips = aprovados.map(x => `<span class="local" title="${esc(x.orgao)}">✅ ${esc(x.orgao)}</span>`);
+    const chips = aprovados.map(x => `<span class="local" title="${esc(x.orgao)}${x.desde ? ` · ${tr("aprovado em")} ${esc(dataMarco(x.desde))}` : ""}">✅ ${esc(x.orgao)}${x.desde ? ` ${esc(x.desde.slice(0, 4))}` : ""}</span>`);
     if (!chips.length) {
       const estado = semAprovacao ? tr("Sem aprovação ativa confirmada nas fontes consultadas")
         : parcial ? tr("Consulta parcial; não conclusiva")
@@ -133,7 +155,7 @@ function htmlLocais(p, completo) {
     if (temEstudos) chips.push(`<span class="local">${tr("Em estudo")}: ${num(estudos.ensaios)}</span>`);
     return `<span class="locais">${chips.join(" ")}</span>`;
   }
-  const lista = fontes.map(x => `<li><b>${esc(x.orgao)}:</b> ${esc(rotulo[x.situacao] || tr("Consulta parcial; não conclusiva"))}${x.data ? ` (${esc(new Date(x.data).toLocaleDateString(LOCALE))})` : ""}${x.detalhe ? ` — ${esc(x.detalhe)}` : ""} · <a href="${esc(x.url)}" target="_blank" rel="noopener">${tr("fonte oficial")}</a></li>`).join("");
+  const lista = fontes.map(x => `<li><b>${esc(x.orgao)}:</b> ${esc(rotulo[x.situacao] || tr("Consulta parcial; não conclusiva"))}${datasFonte(x)}${x.detalhe ? ` — ${esc(x.detalhe)}` : ""} · <a href="${esc(x.url)}" target="_blank" rel="noopener">${tr("fonte oficial")}</a></li>`).join("");
   const estudosHtml = temEstudos
     ? `<p>${tr("ClinicalTrials.gov")}: ${num(estudos.ensaios)} ${tr("estudos registrados")}; ${tr("fases 1/2/3")}: ${num(estudos.fase1)}/${num(estudos.fase2)}/${num(estudos.fase3)}; ${num(estudos.recrutando)} ${tr("recrutando")}. <a href="https://clinicaltrials.gov/search?term=${encodeURIComponent(termoEn(p.nome))}" target="_blank" rel="noopener">${tr("consultar estudos")}</a></p>`
     : "";

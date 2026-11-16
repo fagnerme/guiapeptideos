@@ -1,4 +1,8 @@
 /* Conexões desta ficha com o resto do site. */
+function marcosDoItem(p) {
+  const auto = marcosOficiais(p.nome).sort((a, b) => a.data.localeCompare(b.data)).map(m => [dataMarco(m.data), `${m.txt} (${m.fonte}${dataAtualizacao(m.atualizado)})`]);
+  return (TIMELINE[p.nome] || []).concat(auto);
+}
 function htmlDetalhes(p) {
   const d = DETALHES[slug(p.nome)];
   if (!d) return "";
@@ -26,7 +30,7 @@ function htmlRevisaoHumana(p) {
   const linha = rev
     ? `<small class="revisao">✔️ Revisado por ${esc(rev.por)} em ${dataBR(rev.data)}</small>`
     : "";
-  const aviso = pend.length ? `<section class="boas aviso-det"><h2>Atualizado automaticamente: sinais nas fontes</h2><ul>${pend.slice(0, 4).map(x => `<li>${esc(x.data)} — ${esc(typeof notaAuto === "function" ? notaAuto(x.texto) : x.texto)}</li>`).join("")}</ul><p><small>O status regulatório, os dados de estudos e os sinais documentados de segurança são atualizados em cada coleta, com data e fonte. Textos editoriais não são inferidos de contagens. Confira nas fontes oficiais.</small></p></section>` : "";
+  const aviso = pend.length ? `<section class="boas aviso-det"><h2>Atualizado automaticamente: sinais nas fontes</h2><ul>${pend.slice(0, 4).map(x => `<li>${esc(datasSinal(x))} — ${esc(typeof notaAuto === "function" ? notaAuto(x.texto) : x.texto)}</li>`).join("")}</ul><p><small>O status regulatório, os dados de estudos e os sinais documentados de segurança são atualizados em cada coleta, com data e fonte. Textos editoriais não são inferidos de contagens. Confira nas fontes oficiais.</small></p></section>` : "";
   const auto = typeof AUTO_DADOS !== "undefined" && AUTO_DADOS.includes(s)
     ? `<section class="boas aviso-det"><h2>Dados do ChEMBL</h2><p>Fase, mecanismo e indicações desta ficha vêm do ChEMBL, base de dados pública do EMBL-EBI. Confira a bula e os órgãos reguladores antes de qualquer decisão.</p></section>` : "";
   const dsld = typeof DSLD_DADOS !== "undefined" && DSLD_DADOS.includes(s)
@@ -142,7 +146,7 @@ if (!p) {
       <div id="riscos-auto"></div>
       ${secao("Protocolo / contexto de uso", p.protocolo, "tecnico")}
       <section class="boas"><h2>Perguntas frequentes</h2>${faq.map(([q, a]) => `<details class="faq"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>
-      <section class="boas"><h2>Linha do tempo</h2>${htmlEtapas(p)}${(TIMELINE[p.nome] || []).length ? `<ul class="marcos">${TIMELINE[p.nome].map(([a, t]) => `<li><b>${a}</b> — ${esc(t)}</li>`).join("")}</ul>` : "<p><small>Sem marcos históricos cadastrados para este item.</small></p>"}</section>
+      <section class="boas"><h2>Linha do tempo</h2>${htmlEtapas(p)}${marcosDoItem(p).length ? `<ul class="marcos">${marcosDoItem(p).map(([a, t]) => `<li><b>${a}</b> — ${esc(t)}</li>`).join("")}</ul>` : "<p><small>Sem marcos históricos cadastrados para este item.</small></p>"}</section>
       <section class="boas"><h2>Fontes</h2><p>${p.fontes.map(linkFonte).join("; ")}</p><p><b>Buscar:</b> ${links(p.nome)}</p></section>
       ${htmlOficiais(p)}
       ${htmlCitar(p)}

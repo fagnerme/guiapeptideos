@@ -6,7 +6,7 @@ const TIPOS_REVISAO = { aprovacao: "✅ Aprovação", seguranca: "⚠️ Seguran
 document.getElementById("resumo-revisao").innerHTML =
   `<b>${revisados}</b> ${tr("de")} <b>${total}</b> ${tr("fichas têm revisão por profissional de saúde registrada.")} <b>${pend.length}</b> ${tr("fichas têm sinais automáticos pendentes de revisão.")}`;
 document.getElementById("lista-revisao").innerHTML = pend.length
-  ? pend.map(([s, l]) => `<section class="boas"><h3><a href="fichas/${esc(s)}.html">${esc(porSlug(s).nome)}</a></h3><ul>${l.map(x => `<li><b>${esc(TIPOS_REVISAO[x.tipo] || x.tipo)}</b> · ${esc(x.data)} — ${esc(notaAuto(x.texto))}</li>`).join("")}</ul></section>`).join("")
+  ? pend.map(([s, l]) => `<section class="boas"><h3><a href="fichas/${esc(s)}.html">${esc(porSlug(s).nome)}</a></h3><ul>${l.map(x => `<li><b>${esc(TIPOS_REVISAO[x.tipo] || x.tipo)}</b> · ${esc(datasSinal(x))} — ${esc(notaAuto(x.texto))}</li>`).join("")}</ul></section>`).join("")
   : "<p>Nenhum sinal pendente no momento.</p>";
 
 snapshot().then(snap => {

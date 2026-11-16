@@ -231,7 +231,7 @@ def ct_foco(termo, fase):
     """Estudos em que o ativo e a intervencao (nome da intervencao, nao comparador citado), iniciados desde 2015 e ativos ou concluidos."""
     adv = f'AREA[Phase]{fase} AND AREA[InterventionName]"{termo}" AND AREA[StartDate]RANGE[2015-01-01,MAX]'
     status = "RECRUITING|ACTIVE_NOT_RECRUITING|ENROLLING_BY_INVITATION|NOT_YET_RECRUITING|COMPLETED"
-    return get("https://clinicaltrials.gov/api/v2/studies?pageSize=1&countTotal=true&filter.overallStatus="
+    return get("https://clinicaltrials.gov/api/v2/studies?pageSize=1&countTotal=true&sort=StartDate%3Aasc&fields=StartDate&filter.overallStatus="
                + urllib.parse.quote(status) + "&filter.advanced=" + urllib.parse.quote(adv))
 
 def pm_raw(consulta, extra=""):
@@ -255,6 +255,9 @@ def coletar(termo):
     for n, ph in ((1, "PHASE1"), (2, "PHASE2"), (3, "PHASE3")):
         d = ct_foco(termo, ph)
         foco[f"fase{n}"] = total(d) if ok(d) else FALHA
+        if ok(d):
+            try: foco[f"inicio{n}"] = d["studies"][0]["protocolSection"]["statusModule"]["startDateStruct"]["date"]
+            except Exception: pass
     r["estudosFoco"] = FALHA if FALHA in foco.values() else foco
     d = ct(termo, "&sort=LastUpdatePostDate%3Adesc&fields=LastUpdatePostDate")
     if ok(d):
@@ -322,7 +325,7 @@ def registrar_falha(exc):
 def eventos(nome, s, ant, novo):
     """Mudanças relevantes entre duas coletas. Só compara campos que a coleta anterior já verificava."""
     hoje = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    ev = lambda tipo, txt: {"data": hoje, "slug": s, "nome": nome, "tipo": tipo, "texto": txt}
+    ev = lambda tipo, txt, fato=None: {"data": hoje, "slug": s, "nome": nome, "tipo": tipo, "texto": txt, **({"fato": fato} if fato else {})}
     out = []
     if not ant: return out
     mudou_fda = ant.get("fdaVerificadoEm") and novo.get("fdaVerificadoEm") != ant.get("fdaVerificadoEm")
@@ -353,13 +356,13 @@ def eventos(nome, s, ant, novo):
         anterior = tuple(ant[k] for k in campos_estudo)
         atual = tuple(novo[k] for k in campos_estudo)
         if anterior != atual or ant.get("ultimaAtualizacao") != novo.get("ultimaAtualizacao"):
-            out.append(ev("estudos", f"Dados do ClinicalTrials.gov mudaram: estudos {ant['ensaios']} → {novo['ensaios']}; fase 1/2/3 {ant['fase1']}/{ant['fase2']}/{ant['fase3']} → {novo['fase1']}/{novo['fase2']}/{novo['fase3']}; recrutando {ant['recrutando']} → {novo['recrutando']}; registro mais recente {novo.get('ultimaAtualizacao') or 'sem data'}."))
+            out.append(ev("estudos", f"Dados do ClinicalTrials.gov mudaram: estudos {ant['ensaios']} → {novo['ensaios']}; fase 1/2/3 {ant['fase1']}/{ant['fase2']}/{ant['fase3']} → {novo['fase1']}/{novo['fase2']}/{novo['fase3']}; recrutando {ant['recrutando']} → {novo['recrutando']}; registro mais recente {novo.get('ultimaAtualizacao') or 'sem data'}.", novo.get("ultimaAtualizacao")))
     fa, fn = fase_foco(ant.get("estudosFoco")), fase_foco(novo.get("estudosFoco"))
     if fn and fn != fa and (fa is not None or ant.get("estudosFoco")):
         out.append(ev("estudos", f"Estudos com o ativo como intervenção (ClinicalTrials.gov) indicam fase mais avançada: {fa or 'nenhuma'} → {fn}. O selo de fase é atualizado automaticamente se o item for medicamento."))
     ab, nb = ant.get("bula"), novo.get("bula")
     if ab and nb and nb.get("atualizada") and nb["atualizada"] != ab.get("atualizada"):
-        out.append(ev("conteudo", f"Bula da FDA atualizada ({ab.get('atualizada') or '?'} → {nb['atualizada']}). Reveja riscos e status."))
+        out.append(ev("conteudo", f"Bula da FDA atualizada ({ab.get('atualizada') or '?'} → {nb['atualizada']}). Reveja riscos e status.", nb["atualizada"]))
     if ab and nb and nb.get("caixaPreta") and not ab.get("caixaPreta"):
         out.append(ev("seguranca", "A bula da FDA passou a ter alerta em caixa preta (boxed warning)."))
     if isinstance(ant.get("revisoesAno"), int) and isinstance(novo.get("revisoesAno"), int) and novo["revisoesAno"] > ant["revisoesAno"]:
@@ -473,7 +476,7 @@ def main():
     fila = {}
     for ev_ in historico:
         if ev_["tipo"] in ("conteudo", "seguranca", "aprovacao", "estudos"):
-            fila.setdefault(ev_["slug"], []).append({"data": ev_["data"], "tipo": ev_["tipo"], "texto": ev_["texto"]})
+            fila.setdefault(ev_["slug"], []).append({"data": ev_["data"], "tipo": ev_["tipo"], "texto": ev_["texto"], **({"fato": ev_["fato"]} if ev_.get("fato") else {})})
     for nome, fase, _ in cat:
         i = novo.get(slug(nome), {})
         for sug in sugestoes:
