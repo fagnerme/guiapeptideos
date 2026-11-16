@@ -4599,5 +4599,12 @@ const REVISAO_PENDENTE = {
    "tipo": "fase",
    "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Pré-clínico (animais)'."
   }
+ ],
+ "pantenol": [
+  {
+   "data": "2026-11-16",
+   "tipo": "fase",
+   "texto": "9 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 1'."
+  }
  ]
 };
