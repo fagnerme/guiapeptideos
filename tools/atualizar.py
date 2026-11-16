@@ -227,6 +227,13 @@ def ct(termo, extra=""):
     q = urllib.parse.quote(termo)
     return get(f"https://clinicaltrials.gov/api/v2/studies?query.intr={q}&pageSize=1&countTotal=true{extra}")
 
+def ct_foco(termo, fase):
+    """Estudos em que o ativo e a intervencao (nome da intervencao, nao comparador citado), iniciados desde 2015 e ativos ou concluidos."""
+    adv = f'AREA[Phase]{fase} AND AREA[InterventionName]"{termo}" AND AREA[StartDate]RANGE[2015-01-01,MAX]'
+    status = "RECRUITING|ACTIVE_NOT_RECRUITING|ENROLLING_BY_INVITATION|NOT_YET_RECRUITING|COMPLETED"
+    return get("https://clinicaltrials.gov/api/v2/studies?pageSize=1&countTotal=true&filter.overallStatus="
+               + urllib.parse.quote(status) + "&filter.advanced=" + urllib.parse.quote(adv))
+
 def pm_raw(consulta, extra=""):
     q = urllib.parse.quote(consulta)
     return get(f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=0&term={q}{extra}")
@@ -244,6 +251,11 @@ def coletar(termo):
     d = ct(termo, "&filter.advanced=AREA%5BPhase%5DPHASE2"); r["fase2"] = total(d) if ok(d) else FALHA
     d = ct(termo, "&filter.advanced=AREA%5BPhase%5DPHASE3"); r["fase3"] = total(d) if ok(d) else FALHA
     d = ct(termo, "&filter.overallStatus=RECRUITING");    r["recrutando"] = total(d) if ok(d) else FALHA
+    foco = {}
+    for n, ph in ((1, "PHASE1"), (2, "PHASE2"), (3, "PHASE3")):
+        d = ct_foco(termo, ph)
+        foco[f"fase{n}"] = total(d) if ok(d) else FALHA
+    r["estudosFoco"] = FALHA if FALHA in foco.values() else foco
     d = ct(termo, "&sort=LastUpdatePostDate%3Adesc&fields=LastUpdatePostDate")
     if ok(d):
         try: r["ultimaAtualizacao"] = d["studies"][0]["protocolSection"]["statusModule"]["lastUpdatePostDateStruct"]["date"]
@@ -342,6 +354,9 @@ def eventos(nome, s, ant, novo):
         atual = tuple(novo[k] for k in campos_estudo)
         if anterior != atual or ant.get("ultimaAtualizacao") != novo.get("ultimaAtualizacao"):
             out.append(ev("estudos", f"Dados do ClinicalTrials.gov mudaram: estudos {ant['ensaios']} → {novo['ensaios']}; fase 1/2/3 {ant['fase1']}/{ant['fase2']}/{ant['fase3']} → {novo['fase1']}/{novo['fase2']}/{novo['fase3']}; recrutando {ant['recrutando']} → {novo['recrutando']}; registro mais recente {novo.get('ultimaAtualizacao') or 'sem data'}."))
+    fa, fn = fase_foco(ant.get("estudosFoco")), fase_foco(novo.get("estudosFoco"))
+    if fn and fn != fa and (fa is not None or ant.get("estudosFoco")):
+        out.append(ev("estudos", f"Estudos com o ativo como intervenção (ClinicalTrials.gov) indicam fase mais avançada: {fa or 'nenhuma'} → {fn}. O selo de fase é atualizado automaticamente se o item for medicamento."))
     ab, nb = ant.get("bula"), novo.get("bula")
     if ab and nb and nb.get("atualizada") and nb["atualizada"] != ab.get("atualizada"):
         out.append(ev("conteudo", f"Bula da FDA atualizada ({ab.get('atualizada') or '?'} → {nb['atualizada']}). Reveja riscos e status."))
@@ -352,6 +367,14 @@ def eventos(nome, s, ant, novo):
     if isinstance(ant.get("segurancaAno"), int) and isinstance(novo.get("segurancaAno"), int) and novo["segurancaAno"] >= ant["segurancaAno"] + 5:
         out.append(ev("seguranca", f"Aumento de publicações sobre segurança/efeitos adversos no PubMed ({ant['segurancaAno']} → {novo['segurancaAno']} no último ano). Reveja riscos."))
     return out
+
+def fase_foco(foco):
+    """Fase mais avancada sustentada por estudos focados no ativo (fase 3 exige 2 estudos)."""
+    if not isinstance(foco, dict): return None
+    if (foco.get("fase3") or 0) >= 2: return "Fase 3"
+    if (foco.get("fase2") or 0) >= 1: return "Fase 2"
+    if (foco.get("fase1") or 0) >= 1: return "Fase 1"
+    return None
 
 def gerar_aprovacoes(cat, itens):
     def data_verificada(valor):
@@ -369,7 +392,7 @@ def gerar_aprovacoes(cat, itens):
             "emaVerificadoEm": data_verificada(i.get("emaVerificadoEm") or (i.get("quando") if i.get("emaVerificado") else None)),
             "anvisa": i.get("anvisa"),
             "canada": i.get("canada"),
-            "estudos": {k: i.get(k) for k in ("ensaios", "fase1", "fase2", "fase3", "recrutando", "ultimaAtualizacao")},
+            "estudos": {**{k: i.get(k) for k in ("ensaios", "fase1", "fase2", "fase3", "recrutando", "ultimaAtualizacao")}, "foco": i.get("estudosFoco")},
         }
     (raiz / "dados" / "aprovacoes.js").write_text(
         "/* Gerado por tools/atualizar.py: status consultados em fontes oficiais. */\n"

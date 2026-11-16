@@ -104,7 +104,8 @@ const APROVACOES_AUTO = {
    "fase2": 155,
    "fase3": 188,
    "recrutando": 182,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "tirzepatida": {
@@ -192,7 +193,8 @@ const APROVACOES_AUTO = {
    "fase2": 80,
    "fase3": 60,
    "recrutando": 105,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "ocitocina": {
@@ -258,24 +260,51 @@ const APROVACOES_AUTO = {
    "fase2": 185,
    "fase3": 73,
    "recrutando": 78,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "bpc-157": {
   "fda": null,
+<<<<<<< Updated upstream
   "fdaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
   "ema": null,
   "emaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
   "anvisa": {
    "situacao": "sem_registro",
    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
+=======
+<<<<<<< HEAD
+  "fdaVerificadoEm": "2026-11-16T18:34:36.306511+00:00",
+  "ema": null,
+  "emaVerificadoEm": "2026-11-16T18:34:36.306511+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
+=======
+  "fdaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
+  "ema": null,
+  "emaVerificadoEm": "2026-11-16T18:14:43.754833+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
+<<<<<<< Updated upstream
    "verificadoEm": "2026-11-16T18:14:34.865744+00:00",
+=======
+<<<<<<< HEAD
+   "verificadoEm": "2026-11-16T18:34:36.306511+00:00",
+=======
+   "verificadoEm": "2026-11-16T18:14:34.865744+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -286,7 +315,12 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-09-03"
+   "ultimaAtualizacao": "2026-09-03",
+   "foco": {
+    "fase1": 1,
+    "fase2": 1,
+    "fase3": 0
+   }
   }
  },
  "tb-500-timosina-beta-4": {
@@ -314,7 +348,8 @@ const APROVACOES_AUTO = {
    "fase2": 12,
    "fase3": 4,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "hormonio-do-crescimento-somatropina": {
@@ -373,7 +408,8 @@ const APROVACOES_AUTO = {
    "fase2": 169,
    "fase3": 184,
    "recrutando": 45,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "ipamorelina-cjc-1295": {
@@ -401,7 +437,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-07-21"
+   "ultimaAtualizacao": "2026-07-21",
+   "foco": null
   }
  },
  "liraglutida": {
@@ -491,7 +528,8 @@ const APROVACOES_AUTO = {
    "fase2": 79,
    "fase3": 113,
    "recrutando": 26,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "insulina": {
@@ -546,7 +584,8 @@ const APROVACOES_AUTO = {
    "fase2": 990,
    "fase3": 935,
    "recrutando": 520,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "teriparatida": {
@@ -630,7 +669,8 @@ const APROVACOES_AUTO = {
    "fase2": 46,
    "fase3": 34,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-10-08"
+   "ultimaAtualizacao": "2026-10-08",
+   "foco": null
   }
  },
  "ghk-cu": {
@@ -658,7 +698,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-22"
+   "ultimaAtualizacao": "2026-10-22",
+   "foco": null
   }
  },
  "melanotan-ii": {
@@ -686,7 +727,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "tesamorelina": {
@@ -696,7 +738,15 @@ const APROVACOES_AUTO = {
     "Egrifta"
    ]
   },
+<<<<<<< Updated upstream
   "fdaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
+=======
+<<<<<<< HEAD
+  "fdaVerificadoEm": "2026-11-16T18:34:41.323333+00:00",
+=======
+  "fdaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -705,17 +755,39 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/egrifta"
   },
+<<<<<<< Updated upstream
   "emaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
   "anvisa": {
    "situacao": "sem_registro",
    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
+=======
+<<<<<<< HEAD
+  "emaVerificadoEm": "2026-11-16T18:34:41.323333+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
+=======
+  "emaVerificadoEm": "2026-11-16T18:14:54.364868+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
+<<<<<<< Updated upstream
    "verificadoEm": "2026-11-16T18:14:54.364672+00:00",
+=======
+<<<<<<< HEAD
+   "verificadoEm": "2026-11-16T18:34:41.322320+00:00",
+=======
+   "verificadoEm": "2026-11-16T18:14:54.364672+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -726,24 +798,55 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 2,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": {
+    "fase1": 0,
+    "fase2": 5,
+    "fase3": 0
+   }
   }
  },
  "retatrutida": {
   "fda": null,
+<<<<<<< Updated upstream
   "fdaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
   "ema": null,
   "emaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
   "anvisa": {
    "situacao": "sem_registro",
    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
+=======
+<<<<<<< HEAD
+  "fdaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
+  "ema": null,
+  "emaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
+=======
+  "fdaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
+  "ema": null,
+  "emaVerificadoEm": "2026-11-16T18:14:54.364996+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
+<<<<<<< Updated upstream
    "verificadoEm": "2026-11-16T18:14:44.232056+00:00",
+=======
+<<<<<<< HEAD
+   "verificadoEm": "2026-11-16T18:34:44.520353+00:00",
+=======
+   "verificadoEm": "2026-11-16T18:14:44.232056+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -754,24 +857,55 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 14,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": {
+    "fase1": 3,
+    "fase2": 2,
+    "fase3": 14
+   }
   }
  },
  "cagrilintida": {
   "fda": null,
+<<<<<<< Updated upstream
   "fdaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
   "ema": null,
   "emaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
   "anvisa": {
    "situacao": "sem_registro",
    "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
+=======
+<<<<<<< HEAD
+  "fdaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
+  "ema": null,
+  "emaVerificadoEm": "2026-11-16T18:34:44.521920+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-16T18:34:17.673782+00:00",
+=======
+  "fdaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
+  "ema": null,
+  "emaVerificadoEm": "2026-11-16T18:14:54.365071+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-16T18:14:11.895787+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
+<<<<<<< Updated upstream
    "verificadoEm": "2026-11-16T18:14:45.519106+00:00",
+=======
+<<<<<<< HEAD
+   "verificadoEm": "2026-11-16T18:34:43.033763+00:00",
+=======
+   "verificadoEm": "2026-11-16T18:14:45.519106+00:00",
+>>>>>>> b24e8addb503aeb0b48a26ea2e5fba5448c1b91b
+>>>>>>> Stashed changes
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -782,7 +916,12 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 23,
    "recrutando": 11,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": {
+    "fase1": 17,
+    "fase2": 4,
+    "fase3": 20
+   }
   }
  },
  "survodutida": {
@@ -810,7 +949,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 12,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "mazdutida": {
@@ -838,7 +978,8 @@ const APROVACOES_AUTO = {
    "fase2": 13,
    "fase3": 11,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "pramlintida": {
@@ -871,7 +1012,8 @@ const APROVACOES_AUTO = {
    "fase2": 19,
    "fase3": 8,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "setmelanotida": {
@@ -911,7 +1053,8 @@ const APROVACOES_AUTO = {
    "fase2": 11,
    "fase3": 10,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "aod-9604": {
@@ -939,7 +1082,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pegbelfermina": {
@@ -967,7 +1111,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2022-12-20"
+   "ultimaAtualizacao": "2022-12-20",
+   "foco": null
   }
  },
  "dasiglucagona": {
@@ -1008,7 +1153,8 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 11,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "sermorelina": {
@@ -1036,7 +1182,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 4,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-05-19"
+   "ultimaAtualizacao": "2026-05-19",
+   "foco": null
   }
  },
  "ghrp-6": {
@@ -1064,7 +1211,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ghrp-2-pralmorelina": {
@@ -1092,7 +1240,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "hexarelina": {
@@ -1120,7 +1269,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "igf-1-lr3": {
@@ -1148,7 +1298,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "mgf-peg-mgf": {
@@ -1176,7 +1327,8 @@ const APROVACOES_AUTO = {
    "fase2": 28,
    "fase3": 14,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "folistatina-344": {
@@ -1204,7 +1356,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "kisspeptina-10": {
@@ -1232,7 +1385,8 @@ const APROVACOES_AUTO = {
    "fase2": 8,
    "fase3": 3,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-08-26"
+   "ultimaAtualizacao": "2026-08-26",
+   "foco": null
   }
  },
  "gonadorelina-gnrh": {
@@ -1260,7 +1414,8 @@ const APROVACOES_AUTO = {
    "fase2": 408,
    "fase3": 300,
    "recrutando": 114,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "leuprorrelina": {
@@ -1304,7 +1459,8 @@ const APROVACOES_AUTO = {
    "fase2": 212,
    "fase3": 124,
    "recrutando": 55,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "octreotida": {
@@ -1355,7 +1511,8 @@ const APROVACOES_AUTO = {
    "fase2": 111,
    "fase3": 74,
    "recrutando": 28,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "abaloparatida": {
@@ -1395,7 +1552,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 7,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-10-13"
+   "ultimaAtualizacao": "2026-10-13",
+   "foco": null
   }
  },
  "vosoritida": {
@@ -1461,7 +1619,8 @@ const APROVACOES_AUTO = {
    "fase2": 12,
    "fase3": 5,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "timosina-alfa-1": {
@@ -1489,7 +1648,8 @@ const APROVACOES_AUTO = {
    "fase2": 33,
    "fase3": 8,
    "recrutando": 11,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "ll-37": {
@@ -1517,7 +1677,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 1,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-03"
+   "ultimaAtualizacao": "2026-11-03",
+   "foco": null
   }
  },
  "kpv": {
@@ -1545,7 +1706,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cibinetida-ara-290": {
@@ -1573,7 +1735,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-04"
+   "ultimaAtualizacao": "2024-10-04",
+   "foco": null
   }
  },
  "larazotida": {
@@ -1601,7 +1764,8 @@ const APROVACOES_AUTO = {
    "fase2": 13,
    "fase3": 9,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-27"
+   "ultimaAtualizacao": "2026-10-27",
+   "foco": null
   }
  },
  "teduglutida": {
@@ -1656,7 +1820,8 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 22,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-10-15"
+   "ultimaAtualizacao": "2026-10-15",
+   "foco": null
   }
  },
  "apraglutida": {
@@ -1684,7 +1849,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 3,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-08-04"
+   "ultimaAtualizacao": "2026-08-04",
+   "foco": null
   }
  },
  "zilucoplana": {
@@ -1719,7 +1885,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 10,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "pegcetacoplana": {
@@ -1774,7 +1941,8 @@ const APROVACOES_AUTO = {
    "fase2": 12,
    "fase3": 12,
    "recrutando": 9,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "angiotensina-1-7": {
@@ -1802,7 +1970,8 @@ const APROVACOES_AUTO = {
    "fase2": 32,
    "fase3": 8,
    "recrutando": 13,
-   "ultimaAtualizacao": "2026-11-04"
+   "ultimaAtualizacao": "2026-11-04",
+   "foco": null
   }
  },
  "elamipretida-ss-31": {
@@ -1835,7 +2004,8 @@ const APROVACOES_AUTO = {
    "fase2": 15,
    "fase3": 4,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "mots-c": {
@@ -1863,7 +2033,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-07-08"
+   "ultimaAtualizacao": "2026-07-08",
+   "foco": null
   }
  },
  "humanina": {
@@ -1891,7 +2062,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-07-08"
+   "ultimaAtualizacao": "2026-07-08",
+   "foco": null
   }
  },
  "foxo4-dri": {
@@ -1919,7 +2091,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "epitalon-epithalon": {
@@ -1947,7 +2120,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-22"
+   "ultimaAtualizacao": "2026-10-22",
+   "foco": null
   }
  },
  "semax": {
@@ -1975,7 +2149,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "selank": {
@@ -2003,7 +2178,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-09-15"
+   "ultimaAtualizacao": "2023-09-15",
+   "foco": null
   }
  },
  "dihexa": {
@@ -2031,7 +2207,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "davunetida": {
@@ -2059,7 +2236,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-04-05"
+   "ultimaAtualizacao": "2019-04-05",
+   "foco": null
   }
  },
  "pinealon": {
@@ -2087,7 +2265,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "bremelanotida-pt-141": {
@@ -2120,7 +2299,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 3,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-01-13"
+   "ultimaAtualizacao": "2026-01-13",
+   "foco": null
   }
  },
  "dermorfina": {
@@ -2148,7 +2328,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "argireline-acetil-hexapeptideo-8": {
@@ -2176,7 +2357,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-19"
+   "ultimaAtualizacao": "2026-10-19",
+   "foco": null
   }
  },
  "matrixyl-palmitoil-pentapeptideo-4": {
@@ -2204,7 +2386,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "melitina": {
@@ -2232,7 +2415,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "nisina": {
@@ -2260,7 +2444,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-07-09"
+   "ultimaAtualizacao": "2026-07-09",
+   "foco": null
   }
  },
  "defensinas-humanas": {
@@ -2288,7 +2473,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 2,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-08-12"
+   "ultimaAtualizacao": "2026-08-12",
+   "foco": null
   }
  },
  "glutationa": {
@@ -2323,7 +2509,8 @@ const APROVACOES_AUTO = {
    "fase2": 70,
    "fase3": 28,
    "recrutando": 23,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "carnosina": {
@@ -2351,7 +2538,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 4,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-30"
+   "ultimaAtualizacao": "2026-10-30",
+   "foco": null
   }
  },
  "testosterona": {
@@ -2440,7 +2628,8 @@ const APROVACOES_AUTO = {
    "fase2": 280,
    "fase3": 181,
    "recrutando": 99,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "estradiol": {
@@ -2512,7 +2701,8 @@ const APROVACOES_AUTO = {
    "fase2": 569,
    "fase3": 358,
    "recrutando": 208,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "progesterona": {
@@ -2610,7 +2800,8 @@ const APROVACOES_AUTO = {
    "fase2": 273,
    "fase3": 214,
    "recrutando": 124,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "hidrocortisona-cortisol": {
@@ -2682,7 +2873,8 @@ const APROVACOES_AUTO = {
    "fase2": 264,
    "fase3": 163,
    "recrutando": 176,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "dhea-prasterona": {
@@ -2729,7 +2921,8 @@ const APROVACOES_AUTO = {
    "fase2": 35,
    "fase3": 47,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "levotiroxina-t4": {
@@ -2766,7 +2959,8 @@ const APROVACOES_AUTO = {
    "fase2": 44,
    "fase3": 37,
    "recrutando": 29,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "liotironina-t3": {
@@ -2807,7 +3001,8 @@ const APROVACOES_AUTO = {
    "fase2": 98,
    "fase3": 46,
    "recrutando": 117,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "melatonina": {
@@ -2857,7 +3052,8 @@ const APROVACOES_AUTO = {
    "fase2": 154,
    "fase3": 100,
    "recrutando": 89,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "gonadotrofina-corionica-hcg": {
@@ -2911,7 +3107,8 @@ const APROVACOES_AUTO = {
    "fase2": 57,
    "fase3": 64,
    "recrutando": 26,
-   "ultimaAtualizacao": "2026-10-23"
+   "ultimaAtualizacao": "2026-10-23",
+   "foco": null
   }
  },
  "glucagon": {
@@ -2977,7 +3174,8 @@ const APROVACOES_AUTO = {
    "fase2": 308,
    "fase3": 252,
    "recrutando": 196,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "calcitonina": {
@@ -3018,7 +3216,8 @@ const APROVACOES_AUTO = {
    "fase2": 15,
    "fase3": 17,
    "recrutando": 14,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "desmopressina": {
@@ -3055,7 +3254,8 @@ const APROVACOES_AUTO = {
    "fase2": 19,
    "fase3": 23,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-10-30"
+   "ultimaAtualizacao": "2026-10-30",
+   "foco": null
   }
  },
  "metreleptina": {
@@ -3121,7 +3321,8 @@ const APROVACOES_AUTO = {
    "fase2": 23,
    "fase3": 6,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-11-09"
+   "ultimaAtualizacao": "2026-11-09",
+   "foco": null
   }
  },
  "vitamina-d3-colecalciferol": {
@@ -3149,7 +3350,8 @@ const APROVACOES_AUTO = {
    "fase2": 483,
    "fase3": 391,
    "recrutando": 162,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "vitamina-b12-cobalamina": {
@@ -3184,7 +3386,8 @@ const APROVACOES_AUTO = {
    "fase2": 127,
    "fase3": 100,
    "recrutando": 61,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "vitamina-c-acido-ascorbico": {
@@ -3262,7 +3465,8 @@ const APROVACOES_AUTO = {
    "fase2": 240,
    "fase3": 161,
    "recrutando": 98,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "vitamina-b6-piridoxina": {
@@ -3295,7 +3499,8 @@ const APROVACOES_AUTO = {
    "fase2": 64,
    "fase3": 75,
    "recrutando": 30,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "folato-vitamina-b9": {
@@ -3343,7 +3548,8 @@ const APROVACOES_AUTO = {
    "fase2": 1155,
    "fase3": 580,
    "recrutando": 311,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "vitamina-k2-menaquinona": {
@@ -3371,7 +3577,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 3,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-06-27"
+   "ultimaAtualizacao": "2025-06-27",
+   "foco": null
   }
  },
  "vitamina-a-retinol": {
@@ -3412,7 +3619,8 @@ const APROVACOES_AUTO = {
    "fase2": 162,
    "fase3": 116,
    "recrutando": 44,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "vitamina-e-tocoferol": {
@@ -3465,7 +3673,8 @@ const APROVACOES_AUTO = {
    "fase2": 74,
    "fase3": 48,
    "recrutando": 13,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "niacina-vitamina-b3": {
@@ -3499,7 +3708,8 @@ const APROVACOES_AUTO = {
    "fase2": 554,
    "fase3": 221,
    "recrutando": 104,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "nad": {
@@ -3527,7 +3737,8 @@ const APROVACOES_AUTO = {
    "fase2": 71,
    "fase3": 26,
    "recrutando": 47,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "nmn-mononucleotideo-de-nicotinamida": {
@@ -3555,7 +3766,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 1,
    "recrutando": 12,
-   "ultimaAtualizacao": "2026-11-09"
+   "ultimaAtualizacao": "2026-11-09",
+   "foco": null
   }
  },
  "nicotinamida-ribosideo-nr": {
@@ -3583,7 +3795,8 @@ const APROVACOES_AUTO = {
    "fase2": 48,
    "fase3": 5,
    "recrutando": 36,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "l-carnitina": {
@@ -3611,7 +3824,8 @@ const APROVACOES_AUTO = {
    "fase2": 89,
    "fase3": 55,
    "recrutando": 19,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "acetil-l-carnitina": {
@@ -3639,7 +3853,8 @@ const APROVACOES_AUTO = {
    "fase2": 21,
    "fase3": 9,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-06"
+   "ultimaAtualizacao": "2026-10-06",
+   "foco": null
   }
  },
  "acido-alfa-lipoico": {
@@ -3667,7 +3882,8 @@ const APROVACOES_AUTO = {
    "fase2": 67,
    "fase3": 37,
    "recrutando": 18,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "n-acetilcisteina-nac": {
@@ -3695,7 +3911,8 @@ const APROVACOES_AUTO = {
    "fase2": 224,
    "fase3": 113,
    "recrutando": 46,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "coenzima-q10": {
@@ -3723,7 +3940,8 @@ const APROVACOES_AUTO = {
    "fase2": 64,
    "fase3": 41,
    "recrutando": 24,
-   "ultimaAtualizacao": "2026-11-03"
+   "ultimaAtualizacao": "2026-11-03",
+   "foco": null
   }
  },
  "creatina": {
@@ -3758,7 +3976,8 @@ const APROVACOES_AUTO = {
    "fase2": 37,
    "fase3": 23,
    "recrutando": 50,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "taurina": {
@@ -3824,7 +4043,8 @@ const APROVACOES_AUTO = {
    "fase2": 36,
    "fase3": 11,
    "recrutando": 16,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "glicina": {
@@ -3878,7 +4098,8 @@ const APROVACOES_AUTO = {
    "fase2": 66,
    "fase3": 24,
    "recrutando": 17,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "omega-3-epa-dha": {
@@ -3906,7 +4127,8 @@ const APROVACOES_AUTO = {
    "fase2": 88,
    "fase3": 64,
    "recrutando": 41,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "citicolina": {
@@ -3934,7 +4156,8 @@ const APROVACOES_AUTO = {
    "fase2": 12,
    "fase3": 15,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "ergotioneina": {
@@ -3962,7 +4185,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "resveratrol": {
@@ -3990,7 +4214,8 @@ const APROVACOES_AUTO = {
    "fase2": 40,
    "fase3": 18,
    "recrutando": 13,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "pterostilbeno": {
@@ -4018,7 +4243,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 2,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-11-04"
+   "ultimaAtualizacao": "2026-11-04",
+   "foco": null
   }
  },
  "urolitina-a": {
@@ -4046,7 +4272,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 1,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "espermidina": {
@@ -4074,7 +4301,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 1,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-10-27"
+   "ultimaAtualizacao": "2026-10-27",
+   "foco": null
   }
  },
  "pqq-pirroloquinolina-quinona": {
@@ -4102,7 +4330,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-09-02"
+   "ultimaAtualizacao": "2026-09-02",
+   "foco": null
   }
  },
  "fisetina": {
@@ -4130,7 +4359,8 @@ const APROVACOES_AUTO = {
    "fase2": 26,
    "fase3": 2,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "quercetina": {
@@ -4158,7 +4388,8 @@ const APROVACOES_AUTO = {
    "fase2": 40,
    "fase3": 5,
    "recrutando": 16,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "slu-pp-332": {
@@ -4186,7 +4417,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "5-amino-1mq": {
@@ -4214,7 +4446,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "magnesio": {
@@ -4289,7 +4522,8 @@ const APROVACOES_AUTO = {
    "fase2": 397,
    "fase3": 311,
    "recrutando": 185,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "zinco": {
@@ -4362,7 +4596,8 @@ const APROVACOES_AUTO = {
    "fase2": 153,
    "fase3": 148,
    "recrutando": 80,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "selenio": {
@@ -4439,7 +4674,8 @@ const APROVACOES_AUTO = {
    "fase2": 53,
    "fase3": 58,
    "recrutando": 17,
-   "ultimaAtualizacao": "2026-11-09"
+   "ultimaAtualizacao": "2026-11-09",
+   "foco": null
   }
  },
  "ferro": {
@@ -4531,7 +4767,8 @@ const APROVACOES_AUTO = {
    "fase2": 321,
    "fase3": 306,
    "recrutando": 212,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "tiamina-vitamina-b1": {
@@ -4577,7 +4814,8 @@ const APROVACOES_AUTO = {
    "fase2": 55,
    "fase3": 46,
    "recrutando": 23,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "riboflavina-vitamina-b2": {
@@ -4612,7 +4850,8 @@ const APROVACOES_AUTO = {
    "fase2": 75,
    "fase3": 76,
    "recrutando": 27,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "biotina-vitamina-b7": {
@@ -4690,7 +4929,8 @@ const APROVACOES_AUTO = {
    "fase2": 19,
    "fase3": 10,
    "recrutando": 13,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "exenatida": {
@@ -4782,7 +5022,8 @@ const APROVACOES_AUTO = {
    "fase2": 74,
    "fase3": 93,
    "recrutando": 12,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "lixisenatida": {
@@ -4837,7 +5078,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 33,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "dulaglutida": {
@@ -4909,7 +5151,8 @@ const APROVACOES_AUTO = {
    "fase2": 28,
    "fase3": 36,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "maridebart-cafraglutida-maritide": {
@@ -4937,7 +5180,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 12,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-09"
+   "ultimaAtualizacao": "2026-11-09",
+   "foco": null
   }
  },
  "petrelintida": {
@@ -4965,7 +5209,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 3,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "eloralintida": {
@@ -4993,7 +5238,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 8,
    "recrutando": 12,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "orforglipron": {
@@ -5033,7 +5279,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 27,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "lanreotida": {
@@ -5067,7 +5314,8 @@ const APROVACOES_AUTO = {
    "fase2": 34,
    "fase3": 39,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "pasireotida": {
@@ -5108,7 +5356,8 @@ const APROVACOES_AUTO = {
    "fase2": 45,
    "fase3": 12,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-10-08"
+   "ultimaAtualizacao": "2026-10-08",
+   "foco": null
   }
  },
  "vasopressina": {
@@ -5157,7 +5406,8 @@ const APROVACOES_AUTO = {
    "fase2": 80,
    "fase3": 85,
    "recrutando": 43,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "terlipressina": {
@@ -5190,7 +5440,8 @@ const APROVACOES_AUTO = {
    "fase2": 26,
    "fase3": 28,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "degarelix": {
@@ -5231,7 +5482,8 @@ const APROVACOES_AUTO = {
    "fase2": 79,
    "fase3": 40,
    "recrutando": 22,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "cetrorrelix": {
@@ -5272,7 +5524,8 @@ const APROVACOES_AUTO = {
    "fase2": 26,
    "fase3": 29,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-11-09"
+   "ultimaAtualizacao": "2026-11-09",
+   "foco": null
   }
  },
  "triptorrelina": {
@@ -5306,7 +5559,8 @@ const APROVACOES_AUTO = {
    "fase2": 80,
    "fase3": 86,
    "recrutando": 38,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "goserelina": {
@@ -5339,7 +5593,8 @@ const APROVACOES_AUTO = {
    "fase2": 184,
    "fase3": 126,
    "recrutando": 49,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "bivalirudina": {
@@ -5405,7 +5660,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 23,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-11-04"
+   "ultimaAtualizacao": "2026-11-04",
+   "foco": null
   }
  },
  "ziconotida": {
@@ -5445,7 +5701,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 3,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-09-10"
+   "ultimaAtualizacao": "2026-09-10",
+   "foco": null
   }
  },
  "linaclotida": {
@@ -5504,7 +5761,8 @@ const APROVACOES_AUTO = {
    "fase2": 14,
    "fase3": 16,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "icatibanto": {
@@ -5546,7 +5804,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 11,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-22"
+   "ultimaAtualizacao": "2026-10-22",
+   "foco": null
   }
  },
  "enfuvirtida": {
@@ -5595,7 +5854,8 @@ const APROVACOES_AUTO = {
    "fase2": 15,
    "fase3": 14,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "difelikefalina": {
@@ -5635,7 +5895,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 11,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-23"
+   "ultimaAtualizacao": "2026-10-23",
+   "foco": null
   }
  },
  "cerebrolisina": {
@@ -5663,7 +5924,8 @@ const APROVACOES_AUTO = {
    "fase2": 11,
    "fase3": 7,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-09-29"
+   "ultimaAtualizacao": "2026-09-29",
+   "foco": null
   }
  },
  "timalina": {
@@ -5691,7 +5953,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "timopentina": {
@@ -5719,7 +5982,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-05-25"
+   "ultimaAtualizacao": "2025-05-25",
+   "foco": null
   }
  },
  "vip-peptideo-intestinal-vasoativo-aviptadil": {
@@ -5747,7 +6011,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 4,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "timogeno-thymogen": {
@@ -5775,7 +6040,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cortexina-cortexin": {
@@ -5803,7 +6069,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cortagen": {
@@ -5831,7 +6098,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "vilon-lys-glu": {
@@ -5859,7 +6127,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cartalax": {
@@ -5887,7 +6156,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "livagen": {
@@ -5915,7 +6185,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "chonluten": {
@@ -5943,7 +6214,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ovagen": {
@@ -5971,7 +6243,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "vesugen": {
@@ -5999,7 +6272,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "prostamax": {
@@ -6027,7 +6301,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "crystagen": {
@@ -6055,7 +6330,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "bronchogen": {
@@ -6083,7 +6359,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2015-06-04"
+   "ultimaAtualizacao": "2015-06-04",
+   "foco": null
   }
  },
  "pancragen": {
@@ -6111,7 +6388,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "testagen": {
@@ -6139,7 +6417,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-05-27"
+   "ultimaAtualizacao": "2026-05-27",
+   "foco": null
   }
  },
  "cardiogen": {
@@ -6167,7 +6446,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2012-08-15"
+   "ultimaAtualizacao": "2012-08-15",
+   "foco": null
   }
  },
  "dsip-peptideo-indutor-do-sono-delta": {
@@ -6195,7 +6475,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-08-17"
+   "ultimaAtualizacao": "2026-08-17",
+   "foco": null
   }
  },
  "p21": {
@@ -6223,7 +6504,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "noopept-gvs-111-dipeptideo-sintetico": {
@@ -6251,7 +6533,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "trofinetida-trofinetide-analogo-do-gpe": {
@@ -6299,7 +6582,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 4,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-07-28"
+   "ultimaAtualizacao": "2026-07-28",
+   "foco": null
   }
  },
  "goralatida-ac-sdkp": {
@@ -6327,7 +6611,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2017-03-01"
+   "ultimaAtualizacao": "2017-03-01",
+   "foco": null
   }
  },
  "ciclo-his-pro-chp": {
@@ -6355,7 +6640,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-11-18"
+   "ultimaAtualizacao": "2019-11-18",
+   "foco": null
   }
  },
  "substancia-p": {
@@ -6383,7 +6669,8 @@ const APROVACOES_AUTO = {
    "fase2": 17,
    "fase3": 13,
    "recrutando": 15,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "neuropeptideo-y": {
@@ -6411,7 +6698,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-09-03"
+   "ultimaAtualizacao": "2026-09-03",
+   "foco": null
   }
  },
  "orexina-a-hipocretina-1": {
@@ -6439,7 +6727,8 @@ const APROVACOES_AUTO = {
    "fase2": 21,
    "fase3": 4,
    "recrutando": 21,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "galanina": {
@@ -6467,7 +6756,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-02-25"
+   "ultimaAtualizacao": "2026-02-25",
+   "foco": null
   }
  },
  "encefalinas-met-leu-encefalina": {
@@ -6495,7 +6785,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "dinorfina-a": {
@@ -6523,7 +6814,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-09-23"
+   "ultimaAtualizacao": "2026-09-23",
+   "foco": null
   }
  },
  "beta-endorfina": {
@@ -6551,7 +6843,8 @@ const APROVACOES_AUTO = {
    "fase2": 32,
    "fase3": 24,
    "recrutando": 17,
-   "ultimaAtualizacao": "2026-11-03"
+   "ultimaAtualizacao": "2026-11-03",
+   "foco": null
   }
  },
  "nociceptina": {
@@ -6579,7 +6872,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-04"
+   "ultimaAtualizacao": "2026-11-04",
+   "foco": null
   }
  },
  "apamina": {
@@ -6607,7 +6901,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cecropina": {
@@ -6635,7 +6930,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "magainina-pexiganan": {
@@ -6663,7 +6959,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "lactoferricina": {
@@ -6691,7 +6988,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "histatina-5": {
@@ -6719,7 +7017,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2020-03-27"
+   "ultimaAtualizacao": "2020-03-27",
+   "foco": null
   }
  },
  "palmitoil-tripeptideo-1-pal-ghk": {
@@ -6747,7 +7046,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-19"
+   "ultimaAtualizacao": "2026-10-19",
+   "foco": null
   }
  },
  "palmitoil-tetrapeptideo-7": {
@@ -6775,7 +7075,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-24"
+   "ultimaAtualizacao": "2024-10-24",
+   "foco": null
   }
  },
  "snap-8-acetil-octapeptideo-3": {
@@ -6803,7 +7104,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "acetil-tetrapeptideo-3-redensyl": {
@@ -6831,7 +7133,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "leuphasyl-pentapeptideo-18": {
@@ -6859,7 +7162,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "syn-ake-dipeptideo-diaminobutiroil-benzilamida-diacetato": {
@@ -6887,7 +7191,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "palmitoil-tripeptideo-5": {
@@ -6915,7 +7220,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-24"
+   "ultimaAtualizacao": "2024-10-24",
+   "foco": null
   }
  },
  "macimorelina": {
@@ -6955,7 +7261,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 3,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-08-12"
+   "ultimaAtualizacao": "2024-08-12",
+   "foco": null
   }
  },
  "anamorelina": {
@@ -6990,7 +7297,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 6,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "capromorelina": {
@@ -7018,7 +7326,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "alexamorelina": {
@@ -7046,7 +7355,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ibutamoren-mk-677-nao-peptideo-secretagogo-oral": {
@@ -7074,7 +7384,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-19"
+   "ultimaAtualizacao": "2026-10-19",
+   "foco": null
   }
  },
  "fragmento-176-191-do-hormonio-do-crescimento-hgh-frag": {
@@ -7102,7 +7413,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "igf-1-des-1-3": {
@@ -7130,7 +7442,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "mecasermina-igf-1-recombinante": {
@@ -7158,7 +7471,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 4,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-02-28"
+   "ultimaAtualizacao": "2024-02-28",
+   "foco": null
   }
  },
  "estrona-e1": {
@@ -7193,7 +7507,8 @@ const APROVACOES_AUTO = {
    "fase2": 30,
    "fase3": 46,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "estriol-e3": {
@@ -7240,7 +7555,8 @@ const APROVACOES_AUTO = {
    "fase2": 22,
    "fase3": 9,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "pregnenolona": {
@@ -7268,7 +7584,8 @@ const APROVACOES_AUTO = {
    "fase2": 24,
    "fase3": 2,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "androstenediona": {
@@ -7296,7 +7613,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-06-03"
+   "ultimaAtualizacao": "2026-06-03",
+   "foco": null
   }
  },
  "di-hidrotestosterona-dht": {
@@ -7324,7 +7642,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 3,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-03"
+   "ultimaAtualizacao": "2026-11-03",
+   "foco": null
   }
  },
  "nandrolona": {
@@ -7352,7 +7671,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 3,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-05-06"
+   "ultimaAtualizacao": "2026-05-06",
+   "foco": null
   }
  },
  "oxandrolona": {
@@ -7380,7 +7700,8 @@ const APROVACOES_AUTO = {
    "fase2": 8,
    "fase3": 6,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-08-25"
+   "ultimaAtualizacao": "2026-08-25",
+   "foco": null
   }
  },
  "estanozolol": {
@@ -7408,7 +7729,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-09-24"
+   "ultimaAtualizacao": "2021-09-24",
+   "foco": null
   }
  },
  "trembolona": {
@@ -7436,7 +7758,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cortisona": {
@@ -7478,7 +7801,8 @@ const APROVACOES_AUTO = {
    "fase2": 91,
    "fase3": 40,
    "recrutando": 38,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "prednisona": {
@@ -7556,7 +7880,8 @@ const APROVACOES_AUTO = {
    "fase2": 1159,
    "fase3": 631,
    "recrutando": 310,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "dexametasona": {
@@ -7657,7 +7982,8 @@ const APROVACOES_AUTO = {
    "fase2": 1706,
    "fase3": 950,
    "recrutando": 563,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "fludrocortisona": {
@@ -7690,7 +8016,8 @@ const APROVACOES_AUTO = {
    "fase2": 20,
    "fase3": 15,
    "recrutando": 16,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "aldosterona": {
@@ -7718,7 +8045,8 @@ const APROVACOES_AUTO = {
    "fase2": 47,
    "fase3": 50,
    "recrutando": 45,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "adrenalina-epinefrina": {
@@ -7788,7 +8116,8 @@ const APROVACOES_AUTO = {
    "fase2": 649,
    "fase3": 490,
    "recrutando": 383,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "noradrenalina-norepinefrina": {
@@ -7824,7 +8153,8 @@ const APROVACOES_AUTO = {
    "fase2": 107,
    "fase3": 123,
    "recrutando": 125,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "dopamina": {
@@ -7865,7 +8195,8 @@ const APROVACOES_AUTO = {
    "fase2": 177,
    "fase3": 109,
    "recrutando": 110,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "serotonina-5-ht": {
@@ -7893,7 +8224,8 @@ const APROVACOES_AUTO = {
    "fase2": 156,
    "fase3": 88,
    "recrutando": 90,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "prolactina": {
@@ -7921,7 +8253,8 @@ const APROVACOES_AUTO = {
    "fase2": 23,
    "fase3": 8,
    "recrutando": 23,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "fsh-hormonio-foliculo-estimulante": {
@@ -7949,7 +8282,8 @@ const APROVACOES_AUTO = {
    "fase2": 52,
    "fase3": 87,
    "recrutando": 31,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "lh-hormonio-luteinizante": {
@@ -7990,7 +8324,8 @@ const APROVACOES_AUTO = {
    "fase2": 91,
    "fase3": 69,
    "recrutando": 35,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "tsh-tireotropina": {
@@ -8037,7 +8372,8 @@ const APROVACOES_AUTO = {
    "fase2": 31,
    "fase3": 18,
    "recrutando": 8,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "acth-cosintropina": {
@@ -8065,7 +8401,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 2,
    "recrutando": 2,
-   "ultimaAtualizacao": "2025-12-05"
+   "ultimaAtualizacao": "2025-12-05",
+   "foco": null
   }
  },
  "eritropoetina-epo": {
@@ -8093,7 +8430,8 @@ const APROVACOES_AUTO = {
    "fase2": 289,
    "fase3": 303,
    "recrutando": 27,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "paratormonio-pth-1-84": {
@@ -8121,7 +8459,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 12,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-07-14"
+   "ultimaAtualizacao": "2026-07-14",
+   "foco": null
   }
  },
  "cabergolina": {
@@ -8205,7 +8544,8 @@ const APROVACOES_AUTO = {
    "fase2": 22,
    "fase3": 20,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-10-15"
+   "ultimaAtualizacao": "2026-10-15",
+   "foco": null
   }
  },
  "bromocriptina": {
@@ -8240,7 +8580,8 @@ const APROVACOES_AUTO = {
    "fase2": 12,
    "fase3": 13,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-08-10"
+   "ultimaAtualizacao": "2026-08-10",
+   "foco": null
   }
  },
  "anastrozol": {
@@ -8336,7 +8677,8 @@ const APROVACOES_AUTO = {
    "fase2": 214,
    "fase3": 121,
    "recrutando": 67,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "letrozol": {
@@ -8432,7 +8774,8 @@ const APROVACOES_AUTO = {
    "fase2": 409,
    "fase3": 202,
    "recrutando": 139,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "tamoxifeno": {
@@ -8466,7 +8809,8 @@ const APROVACOES_AUTO = {
    "fase2": 254,
    "fase3": 202,
    "recrutando": 68,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "clomifeno": {
@@ -8526,7 +8870,8 @@ const APROVACOES_AUTO = {
    "fase2": 50,
    "fase3": 51,
    "recrutando": 8,
-   "ultimaAtualizacao": "2026-10-20"
+   "ultimaAtualizacao": "2026-10-20",
+   "foco": null
   }
  },
  "enclomifeno": {
@@ -8554,7 +8899,8 @@ const APROVACOES_AUTO = {
    "fase2": 51,
    "fase3": 51,
    "recrutando": 9,
-   "ultimaAtualizacao": "2026-10-20"
+   "ultimaAtualizacao": "2026-10-20",
+   "foco": null
   }
  },
  "raloxifeno": {
@@ -8596,7 +8942,8 @@ const APROVACOES_AUTO = {
    "fase2": 17,
    "fase3": 19,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-09-25"
+   "ultimaAtualizacao": "2026-09-25",
+   "foco": null
   }
  },
  "finasterida": {
@@ -8693,7 +9040,8 @@ const APROVACOES_AUTO = {
    "fase2": 25,
    "fase3": 20,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "dutasterida": {
@@ -8788,7 +9136,8 @@ const APROVACOES_AUTO = {
    "fase2": 33,
    "fase3": 26,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-04"
+   "ultimaAtualizacao": "2026-11-04",
+   "foco": null
   }
  },
  "espironolactona": {
@@ -8880,7 +9229,8 @@ const APROVACOES_AUTO = {
    "fase2": 73,
    "fase3": 54,
    "recrutando": 32,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "calcitriol-1-25-di-hidroxivitamina-d": {
@@ -8953,7 +9303,8 @@ const APROVACOES_AUTO = {
    "fase2": 55,
    "fase3": 20,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-10-01"
+   "ultimaAtualizacao": "2026-10-01",
+   "foco": null
   }
  },
  "tibolona": {
@@ -9019,7 +9370,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 7,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-09-09"
+   "ultimaAtualizacao": "2026-09-09",
+   "foco": null
   }
  },
  "medroxiprogesterona": {
@@ -9075,7 +9427,8 @@ const APROVACOES_AUTO = {
    "fase2": 48,
    "fase3": 46,
    "recrutando": 18,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "drospirenona": {
@@ -9160,7 +9513,8 @@ const APROVACOES_AUTO = {
    "fase2": 17,
    "fase3": 48,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-03"
+   "ultimaAtualizacao": "2026-11-03",
+   "foco": null
   }
  },
  "etinilestradiol": {
@@ -9195,7 +9549,8 @@ const APROVACOES_AUTO = {
    "fase2": 65,
    "fase3": 115,
    "recrutando": 24,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "relaxina-serelaxin": {
@@ -9223,7 +9578,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-07-01"
+   "ultimaAtualizacao": "2019-07-01",
+   "foco": null
   }
  },
  "metformina": {
@@ -9269,7 +9625,8 @@ const APROVACOES_AUTO = {
    "fase2": 654,
    "fase3": 760,
    "recrutando": 166,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "sulfato-de-dhea-dhea-s": {
@@ -9297,7 +9654,8 @@ const APROVACOES_AUTO = {
    "fase2": 35,
    "fase3": 45,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "vitamina-b5-acido-pantotenico": {
@@ -9325,7 +9683,8 @@ const APROVACOES_AUTO = {
    "fase2": 14,
    "fase3": 8,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "vitamina-k1-filoquinona": {
@@ -9353,7 +9712,8 @@ const APROVACOES_AUTO = {
    "fase2": 45,
    "fase3": 72,
    "recrutando": 38,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "vitamina-d2-ergocalciferol": {
@@ -9388,7 +9748,8 @@ const APROVACOES_AUTO = {
    "fase2": 16,
    "fase3": 15,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "colina": {
@@ -9460,7 +9821,8 @@ const APROVACOES_AUTO = {
    "fase2": 58,
    "fase3": 51,
    "recrutando": 37,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "mio-inositol": {
@@ -9488,7 +9850,8 @@ const APROVACOES_AUTO = {
    "fase2": 28,
    "fase3": 18,
    "recrutando": 16,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "calcio": {
@@ -9571,7 +9934,8 @@ const APROVACOES_AUTO = {
    "fase2": 1299,
    "fase3": 872,
    "recrutando": 475,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "potassio": {
@@ -9647,7 +10011,8 @@ const APROVACOES_AUTO = {
    "fase2": 340,
    "fase3": 313,
    "recrutando": 184,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "iodo": {
@@ -9731,7 +10096,8 @@ const APROVACOES_AUTO = {
    "fase2": 199,
    "fase3": 129,
    "recrutando": 99,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "cobre": {
@@ -9805,7 +10171,8 @@ const APROVACOES_AUTO = {
    "fase2": 67,
    "fase3": 37,
    "recrutando": 38,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "manganes": {
@@ -9870,7 +10237,8 @@ const APROVACOES_AUTO = {
    "fase2": 36,
    "fase3": 6,
    "recrutando": 12,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "cromo": {
@@ -9929,7 +10297,8 @@ const APROVACOES_AUTO = {
    "fase2": 20,
    "fase3": 29,
    "recrutando": 28,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "boro": {
@@ -9957,7 +10326,8 @@ const APROVACOES_AUTO = {
    "fase2": 581,
    "fase3": 139,
    "recrutando": 73,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "litio-microdoses-orotato": {
@@ -9985,7 +10355,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "l-arginina": {
@@ -10027,7 +10398,8 @@ const APROVACOES_AUTO = {
    "fase2": 149,
    "fase3": 98,
    "recrutando": 73,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "l-citrulina": {
@@ -10055,7 +10427,8 @@ const APROVACOES_AUTO = {
    "fase2": 27,
    "fase3": 11,
    "recrutando": 16,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "l-glutamina": {
@@ -10088,7 +10461,8 @@ const APROVACOES_AUTO = {
    "fase2": 73,
    "fase3": 44,
    "recrutando": 24,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "leucina-bcaa": {
@@ -10116,7 +10490,8 @@ const APROVACOES_AUTO = {
    "fase2": 18,
    "fase3": 8,
    "recrutando": 15,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "l-triptofano": {
@@ -10144,7 +10519,8 @@ const APROVACOES_AUTO = {
    "fase2": 33,
    "fase3": 13,
    "recrutando": 17,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "5-htp": {
@@ -10172,7 +10548,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 3,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-10-01"
+   "ultimaAtualizacao": "2026-10-01",
+   "foco": null
   }
  },
  "l-teanina": {
@@ -10200,7 +10577,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "l-tirosina": {
@@ -10235,7 +10613,8 @@ const APROVACOES_AUTO = {
    "fase2": 974,
    "fase3": 255,
    "recrutando": 283,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "beta-alanina": {
@@ -10263,7 +10642,8 @@ const APROVACOES_AUTO = {
    "fase2": 27,
    "fase3": 6,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "hmb-beta-hidroxi-beta-metilbutirato": {
@@ -10291,7 +10671,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 2,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "gaba": {
@@ -10319,7 +10700,8 @@ const APROVACOES_AUTO = {
    "fase2": 216,
    "fase3": 249,
    "recrutando": 56,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "ashwagandha-withania-somnifera": {
@@ -10347,7 +10729,8 @@ const APROVACOES_AUTO = {
    "fase2": 13,
    "fase3": 3,
    "recrutando": 12,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "curcumina": {
@@ -10375,7 +10758,8 @@ const APROVACOES_AUTO = {
    "fase2": 103,
    "fase3": 42,
    "recrutando": 28,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "berberina": {
@@ -10403,7 +10787,8 @@ const APROVACOES_AUTO = {
    "fase2": 20,
    "fase3": 18,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "rhodiola-rosea": {
@@ -10431,7 +10816,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 3,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "ginseng-panax": {
@@ -10484,7 +10870,8 @@ const APROVACOES_AUTO = {
    "fase2": 42,
    "fase3": 27,
    "recrutando": 20,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "maca-lepidium-meyenii": {
@@ -10512,7 +10899,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 3,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "tribulus-terrestris": {
@@ -10540,7 +10928,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-09"
+   "ultimaAtualizacao": "2026-10-09",
+   "foco": null
   }
  },
  "cafeina": {
@@ -10607,7 +10996,8 @@ const APROVACOES_AUTO = {
    "fase2": 73,
    "fase3": 70,
    "recrutando": 113,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "colageno-hidrolisado": {
@@ -10635,7 +11025,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "probioticos": {
@@ -10663,7 +11054,8 @@ const APROVACOES_AUTO = {
    "fase2": 373,
    "fase3": 210,
    "recrutando": 266,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "apigenina": {
@@ -10691,7 +11083,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-07-01"
+   "ultimaAtualizacao": "2026-07-01",
+   "foco": null
   }
  },
  "sulforafano": {
@@ -10719,7 +11112,8 @@ const APROVACOES_AUTO = {
    "fase2": 31,
    "fase3": 2,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "egcg-epigalocatequina-galato-cha-verde": {
@@ -10747,7 +11141,8 @@ const APROVACOES_AUTO = {
    "fase2": 45,
    "fase3": 11,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-10-26"
+   "ultimaAtualizacao": "2026-10-26",
+   "foco": null
   }
  },
  "astaxantina": {
@@ -10775,7 +11170,8 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 6,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-10-30"
+   "ultimaAtualizacao": "2026-10-30",
+   "foco": null
   }
  },
  "luteina": {
@@ -10803,7 +11199,8 @@ const APROVACOES_AUTO = {
    "fase2": 17,
    "fase3": 9,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "alfa-cetoglutarato": {
@@ -10831,7 +11228,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 2,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-10-30"
+   "ultimaAtualizacao": "2026-10-30",
+   "foco": null
   }
  },
  "acido-hialuronico": {
@@ -10866,7 +11264,8 @@ const APROVACOES_AUTO = {
    "fase2": 171,
    "fase3": 141,
    "recrutando": 142,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "glucosamina": {
@@ -10894,7 +11293,8 @@ const APROVACOES_AUTO = {
    "fase2": 17,
    "fase3": 33,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "condroitina": {
@@ -10922,7 +11322,8 @@ const APROVACOES_AUTO = {
    "fase2": 16,
    "fase3": 27,
    "recrutando": 9,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "lactoferrina": {
@@ -10950,7 +11351,8 @@ const APROVACOES_AUTO = {
    "fase2": 38,
    "fase3": 22,
    "recrutando": 14,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "rapamicina-sirolimo": {
@@ -10978,7 +11380,8 @@ const APROVACOES_AUTO = {
    "fase2": 499,
    "fase3": 104,
    "recrutando": 76,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "acarbose": {
@@ -11031,7 +11434,8 @@ const APROVACOES_AUTO = {
    "fase2": 12,
    "fase3": 20,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-02"
+   "ultimaAtualizacao": "2026-11-02",
+   "foco": null
   }
  },
  "ester-de-cetona-beta-hidroxibutirato": {
@@ -11059,7 +11463,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 2,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "tongkat-ali-eurycoma-longifolia": {
@@ -11087,7 +11492,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-03-27"
+   "ultimaAtualizacao": "2025-03-27",
+   "foco": null
   }
  },
  "espirulina": {
@@ -11115,7 +11521,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-05"
+   "ultimaAtualizacao": "2026-10-05",
+   "foco": null
   }
  },
  "piracetam": {
@@ -11150,7 +11557,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 3,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-07-28"
+   "ultimaAtualizacao": "2026-07-28",
+   "foco": null
   }
  },
  "aniracetam": {
@@ -11178,7 +11586,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-01"
+   "ultimaAtualizacao": "2026-10-01",
+   "foco": null
   }
  },
  "folistatina-315": {
@@ -11206,7 +11615,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ramatercepte-ace-031": {
@@ -11234,7 +11644,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "adipotide": {
@@ -11262,7 +11673,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "afamelanotida": {
@@ -11302,7 +11714,8 @@ const APROVACOES_AUTO = {
    "fase2": 13,
    "fase3": 6,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-07-27"
+   "ultimaAtualizacao": "2026-07-27",
+   "foco": null
   }
  },
  "melanotan-i": {
@@ -11330,7 +11743,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "carbetocina": {
@@ -11384,7 +11798,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 13,
    "recrutando": 11,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "ganirrelix": {
@@ -11426,7 +11841,8 @@ const APROVACOES_AUTO = {
    "fase2": 11,
    "fase3": 18,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-09-30"
+   "ultimaAtualizacao": "2026-09-30",
+   "foco": null
   }
  },
  "abarelix": {
@@ -11454,7 +11870,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-15"
+   "ultimaAtualizacao": "2026-10-15",
+   "foco": null
   }
  },
  "nafarelina": {
@@ -11487,7 +11904,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-10-15"
+   "ultimaAtualizacao": "2026-10-15",
+   "foco": null
   }
  },
  "buserrelina": {
@@ -11515,7 +11933,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 17,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-09-29"
+   "ultimaAtualizacao": "2026-09-29",
+   "foco": null
   }
  },
  "histrelina": {
@@ -11548,7 +11967,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 7,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "deslorrelina": {
@@ -11576,7 +11996,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-06-12"
+   "ultimaAtualizacao": "2025-06-12",
+   "foco": null
   }
  },
  "efpeglenatida": {
@@ -11604,7 +12025,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 5,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "albiglutida": {
@@ -11659,7 +12081,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 15,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "pemvidutida": {
@@ -11687,7 +12110,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-09-23"
+   "ultimaAtualizacao": "2026-09-23",
+   "foco": null
   }
  },
  "cotadutida": {
@@ -11715,7 +12139,8 @@ const APROVACOES_AUTO = {
    "fase2": 11,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-01-17"
+   "ultimaAtualizacao": "2025-01-17",
+   "foco": null
   }
  },
  "efinopegdutida": {
@@ -11743,7 +12168,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-09-21"
+   "ultimaAtualizacao": "2026-09-21",
+   "foco": null
   }
  },
  "ecnoglutida": {
@@ -11771,7 +12197,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 5,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-08-28"
+   "ultimaAtualizacao": "2026-08-28",
+   "foco": null
   }
  },
  "amicretina": {
@@ -11799,7 +12226,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-03-05"
+   "ultimaAtualizacao": "2025-03-05",
+   "foco": null
   }
  },
  "pegvisomanto": {
@@ -11877,7 +12305,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 5,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-08-18"
+   "ultimaAtualizacao": "2026-08-18",
+   "foco": null
   }
  },
  "glepaglutida": {
@@ -11912,7 +12341,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 6,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-09-29"
+   "ultimaAtualizacao": "2026-09-29",
+   "foco": null
   }
  },
  "efruxifermina": {
@@ -11940,7 +12370,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 3,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "pegozafermina": {
@@ -11968,7 +12399,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 3,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-10-23"
+   "ultimaAtualizacao": "2026-10-23",
+   "foco": null
   }
  },
  "plecanatida": {
@@ -12008,7 +12440,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 8,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-29"
+   "ultimaAtualizacao": "2026-10-29",
+   "foco": null
   }
  },
  "secretina": {
@@ -12048,7 +12481,8 @@ const APROVACOES_AUTO = {
    "fase2": 12,
    "fase3": 10,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-10-26"
+   "ultimaAtualizacao": "2026-10-26",
+   "foco": null
   }
  },
  "sincalida-cck-8": {
@@ -12076,7 +12510,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-07-29"
+   "ultimaAtualizacao": "2026-07-29",
+   "foco": null
   }
  },
  "gip-polipeptideo-insulinotropico-dependente-de-glicose": {
@@ -12104,7 +12539,8 @@ const APROVACOES_AUTO = {
    "fase2": 16,
    "fase3": 12,
    "recrutando": 16,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "oxintomodulina": {
@@ -12132,7 +12568,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-09"
+   "ultimaAtualizacao": "2026-11-09",
+   "foco": null
   }
  },
  "pyy-3-36": {
@@ -12160,7 +12597,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2022-07-11"
+   "ultimaAtualizacao": "2022-07-11",
+   "foco": null
   }
  },
  "grelina": {
@@ -12188,7 +12626,8 @@ const APROVACOES_AUTO = {
    "fase2": 35,
    "fase3": 11,
    "recrutando": 14,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "insulina-glargina": {
@@ -12298,7 +12737,8 @@ const APROVACOES_AUTO = {
    "fase2": 38,
    "fase3": 240,
    "recrutando": 12,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "insulina-lispro": {
@@ -12390,7 +12830,8 @@ const APROVACOES_AUTO = {
    "fase2": 55,
    "fase3": 72,
    "recrutando": 9,
-   "ultimaAtualizacao": "2026-10-19"
+   "ultimaAtualizacao": "2026-10-19",
+   "foco": null
   }
  },
  "insulina-asparte": {
@@ -12488,7 +12929,8 @@ const APROVACOES_AUTO = {
    "fase2": 61,
    "fase3": 144,
    "recrutando": 8,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "insulina-degludeca": {
@@ -12556,7 +12998,8 @@ const APROVACOES_AUTO = {
    "fase2": 20,
    "fase3": 87,
    "recrutando": 8,
-   "ultimaAtualizacao": "2026-11-03"
+   "ultimaAtualizacao": "2026-11-03",
+   "foco": null
   }
  },
  "insulina-icodeca": {
@@ -12618,7 +13061,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 15,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-09-25"
+   "ultimaAtualizacao": "2026-09-25",
+   "foco": null
   }
  },
  "intermedine": {
@@ -12646,7 +13090,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "teprotide": {
@@ -12674,7 +13119,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "endothelin": {
@@ -12702,7 +13148,8 @@ const APROVACOES_AUTO = {
    "fase2": 58,
    "fase3": 31,
    "recrutando": 23,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "thymosin": {
@@ -12730,7 +13177,8 @@ const APROVACOES_AUTO = {
    "fase2": 47,
    "fase3": 13,
    "recrutando": 11,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "gastrin": {
@@ -12758,7 +13206,8 @@ const APROVACOES_AUTO = {
    "fase2": 21,
    "fase3": 3,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "cyclosporine": {
@@ -12826,7 +13275,8 @@ const APROVACOES_AUTO = {
    "fase2": 483,
    "fase3": 252,
    "recrutando": 81,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "oxeclosporin": {
@@ -12854,7 +13304,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "saralasin": {
@@ -12882,7 +13333,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "angiotensin-amide": {
@@ -12910,7 +13362,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 7,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-04"
+   "ultimaAtualizacao": "2026-11-04",
+   "foco": null
   }
  },
  "bradykinin": {
@@ -12938,7 +13391,8 @@ const APROVACOES_AUTO = {
    "fase2": 16,
    "fase3": 10,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "seglitide": {
@@ -12966,7 +13420,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "glaspimod": {
@@ -12994,7 +13449,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "netazepide": {
@@ -13022,7 +13478,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-11-23"
+   "ultimaAtualizacao": "2021-11-23",
+   "foco": null
   }
  },
  "eptifibatide": {
@@ -13087,7 +13544,8 @@ const APROVACOES_AUTO = {
    "fase2": 15,
    "fase3": 12,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-01-16"
+   "ultimaAtualizacao": "2026-01-16",
+   "foco": null
   }
  },
  "ovemotide": {
@@ -13115,7 +13573,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "disomotide": {
@@ -13143,7 +13602,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "prazarelix": {
@@ -13171,7 +13631,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "acyline": {
@@ -13199,7 +13660,8 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-10"
+   "ultimaAtualizacao": "2024-10-10",
+   "foco": null
   }
  },
  "demoxytocin": {
@@ -13227,7 +13689,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "peptide-t": {
@@ -13255,7 +13718,8 @@ const APROVACOES_AUTO = {
    "fase2": 923,
    "fase3": 178,
    "recrutando": 252,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "abt-510": {
@@ -13283,7 +13747,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-06-07"
+   "ultimaAtualizacao": "2023-06-07",
+   "foco": null
   }
  },
  "atosiban": {
@@ -13319,7 +13784,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 4,
    "recrutando": 3,
-   "ultimaAtualizacao": "2025-12-09"
+   "ultimaAtualizacao": "2025-12-09",
+   "foco": null
   }
  },
  "gramicidin-s": {
@@ -13347,7 +13813,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 2,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-07-14"
+   "ultimaAtualizacao": "2026-07-14",
+   "foco": null
   }
  },
  "eledoisin": {
@@ -13375,7 +13842,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "kisspeptin-10": {
@@ -13403,7 +13871,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 3,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-08-14"
+   "ultimaAtualizacao": "2024-08-14",
+   "foco": null
   }
  },
  "glucagon-like-peptide-ii": {
@@ -13431,7 +13900,8 @@ const APROVACOES_AUTO = {
    "fase2": 14,
    "fase3": 2,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-10-20"
+   "ultimaAtualizacao": "2026-10-20",
+   "foco": null
   }
  },
  "act-1-peptide": {
@@ -13459,7 +13929,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2025-07-25"
+   "ultimaAtualizacao": "2025-07-25",
+   "foco": null
   }
  },
  "calcitonin-eel": {
@@ -13487,7 +13958,8 @@ const APROVACOES_AUTO = {
    "fase2": 15,
    "fase3": 17,
    "recrutando": 14,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "aldafermin": {
@@ -13515,7 +13987,8 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-07-23"
+   "ultimaAtualizacao": "2025-07-23",
+   "foco": null
   }
  },
  "canoctakin": {
@@ -13543,7 +14016,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "anpocogin": {
@@ -13571,7 +14045,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "baloramotide": {
@@ -13599,7 +14074,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2018-05-01"
+   "ultimaAtualizacao": "2018-05-01",
+   "foco": null
   }
  },
  "lonapegsomatropin": {
@@ -13639,7 +14115,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 5,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "pancreatic-polypeptide": {
@@ -13667,7 +14144,8 @@ const APROVACOES_AUTO = {
    "fase2": 11,
    "fase3": 3,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-04-01"
+   "ultimaAtualizacao": "2026-04-01",
+   "foco": null
   }
  },
  "fe-203799": {
@@ -13695,7 +14173,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-26"
+   "ultimaAtualizacao": "2024-10-26",
+   "foco": null
   }
  },
  "sulfomyxin": {
@@ -13723,7 +14202,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "timbetasin": {
@@ -13751,7 +14231,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "amlisimod": {
@@ -13779,7 +14260,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "c-peptide": {
@@ -13807,7 +14289,8 @@ const APROVACOES_AUTO = {
    "fase2": 988,
    "fase3": 426,
    "recrutando": 264,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "tzp-102": {
@@ -13835,7 +14318,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2013-04-25"
+   "ultimaAtualizacao": "2013-04-25",
+   "foco": null
   }
  },
  "navepegritide": {
@@ -13875,7 +14359,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 3,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "eflepedocokin": {
@@ -13903,7 +14388,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-07-15"
+   "ultimaAtualizacao": "2026-07-15",
+   "foco": null
   }
  },
  "sulfomyxin-free-acid": {
@@ -13931,7 +14417,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "hepalatide": {
@@ -13959,7 +14446,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-29"
+   "ultimaAtualizacao": "2026-10-29",
+   "foco": null
   }
  },
  "lerodalcibep": {
@@ -13999,7 +14487,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 11,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-27"
+   "ultimaAtualizacao": "2026-10-27",
+   "foco": null
   }
  },
  "pegsebrenatide": {
@@ -14027,7 +14516,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "balixafortide": {
@@ -14055,7 +14545,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2025-11-19"
+   "ultimaAtualizacao": "2025-11-19",
+   "foco": null
   }
  },
  "ea-230": {
@@ -14083,7 +14574,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-02"
+   "ultimaAtualizacao": "2026-11-02",
+   "foco": null
   }
  },
  "ensovibep": {
@@ -14111,7 +14603,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 3,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-01-27"
+   "ultimaAtualizacao": "2026-01-27",
+   "foco": null
   }
  },
  "motixafortide": {
@@ -14144,7 +14637,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 1,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-10-15"
+   "ultimaAtualizacao": "2026-10-15",
+   "foco": null
   }
  },
  "selcopintide": {
@@ -14172,7 +14666,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "lefleuganan": {
@@ -14200,7 +14695,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "gersizangitide": {
@@ -14228,7 +14724,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "palsucibep-pegol": {
@@ -14256,7 +14753,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "peceleganan": {
@@ -14284,7 +14782,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pezadeftide": {
@@ -14312,7 +14811,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "rilunermin": {
@@ -14340,7 +14840,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "rimtoregtide": {
@@ -14368,7 +14869,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "sudocetaxel-zendusortide": {
@@ -14396,7 +14898,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "utreglutide": {
@@ -14424,7 +14927,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "zendusortide": {
@@ -14452,7 +14956,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pegloprastide": {
@@ -14480,7 +14985,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "eneboparatide": {
@@ -14508,7 +15014,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-09-29"
+   "ultimaAtualizacao": "2025-09-29",
+   "foco": null
   }
  },
  "elarekibep": {
@@ -14536,7 +15043,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-07-18"
+   "ultimaAtualizacao": "2023-07-18",
+   "foco": null
   }
  },
  "ensereptide": {
@@ -14564,7 +15072,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "palopegteriparatide": {
@@ -14623,7 +15132,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 3,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "pexipepimut-s": {
@@ -14651,7 +15161,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "polymyxin-b": {
@@ -14691,7 +15202,8 @@ const APROVACOES_AUTO = {
    "fase2": 11,
    "fase3": 18,
    "recrutando": 10,
-   "ultimaAtualizacao": "2026-10-29"
+   "ultimaAtualizacao": "2026-10-29",
+   "foco": null
   }
  },
  "voclosporin": {
@@ -14731,7 +15243,8 @@ const APROVACOES_AUTO = {
    "fase2": 8,
    "fase3": 11,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-10-20"
+   "ultimaAtualizacao": "2026-10-20",
+   "foco": null
   }
  },
  "fequesetide": {
@@ -14759,7 +15272,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "milpocitide": {
@@ -14787,7 +15301,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pimrocktakin-bovine": {
@@ -14815,7 +15330,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ederimotide": {
@@ -14843,7 +15359,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "etimumotide": {
@@ -14871,7 +15388,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "imsamotide": {
@@ -14899,7 +15417,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "inpegsomatropin": {
@@ -14927,7 +15446,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 3,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-10-26"
+   "ultimaAtualizacao": "2026-10-26",
+   "foco": null
   }
  },
  "marlumotide": {
@@ -14955,7 +15475,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pegtarazimod": {
@@ -14983,7 +15504,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "quazomotide": {
@@ -15011,7 +15533,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "vorumotide": {
@@ -15039,7 +15562,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "efpegerglucagon": {
@@ -15067,7 +15591,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-08-26"
+   "ultimaAtualizacao": "2026-08-26",
+   "foco": null
   }
  },
  "enavermotide": {
@@ -15095,7 +15620,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ganipatide": {
@@ -15123,7 +15649,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "irucalantide": {
@@ -15151,7 +15678,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "limaresiquimod": {
@@ -15179,7 +15707,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "lucicebtide": {
@@ -15207,7 +15736,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "omramotide": {
@@ -15235,7 +15765,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "oximbomotide": {
@@ -15263,7 +15794,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pegmispotide": {
@@ -15291,7 +15823,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pobrolitide": {
@@ -15319,7 +15852,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "sucantomotide": {
@@ -15347,7 +15881,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ucasareotide-dasaroxetan": {
@@ -15375,7 +15910,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "vicatertide": {
@@ -15403,7 +15939,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "visepegenatide": {
@@ -15431,7 +15968,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "zalfermin": {
@@ -15459,7 +15997,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "zaloganan": {
@@ -15487,7 +16026,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "zeleciment-basivarsen": {
@@ -15515,7 +16055,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "zelenectide": {
@@ -15543,7 +16084,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-29"
+   "ultimaAtualizacao": "2026-10-29",
+   "foco": null
   }
  },
  "zelenectide-pevedotin": {
@@ -15571,7 +16113,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-29"
+   "ultimaAtualizacao": "2026-10-29",
+   "foco": null
   }
  },
  "cn-105": {
@@ -15599,7 +16142,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-16"
+   "ultimaAtualizacao": "2024-10-16",
+   "foco": null
   }
  },
  "invopressin": {
@@ -15627,7 +16171,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "dapiglutide": {
@@ -15655,7 +16200,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-05-06"
+   "ultimaAtualizacao": "2025-05-06",
+   "foco": null
   }
  },
  "froniglutide": {
@@ -15683,7 +16229,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-09-13"
+   "ultimaAtualizacao": "2023-09-13",
+   "foco": null
   }
  },
  "lsalt-peptide": {
@@ -15711,7 +16258,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-06-12"
+   "ultimaAtualizacao": "2026-06-12",
+   "foco": null
   }
  },
  "certepetide": {
@@ -15739,7 +16287,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-09-28"
+   "ultimaAtualizacao": "2026-09-28",
+   "foco": null
   }
  },
  "nisotirostide": {
@@ -15767,7 +16316,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "enlicitide-chloride": {
@@ -15795,7 +16345,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-08-19"
+   "ultimaAtualizacao": "2026-08-19",
+   "foco": null
   }
  },
  "lead-212pb-bamzireotide-navoxetan": {
@@ -15823,7 +16374,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "lead-212pb-lapemelanotide-zapixetan": {
@@ -15851,7 +16403,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "azirkitug": {
@@ -15879,7 +16432,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-06-23"
+   "ultimaAtualizacao": "2026-06-23",
+   "foco": null
   }
  },
  "bofanglutide": {
@@ -15907,7 +16461,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-06-05"
+   "ultimaAtualizacao": "2026-06-05",
+   "foco": null
   }
  },
  "brivekimig": {
@@ -15935,7 +16490,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 0,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "lorutengitide": {
@@ -15963,7 +16519,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "mifomelatide": {
@@ -15991,7 +16548,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-07-15"
+   "ultimaAtualizacao": "2026-07-15",
+   "foco": null
   }
  },
  "olatorepatide": {
@@ -16019,7 +16577,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 1,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "paluratide": {
@@ -16047,7 +16606,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "sonefpeglutide": {
@@ -16075,7 +16635,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-08-12"
+   "ultimaAtualizacao": "2026-08-12",
+   "foco": null
   }
  },
  "vezocolmitide": {
@@ -16103,7 +16664,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-01-18"
+   "ultimaAtualizacao": "2024-01-18",
+   "foco": null
   }
  },
  "zifogaptide": {
@@ -16131,7 +16693,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "amezosvatein": {
@@ -16159,7 +16722,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-09-30"
+   "ultimaAtualizacao": "2025-09-30",
+   "foco": null
   }
  },
  "canvuparatide": {
@@ -16187,7 +16751,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-29"
+   "ultimaAtualizacao": "2026-10-29",
+   "foco": null
   }
  },
  "efmedaglutide": {
@@ -16215,7 +16780,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "glemtimbetasin": {
@@ -16243,7 +16809,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "vensemaglutide": {
@@ -16271,7 +16838,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "xelafaslatide": {
@@ -16299,7 +16867,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "noraramtide": {
@@ -16327,7 +16896,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "etimupepimut": {
@@ -16355,7 +16925,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "imsapepimut": {
@@ -16383,7 +16954,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "actinium-ac-225-dotatate": {
@@ -16411,7 +16983,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-05"
+   "ultimaAtualizacao": "2026-10-05",
+   "foco": null
   }
  },
  "enlicitide-decanoate": {
@@ -16439,7 +17012,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 8,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "spx-101": {
@@ -16467,7 +17041,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-31"
+   "ultimaAtualizacao": "2024-10-31",
+   "foco": null
   }
  },
  "adrenomedullin": {
@@ -16495,7 +17070,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 0,
    "recrutando": 6,
-   "ultimaAtualizacao": "2026-10-26"
+   "ultimaAtualizacao": "2026-10-26",
+   "foco": null
   }
  },
  "chf-6467": {
@@ -16523,7 +17099,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-27"
+   "ultimaAtualizacao": "2026-10-27",
+   "foco": null
   }
  },
  "irl-201104": {
@@ -16551,7 +17128,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-09-21"
+   "ultimaAtualizacao": "2026-09-21",
+   "foco": null
   }
  },
  "gelsolin": {
@@ -16579,7 +17157,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-20"
+   "ultimaAtualizacao": "2026-10-20",
+   "foco": null
   }
  },
  "lead-bamzireotide-navoxetan": {
@@ -16607,7 +17186,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "lead-lapemelanotide-zapixetan": {
@@ -16635,7 +17215,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "actinium-dotatate": {
@@ -16663,7 +17244,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "enlicitide": {
@@ -16691,7 +17273,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 8,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "protirelin": {
@@ -16738,7 +17321,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 5,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-02-21"
+   "ultimaAtualizacao": "2023-02-21",
+   "foco": null
   }
  },
  "angiotensin-ii": {
@@ -16779,7 +17363,8 @@ const APROVACOES_AUTO = {
    "fase2": 71,
    "fase3": 55,
    "recrutando": 41,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "cilengitide": {
@@ -16807,7 +17392,8 @@ const APROVACOES_AUTO = {
    "fase2": 16,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-04-14"
+   "ultimaAtualizacao": "2026-04-14",
+   "foco": null
   }
  },
  "efegatran": {
@@ -16835,7 +17421,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "rotigaptide": {
@@ -16863,7 +17450,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-09-25"
+   "ultimaAtualizacao": "2025-09-25",
+   "foco": null
   }
  },
  "nerinetide": {
@@ -16891,7 +17479,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 3,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-06-22"
+   "ultimaAtualizacao": "2025-06-22",
+   "foco": null
   }
  },
  "telavancin": {
@@ -16931,7 +17520,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 5,
    "recrutando": 1,
-   "ultimaAtualizacao": "2025-12-26"
+   "ultimaAtualizacao": "2025-12-26",
+   "foco": null
   }
  },
  "tt-232": {
@@ -16959,7 +17549,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "tyrothricin": {
@@ -17018,7 +17609,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 2,
-   "ultimaAtualizacao": "2025-07-10"
+   "ultimaAtualizacao": "2025-07-10",
+   "foco": null
   }
  },
  "ang1005": {
@@ -17046,7 +17638,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-04-24"
+   "ultimaAtualizacao": "2023-04-24",
+   "foco": null
   }
  },
  "valspodar": {
@@ -17074,7 +17667,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 4,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-06-15"
+   "ultimaAtualizacao": "2023-06-15",
+   "foco": null
   }
  },
  "bacitracin": {
@@ -17109,7 +17703,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 8,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-10-26"
+   "ultimaAtualizacao": "2026-10-26",
+   "foco": null
   }
  },
  "lypressin": {
@@ -17137,7 +17732,8 @@ const APROVACOES_AUTO = {
    "fase2": 19,
    "fase3": 17,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-10-13"
+   "ultimaAtualizacao": "2026-10-13",
+   "foco": null
   }
  },
  "ceruletide": {
@@ -17165,7 +17761,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "corticorelin-triflutate": {
@@ -17193,7 +17790,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-04-09"
+   "ultimaAtualizacao": "2026-04-09",
+   "foco": null
   }
  },
  "nesiritide": {
@@ -17228,7 +17826,8 @@ const APROVACOES_AUTO = {
    "fase2": 33,
    "fase3": 20,
    "recrutando": 18,
-   "ultimaAtualizacao": "2026-11-05"
+   "ultimaAtualizacao": "2026-11-05",
+   "foco": null
   }
  },
  "seractide": {
@@ -17256,7 +17855,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ecallantide": {
@@ -17289,7 +17889,8 @@ const APROVACOES_AUTO = {
    "fase2": 8,
    "fase3": 4,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-03-31"
+   "ultimaAtualizacao": "2023-03-31",
+   "foco": null
   }
  },
  "bleomycin-a6": {
@@ -17317,7 +17918,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2015-12-22"
+   "ultimaAtualizacao": "2015-12-22",
+   "foco": null
   }
  },
  "glp-1": {
@@ -17345,7 +17947,8 @@ const APROVACOES_AUTO = {
    "fase2": 393,
    "fase3": 312,
    "recrutando": 322,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "scy-635": {
@@ -17373,7 +17976,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2014-11-06"
+   "ultimaAtualizacao": "2014-11-06",
+   "foco": null
   }
  },
  "omiganan": {
@@ -17401,7 +18005,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 6,
    "recrutando": 0,
-   "ultimaAtualizacao": "2022-08-02"
+   "ultimaAtualizacao": "2022-08-02",
+   "foco": null
   }
  },
  "alisporivir": {
@@ -17429,7 +18034,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 5,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-05-11"
+   "ultimaAtualizacao": "2023-05-11",
+   "foco": null
   }
  },
  "nim811": {
@@ -17457,7 +18063,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2020-12-19"
+   "ultimaAtualizacao": "2020-12-19",
+   "foco": null
   }
  },
  "selepressin": {
@@ -17485,7 +18092,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-04-06"
+   "ultimaAtualizacao": "2021-04-06",
+   "foco": null
   }
  },
  "ornipressin": {
@@ -17513,7 +18121,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "somatostatin": {
@@ -17541,7 +18150,8 @@ const APROVACOES_AUTO = {
    "fase2": 117,
    "fase3": 57,
    "recrutando": 55,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "nepadutant": {
@@ -17569,7 +18179,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-05-06"
+   "ultimaAtualizacao": "2023-05-06",
+   "foco": null
   }
  },
  "livoletide": {
@@ -17597,7 +18208,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-02-17"
+   "ultimaAtualizacao": "2021-02-17",
+   "foco": null
   }
  },
  "cosyntropin": {
@@ -17631,7 +18243,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 3,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-10-08"
+   "ultimaAtualizacao": "2026-10-08",
+   "foco": null
   }
  },
  "sinapultide": {
@@ -17666,7 +18279,8 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-06-23"
+   "ultimaAtualizacao": "2023-06-23",
+   "foco": null
   }
  },
  "tosactide": {
@@ -17694,7 +18308,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ularitide": {
@@ -17722,7 +18337,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-05-18"
+   "ultimaAtualizacao": "2023-05-18",
+   "foco": null
   }
  },
  "amphomycin": {
@@ -17750,7 +18366,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "tricosactide": {
@@ -17778,7 +18395,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "norleusactide": {
@@ -17806,7 +18424,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "teverelix": {
@@ -17834,7 +18453,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-03"
+   "ultimaAtualizacao": "2026-11-03",
+   "foco": null
   }
  },
  "deltibant": {
@@ -17862,7 +18482,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "semparatide": {
@@ -17890,7 +18511,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "avorelin": {
@@ -17918,7 +18540,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "codactide": {
@@ -17946,7 +18569,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "aspartocin": {
@@ -17974,7 +18598,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "carperitide": {
@@ -18002,7 +18627,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2016-11-08"
+   "ultimaAtualizacao": "2016-11-08",
+   "foco": null
   }
  },
  "cemadotin": {
@@ -18030,7 +18656,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "elcatonin": {
@@ -18058,7 +18685,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-06-26"
+   "ultimaAtualizacao": "2026-06-26",
+   "foco": null
   }
  },
  "thymocartin": {
@@ -18086,7 +18714,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "azetirelin": {
@@ -18114,7 +18743,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "posatirelin": {
@@ -18142,7 +18772,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "thymotrinan": {
@@ -18170,7 +18801,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "triletide": {
@@ -18198,7 +18830,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "davalintide": {
@@ -18226,7 +18859,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2015-01-19"
+   "ultimaAtualizacao": "2015-01-19",
+   "foco": null
   }
  },
  "dirucotide": {
@@ -18254,7 +18888,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 4,
    "recrutando": 0,
-   "ultimaAtualizacao": "2010-09-09"
+   "ultimaAtualizacao": "2010-09-09",
+   "foco": null
   }
  },
  "efepristin": {
@@ -18282,7 +18917,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "iseganan": {
@@ -18310,7 +18946,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2014-10-15"
+   "ultimaAtualizacao": "2014-10-15",
+   "foco": null
   }
  },
  "labradimil": {
@@ -18338,7 +18975,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2014-02-21"
+   "ultimaAtualizacao": "2014-02-21",
+   "foco": null
   }
  },
  "ambomycin": {
@@ -18366,7 +19004,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "thymoctonan": {
@@ -18394,7 +19033,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "casokefamide": {
@@ -18422,7 +19062,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ebiratide": {
@@ -18450,7 +19091,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "desglugastrin": {
@@ -18478,7 +19120,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "detirelix": {
@@ -18506,7 +19149,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "nonathymulin": {
@@ -18534,7 +19178,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "taltirelin": {
@@ -18562,7 +19207,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-07-24"
+   "ultimaAtualizacao": "2023-07-24",
+   "foco": null
   }
  },
  "corticorelin": {
@@ -18590,7 +19236,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 3,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "rusalatide": {
@@ -18618,7 +19265,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2010-08-24"
+   "ultimaAtualizacao": "2010-08-24",
+   "foco": null
   }
  },
  "tasidotin": {
@@ -18646,7 +19294,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2015-03-05"
+   "ultimaAtualizacao": "2015-03-05",
+   "foco": null
   }
  },
  "geclosporin": {
@@ -18674,7 +19323,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "edratide": {
@@ -18702,7 +19352,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2011-04-12"
+   "ultimaAtualizacao": "2011-04-12",
+   "foco": null
   }
  },
  "icrocaptide": {
@@ -18730,7 +19381,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "nemifitide": {
@@ -18758,7 +19410,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "dulanermin": {
@@ -18786,7 +19439,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2017-03-20"
+   "ultimaAtualizacao": "2017-03-20",
+   "foco": null
   }
  },
  "denenicokin": {
@@ -18814,7 +19468,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-08-14"
+   "ultimaAtualizacao": "2023-08-14",
+   "foco": null
   }
  },
  "taspoglutide": {
@@ -18842,7 +19497,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 10,
    "recrutando": 0,
-   "ultimaAtualizacao": "2016-11-04"
+   "ultimaAtualizacao": "2016-11-04",
+   "foco": null
   }
  },
  "somatosalm": {
@@ -18870,7 +19526,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "somenopor": {
@@ -18898,7 +19555,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "peforelin": {
@@ -18926,7 +19584,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "sulglicotide": {
@@ -18954,7 +19613,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "somagrebove": {
@@ -18982,7 +19642,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "sometribove": {
@@ -19010,7 +19671,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "plusonermin": {
@@ -19038,7 +19700,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ersofermin": {
@@ -19066,7 +19729,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "elpamotide": {
@@ -19094,7 +19758,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "lenomorelin": {
@@ -19122,7 +19787,8 @@ const APROVACOES_AUTO = {
    "fase2": 27,
    "fase3": 10,
    "recrutando": 13,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "tertomotide": {
@@ -19150,7 +19816,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-06-10"
+   "ultimaAtualizacao": "2026-06-10",
+   "foco": null
   }
  },
  "ozarelix": {
@@ -19178,7 +19845,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-11-22"
+   "ultimaAtualizacao": "2021-11-22",
+   "foco": null
   }
  },
  "nepidermin": {
@@ -19206,7 +19874,8 @@ const APROVACOES_AUTO = {
    "fase2": 239,
    "fase3": 88,
    "recrutando": 102,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "elsiglutide": {
@@ -19234,7 +19903,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-03-01"
+   "ultimaAtualizacao": "2024-03-01",
+   "foco": null
   }
  },
  "lancovutide": {
@@ -19262,7 +19932,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2009-08-27"
+   "ultimaAtualizacao": "2009-08-27",
+   "foco": null
   }
  },
  "obinepitide": {
@@ -19290,7 +19961,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "tridecactide": {
@@ -19318,7 +19990,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-08-13"
+   "ultimaAtualizacao": "2024-08-13",
+   "foco": null
   }
  },
  "disitertide": {
@@ -19346,7 +20019,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "dumorelin": {
@@ -19374,7 +20048,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "leconotide": {
@@ -19402,7 +20077,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "mobenakin": {
@@ -19430,7 +20106,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "delmitide": {
@@ -19458,7 +20135,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "tifuvirtide": {
@@ -19486,7 +20164,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "somavubove": {
@@ -19514,7 +20193,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "sometripor": {
@@ -19542,7 +20222,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "somidobove": {
@@ -19570,7 +20251,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-08-21"
+   "ultimaAtualizacao": "2026-08-21",
+   "foco": null
   }
  },
  "cenderitide": {
@@ -19598,7 +20280,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-03-10"
+   "ultimaAtualizacao": "2021-03-10",
+   "foco": null
   }
  },
  "somalapor": {
@@ -19626,7 +20309,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "somatorelin": {
@@ -19654,7 +20338,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "sonermin": {
@@ -19689,7 +20374,8 @@ const APROVACOES_AUTO = {
    "fase2": 51,
    "fase3": 40,
    "recrutando": 14,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "tiplimotide": {
@@ -19717,7 +20403,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "anaritide": {
@@ -19745,7 +20432,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "argipressin": {
@@ -19773,7 +20461,8 @@ const APROVACOES_AUTO = {
    "fase2": 62,
    "fase3": 63,
    "recrutando": 40,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "atexakin": {
@@ -19801,7 +20490,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "amlintide": {
@@ -19829,7 +20519,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-04-01"
+   "ultimaAtualizacao": "2026-04-01",
+   "foco": null
   }
  },
  "betiatide": {
@@ -19857,7 +20548,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "doreptide": {
@@ -19885,7 +20577,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "gonadotropin-serum": {
@@ -19913,7 +20606,8 @@ const APROVACOES_AUTO = {
    "fase2": 37,
    "fase3": 14,
    "recrutando": 13,
-   "ultimaAtualizacao": "2026-10-23"
+   "ultimaAtualizacao": "2026-10-23",
+   "foco": null
   }
  },
  "murodermin": {
@@ -19941,7 +20635,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pareptide": {
@@ -19969,7 +20664,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "enviomycin": {
@@ -19997,7 +20693,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-02-03"
+   "ultimaAtualizacao": "2025-02-03",
+   "foco": null
   }
  },
  "procalcitonin": {
@@ -20025,7 +20722,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 10,
    "recrutando": 22,
-   "ultimaAtualizacao": "2026-11-09"
+   "ultimaAtualizacao": "2026-11-09",
+   "foco": null
   }
  },
  "lagatide": {
@@ -20053,7 +20751,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cargutocin": {
@@ -20081,7 +20780,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "barusiban": {
@@ -20109,7 +20809,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2017-06-21"
+   "ultimaAtualizacao": "2017-06-21",
+   "foco": null
   }
  },
  "nacartocin": {
@@ -20137,7 +20838,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "lusupultide": {
@@ -20165,7 +20867,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "capreomycin": {
@@ -20193,7 +20896,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2025-12-02"
+   "ultimaAtualizacao": "2025-12-02",
+   "foco": null
   }
  },
  "arfalasin": {
@@ -20221,7 +20925,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "metkephamid": {
@@ -20249,7 +20954,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "pentigetide": {
@@ -20277,7 +20983,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "montirelin": {
@@ -20305,7 +21012,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-09-30"
+   "ultimaAtualizacao": "2026-09-30",
+   "foco": null
   }
  },
  "atilmotin": {
@@ -20333,7 +21041,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "giractide": {
@@ -20361,7 +21070,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "argiprestocin": {
@@ -20389,7 +21099,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "lutrelin": {
@@ -20417,7 +21128,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "surotomycin": {
@@ -20445,7 +21157,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2022-08-22"
+   "ultimaAtualizacao": "2022-08-22",
+   "foco": null
   }
  },
  "tecemotide": {
@@ -20473,7 +21186,8 @@ const APROVACOES_AUTO = {
    "fase2": 8,
    "fase3": 4,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-07-07"
+   "ultimaAtualizacao": "2023-07-07",
+   "foco": null
   }
  },
  "tigapotide": {
@@ -20501,7 +21215,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2009-03-30"
+   "ultimaAtualizacao": "2009-03-30",
+   "foco": null
   }
  },
  "viomycin": {
@@ -20529,7 +21244,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "benpenolisin": {
@@ -20557,7 +21273,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "felypressin": {
@@ -20585,7 +21302,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2020-01-22"
+   "ultimaAtualizacao": "2020-01-22",
+   "foco": null
   }
  },
  "sovatelitide": {
@@ -20613,7 +21331,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "fertirelin": {
@@ -20641,7 +21360,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "dalbavancin": {
@@ -20682,7 +21402,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 9,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-10-05"
+   "ultimaAtualizacao": "2026-10-05",
+   "foco": null
   }
  },
  "vapreotide": {
@@ -20710,7 +21431,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2010-08-10"
+   "ultimaAtualizacao": "2010-08-10",
+   "foco": null
   }
  },
  "rapastinel": {
@@ -20738,7 +21460,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 10,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-04-20"
+   "ultimaAtualizacao": "2023-04-20",
+   "foco": null
   }
  },
  "ctce-9908": {
@@ -20766,7 +21489,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "zoptarelin-doxorubicin": {
@@ -20794,7 +21518,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2018-07-31"
+   "ultimaAtualizacao": "2018-07-31",
+   "foco": null
   }
  },
  "tavilermide": {
@@ -20822,7 +21547,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 5,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-06-10"
+   "ultimaAtualizacao": "2024-06-10",
+   "foco": null
   }
  },
  "fexapotide": {
@@ -20850,7 +21576,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 5,
    "recrutando": 0,
-   "ultimaAtualizacao": "2022-05-26"
+   "ultimaAtualizacao": "2022-05-26",
+   "foco": null
   }
  },
  "modimelanotide": {
@@ -20878,7 +21605,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "dolcanatide": {
@@ -20906,7 +21634,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-06-14"
+   "ultimaAtualizacao": "2021-06-14",
+   "foco": null
   }
  },
  "etelcalcetide": {
@@ -20946,7 +21675,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 9,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-08-21"
+   "ultimaAtualizacao": "2026-08-21",
+   "foco": null
   }
  },
  "dusquetide": {
@@ -20974,7 +21704,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-08-26"
+   "ultimaAtualizacao": "2026-08-26",
+   "foco": null
   }
  },
  "recanaclotide": {
@@ -21002,7 +21733,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ruclosporin": {
@@ -21030,7 +21762,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "fexapotide-triflutate": {
@@ -21058,7 +21791,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "murepavadin": {
@@ -21086,7 +21820,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-08-28"
+   "ultimaAtualizacao": "2019-08-28",
+   "foco": null
   }
  },
  "pl-8177": {
@@ -21114,7 +21849,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-03-05"
+   "ultimaAtualizacao": "2025-03-05",
+   "foco": null
   }
  },
  "forigerimod": {
@@ -21142,7 +21878,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-04-11"
+   "ultimaAtualizacao": "2019-04-11",
+   "foco": null
   }
  },
  "alsactide": {
@@ -21170,7 +21907,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "iturelix": {
@@ -21198,7 +21936,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "frakefamide": {
@@ -21226,7 +21965,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "fluciclatide-f-18": {
@@ -21254,7 +21994,8 @@ const APROVACOES_AUTO = {
    "fase2": 8,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-12-17"
+   "ultimaAtualizacao": "2019-12-17",
+   "foco": null
   }
  },
  "basifungin": {
@@ -21282,7 +22023,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "maraciclatide": {
@@ -21310,7 +22052,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-24"
+   "ultimaAtualizacao": "2024-10-24",
+   "foco": null
   }
  },
  "colimecycline": {
@@ -21338,7 +22081,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ramorelix": {
@@ -21366,7 +22110,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "apimostinel": {
@@ -21394,7 +22139,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-08-10"
+   "ultimaAtualizacao": "2026-08-10",
+   "foco": null
   }
  },
  "veldoreotide": {
@@ -21422,7 +22168,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-10-24"
+   "ultimaAtualizacao": "2019-10-24",
+   "foco": null
   }
  },
  "reltecimod": {
@@ -21450,7 +22197,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-10-12"
+   "ultimaAtualizacao": "2021-10-12",
+   "foco": null
   }
  },
  "pegilodecakin": {
@@ -21478,7 +22226,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-02"
+   "ultimaAtualizacao": "2026-10-02",
+   "foco": null
   }
  },
  "fluciclatide": {
@@ -21506,7 +22255,8 @@ const APROVACOES_AUTO = {
    "fase2": 8,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-12-17"
+   "ultimaAtualizacao": "2019-12-17",
+   "foco": null
   }
  },
  "ociltide": {
@@ -21534,7 +22284,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "albuvirtide": {
@@ -21562,7 +22313,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-07-27"
+   "ultimaAtualizacao": "2026-07-27",
+   "foco": null
   }
  },
  "amy-101": {
@@ -21590,7 +22342,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-02-21"
+   "ultimaAtualizacao": "2021-02-21",
+   "foco": null
   }
  },
  "foxy-5": {
@@ -21618,7 +22371,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2022-12-09"
+   "ultimaAtualizacao": "2022-12-09",
+   "foco": null
   }
  },
  "bezisterim": {
@@ -21646,7 +22400,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-09-22"
+   "ultimaAtualizacao": "2026-09-22",
+   "foco": null
   }
  },
  "nerofe": {
@@ -21674,7 +22429,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-03-06"
+   "ultimaAtualizacao": "2026-03-06",
+   "foco": null
   }
  },
  "pl-3994": {
@@ -21702,7 +22458,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-12-15"
+   "ultimaAtualizacao": "2025-12-15",
+   "foco": null
   }
  },
  "pz-128": {
@@ -21730,7 +22487,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-04-16"
+   "ultimaAtualizacao": "2025-04-16",
+   "foco": null
   }
  },
  "brimapitide-c-terminal-acid": {
@@ -21758,7 +22516,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cbp-501": {
@@ -21786,7 +22545,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-08-15"
+   "ultimaAtualizacao": "2023-08-15",
+   "foco": null
   }
  },
  "ser-100": {
@@ -21814,7 +22574,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2016-10-20"
+   "ultimaAtualizacao": "2016-10-20",
+   "foco": null
   }
  },
  "trv-120027": {
@@ -21842,7 +22603,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-01-22"
+   "ultimaAtualizacao": "2025-01-22",
+   "foco": null
   }
  },
  "atn-161": {
@@ -21870,7 +22632,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2012-05-02"
+   "ultimaAtualizacao": "2012-05-02",
+   "foco": null
   }
  },
  "zetomipzomib": {
@@ -21898,7 +22661,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-01-13"
+   "ultimaAtualizacao": "2026-01-13",
+   "foco": null
   }
  },
  "risuteganib": {
@@ -21926,7 +22690,8 @@ const APROVACOES_AUTO = {
    "fase2": 6,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2020-07-08"
+   "ultimaAtualizacao": "2020-07-08",
+   "foco": null
   }
  },
  "satoreotide-tetraxetan": {
@@ -21954,7 +22719,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-07-19"
+   "ultimaAtualizacao": "2023-07-19",
+   "foco": null
   }
  },
  "satoreotide-trizoxetan": {
@@ -21982,7 +22748,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2022-09-13"
+   "ultimaAtualizacao": "2022-09-13",
+   "foco": null
   }
  },
  "troriluzole": {
@@ -22010,7 +22777,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 8,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "mibenratide": {
@@ -22038,7 +22806,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "ruxotemitide": {
@@ -22066,7 +22835,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-09-10"
+   "ultimaAtualizacao": "2026-09-10",
+   "foco": null
   }
  },
  "brimapitide": {
@@ -22094,7 +22864,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2020-08-07"
+   "ultimaAtualizacao": "2020-08-07",
+   "foco": null
   }
  },
  "nogapendekin": {
@@ -22134,7 +22905,8 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 4,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "anfibatide": {
@@ -22162,7 +22934,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-10-21"
+   "ultimaAtualizacao": "2026-10-21",
+   "foco": null
   }
  },
  "bulevirtide": {
@@ -22202,7 +22975,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 4,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "dalazatide": {
@@ -22230,7 +23004,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2015-05-18"
+   "ultimaAtualizacao": "2015-05-18",
+   "foco": null
   }
  },
  "onvitrelin-ucalontide": {
@@ -22258,7 +23033,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "nangibotide": {
@@ -22286,7 +23062,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-02-10"
+   "ultimaAtualizacao": "2025-02-10",
+   "foco": null
   }
  },
  "somatrogon": {
@@ -22339,7 +23116,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 4,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "efmitermant": {
@@ -22367,7 +23145,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "solnatide": {
@@ -22395,7 +23174,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-05-14"
+   "ultimaAtualizacao": "2025-05-14",
+   "foco": null
   }
  },
  "taldefgrobep": {
@@ -22423,7 +23203,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-06-01"
+   "ultimaAtualizacao": "2026-06-01",
+   "foco": null
   }
  },
  "aclerastide": {
@@ -22451,7 +23232,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-04-04"
+   "ultimaAtualizacao": "2019-04-04",
+   "foco": null
   }
  },
  "avexitide": {
@@ -22479,7 +23261,8 @@ const APROVACOES_AUTO = {
    "fase2": 10,
    "fase3": 1,
    "recrutando": 7,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "penetratin": {
@@ -22507,7 +23290,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "gi-heptapeptide": {
@@ -22535,7 +23319,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2017-12-05"
+   "ultimaAtualizacao": "2017-12-05",
+   "foco": null
   }
  },
  "peptide-b27pd": {
@@ -22563,7 +23348,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2018-09-11"
+   "ultimaAtualizacao": "2018-09-11",
+   "foco": null
   }
  },
  "anx-042": {
@@ -22591,7 +23377,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-11-15"
+   "ultimaAtualizacao": "2024-11-15",
+   "foco": null
   }
  },
  "glucagon-like-peptide-1": {
@@ -22619,7 +23406,8 @@ const APROVACOES_AUTO = {
    "fase2": 308,
    "fase3": 252,
    "recrutando": 196,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "rusfertide": {
@@ -22652,7 +23440,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 2,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-19"
+   "ultimaAtualizacao": "2026-10-19",
+   "foco": null
   }
  },
  "nendratareotide-uzatansine": {
@@ -22680,7 +23469,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "zelpultide": {
@@ -22708,7 +23498,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-09"
+   "ultimaAtualizacao": "2026-10-09",
+   "foco": null
   }
  },
  "bms-686117": {
@@ -22736,7 +23527,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2009-03-16"
+   "ultimaAtualizacao": "2009-03-16",
+   "foco": null
   }
  },
  "pegloxenatide": {
@@ -22764,7 +23556,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "sulanemadlin": {
@@ -22792,7 +23585,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "cobitolimod": {
@@ -22820,7 +23614,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 2,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-12-27"
+   "ultimaAtualizacao": "2023-12-27",
+   "foco": null
   }
  },
  "peltopepimut-s": {
@@ -22848,7 +23643,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "zetomipzomib-maleate": {
@@ -22876,7 +23672,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-11-18"
+   "ultimaAtualizacao": "2025-11-18",
+   "foco": null
   }
  },
  "bt-5528": {
@@ -22904,7 +23701,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-16"
+   "ultimaAtualizacao": "2026-10-16",
+   "foco": null
   }
  },
  "tindupepimut": {
@@ -22932,7 +23730,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "colulintide": {
@@ -22960,7 +23759,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "fulipiftide": {
@@ -22988,7 +23788,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "macupatide": {
@@ -23016,7 +23817,8 @@ const APROVACOES_AUTO = {
    "fase2": 3,
    "fase3": 0,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-10-09"
+   "ultimaAtualizacao": "2026-10-09",
+   "foco": null
   }
  },
  "alm-201": {
@@ -23044,7 +23846,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2019-09-11"
+   "ultimaAtualizacao": "2019-09-11",
+   "foco": null
   }
  },
  "bt-1718": {
@@ -23072,7 +23875,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-10-24"
+   "ultimaAtualizacao": "2024-10-24",
+   "foco": null
   }
  },
  "imcy-0098": {
@@ -23100,7 +23904,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2024-06-24"
+   "ultimaAtualizacao": "2024-06-24",
+   "foco": null
   }
  },
  "lti-03": {
@@ -23128,7 +23933,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "silk-fibroin": {
@@ -23156,7 +23962,8 @@ const APROVACOES_AUTO = {
    "fase2": 2,
    "fase3": 1,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-16"
+   "ultimaAtualizacao": "2026-10-16",
+   "foco": null
   }
  },
  "tifalibep": {
@@ -23184,7 +23991,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "g-3215": {
@@ -23212,7 +24020,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2020-12-23"
+   "ultimaAtualizacao": "2020-12-23",
+   "foco": null
   }
  },
  "rugecitide": {
@@ -23240,7 +24049,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "medi-7219": {
@@ -23268,7 +24078,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2020-08-31"
+   "ultimaAtualizacao": "2020-08-31",
+   "foco": null
   }
  },
  "bombesin": {
@@ -23296,7 +24107,8 @@ const APROVACOES_AUTO = {
    "fase2": 19,
    "fase3": 1,
    "recrutando": 2,
-   "ultimaAtualizacao": "2026-10-22"
+   "ultimaAtualizacao": "2026-10-22",
+   "foco": null
   }
  },
  "18f-fba-a20fmdv2": {
@@ -23324,7 +24136,8 @@ const APROVACOES_AUTO = {
    "fase2": null,
    "fase3": null,
    "recrutando": null,
-   "ultimaAtualizacao": null
+   "ultimaAtualizacao": null,
+   "foco": null
   }
  },
  "spr-741": {
@@ -23352,7 +24165,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2018-01-05"
+   "ultimaAtualizacao": "2018-01-05",
+   "foco": null
   }
  },
  "friulimicin-b": {
@@ -23380,7 +24194,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2008-07-23"
+   "ultimaAtualizacao": "2008-07-23",
+   "foco": null
   }
  },
  "fba-a20fmdv2": {
@@ -23408,7 +24223,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2025-05-18"
+   "ultimaAtualizacao": "2025-05-18",
+   "foco": null
   }
  },
  "gdc-0152": {
@@ -23436,7 +24252,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2017-06-21"
+   "ultimaAtualizacao": "2017-06-21",
+   "foco": null
   }
  },
  "tigapotide-triflutate": {
@@ -23464,7 +24281,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2009-03-30"
+   "ultimaAtualizacao": "2009-03-30",
+   "foco": null
   }
  },
  "mmi-0100": {
@@ -23492,7 +24310,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2017-04-07"
+   "ultimaAtualizacao": "2017-04-07",
+   "foco": null
   }
  },
  "adh-1": {
@@ -23520,7 +24339,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 2,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-07-29"
+   "ultimaAtualizacao": "2026-07-29",
+   "foco": null
   }
  },
  "px-478": {
@@ -23548,7 +24368,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2018-05-17"
+   "ultimaAtualizacao": "2018-05-17",
+   "foco": null
   }
  },
  "sor-c13": {
@@ -23576,7 +24397,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2023-11-18"
+   "ultimaAtualizacao": "2023-11-18",
+   "foco": null
   }
  },
  "nbi-6024": {
@@ -23604,7 +24426,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2009-04-01"
+   "ultimaAtualizacao": "2009-04-01",
+   "foco": null
   }
  },
  "go-203-2c": {
@@ -23632,7 +24455,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "alfa-caroteno": {
@@ -23660,7 +24484,8 @@ const APROVACOES_AUTO = {
    "fase2": 14,
    "fase3": 9,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-08-25"
+   "ultimaAtualizacao": "2026-08-25",
+   "foco": null
   }
  },
  "omega-9": {
@@ -23688,7 +24513,8 @@ const APROVACOES_AUTO = {
    "fase2": 0,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2026-08-12"
+   "ultimaAtualizacao": "2026-08-12",
+   "foco": null
   }
  },
  "acido-oleico": {
@@ -23747,7 +24573,8 @@ const APROVACOES_AUTO = {
    "fase2": 27,
    "fase3": 10,
    "recrutando": 9,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "acido-malico": {
@@ -23775,7 +24602,8 @@ const APROVACOES_AUTO = {
    "fase2": 174,
    "fase3": 32,
    "recrutando": 15,
-   "ultimaAtualizacao": "2026-11-13"
+   "ultimaAtualizacao": "2026-11-13",
+   "foco": null
   }
  },
  "acido-lactico": {
@@ -23803,7 +24631,8 @@ const APROVACOES_AUTO = {
    "fase2": 172,
    "fase3": 162,
    "recrutando": 130,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "carotenoide": {
@@ -23831,7 +24660,8 @@ const APROVACOES_AUTO = {
    "fase2": 241,
    "fase3": 133,
    "recrutando": 51,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "benfotiamina": {
@@ -23890,7 +24720,8 @@ const APROVACOES_AUTO = {
    "fase2": 5,
    "fase3": 2,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-09-17"
+   "ultimaAtualizacao": "2026-09-17",
+   "foco": null
   }
  },
  "crocetina": {
@@ -23918,7 +24749,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 0,
-   "ultimaAtualizacao": "2021-12-16"
+   "ultimaAtualizacao": "2021-12-16",
+   "foco": null
   }
  },
  "flavonoide": {
@@ -23946,7 +24778,8 @@ const APROVACOES_AUTO = {
    "fase2": 139,
    "fase3": 50,
    "recrutando": 45,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "molibdenio": {
@@ -23993,7 +24826,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 3,
    "recrutando": 5,
-   "ultimaAtualizacao": "2026-09-16"
+   "ultimaAtualizacao": "2026-09-16",
+   "foco": null
   }
  },
  "diosmina": {
@@ -24034,7 +24868,8 @@ const APROVACOES_AUTO = {
    "fase2": 4,
    "fase3": 14,
    "recrutando": 9,
-   "ultimaAtualizacao": "2026-11-10"
+   "ultimaAtualizacao": "2026-11-10",
+   "foco": null
   }
  },
  "inositol": {
@@ -24093,7 +24928,8 @@ const APROVACOES_AUTO = {
    "fase2": 28,
    "fase3": 18,
    "recrutando": 16,
-   "ultimaAtualizacao": "2026-11-12"
+   "ultimaAtualizacao": "2026-11-12",
+   "foco": null
   }
  },
  "acido-lipoico": {
@@ -24121,7 +24957,8 @@ const APROVACOES_AUTO = {
    "fase2": 68,
    "fase3": 38,
    "recrutando": 18,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "acido-linoleico": {
@@ -24180,7 +25017,8 @@ const APROVACOES_AUTO = {
    "fase2": 15,
    "fase3": 6,
    "recrutando": 3,
-   "ultimaAtualizacao": "2026-11-09"
+   "ultimaAtualizacao": "2026-11-09",
+   "foco": null
   }
  },
  "cisteina": {
@@ -24214,7 +25052,8 @@ const APROVACOES_AUTO = {
    "fase2": 225,
    "fase3": 117,
    "recrutando": 50,
-   "ultimaAtualizacao": "2026-11-16"
+   "ultimaAtualizacao": "2026-11-16",
+   "foco": null
   }
  },
  "hesperidina": {
@@ -24267,7 +25106,8 @@ const APROVACOES_AUTO = {
    "fase2": 7,
    "fase3": 9,
    "recrutando": 8,
-   "ultimaAtualizacao": "2026-11-06"
+   "ultimaAtualizacao": "2026-11-06",
+   "foco": null
   }
  },
  "crisina": {
@@ -24295,7 +25135,8 @@ const APROVACOES_AUTO = {
    "fase2": 1,
    "fase3": 0,
    "recrutando": 1,
-   "ultimaAtualizacao": "2026-10-13"
+   "ultimaAtualizacao": "2026-10-13",
+   "foco": null
   }
  },
  "flavan-3-ol": {
@@ -24323,7 +25164,8 @@ const APROVACOES_AUTO = {
    "fase2": 9,
    "fase3": 1,
    "recrutando": 4,
-   "ultimaAtualizacao": "2026-10-29"
+   "ultimaAtualizacao": "2026-10-29",
+   "foco": null
   }
  }
 };

@@ -49,7 +49,25 @@ function aplicarAprovacoesAutomaticas() {
       p.status = `${tr("Nenhuma aprovação ativa localizada nas consultas concluídas")} (${consultados.join(", ")}). ${tr("Ausência de resultados não prova ausência de aprovação em outros países, indicações ou bases.")}`;
       if (Number.isFinite(estudos) && estudos > 0) p.status += ` ClinicalTrials.gov: ${estudos} ${tr("estudos registrados")} ${tr("com correspondência textual pelo nome")}.`;
     }
+    /* Fase de estudo: só sobe, nunca desce; só para peptídeos e hormônios; exige estudos em que o ativo é a intervenção. */
+    if (p.fase !== "Aprovado" && !["vitamina", "mineral", "suplemento"].includes(chaveTipo(p))) {
+      const alvo = faseDosEstudos(a.estudos?.foco);
+      const i = ORDEM_FASES.indexOf(p.fase);
+      if (alvo && i >= 0 && ORDEM_FASES.indexOf(alvo) > i) {
+        p.faseCatalogo = p.fase;
+        p.fase = alvo;
+        p.faseAutomatica = "estudos";
+      }
+    }
   });
+}
+const ORDEM_FASES = ["In vitro", "Pré-clínico (animais)", "Fase 1", "Fase 2", "Fase 3"];
+function faseDosEstudos(foco) {
+  if (!foco) return null;
+  if (foco.fase3 >= 2) return "Fase 3";
+  if (foco.fase2 >= 1) return "Fase 2";
+  if (foco.fase1 >= 1) return "Fase 1";
+  return null;
 }
 /* Os resultados de estudos são apresentados como sinais de pesquisa; busca por nome não altera sozinha a fase editorial. */
 /* Notas automáticas ficam em português; a tradução para outros idiomas é feita pelo Google Tradutor. */
@@ -331,7 +349,7 @@ function origemDe(p) {
   if (typeof DSLD_DADOS !== "undefined" && DSLD_DADOS.includes(s)) return ORIGENS.dsld;
   return ORIGENS.ia;
 }
-const htmlSelo = p => { const s = seloDe(p), o = origemDe(p); return `<span class="selo ${s.classe}" title="Critério: fase de desenvolvimento + nível de evidência">${s.icone} ${s.rotulo}</span> <span class="selo ${o.classe}" title="${o.dica}">${o.icone} ${o.rotulo}</span>`; };
+const htmlSelo = p => { const s = seloDe(p), o = origemDe(p); const f = p.faseAutomatica === "estudos" ? ` <span class="selo origem-auto" title="Fase do catálogo: ${esc(p.faseCatalogo)}. Atualizada automaticamente por estudos do ClinicalTrials.gov em que o ativo é a intervenção. Estar em estudo não significa que seja seguro ou indicado.">🔬 Fase atualizada automaticamente</span>` : ""; return `<span class="selo ${s.classe}" title="Critério: fase de desenvolvimento + nível de evidência">${s.icone} ${s.rotulo}</span> <span class="selo ${o.classe}" title="${o.dica}">${o.icone} ${o.rotulo}</span>${f}`; };
 const dataBR = iso => new Date(iso + "T12:00:00").toLocaleDateString(LOCALE);
 const htmlRevisao = () => `<small class="revisao">Conteúdo atualizado em ${dataBR(DATA_REVISAO)}</small>`;
 /* Etapas de desenvolvimento (a etapa atual vem do campo "fase") */
