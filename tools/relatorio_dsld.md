@@ -4,15 +4,12 @@ Gerado em 2026-11-16. Ativos de rótulos de suplementos no mercado dos EUA que a
 
 | Ativo | Tipo | Rótulos no mercado |
 |---|---|---|
-| Chlorophyll | Suplemento e metabólito | 66734 |
 | Silicic Acid | Suplemento e metabólito | 38772 |
 | Calcium magnesium phytate | Suplemento e metabólito | 27721 |
 | Calcium d-Glucarate | Suplemento e metabólito | 27679 |
 | Pantethine | Vitamina | 23815 |
 | Zeaxanthin | Suplemento e metabólito | 21501 |
 | Mixed Carotenoids | Suplemento e metabólito | 21411 |
-| Sodium | Suplemento e metabólito | 15981 |
-| Stearic Acid | Suplemento e metabólito | 15413 |
 | Pyridoxal alpha-ketoglutarate | Suplemento e metabólito | 15399 |
 | Magnesium Citrate | Suplemento e metabólito | 14579 |
 | Magnesium Malate | Suplemento e metabólito | 14373 |
@@ -23,7 +20,6 @@ Gerado em 2026-11-16. Ativos de rótulos de suplementos no mercado dos EUA que a
 | Phosphorus | Mineral | 13505 |
 | Zinc carnosine | Suplemento e metabólito | 13345 |
 | Zinc Picolinate | Suplemento e metabólito | 13335 |
-| Gamma-carotene | Suplemento e metabólito | 12339 |
 | Vitamin B2 | Vitamina | 10388 |
 | Isoleucyl-Prolyl-Proline | Suplemento e metabólito | 10107 |
 | Valyl-Prolyl-Proline | Suplemento e metabólito | 10107 |
@@ -32,7 +28,6 @@ Gerado em 2026-11-16. Ativos de rótulos de suplementos no mercado dos EUA que a
 | Sulbutiamine | Suplemento e metabólito | 8524 |
 | Macaenes | Suplemento e metabólito | 8204 |
 | Chromium Nicotinate | Suplemento e metabólito | 8021 |
-| Selenomethionine | Suplemento e metabólito | 7854 |
 | Carotenoid | Suplemento e metabólito | 7256 |
 | Neoxanthin | Suplemento e metabólito | 7256 |
 | Phytofluene | Suplemento e metabólito | 7256 |
@@ -126,7 +121,6 @@ Gerado em 2026-11-16. Ativos de rótulos de suplementos no mercado dos EUA que a
 | Huperzine-A | Suplemento e metabólito | 1193 |
 | Citrulline malate | Suplemento e metabólito | 1150 |
 | Glycyl-Alanyl-Lysine-L-Leucine | Suplemento e metabólito | 1136 |
-| Chlorophyllin | Suplemento e metabólito | 1134 |
 | Huperzine | Suplemento e metabólito | 1098 |
 | Capsanthin | Suplemento e metabólito | 1091 |
 | Epicatechin gallate | Suplemento e metabólito | 1088 |

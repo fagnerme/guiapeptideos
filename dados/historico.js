@@ -2,6 +2,27 @@
 const HISTORICO_AUTO = [
  {
   "data": "2026-11-16",
+  "slug": "terlipressina",
+  "nome": "Terlipressina",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-16",
+  "slug": "bivalirudina",
+  "nome": "Bivalirudina",
+  "tipo": "aprovacao",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-16",
+  "slug": "cerebrolisina",
+  "nome": "Cerebrolisina",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-16",
   "slug": "bivalirudina",
   "nome": "Bivalirudina",
   "tipo": "seguranca",
@@ -2078,26 +2099,5 @@ const HISTORICO_AUTO = [
   "nome": "Cafeína",
   "tipo": "aprovacao",
   "texto": "Situação ou registros na Health Canada mudaram: sem_registro → autorizado."
- },
- {
-  "data": "2026-11-16",
-  "slug": "cafeina",
-  "nome": "Cafeína",
-  "tipo": "conteudo",
-  "texto": "88 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-16",
-  "slug": "cafeina",
-  "nome": "Cafeína",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (0 → 460 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-16",
-  "slug": "colageno-hidrolisado",
-  "nome": "Colágeno hidrolisado",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 55; fase 1/2/3 0/0/0 → 2/0/0; recrutando 0 → 7; registro mais recente 2026-11-12."
  }
 ];

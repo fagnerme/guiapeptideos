@@ -765,3 +765,9 @@ Object.assign(EXTRA, {
 });
 
 var DSLD_DADOS = (typeof DSLD_DADOS !== "undefined" ? DSLD_DADOS : []).concat(["clorofila", "sodio", "acido-estearico", "gamacaroteno", "selenometionina"]);
+
+Object.assign(EXTRA, {
+  "Pantenol": ["Pantenol é um álcool, pré-cursor do ácido pantotênico que age como agente eutrófico da pele e mucosas. Sua deficiência pode significar descamação e despigmentação cutânea.", "Esta ficha é automática e não traz texto editorial sobre benefícios; consulte os estudos e as revisões nas fontes."],
+});
+
+var DSLD_DADOS = (typeof DSLD_DADOS !== "undefined" ? DSLD_DADOS : []).concat(["pantenol"]);
