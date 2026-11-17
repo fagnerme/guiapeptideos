@@ -1,6 +1,6 @@
-/* Configuração de anúncios. Preencha após a aprovação no Google AdSense. */
+/* Configuração de anúncios do Google AdSense. */
 const ADS_CONFIG = {
-  clientId: "",            // ex.: "ca-pub-1234567890123456"
+  clientId: "ca-pub-5947360009880377",
   slots: { topo: "", meio: "", rodape: "" } // IDs dos blocos criados no painel do AdSense
 };
 
