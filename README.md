@@ -6,7 +6,7 @@ Conteúdo exclusivamente educativo: não é recomendação médica nem sugere do
 ## Recursos
 - Catálogo com ~800 itens (peptídeos, hormônios, vitaminas, minerais, suplementos, medicamentos e biológicos), fichas, comparador e busca.
 - Espelho de órgãos reguladores, com coleta semanal automática e histórico em "Atualizações automáticas".
-- Calculadora (reconstituição e diluição de matéria-prima) e **Meus protocolos** (calendário, estoque, meia-vida).
+- Calculadoras em abas (reconstituição, UI ↔ mg e matéria-prima; link direto com `calculadora.html#conv` ou `#raw`, e a página lembra a última aba usada) e **Meus protocolos** (calendário, estoque, meia-vida).
 - App instalável (PWA) com uso offline. Lembretes de aplicação: notificações com o app aberto e agenda `.ics`.
 - Dados do usuário ficam só no aparelho (`localStorage`).
 

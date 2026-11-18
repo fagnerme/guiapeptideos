@@ -1082,3 +1082,14 @@ header .aviso,header p.aviso{display:block;max-width:44rem;margin:.9rem auto;pad
 /* A busca ocupa a linha toda; os seletores têm largura limitada para opções longas não espremerem os demais campos. */
 .filtros #busca{flex:1 1 100%;min-width:0}
 .filtros select{flex:0 1 16rem;min-width:0;max-width:100%;text-overflow:ellipsis}
+
+/* Calculadoras em abas */
+.calc-abas{position:sticky;top:0;z-index:5;display:flex;gap:.4rem;margin:.6rem 0;padding:.45rem 0;background:var(--bg)}
+.calc-abas button{flex:1 1 0;min-width:0;min-height:44px;padding:.5rem .6rem;border:2px solid transparent;border-radius:10px;background:var(--tag);color:var(--fg);font:inherit;font-weight:600;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.calc-abas button[aria-selected="true"]{background:#2563eb;border-color:#2563eb;color:#fff}
+.calc-abas button:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.calc-painel[hidden]{display:none!important}
+.calc-res{top:4.2rem}
+.calc-ajuda>summary{cursor:pointer}
+#conv .calc-ajuda{margin:.2rem 0 .8rem}
+@media(max-width:480px){.calc-abas{gap:.3rem}.calc-abas button{padding:.35rem .25rem;font-size:.82rem;line-height:1.15;white-space:normal;overflow-wrap:anywhere}}

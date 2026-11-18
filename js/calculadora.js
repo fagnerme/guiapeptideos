@@ -263,5 +263,36 @@ function rawCalcular() {
   } else rawMostrar("raw-b-", "", "");
 }
 document.querySelectorAll("#raw input, #raw select").forEach(i => i.addEventListener("input", rawCalcular));
+/* Abas: link direto (#conv, #raw) > link com cálculo (?p, ?c) > última aba usada > reconstituição */
+(function abas() {
+  const PAINEL = { reconst: "aba-reconst", conv: "conv", raw: "raw" }, CHAVE = "calc_aba_v1";
+  const nav = document.querySelector(".calc-abas"), bts = [...nav.querySelectorAll("[data-aba]")];
+  function abrir(aba, doUsuario) {
+    if (!PAINEL[aba]) aba = "reconst";
+    for (const b of bts) {
+      const sel = b.dataset.aba === aba;
+      b.setAttribute("aria-selected", sel); b.tabIndex = sel ? 0 : -1;
+      $c(PAINEL[b.dataset.aba]).hidden = !sel;
+    }
+    if (!doUsuario) return;
+    try { localStorage.setItem(CHAVE, aba); } catch { /* modo privado */ }
+    history.replaceState(null, "", aba === "reconst" ? location.pathname + location.search : "#" + aba);
+    const h2 = document.querySelector("main h2");
+    if (h2.getBoundingClientRect().top < 0) h2.scrollIntoView();
+  }
+  nav.addEventListener("click", e => { const b = e.target.closest("[data-aba]"); if (b) abrir(b.dataset.aba, true); });
+  nav.addEventListener("keydown", e => {
+    const i = bts.indexOf(document.activeElement), d = { ArrowRight: 1, ArrowLeft: -1 }[e.key];
+    if (i < 0 || !d) return;
+    const b = bts[(i + d + bts.length) % bts.length]; b.focus(); abrir(b.dataset.aba, true); e.preventDefault();
+  });
+  window.addEventListener("hashchange", () => abrir(location.hash.slice(1)));
+  const q = new URLSearchParams(location.search), h = location.hash.slice(1);
+  let salva = null; try { salva = localStorage.getItem(CHAVE); } catch { /* modo privado */ }
+  abrir(PAINEL[h] ? h : q.has("p") || q.has("c") ? "reconst" : salva);
+  // o cabeçalho do site ocupa boa parte da tela: a página já abre nas abas
+  const voltando = performance.getEntriesByType("navigation")[0]?.type === "back_forward";
+  if (!voltando) requestAnimationFrame(() => document.querySelector("main h2").scrollIntoView());
+})();
 desenharProt();
 desenhar();
