@@ -2,6 +2,11 @@
 const REVISAO_PENDENTE = {
  "tb-500-timosina-beta-4": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 18 → 18; fase 1/2/3 4/12/4 → 4/12/4; recrutando 1 → 1; registro mais recente 2026-11-12."
@@ -62,6 +67,12 @@ const REVISAO_PENDENTE = {
  ],
  "angiotensina-1-7": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 79 → 80; fase 1/2/3 17/32/8 → 17/32/8; recrutando 13 → 13; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-06",
    "tipo": "fase",
    "texto": "8 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
@@ -88,12 +99,23 @@ const REVISAO_PENDENTE = {
  ],
  "carnosina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 53 → 53; fase 1/2/3 4/9/4 → 4/9/4; recrutando 1 → 1; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-06",
    "tipo": "fase",
    "texto": "4 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
   }
  ],
  "nad": [
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -124,6 +146,17 @@ const REVISAO_PENDENTE = {
  ],
  "nicotinamida-ribosideo-nr": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 126 → 127; fase 1/2/3 20/48/5 → 20/48/5; recrutando 36 → 36; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 126 → 126; fase 1/2/3 20/48/5 → 20/48/5; recrutando 36 → 36; registro mais recente 2026-11-16."
@@ -135,6 +168,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "taurina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 156 → 157; fase 1/2/3 16/36/11 → 16/36/11; recrutando 16 → 16; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -152,6 +196,16 @@ const REVISAO_PENDENTE = {
   }
  ],
  "glicina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (472 → 479 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -174,6 +228,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "resveratrol": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 238 → 238; fase 1/2/3 33/40/18 → 33/40/18; recrutando 13 → 13; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (511 → 516 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -199,6 +264,12 @@ const REVISAO_PENDENTE = {
  ],
  "urolitina-a": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 36 → 36; fase 1/2/3 1/4/1 → 1/4/1; recrutando 7 → 7; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 35 → 36; fase 1/2/3 1/4/1 → 1/4/1; recrutando 7 → 7; registro mais recente 2026-11-16."
@@ -210,6 +281,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "espermidina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 24 → 25; fase 1/2/3 2/3/1 → 2/3/1; recrutando 4 → 4; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "conteudo",
@@ -242,6 +319,12 @@ const REVISAO_PENDENTE = {
  ],
  "quercetina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 135 → 135; fase 1/2/3 29/40/5 → 29/40/5; recrutando 16 → 16; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 135 → 135; fase 1/2/3 29/40/5 → 29/40/5; recrutando 16 → 16; registro mais recente 2026-11-16."
@@ -269,6 +352,12 @@ const REVISAO_PENDENTE = {
  ],
  "riboflavina-vitamina-b2": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 351 → 353; fase 1/2/3 24/75/76 → 24/75/76; recrutando 27 → 29; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 351 → 351; fase 1/2/3 24/75/76 → 24/75/76; recrutando 27 → 27; registro mais recente 2026-11-13."
@@ -280,6 +369,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "biotina-vitamina-b7": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -315,6 +409,12 @@ const REVISAO_PENDENTE = {
  ],
  "eloralintida": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 22 → 22; fase 1/2/3 10/4/8 → 10/4/8; recrutando 12 → 11; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 21 → 22; fase 1/2/3 9/4/8 → 10/4/8; recrutando 12 → 12; registro mais recente 2026-11-13."
@@ -334,6 +434,22 @@ const REVISAO_PENDENTE = {
  ],
  "semaglutida": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "3 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 806 → 808; fase 1/2/3 128/155/188 → 129/156/188; recrutando 182 → 184; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1086 → 1098 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 797 → 806; fase 1/2/3 127/153/186 → 128/155/188; recrutando 176 → 182; registro mais recente 2026-11-16."
@@ -346,6 +462,12 @@ const REVISAO_PENDENTE = {
  ],
  "gonadorelina-gnrh": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1164 → 1164; fase 1/2/3 103/408/300 → 103/408/300; recrutando 114 → 114; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1164 → 1164; fase 1/2/3 103/408/300 → 103/408/300; recrutando 115 → 114; registro mais recente 2026-11-16."
@@ -353,12 +475,24 @@ const REVISAO_PENDENTE = {
  ],
  "leuprorrelina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 520 → 520; fase 1/2/3 44/212/124 → 44/212/124; recrutando 55 → 55; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 520 → 520; fase 1/2/3 44/212/124 → 44/212/124; recrutando 55 → 55; registro mais recente 2026-11-16."
   }
  ],
  "octreotida": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 328 → 328; fase 1/2/3 49/111/74 → 49/111/74; recrutando 28 → 28; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -405,6 +539,17 @@ const REVISAO_PENDENTE = {
  ],
  "tirzepatida": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "8 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 317 → 319; fase 1/2/3 41/80/60 → 41/81/61; recrutando 105 → 107; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 310 → 317; fase 1/2/3 41/80/60 → 41/80/60; recrutando 102 → 105; registro mais recente 2026-11-16."
@@ -416,6 +561,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "ocitocina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 939 → 939; fase 1/2/3 92/185/73 → 92/185/73; recrutando 78 → 78; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "conteudo",
@@ -443,6 +594,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "hormonio-do-crescimento-somatropina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 820 → 821; fase 1/2/3 81/169/184 → 81/169/184; recrutando 45 → 45; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -473,6 +630,22 @@ const REVISAO_PENDENTE = {
  ],
  "insulina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 8262 → 8264; fase 1/2/3 787/990/935 → 787/990/935; recrutando 520 → 521; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4777 → 4800 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 8244 → 8262; fase 1/2/3 786/987/932 → 787/990/935; recrutando 517 → 520; registro mais recente 2026-11-16."
@@ -494,6 +667,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "teriparatida": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 182 → 182; fase 1/2/3 18/46/34 → 18/46/34; recrutando 6 → 5; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "conteudo",
@@ -519,12 +698,23 @@ const REVISAO_PENDENTE = {
  ],
  "tesamorelina": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "2 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 24 → 24; fase 1/2/3 2/10/2 → 2/10/2; recrutando 3 → 3; registro mais recente 2026-11-12."
   }
  ],
  "retatrutida": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 33 → 33; fase 1/2/3 14/4/14 → 14/4/14; recrutando 2 → 2; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -533,6 +723,11 @@ const REVISAO_PENDENTE = {
  ],
  "cagrilintida": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 45 → 45; fase 1/2/3 17/5/23 → 17/5/23; recrutando 11 → 11; registro mais recente 2026-11-16."
@@ -540,12 +735,24 @@ const REVISAO_PENDENTE = {
  ],
  "survodutida": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 30 → 30; fase 1/2/3 15/3/12 → 15/3/12; recrutando 3 → 5; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 29 → 30; fase 1/2/3 14/3/12 → 15/3/12; recrutando 3 → 3; registro mais recente 2026-11-16."
   }
  ],
  "mazdutida": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 45 → 45; fase 1/2/3 11/13/11 → 11/13/11; recrutando 10 → 10; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -587,6 +794,22 @@ const REVISAO_PENDENTE = {
  ],
  "glutationa": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 277 → 279; fase 1/2/3 41/70/28 → 41/71/28; recrutando 23 → 23; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3677 → 3689 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 275 → 277; fase 1/2/3 41/69/28 → 41/70/28; recrutando 23 → 23; registro mais recente 2026-11-16."
@@ -603,6 +826,28 @@ const REVISAO_PENDENTE = {
   }
  ],
  "testosterona": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1039 → 1039; fase 1/2/3 106/280/181 → 106/280/181; recrutando 99 → 99; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-10-22 → 2026-11-10). Reveja riscos e status.",
+   "fato": "2026-11-10"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1156 → 1165 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -626,6 +871,23 @@ const REVISAO_PENDENTE = {
  ],
  "estradiol": [
   {
+   "data": "2026-11-18",
+   "tipo": "aprovacao",
+   "texto": "Registro de aprovação no Drugs@FDA mudou."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2028 → 2029; fase 1/2/3 437/569/358 → 438/570/358; recrutando 208 → 209; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-06 → 2026-11-10). Reveja riscos e status.",
+   "fato": "2026-11-10"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2022 → 2028; fase 1/2/3 436/567/358 → 437/569/358; recrutando 205 → 208; registro mais recente 2026-11-16."
@@ -647,6 +909,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "progesterona": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1265 → 1265; fase 1/2/3 103/273/214 → 103/273/214; recrutando 124 → 124; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -675,6 +943,12 @@ const REVISAO_PENDENTE = {
  ],
  "hidrocortisona-cortisol": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1602 → 1606; fase 1/2/3 134/264/163 → 134/264/163; recrutando 176 → 176; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1596 → 1602; fase 1/2/3 133/262/163 → 134/264/163; recrutando 177 → 176; registro mais recente 2026-11-16."
@@ -697,12 +971,30 @@ const REVISAO_PENDENTE = {
  ],
  "dhea-prasterona": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 141 → 142; fase 1/2/3 12/35/47 → 12/35/47; recrutando 7 → 7; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 141 → 141; fase 1/2/3 12/35/47 → 12/35/47; recrutando 8 → 7; registro mais recente 2026-11-06."
   }
  ],
  "levotiroxina-t4": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 342 → 342; fase 1/2/3 41/44/37 → 41/44/37; recrutando 29 → 30; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-09 → 2026-11-12). Reveja riscos e status.",
+   "fato": "2026-11-12"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -721,6 +1013,18 @@ const REVISAO_PENDENTE = {
  ],
  "liotironina-t3": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 909 → 912; fase 1/2/3 80/98/46 → 81/98/46; recrutando 117 → 118; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-02 → 2026-11-12). Reveja riscos e status.",
+   "fato": "2026-11-12"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 906 → 909; fase 1/2/3 80/98/46 → 80/98/46; recrutando 115 → 117; registro mais recente 2026-11-16."
@@ -732,6 +1036,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "melatonina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 730 → 730; fase 1/2/3 55/154/100 → 55/154/100; recrutando 89 → 89; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -757,6 +1067,17 @@ const REVISAO_PENDENTE = {
  ],
  "glucagon": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1541 → 1544; fase 1/2/3 242/308/252 → 242/310/253; recrutando 196 → 197; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2250 → 2268 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1531 → 1541; fase 1/2/3 242/306/250 → 242/308/252; recrutando 192 → 196; registro mais recente 2026-11-16."
@@ -779,6 +1100,12 @@ const REVISAO_PENDENTE = {
  ],
  "calcitonina": [
   {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-09-10 → 2026-10-30). Reveja riscos e status.",
+   "fato": "2026-10-30"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 154 → 155; fase 1/2/3 11/15/17 → 11/15/17; recrutando 14 → 14; registro mais recente 2026-11-12."
@@ -800,6 +1127,12 @@ const REVISAO_PENDENTE = {
  ],
  "vitamina-d3-colecalciferol": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3320 → 3321; fase 1/2/3 204/483/391 → 204/483/391; recrutando 162 → 161; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3310 → 3320; fase 1/2/3 203/482/391 → 204/483/391; recrutando 157 → 162; registro mais recente 2026-11-16."
@@ -817,6 +1150,23 @@ const REVISAO_PENDENTE = {
  ],
  "vitamina-b12-cobalamina": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 767 → 769; fase 1/2/3 42/127/100 → 42/127/100; recrutando 61 → 62; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-06 → 2026-11-09). Reveja riscos e status.",
+   "fato": "2026-11-09"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 763 → 767; fase 1/2/3 42/126/100 → 42/127/100; recrutando 61 → 61; registro mais recente 2026-11-16."
@@ -828,6 +1178,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "vitamina-c-acido-ascorbico": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "2 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1256 → 1256; fase 1/2/3 111/240/161 → 111/240/161; recrutando 98 → 98; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -856,6 +1217,12 @@ const REVISAO_PENDENTE = {
  ],
  "vitamina-b6-piridoxina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 391 → 392; fase 1/2/3 23/64/75 → 23/64/75; recrutando 30 → 30; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 388 → 391; fase 1/2/3 23/64/74 → 23/64/75; recrutando 29 → 30; registro mais recente 2026-11-13."
@@ -873,6 +1240,23 @@ const REVISAO_PENDENTE = {
  ],
  "folato-vitamina-b9": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2749 → 2749; fase 1/2/3 472/1155/580 → 472/1154/580; recrutando 311 → 309; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-05 → 2026-11-12). Reveja riscos e status.",
+   "fato": "2026-11-12"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2744 → 2749; fase 1/2/3 471/1153/580 → 472/1155/580; recrutando 312 → 311; registro mais recente 2026-11-16."
@@ -885,12 +1269,24 @@ const REVISAO_PENDENTE = {
  ],
  "vitamina-a-retinol": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 792 → 793; fase 1/2/3 83/162/116 → 83/162/116; recrutando 44 → 43; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 789 → 792; fase 1/2/3 82/161/116 → 83/162/116; recrutando 44 → 44; registro mais recente 2026-11-16."
   }
  ],
  "vitamina-e-tocoferol": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 282 → 282; fase 1/2/3 23/74/48 → 23/74/48; recrutando 13 → 13; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -904,12 +1300,29 @@ const REVISAO_PENDENTE = {
  ],
  "niacina-vitamina-b3": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1456 → 1459; fase 1/2/3 318/554/221 → 318/555/221; recrutando 104 → 105; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1455 → 1456; fase 1/2/3 318/554/221 → 318/554/221; recrutando 101 → 104; registro mais recente 2026-11-16."
   }
  ],
  "l-carnitina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "9 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 315 → 316; fase 1/2/3 16/89/55 → 16/89/55; recrutando 19 → 19; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -928,12 +1341,29 @@ const REVISAO_PENDENTE = {
  ],
  "acido-alfa-lipoico": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 243 → 243; fase 1/2/3 39/67/37 → 39/67/37; recrutando 18 → 18; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 242 → 243; fase 1/2/3 39/67/36 → 39/67/37; recrutando 18 → 18; registro mais recente 2026-11-16."
   }
  ],
  "n-acetilcisteina-nac": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 674 → 675; fase 1/2/3 105/224/113 → 105/224/113; recrutando 46 → 46; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -947,12 +1377,24 @@ const REVISAO_PENDENTE = {
  ],
  "coenzima-q10": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 265 → 265; fase 1/2/3 20/64/41 → 20/64/41; recrutando 24 → 24; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "conteudo",
    "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
   }
  ],
  "creatina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 371 → 371; fase 1/2/3 17/37/23 → 17/37/23; recrutando 50 → 51; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -965,6 +1407,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "omega-3-epa-dha": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 528 → 528; fase 1/2/3 30/88/64 → 30/88/64; recrutando 41 → 41; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -986,6 +1434,28 @@ const REVISAO_PENDENTE = {
   }
  ],
  "magnesio": [
+  {
+   "data": "2026-11-18",
+   "tipo": "aprovacao",
+   "texto": "Registro de aprovação no Drugs@FDA mudou."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "6 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2157 → 2160; fase 1/2/3 211/397/311 → 211/397/311; recrutando 185 → 185; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-04 → 2026-11-11). Reveja riscos e status.",
+   "fato": "2026-11-11"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -1009,6 +1479,28 @@ const REVISAO_PENDENTE = {
  ],
  "zinco": [
   {
+   "data": "2026-11-18",
+   "tipo": "aprovacao",
+   "texto": "Registro de aprovação no Drugs@FDA mudou."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "2 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1149 → 1149; fase 1/2/3 70/153/148 → 70/153/148; recrutando 80 → 80; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-09 → 2026-11-16). Reveja riscos e status.",
+   "fato": "2026-11-16"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1147 → 1149; fase 1/2/3 70/153/148 → 70/153/148; recrutando 79 → 80; registro mais recente 2026-11-16."
@@ -1026,6 +1518,12 @@ const REVISAO_PENDENTE = {
  ],
  "selenio": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 350 → 351; fase 1/2/3 23/53/58 → 23/54/58; recrutando 17 → 17; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 350 → 350; fase 1/2/3 23/53/58 → 23/53/58; recrutando 16 → 17; registro mais recente 2026-11-09."
@@ -1042,6 +1540,22 @@ const REVISAO_PENDENTE = {
   }
  ],
  "ferro": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2470 → 2472; fase 1/2/3 166/321/306 → 166/322/306; recrutando 212 → 209; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3951 → 3958 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -1064,6 +1578,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "tiamina-vitamina-b1": [
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-10-06 → 2026-11-13). Reveja riscos e status.",
+   "fato": "2026-11-13"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -1098,6 +1618,12 @@ const REVISAO_PENDENTE = {
  ],
  "maridebart-cafraglutida-maritide": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 30 → 30; fase 1/2/3 15/3/12 → 15/3/12; recrutando 7 → 7; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 29 → 30; fase 1/2/3 14/3/12 → 15/3/12; recrutando 6 → 7; registro mais recente 2026-11-09."
@@ -1117,12 +1643,24 @@ const REVISAO_PENDENTE = {
  ],
  "vasopressina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 434 → 434; fase 1/2/3 19/80/85 → 19/80/85; recrutando 43 → 44; registro mais recente 2026-11-16.",
+   "fato": "2026-11-16"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 434 → 434; fase 1/2/3 19/80/85 → 19/80/85; recrutando 42 → 43; registro mais recente 2026-11-16."
   }
  ],
  "terlipressina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 116 → 116; fase 1/2/3 3/26/28 → 3/26/28; recrutando 4 → 5; registro mais recente 2026-11-13.",
+   "fato": "2026-11-13"
+  },
   {
    "data": "2026-11-16",
    "tipo": "seguranca",
@@ -1140,6 +1678,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "degarelix": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 170 → 170; fase 1/2/3 16/79/40 → 16/79/40; recrutando 22 → 22; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -1160,6 +1704,12 @@ const REVISAO_PENDENTE = {
  ],
  "triptorrelina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 298 → 298; fase 1/2/3 6/80/86 → 6/80/86; recrutando 38 → 38; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 298 → 298; fase 1/2/3 6/80/86 → 6/80/86; recrutando 38 → 38; registro mais recente 2026-11-13."
@@ -1171,6 +1721,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "goserelina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 417 → 417; fase 1/2/3 38/184/126 → 38/184/126; recrutando 49 → 49; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -1234,6 +1790,12 @@ const REVISAO_PENDENTE = {
  ],
  "aldosterona": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 392 → 392; fase 1/2/3 18/47/50 → 18/47/50; recrutando 45 → 45; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "conteudo",
    "texto": "55 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
@@ -1250,6 +1812,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "cobre": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 433 → 433; fase 1/2/3 44/67/37 → 44/67/37; recrutando 38 → 38; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2236 → 2249 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -1320,6 +1893,12 @@ const REVISAO_PENDENTE = {
  ],
  "l-triptofano": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 175 → 176; fase 1/2/3 15/33/13 → 15/33/13; recrutando 17 → 18; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 40 → 175; fase 1/2/3 3/4/5 → 15/33/13; recrutando 3 → 17; registro mais recente 2026-11-13."
@@ -1364,6 +1943,12 @@ const REVISAO_PENDENTE = {
  ],
  "l-tirosina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2119 → 2119; fase 1/2/3 537/974/255 → 537/974/255; recrutando 283 → 287; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Situação ou registros na Health Canada mudaram: sem_registro → autorizado."
@@ -1401,6 +1986,12 @@ const REVISAO_PENDENTE = {
  ],
  "gaba": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1065 → 1066; fase 1/2/3 96/216/249 → 96/216/249; recrutando 56 → 56; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "seguranca",
    "texto": "Situação na EMA mudou: autorizado → sem registro."
@@ -1427,6 +2018,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "ashwagandha-withania-somnifera": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 88 → 88; fase 1/2/3 6/13/3 → 6/13/3; recrutando 12 → 12; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "conteudo",
@@ -1535,6 +2132,17 @@ const REVISAO_PENDENTE = {
  ],
  "acido-hialuronico": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1756 → 1762; fase 1/2/3 103/171/141 → 104/172/141; recrutando 142 → 144; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1052 → 1077 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 1756; fase 1/2/3 0/0/0 → 103/171/141; recrutando 0 → 142; registro mais recente 2026-11-16."
@@ -1564,6 +2172,12 @@ const REVISAO_PENDENTE = {
  ],
  "gip-polipeptideo-insulinotropico-dependente-de-glicose": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 120 → 120; fase 1/2/3 17/16/12 → 17/16/12; recrutando 16 → 16; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 264 → 120; fase 1/2/3 27/37/27 → 17/16/12; recrutando 51 → 16; registro mais recente 2026-11-06."
@@ -1588,6 +2202,12 @@ const REVISAO_PENDENTE = {
  ],
  "gastrin": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 61 → 61; fase 1/2/3 24/21/3 → 24/21/3; recrutando 5 → 5; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "fase",
    "texto": "3 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
@@ -1595,12 +2215,24 @@ const REVISAO_PENDENTE = {
  ],
  "angiotensin-amide": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 38 → 38; fase 1/2/3 5/3/7 → 5/3/7; recrutando 2 → 2; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "fase",
    "texto": "7 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
   }
  ],
  "bradykinin": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 73 → 73; fase 1/2/3 6/16/10 → 6/16/10; recrutando 5 → 5; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "fase",
@@ -1615,6 +2247,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "peptide-t": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1813 → 1814; fase 1/2/3 687/923/178 → 688/924/178; recrutando 252 → 255; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "fase",
@@ -1657,6 +2295,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "c-peptide": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2373 → 2374; fase 1/2/3 637/988/426 → 638/989/426; recrutando 264 → 266; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "fase",
@@ -1733,6 +2377,12 @@ const REVISAO_PENDENTE = {
  ],
  "olatorepatide": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 4 → 4; fase 1/2/3 0/3/1 → 0/3/1; recrutando 2 → 2; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "fase",
    "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
@@ -1747,12 +2397,34 @@ const REVISAO_PENDENTE = {
  ],
  "canvuparatide": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2 → 2; fase 1/2/3 0/1/1 → 0/1/1; recrutando 1 → 1; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "fase",
    "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
   }
  ],
  "glp-1": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2199 → 2206; fase 1/2/3 314/393/312 → 314/395/313; recrutando 322 → 325; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2133 → 2145 no último ano). Reveja riscos."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "fase",
+   "texto": "313 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  },
   {
    "data": "2026-11-16",
    "tipo": "fase",
@@ -1843,12 +2515,34 @@ const REVISAO_PENDENTE = {
  ],
  "nogapendekin": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 18 → 18; fase 1/2/3 4/10/4 → 4/10/4; recrutando 5 → 5; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "fase",
    "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
   }
  ],
  "glucagon-like-peptide-1": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1541 → 1544; fase 1/2/3 242/308/252 → 242/310/253; recrutando 196 → 197; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2067 → 2083 no último ano). Reveja riscos."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "fase",
+   "texto": "253 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 1'."
+  },
   {
    "data": "2026-11-16",
    "tipo": "fase",
@@ -1868,6 +2562,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "zelpultide": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2 → 2; fase 1/2/3 1/1/1 → 1/1/1; recrutando 1 → 1; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "fase",
@@ -1889,6 +2589,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "bombesin": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 31 → 31; fase 1/2/3 14/19/1 → 14/19/1; recrutando 2 → 2; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "fase",
@@ -1976,6 +2682,12 @@ const REVISAO_PENDENTE = {
  ],
  "substancia-p": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 152 → 152; fase 1/2/3 20/17/13 → 20/17/13; recrutando 15 → 15; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 152; fase 1/2/3 0/0/0 → 20/17/13; recrutando 0 → 15; registro mais recente 2026-11-10."
@@ -2004,6 +2716,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "orexina-a-hipocretina-1": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 78 → 78; fase 1/2/3 5/21/4 → 5/21/4; recrutando 21 → 21; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -2178,6 +2896,12 @@ const REVISAO_PENDENTE = {
  ],
  "estrona-e1": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 257 → 257; fase 1/2/3 89/30/46 → 89/30/46; recrutando 10 → 10; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Situação ou registros na Health Canada mudaram: sem_registro → autorizado."
@@ -2299,6 +3023,12 @@ const REVISAO_PENDENTE = {
  ],
  "cortisona": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 203 → 203; fase 1/2/3 41/91/40 → 41/91/40; recrutando 38 → 39; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -2326,6 +3056,18 @@ const REVISAO_PENDENTE = {
  ],
  "prednisona": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2513 → 2514; fase 1/2/3 398/1159/631 → 398/1160/632; recrutando 310 → 314; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-09 → 2026-11-13). Reveja riscos e status.",
+   "fato": "2026-11-13"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -2352,6 +3094,28 @@ const REVISAO_PENDENTE = {
   }
  ],
  "dexametasona": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 4852 → 4856; fase 1/2/3 741/1706/950 → 741/1707/951; recrutando 563 → 564; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-06 → 2026-11-12). Reveja riscos e status.",
+   "fato": "2026-11-12"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1251 → 1260 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -2412,6 +3176,18 @@ const REVISAO_PENDENTE = {
  ],
  "adrenalina-epinefrina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3648 → 3649; fase 1/2/3 243/649/490 → 243/649/490; recrutando 383 → 384; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-03 → 2026-11-13). Reveja riscos e status.",
+   "fato": "2026-11-13"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -2449,6 +3225,28 @@ const REVISAO_PENDENTE = {
  ],
  "noradrenalina-norepinefrina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 879 → 879; fase 1/2/3 55/107/123 → 55/107/123; recrutando 125 → 125; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-10-16 → 2026-10-27). Reveja riscos e status.",
+   "fato": "2026-10-27"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (498 → 503 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -2475,6 +3273,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "dopamina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 925 → 926; fase 1/2/3 145/177/109 → 145/177/109; recrutando 110 → 111; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1064 → 1070 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -2503,6 +3312,22 @@ const REVISAO_PENDENTE = {
  ],
  "serotonina-5-ht": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 844 → 844; fase 1/2/3 90/156/88 → 90/156/88; recrutando 90 → 90; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1036 → 1042 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 844; fase 1/2/3 0/0/0 → 90/156/88; recrutando 0 → 90; registro mais recente 2026-11-16."
@@ -2524,6 +3349,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "prolactina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 190 → 189; fase 1/2/3 12/23/8 → 12/23/8; recrutando 23 → 23; registro mais recente 2026-11-12.",
+   "fato": "2026-11-12"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -2547,6 +3378,12 @@ const REVISAO_PENDENTE = {
  ],
  "fsh-hormonio-foliculo-estimulante": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 490 → 491; fase 1/2/3 34/52/87 → 34/52/87; recrutando 31 → 31; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 669 → 490; fase 1/2/3 44/65/97 → 34/52/87; recrutando 50 → 31; registro mais recente 2026-11-12."
@@ -2565,6 +3402,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "tsh-tireotropina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 108 → 108; fase 1/2/3 9/31/18 → 9/31/18; recrutando 8 → 8; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -2599,6 +3442,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "eritropoetina-epo": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 979 → 979; fase 1/2/3 86/289/303 → 86/289/303; recrutando 27 → 27; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -2668,6 +3517,18 @@ const REVISAO_PENDENTE = {
  ],
  "anastrozol": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 495 → 495; fase 1/2/3 50/214/121 → 50/214/121; recrutando 67 → 67; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-10-29 → 2026-11-10). Reveja riscos e status.",
+   "fato": "2026-11-10"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -2695,6 +3556,23 @@ const REVISAO_PENDENTE = {
  ],
  "letrozol": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 908 → 908; fase 1/2/3 109/409/202 → 109/409/202; recrutando 139 → 139; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-03 → 2026-11-13). Reveja riscos e status.",
+   "fato": "2026-11-13"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -2716,6 +3594,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "tamoxifeno": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 687 → 687; fase 1/2/3 52/254/202 → 52/254/202; recrutando 68 → 68; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -2842,6 +3726,12 @@ const REVISAO_PENDENTE = {
  ],
  "espironolactona": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 331 → 331; fase 1/2/3 25/73/54 → 25/73/54; recrutando 32 → 32; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -2890,6 +3780,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "medroxiprogesterona": [
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-10-19 → 2026-11-13). Reveja riscos e status.",
+   "fato": "2026-11-13"
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -2955,6 +3851,12 @@ const REVISAO_PENDENTE = {
  ],
  "etinilestradiol": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 543 → 543; fase 1/2/3 195/65/115 → 195/65/115; recrutando 24 → 24; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "conteudo",
    "texto": "5 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
@@ -2973,6 +3875,28 @@ const REVISAO_PENDENTE = {
   }
  ],
  "metformina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3150 → 3151; fase 1/2/3 571/654/760 → 571/654/760; recrutando 166 → 167; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-09 → 2026-11-10). Reveja riscos e status.",
+   "fato": "2026-11-10"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1011 → 1018 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -3001,6 +3925,12 @@ const REVISAO_PENDENTE = {
  ],
  "sulfato-de-dhea-dhea-s": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 138 → 139; fase 1/2/3 12/35/45 → 12/35/45; recrutando 7 → 7; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 138; fase 1/2/3 0/0/0 → 12/35/45; recrutando 0 → 7; registro mais recente 2026-11-06."
@@ -3023,6 +3953,12 @@ const REVISAO_PENDENTE = {
  ],
  "vitamina-b5-acido-pantotenico": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 85 → 85; fase 1/2/3 6/14/8 → 6/14/8; recrutando 4 → 4; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 85; fase 1/2/3 0/0/0 → 6/14/8; recrutando 0 → 4; registro mais recente 2026-11-13."
@@ -3039,6 +3975,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "vitamina-k1-filoquinona": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 475 → 475; fase 1/2/3 34/45/72 → 34/45/72; recrutando 38 → 39; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -3084,6 +4026,12 @@ const REVISAO_PENDENTE = {
  ],
  "colina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 383 → 383; fase 1/2/3 37/58/51 → 37/58/51; recrutando 37 → 37; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -3126,6 +4074,12 @@ const REVISAO_PENDENTE = {
  ],
  "mio-inositol": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 197 → 197; fase 1/2/3 12/28/18 → 12/28/18; recrutando 16 → 16; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 197; fase 1/2/3 0/0/0 → 12/28/18; recrutando 0 → 16; registro mais recente 2026-11-12."
@@ -3147,6 +4101,28 @@ const REVISAO_PENDENTE = {
   }
  ],
  "calcio": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "6 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 5819 → 5820; fase 1/2/3 894/1299/872 → 893/1298/872; recrutando 475 → 474; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-06 → 2026-11-12). Reveja riscos e status.",
+   "fato": "2026-11-12"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4201 → 4228 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -3180,6 +4156,28 @@ const REVISAO_PENDENTE = {
  ],
  "potassio": [
   {
+   "data": "2026-11-18",
+   "tipo": "aprovacao",
+   "texto": "Registro de aprovação no Drugs@FDA mudou."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2065 → 2067; fase 1/2/3 184/340/313 → 184/340/313; recrutando 184 → 186; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-09 → 2026-11-13). Reveja riscos e status.",
+   "fato": "2026-11-13"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1624 → 1629 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Situação na EMA mudou: sem registro → autorizado."
@@ -3206,6 +4204,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "iodo": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1290 → 1290; fase 1/2/3 115/199/129 → 115/199/129; recrutando 99 → 99; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-16",
    "tipo": "seguranca",
@@ -3286,6 +4295,12 @@ const REVISAO_PENDENTE = {
  ],
  "cromo": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 317 → 317; fase 1/2/3 8/20/29 → 8/20/29; recrutando 28 → 28; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "seguranca",
    "texto": "Situação ou registros na Health Canada mudaram: consulta_parcial → consulta_parcial."
@@ -3307,6 +4322,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "boro": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 992 → 992; fase 1/2/3 305/581/139 → 305/581/139; recrutando 73 → 73; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "seguranca",
@@ -3341,6 +4362,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "l-arginina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 795 → 795; fase 1/2/3 129/149/98 → 129/149/98; recrutando 73 → 73; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -3378,6 +4405,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "l-glutamina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 293 → 294; fase 1/2/3 40/73/44 → 40/73/45; recrutando 24 → 24; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -3418,6 +4451,12 @@ const REVISAO_PENDENTE = {
  ],
  "l-teanina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 58 → 59; fase 1/2/3 1/2/1 → 1/2/1; recrutando 6 → 7; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 58; fase 1/2/3 0/0/0 → 1/2/1; recrutando 0 → 6; registro mais recente 2026-11-12."
@@ -3440,6 +4479,12 @@ const REVISAO_PENDENTE = {
  ],
  "beta-alanina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 87 → 87; fase 1/2/3 18/27/6 → 18/27/6; recrutando 10 → 9; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "conteudo",
    "texto": "8 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
@@ -3452,12 +4497,24 @@ const REVISAO_PENDENTE = {
  ],
  "hmb-beta-hidroxi-beta-metilbutirato": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 45 → 45; fase 1/2/3 3/6/2 → 3/6/2; recrutando 5 → 5; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 136 → 45; fase 1/2/3 6/15/9 → 3/6/2; recrutando 12 → 5; registro mais recente 2026-11-13."
   }
  ],
  "curcumina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 403 → 404; fase 1/2/3 59/103/42 → 59/103/42; recrutando 28 → 28; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -3481,6 +4538,11 @@ const REVISAO_PENDENTE = {
  ],
  "berberina": [
   {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 128; fase 1/2/3 0/0/0 → 7/20/18; recrutando 0 → 10; registro mais recente 2026-11-16."
@@ -3502,6 +4564,18 @@ const REVISAO_PENDENTE = {
   }
  ],
  "cafeina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1247 → 1248; fase 1/2/3 161/73/70 → 161/73/70; recrutando 113 → 113; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-05 → 2026-11-10). Reveja riscos e status.",
+   "fato": "2026-11-10"
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -3541,6 +4615,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "probioticos": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2890 → 2890; fase 1/2/3 158/373/210 → 158/373/210; recrutando 266 → 266; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -3666,6 +4746,12 @@ const REVISAO_PENDENTE = {
  ],
  "lactoferrina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 171 → 172; fase 1/2/3 17/38/22 → 17/39/22; recrutando 14 → 14; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 171; fase 1/2/3 0/0/0 → 17/38/22; recrutando 0 → 14; registro mais recente 2026-11-13."
@@ -3687,6 +4773,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "rapamicina-sirolimo": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1033 → 1033; fase 1/2/3 388/499/104 → 388/499/104; recrutando 76 → 76; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -3899,6 +4991,12 @@ const REVISAO_PENDENTE = {
  ],
  "pemvidutida": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 8 → 8; fase 1/2/3 4/3/1 → 4/3/1; recrutando 1 → 1; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 8; fase 1/2/3 0/0/0 → 4/3/1; recrutando 0 → 1; registro mais recente 2026-09-23."
@@ -4001,6 +5099,16 @@ const REVISAO_PENDENTE = {
  ],
  "glepaglutida": [
   {
+   "data": "2026-11-18",
+   "tipo": "aprovacao",
+   "texto": "Situação na EMA mudou: retirado → autorizado."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "seguranca",
    "texto": "Situação na EMA mudou: sem registro → retirado."
@@ -4034,6 +5142,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "pegozafermina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 7 → 7; fase 1/2/3 2/3/3 → 2/3/3; recrutando 2 → 2; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -4113,6 +5227,12 @@ const REVISAO_PENDENTE = {
  ],
  "oxintomodulina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 11 → 11; fase 1/2/3 4/1/0 → 4/1/0; recrutando 1 → 1; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 11; fase 1/2/3 0/0/0 → 4/1/0; recrutando 0 → 1; registro mais recente 2026-11-09."
@@ -4126,6 +5246,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "grelina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -4148,6 +5273,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "insulina-glargina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 727 → 727; fase 1/2/3 78/38/240 → 78/38/240; recrutando 12 → 12; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -4181,6 +5312,12 @@ const REVISAO_PENDENTE = {
  ],
  "insulina-lispro": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 363 → 363; fase 1/2/3 101/55/72 → 101/55/72; recrutando 9 → 9; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -4213,6 +5350,12 @@ const REVISAO_PENDENTE = {
  ],
  "insulina-asparte": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 613 → 613; fase 1/2/3 105/61/144 → 105/61/144; recrutando 8 → 9; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -4244,6 +5387,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "insulina-degludeca": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 251 → 251; fase 1/2/3 65/20/87 → 65/20/87; recrutando 8 → 8; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
   {
    "data": "2026-11-16",
    "tipo": "aprovacao",
@@ -4318,6 +5467,12 @@ const REVISAO_PENDENTE = {
  ],
  "acido-oleico": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 164 → 164; fase 1/2/3 14/27/10 → 14/27/10; recrutando 9 → 9; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "seguranca",
    "texto": "Situação ou registros na Health Canada mudaram: sem_registro → consulta_parcial."
@@ -4340,6 +5495,12 @@ const REVISAO_PENDENTE = {
  ],
  "acido-malico": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 333 → 333; fase 1/2/3 74/174/32 → 74/174/32; recrutando 15 → 15; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "seguranca",
    "texto": "Situação ou registros na Health Canada mudaram: sem_registro → consulta_parcial."
@@ -4361,6 +5522,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "acido-lactico": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1514 → 1515; fase 1/2/3 99/172/162 → 99/172/162; recrutando 130 → 131; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1081 → 1092 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-16",
    "tipo": "seguranca",
@@ -4388,6 +5560,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "carotenoide": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 851 → 851; fase 1/2/3 132/241/133 → 132/241/133; recrutando 51 → 50; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -4422,6 +5600,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "flavonoide": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 563 → 563; fase 1/2/3 78/139/50 → 78/139/50; recrutando 45 → 45; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-16",
    "tipo": "estudos",
@@ -4462,6 +5651,17 @@ const REVISAO_PENDENTE = {
  ],
  "acido-lipoico": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 249 → 249; fase 1/2/3 40/68/38 → 40/68/38; recrutando 18 → 18; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 249; fase 1/2/3 0/0/0 → 40/68/38; recrutando 0 → 18; registro mais recente 2026-11-16."
@@ -4501,6 +5701,12 @@ const REVISAO_PENDENTE = {
  ],
  "cisteina": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 745 → 746; fase 1/2/3 115/225/117 → 115/225/117; recrutando 50 → 50; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 745; fase 1/2/3 0/0/0 → 115/225/117; recrutando 0 → 50; registro mais recente 2026-11-16."
@@ -4522,6 +5728,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "hesperidina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 62 → 63; fase 1/2/3 2/7/9 → 2/7/9; recrutando 8 → 8; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-16",
    "tipo": "seguranca",
@@ -4598,6 +5810,38 @@ const REVISAO_PENDENTE = {
  ],
  "sodio": [
   {
+   "data": "2026-11-18",
+   "tipo": "aprovacao",
+   "texto": "Registro de aprovação no Drugs@FDA mudou."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "9 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 13103 → 13120; fase 1/2/3 1914/2887/2313 → 1915/2893/2315; recrutando 1080 → 1085; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-09 → 2026-11-15). Reveja riscos e status.",
+   "fato": "2026-11-15"
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (5710 → 5740 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "fase",
    "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
@@ -4612,9 +5856,239 @@ const REVISAO_PENDENTE = {
  ],
  "pantenol": [
   {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 58 → 58; fase 1/2/3 4/5/9 → 4/5/9; recrutando 0 → 0; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "fase",
    "texto": "9 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 1'."
+  }
+ ],
+ "bpc-157": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "3 novo(s) recall(s) na FDA (janela de 3 anos)."
+  }
+ ],
+ "ipamorelina-cjc-1295": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "3 novo(s) recall(s) na FDA (janela de 3 anos)."
+  }
+ ],
+ "ghk-cu": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  }
+ ],
+ "kpv": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  }
+ ],
+ "larazotida": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 29 → 30; fase 1/2/3 6/13/9 → 6/13/10; recrutando 1 → 1; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "teduglutida": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 50 → 50; fase 1/2/3 6/10/22 → 6/10/22; recrutando 2 → 2; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "acetil-l-carnitina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 67 → 68; fase 1/2/3 6/21/9 → 6/21/9; recrutando 1 → 1; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "abarelix": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 5 → 5; fase 1/2/3 1/1/1 → 1/1/1; recrutando 0 → 0; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  }
+ ],
+ "thymosin": [
+  {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "3 novo(s) recall(s) na FDA (janela de 3 anos)."
+  }
+ ],
+ "cyclosporine": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1323 → 1323; fase 1/2/3 196/483/252 → 196/483/252; recrutando 81 → 81; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "voclosporin": [
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-08-25 → 2026-11-11). Reveja riscos e status.",
+   "fato": "2026-11-11"
+  }
+ ],
+ "enlicitide-decanoate": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 26 → 26; fase 1/2/3 17/2/8 → 17/2/8; recrutando 3 → 3; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  }
+ ],
+ "actinium-dotatate": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 4 → 4; fase 1/2/3 3/2/1 → 3/2/1; recrutando 2 → 2; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "enlicitide": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 33 → 33; fase 1/2/3 23/3/8 → 23/3/8; recrutando 3 → 3; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  }
+ ],
+ "angiotensin-ii": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 357 → 357; fase 1/2/3 21/71/55 → 21/71/55; recrutando 41 → 41; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "lypressin": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 87 → 87; fase 1/2/3 2/19/17 → 2/19/17; recrutando 3 → 4; registro mais recente 2026-10-13.",
+   "fato": "2026-10-13"
+  }
+ ],
+ "somatostatin": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 364 → 364; fase 1/2/3 75/117/57 → 75/117/57; recrutando 55 → 55; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "teverelix": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 5 → 5; fase 1/2/3 1/4/0 → 1/4/0; recrutando 0 → 0; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "nepidermin": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 535 → 535; fase 1/2/3 149/239/88 → 149/240/88; recrutando 102 → 103; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "etelcalcetide": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 23 → 23; fase 1/2/3 5/6/9 → 5/6/9; recrutando 2 → 2; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "troriluzole": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 15 → 15; fase 1/2/3 1/5/8 → 1/5/8; recrutando 3 → 3; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  }
+ ],
+ "bulevirtide": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 25 → 25; fase 1/2/3 2/4/4 → 2/4/4; recrutando 7 → 7; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  }
+ ],
+ "somatrogon": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 9 → 10; fase 1/2/3 1/0/4 → 1/0/4; recrutando 2 → 2; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  }
+ ],
+ "inositol": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 198 → 198; fase 1/2/3 12/28/18 → 12/28/18; recrutando 16 → 16; registro mais recente 2026-11-17.",
+   "fato": "2026-11-17"
+  }
+ ],
+ "clorofila": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 23 → 23; fase 1/2/3 0/6/2 → 0/6/2; recrutando 2 → 2; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "acido-estearico": [
+  {
+   "data": "2026-11-18",
+   "tipo": "estudos",
+   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 453 → 455; fase 1/2/3 61/102/57 → 61/102/57; recrutando 27 → 27; registro mais recente 2026-11-18.",
+   "fato": "2026-11-18"
+  }
+ ],
+ "efsitora-alfa": [
+  {
+   "data": "2026-11-18",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "uridina": [
+  {
+   "data": "2026-11-18",
+   "tipo": "fase",
+   "texto": "87 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "bdnf": [
+  {
+   "data": "2026-11-18",
+   "tipo": "fase",
+   "texto": "6 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
   }
  ]
 };
