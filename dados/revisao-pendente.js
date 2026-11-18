@@ -508,6 +508,11 @@ const REVISAO_PENDENTE = {
  ],
  "timosina-alfa-1": [
   {
+   "data": "2026-11-18",
+   "tipo": "seguranca",
+   "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 66 → 67; fase 1/2/3 7/33/8 → 7/33/8; recrutando 11 → 11; registro mais recente 2026-11-10."
@@ -6089,6 +6094,14 @@ const REVISAO_PENDENTE = {
    "data": "2026-11-18",
    "tipo": "fase",
    "texto": "6 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "acarbose": [
+  {
+   "data": "2026-11-18",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-08-11 → 2026-11-10). Reveja riscos e status.",
+   "fato": "2026-11-10"
   }
  ]
 };
