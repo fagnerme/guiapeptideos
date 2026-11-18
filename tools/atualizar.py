@@ -246,6 +246,10 @@ def coletar(termo):
     r = {}
     def total(d): return d.get("totalCount") if isinstance(d, dict) else None
     def ok(d): return d is not FALHA
+    def contagem(d):
+        # o PubMed responde 200 com {"error": ...} ao estourar o limite; isso conta como falha da consulta
+        try: return int(d["esearchresult"]["count"])
+        except (KeyError, TypeError, ValueError): return FALHA
     d = ct(termo);                                        r["ensaios"] = total(d) if ok(d) else FALHA
     d = ct(termo, "&filter.advanced=AREA%5BPhase%5DPHASE1"); r["fase1"] = total(d) if ok(d) else FALHA
     d = ct(termo, "&filter.advanced=AREA%5BPhase%5DPHASE2"); r["fase2"] = total(d) if ok(d) else FALHA
@@ -264,8 +268,8 @@ def coletar(termo):
         try: r["ultimaAtualizacao"] = d["studies"][0]["protocolSection"]["statusModule"]["lastUpdatePostDateStruct"]["date"]
         except Exception: r["ultimaAtualizacao"] = None
     else: r["ultimaAtualizacao"] = FALHA
-    d = pm(termo);                                        r["artigos"] = int(d["esearchresult"]["count"]) if ok(d) and d else FALHA
-    d = pm(termo, "&datetype=pdat&reldate=365");          r["artigosAno"] = int(d["esearchresult"]["count"]) if ok(d) and d else FALHA
+    d = pm(termo);                                        r["artigos"] = contagem(d) if ok(d) else FALHA
+    d = pm(termo, "&datetype=pdat&reldate=365");          r["artigosAno"] = contagem(d) if ok(d) else FALHA
     d = get(f"https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name:%22{urllib.parse.quote(termo)}%22&limit=100")
     if d is FALHA: r["fdaRegistros"] = FALHA; r["fdaAprovacao"] = FALHA
     elif d is None: r["fdaRegistros"] = 0; r["fdaAprovacao"] = None
@@ -273,9 +277,9 @@ def coletar(termo):
         r["fdaRegistros"] = d.get("meta", {}).get("results", {}).get("total", 0)
         r["fdaAprovacao"] = aprovacao_fda(d, termo)
     d = pm_raw(f"{termo}[Title/Abstract] AND (adverse OR safety OR toxicity)", "&datetype=pdat&reldate=365")
-    r["segurancaAno"] = int(d["esearchresult"]["count"]) if ok(d) and d else FALHA
+    r["segurancaAno"] = contagem(d) if ok(d) else FALHA
     d = pm_raw(f"{termo}[Title/Abstract] AND (systematic review[pt] OR meta-analysis[pt])", "&datetype=pdat&reldate=365")
-    r["revisoesAno"] = int(d["esearchresult"]["count"]) if ok(d) and d else FALHA
+    r["revisoesAno"] = contagem(d) if ok(d) else FALHA
     d = get(f"https://api.fda.gov/drug/label.json?search=openfda.generic_name:%22{urllib.parse.quote(termo)}%22&limit=1&sort=effective_time:desc")
     if d is FALHA: r["bula"] = FALHA
     elif d is None or not d.get("results"): r["bula"] = None
