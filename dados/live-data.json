@@ -1,15 +1,18 @@
 {
  "geradoEm": "2026-11-16T21:11:59.684140+00:00",
  "execucao": {
-  "iniciadaEm": "2026-11-16T20:52:27.541502+00:00",
-  "concluidaEm": "2026-11-16T21:11:59.684140+00:00",
-  "status": "concluida_com_falhas",
-  "escopo": "catalogo",
-  "itensProcessados": 724,
-  "itensNoCatalogo": 724,
-  "consultasSemResposta": 19
+  "iniciadaEm": "2026-11-18T18:58:06.889775+00:00",
+  "concluidaEm": "2026-11-18T19:06:43.376751+00:00",
+  "status": "falhou",
+  "erro": "KeyError: 'count'"
  },
  "execucoes": [
+  {
+   "iniciadaEm": "2026-11-18T18:58:06.889775+00:00",
+   "concluidaEm": "2026-11-18T19:06:43.376751+00:00",
+   "status": "falhou",
+   "erro": "KeyError: 'count'"
+  },
   {
    "iniciadaEm": "2026-11-16T20:52:27.541502+00:00",
    "concluidaEm": "2026-11-16T21:11:59.684140+00:00",
