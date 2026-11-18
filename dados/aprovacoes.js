@@ -8,7 +8,7 @@ const APROVACOES_AUTO = {
     "Rybelsus"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:05.317740+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:01.842479+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2018-02-08",
@@ -21,10 +21,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kyinsu"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:05.317740+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:01.842479+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 19,
    "registros": [
     {
@@ -62,7 +62,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:41:05.317501+00:00",
+   "verificadoEm": "2026-11-18T20:33:01.842281+00:00",
    "parcial": true,
    "registros": [
     {
@@ -126,7 +126,7 @@ const APROVACOES_AUTO = {
     "Zepbound (Autoinjector)"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:05.317913+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:01.842609+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2022-09-15",
@@ -135,10 +135,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:05.317913+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:01.842609+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -158,7 +158,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:41:03.711064+00:00",
+   "verificadoEm": "2026-11-18T20:33:01.144990+00:00",
    "parcial": true,
    "registros": [
     {
@@ -219,12 +219,12 @@ const APROVACOES_AUTO = {
     "Pitocin"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:08.703457+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:04.666899+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:08.703457+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:04.666899+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -244,7 +244,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:41:08.703262+00:00",
+   "verificadoEm": "2026-11-18T20:33:04.666724+00:00",
    "parcial": true,
    "registros": [
     {
@@ -287,19 +287,19 @@ const APROVACOES_AUTO = {
  },
  "bpc-157": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:08.703613+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:04.666998+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:08.703613+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:04.666998+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:04.110865+00:00",
+   "verificadoEm": "2026-11-18T20:32:57.661416+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -322,19 +322,19 @@ const APROVACOES_AUTO = {
  },
  "tb-500-timosina-beta-4": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:08.703715+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:04.667048+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:08.703715+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:04.667048+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:58.460930+00:00",
+   "verificadoEm": "2026-11-18T20:32:57.927421+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -365,7 +365,7 @@ const APROVACOES_AUTO = {
     "Norditropin"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:09.233390+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721619+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2001-02-15",
@@ -376,17 +376,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/skytrofa"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:09.233390+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721619+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:41:09.233160+00:00",
+   "verificadoEm": "2026-11-18T20:33:05.721389+00:00",
    "parcial": true,
    "registros": [
     {
@@ -423,19 +423,19 @@ const APROVACOES_AUTO = {
  },
  "ipamorelina-cjc-1295": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:09.233526+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721703+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:09.233526+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721703+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:05.015107+00:00",
+   "verificadoEm": "2026-11-18T20:32:56.743032+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -463,7 +463,7 @@ const APROVACOES_AUTO = {
     "Victoza"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:09.233652+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721766+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2009-06-30",
@@ -476,10 +476,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/liraglutide-stada"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:09.233652+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721766+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 10,
    "registros": [
     {
@@ -517,7 +517,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:41:03.423678+00:00",
+   "verificadoEm": "2026-11-18T20:33:00.444198+00:00",
    "parcial": false,
    "registros": [
     {
@@ -563,7 +563,7 @@ const APROVACOES_AUTO = {
     "Apidra Solostar"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:09.233751+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721820+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "1996-04-30",
@@ -576,17 +576,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kyinsu"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:09.233751+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721820+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:41:04.628832+00:00",
+   "verificadoEm": "2026-11-18T20:33:02.402756+00:00",
    "parcial": false,
    "registros": [
     {
@@ -624,7 +624,7 @@ const APROVACOES_AUTO = {
     "Teriparatide"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:09.233860+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721859+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2003-06-10",
@@ -637,10 +637,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yorvipath"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:09.233860+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721859+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 4,
    "registros": [
     {
@@ -672,7 +672,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:41:04.012857+00:00",
+   "verificadoEm": "2026-11-18T20:33:00.657309+00:00",
    "parcial": false,
    "registros": [
     {
@@ -709,19 +709,19 @@ const APROVACOES_AUTO = {
  },
  "ghk-cu": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:09.233982+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721906+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:09.233982+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721906+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:58.969867+00:00",
+   "verificadoEm": "2026-11-18T20:32:57.130889+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -743,19 +743,19 @@ const APROVACOES_AUTO = {
  },
  "melanotan-ii": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:09.234088+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721938+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:09.234088+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721938+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:01.825031+00:00",
+   "verificadoEm": "2026-11-18T20:32:57.356820+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -782,7 +782,7 @@ const APROVACOES_AUTO = {
     "Egrifta"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:09.234207+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721967+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -791,17 +791,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/egrifta"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:09.234207+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721967+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:08.911095+00:00",
+   "verificadoEm": "2026-11-18T20:33:01.732218+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -823,19 +823,19 @@ const APROVACOES_AUTO = {
  },
  "retatrutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:09.234308+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.721989+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:09.234308+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.721989+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:05.925020+00:00",
+   "verificadoEm": "2026-11-18T20:33:02.803074+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -859,19 +859,19 @@ const APROVACOES_AUTO = {
  },
  "cagrilintida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:09.234470+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.722009+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:09.234470+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.722009+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:05.614086+00:00",
+   "verificadoEm": "2026-11-18T20:33:04.019155+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -895,19 +895,19 @@ const APROVACOES_AUTO = {
  },
  "survodutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:13.383263+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:05.871131+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:13.383263+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:05.871131+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:13.383094+00:00",
+   "verificadoEm": "2026-11-18T20:33:05.870985+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -931,19 +931,19 @@ const APROVACOES_AUTO = {
  },
  "mazdutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:15.161341+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:06.314830+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:15.161341+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:06.314830+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:15.161200+00:00",
+   "verificadoEm": "2026-11-18T20:33:06.314659+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -972,19 +972,19 @@ const APROVACOES_AUTO = {
     "Symlin"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:15.161475+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:11.135016+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:15.161475+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:11.135016+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:14.671397+00:00",
+   "verificadoEm": "2026-11-18T20:33:11.134841+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1012,7 +1012,7 @@ const APROVACOES_AUTO = {
     "Imcivree"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:15.437137+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:12.431859+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2021-07-16",
@@ -1021,17 +1021,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imcivree"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:15.437137+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:12.431859+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:15.436942+00:00",
+   "verificadoEm": "2026-11-18T20:33:12.431683+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1055,19 +1055,19 @@ const APROVACOES_AUTO = {
  },
  "aod-9604": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:17.683353+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:13.385428+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:17.683353+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:13.385428+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:17.683166+00:00",
+   "verificadoEm": "2026-11-18T20:33:13.385265+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1088,19 +1088,19 @@ const APROVACOES_AUTO = {
  },
  "pegbelfermina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:18.207037+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:14.174035+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:18.207037+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:14.174035+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:18.206833+00:00",
+   "verificadoEm": "2026-11-18T20:33:14.173900+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1127,7 +1127,7 @@ const APROVACOES_AUTO = {
     "Zegalogue (Autoinjector)"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:41:18.207191+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:15.221376+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2024-07-24",
@@ -1136,17 +1136,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zegalogue"
   },
-  "emaVerificadoEm": "2026-11-18T19:41:18.207191+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:15.221376+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:16.904198+00:00",
+   "verificadoEm": "2026-11-18T20:33:15.221185+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1170,19 +1170,19 @@ const APROVACOES_AUTO = {
  },
  "sermorelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:41:19.199431+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:15.967501+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:41:19.199431+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:15.967501+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:19.199271+00:00",
+   "verificadoEm": "2026-11-18T20:33:15.967381+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1204,19 +1204,19 @@ const APROVACOES_AUTO = {
  },
  "ghrp-6": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:12.770927+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:16.517687+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:12.770927+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:16.517687+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:12.770592+00:00",
+   "verificadoEm": "2026-11-18T20:33:16.517564+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1237,19 +1237,19 @@ const APROVACOES_AUTO = {
  },
  "ghrp-2-pralmorelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:12.771050+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:17.300692+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:12.771050+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:17.300692+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:19.714763+00:00",
+   "verificadoEm": "2026-11-18T20:33:17.300558+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1270,19 +1270,19 @@ const APROVACOES_AUTO = {
  },
  "hexarelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:12.771159+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:18.571136+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:12.771159+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:18.571136+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:23.180511+00:00",
+   "verificadoEm": "2026-11-18T20:33:18.571008+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1303,19 +1303,19 @@ const APROVACOES_AUTO = {
  },
  "igf-1-lr3": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:12.771236+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:19.405641+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:12.771236+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:19.405641+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:22.129266+00:00",
+   "verificadoEm": "2026-11-18T20:33:19.405482+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1336,19 +1336,19 @@ const APROVACOES_AUTO = {
  },
  "mgf-peg-mgf": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:12.771309+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:19.962263+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:12.771309+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:19.962263+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:25.909657+00:00",
+   "verificadoEm": "2026-11-18T20:33:19.962122+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1371,19 +1371,19 @@ const APROVACOES_AUTO = {
  },
  "folistatina-344": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:12.771395+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:20.171767+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:12.771395+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:20.171767+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:27.603542+00:00",
+   "verificadoEm": "2026-11-18T20:33:20.171604+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1406,19 +1406,19 @@ const APROVACOES_AUTO = {
  },
  "kisspeptina-10": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.256654+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:22.157224+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.256654+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:22.157224+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:22.256474+00:00",
+   "verificadoEm": "2026-11-18T20:33:22.157098+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1441,19 +1441,19 @@ const APROVACOES_AUTO = {
  },
  "gonadorelina-gnrh": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.256764+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:23.772109+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.256764+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:23.772109+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:26.432963+00:00",
+   "verificadoEm": "2026-11-18T20:33:23.771978+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1486,7 +1486,7 @@ const APROVACOES_AUTO = {
     "Leuprolide Acetate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:22.256875+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:26.659253+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2022-05-24",
@@ -1495,17 +1495,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/camcevi"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:22.256875+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:26.659253+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:28.132101+00:00",
+   "verificadoEm": "2026-11-18T20:33:26.659118+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1538,7 +1538,7 @@ const APROVACOES_AUTO = {
     "Sandostatin"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:22.256965+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:26.659337+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2025-06-30",
@@ -1547,10 +1547,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/oczyesa"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:22.256965+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:26.659337+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -1564,7 +1564,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:29.035007+00:00",
+   "verificadoEm": "2026-11-18T20:33:26.037894+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1593,7 +1593,7 @@ const APROVACOES_AUTO = {
     "Tymlos"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257067+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:27.112267+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2022-12-12",
@@ -1602,17 +1602,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/eladynos"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:22.257067+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:27.112267+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:30.458249+00:00",
+   "verificadoEm": "2026-11-18T20:33:27.112120+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1641,7 +1641,7 @@ const APROVACOES_AUTO = {
     "Voxzogo"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257154+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:29.807044+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2021-08-26",
@@ -1650,10 +1650,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/voxzogo"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:22.257154+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:29.807044+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -1667,7 +1667,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:41:33.093970+00:00",
+   "verificadoEm": "2026-11-18T20:33:29.806906+00:00",
    "parcial": false,
    "registros": [
     {
@@ -1710,19 +1710,19 @@ const APROVACOES_AUTO = {
  },
  "timosina-alfa-1": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257223+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:29.807130+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257223+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:29.807130+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:06.898408+00:00",
+   "verificadoEm": "2026-11-18T20:33:29.242188+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1746,19 +1746,19 @@ const APROVACOES_AUTO = {
  },
  "ll-37": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257264+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:29.807171+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257264+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:29.807171+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:32.528651+00:00",
+   "verificadoEm": "2026-11-18T20:33:29.782284+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1781,19 +1781,19 @@ const APROVACOES_AUTO = {
  },
  "kpv": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257301+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:31.775649+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257301+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:31.775649+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:50.168769+00:00",
+   "verificadoEm": "2026-11-18T20:33:31.775526+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1814,19 +1814,19 @@ const APROVACOES_AUTO = {
  },
  "cibinetida-ara-290": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257348+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:32.285204+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257348+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:32.285204+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:56.275882+00:00",
+   "verificadoEm": "2026-11-18T20:33:32.285067+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1847,19 +1847,19 @@ const APROVACOES_AUTO = {
  },
  "larazotida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257424+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:33.005242+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257424+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:33.005242+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:01.062741+00:00",
+   "verificadoEm": "2026-11-18T20:33:33.005101+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1887,7 +1887,7 @@ const APROVACOES_AUTO = {
     "Gattex Kit"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257514+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:33.979927+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2012-08-30",
@@ -1897,10 +1897,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/teduglutide-viatris"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:22.257514+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:33.979927+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -1914,7 +1914,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:06.761460+00:00",
+   "verificadoEm": "2026-11-18T20:33:33.979780+00:00",
    "parcial": false,
    "registros": [
     {
@@ -1945,19 +1945,19 @@ const APROVACOES_AUTO = {
  },
  "apraglutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257611+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:34.587958+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257611+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:34.587958+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:17.822979+00:00",
+   "verificadoEm": "2026-11-18T20:33:34.587840+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -1981,7 +1981,7 @@ const APROVACOES_AUTO = {
  },
  "zilucoplana": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.257689+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:35.961518+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2023-12-01",
@@ -1990,17 +1990,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zilbrysq"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:22.257689+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:35.961518+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:41:58.435052+00:00",
+   "verificadoEm": "2026-11-18T20:33:35.961396+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2030,7 +2030,7 @@ const APROVACOES_AUTO = {
     "Syfovre"
    ]
   },
-  "fdaVerificadoEm": "2026-11-16T20:54:13.879522+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:39.064544+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2021-12-13",
@@ -2039,10 +2039,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aspaveli"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:22.257763+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:39.064544+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -2056,7 +2056,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:15.038958+00:00",
+   "verificadoEm": "2026-11-18T20:33:39.064366+00:00",
    "parcial": false,
    "registros": [
     {
@@ -2087,19 +2087,19 @@ const APROVACOES_AUTO = {
  },
  "angiotensina-1-7": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:54:13.879616+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:39.435294+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257838+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:39.435294+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:16.171060+00:00",
+   "verificadoEm": "2026-11-18T20:33:39.435167+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2127,19 +2127,19 @@ const APROVACOES_AUTO = {
     "Forzinity"
    ]
   },
-  "fdaVerificadoEm": "2026-11-16T20:54:13.879671+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:39.893172+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257915+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:39.893172+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:13.813925+00:00",
+   "verificadoEm": "2026-11-18T20:33:39.893011+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2163,19 +2163,19 @@ const APROVACOES_AUTO = {
  },
  "mots-c": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:54:13.879716+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:41.673331+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.257980+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:41.673331+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:16.946246+00:00",
+   "verificadoEm": "2026-11-18T20:33:41.673193+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2197,19 +2197,19 @@ const APROVACOES_AUTO = {
  },
  "humanina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.258042+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:43.296727+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.258042+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:43.296727+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:19.649314+00:00",
+   "verificadoEm": "2026-11-18T20:33:43.296595+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2230,19 +2230,19 @@ const APROVACOES_AUTO = {
  },
  "foxo4-dri": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.258103+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:43.296809+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.258103+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:43.296809+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:15.393588+00:00",
+   "verificadoEm": "2026-11-18T20:33:42.733360+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2263,19 +2263,19 @@ const APROVACOES_AUTO = {
  },
  "epitalon-epithalon": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.258200+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:45.384889+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.258200+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:45.384889+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:13.275958+00:00",
+   "verificadoEm": "2026-11-18T20:33:45.384789+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2296,19 +2296,19 @@ const APROVACOES_AUTO = {
  },
  "semax": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.258251+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:45.384966+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.258251+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:45.384966+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:13.013241+00:00",
+   "verificadoEm": "2026-11-18T20:33:45.382709+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2329,19 +2329,19 @@ const APROVACOES_AUTO = {
  },
  "selank": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.258288+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:46.092231+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.258288+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:46.092231+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:16.572362+00:00",
+   "verificadoEm": "2026-11-18T20:33:46.092115+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2362,19 +2362,19 @@ const APROVACOES_AUTO = {
  },
  "dihexa": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.258321+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:47.144678+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.258321+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:47.144678+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:17.535654+00:00",
+   "verificadoEm": "2026-11-18T20:33:47.144554+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2395,19 +2395,19 @@ const APROVACOES_AUTO = {
  },
  "davunetida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.258355+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:47.470895+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.258355+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:47.470895+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:18.843049+00:00",
+   "verificadoEm": "2026-11-18T20:33:47.470756+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2428,19 +2428,19 @@ const APROVACOES_AUTO = {
  },
  "pinealon": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:22.355281+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:48.745460+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.355281+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:48.745460+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:22.355067+00:00",
+   "verificadoEm": "2026-11-18T20:33:48.745316+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2466,19 +2466,19 @@ const APROVACOES_AUTO = {
     "Vyleesi (Autoinjector)"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:22.355400+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:51.280975+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:22.355400+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:51.280975+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:21.748225+00:00",
+   "verificadoEm": "2026-11-18T20:33:51.280825+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2502,19 +2502,19 @@ const APROVACOES_AUTO = {
  },
  "dermorfina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:28.692492+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:52.090706+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:28.692492+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:52.090706+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:28.692340+00:00",
+   "verificadoEm": "2026-11-18T20:33:52.090570+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2535,19 +2535,19 @@ const APROVACOES_AUTO = {
  },
  "argireline-acetil-hexapeptideo-8": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:28.797045+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:52.598637+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:28.797045+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:52.598637+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:28.796846+00:00",
+   "verificadoEm": "2026-11-18T20:33:52.598491+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2568,19 +2568,19 @@ const APROVACOES_AUTO = {
  },
  "matrixyl-palmitoil-pentapeptideo-4": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:28.797214+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:53.816609+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:28.797214+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:53.816609+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:27.234008+00:00",
+   "verificadoEm": "2026-11-18T20:33:53.816448+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2601,19 +2601,19 @@ const APROVACOES_AUTO = {
  },
  "melitina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:30.132669+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:55.033797+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:30.132669+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:55.033797+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:30.132483+00:00",
+   "verificadoEm": "2026-11-18T20:33:55.033651+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2634,19 +2634,19 @@ const APROVACOES_AUTO = {
  },
  "nisina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:30.791592+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:56.137590+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:30.791592+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:56.137590+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:30.791388+00:00",
+   "verificadoEm": "2026-11-18T20:33:56.137455+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2667,19 +2667,19 @@ const APROVACOES_AUTO = {
  },
  "defensinas-humanas": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:31.425719+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:58.543627+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:31.425719+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:58.543627+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:31.425519+00:00",
+   "verificadoEm": "2026-11-18T20:33:58.543506+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2700,19 +2700,19 @@ const APROVACOES_AUTO = {
  },
  "glutationa": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:35.072000+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:59.839280+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:35.072000+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:59.839280+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:42:35.071794+00:00",
+   "verificadoEm": "2026-11-18T20:33:59.839171+00:00",
    "parcial": false,
    "registros": [
     {
@@ -2743,19 +2743,19 @@ const APROVACOES_AUTO = {
  },
  "carnosina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:35.072139+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:33:59.839379+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:35.072139+00:00",
+  "emaVerificadoEm": "2026-11-18T20:33:59.839379+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:32.563256+00:00",
+   "verificadoEm": "2026-11-18T20:33:59.834073+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -2788,7 +2788,7 @@ const APROVACOES_AUTO = {
     "Jatenzo"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:39.723488+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:08.070727+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": "2006-07-28",
@@ -2798,10 +2798,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/intrinsa"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:39.723488+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:08.070727+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 3,
    "registros": [
     {
@@ -2827,7 +2827,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:39.723158+00:00",
+   "verificadoEm": "2026-11-18T20:34:08.070542+00:00",
    "parcial": true,
    "registros": [
     {
@@ -2885,7 +2885,7 @@ const APROVACOES_AUTO = {
     "Vagifem"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:45.117255+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:10.568771+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2002-08-22",
@@ -2896,10 +2896,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ryeqo"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:45.117255+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:10.568771+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -2913,7 +2913,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:45.116890+00:00",
+   "verificadoEm": "2026-11-18T20:34:10.568517+00:00",
    "parcial": true,
    "registros": [
     {
@@ -2964,12 +2964,12 @@ const APROVACOES_AUTO = {
     "Prometrium"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:45.323836+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:11.474587+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:45.323836+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:11.474587+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 7,
    "registros": [
     {
@@ -3007,7 +3007,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:45.323577+00:00",
+   "verificadoEm": "2026-11-18T20:34:11.474415+00:00",
    "parcial": true,
    "registros": [
     {
@@ -3071,7 +3071,7 @@ const APROVACOES_AUTO = {
     "Cortef"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:45.323988+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:12.976748+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2011-11-03",
@@ -3082,10 +3082,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/alkindi"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:45.323988+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:12.976748+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -3105,7 +3105,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:45.219318+00:00",
+   "verificadoEm": "2026-11-18T20:34:12.976523+00:00",
    "parcial": true,
    "registros": [
     {
@@ -3147,7 +3147,7 @@ const APROVACOES_AUTO = {
     "Intrarosa"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:45.324082+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:12.976838+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2018-01-08",
@@ -3156,17 +3156,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/intrarosa"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:45.324082+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:12.976838+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:40.217646+00:00",
+   "verificadoEm": "2026-11-18T20:34:06.069870+00:00",
    "parcial": false,
    "registros": [
     {
@@ -3206,19 +3206,19 @@ const APROVACOES_AUTO = {
     "Thyquidity"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:45.324199+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:12.976892+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:45.324199+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:12.976892+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:43.284086+00:00",
+   "verificadoEm": "2026-11-18T20:34:05.938997+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3248,12 +3248,12 @@ const APROVACOES_AUTO = {
     "Liothyronine Sodium"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:45.324282+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:12.976926+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:45.324282+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:12.976926+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -3267,7 +3267,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:43.316634+00:00",
+   "verificadoEm": "2026-11-18T20:34:06.684755+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3291,7 +3291,7 @@ const APROVACOES_AUTO = {
  },
  "melatonina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:45.324361+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:12.976961+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2007-06-29",
@@ -3302,17 +3302,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/slenyto"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:45.324361+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:12.976961+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:44.932419+00:00",
+   "verificadoEm": "2026-11-18T20:34:11.074017+00:00",
    "parcial": false,
    "registros": [
     {
@@ -3349,12 +3349,12 @@ const APROVACOES_AUTO = {
  },
  "gonadotrofina-corionica-hcg": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:48.658388+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:15.777585+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:48.658388+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:15.777585+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -3374,7 +3374,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:48.658161+00:00",
+   "verificadoEm": "2026-11-18T20:34:15.777390+00:00",
    "parcial": true,
    "registros": [
     {
@@ -3420,7 +3420,7 @@ const APROVACOES_AUTO = {
     "Gvoke Pfs"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:48.658514+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:15.777672+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2019-12-16",
@@ -3431,10 +3431,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zegalogue"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:48.658514+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:15.777672+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -3448,7 +3448,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:42.314811+00:00",
+   "verificadoEm": "2026-11-18T20:34:11.569648+00:00",
    "parcial": false,
    "registros": [
     {
@@ -3491,7 +3491,7 @@ const APROVACOES_AUTO = {
     "Miacalcin"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:48.658600+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:15.777716+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": "1999-01-11",
@@ -3500,17 +3500,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/forcaltonin"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:48.658600+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:15.777716+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:44.213596+00:00",
+   "verificadoEm": "2026-11-18T20:34:10.560652+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3541,19 +3541,19 @@ const APROVACOES_AUTO = {
     "Stimate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:48.658664+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:15.777749+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:48.658664+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:15.777749+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:43.914818+00:00",
+   "verificadoEm": "2026-11-18T20:34:09.959022+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3582,7 +3582,7 @@ const APROVACOES_AUTO = {
     "Myalept"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:50.458931+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:15.777781+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2018-07-30",
@@ -3591,10 +3591,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/myalepta"
   },
-  "emaVerificadoEm": "2026-11-18T19:42:50.458931+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:15.777781+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -3608,7 +3608,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:42:50.458714+00:00",
+   "verificadoEm": "2026-11-18T20:34:13.395079+00:00",
    "parcial": false,
    "registros": [
     {
@@ -3650,19 +3650,19 @@ const APROVACOES_AUTO = {
  },
  "vitamina-d3-colecalciferol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:42:50.459061+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:15.777820+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:50.459061+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:15.777820+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:46.825992+00:00",
+   "verificadoEm": "2026-11-18T20:34:12.059639+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3693,19 +3693,19 @@ const APROVACOES_AUTO = {
     "Vibisone"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:50.459180+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:15.777851+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:50.459180+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:15.777851+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:45.747776+00:00",
+   "verificadoEm": "2026-11-18T20:34:12.743451+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3735,12 +3735,12 @@ const APROVACOES_AUTO = {
     "Ascorbic Acid"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:56.777767+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:18.234299+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:56.777767+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:18.234299+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -3760,7 +3760,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:42:56.777015+00:00",
+   "verificadoEm": "2026-11-18T20:34:18.233598+00:00",
    "parcial": true,
    "registros": [
     {
@@ -3820,19 +3820,19 @@ const APROVACOES_AUTO = {
     "Pyridoxine Hydrochloride"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:42:56.777911+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:18.234406+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:42:56.777911+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:18.234406+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:42:54.888513+00:00",
+   "verificadoEm": "2026-11-18T20:34:17.047539+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3862,7 +3862,7 @@ const APROVACOES_AUTO = {
     "Quiofic"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:43:12.444404+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:24.833602+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -3871,17 +3871,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/neocepri"
   },
-  "emaVerificadoEm": "2026-11-18T19:43:12.444404+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:24.833602+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:43:12.443689+00:00",
+   "verificadoEm": "2026-11-18T20:34:24.833080+00:00",
    "parcial": true,
    "registros": [
     {
@@ -3912,19 +3912,19 @@ const APROVACOES_AUTO = {
  },
  "vitamina-k2-menaquinona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470171+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:24.833699+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:36.369253+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:24.833699+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:36.369007+00:00",
+   "verificadoEm": "2026-11-18T20:34:20.168949+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3945,12 +3945,12 @@ const APROVACOES_AUTO = {
  },
  "vitamina-a-retinol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470224+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:24.833741+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:38.022337+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:24.833741+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -3970,7 +3970,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:38.022066+00:00",
+   "verificadoEm": "2026-11-18T20:34:22.576254+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -3994,12 +3994,12 @@ const APROVACOES_AUTO = {
  },
  "vitamina-e-tocoferol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:40.593793+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:24.833780+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:40.593793+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:24.833780+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -4031,7 +4031,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:40.593648+00:00",
+   "verificadoEm": "2026-11-18T20:34:22.912517+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4061,19 +4061,19 @@ const APROVACOES_AUTO = {
     "Niacor"
    ]
   },
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470317+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:24.833821+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:45.187188+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:24.833821+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:45.187021+00:00",
+   "verificadoEm": "2026-11-18T20:34:23.698952+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4097,19 +4097,19 @@ const APROVACOES_AUTO = {
  },
  "nad": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470357+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:25.034030+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:52.732561+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:25.034030+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:52.732316+00:00",
+   "verificadoEm": "2026-11-18T20:34:25.033916+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4133,19 +4133,19 @@ const APROVACOES_AUTO = {
  },
  "nmn-mononucleotideo-de-nicotinamida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:52.732687+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:26.097295+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:52.732687+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:26.097295+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:25.070482+00:00",
+   "verificadoEm": "2026-11-18T20:34:26.097153+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4168,19 +4168,19 @@ const APROVACOES_AUTO = {
  },
  "nicotinamida-ribosideo-nr": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470452+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:26.597179+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:52.732781+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:26.597179+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:39.835257+00:00",
+   "verificadoEm": "2026-11-18T20:34:26.597037+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4204,19 +4204,19 @@ const APROVACOES_AUTO = {
  },
  "l-carnitina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:52.732865+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:26.908438+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:52.732865+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:26.908438+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:21.196192+00:00",
+   "verificadoEm": "2026-11-18T20:34:26.908285+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4240,19 +4240,19 @@ const APROVACOES_AUTO = {
  },
  "acetil-l-carnitina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:52.732952+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:27.463906+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:52.732952+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:27.463906+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:39.128375+00:00",
+   "verificadoEm": "2026-11-18T20:34:27.463765+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4275,19 +4275,19 @@ const APROVACOES_AUTO = {
  },
  "acido-alfa-lipoico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470570+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:28.681648+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:52.733034+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:28.681648+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:22.316705+00:00",
+   "verificadoEm": "2026-11-18T20:34:28.681504+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4311,19 +4311,19 @@ const APROVACOES_AUTO = {
  },
  "n-acetilcisteina-nac": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470611+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:29.246882+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:55.765262+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:29.246882+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:55.764997+00:00",
+   "verificadoEm": "2026-11-18T20:34:29.246754+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4347,19 +4347,19 @@ const APROVACOES_AUTO = {
  },
  "coenzima-q10": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470649+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:30.730116+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:55.765378+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:30.730116+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:36.079637+00:00",
+   "verificadoEm": "2026-11-18T20:34:30.729985+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4383,12 +4383,12 @@ const APROVACOES_AUTO = {
  },
  "creatina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:56:50.470683+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:33.238186+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:55.765475+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:33.238186+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -4402,7 +4402,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:48.950034+00:00",
+   "verificadoEm": "2026-11-18T20:34:33.238047+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4426,7 +4426,7 @@ const APROVACOES_AUTO = {
  },
  "taurina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:57.038248+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:39.105963+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -4435,17 +4435,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/albrioza"
   },
-  "emaVerificadoEm": "2026-11-18T19:43:57.038248+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:39.105963+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:43:57.038050+00:00",
+   "verificadoEm": "2026-11-18T20:34:39.105814+00:00",
    "parcial": true,
    "registros": [
     {
@@ -4506,12 +4506,12 @@ const APROVACOES_AUTO = {
     "Glycine 1.5% In Plastic Container"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:43:57.038363+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:40.608037+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:57.038363+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:40.608037+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -4531,7 +4531,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:43:37.784764+00:00",
+   "verificadoEm": "2026-11-18T20:34:40.607737+00:00",
    "parcial": true,
    "registros": [
     {
@@ -4561,19 +4561,19 @@ const APROVACOES_AUTO = {
  },
  "omega-3-epa-dha": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:57.038473+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:40.608141+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:57.038473+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:40.608141+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:43.158533+00:00",
+   "verificadoEm": "2026-11-18T20:34:37.441817+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4594,19 +4594,19 @@ const APROVACOES_AUTO = {
  },
  "citicolina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:57.038550+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:40.608184+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:57.038550+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:40.608184+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:43.074978+00:00",
+   "verificadoEm": "2026-11-18T20:34:37.991055+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4630,19 +4630,19 @@ const APROVACOES_AUTO = {
  },
  "ergotioneina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:57.038613+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:40.608218+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:57.038613+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:40.608218+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:53.450781+00:00",
+   "verificadoEm": "2026-11-18T20:34:39.421028+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4665,19 +4665,19 @@ const APROVACOES_AUTO = {
  },
  "resveratrol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:57.038656+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:40.608249+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:57.038656+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:40.608249+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:54.869918+00:00",
+   "verificadoEm": "2026-11-18T20:34:40.320664+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4701,19 +4701,19 @@ const APROVACOES_AUTO = {
  },
  "pterostilbeno": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:58.044445+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:41.258254+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:58.044445+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:41.258254+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:58.044286+00:00",
+   "verificadoEm": "2026-11-18T20:34:41.258131+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4735,19 +4735,19 @@ const APROVACOES_AUTO = {
  },
  "urolitina-a": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:59.895910+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:42.625699+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:59.895910+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:42.625699+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:59.895758+00:00",
+   "verificadoEm": "2026-11-18T20:34:42.625557+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4769,19 +4769,19 @@ const APROVACOES_AUTO = {
  },
  "espermidina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:59.896029+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:43.088182+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:59.896029+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:43.088182+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:58.690308+00:00",
+   "verificadoEm": "2026-11-18T20:34:43.088055+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4804,19 +4804,19 @@ const APROVACOES_AUTO = {
  },
  "pqq-pirroloquinolina-quinona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:59.896183+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:43.342003+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:59.896183+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:43.342003+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:57.726464+00:00",
+   "verificadoEm": "2026-11-18T20:34:43.341864+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4837,19 +4837,19 @@ const APROVACOES_AUTO = {
  },
  "fisetina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:59.896282+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:43.773727+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:59.896282+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:43.773727+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:55.542300+00:00",
+   "verificadoEm": "2026-11-18T20:34:43.773610+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4872,19 +4872,19 @@ const APROVACOES_AUTO = {
  },
  "quercetina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:59.896370+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:44.200700+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:59.896370+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:44.200700+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:57.510336+00:00",
+   "verificadoEm": "2026-11-18T20:34:44.200555+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4908,19 +4908,19 @@ const APROVACOES_AUTO = {
  },
  "slu-pp-332": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:59.896466+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:46.467747+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:59.896466+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:46.467747+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:55.353779+00:00",
+   "verificadoEm": "2026-11-18T20:34:46.467626+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4941,19 +4941,19 @@ const APROVACOES_AUTO = {
  },
  "5-amino-1mq": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:43:59.896554+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:47.490006+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:43:59.896554+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:47.490006+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:43:59.806375+00:00",
+   "verificadoEm": "2026-11-18T20:34:47.489862+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -4974,19 +4974,19 @@ const APROVACOES_AUTO = {
  },
  "aicar-acadesina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:01.461362+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:50.085023+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:01.461362+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:50.085023+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:01.461223+00:00",
+   "verificadoEm": "2026-11-18T20:34:50.084900+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -5016,12 +5016,12 @@ const APROVACOES_AUTO = {
     "Nexium"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:05.851700+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:34:57.736811+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:05.851700+00:00",
+  "emaVerificadoEm": "2026-11-18T20:34:57.736811+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -5035,7 +5035,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:44:05.850973+00:00",
+   "verificadoEm": "2026-11-18T20:34:57.735834+00:00",
    "parcial": true,
    "registros": [
     {
@@ -5098,7 +5098,7 @@ const APROVACOES_AUTO = {
     "Zinc Sulfate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:09.447689+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:00.338609+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2004-10-12",
@@ -5107,17 +5107,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wilzin"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:09.447689+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:00.338609+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:44:09.447027+00:00",
+   "verificadoEm": "2026-11-18T20:35:00.337876+00:00",
    "parcial": true,
    "registros": [
     {
@@ -5177,12 +5177,12 @@ const APROVACOES_AUTO = {
     "Selenium Sulfide"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:10.845548+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:01.936218+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:10.845548+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:01.936218+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -5202,7 +5202,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:44:10.845180+00:00",
+   "verificadoEm": "2026-11-18T20:35:01.935898+00:00",
    "parcial": true,
    "registros": [
     {
@@ -5264,7 +5264,7 @@ const APROVACOES_AUTO = {
     "Venofer"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:11.741274+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:03.834575+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2023-05-26",
@@ -5273,10 +5273,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/qaialdo"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:11.741274+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:03.834575+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -5302,7 +5302,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:44:11.740878+00:00",
+   "verificadoEm": "2026-11-18T20:35:03.834162+00:00",
    "parcial": true,
    "registros": [
     {
@@ -5362,12 +5362,12 @@ const APROVACOES_AUTO = {
     "Thiamine Hydrochloride"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:11.741422+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:03.834675+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:11.741422+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:03.834675+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -5387,7 +5387,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:07.689687+00:00",
+   "verificadoEm": "2026-11-18T20:34:55.579765+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -5418,19 +5418,19 @@ const APROVACOES_AUTO = {
     "Photrexa Viscous In Dextran 20%/Photrexa"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:11.741545+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:03.834721+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:11.741545+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:03.834721+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:08.217888+00:00",
+   "verificadoEm": "2026-11-18T20:34:57.299668+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -5454,12 +5454,12 @@ const APROVACOES_AUTO = {
  },
  "biotina-vitamina-b7": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:19.577189+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.580977+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:19.577189+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.580977+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 3,
    "registros": [
     {
@@ -5485,7 +5485,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:44:19.576842+00:00",
+   "verificadoEm": "2026-11-18T20:35:06.580532+00:00",
    "parcial": true,
    "registros": [
     {
@@ -5545,7 +5545,7 @@ const APROVACOES_AUTO = {
     "Exenatide Synthetic"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:19.577335+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581078+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": "2006-11-20",
@@ -5555,10 +5555,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/byetta"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:19.577335+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581078+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -5590,7 +5590,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:44:13.820515+00:00",
+   "verificadoEm": "2026-11-18T20:35:04.546814+00:00",
    "parcial": false,
    "registros": [
     {
@@ -5639,7 +5639,7 @@ const APROVACOES_AUTO = {
  },
  "lixisenatida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:19.577446+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581135+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2017-01-11",
@@ -5648,10 +5648,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/suliqua"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:19.577446+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581135+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -5671,7 +5671,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:44:12.141896+00:00",
+   "verificadoEm": "2026-11-18T20:35:04.737910+00:00",
    "parcial": false,
    "registros": [
     {
@@ -5707,7 +5707,7 @@ const APROVACOES_AUTO = {
     "Trulicity"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:19.577522+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581174+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2014-11-21",
@@ -5716,10 +5716,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/trulicity"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:19.577522+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581174+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -5733,7 +5733,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:44:13.904952+00:00",
+   "verificadoEm": "2026-11-18T20:35:05.747384+00:00",
    "parcial": false,
    "registros": [
     {
@@ -5782,19 +5782,19 @@ const APROVACOES_AUTO = {
  },
  "maridebart-cafraglutida-maritide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:19.577600+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581219+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:19.577600+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581219+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:12.578420+00:00",
+   "verificadoEm": "2026-11-18T20:35:00.815682+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -5818,19 +5818,19 @@ const APROVACOES_AUTO = {
  },
  "petrelintida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:19.577651+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581251+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:19.577651+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581251+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:11.341398+00:00",
+   "verificadoEm": "2026-11-18T20:35:01.511658+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -5854,19 +5854,19 @@ const APROVACOES_AUTO = {
  },
  "eloralintida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:19.577693+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581280+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:19.577693+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581280+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:14.474662+00:00",
+   "verificadoEm": "2026-11-18T20:35:02.114217+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -5895,7 +5895,7 @@ const APROVACOES_AUTO = {
     "Foundayo"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:22.904652+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581308+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -5904,17 +5904,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/foundayo"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:22.904652+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581308+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:22.904475+00:00",
+   "verificadoEm": "2026-11-18T20:35:02.724308+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -5943,19 +5943,19 @@ const APROVACOES_AUTO = {
     "Somatuline Depot"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:22.904754+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581353+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:22.904754+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581353+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:14.015822+00:00",
+   "verificadoEm": "2026-11-18T20:35:03.107518+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -5985,7 +5985,7 @@ const APROVACOES_AUTO = {
     "Signifor Lar Kit"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:22.904834+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:06.581381+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2012-04-24",
@@ -5994,17 +5994,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/signifor"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:22.904834+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:06.581381+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:16.114336+00:00",
+   "verificadoEm": "2026-11-18T20:35:04.438129+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6036,19 +6036,19 @@ const APROVACOES_AUTO = {
     "Vasostrict"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:23.896945+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:08.860049+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:23.896945+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:08.860049+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:44:23.896747+00:00",
+   "verificadoEm": "2026-11-18T20:35:08.859866+00:00",
    "parcial": false,
    "registros": [
     {
@@ -6090,19 +6090,19 @@ const APROVACOES_AUTO = {
     "Terlivaz"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:23.897053+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:10.001064+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:23.897053+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:10.001064+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:20.704782+00:00",
+   "verificadoEm": "2026-11-18T20:35:10.000902+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6130,7 +6130,7 @@ const APROVACOES_AUTO = {
     "Firmagon"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.713623+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:11.824904+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2009-02-17",
@@ -6140,17 +6140,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/degarelix-accord"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:50.713623+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:11.824904+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:50.713308+00:00",
+   "verificadoEm": "2026-11-18T20:35:11.824752+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6180,7 +6180,7 @@ const APROVACOES_AUTO = {
     "Cetrotide"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.713749+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:12.483855+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "1999-04-12",
@@ -6189,17 +6189,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cetrotide"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:50.713749+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:12.483855+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:25.664218+00:00",
+   "verificadoEm": "2026-11-18T20:35:12.483705+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6229,19 +6229,19 @@ const APROVACOES_AUTO = {
     "Triptodur Kit"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.713833+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:14.190468+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:50.713833+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:14.190468+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:28.264606+00:00",
+   "verificadoEm": "2026-11-18T20:35:14.190303+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6270,19 +6270,19 @@ const APROVACOES_AUTO = {
     "Zoladex"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.713889+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:15.505001+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:50.713889+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:15.505001+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:30.048664+00:00",
+   "verificadoEm": "2026-11-18T20:35:15.504831+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6313,7 +6313,7 @@ const APROVACOES_AUTO = {
     "Bivalirudin"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.713964+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:19.311879+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": "2004-09-20",
@@ -6322,17 +6322,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/angiox"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:50.713964+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:19.311879+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:44:30.918213+00:00",
+   "verificadoEm": "2026-11-18T20:35:19.311709+00:00",
    "parcial": false,
    "registros": [
     {
@@ -6390,7 +6390,7 @@ const APROVACOES_AUTO = {
     "Prialt"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.714052+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:19.311963+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2005-02-21",
@@ -6399,17 +6399,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/prialt"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:50.714052+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:19.311963+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:25.365707+00:00",
+   "verificadoEm": "2026-11-18T20:35:17.002278+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6435,7 +6435,7 @@ const APROVACOES_AUTO = {
     "Linzess"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.714149+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:19.652364+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2012-11-26",
@@ -6444,17 +6444,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/constella"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:50.714149+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:19.652364+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:44:27.820566+00:00",
+   "verificadoEm": "2026-11-18T20:35:19.652180+00:00",
    "parcial": false,
    "registros": [
     {
@@ -6503,7 +6503,7 @@ const APROVACOES_AUTO = {
     "Icatibant Acetate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.714237+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:19.652452+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2008-07-11",
@@ -6513,17 +6513,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/firazyr"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:50.714237+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:19.652452+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:27.460546+00:00",
+   "verificadoEm": "2026-11-18T20:35:18.528071+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6546,7 +6546,7 @@ const APROVACOES_AUTO = {
  },
  "enfuvirtida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:50.714308+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:19.865237+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2003-05-27",
@@ -6555,10 +6555,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fuzeon"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:50.714308+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:19.865237+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -6572,7 +6572,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:44:32.439565+00:00",
+   "verificadoEm": "2026-11-18T20:35:19.865130+00:00",
    "parcial": false,
    "registros": [
     {
@@ -6605,7 +6605,7 @@ const APROVACOES_AUTO = {
     "Korsuva"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:44:50.714392+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:19.865334+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2022-04-25",
@@ -6614,17 +6614,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kapruvia"
   },
-  "emaVerificadoEm": "2026-11-18T19:44:50.714392+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:19.865334+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:32.766188+00:00",
+   "verificadoEm": "2026-11-18T20:35:19.843829+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6648,19 +6648,19 @@ const APROVACOES_AUTO = {
  },
  "cerebrolisina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:50.714467+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:20.929743+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:50.714467+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:20.929743+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:30.594410+00:00",
+   "verificadoEm": "2026-11-18T20:35:20.929622+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6684,19 +6684,19 @@ const APROVACOES_AUTO = {
  },
  "timalina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:50.714540+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:21.471521+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:50.714540+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:21.471521+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:33.034667+00:00",
+   "verificadoEm": "2026-11-18T20:35:21.471400+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6717,19 +6717,19 @@ const APROVACOES_AUTO = {
  },
  "timopentina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:44:50.714608+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:23.283715+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:44:50.714608+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:23.283715+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:33.637476+00:00",
+   "verificadoEm": "2026-11-18T20:35:23.283606+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6750,19 +6750,19 @@ const APROVACOES_AUTO = {
  },
  "vip-peptideo-intestinal-vasoativo-aviptadil": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:57:54.662023+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:23.816826+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:19.450606+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:23.816826+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:19.450417+00:00",
+   "verificadoEm": "2026-11-18T20:35:23.816675+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6783,19 +6783,19 @@ const APROVACOES_AUTO = {
  },
  "timogeno-thymogen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:19.450736+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:25.381471+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:19.450736+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:25.381471+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:35.585175+00:00",
+   "verificadoEm": "2026-11-18T20:35:25.381294+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6816,19 +6816,19 @@ const APROVACOES_AUTO = {
  },
  "cortexina-cortexin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:19.450834+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:26.663821+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:19.450834+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:26.663821+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:36.744720+00:00",
+   "verificadoEm": "2026-11-18T20:35:26.663687+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6849,19 +6849,19 @@ const APROVACOES_AUTO = {
  },
  "cortagen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:19.450932+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:28.713888+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:19.450932+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:28.713888+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:04.195825+00:00",
+   "verificadoEm": "2026-11-18T20:35:28.713754+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6882,19 +6882,19 @@ const APROVACOES_AUTO = {
  },
  "vilon-lys-glu": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.487009+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:31.428517+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487009+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:31.428517+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:24.486813+00:00",
+   "verificadoEm": "2026-11-18T20:35:31.428390+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6915,19 +6915,19 @@ const APROVACOES_AUTO = {
  },
  "cartalax": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.487148+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:32.712930+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487148+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:32.712930+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:44:56.166302+00:00",
+   "verificadoEm": "2026-11-18T20:35:32.712797+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6948,19 +6948,19 @@ const APROVACOES_AUTO = {
  },
  "livagen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:58:02.445843+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:33.985299+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487261+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:33.985299+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:21.897265+00:00",
+   "verificadoEm": "2026-11-18T20:35:33.985172+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -6981,19 +6981,19 @@ const APROVACOES_AUTO = {
  },
  "chonluten": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.487352+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:34.764689+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487352+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:34.764689+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:18.773511+00:00",
+   "verificadoEm": "2026-11-18T20:35:34.764569+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7014,19 +7014,19 @@ const APROVACOES_AUTO = {
  },
  "ovagen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.487432+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:35.299011+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487432+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:35.299011+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:07.716980+00:00",
+   "verificadoEm": "2026-11-18T20:35:35.298885+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7047,19 +7047,19 @@ const APROVACOES_AUTO = {
  },
  "vesugen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.487510+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:36.060989+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487510+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:36.060989+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:17.346322+00:00",
+   "verificadoEm": "2026-11-18T20:35:36.060831+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7080,19 +7080,19 @@ const APROVACOES_AUTO = {
  },
  "prostamax": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.487591+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:36.575583+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487591+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:36.575583+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:22.555837+00:00",
+   "verificadoEm": "2026-11-18T20:35:36.575456+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7113,19 +7113,19 @@ const APROVACOES_AUTO = {
  },
  "crystagen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:58:08.486932+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:37.372064+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487668+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:37.372064+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:18.238571+00:00",
+   "verificadoEm": "2026-11-18T20:35:37.371934+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7146,19 +7146,19 @@ const APROVACOES_AUTO = {
  },
  "bronchogen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:58:10.443240+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:38.402388+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487791+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:38.402388+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:23.066405+00:00",
+   "verificadoEm": "2026-11-18T20:35:38.402252+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7179,19 +7179,19 @@ const APROVACOES_AUTO = {
  },
  "pancragen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.487903+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:38.685742+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.487903+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:38.685742+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:20.817860+00:00",
+   "verificadoEm": "2026-11-18T20:35:38.685617+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7212,19 +7212,19 @@ const APROVACOES_AUTO = {
  },
  "testagen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:58:10.443377+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:39.462695+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.488027+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:39.462695+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:21.802821+00:00",
+   "verificadoEm": "2026-11-18T20:35:39.462565+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7246,19 +7246,19 @@ const APROVACOES_AUTO = {
  },
  "cardiogen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.488149+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:39.966467+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.488149+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:39.966467+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:21.005336+00:00",
+   "verificadoEm": "2026-11-18T20:35:39.966347+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7279,19 +7279,19 @@ const APROVACOES_AUTO = {
  },
  "dsip-peptideo-indutor-do-sono-delta": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.889995+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:41.652622+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.889995+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:41.652622+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:24.889825+00:00",
+   "verificadoEm": "2026-11-18T20:35:41.652495+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7312,19 +7312,19 @@ const APROVACOES_AUTO = {
  },
  "p21": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:45:24.890102+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:35:42.873794+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:45:24.890102+00:00",
+  "emaVerificadoEm": "2026-11-18T20:35:42.873794+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:22.344142+00:00",
+   "verificadoEm": "2026-11-18T20:35:42.873670+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7347,17 +7347,17 @@ const APROVACOES_AUTO = {
   "fda": null,
   "fdaVerificadoEm": "2026-11-16T15:37:22.737701+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.303943+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.859733+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:28.303637+00:00",
+   "verificadoEm": "2026-11-18T20:36:47.859581+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7384,7 +7384,7 @@ const APROVACOES_AUTO = {
     "Daybue Stix"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304064+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.859811+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2026-08-20",
@@ -7393,17 +7393,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/daybu"
   },
-  "emaVerificadoEm": "2026-11-18T19:46:28.304064+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.859811+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:45:24.371191+00:00",
+   "verificadoEm": "2026-11-18T20:35:47.649923+00:00",
    "parcial": false,
    "registros": [
     {
@@ -7432,19 +7432,19 @@ const APROVACOES_AUTO = {
  },
  "goralatida-ac-sdkp": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304163+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.859857+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304163+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.859857+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:25.425425+00:00",
+   "verificadoEm": "2026-11-18T20:35:47.587715+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7465,19 +7465,19 @@ const APROVACOES_AUTO = {
  },
  "ciclo-his-pro-chp": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304236+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.859889+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304236+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.859889+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:29.563442+00:00",
+   "verificadoEm": "2026-11-18T20:35:48.104105+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7498,19 +7498,19 @@ const APROVACOES_AUTO = {
  },
  "substancia-p": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304311+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.859920+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304311+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.859920+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:30.191167+00:00",
+   "verificadoEm": "2026-11-18T20:35:49.501291+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7531,19 +7531,19 @@ const APROVACOES_AUTO = {
  },
  "neuropeptideo-y": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304367+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.859951+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304367+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.859951+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:32.410602+00:00",
+   "verificadoEm": "2026-11-18T20:35:50.220607+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7564,19 +7564,19 @@ const APROVACOES_AUTO = {
  },
  "orexina-a-hipocretina-1": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304444+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.859984+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304444+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.859984+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:35.209349+00:00",
+   "verificadoEm": "2026-11-18T20:35:52.072196+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7597,19 +7597,19 @@ const APROVACOES_AUTO = {
  },
  "galanina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304549+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.860013+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304549+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.860013+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:33.828519+00:00",
+   "verificadoEm": "2026-11-18T20:35:52.626399+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7630,19 +7630,19 @@ const APROVACOES_AUTO = {
  },
  "encefalinas-met-leu-encefalina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304648+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.860074+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304648+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.860074+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:40.741045+00:00",
+   "verificadoEm": "2026-11-18T20:35:53.460131+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7663,19 +7663,19 @@ const APROVACOES_AUTO = {
  },
  "dinorfina-a": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304728+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.860111+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304728+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.860111+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:35.976275+00:00",
+   "verificadoEm": "2026-11-18T20:35:53.864133+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7696,19 +7696,19 @@ const APROVACOES_AUTO = {
  },
  "beta-endorfina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304804+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.860145+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304804+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.860145+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:43.534941+00:00",
+   "verificadoEm": "2026-11-18T20:35:54.720976+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7730,19 +7730,19 @@ const APROVACOES_AUTO = {
  },
  "nociceptina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304881+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.860179+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304881+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.860179+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:41.006781+00:00",
+   "verificadoEm": "2026-11-18T20:35:54.933703+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7764,19 +7764,19 @@ const APROVACOES_AUTO = {
  },
  "apamina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.304963+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.860213+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.304963+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.860213+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:36.970838+00:00",
+   "verificadoEm": "2026-11-18T20:35:58.327529+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7797,19 +7797,19 @@ const APROVACOES_AUTO = {
  },
  "cecropina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:28.305048+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:36:47.860246+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:28.305048+00:00",
+  "emaVerificadoEm": "2026-11-18T20:36:47.860246+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:44.657776+00:00",
+   "verificadoEm": "2026-11-18T20:35:58.592709+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7832,17 +7832,17 @@ const APROVACOES_AUTO = {
   "fda": null,
   "fdaVerificadoEm": "2026-11-16T15:38:31.571138+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.632401+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979485+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:44.632037+00:00",
+   "verificadoEm": "2026-11-18T20:37:02.979378+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7863,19 +7863,19 @@ const APROVACOES_AUTO = {
  },
  "lactoferricina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.632530+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979561+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.632530+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979561+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:39.716420+00:00",
+   "verificadoEm": "2026-11-18T20:35:59.999572+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7896,19 +7896,19 @@ const APROVACOES_AUTO = {
  },
  "histatina-5": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.632596+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979601+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.632596+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979601+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:42.323450+00:00",
+   "verificadoEm": "2026-11-18T20:36:00.770174+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7929,19 +7929,19 @@ const APROVACOES_AUTO = {
  },
  "palmitoil-tripeptideo-1-pal-ghk": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.632667+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979645+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.632667+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979645+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:51.444852+00:00",
+   "verificadoEm": "2026-11-18T20:36:02.445962+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7962,19 +7962,19 @@ const APROVACOES_AUTO = {
  },
  "palmitoil-tetrapeptideo-7": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.632770+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979681+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.632770+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979681+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:43.100490+00:00",
+   "verificadoEm": "2026-11-18T20:36:03.465087+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -7995,19 +7995,19 @@ const APROVACOES_AUTO = {
  },
  "snap-8-acetil-octapeptideo-3": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.632889+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979715+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.632889+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979715+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:45.414553+00:00",
+   "verificadoEm": "2026-11-18T20:36:04.799058+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8028,19 +8028,19 @@ const APROVACOES_AUTO = {
  },
  "acetil-tetrapeptideo-3-redensyl": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.632985+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979748+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.632985+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979748+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:48.703022+00:00",
+   "verificadoEm": "2026-11-18T20:36:06.390619+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8061,19 +8061,19 @@ const APROVACOES_AUTO = {
  },
  "leuphasyl-pentapeptideo-18": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633078+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979778+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.633078+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979778+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:47.239620+00:00",
+   "verificadoEm": "2026-11-18T20:36:06.641077+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8094,19 +8094,19 @@ const APROVACOES_AUTO = {
  },
  "syn-ake-dipeptideo-diaminobutiroil-benzilamida-diacetato": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633255+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979815+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.633255+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979815+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:49.484546+00:00",
+   "verificadoEm": "2026-11-18T20:36:07.124468+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8127,19 +8127,19 @@ const APROVACOES_AUTO = {
  },
  "palmitoil-tripeptideo-5": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633344+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979846+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.633344+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979846+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:48.462857+00:00",
+   "verificadoEm": "2026-11-18T20:36:08.862726+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8165,7 +8165,7 @@ const APROVACOES_AUTO = {
     "Macrilen"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633437+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979875+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2019-01-11",
@@ -8174,17 +8174,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ghryvelin"
   },
-  "emaVerificadoEm": "2026-11-18T19:46:44.633437+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979875+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:50.344864+00:00",
+   "verificadoEm": "2026-11-18T20:36:09.108743+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8206,7 +8206,7 @@ const APROVACOES_AUTO = {
  },
  "anamorelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633511+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979909+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -8215,17 +8215,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/adlumiz"
   },
-  "emaVerificadoEm": "2026-11-18T19:46:44.633511+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979909+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:52.891201+00:00",
+   "verificadoEm": "2026-11-18T20:36:10.440172+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8249,19 +8249,19 @@ const APROVACOES_AUTO = {
  },
  "capromorelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633587+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979956+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.633587+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979956+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:45:53.835091+00:00",
+   "verificadoEm": "2026-11-18T20:36:12.033490+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8282,19 +8282,19 @@ const APROVACOES_AUTO = {
  },
  "alexamorelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633677+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.979984+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.633677+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.979984+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:36.751572+00:00",
+   "verificadoEm": "2026-11-18T20:36:13.084043+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8315,19 +8315,19 @@ const APROVACOES_AUTO = {
  },
  "ibutamoren-mk-677-nao-peptideo-secretagogo-oral": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633763+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980019+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.633763+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980019+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:06.055325+00:00",
+   "verificadoEm": "2026-11-18T20:36:13.884844+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8348,19 +8348,19 @@ const APROVACOES_AUTO = {
  },
  "fragmento-176-191-do-hormonio-do-crescimento-hgh-frag": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633858+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980054+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.633858+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980054+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:19.836981+00:00",
+   "verificadoEm": "2026-11-18T20:36:15.195242+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8381,19 +8381,19 @@ const APROVACOES_AUTO = {
  },
  "igf-1-des-1-3": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.633933+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980082+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.633933+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980082+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:06.808932+00:00",
+   "verificadoEm": "2026-11-18T20:36:16.228512+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8414,19 +8414,19 @@ const APROVACOES_AUTO = {
  },
  "mecasermina-igf-1-recombinante": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634014+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980115+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634014+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980115+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:14.563251+00:00",
+   "verificadoEm": "2026-11-18T20:36:17.382946+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8447,19 +8447,19 @@ const APROVACOES_AUTO = {
  },
  "estrona-e1": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634103+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980146+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634103+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980146+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:46:42.888626+00:00",
+   "verificadoEm": "2026-11-18T20:36:20.882852+00:00",
    "parcial": false,
    "registros": [
     {
@@ -8487,12 +8487,12 @@ const APROVACOES_AUTO = {
  },
  "estriol-e3": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634212+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980176+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634212+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980176+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 3,
    "registros": [
     {
@@ -8518,7 +8518,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:34.827177+00:00",
+   "verificadoEm": "2026-11-18T20:36:19.432120+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8542,19 +8542,19 @@ const APROVACOES_AUTO = {
  },
  "pregnenolona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:59:32.155742+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980209+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634322+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980209+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:25.127902+00:00",
+   "verificadoEm": "2026-11-18T20:36:20.735380+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8577,19 +8577,19 @@ const APROVACOES_AUTO = {
  },
  "androstenediona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634414+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980234+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634414+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980234+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:30.976266+00:00",
+   "verificadoEm": "2026-11-18T20:36:21.560819+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8610,19 +8610,19 @@ const APROVACOES_AUTO = {
  },
  "di-hidrotestosterona-dht": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634472+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980260+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634472+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980260+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:22.204386+00:00",
+   "verificadoEm": "2026-11-18T20:36:22.411584+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8643,19 +8643,19 @@ const APROVACOES_AUTO = {
  },
  "nandrolona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634512+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980285+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634512+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980285+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:19.249533+00:00",
+   "verificadoEm": "2026-11-18T20:36:23.545177+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8678,19 +8678,19 @@ const APROVACOES_AUTO = {
  },
  "oxandrolona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:59:32.155926+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980312+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634550+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980312+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:39.476518+00:00",
+   "verificadoEm": "2026-11-18T20:36:24.319311+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8713,19 +8713,19 @@ const APROVACOES_AUTO = {
  },
  "estanozolol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634585+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980355+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634585+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980355+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:46:33.591200+00:00",
+   "verificadoEm": "2026-11-18T20:36:26.298465+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 2
@@ -8746,19 +8746,19 @@ const APROVACOES_AUTO = {
  },
  "trembolona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634620+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980382+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634620+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980382+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:31.746555+00:00",
+   "verificadoEm": "2026-11-18T20:36:25.786115+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8784,7 +8784,7 @@ const APROVACOES_AUTO = {
     "Cortisone Acetate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634654+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980407+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2011-11-03",
@@ -8795,17 +8795,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/alkindi"
   },
-  "emaVerificadoEm": "2026-11-18T19:46:44.634654+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980407+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:38.529356+00:00",
+   "verificadoEm": "2026-11-18T20:36:27.543378+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -8835,12 +8835,12 @@ const APROVACOES_AUTO = {
     "Prednisone Intensol"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:46:44.634697+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980436+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:44.634697+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980436+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 23,
    "registros": [
     {
@@ -8878,7 +8878,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:46:30.397453+00:00",
+   "verificadoEm": "2026-11-18T20:36:34.551870+00:00",
    "parcial": true,
    "registros": [
     {
@@ -8924,7 +8924,7 @@ const APROVACOES_AUTO = {
     "Dextenza"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:46:51.522562+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980474+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2010-07-26",
@@ -8934,10 +8934,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/neofordex"
   },
-  "emaVerificadoEm": "2026-11-18T19:46:51.522562+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980474+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 12,
    "registros": [
     {
@@ -8975,7 +8975,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:46:51.522293+00:00",
+   "verificadoEm": "2026-11-18T20:36:36.170849+00:00",
    "parcial": true,
    "registros": [
     {
@@ -9029,19 +9029,19 @@ const APROVACOES_AUTO = {
     "Fludrocortisone Acetate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-16T20:59:32.156258+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980521+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:54.659670+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980521+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:54.659470+00:00",
+   "verificadoEm": "2026-11-18T20:36:31.702735+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9065,19 +9065,19 @@ const APROVACOES_AUTO = {
  },
  "aldosterona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:54.659788+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980549+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:54.659788+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980549+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:40.785992+00:00",
+   "verificadoEm": "2026-11-18T20:36:32.484596+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9107,7 +9107,7 @@ const APROVACOES_AUTO = {
     "Epinephrine"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:46:54.659895+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980577+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2024-08-22",
@@ -9116,10 +9116,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/eurneffy"
   },
-  "emaVerificadoEm": "2026-11-18T19:46:54.659895+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980577+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -9139,7 +9139,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:46:52.110849+00:00",
+   "verificadoEm": "2026-11-18T20:36:39.134501+00:00",
    "parcial": true,
    "registros": [
     {
@@ -9184,19 +9184,19 @@ const APROVACOES_AUTO = {
     "Norepinephrine Bitartrate In 5% Dextrose"
    ]
   },
-  "fdaVerificadoEm": "2026-11-16T20:59:32.156416+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980613+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:58.896959+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980613+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:58.896753+00:00",
+   "verificadoEm": "2026-11-18T20:36:35.383626+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9226,7 +9226,7 @@ const APROVACOES_AUTO = {
     "Dopamine Hydrochloride In Dextrose 5% In Plastic Container"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:46:58.897087+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980641+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2024-05-27",
@@ -9235,17 +9235,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/neoatricon"
   },
-  "emaVerificadoEm": "2026-11-18T19:46:58.897087+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980641+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:52.894916+00:00",
+   "verificadoEm": "2026-11-18T20:36:35.694339+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9269,19 +9269,19 @@ const APROVACOES_AUTO = {
  },
  "serotonina-5-ht": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T20:59:32.156520+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980670+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:59.862672+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980670+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:59.862464+00:00",
+   "verificadoEm": "2026-11-18T20:36:37.145209+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9305,19 +9305,19 @@ const APROVACOES_AUTO = {
  },
  "prolactina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:59.862823+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980696+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:59.862823+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980696+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:54.214629+00:00",
+   "verificadoEm": "2026-11-18T20:36:36.698380+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9338,19 +9338,19 @@ const APROVACOES_AUTO = {
  },
  "fsh-hormonio-foliculo-estimulante": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:59.862953+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980733+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:59.862953+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980733+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:55.464148+00:00",
+   "verificadoEm": "2026-11-18T20:36:38.026388+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9374,19 +9374,19 @@ const APROVACOES_AUTO = {
  },
  "lh-hormonio-luteinizante": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:59.863050+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980762+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:59.863050+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980762+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:46:57.619899+00:00",
+   "verificadoEm": "2026-11-18T20:36:40.045990+00:00",
    "parcial": false,
    "registros": [
     {
@@ -9428,7 +9428,7 @@ const APROVACOES_AUTO = {
     "Thyrogen"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:46:59.863156+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980792+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2000-03-09",
@@ -9437,17 +9437,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/thyrogen"
   },
-  "emaVerificadoEm": "2026-11-18T19:46:59.863156+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980792+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:46:59.578791+00:00",
+   "verificadoEm": "2026-11-18T20:36:39.483592+00:00",
    "parcial": false,
    "registros": [
     {
@@ -9477,19 +9477,19 @@ const APROVACOES_AUTO = {
  },
  "acth-cosintropina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:59.863267+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980821+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:59.863267+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980821+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:53.651439+00:00",
+   "verificadoEm": "2026-11-18T20:36:40.908399+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9510,19 +9510,19 @@ const APROVACOES_AUTO = {
  },
  "eritropoetina-epo": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:59.863347+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980847+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:59.863347+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980847+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:51.426076+00:00",
+   "verificadoEm": "2026-11-18T20:36:44.850665+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9546,19 +9546,19 @@ const APROVACOES_AUTO = {
  },
  "paratormonio-pth-1-84": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:46:59.863437+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980876+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:46:59.863437+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980876+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:46:57.518692+00:00",
+   "verificadoEm": "2026-11-18T20:36:44.126506+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9587,12 +9587,12 @@ const APROVACOES_AUTO = {
     "Dostinex"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:00.488196+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980900+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:00.488196+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980900+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 15,
    "registros": [
     {
@@ -9630,7 +9630,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:00.487959+00:00",
+   "verificadoEm": "2026-11-18T20:36:47.903837+00:00",
    "parcial": false,
    "registros": [
     {
@@ -9680,19 +9680,19 @@ const APROVACOES_AUTO = {
     "Parlodel"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:00.488325+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980937+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:00.488325+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980937+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:00.386735+00:00",
+   "verificadoEm": "2026-11-18T20:36:47.117362+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9722,12 +9722,12 @@ const APROVACOES_AUTO = {
     "Arimidex"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:06.742356+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.980967+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:06.742356+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.980967+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 18,
    "registros": [
     {
@@ -9765,7 +9765,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:06.742060+00:00",
+   "verificadoEm": "2026-11-18T20:36:53.136684+00:00",
    "parcial": true,
    "registros": [
     {
@@ -9826,12 +9826,12 @@ const APROVACOES_AUTO = {
     "Letrozole"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:07.289099+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.981012+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:07.289099+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.981012+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 17,
    "registros": [
     {
@@ -9869,7 +9869,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:07.288857+00:00",
+   "verificadoEm": "2026-11-18T20:36:54.082147+00:00",
    "parcial": true,
    "registros": [
     {
@@ -9930,19 +9930,19 @@ const APROVACOES_AUTO = {
     "Tamoxifen Citrate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:07.289273+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.981056+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:07.289273+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.981056+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:03.026552+00:00",
+   "verificadoEm": "2026-11-18T20:36:49.745184+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -9973,19 +9973,19 @@ const APROVACOES_AUTO = {
     "Milophene"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:07.289363+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.981085+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:07.289363+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.981085+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:47:06.065992+00:00",
+   "verificadoEm": "2026-11-18T20:36:53.636992+00:00",
    "parcial": false,
    "registros": [
     {
@@ -10034,19 +10034,19 @@ const APROVACOES_AUTO = {
  },
  "enclomifeno": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:07.289452+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.981119+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:07.289452+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.981119+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:04.957462+00:00",
+   "verificadoEm": "2026-11-18T20:36:51.906202+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -10076,7 +10076,7 @@ const APROVACOES_AUTO = {
     "Raloxifene Hydrochloride"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:07.718965+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:02.981142+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "1998-08-05",
@@ -10086,17 +10086,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evista"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:07.718965+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:02.981142+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:07.718764+00:00",
+   "verificadoEm": "2026-11-18T20:36:51.450236+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -10127,12 +10127,12 @@ const APROVACOES_AUTO = {
     "Proscar"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:12.987921+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:04.410882+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:12.987921+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:04.410882+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 23,
    "registros": [
     {
@@ -10170,7 +10170,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:12.987666+00:00",
+   "verificadoEm": "2026-11-18T20:37:04.410702+00:00",
    "parcial": true,
    "registros": [
     {
@@ -10230,12 +10230,12 @@ const APROVACOES_AUTO = {
     "Dutasteride"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:22.170813+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:04.410986+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:22.170813+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:04.410986+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 5,
    "registros": [
     {
@@ -10273,7 +10273,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:22.170544+00:00",
+   "verificadoEm": "2026-11-18T20:37:00.941757+00:00",
    "parcial": true,
    "registros": [
     {
@@ -10335,7 +10335,7 @@ const APROVACOES_AUTO = {
     "Spironolactone"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:22.170967+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:06.182162+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2023-05-26",
@@ -10344,10 +10344,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/qaialdo"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:22.170967+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:06.182162+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 10,
    "registros": [
     {
@@ -10385,7 +10385,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:19.170022+00:00",
+   "verificadoEm": "2026-11-18T20:37:06.182000+00:00",
    "parcial": true,
    "registros": [
     {
@@ -10435,12 +10435,12 @@ const APROVACOES_AUTO = {
     "Vectical"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:22.573997+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:07.400394+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:22.573997+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:07.400394+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -10460,7 +10460,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:22.573759+00:00",
+   "verificadoEm": "2026-11-18T20:37:07.400203+00:00",
    "parcial": true,
    "registros": [
     {
@@ -10508,12 +10508,12 @@ const APROVACOES_AUTO = {
  },
  "tibolona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:22.574202+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:07.400488+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:22.574202+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:07.400488+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 11,
    "registros": [
     {
@@ -10551,7 +10551,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:13.967723+00:00",
+   "verificadoEm": "2026-11-18T20:36:57.953511+00:00",
    "parcial": false,
    "registros": [
     {
@@ -10587,12 +10587,12 @@ const APROVACOES_AUTO = {
     "Provera"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:23.387784+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.050917+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:23.387784+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.050917+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -10606,7 +10606,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:23.387519+00:00",
+   "verificadoEm": "2026-11-18T20:37:08.050732+00:00",
    "parcial": true,
    "registros": [
     {
@@ -10648,7 +10648,7 @@ const APROVACOES_AUTO = {
     "Slynd"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:24.875048+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.872959+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2021-05-19",
@@ -10658,10 +10658,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lydisilka"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:24.875048+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.872959+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -10681,7 +10681,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:24.874823+00:00",
+   "verificadoEm": "2026-11-18T20:37:08.872757+00:00",
    "parcial": true,
    "registros": [
     {
@@ -10736,12 +10736,12 @@ const APROVACOES_AUTO = {
  },
  "etinilestradiol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:24.875206+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.873057+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:24.875206+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.873057+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -10755,7 +10755,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:15.879470+00:00",
+   "verificadoEm": "2026-11-18T20:37:00.855181+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -10779,19 +10779,19 @@ const APROVACOES_AUTO = {
  },
  "relaxina-serelaxin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:24.875314+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.873099+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:24.875314+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.873099+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:17.073894+00:00",
+   "verificadoEm": "2026-11-18T20:37:02.926544+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -10819,7 +10819,7 @@ const APROVACOES_AUTO = {
     "Metformin Hydrochloride"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:24.875402+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.873130+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2006-07-28",
@@ -10832,17 +10832,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vokanamet"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:24.875402+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.873130+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:17.945834+00:00",
+   "verificadoEm": "2026-11-18T20:37:03.006914+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -10866,19 +10866,19 @@ const APROVACOES_AUTO = {
  },
  "sulfato-de-dhea-dhea-s": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:24.875493+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.873161+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:24.875493+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.873161+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:18.469438+00:00",
+   "verificadoEm": "2026-11-18T20:37:02.949920+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -10902,19 +10902,19 @@ const APROVACOES_AUTO = {
  },
  "vitamina-b5-acido-pantotenico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:24.875577+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.873199+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:24.875577+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.873199+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:19.507132+00:00",
+   "verificadoEm": "2026-11-18T20:37:03.935670+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -10936,19 +10936,19 @@ const APROVACOES_AUTO = {
  },
  "vitamina-k1-filoquinona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:24.875662+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.873231+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:24.875662+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.873231+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:19.785626+00:00",
+   "verificadoEm": "2026-11-18T20:37:05.469281+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -10979,19 +10979,19 @@ const APROVACOES_AUTO = {
     "Vitamin D"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:24.875746+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:08.873259+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:24.875746+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:08.873259+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:20.488230+00:00",
+   "verificadoEm": "2026-11-18T20:37:04.972956+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11020,7 +11020,7 @@ const APROVACOES_AUTO = {
     "Vykat Xr"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:27.096008+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:20.788048+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2022-06-14",
@@ -11029,17 +11029,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yselty"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:27.096008+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:20.788048+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:47:27.095594+00:00",
+   "verificadoEm": "2026-11-18T20:37:20.787695+00:00",
    "parcial": true,
    "registros": [
     {
@@ -11094,19 +11094,19 @@ const APROVACOES_AUTO = {
  },
  "mio-inositol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:27.096152+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:20.788142+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:27.096152+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:20.788142+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:21.578450+00:00",
+   "verificadoEm": "2026-11-18T20:37:13.075544+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11139,7 +11139,7 @@ const APROVACOES_AUTO = {
     "Calcium Chloride 10% In Plastic Container"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:32.285505+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:25.696023+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2017-07-19",
@@ -11149,10 +11149,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/alyftrek"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:32.285505+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:25.696023+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -11166,7 +11166,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:47:32.284465+00:00",
+   "verificadoEm": "2026-11-18T20:37:25.694713+00:00",
    "parcial": true,
    "registros": [
     {
@@ -11230,7 +11230,7 @@ const APROVACOES_AUTO = {
     "Penicillin G Potassium"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:32.285640+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:25.696117+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2017-11-10",
@@ -11240,17 +11240,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tookad"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:32.285640+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:25.696117+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:47:29.953990+00:00",
+   "verificadoEm": "2026-11-18T20:37:23.289466+00:00",
    "parcial": false,
    "registros": [
     {
@@ -11310,7 +11310,7 @@ const APROVACOES_AUTO = {
     "Betadine"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:39.282394+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:27.996551+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -11319,10 +11319,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/omblastys"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:39.282394+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:27.996551+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -11354,7 +11354,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:47:39.281878+00:00",
+   "verificadoEm": "2026-11-18T20:37:27.996173+00:00",
    "parcial": true,
    "registros": [
     {
@@ -11405,7 +11405,7 @@ const APROVACOES_AUTO = {
     "Zycubo"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:39.282522+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:29.179545+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2012-08-23",
@@ -11414,17 +11414,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cuprymina"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:39.282522+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:29.179545+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:47:36.295910+00:00",
+   "verificadoEm": "2026-11-18T20:37:29.179285+00:00",
    "parcial": true,
    "registros": [
     {
@@ -11485,19 +11485,19 @@ const APROVACOES_AUTO = {
     "Manganese Chloride In Plastic Container"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779270+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:29.691710+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779270+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:29.691710+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:47:42.778818+00:00",
+   "verificadoEm": "2026-11-18T20:37:29.691490+00:00",
    "parcial": true,
    "registros": [
     {
@@ -11552,19 +11552,19 @@ const APROVACOES_AUTO = {
  },
  "cromo": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779375+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:30.193810+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779375+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:30.193810+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:47:39.395144+00:00",
+   "verificadoEm": "2026-11-18T20:37:30.193595+00:00",
    "parcial": true,
    "registros": [
     {
@@ -11619,19 +11619,19 @@ const APROVACOES_AUTO = {
  },
  "boro": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779476+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:30.193897+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779476+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:30.193897+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:31.981583+00:00",
+   "verificadoEm": "2026-11-18T20:37:19.770464+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11654,19 +11654,19 @@ const APROVACOES_AUTO = {
  },
  "litio-microdoses-orotato": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779564+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:30.193946+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779564+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:30.193946+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:32.579983+00:00",
+   "verificadoEm": "2026-11-18T20:37:20.365094+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11689,7 +11689,7 @@ const APROVACOES_AUTO = {
  },
  "l-arginina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779610+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:31.261257+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2019-07-25",
@@ -11698,17 +11698,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lysakare"
   },
-  "emaVerificadoEm": "2026-11-18T19:47:42.779610+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:31.261257+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:42.284514+00:00",
+   "verificadoEm": "2026-11-18T20:37:31.261080+00:00",
    "parcial": true,
    "registros": [
     {
@@ -11739,19 +11739,19 @@ const APROVACOES_AUTO = {
  },
  "l-citrulina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779661+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:31.261366+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779661+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:31.261366+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:38.375523+00:00",
+   "verificadoEm": "2026-11-18T20:37:21.366062+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11780,19 +11780,19 @@ const APROVACOES_AUTO = {
     "L-Glutamine"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779702+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:31.261407+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779702+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:31.261407+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:34.890199+00:00",
+   "verificadoEm": "2026-11-18T20:37:21.776792+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11816,19 +11816,19 @@ const APROVACOES_AUTO = {
  },
  "leucina-bcaa": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779745+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:31.261443+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779745+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:31.261443+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:35.795197+00:00",
+   "verificadoEm": "2026-11-18T20:37:23.873012+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11849,19 +11849,19 @@ const APROVACOES_AUTO = {
  },
  "l-triptofano": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779797+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:31.261476+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779797+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:31.261476+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:36.396791+00:00",
+   "verificadoEm": "2026-11-18T20:37:26.667651+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11884,19 +11884,19 @@ const APROVACOES_AUTO = {
  },
  "5-htp": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779838+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:31.261507+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779838+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:31.261507+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:37.902441+00:00",
+   "verificadoEm": "2026-11-18T20:37:27.268581+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11919,19 +11919,19 @@ const APROVACOES_AUTO = {
  },
  "l-teanina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:42.779877+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:31.261537+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:42.779877+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:31.261537+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:39.593032+00:00",
+   "verificadoEm": "2026-11-18T20:37:28.565593+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -11953,19 +11953,19 @@ const APROVACOES_AUTO = {
  },
  "l-tirosina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:44.723680+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:34.503680+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:44.723680+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:34.503680+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:47:44.723440+00:00",
+   "verificadoEm": "2026-11-18T20:37:34.503493+00:00",
    "parcial": true,
    "registros": [
     {
@@ -11996,19 +11996,19 @@ const APROVACOES_AUTO = {
  },
  "beta-alanina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:44.723796+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:34.503767+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:44.723796+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:34.503767+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:40.590166+00:00",
+   "verificadoEm": "2026-11-18T20:37:31.133671+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12030,19 +12030,19 @@ const APROVACOES_AUTO = {
  },
  "hmb-beta-hidroxi-beta-metilbutirato": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:44.723895+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:34.503811+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:44.723895+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:34.503811+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:42.580373+00:00",
+   "verificadoEm": "2026-11-18T20:37:30.803795+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12064,19 +12064,19 @@ const APROVACOES_AUTO = {
  },
  "gaba": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:46.024346+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:34.503845+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:46.024346+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:34.503845+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:46.024083+00:00",
+   "verificadoEm": "2026-11-18T20:37:34.264990+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12099,19 +12099,19 @@ const APROVACOES_AUTO = {
  },
  "ashwagandha-withania-somnifera": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:47.222913+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:35.406896+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:47.222913+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:35.406896+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:47.222712+00:00",
+   "verificadoEm": "2026-11-18T20:37:35.406732+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12134,19 +12134,19 @@ const APROVACOES_AUTO = {
  },
  "curcumina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:48.198660+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:37.174017+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:48.198660+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:37.174017+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:48.198449+00:00",
+   "verificadoEm": "2026-11-18T20:37:37.173853+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12170,19 +12170,19 @@ const APROVACOES_AUTO = {
  },
  "berberina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:49.409759+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:38.824456+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:49.409759+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:38.824456+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:49.409567+00:00",
+   "verificadoEm": "2026-11-18T20:37:38.824305+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12206,19 +12206,19 @@ const APROVACOES_AUTO = {
  },
  "rhodiola-rosea": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:51.502843+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:40.522939+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:51.502843+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:40.522939+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:51.502665+00:00",
+   "verificadoEm": "2026-11-18T20:37:40.522820+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12239,12 +12239,12 @@ const APROVACOES_AUTO = {
  },
  "ginseng-panax": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:59.034785+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:41.033288+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:59.034785+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:41.033288+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -12276,7 +12276,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:59.034524+00:00",
+   "verificadoEm": "2026-11-18T20:37:41.033112+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12300,19 +12300,19 @@ const APROVACOES_AUTO = {
  },
  "maca-lepidium-meyenii": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:47:59.034952+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:42.504778+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:47:59.034952+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:42.504778+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:53.655032+00:00",
+   "verificadoEm": "2026-11-18T20:37:42.504655+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12334,19 +12334,19 @@ const APROVACOES_AUTO = {
  },
  "tribulus-terrestris": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.422353+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:42.941600+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.422353+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:42.941600+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:28.422081+00:00",
+   "verificadoEm": "2026-11-18T20:37:42.941435+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12373,7 +12373,7 @@ const APROVACOES_AUTO = {
     "Caffeine Citrate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:48:28.422472+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:49.802870+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2009-07-02",
@@ -12383,17 +12383,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/gencebok"
   },
-  "emaVerificadoEm": "2026-11-18T19:48:28.422472+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:49.802870+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:48:00.702993+00:00",
+   "verificadoEm": "2026-11-18T20:37:49.802643+00:00",
    "parcial": true,
    "registros": [
     {
@@ -12442,19 +12442,19 @@ const APROVACOES_AUTO = {
  },
  "colageno-hidrolisado": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.422593+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:49.802952+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.422593+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:49.802952+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:00.012982+00:00",
+   "verificadoEm": "2026-11-18T20:37:45.298786+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12475,19 +12475,19 @@ const APROVACOES_AUTO = {
  },
  "probioticos": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.422683+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:49.802992+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.422683+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:49.802992+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:55.125695+00:00",
+   "verificadoEm": "2026-11-18T20:37:44.256639+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12511,19 +12511,19 @@ const APROVACOES_AUTO = {
  },
  "apigenina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.422769+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:49.803023+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.422769+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:49.803023+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:16.145018+00:00",
+   "verificadoEm": "2026-11-18T20:37:48.301357+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12546,19 +12546,19 @@ const APROVACOES_AUTO = {
  },
  "sulforafano": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.422845+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:49.803051+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.422845+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:49.803051+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:06.832521+00:00",
+   "verificadoEm": "2026-11-18T20:37:49.324510+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12582,19 +12582,19 @@ const APROVACOES_AUTO = {
  },
  "egcg-epigalocatequina-galato-cha-verde": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.422917+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:49.803081+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.422917+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:49.803081+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:08.112590+00:00",
+   "verificadoEm": "2026-11-18T20:37:48.818511+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12618,19 +12618,19 @@ const APROVACOES_AUTO = {
  },
  "astaxantina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.422996+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:50.232004+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.422996+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:50.232004+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:06.639043+00:00",
+   "verificadoEm": "2026-11-18T20:37:50.231870+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12653,19 +12653,19 @@ const APROVACOES_AUTO = {
  },
  "luteina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.423077+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:51.125145+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.423077+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:51.125145+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:21.231772+00:00",
+   "verificadoEm": "2026-11-18T20:37:51.124968+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12687,19 +12687,19 @@ const APROVACOES_AUTO = {
  },
  "alfa-cetoglutarato": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.423279+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:51.975064+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.423279+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:51.975064+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:47:59.668008+00:00",
+   "verificadoEm": "2026-11-18T20:37:51.974932+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12720,12 +12720,12 @@ const APROVACOES_AUTO = {
  },
  "acido-hialuronico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.423390+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:52.788559+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.423390+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:52.788559+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -12739,7 +12739,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:14.877234+00:00",
+   "verificadoEm": "2026-11-18T20:37:52.788404+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12763,19 +12763,19 @@ const APROVACOES_AUTO = {
  },
  "glucosamina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.423517+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:53.634450+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.423517+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:53.634450+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:24.449851+00:00",
+   "verificadoEm": "2026-11-18T20:37:53.634296+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12799,19 +12799,19 @@ const APROVACOES_AUTO = {
  },
  "condroitina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.423595+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:54.180300+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.423595+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:54.180300+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:12.801716+00:00",
+   "verificadoEm": "2026-11-18T20:37:54.180157+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12834,19 +12834,19 @@ const APROVACOES_AUTO = {
  },
  "lactoferrina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.423671+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:55.884739+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.423671+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:55.884739+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:07.562509+00:00",
+   "verificadoEm": "2026-11-18T20:37:55.884614+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12870,19 +12870,19 @@ const APROVACOES_AUTO = {
  },
  "rapamicina-sirolimo": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:48:28.423758+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:37:56.394784+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:48:28.423758+00:00",
+  "emaVerificadoEm": "2026-11-18T20:37:56.394784+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:14.929959+00:00",
+   "verificadoEm": "2026-11-18T20:37:56.394641+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12910,12 +12910,12 @@ const APROVACOES_AUTO = {
     "Acarbose"
    ]
   },
-  "fdaVerificadoEm": "2026-11-16T21:02:46.495677+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:03.086601+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599374+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:03.086601+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -12929,7 +12929,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:00.598993+00:00",
+   "verificadoEm": "2026-11-18T20:38:03.086449+00:00",
    "parcial": false,
    "registros": [
     {
@@ -12966,19 +12966,19 @@ const APROVACOES_AUTO = {
  },
  "ester-de-cetona-beta-hidroxibutirato": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:00.599521+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:03.086697+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599521+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:03.086697+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:38.533953+00:00",
+   "verificadoEm": "2026-11-18T20:38:01.927935+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -12999,19 +12999,19 @@ const APROVACOES_AUTO = {
  },
  "tongkat-ali-eurycoma-longifolia": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:00.599609+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:03.086736+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599609+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:03.086736+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:26.095211+00:00",
+   "verificadoEm": "2026-11-18T20:38:02.806962+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13032,19 +13032,19 @@ const APROVACOES_AUTO = {
  },
  "espirulina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:00.599659+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:03.847387+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599659+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:03.847387+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:15.136789+00:00",
+   "verificadoEm": "2026-11-18T20:38:03.847248+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13065,12 +13065,12 @@ const APROVACOES_AUTO = {
  },
  "piracetam": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:00.599700+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:04.496827+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599700+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:04.496827+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -13084,7 +13084,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:30.286473+00:00",
+   "verificadoEm": "2026-11-18T20:38:04.496698+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13105,19 +13105,19 @@ const APROVACOES_AUTO = {
  },
  "aniracetam": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:00.599782+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:05.146652+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599782+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:05.146652+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:23.821616+00:00",
+   "verificadoEm": "2026-11-18T20:38:05.146514+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13139,19 +13139,19 @@ const APROVACOES_AUTO = {
  },
  "folistatina-315": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:00.599852+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:06.204799+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599852+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:06.204799+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:22.791710+00:00",
+   "verificadoEm": "2026-11-18T20:38:06.204672+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13172,19 +13172,19 @@ const APROVACOES_AUTO = {
  },
  "ramatercepte-ace-031": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:00.599934+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:07.215668+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599934+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:07.215668+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:21.563310+00:00",
+   "verificadoEm": "2026-11-18T20:38:07.215537+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13205,19 +13205,19 @@ const APROVACOES_AUTO = {
  },
  "adipotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:00.599999+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:08.013994+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:00.599999+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:08.013994+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:31.291653+00:00",
+   "verificadoEm": "2026-11-18T20:38:08.013849+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13243,7 +13243,7 @@ const APROVACOES_AUTO = {
     "Scenesse"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:01.801376+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:08.653002+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2014-12-22",
@@ -13252,17 +13252,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:01.801376+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:08.653002+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:01.801050+00:00",
+   "verificadoEm": "2026-11-18T20:38:08.652858+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13286,19 +13286,19 @@ const APROVACOES_AUTO = {
  },
  "melanotan-i": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:01.801514+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:09.781215+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:01.801514+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:09.781215+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:35.412234+00:00",
+   "verificadoEm": "2026-11-18T20:38:09.781061+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13319,12 +13319,12 @@ const APROVACOES_AUTO = {
  },
  "carbetocina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:01.801614+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:11.158118+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:01.801614+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:11.158118+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -13344,7 +13344,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:48:30.392737+00:00",
+   "verificadoEm": "2026-11-18T20:38:11.157978+00:00",
    "parcial": false,
    "registros": [
     {
@@ -13387,7 +13387,7 @@ const APROVACOES_AUTO = {
     "Ganirelix Acetate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:01.801742+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:12.146659+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2000-05-16",
@@ -13397,17 +13397,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ganirelix-gedeon-richter"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:01.801742+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:12.146659+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:33.090185+00:00",
+   "verificadoEm": "2026-11-18T20:38:12.146521+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13430,19 +13430,19 @@ const APROVACOES_AUTO = {
  },
  "abarelix": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:01.801822+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:13.577197+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:01.801822+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:13.577197+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:49.320619+00:00",
+   "verificadoEm": "2026-11-18T20:38:13.577073+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13468,19 +13468,19 @@ const APROVACOES_AUTO = {
     "Synarel"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:01.801925+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:16.021098+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:01.801925+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:16.021098+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:29.382272+00:00",
+   "verificadoEm": "2026-11-18T20:38:16.020964+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13502,19 +13502,19 @@ const APROVACOES_AUTO = {
  },
  "buserrelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:01.801995+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:16.021173+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:01.801995+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:16.021173+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:56.201843+00:00",
+   "verificadoEm": "2026-11-18T20:38:14.916794+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13541,19 +13541,19 @@ const APROVACOES_AUTO = {
     "Supprelin La"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:01.802049+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:16.679226+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:01.802049+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:16.679226+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:49.116921+00:00",
+   "verificadoEm": "2026-11-18T20:38:16.679079+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13576,19 +13576,19 @@ const APROVACOES_AUTO = {
  },
  "deslorrelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:01.802626+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:16.817297+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:01.802626+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:16.817297+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:36.978740+00:00",
+   "verificadoEm": "2026-11-18T20:38:16.817163+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13609,19 +13609,19 @@ const APROVACOES_AUTO = {
  },
  "efpeglenatida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:02.180431+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:17.832923+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:02.180431+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:17.832923+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:02.180276+00:00",
+   "verificadoEm": "2026-11-18T20:38:17.832791+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13643,7 +13643,7 @@ const APROVACOES_AUTO = {
  },
  "albiglutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:02.862522+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:20.011606+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": "2014-03-20",
@@ -13652,10 +13652,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/eperzan"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:02.862522+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:20.011606+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -13669,7 +13669,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:49:02.862307+00:00",
+   "verificadoEm": "2026-11-18T20:38:20.011463+00:00",
    "parcial": false,
    "registros": [
     {
@@ -13705,19 +13705,19 @@ const APROVACOES_AUTO = {
  },
  "pemvidutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:02.862643+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:20.361628+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:02.862643+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:20.361628+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:01.877182+00:00",
+   "verificadoEm": "2026-11-18T20:38:20.361505+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13741,19 +13741,19 @@ const APROVACOES_AUTO = {
  },
  "cotadutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:02.862755+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:21.226216+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:02.862755+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:21.226216+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:02.084943+00:00",
+   "verificadoEm": "2026-11-18T20:38:21.226061+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13774,19 +13774,19 @@ const APROVACOES_AUTO = {
  },
  "efinopegdutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:02.862828+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:21.664058+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:02.862828+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:21.664058+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:01.966811+00:00",
+   "verificadoEm": "2026-11-18T20:38:21.663923+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13807,19 +13807,19 @@ const APROVACOES_AUTO = {
  },
  "ecnoglutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:02.862893+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:23.205279+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:02.862893+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:23.205279+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:48:44.462155+00:00",
+   "verificadoEm": "2026-11-18T20:38:23.205161+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13840,19 +13840,19 @@ const APROVACOES_AUTO = {
  },
  "amicretina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:02.862954+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:24.243428+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:02.862954+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:24.243428+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:02.030044+00:00",
+   "verificadoEm": "2026-11-18T20:38:24.243245+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -13878,7 +13878,7 @@ const APROVACOES_AUTO = {
     "Somavert"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:04.351326+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:28.320771+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2002-11-12",
@@ -13887,10 +13887,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/somavert"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:04.351326+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:28.320771+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -13904,7 +13904,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:04.351062+00:00",
+   "verificadoEm": "2026-11-18T20:38:28.320620+00:00",
    "parcial": false,
    "registros": [
     {
@@ -13958,7 +13958,7 @@ const APROVACOES_AUTO = {
  },
  "glepaglutida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:04.351442+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:28.320854+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2026-11-12",
@@ -13967,17 +13967,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zeydovio"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:04.351442+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:28.320854+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:02.098253+00:00",
+   "verificadoEm": "2026-11-18T20:38:27.386506+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14000,19 +14000,19 @@ const APROVACOES_AUTO = {
  },
  "efruxifermina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:04.351525+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:29.035609+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:04.351525+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:29.035609+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:01.991606+00:00",
+   "verificadoEm": "2026-11-18T20:38:29.035470+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14035,19 +14035,19 @@ const APROVACOES_AUTO = {
  },
  "pegozafermina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:04.351595+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:30.083468+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:04.351595+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:30.083468+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:02.059413+00:00",
+   "verificadoEm": "2026-11-18T20:38:30.083299+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14076,19 +14076,19 @@ const APROVACOES_AUTO = {
     "Trulance"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:04.665853+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:31.449248+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:04.665853+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:31.449248+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:04.665634+00:00",
+   "verificadoEm": "2026-11-18T20:38:31.449113+00:00",
    "parcial": false,
    "registros": [
     {
@@ -14124,19 +14124,19 @@ const APROVACOES_AUTO = {
     "Chirhostim"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:17.701148+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:31.578704+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:17.701148+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:31.578704+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:49:17.700817+00:00",
+   "verificadoEm": "2026-11-18T20:38:31.578576+00:00",
    "parcial": false,
    "registros": [
     {
@@ -14167,19 +14167,19 @@ const APROVACOES_AUTO = {
  },
  "sincalida-cck-8": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:17.701269+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:32.447669+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:17.701269+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:32.447669+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:17.387814+00:00",
+   "verificadoEm": "2026-11-18T20:38:32.447540+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14200,19 +14200,19 @@ const APROVACOES_AUTO = {
  },
  "gip-polipeptideo-insulinotropico-dependente-de-glicose": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:27.499931+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:33.700180+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:27.499931+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:33.700180+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:27.499727+00:00",
+   "verificadoEm": "2026-11-18T20:38:33.700034+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14234,19 +14234,19 @@ const APROVACOES_AUTO = {
  },
  "oxintomodulina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:27.500063+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:34.349469+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:27.500063+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:34.349469+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:17.933982+00:00",
+   "verificadoEm": "2026-11-18T20:38:34.349313+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14267,19 +14267,19 @@ const APROVACOES_AUTO = {
  },
  "pyy-3-36": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:27.500208+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:34.864316+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:27.500208+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:34.864316+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:19.569296+00:00",
+   "verificadoEm": "2026-11-18T20:38:34.864194+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14300,19 +14300,19 @@ const APROVACOES_AUTO = {
  },
  "grelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:27.500298+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:35.387432+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:27.500298+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:35.387432+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:23.047585+00:00",
+   "verificadoEm": "2026-11-18T20:38:35.387250+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14344,7 +14344,7 @@ const APROVACOES_AUTO = {
     "Rezvoglar"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:27.500373+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:41.748827+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2000-06-09",
@@ -14357,10 +14357,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/semglee"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:27.500373+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:41.748827+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 6,
    "registros": [
     {
@@ -14398,7 +14398,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:26.588189+00:00",
+   "verificadoEm": "2026-11-18T20:38:41.748665+00:00",
    "parcial": true,
    "registros": [
     {
@@ -14462,7 +14462,7 @@ const APROVACOES_AUTO = {
     "Humalog Pen"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:28.003315+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:45.839928+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "1996-04-30",
@@ -14475,10 +14475,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bysumlog"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:28.003315+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:45.839928+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -14498,7 +14498,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:28.003057+00:00",
+   "verificadoEm": "2026-11-18T20:38:45.839732+00:00",
    "parcial": true,
    "registros": [
     {
@@ -14562,7 +14562,7 @@ const APROVACOES_AUTO = {
     "Kirsty"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:29.546811+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:47.581440+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "1999-09-07",
@@ -14575,10 +14575,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dazparda"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:29.546811+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:47.581440+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 3,
    "registros": [
     {
@@ -14604,7 +14604,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:29.546585+00:00",
+   "verificadoEm": "2026-11-18T20:38:47.581251+00:00",
    "parcial": true,
    "registros": [
     {
@@ -14664,7 +14664,7 @@ const APROVACOES_AUTO = {
     "Tresiba"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:29.546950+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:47.581534+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2013-01-20",
@@ -14675,10 +14675,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tresiba"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:29.546950+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:47.581534+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -14692,7 +14692,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:23.138753+00:00",
+   "verificadoEm": "2026-11-18T20:38:44.844287+00:00",
    "parcial": false,
    "registros": [
     {
@@ -14735,7 +14735,7 @@ const APROVACOES_AUTO = {
  },
  "insulina-icodeca": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:29.547047+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:47.581578+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2024-05-17",
@@ -14745,10 +14745,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kyinsu"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:29.547047+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:47.581578+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -14762,7 +14762,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:23.231711+00:00",
+   "verificadoEm": "2026-11-18T20:38:44.650882+00:00",
    "parcial": false,
    "registros": [
     {
@@ -14805,19 +14805,19 @@ const APROVACOES_AUTO = {
  },
  "intermedine": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:29.547158+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:47.581621+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:29.547158+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:47.581621+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:22.133243+00:00",
+   "verificadoEm": "2026-11-18T20:38:43.330284+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14838,19 +14838,19 @@ const APROVACOES_AUTO = {
  },
  "teprotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:29.547240+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:47.581649+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:29.547240+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:47.581649+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:24.498352+00:00",
+   "verificadoEm": "2026-11-18T20:38:44.038780+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14871,19 +14871,19 @@ const APROVACOES_AUTO = {
  },
  "endothelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:29.547313+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:47.581676+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:29.547313+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:47.581676+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:25.658338+00:00",
+   "verificadoEm": "2026-11-18T20:38:45.237666+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14906,19 +14906,19 @@ const APROVACOES_AUTO = {
  },
  "thymosin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:30.173814+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:47.581703+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:30.173814+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:47.581703+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:30.173633+00:00",
+   "verificadoEm": "2026-11-18T20:38:46.257684+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14942,19 +14942,19 @@ const APROVACOES_AUTO = {
  },
  "gastrin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:30.173928+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:47.581729+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:30.173928+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:47.581729+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:26.370973+00:00",
+   "verificadoEm": "2026-11-18T20:38:46.793913+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -14986,19 +14986,19 @@ const APROVACOES_AUTO = {
     "Restasis"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:40.055791+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:51.922475+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:40.055791+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:51.922475+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:40.055558+00:00",
+   "verificadoEm": "2026-11-18T20:38:51.922298+00:00",
    "parcial": true,
    "registros": [
     {
@@ -15053,19 +15053,19 @@ const APROVACOES_AUTO = {
  },
  "oxeclosporin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:40.055950+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:51.922558+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:40.055950+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:51.922558+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:28.528535+00:00",
+   "verificadoEm": "2026-11-18T20:38:47.771922+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15086,19 +15086,19 @@ const APROVACOES_AUTO = {
  },
  "saralasin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:40.056061+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:51.922593+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:40.056061+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:51.922593+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:36.741446+00:00",
+   "verificadoEm": "2026-11-18T20:38:48.429976+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15119,19 +15119,19 @@ const APROVACOES_AUTO = {
  },
  "angiotensin-amide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:40.056218+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:51.922625+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:40.056218+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:51.922625+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:36.741179+00:00",
+   "verificadoEm": "2026-11-18T20:38:49.811526+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15152,19 +15152,19 @@ const APROVACOES_AUTO = {
  },
  "bradykinin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:40.056323+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:52.434362+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:40.056323+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:52.434362+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:36.767733+00:00",
+   "verificadoEm": "2026-11-18T20:38:52.434209+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15185,19 +15185,19 @@ const APROVACOES_AUTO = {
  },
  "seglitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:40.056428+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:54.548994+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:40.056428+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:54.548994+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:37.301089+00:00",
+   "verificadoEm": "2026-11-18T20:38:54.548863+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15218,19 +15218,19 @@ const APROVACOES_AUTO = {
  },
  "glaspimod": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:40.056516+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:55.915190+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:40.056516+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:55.915190+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:39.194617+00:00",
+   "verificadoEm": "2026-11-18T20:38:55.915072+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15251,19 +15251,19 @@ const APROVACOES_AUTO = {
  },
  "netazepide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:40.056587+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:38:57.266069+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:40.056587+00:00",
+  "emaVerificadoEm": "2026-11-18T20:38:57.266069+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:36.763721+00:00",
+   "verificadoEm": "2026-11-18T20:38:57.265926+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15289,7 +15289,7 @@ const APROVACOES_AUTO = {
     "Eptifibatide"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:49:43.518853+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:03.611931+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2016-01-11",
@@ -15298,17 +15298,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/eptifibatide-accord"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:43.518853+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:03.611931+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:49:43.518635+00:00",
+   "verificadoEm": "2026-11-18T20:39:03.611777+00:00",
    "parcial": true,
    "registros": [
     {
@@ -15356,19 +15356,19 @@ const APROVACOES_AUTO = {
  },
  "ovemotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:43.518997+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:03.612010+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:43.518997+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:03.612010+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:39.896433+00:00",
+   "verificadoEm": "2026-11-18T20:38:58.573925+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15389,19 +15389,19 @@ const APROVACOES_AUTO = {
  },
  "disomotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:43.519104+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:03.612047+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:43.519104+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:03.612047+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:41.187372+00:00",
+   "verificadoEm": "2026-11-18T20:38:59.994178+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15422,19 +15422,19 @@ const APROVACOES_AUTO = {
  },
  "prazarelix": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:43.519239+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:03.612077+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:43.519239+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:03.612077+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:40.465663+00:00",
+   "verificadoEm": "2026-11-18T20:39:01.001234+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15455,19 +15455,19 @@ const APROVACOES_AUTO = {
  },
  "acyline": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:43.519339+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:03.612105+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:43.519339+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:03.612105+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:40.790910+00:00",
+   "verificadoEm": "2026-11-18T20:39:02.247496+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15488,19 +15488,19 @@ const APROVACOES_AUTO = {
  },
  "demoxytocin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:44.836925+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:03.612132+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:44.836925+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:03.612132+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:44.836741+00:00",
+   "verificadoEm": "2026-11-18T20:39:02.327188+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15521,19 +15521,19 @@ const APROVACOES_AUTO = {
  },
  "peptide-t": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:46.256808+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:03.612159+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:46.256808+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:03.612159+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:46.256637+00:00",
+   "verificadoEm": "2026-11-18T20:39:03.139993+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15554,19 +15554,19 @@ const APROVACOES_AUTO = {
  },
  "abt-510": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:46.714153+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:04.240709+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:46.714153+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:04.240709+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:46.713886+00:00",
+   "verificadoEm": "2026-11-18T20:39:04.240580+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15587,7 +15587,7 @@ const APROVACOES_AUTO = {
  },
  "atosiban": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:47.754048+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:04.618611+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2000-01-20",
@@ -15597,17 +15597,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/atosiban-sun"
   },
-  "emaVerificadoEm": "2026-11-18T19:49:47.754048+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:04.618611+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:47.753829+00:00",
+   "verificadoEm": "2026-11-18T20:39:04.618490+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15629,19 +15629,19 @@ const APROVACOES_AUTO = {
  },
  "gramicidin-s": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:47.754231+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:05.912363+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:47.754231+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:05.912363+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:47.308229+00:00",
+   "verificadoEm": "2026-11-18T20:39:05.912190+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15662,19 +15662,19 @@ const APROVACOES_AUTO = {
  },
  "eledoisin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:49:57.540195+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:07.442426+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:49:57.540195+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:07.442426+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:57.539936+00:00",
+   "verificadoEm": "2026-11-18T20:39:07.442276+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15695,19 +15695,19 @@ const APROVACOES_AUTO = {
  },
  "kisspeptin-10": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:50:00.085182+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:07.812493+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:50:00.085182+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:07.812493+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:00.084976+00:00",
+   "verificadoEm": "2026-11-18T20:39:07.812362+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15728,19 +15728,19 @@ const APROVACOES_AUTO = {
  },
  "glucagon-like-peptide-ii": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:50:08.685159+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:09.838166+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:50:08.685159+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:09.838166+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:08.684779+00:00",
+   "verificadoEm": "2026-11-18T20:39:09.838019+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15761,19 +15761,19 @@ const APROVACOES_AUTO = {
  },
  "act-1-peptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:50:18.238940+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:11.387853+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:50:18.238940+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:11.387853+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:18.238603+00:00",
+   "verificadoEm": "2026-11-18T20:39:11.387713+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15794,19 +15794,19 @@ const APROVACOES_AUTO = {
  },
  "calcitonin-eel": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:50:18.239055+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:13.405036+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:50:18.239055+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:13.405036+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:14.849937+00:00",
+   "verificadoEm": "2026-11-18T20:39:13.404909+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15828,19 +15828,19 @@ const APROVACOES_AUTO = {
  },
  "aldafermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:50:52.761984+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:15.117802+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:50:52.761984+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:15.117802+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:52.761769+00:00",
+   "verificadoEm": "2026-11-18T20:39:15.117684+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15863,19 +15863,19 @@ const APROVACOES_AUTO = {
  },
  "canoctakin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:50:52.762085+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:15.914722+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:50:52.762085+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:15.914722+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:59.839489+00:00",
+   "verificadoEm": "2026-11-18T20:39:15.914598+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15896,19 +15896,19 @@ const APROVACOES_AUTO = {
  },
  "anpocogin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:50:52.762209+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:16.947026+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:50:52.762209+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:16.947026+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:03.555295+00:00",
+   "verificadoEm": "2026-11-18T20:39:16.946896+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15929,19 +15929,19 @@ const APROVACOES_AUTO = {
  },
  "baloramotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:50:52.762309+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:17.977689+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:50:52.762309+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:17.977689+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:49:58.059434+00:00",
+   "verificadoEm": "2026-11-18T20:39:17.977568+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -15967,7 +15967,7 @@ const APROVACOES_AUTO = {
     "Skytrofa"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:50:56.282691+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:18.494521+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2022-01-11",
@@ -15976,17 +15976,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/skytrofa"
   },
-  "emaVerificadoEm": "2026-11-18T19:50:56.282691+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:18.494521+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:56.282485+00:00",
+   "verificadoEm": "2026-11-18T20:39:18.494359+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16009,19 +16009,19 @@ const APROVACOES_AUTO = {
  },
  "pancreatic-polypeptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.339057+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:19.313627+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.339057+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:19.313627+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:00.338867+00:00",
+   "verificadoEm": "2026-11-18T20:39:19.313500+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16042,19 +16042,19 @@ const APROVACOES_AUTO = {
  },
  "fe-203799": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.339208+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:19.784402+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.339208+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:19.784402+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:13.193326+00:00",
+   "verificadoEm": "2026-11-18T20:39:19.784271+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16075,19 +16075,19 @@ const APROVACOES_AUTO = {
  },
  "sulfomyxin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.339305+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:20.667149+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.339305+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:20.667149+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:55.366355+00:00",
+   "verificadoEm": "2026-11-18T20:39:20.667019+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16108,19 +16108,19 @@ const APROVACOES_AUTO = {
  },
  "timbetasin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.462701+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:21.358264+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.462701+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:21.358264+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:00.462531+00:00",
+   "verificadoEm": "2026-11-18T20:39:21.358145+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16141,19 +16141,19 @@ const APROVACOES_AUTO = {
  },
  "amlisimod": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.462843+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:21.908952+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.462843+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:21.908952+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:00.139712+00:00",
+   "verificadoEm": "2026-11-18T20:39:21.908820+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16174,19 +16174,19 @@ const APROVACOES_AUTO = {
  },
  "c-peptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.462930+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:23.139687+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.462930+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:23.139687+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:00.380939+00:00",
+   "verificadoEm": "2026-11-18T20:39:23.139559+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16208,19 +16208,19 @@ const APROVACOES_AUTO = {
  },
  "tzp-102": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.463016+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:24.700355+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.463016+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:24.700355+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:00.223007+00:00",
+   "verificadoEm": "2026-11-18T20:39:24.700219+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16246,7 +16246,7 @@ const APROVACOES_AUTO = {
     "Yuviwel"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:51:00.463096+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:26.729131+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -16255,17 +16255,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yuviwel"
   },
-  "emaVerificadoEm": "2026-11-18T19:51:00.463096+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:26.729131+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:56.804223+00:00",
+   "verificadoEm": "2026-11-18T20:39:26.728949+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16288,19 +16288,19 @@ const APROVACOES_AUTO = {
  },
  "eflepedocokin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.463191+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:28.182702+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.463191+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:28.182702+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:51.311929+00:00",
+   "verificadoEm": "2026-11-18T20:39:28.182581+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16321,19 +16321,19 @@ const APROVACOES_AUTO = {
  },
  "sulfomyxin-free-acid": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.463259+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:28.708196+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.463259+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:28.708196+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:52.678180+00:00",
+   "verificadoEm": "2026-11-18T20:39:28.708042+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16354,19 +16354,19 @@ const APROVACOES_AUTO = {
  },
  "hepalatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.463323+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:30.668685+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.463323+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:30.668685+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:50:55.271753+00:00",
+   "verificadoEm": "2026-11-18T20:39:30.668567+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16395,7 +16395,7 @@ const APROVACOES_AUTO = {
     "Lerochol"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:51:00.628644+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:31.132287+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -16404,17 +16404,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lyrokaul"
   },
-  "emaVerificadoEm": "2026-11-18T19:51:00.628644+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:31.132287+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:00.628487+00:00",
+   "verificadoEm": "2026-11-18T20:39:31.132156+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16436,19 +16436,19 @@ const APROVACOES_AUTO = {
  },
  "pegsebrenatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.971588+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:32.160271+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.971588+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:32.160271+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:00.971394+00:00",
+   "verificadoEm": "2026-11-18T20:39:32.160153+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16469,19 +16469,19 @@ const APROVACOES_AUTO = {
  },
  "balixafortide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:00.972504+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:33.264177+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:00.972504+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:33.264177+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:00.972380+00:00",
+   "verificadoEm": "2026-11-18T20:39:33.264059+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16503,19 +16503,19 @@ const APROVACOES_AUTO = {
  },
  "ea-230": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:01.106235+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:34.047050+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:01.106235+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:34.047050+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:01.106029+00:00",
+   "verificadoEm": "2026-11-18T20:39:34.046930+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16538,19 +16538,19 @@ const APROVACOES_AUTO = {
  },
  "ensovibep": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:01.135288+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:34.815058+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:01.135288+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:34.815058+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:01.135062+00:00",
+   "verificadoEm": "2026-11-18T20:39:34.814934+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16577,19 +16577,19 @@ const APROVACOES_AUTO = {
     "Aphexda"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:51:03.033505+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:35.593875+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:03.033505+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:35.593875+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:03.033303+00:00",
+   "verificadoEm": "2026-11-18T20:39:35.593717+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16613,19 +16613,19 @@ const APROVACOES_AUTO = {
  },
  "selcopintide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:05.452502+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:36.113444+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:05.452502+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:36.113444+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:05.452317+00:00",
+   "verificadoEm": "2026-11-18T20:39:36.113318+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16646,19 +16646,19 @@ const APROVACOES_AUTO = {
  },
  "lefleuganan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:10.791912+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:37.140138+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:10.791912+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:37.140138+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:10.791731+00:00",
+   "verificadoEm": "2026-11-18T20:39:37.140015+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16679,19 +16679,19 @@ const APROVACOES_AUTO = {
  },
  "gersizangitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:11.274404+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:39.251840+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:11.274404+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:39.251840+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:11.274211+00:00",
+   "verificadoEm": "2026-11-18T20:39:39.251693+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16712,19 +16712,19 @@ const APROVACOES_AUTO = {
  },
  "palsucibep-pegol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:12.468375+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:41.048884+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:12.468375+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:41.048884+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:12.468209+00:00",
+   "verificadoEm": "2026-11-18T20:39:41.048716+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16745,19 +16745,19 @@ const APROVACOES_AUTO = {
  },
  "peceleganan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:23.251844+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:41.600504+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:23.251844+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:41.600504+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:23.251668+00:00",
+   "verificadoEm": "2026-11-18T20:39:41.600376+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16778,19 +16778,19 @@ const APROVACOES_AUTO = {
  },
  "pezadeftide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:23.806694+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:43.446303+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:23.806694+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:43.446303+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:23.806510+00:00",
+   "verificadoEm": "2026-11-18T20:39:43.446187+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16811,19 +16811,19 @@ const APROVACOES_AUTO = {
  },
  "rilunermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:23.806785+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:43.954312+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:23.806785+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:43.954312+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:16.478044+00:00",
+   "verificadoEm": "2026-11-18T20:39:43.954191+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16844,19 +16844,19 @@ const APROVACOES_AUTO = {
  },
  "rimtoregtide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:23.806869+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:45.086689+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:23.806869+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:45.086689+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:17.318537+00:00",
+   "verificadoEm": "2026-11-18T20:39:45.086565+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16877,19 +16877,19 @@ const APROVACOES_AUTO = {
  },
  "sudocetaxel-zendusortide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:23.806944+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:46.261286+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:23.806944+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:46.261286+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:21.467175+00:00",
+   "verificadoEm": "2026-11-18T20:39:46.261176+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16910,19 +16910,19 @@ const APROVACOES_AUTO = {
  },
  "utreglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:23.807013+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:47.042191+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:23.807013+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:47.042191+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:19.880596+00:00",
+   "verificadoEm": "2026-11-18T20:39:47.042061+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16943,19 +16943,19 @@ const APROVACOES_AUTO = {
  },
  "zendusortide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:23.807079+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:48.400529+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:23.807079+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:48.400529+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:19.617329+00:00",
+   "verificadoEm": "2026-11-18T20:39:48.400388+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -16976,19 +16976,19 @@ const APROVACOES_AUTO = {
  },
  "pegloprastide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:30.312606+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:48.780114+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:30.312606+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:48.780114+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:30.312447+00:00",
+   "verificadoEm": "2026-11-18T20:39:48.780005+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17009,19 +17009,19 @@ const APROVACOES_AUTO = {
  },
  "eneboparatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:30.312733+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:49.330723+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:30.312733+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:49.330723+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:22.370160+00:00",
+   "verificadoEm": "2026-11-18T20:39:49.330594+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17043,19 +17043,19 @@ const APROVACOES_AUTO = {
  },
  "elarekibep": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:30.312809+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:50.329218+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:30.312809+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:50.329218+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:22.364551+00:00",
+   "verificadoEm": "2026-11-18T20:39:50.329099+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17076,19 +17076,19 @@ const APROVACOES_AUTO = {
  },
  "ensereptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:30.312882+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:51.658295+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:30.312882+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:51.658295+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:22.569776+00:00",
+   "verificadoEm": "2026-11-18T20:39:51.658175+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17114,7 +17114,7 @@ const APROVACOES_AUTO = {
     "Yorvipath"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:51:30.312971+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:54.847595+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2023-11-17",
@@ -17123,17 +17123,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yorvipath"
   },
-  "emaVerificadoEm": "2026-11-18T19:51:30.312971+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:54.847595+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:51:24.851496+00:00",
+   "verificadoEm": "2026-11-18T20:39:54.847417+00:00",
    "parcial": false,
    "registros": [
     {
@@ -17174,19 +17174,19 @@ const APROVACOES_AUTO = {
  },
  "pexipepimut-s": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:30.313054+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:54.847709+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:30.313054+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:54.847709+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:24.746706+00:00",
+   "verificadoEm": "2026-11-18T20:39:54.548829+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17212,19 +17212,19 @@ const APROVACOES_AUTO = {
     "Polymyxin B Sulfate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:51:30.313148+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:58.158196+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:30.313148+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:58.158196+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:51:24.968085+00:00",
+   "verificadoEm": "2026-11-18T20:39:58.158000+00:00",
    "parcial": false,
    "registros": [
     {
@@ -17260,7 +17260,7 @@ const APROVACOES_AUTO = {
     "Lupkynis"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:51:30.313219+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:58.158281+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2022-09-15",
@@ -17269,17 +17269,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lupkynis"
   },
-  "emaVerificadoEm": "2026-11-18T19:51:30.313219+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:58.158281+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:27.903805+00:00",
+   "verificadoEm": "2026-11-18T20:39:57.625410+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17303,19 +17303,19 @@ const APROVACOES_AUTO = {
  },
  "fequesetide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:30.313274+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:58.158334+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:30.313274+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:58.158334+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:26.112725+00:00",
+   "verificadoEm": "2026-11-18T20:39:57.628424+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17336,19 +17336,19 @@ const APROVACOES_AUTO = {
  },
  "milpocitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:30.461403+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:59.299120+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:30.461403+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:59.299120+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:30.461238+00:00",
+   "verificadoEm": "2026-11-18T20:39:59.299004+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17369,19 +17369,19 @@ const APROVACOES_AUTO = {
  },
  "pimrocktakin-bovine": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:32.245141+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:39:59.737473+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:32.245141+00:00",
+  "emaVerificadoEm": "2026-11-18T20:39:59.737473+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:32.244903+00:00",
+   "verificadoEm": "2026-11-18T20:39:59.737353+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17402,19 +17402,19 @@ const APROVACOES_AUTO = {
  },
  "ederimotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:32.245277+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:00.861000+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:32.245277+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:00.861000+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:31.480716+00:00",
+   "verificadoEm": "2026-11-18T20:40:00.860880+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17435,19 +17435,19 @@ const APROVACOES_AUTO = {
  },
  "etimumotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:34.548923+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:01.635936+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:34.548923+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:01.635936+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:34.548758+00:00",
+   "verificadoEm": "2026-11-18T20:40:01.635813+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17468,19 +17468,19 @@ const APROVACOES_AUTO = {
  },
  "imsamotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:34.549030+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:02.431440+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:34.549030+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:02.431440+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:33.531321+00:00",
+   "verificadoEm": "2026-11-18T20:40:02.431292+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17501,19 +17501,19 @@ const APROVACOES_AUTO = {
  },
  "inpegsomatropin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:34.549137+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:03.189978+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:34.549137+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:03.189978+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:34.461605+00:00",
+   "verificadoEm": "2026-11-18T20:40:03.189845+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17536,19 +17536,19 @@ const APROVACOES_AUTO = {
  },
  "marlumotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:35.867975+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:04.043150+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:35.867975+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:04.043150+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:35.867795+00:00",
+   "verificadoEm": "2026-11-18T20:40:04.043024+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17569,19 +17569,19 @@ const APROVACOES_AUTO = {
  },
  "pegtarazimod": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:36.640084+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:07.437282+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:36.640084+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:07.437282+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:36.639901+00:00",
+   "verificadoEm": "2026-11-18T20:40:07.437133+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17602,19 +17602,19 @@ const APROVACOES_AUTO = {
  },
  "quazomotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:37.217335+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:07.437368+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:37.217335+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:07.437368+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:37.217017+00:00",
+   "verificadoEm": "2026-11-18T20:40:07.052033+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17635,19 +17635,19 @@ const APROVACOES_AUTO = {
  },
  "vorumotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:37.951863+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:10.085403+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:37.951863+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:10.085403+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:37.951658+00:00",
+   "verificadoEm": "2026-11-18T20:40:10.085235+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17668,19 +17668,19 @@ const APROVACOES_AUTO = {
  },
  "efpegerglucagon": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:39.057303+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:10.834834+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:39.057303+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:10.834834+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:39.057088+00:00",
+   "verificadoEm": "2026-11-18T20:40:10.834723+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17701,19 +17701,19 @@ const APROVACOES_AUTO = {
  },
  "enavermotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:51:55.101932+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:11.622348+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:51:55.101932+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:11.622348+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:51:55.101645+00:00",
+   "verificadoEm": "2026-11-18T20:40:11.622216+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17734,19 +17734,19 @@ const APROVACOES_AUTO = {
  },
  "ganipatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:39.308695+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:12.417823+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.308695+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:12.417823+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.308544+00:00",
+   "verificadoEm": "2026-11-18T20:40:12.417705+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17767,19 +17767,19 @@ const APROVACOES_AUTO = {
  },
  "irucalantide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:39.373285+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:13.191160+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.373285+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:13.191160+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.373032+00:00",
+   "verificadoEm": "2026-11-18T20:40:13.190991+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17800,19 +17800,19 @@ const APROVACOES_AUTO = {
  },
  "limaresiquimod": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:39.373390+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:13.975966+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.373390+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:13.975966+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.309753+00:00",
+   "verificadoEm": "2026-11-18T20:40:13.975803+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17833,19 +17833,19 @@ const APROVACOES_AUTO = {
  },
  "lucicebtide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:39.373465+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:14.749965+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.373465+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:14.749965+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.232484+00:00",
+   "verificadoEm": "2026-11-18T20:40:14.749807+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17866,19 +17866,19 @@ const APROVACOES_AUTO = {
  },
  "omramotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:04:51.998403+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:15.510671+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.644943+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:15.510671+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.644811+00:00",
+   "verificadoEm": "2026-11-18T20:40:15.510510+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17899,19 +17899,19 @@ const APROVACOES_AUTO = {
  },
  "oximbomotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:39.645053+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:16.290097+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.645053+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:16.290097+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.639551+00:00",
+   "verificadoEm": "2026-11-18T20:40:16.289981+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17932,19 +17932,19 @@ const APROVACOES_AUTO = {
  },
  "pegmispotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:39.645161+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:16.831729+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.645161+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:16.831729+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.294444+00:00",
+   "verificadoEm": "2026-11-18T20:40:16.831576+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17965,19 +17965,19 @@ const APROVACOES_AUTO = {
  },
  "pobrolitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:04:58.772684+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:18.827333+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.645257+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:18.827333+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.177273+00:00",
+   "verificadoEm": "2026-11-18T20:40:18.827193+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -17998,19 +17998,19 @@ const APROVACOES_AUTO = {
  },
  "sucantomotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:39.645346+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:19.848562+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.645346+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:19.848562+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.224302+00:00",
+   "verificadoEm": "2026-11-18T20:40:19.848428+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18031,19 +18031,19 @@ const APROVACOES_AUTO = {
  },
  "ucasareotide-dasaroxetan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:05:02.204700+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:22.767993+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.645438+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:22.767993+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.340005+00:00",
+   "verificadoEm": "2026-11-18T20:40:22.767851+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18064,19 +18064,19 @@ const APROVACOES_AUTO = {
  },
  "vicatertide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:05:02.204749+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:23.751304+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.645525+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:23.751304+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.472826+00:00",
+   "verificadoEm": "2026-11-18T20:40:23.751177+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18097,19 +18097,19 @@ const APROVACOES_AUTO = {
  },
  "visepegenatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:39.645604+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:24.723610+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:39.645604+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:24.723610+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:39.310644+00:00",
+   "verificadoEm": "2026-11-18T20:40:24.723473+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18130,19 +18130,19 @@ const APROVACOES_AUTO = {
  },
  "zalfermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:51.196835+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:27.347764+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:51.196835+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:27.347764+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:51.196669+00:00",
+   "verificadoEm": "2026-11-18T20:40:27.347640+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18163,19 +18163,19 @@ const APROVACOES_AUTO = {
  },
  "zaloganan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:53:55.532911+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:27.347841+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:53:55.532911+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:27.347841+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:55.532630+00:00",
+   "verificadoEm": "2026-11-18T20:40:26.073202+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18196,19 +18196,19 @@ const APROVACOES_AUTO = {
  },
  "zeleciment-basivarsen": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:00.951397+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:27.347883+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:00.951397+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:27.347883+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:00.951237+00:00",
+   "verificadoEm": "2026-11-18T20:40:26.574249+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18230,19 +18230,19 @@ const APROVACOES_AUTO = {
  },
  "zelenectide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:00.951502+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:27.868780+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:00.951502+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:27.868780+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:57.222361+00:00",
+   "verificadoEm": "2026-11-18T20:40:27.868649+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18264,19 +18264,19 @@ const APROVACOES_AUTO = {
  },
  "zelenectide-pevedotin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:08.868026+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:30.331550+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:08.868026+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:30.331550+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:08.867847+00:00",
+   "verificadoEm": "2026-11-18T20:40:30.331431+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18298,19 +18298,19 @@ const APROVACOES_AUTO = {
  },
  "cn-105": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:08.868142+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:30.331622+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:08.868142+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:30.331622+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:59.386203+00:00",
+   "verificadoEm": "2026-11-18T20:40:29.279643+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18333,19 +18333,19 @@ const APROVACOES_AUTO = {
  },
  "invopressin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216290+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:30.331672+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216290+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:30.331672+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:13.216087+00:00",
+   "verificadoEm": "2026-11-18T20:40:30.061240+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18366,19 +18366,19 @@ const APROVACOES_AUTO = {
  },
  "dapiglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216397+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:31.355634+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216397+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:31.355634+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:03.538870+00:00",
+   "verificadoEm": "2026-11-18T20:40:31.355504+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18401,19 +18401,19 @@ const APROVACOES_AUTO = {
  },
  "froniglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216474+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:31.880803+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216474+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:31.880803+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:56.878315+00:00",
+   "verificadoEm": "2026-11-18T20:40:31.880676+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18434,19 +18434,19 @@ const APROVACOES_AUTO = {
  },
  "lsalt-peptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216545+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:34.715801+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216545+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:34.715801+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:05.171281+00:00",
+   "verificadoEm": "2026-11-18T20:40:34.715668+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18468,19 +18468,19 @@ const APROVACOES_AUTO = {
  },
  "certepetide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216612+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:35.745531+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216612+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:35.745531+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:08.227371+00:00",
+   "verificadoEm": "2026-11-18T20:40:35.745383+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18502,19 +18502,19 @@ const APROVACOES_AUTO = {
  },
  "nisotirostide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216677+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:36.810189+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216677+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:36.810189+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:03.844225+00:00",
+   "verificadoEm": "2026-11-18T20:40:36.810059+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18535,19 +18535,19 @@ const APROVACOES_AUTO = {
  },
  "enlicitide-chloride": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216743+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:39.878602+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216743+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:39.878602+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:53:59.780577+00:00",
+   "verificadoEm": "2026-11-18T20:40:39.878471+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18569,19 +18569,19 @@ const APROVACOES_AUTO = {
  },
  "lead-212pb-bamzireotide-navoxetan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216812+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:39.878683+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216812+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:39.878683+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:03.026087+00:00",
+   "verificadoEm": "2026-11-18T20:40:39.364690+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18602,19 +18602,19 @@ const APROVACOES_AUTO = {
  },
  "lead-212pb-lapemelanotide-zapixetan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216884+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:40.652289+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216884+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:40.652289+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:04.718304+00:00",
+   "verificadoEm": "2026-11-18T20:40:40.652167+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18635,19 +18635,19 @@ const APROVACOES_AUTO = {
  },
  "azirkitug": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.216951+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:41.173935+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.216951+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:41.173935+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:02.376757+00:00",
+   "verificadoEm": "2026-11-18T20:40:41.173808+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18669,19 +18669,19 @@ const APROVACOES_AUTO = {
  },
  "bofanglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.217015+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:42.456012+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.217015+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:42.456012+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:07.551985+00:00",
+   "verificadoEm": "2026-11-18T20:40:42.455897+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18703,19 +18703,19 @@ const APROVACOES_AUTO = {
  },
  "brivekimig": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.217077+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:43.280628+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.217077+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:43.280628+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:07.952481+00:00",
+   "verificadoEm": "2026-11-18T20:40:43.280479+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18737,19 +18737,19 @@ const APROVACOES_AUTO = {
  },
  "lorutengitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.217167+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:44.275514+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.217167+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:44.275514+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:06.561575+00:00",
+   "verificadoEm": "2026-11-18T20:40:44.275380+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18770,19 +18770,19 @@ const APROVACOES_AUTO = {
  },
  "mifomelatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.217251+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:45.053944+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.217251+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:45.053944+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:11.757777+00:00",
+   "verificadoEm": "2026-11-18T20:40:45.053822+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18803,19 +18803,19 @@ const APROVACOES_AUTO = {
  },
  "olatorepatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.217315+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:45.319445+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.217315+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:45.319445+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:08.854805+00:00",
+   "verificadoEm": "2026-11-18T20:40:45.319291+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18838,19 +18838,19 @@ const APROVACOES_AUTO = {
  },
  "paluratide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.217382+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:46.794159+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.217382+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:46.794159+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:10.181203+00:00",
+   "verificadoEm": "2026-11-18T20:40:46.794021+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18871,19 +18871,19 @@ const APROVACOES_AUTO = {
  },
  "sonefpeglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.217448+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:48.240756+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.217448+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:48.240756+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:10.792922+00:00",
+   "verificadoEm": "2026-11-18T20:40:48.240616+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18904,19 +18904,19 @@ const APROVACOES_AUTO = {
  },
  "vezocolmitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:13.890279+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:48.886143+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:13.890279+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:48.886143+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:13.890070+00:00",
+   "verificadoEm": "2026-11-18T20:40:48.886003+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18937,19 +18937,19 @@ const APROVACOES_AUTO = {
  },
  "zifogaptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:14.427992+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:51.456756+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:14.427992+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:51.456756+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:14.427840+00:00",
+   "verificadoEm": "2026-11-18T20:40:51.456636+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -18970,19 +18970,19 @@ const APROVACOES_AUTO = {
  },
  "amezosvatein": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:17.039949+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:52.060601+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:17.039949+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:52.060601+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:17.039757+00:00",
+   "verificadoEm": "2026-11-18T20:40:52.060471+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19004,19 +19004,19 @@ const APROVACOES_AUTO = {
  },
  "canvuparatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:18.213422+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:53.503280+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:18.213422+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:53.503280+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:18.213246+00:00",
+   "verificadoEm": "2026-11-18T20:40:53.503151+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19038,19 +19038,19 @@ const APROVACOES_AUTO = {
  },
  "efmedaglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:22.501658+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:53.742167+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:22.501658+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:53.742167+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:22.501488+00:00",
+   "verificadoEm": "2026-11-18T20:40:53.742045+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19071,19 +19071,19 @@ const APROVACOES_AUTO = {
  },
  "glemtimbetasin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:22.501766+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:55.126997+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:22.501766+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:55.126997+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:22.180371+00:00",
+   "verificadoEm": "2026-11-18T20:40:55.126880+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19104,19 +19104,19 @@ const APROVACOES_AUTO = {
  },
  "vensemaglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:22.683978+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:56.226219+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:22.683978+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:56.226219+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:22.683824+00:00",
+   "verificadoEm": "2026-11-18T20:40:56.226087+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19137,19 +19137,19 @@ const APROVACOES_AUTO = {
  },
  "xelafaslatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:22.684083+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:57.472150+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:22.684083+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:57.472150+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:22.096628+00:00",
+   "verificadoEm": "2026-11-18T20:40:57.472015+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19170,19 +19170,19 @@ const APROVACOES_AUTO = {
  },
  "noraramtide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:26.048143+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:58.261425+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:26.048143+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:58.261425+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:26.047949+00:00",
+   "verificadoEm": "2026-11-18T20:40:58.261291+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19203,19 +19203,19 @@ const APROVACOES_AUTO = {
  },
  "etimupepimut": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:26.048259+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:59.230825+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:26.048259+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:59.230825+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:23.793473+00:00",
+   "verificadoEm": "2026-11-18T20:40:59.230703+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19236,19 +19236,19 @@ const APROVACOES_AUTO = {
  },
  "imsapepimut": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:26.048346+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:40:59.771926+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:26.048346+00:00",
+  "emaVerificadoEm": "2026-11-18T20:40:59.771926+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:24.648639+00:00",
+   "verificadoEm": "2026-11-18T20:40:59.771788+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19269,19 +19269,19 @@ const APROVACOES_AUTO = {
  },
  "actinium-ac-225-dotatate": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:26.048428+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:01.592525+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:26.048428+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:01.592525+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:25.279855+00:00",
+   "verificadoEm": "2026-11-18T20:41:01.592393+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19304,19 +19304,19 @@ const APROVACOES_AUTO = {
  },
  "enlicitide-decanoate": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:29.708261+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:01.592603+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:29.708261+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:01.592603+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:29.708023+00:00",
+   "verificadoEm": "2026-11-18T20:41:01.089414+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19340,19 +19340,19 @@ const APROVACOES_AUTO = {
  },
  "spx-101": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:29.708389+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:04.955731+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:29.708389+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:04.955731+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:26.905854+00:00",
+   "verificadoEm": "2026-11-18T20:41:04.955603+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19375,19 +19375,19 @@ const APROVACOES_AUTO = {
  },
  "adrenomedullin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:29.708484+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:06.001691+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:29.708484+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:06.001691+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:28.549302+00:00",
+   "verificadoEm": "2026-11-18T20:41:06.001573+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19409,19 +19409,19 @@ const APROVACOES_AUTO = {
  },
  "chf-6467": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:31.390710+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:06.832808+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:31.390710+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:06.832808+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:31.390523+00:00",
+   "verificadoEm": "2026-11-18T20:41:06.832687+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19444,19 +19444,19 @@ const APROVACOES_AUTO = {
  },
  "irl-201104": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:35.623596+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:07.021947+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:35.623596+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:07.021947+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:35.623413+00:00",
+   "verificadoEm": "2026-11-18T20:41:07.021831+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19479,19 +19479,19 @@ const APROVACOES_AUTO = {
  },
  "gelsolin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:54:36.389945+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:08.105673+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:54:36.389945+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:08.105673+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:36.389769+00:00",
+   "verificadoEm": "2026-11-18T20:41:08.105548+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19514,19 +19514,19 @@ const APROVACOES_AUTO = {
  },
  "lead-bamzireotide-navoxetan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:02.464729+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:08.578299+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:02.464729+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:08.578299+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:02.464398+00:00",
+   "verificadoEm": "2026-11-18T20:41:08.578162+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19547,19 +19547,19 @@ const APROVACOES_AUTO = {
  },
  "lead-lapemelanotide-zapixetan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:02.464877+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:09.833890+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:02.464877+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:09.833890+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:35.099202+00:00",
+   "verificadoEm": "2026-11-18T20:41:09.833746+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19580,19 +19580,19 @@ const APROVACOES_AUTO = {
  },
  "actinium-dotatate": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:02.464938+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:11.933493+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:02.464938+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:11.933493+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:36.136798+00:00",
+   "verificadoEm": "2026-11-18T20:41:11.933371+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19613,19 +19613,19 @@ const APROVACOES_AUTO = {
  },
  "enlicitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:02.464990+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:12.259355+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:02.464990+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:12.259355+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:39.340518+00:00",
+   "verificadoEm": "2026-11-18T20:41:12.259218+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19649,19 +19649,19 @@ const APROVACOES_AUTO = {
  },
  "protirelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:05:51.313264+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:14.143934+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:27.985300+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:14.143934+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:55:27.985091+00:00",
+   "verificadoEm": "2026-11-18T20:41:14.143807+00:00",
    "parcial": false,
    "registros": [
     {
@@ -19707,7 +19707,7 @@ const APROVACOES_AUTO = {
     "Giapreza"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:55:27.985439+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:14.144024+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2019-08-23",
@@ -19716,17 +19716,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/giapreza"
   },
-  "emaVerificadoEm": "2026-11-18T19:55:27.985439+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:14.144024+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:54:37.741933+00:00",
+   "verificadoEm": "2026-11-18T20:41:13.832026+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19749,19 +19749,19 @@ const APROVACOES_AUTO = {
  },
  "cilengitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:27.985542+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:14.353243+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:27.985542+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:14.353243+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:27.042361+00:00",
+   "verificadoEm": "2026-11-18T20:41:14.353101+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19782,19 +19782,19 @@ const APROVACOES_AUTO = {
  },
  "efegatran": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:27.985624+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:16.435825+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:27.985624+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:16.435825+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:21.154600+00:00",
+   "verificadoEm": "2026-11-18T20:41:16.435692+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19815,19 +19815,19 @@ const APROVACOES_AUTO = {
  },
  "rotigaptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:27.985701+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:18.157264+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:27.985701+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:18.157264+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:22.631802+00:00",
+   "verificadoEm": "2026-11-18T20:41:18.157130+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19848,19 +19848,19 @@ const APROVACOES_AUTO = {
  },
  "nerinetide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:05:54.171246+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:19.466845+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:27.985779+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:19.466845+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:22.521047+00:00",
+   "verificadoEm": "2026-11-18T20:41:19.466727+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19887,7 +19887,7 @@ const APROVACOES_AUTO = {
     "Vibativ"
    ]
   },
-  "fdaVerificadoEm": "2026-11-16T21:05:55.242795+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:20.247738+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": "2011-09-02",
@@ -19896,17 +19896,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vibativ-0"
   },
-  "emaVerificadoEm": "2026-11-18T19:55:27.985860+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:20.247738+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:24.350548+00:00",
+   "verificadoEm": "2026-11-18T20:41:20.247594+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19928,19 +19928,19 @@ const APROVACOES_AUTO = {
  },
  "tt-232": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:05:58.264962+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:21.149059+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:27.985945+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:21.149059+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:27.326690+00:00",
+   "verificadoEm": "2026-11-18T20:41:21.148944+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -19961,19 +19961,19 @@ const APROVACOES_AUTO = {
  },
  "tyrothricin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:06:02.168550+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:26.093220+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:31.245200+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:26.093220+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:55:31.244947+00:00",
+   "verificadoEm": "2026-11-18T20:41:26.093091+00:00",
    "parcial": false,
    "registros": [
     {
@@ -20025,19 +20025,19 @@ const APROVACOES_AUTO = {
  },
  "ang1005": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:06:02.168649+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:26.093307+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:31.245340+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:26.093307+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:26.825557+00:00",
+   "verificadoEm": "2026-11-18T20:41:23.030707+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20058,19 +20058,19 @@ const APROVACOES_AUTO = {
  },
  "valspodar": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:06:02.168702+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:26.093356+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:31.245433+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:26.093356+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:29.513398+00:00",
+   "verificadoEm": "2026-11-18T20:41:24.203180+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20091,19 +20091,19 @@ const APROVACOES_AUTO = {
  },
  "bacitracin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:06:10.308611+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:30.546607+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:33.591445+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:30.546607+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:55:33.591187+00:00",
+   "verificadoEm": "2026-11-18T20:41:30.546419+00:00",
    "parcial": true,
    "registros": [
     {
@@ -20134,19 +20134,19 @@ const APROVACOES_AUTO = {
  },
  "lypressin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:06:10.308684+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:30.546693+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:33.591577+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:30.546693+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:29.926836+00:00",
+   "verificadoEm": "2026-11-18T20:41:26.655950+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20167,19 +20167,19 @@ const APROVACOES_AUTO = {
  },
  "ceruletide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:33.591680+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:30.546732+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:33.591680+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:30.546732+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:30.917167+00:00",
+   "verificadoEm": "2026-11-18T20:41:27.193907+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20200,19 +20200,19 @@ const APROVACOES_AUTO = {
  },
  "corticorelin-triflutate": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:33.591769+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:30.546766+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:33.591769+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:30.546766+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:30.479315+00:00",
+   "verificadoEm": "2026-11-18T20:41:29.029350+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20233,19 +20233,19 @@ const APROVACOES_AUTO = {
  },
  "nesiritide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:33.591848+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:30.546796+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:33.591848+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:30.546796+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:55:29.327304+00:00",
+   "verificadoEm": "2026-11-18T20:41:29.750246+00:00",
    "parcial": false,
    "registros": [
     {
@@ -20275,19 +20275,19 @@ const APROVACOES_AUTO = {
  },
  "seractide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:33.591920+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:30.546828+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:33.591920+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:30.546828+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:29.218145+00:00",
+   "verificadoEm": "2026-11-18T20:41:30.060894+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20313,19 +20313,19 @@ const APROVACOES_AUTO = {
     "Kalbitor"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:55:33.591983+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:31.377572+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:33.591983+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:31.377572+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:32.031469+00:00",
+   "verificadoEm": "2026-11-18T20:41:31.377441+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20346,19 +20346,19 @@ const APROVACOES_AUTO = {
  },
  "bleomycin-a6": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:33.592034+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:31.464931+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:33.592034+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:31.464931+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:33.117749+00:00",
+   "verificadoEm": "2026-11-18T20:41:31.464828+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20379,19 +20379,19 @@ const APROVACOES_AUTO = {
  },
  "glp-1": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:34.458694+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:32.830588+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:34.458694+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:32.830588+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:34.458511+00:00",
+   "verificadoEm": "2026-11-18T20:41:32.830473+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20415,19 +20415,19 @@ const APROVACOES_AUTO = {
  },
  "scy-635": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:37.416201+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:33.351308+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:37.416201+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:33.351308+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:37.415988+00:00",
+   "verificadoEm": "2026-11-18T20:41:33.351169+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20448,19 +20448,19 @@ const APROVACOES_AUTO = {
  },
  "omiganan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:41.143006+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:34.979510+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:41.143006+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:34.979510+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:41.142831+00:00",
+   "verificadoEm": "2026-11-18T20:41:34.979392+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20484,19 +20484,19 @@ const APROVACOES_AUTO = {
  },
  "alisporivir": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:42.535810+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:37.819954+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:42.535810+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:37.819954+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:42.535615+00:00",
+   "verificadoEm": "2026-11-18T20:41:37.819826+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20518,19 +20518,19 @@ const APROVACOES_AUTO = {
  },
  "nim811": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:42.535892+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:38.343185+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:42.535892+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:38.343185+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:42.414088+00:00",
+   "verificadoEm": "2026-11-18T20:41:38.343047+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20551,19 +20551,19 @@ const APROVACOES_AUTO = {
  },
  "selepressin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:49.543277+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:39.613962+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:49.543277+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:39.613962+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:49.543065+00:00",
+   "verificadoEm": "2026-11-18T20:41:39.613803+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20584,19 +20584,19 @@ const APROVACOES_AUTO = {
  },
  "ornipressin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:50.686784+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:41.236817+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:50.686784+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:41.236817+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:50.686541+00:00",
+   "verificadoEm": "2026-11-18T20:41:41.236697+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20617,19 +20617,19 @@ const APROVACOES_AUTO = {
  },
  "somatostatin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:50.686907+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:42.720923+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:50.686907+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:42.720923+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:43.920520+00:00",
+   "verificadoEm": "2026-11-18T20:41:42.720759+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20653,19 +20653,19 @@ const APROVACOES_AUTO = {
  },
  "nepadutant": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:50.686982+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:43.483251+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:50.686982+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:43.483251+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:47.143836+00:00",
+   "verificadoEm": "2026-11-18T20:41:43.483130+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20686,19 +20686,19 @@ const APROVACOES_AUTO = {
  },
  "livoletide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:50.687048+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:44.529774+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:50.687048+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:44.529774+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:45.150294+00:00",
+   "verificadoEm": "2026-11-18T20:41:44.529404+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20725,19 +20725,19 @@ const APROVACOES_AUTO = {
     "Cosyntropin"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:55:50.687144+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:46.096676+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:55:50.687144+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:46.096676+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:48.250391+00:00",
+   "verificadoEm": "2026-11-18T20:41:46.096537+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20760,7 +20760,7 @@ const APROVACOES_AUTO = {
  },
  "sinapultide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:55:50.687222+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:46.096758+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -20769,17 +20769,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/surfaxin"
   },
-  "emaVerificadoEm": "2026-11-18T19:55:50.687222+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:46.096758+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:46.574345+00:00",
+   "verificadoEm": "2026-11-18T20:41:45.063640+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20801,19 +20801,19 @@ const APROVACOES_AUTO = {
  },
  "tosactide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:02.195299+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:47.400839+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:02.195299+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:47.400839+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:02.195076+00:00",
+   "verificadoEm": "2026-11-18T20:41:47.400717+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20834,19 +20834,19 @@ const APROVACOES_AUTO = {
  },
  "ularitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:02.195423+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:47.400898+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:02.195423+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:47.400898+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:54.852626+00:00",
+   "verificadoEm": "2026-11-18T20:41:47.166558+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20867,19 +20867,19 @@ const APROVACOES_AUTO = {
  },
  "amphomycin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:02.195516+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:48.020640+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:02.195516+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:48.020640+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:51.569482+00:00",
+   "verificadoEm": "2026-11-18T20:41:48.020514+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20900,19 +20900,19 @@ const APROVACOES_AUTO = {
  },
  "tricosactide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:02.195605+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:49.926844+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:02.195605+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:49.926844+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:52.172060+00:00",
+   "verificadoEm": "2026-11-18T20:41:49.926721+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20933,19 +20933,19 @@ const APROVACOES_AUTO = {
  },
  "norleusactide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:02.195684+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:50.707576+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:02.195684+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:50.707576+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:59.077203+00:00",
+   "verificadoEm": "2026-11-18T20:41:50.707451+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -20966,19 +20966,19 @@ const APROVACOES_AUTO = {
  },
  "teverelix": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:02.195752+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:51.271316+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:02.195752+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:51.271316+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:55.587347+00:00",
+   "verificadoEm": "2026-11-18T20:41:51.271158+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21001,19 +21001,19 @@ const APROVACOES_AUTO = {
  },
  "deltibant": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:02.195842+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:52.772160+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:02.195842+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:52.772160+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:53.559263+00:00",
+   "verificadoEm": "2026-11-18T20:41:52.772013+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21034,19 +21034,19 @@ const APROVACOES_AUTO = {
  },
  "semparatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:04.246676+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:54.715780+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:04.246676+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:54.715780+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:04.246500+00:00",
+   "verificadoEm": "2026-11-18T20:41:54.715622+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21067,19 +21067,19 @@ const APROVACOES_AUTO = {
  },
  "avorelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.104231+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:56.118092+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.104231+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:56.118092+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:06.104040+00:00",
+   "verificadoEm": "2026-11-18T20:41:56.117967+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21100,19 +21100,19 @@ const APROVACOES_AUTO = {
  },
  "codactide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.104352+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:57.407949+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.104352+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:57.407949+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:57.887889+00:00",
+   "verificadoEm": "2026-11-18T20:41:57.407834+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21133,19 +21133,19 @@ const APROVACOES_AUTO = {
  },
  "aspartocin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.104433+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:58.198490+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.104433+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:58.198490+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:55:59.392798+00:00",
+   "verificadoEm": "2026-11-18T20:41:58.198371+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21166,19 +21166,19 @@ const APROVACOES_AUTO = {
  },
  "carperitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.104504+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:41:58.765732+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.104504+00:00",
+  "emaVerificadoEm": "2026-11-18T20:41:58.765732+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:02.938695+00:00",
+   "verificadoEm": "2026-11-18T20:41:58.765599+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21199,19 +21199,19 @@ const APROVACOES_AUTO = {
  },
  "cemadotin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.104572+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:00.025914+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.104572+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:00.025914+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:00.981640+00:00",
+   "verificadoEm": "2026-11-18T20:42:00.025789+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21232,19 +21232,19 @@ const APROVACOES_AUTO = {
  },
  "elcatonin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.104637+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:01.426475+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.104637+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:01.426475+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:01.499008+00:00",
+   "verificadoEm": "2026-11-18T20:42:01.426360+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21265,19 +21265,19 @@ const APROVACOES_AUTO = {
  },
  "thymocartin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.104702+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:01.522968+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.104702+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:01.522968+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:03.307418+00:00",
+   "verificadoEm": "2026-11-18T20:42:01.522874+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21298,19 +21298,19 @@ const APROVACOES_AUTO = {
  },
  "azetirelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.467701+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:02.850610+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.467701+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:02.850610+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:06.467492+00:00",
+   "verificadoEm": "2026-11-18T20:42:02.850491+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21331,19 +21331,19 @@ const APROVACOES_AUTO = {
  },
  "posatirelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.467813+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:03.397363+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.467813+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:03.397363+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:05.109589+00:00",
+   "verificadoEm": "2026-11-18T20:42:03.397209+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21364,19 +21364,19 @@ const APROVACOES_AUTO = {
  },
  "thymotrinan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:06.930750+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:04.800102+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:06.930750+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:04.800102+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:06.930562+00:00",
+   "verificadoEm": "2026-11-18T20:42:04.799956+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21397,19 +21397,19 @@ const APROVACOES_AUTO = {
  },
  "triletide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:09.732668+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:08.275928+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:09.732668+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:08.275928+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:09.732482+00:00",
+   "verificadoEm": "2026-11-18T20:42:08.275796+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21430,19 +21430,19 @@ const APROVACOES_AUTO = {
  },
  "davalintide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:09.732794+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:08.275997+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:09.732794+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:08.275997+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:08.412845+00:00",
+   "verificadoEm": "2026-11-18T20:42:07.198409+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21463,19 +21463,19 @@ const APROVACOES_AUTO = {
  },
  "dirucotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:12.340139+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:08.531042+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:12.340139+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:08.531042+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:12.339903+00:00",
+   "verificadoEm": "2026-11-18T20:42:08.530912+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21496,19 +21496,19 @@ const APROVACOES_AUTO = {
  },
  "efepristin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:12.340288+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:10.451749+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:12.340288+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:10.451749+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:12.065613+00:00",
+   "verificadoEm": "2026-11-18T20:42:10.451620+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21529,19 +21529,19 @@ const APROVACOES_AUTO = {
  },
  "iseganan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:13.402577+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:11.234038+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:13.402577+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:11.234038+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:13.402377+00:00",
+   "verificadoEm": "2026-11-18T20:42:11.233892+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21562,19 +21562,19 @@ const APROVACOES_AUTO = {
  },
  "labradimil": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:15.124844+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:11.727658+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:15.124844+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:11.727658+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:15.124688+00:00",
+   "verificadoEm": "2026-11-18T20:42:11.727529+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21595,19 +21595,19 @@ const APROVACOES_AUTO = {
  },
  "ambomycin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:15.662931+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:12.467416+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:15.662931+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:12.467416+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:15.662728+00:00",
+   "verificadoEm": "2026-11-18T20:42:12.467261+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21628,19 +21628,19 @@ const APROVACOES_AUTO = {
  },
  "thymoctonan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:16.907719+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:13.807885+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:16.907719+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:13.807885+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:16.907540+00:00",
+   "verificadoEm": "2026-11-18T20:42:13.807769+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21661,19 +21661,19 @@ const APROVACOES_AUTO = {
  },
  "casokefamide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:20.163502+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:14.637540+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:20.163502+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:14.637540+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:20.163313+00:00",
+   "verificadoEm": "2026-11-18T20:42:14.637245+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21694,19 +21694,19 @@ const APROVACOES_AUTO = {
  },
  "ebiratide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:20.163636+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:15.505203+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:20.163636+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:15.505203+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:18.194781+00:00",
+   "verificadoEm": "2026-11-18T20:42:15.505050+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21727,19 +21727,19 @@ const APROVACOES_AUTO = {
  },
  "desglugastrin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:20.550155+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:16.027148+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:20.550155+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:16.027148+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:20.549943+00:00",
+   "verificadoEm": "2026-11-18T20:42:16.027027+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21760,19 +21760,19 @@ const APROVACOES_AUTO = {
  },
  "detirelix": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:20.550282+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:17.309927+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:20.550282+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:17.309927+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:20.144763+00:00",
+   "verificadoEm": "2026-11-18T20:42:17.309796+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21793,19 +21793,19 @@ const APROVACOES_AUTO = {
  },
  "nonathymulin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:27.397625+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:20.094860+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:27.397625+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:20.094860+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:27.397420+00:00",
+   "verificadoEm": "2026-11-18T20:42:20.094739+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21826,19 +21826,19 @@ const APROVACOES_AUTO = {
  },
  "taltirelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:27.397708+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:20.924790+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:27.397708+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:20.924790+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:22.075150+00:00",
+   "verificadoEm": "2026-11-18T20:42:20.924673+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21859,19 +21859,19 @@ const APROVACOES_AUTO = {
  },
  "corticorelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:29.298305+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:21.459802+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:29.298305+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:21.459802+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:29.298103+00:00",
+   "verificadoEm": "2026-11-18T20:42:21.459685+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21893,19 +21893,19 @@ const APROVACOES_AUTO = {
  },
  "rusalatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:07:06.116203+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:23.481696+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:49.512452+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:23.481696+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:49.512243+00:00",
+   "verificadoEm": "2026-11-18T20:42:23.481569+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21926,19 +21926,19 @@ const APROVACOES_AUTO = {
  },
  "tasidotin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:49.512595+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:24.191722+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:49.512595+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:24.191722+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:48.278834+00:00",
+   "verificadoEm": "2026-11-18T20:42:24.191592+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21959,19 +21959,19 @@ const APROVACOES_AUTO = {
  },
  "geclosporin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:49.512708+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:24.978497+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:49.512708+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:24.978497+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:36.524372+00:00",
+   "verificadoEm": "2026-11-18T20:42:24.978383+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -21992,19 +21992,19 @@ const APROVACOES_AUTO = {
  },
  "edratide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:49.512787+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:25.489486+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:49.512787+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:25.489486+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:28.746178+00:00",
+   "verificadoEm": "2026-11-18T20:42:25.489365+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22025,19 +22025,19 @@ const APROVACOES_AUTO = {
  },
  "icrocaptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:59.451871+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:26.988710+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:59.451871+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:26.988710+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:59.451588+00:00",
+   "verificadoEm": "2026-11-18T20:42:26.988586+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22058,19 +22058,19 @@ const APROVACOES_AUTO = {
  },
  "nemifitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:59.451985+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:27.730178+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:59.451985+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:27.730178+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:39.138817+00:00",
+   "verificadoEm": "2026-11-18T20:42:27.730040+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22091,19 +22091,19 @@ const APROVACOES_AUTO = {
  },
  "dulanermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:59.452077+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:28.520763+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:59.452077+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:28.520763+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:39.547512+00:00",
+   "verificadoEm": "2026-11-18T20:42:28.520650+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22124,19 +22124,19 @@ const APROVACOES_AUTO = {
  },
  "denenicokin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:56:59.452181+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:29.279778+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:56:59.452181+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:29.279778+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:46.780684+00:00",
+   "verificadoEm": "2026-11-18T20:42:29.279646+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22157,19 +22157,19 @@ const APROVACOES_AUTO = {
  },
  "taspoglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:04.381981+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:29.837038+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:04.381981+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:29.837038+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:04.381673+00:00",
+   "verificadoEm": "2026-11-18T20:42:29.836907+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22190,19 +22190,19 @@ const APROVACOES_AUTO = {
  },
  "somatosalm": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:04.382088+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:32.270191+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:04.382088+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:32.270191+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:35.209079+00:00",
+   "verificadoEm": "2026-11-18T20:42:32.270064+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22223,19 +22223,19 @@ const APROVACOES_AUTO = {
  },
  "somenopor": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:07:11.346779+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:34.301128+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:04.382200+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:34.301128+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:02.421445+00:00",
+   "verificadoEm": "2026-11-18T20:42:34.301005+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22256,19 +22256,19 @@ const APROVACOES_AUTO = {
  },
  "peforelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:04.382294+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:34.534605+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:04.382294+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:34.534605+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:48.096186+00:00",
+   "verificadoEm": "2026-11-18T20:42:34.534061+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22289,19 +22289,19 @@ const APROVACOES_AUTO = {
  },
  "sulglicotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:04.382367+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:36.344299+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:04.382367+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:36.344299+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:00.824339+00:00",
+   "verificadoEm": "2026-11-18T20:42:36.344189+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22322,19 +22322,19 @@ const APROVACOES_AUTO = {
  },
  "somagrebove": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:20.111939+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:37.113096+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:20.111939+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:37.113096+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:20.111600+00:00",
+   "verificadoEm": "2026-11-18T20:42:37.112967+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22355,19 +22355,19 @@ const APROVACOES_AUTO = {
  },
  "sometribove": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:20.112077+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:37.943520+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:20.112077+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:37.943520+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:50.200647+00:00",
+   "verificadoEm": "2026-11-18T20:42:37.943406+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22388,19 +22388,19 @@ const APROVACOES_AUTO = {
  },
  "plusonermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:20.112206+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:39.132134+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:20.112206+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:39.132134+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:08.008511+00:00",
+   "verificadoEm": "2026-11-18T20:42:39.132006+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22421,19 +22421,19 @@ const APROVACOES_AUTO = {
  },
  "ersofermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:20.112302+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:39.690239+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:20.112302+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:39.690239+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:09.048447+00:00",
+   "verificadoEm": "2026-11-18T20:42:39.690125+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22454,19 +22454,19 @@ const APROVACOES_AUTO = {
  },
  "elpamotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:20.112414+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:40.984384+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:20.112414+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:40.984384+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:56.942459+00:00",
+   "verificadoEm": "2026-11-18T20:42:40.984254+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22487,19 +22487,19 @@ const APROVACOES_AUTO = {
  },
  "lenomorelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:20.112534+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:42.337685+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:20.112534+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:42.337685+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:56:54.068240+00:00",
+   "verificadoEm": "2026-11-18T20:42:42.337567+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22522,19 +22522,19 @@ const APROVACOES_AUTO = {
  },
  "tertomotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:26.944871+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:42.618628+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.944871+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:42.618628+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:26.944673+00:00",
+   "verificadoEm": "2026-11-18T20:42:42.618509+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22555,19 +22555,19 @@ const APROVACOES_AUTO = {
  },
  "ozarelix": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:26.944980+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:43.098646+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.944980+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:43.098646+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:14.090566+00:00",
+   "verificadoEm": "2026-11-18T20:42:43.098526+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22588,19 +22588,19 @@ const APROVACOES_AUTO = {
  },
  "nepidermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:26.945069+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:44.931371+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.945069+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:44.931371+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:06.042778+00:00",
+   "verificadoEm": "2026-11-18T20:42:44.931239+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22623,19 +22623,19 @@ const APROVACOES_AUTO = {
  },
  "elsiglutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:26.945212+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:47.154310+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.945212+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:47.154310+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:05.531239+00:00",
+   "verificadoEm": "2026-11-18T20:42:47.154188+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22657,19 +22657,19 @@ const APROVACOES_AUTO = {
  },
  "lancovutide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:07:26.762572+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:47.154403+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.945302+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:47.154403+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:25.616373+00:00",
+   "verificadoEm": "2026-11-18T20:42:46.813047+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22690,19 +22690,19 @@ const APROVACOES_AUTO = {
  },
  "obinepitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:07:27.179830+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:48.678172+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.945383+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:48.678172+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:25.341885+00:00",
+   "verificadoEm": "2026-11-18T20:42:48.678051+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22723,19 +22723,19 @@ const APROVACOES_AUTO = {
  },
  "tridecactide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:26.945453+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:50.030916+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.945453+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:50.030916+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:11.218038+00:00",
+   "verificadoEm": "2026-11-18T20:42:50.030790+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22758,19 +22758,19 @@ const APROVACOES_AUTO = {
  },
  "disitertide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:26.945520+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:50.525026+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.945520+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:50.525026+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:09.897011+00:00",
+   "verificadoEm": "2026-11-18T20:42:50.524908+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22791,19 +22791,19 @@ const APROVACOES_AUTO = {
  },
  "dumorelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:26.945585+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:51.874957+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.945585+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:51.874957+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:07.336179+00:00",
+   "verificadoEm": "2026-11-18T20:42:51.874823+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22824,19 +22824,19 @@ const APROVACOES_AUTO = {
  },
  "leconotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:26.945649+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:53.588683+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:26.945649+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:53.588683+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:10.456488+00:00",
+   "verificadoEm": "2026-11-18T20:42:53.588561+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22857,19 +22857,19 @@ const APROVACOES_AUTO = {
  },
  "mobenakin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.579591+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:55.047591+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.579591+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:55.047591+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:34.579398+00:00",
+   "verificadoEm": "2026-11-18T20:42:55.047483+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22890,19 +22890,19 @@ const APROVACOES_AUTO = {
  },
  "delmitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.579718+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:55.586627+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.579718+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:55.586627+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:23.142574+00:00",
+   "verificadoEm": "2026-11-18T20:42:55.586477+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22923,19 +22923,19 @@ const APROVACOES_AUTO = {
  },
  "tifuvirtide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.579794+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:56.089825+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.579794+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:56.089825+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:27.417423+00:00",
+   "verificadoEm": "2026-11-18T20:42:56.089714+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22956,19 +22956,19 @@ const APROVACOES_AUTO = {
  },
  "somavubove": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.579849+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:56.920915+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.579849+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:56.920915+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:31.686042+00:00",
+   "verificadoEm": "2026-11-18T20:42:56.920709+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -22989,19 +22989,19 @@ const APROVACOES_AUTO = {
  },
  "sometripor": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.579891+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:57.520955+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.579891+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:57.520955+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:32.873681+00:00",
+   "verificadoEm": "2026-11-18T20:42:57.520836+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23022,19 +23022,19 @@ const APROVACOES_AUTO = {
  },
  "somidobove": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.579928+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:58.584495+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.579928+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:58.584495+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:31.069904+00:00",
+   "verificadoEm": "2026-11-18T20:42:58.584361+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23055,19 +23055,19 @@ const APROVACOES_AUTO = {
  },
  "cenderitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.579964+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:42:59.711927+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.579964+00:00",
+  "emaVerificadoEm": "2026-11-18T20:42:59.711927+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:32.225764+00:00",
+   "verificadoEm": "2026-11-18T20:42:59.711813+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23090,19 +23090,19 @@ const APROVACOES_AUTO = {
  },
  "somalapor": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.580001+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:00.728889+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.580001+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:00.728889+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:28.021610+00:00",
+   "verificadoEm": "2026-11-18T20:43:00.728778+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23123,19 +23123,19 @@ const APROVACOES_AUTO = {
  },
  "somatorelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.580037+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:03.375530+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.580037+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:03.375530+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:25.954345+00:00",
+   "verificadoEm": "2026-11-18T20:43:03.375408+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23156,7 +23156,7 @@ const APROVACOES_AUTO = {
  },
  "sonermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.580075+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:03.375604+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "1999-04-12",
@@ -23165,17 +23165,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/beromun"
   },
-  "emaVerificadoEm": "2026-11-18T19:57:34.580075+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:03.375604+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:29.289334+00:00",
+   "verificadoEm": "2026-11-18T20:43:02.852272+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23196,19 +23196,19 @@ const APROVACOES_AUTO = {
  },
  "tiplimotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.580143+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:07.023393+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.580143+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:07.023393+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:34.316542+00:00",
+   "verificadoEm": "2026-11-18T20:43:07.023243+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23229,19 +23229,19 @@ const APROVACOES_AUTO = {
  },
  "anaritide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.803751+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:07.023472+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.803751+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:07.023472+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:34.803559+00:00",
+   "verificadoEm": "2026-11-18T20:43:05.564427+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23262,19 +23262,19 @@ const APROVACOES_AUTO = {
  },
  "argipressin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:34.961007+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:07.750550+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:34.961007+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:07.750550+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:34.960811+00:00",
+   "verificadoEm": "2026-11-18T20:43:07.750434+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23298,19 +23298,19 @@ const APROVACOES_AUTO = {
  },
  "atexakin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:57:35.968817+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:08.534735+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:57:35.968817+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:08.534735+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:35.968606+00:00",
+   "verificadoEm": "2026-11-18T20:43:08.534602+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23331,19 +23331,19 @@ const APROVACOES_AUTO = {
  },
  "amlintide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.148502+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:09.321617+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.148502+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:09.321617+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:00.148321+00:00",
+   "verificadoEm": "2026-11-18T20:43:09.321475+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23364,19 +23364,19 @@ const APROVACOES_AUTO = {
  },
  "betiatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.148602+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:10.811661+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.148602+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:10.811661+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T19:57:38.535195+00:00",
+   "verificadoEm": "2026-11-18T20:43:10.811490+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 1
@@ -23397,19 +23397,19 @@ const APROVACOES_AUTO = {
  },
  "doreptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.148677+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:11.161071+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.148677+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:11.161071+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:39.716760+00:00",
+   "verificadoEm": "2026-11-18T20:43:11.160952+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23430,19 +23430,19 @@ const APROVACOES_AUTO = {
  },
  "gonadotropin-serum": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.148747+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:11.381978+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.148747+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:11.381978+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:42.022395+00:00",
+   "verificadoEm": "2026-11-18T20:43:11.381835+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23463,19 +23463,19 @@ const APROVACOES_AUTO = {
  },
  "murodermin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.148832+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:12.440473+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.148832+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:12.440473+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:40.968997+00:00",
+   "verificadoEm": "2026-11-18T20:43:12.440358+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23496,19 +23496,19 @@ const APROVACOES_AUTO = {
  },
  "pareptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.148930+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:12.967836+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.148930+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:12.967836+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:42.782649+00:00",
+   "verificadoEm": "2026-11-18T20:43:12.967447+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23529,19 +23529,19 @@ const APROVACOES_AUTO = {
  },
  "enviomycin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.149016+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:14.978483+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.149016+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:14.978483+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:45.505434+00:00",
+   "verificadoEm": "2026-11-18T20:43:14.978308+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23562,19 +23562,19 @@ const APROVACOES_AUTO = {
  },
  "procalcitonin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.149099+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:16.157349+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.149099+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:16.157349+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:55.118335+00:00",
+   "verificadoEm": "2026-11-18T20:43:16.157188+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23596,19 +23596,19 @@ const APROVACOES_AUTO = {
  },
  "lagatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.149194+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:17.475928+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.149194+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:17.475928+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:56.706263+00:00",
+   "verificadoEm": "2026-11-18T20:43:17.475811+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23629,19 +23629,19 @@ const APROVACOES_AUTO = {
  },
  "cargutocin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.149243+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:18.898748+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.149243+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:18.898748+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:48.837769+00:00",
+   "verificadoEm": "2026-11-18T20:43:18.898627+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23662,19 +23662,19 @@ const APROVACOES_AUTO = {
  },
  "barusiban": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.149285+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:20.235625+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.149285+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:20.235625+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:49.130959+00:00",
+   "verificadoEm": "2026-11-18T20:43:20.235497+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23695,19 +23695,19 @@ const APROVACOES_AUTO = {
  },
  "nacartocin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:00.149327+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:21.252096+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:00.149327+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:21.252096+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:46.998648+00:00",
+   "verificadoEm": "2026-11-18T20:43:21.251965+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23728,19 +23728,19 @@ const APROVACOES_AUTO = {
  },
  "lusupultide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:19.574911+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:22.477379+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:19.574911+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:22.477379+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:19.574647+00:00",
+   "verificadoEm": "2026-11-18T20:43:22.477225+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23761,19 +23761,19 @@ const APROVACOES_AUTO = {
  },
  "capreomycin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:19.575021+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:23.627158+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:19.575021+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:23.627158+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:53.675702+00:00",
+   "verificadoEm": "2026-11-18T20:43:23.627010+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23794,19 +23794,19 @@ const APROVACOES_AUTO = {
  },
  "arfalasin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:19.575092+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:24.612899+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:19.575092+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:24.612899+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:59.364645+00:00",
+   "verificadoEm": "2026-11-18T20:43:24.612772+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23827,19 +23827,19 @@ const APROVACOES_AUTO = {
  },
  "metkephamid": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.882925+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:25.558304+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.882925+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:25.558304+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:33.882640+00:00",
+   "verificadoEm": "2026-11-18T20:43:25.558177+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23860,19 +23860,19 @@ const APROVACOES_AUTO = {
  },
  "pentigetide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.883044+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:26.618725+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883044+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:26.618725+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:09.247484+00:00",
+   "verificadoEm": "2026-11-18T20:43:26.618600+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23893,19 +23893,19 @@ const APROVACOES_AUTO = {
  },
  "montirelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.883223+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:26.618800+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883223+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:26.618800+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:11.631614+00:00",
+   "verificadoEm": "2026-11-18T20:43:26.361461+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23926,19 +23926,19 @@ const APROVACOES_AUTO = {
  },
  "atilmotin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.883320+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:27.693574+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883320+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:27.693574+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:57:53.518502+00:00",
+   "verificadoEm": "2026-11-18T20:43:27.693439+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23959,19 +23959,19 @@ const APROVACOES_AUTO = {
  },
  "giractide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.883412+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:28.542783+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883412+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:28.542783+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:01.704169+00:00",
+   "verificadoEm": "2026-11-18T20:43:28.542657+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -23992,19 +23992,19 @@ const APROVACOES_AUTO = {
  },
  "argiprestocin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:08:10.105107+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:29.627785+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883691+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:29.627785+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:20.907303+00:00",
+   "verificadoEm": "2026-11-18T20:43:29.627638+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24025,19 +24025,19 @@ const APROVACOES_AUTO = {
  },
  "lutrelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.883773+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:31.154990+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883773+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:31.154990+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:15.434839+00:00",
+   "verificadoEm": "2026-11-18T20:43:31.154856+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24058,19 +24058,19 @@ const APROVACOES_AUTO = {
  },
  "surotomycin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.883847+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:32.704131+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883847+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:32.704131+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:10.277106+00:00",
+   "verificadoEm": "2026-11-18T20:43:32.703988+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24091,19 +24091,19 @@ const APROVACOES_AUTO = {
  },
  "tecemotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.883913+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:34.666954+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883913+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:34.666954+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:07.551037+00:00",
+   "verificadoEm": "2026-11-18T20:43:34.666842+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24124,19 +24124,19 @@ const APROVACOES_AUTO = {
  },
  "tigapotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.883979+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:34.667028+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.883979+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:34.667028+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:05.476416+00:00",
+   "verificadoEm": "2026-11-18T20:43:34.329372+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24157,19 +24157,19 @@ const APROVACOES_AUTO = {
  },
  "viomycin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.884044+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:36.298062+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.884044+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:36.298062+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:10.176925+00:00",
+   "verificadoEm": "2026-11-18T20:43:36.297942+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24190,19 +24190,19 @@ const APROVACOES_AUTO = {
  },
  "benpenolisin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:33.884165+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:37.441125+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:33.884165+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:37.441125+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:25.489070+00:00",
+   "verificadoEm": "2026-11-18T20:43:37.440996+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24223,19 +24223,19 @@ const APROVACOES_AUTO = {
  },
  "felypressin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636381+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:38.601036+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636381+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:38.601036+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:38.636199+00:00",
+   "verificadoEm": "2026-11-18T20:43:38.600918+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24256,19 +24256,19 @@ const APROVACOES_AUTO = {
  },
  "sovatelitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636482+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:40.467544+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636482+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:40.467544+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:25.781802+00:00",
+   "verificadoEm": "2026-11-18T20:43:40.467419+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24289,19 +24289,19 @@ const APROVACOES_AUTO = {
  },
  "fertirelin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636544+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:40.467621+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636544+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:40.467621+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:28.002198+00:00",
+   "verificadoEm": "2026-11-18T20:43:40.220607+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24328,7 +24328,7 @@ const APROVACOES_AUTO = {
     "Dalvance"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636599+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:43.475810+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2015-02-19",
@@ -24337,17 +24337,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xydalba"
   },
-  "emaVerificadoEm": "2026-11-18T19:58:38.636599+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:43.475810+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:17.064586+00:00",
+   "verificadoEm": "2026-11-18T20:43:43.475649+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24371,19 +24371,19 @@ const APROVACOES_AUTO = {
  },
  "vapreotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636653+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:43.475892+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636653+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:43.475892+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:18.372991+00:00",
+   "verificadoEm": "2026-11-18T20:43:41.861384+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24404,19 +24404,19 @@ const APROVACOES_AUTO = {
  },
  "rapastinel": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636703+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:43.475929+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636703+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:43.475929+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:26.815593+00:00",
+   "verificadoEm": "2026-11-18T20:43:42.481735+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24439,19 +24439,19 @@ const APROVACOES_AUTO = {
  },
  "ctce-9908": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636752+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:43.778309+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636752+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:43.778309+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:24.461050+00:00",
+   "verificadoEm": "2026-11-18T20:43:43.778188+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24472,19 +24472,19 @@ const APROVACOES_AUTO = {
  },
  "zoptarelin-doxorubicin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636805+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:44.852162+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636805+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:44.852162+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:37.633018+00:00",
+   "verificadoEm": "2026-11-18T20:43:44.852041+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24505,19 +24505,19 @@ const APROVACOES_AUTO = {
  },
  "tavilermide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636856+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:46.685227+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636856+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:46.685227+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:35.118328+00:00",
+   "verificadoEm": "2026-11-18T20:43:46.685103+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24539,19 +24539,19 @@ const APROVACOES_AUTO = {
  },
  "fexapotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:38.636902+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:47.380530+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:38.636902+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:47.380530+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:34.089340+00:00",
+   "verificadoEm": "2026-11-18T20:43:47.380419+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24572,19 +24572,19 @@ const APROVACOES_AUTO = {
  },
  "modimelanotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:41.131545+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:48.802902+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:41.131545+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:48.802902+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:41.131393+00:00",
+   "verificadoEm": "2026-11-18T20:43:48.802779+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24605,19 +24605,19 @@ const APROVACOES_AUTO = {
  },
  "dolcanatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:41.131653+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:50.585936+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:41.131653+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:50.585936+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:35.363207+00:00",
+   "verificadoEm": "2026-11-18T20:43:50.585828+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24644,7 +24644,7 @@ const APROVACOES_AUTO = {
     "Parsabiv"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:58:41.131738+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:51.145947+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2016-11-11",
@@ -24653,17 +24653,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/parsabiv"
   },
-  "emaVerificadoEm": "2026-11-18T19:58:41.131738+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:51.145947+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:30.008292+00:00",
+   "verificadoEm": "2026-11-18T20:43:51.145775+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24687,19 +24687,19 @@ const APROVACOES_AUTO = {
  },
  "dusquetide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:41.131820+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:52.577673+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:41.131820+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:52.577673+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:34.884700+00:00",
+   "verificadoEm": "2026-11-18T20:43:52.577565+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24721,19 +24721,19 @@ const APROVACOES_AUTO = {
  },
  "recanaclotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:43.491221+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:53.096623+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:43.491221+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:53.096623+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:43.490993+00:00",
+   "verificadoEm": "2026-11-18T20:43:53.096153+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24754,19 +24754,19 @@ const APROVACOES_AUTO = {
  },
  "ruclosporin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:43.491344+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:54.732131+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:43.491344+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:54.732131+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:36.661880+00:00",
+   "verificadoEm": "2026-11-18T20:43:54.732005+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24787,19 +24787,19 @@ const APROVACOES_AUTO = {
  },
  "fexapotide-triflutate": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:43.491429+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:55.220875+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:43.491429+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:55.220875+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:37.194189+00:00",
+   "verificadoEm": "2026-11-18T20:43:55.220754+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24820,19 +24820,19 @@ const APROVACOES_AUTO = {
  },
  "murepavadin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:43.491515+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:56.729670+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:43.491515+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:56.729670+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:38.509718+00:00",
+   "verificadoEm": "2026-11-18T20:43:56.729515+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24853,19 +24853,19 @@ const APROVACOES_AUTO = {
  },
  "pl-8177": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:46.715711+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:57.351381+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:46.715711+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:57.351381+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:46.715529+00:00",
+   "verificadoEm": "2026-11-18T20:43:57.351251+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24887,19 +24887,19 @@ const APROVACOES_AUTO = {
  },
  "forigerimod": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:46.715847+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:57.960697+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:46.715847+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:57.960697+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:44.889920+00:00",
+   "verificadoEm": "2026-11-18T20:43:57.960581+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24921,19 +24921,19 @@ const APROVACOES_AUTO = {
  },
  "alsactide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:46.715935+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:59.466174+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:46.715935+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:59.466174+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:45.471172+00:00",
+   "verificadoEm": "2026-11-18T20:43:59.466067+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24954,19 +24954,19 @@ const APROVACOES_AUTO = {
  },
  "iturelix": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:53.737767+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:43:59.967705+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:53.737767+00:00",
+  "emaVerificadoEm": "2026-11-18T20:43:59.967705+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:53.737448+00:00",
+   "verificadoEm": "2026-11-18T20:43:59.967552+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -24987,19 +24987,19 @@ const APROVACOES_AUTO = {
  },
  "frakefamide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:53.737902+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:01.476813+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:53.737902+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:01.476813+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:44.246254+00:00",
+   "verificadoEm": "2026-11-18T20:44:01.476683+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25020,19 +25020,19 @@ const APROVACOES_AUTO = {
  },
  "fluciclatide-f-18": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:58:54.143255+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:03.162298+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:58:54.143255+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:03.162298+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:54.143020+00:00",
+   "verificadoEm": "2026-11-18T20:44:03.162174+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25053,19 +25053,19 @@ const APROVACOES_AUTO = {
  },
  "basifungin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.998036+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:04.797943+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.998036+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:04.797943+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:34.997740+00:00",
+   "verificadoEm": "2026-11-18T20:44:04.797795+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25086,19 +25086,19 @@ const APROVACOES_AUTO = {
  },
  "maraciclatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.998178+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:05.554834+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.998178+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:05.554834+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:56.066870+00:00",
+   "verificadoEm": "2026-11-18T20:44:05.554698+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25119,19 +25119,19 @@ const APROVACOES_AUTO = {
  },
  "colimecycline": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.998250+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:06.085336+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.998250+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:06.085336+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:52.176759+00:00",
+   "verificadoEm": "2026-11-18T20:44:06.085205+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25152,19 +25152,19 @@ const APROVACOES_AUTO = {
  },
  "ramorelix": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:08:46.856134+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:07.808921+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.998302+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:07.808921+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:27.700593+00:00",
+   "verificadoEm": "2026-11-18T20:44:07.808807+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25185,19 +25185,19 @@ const APROVACOES_AUTO = {
  },
  "apimostinel": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.998376+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:08.077836+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.998376+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:08.077836+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:51.049476+00:00",
+   "verificadoEm": "2026-11-18T20:44:08.077714+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25220,19 +25220,19 @@ const APROVACOES_AUTO = {
  },
  "veldoreotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.998448+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:09.700679+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.998448+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:09.700679+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:59.883494+00:00",
+   "verificadoEm": "2026-11-18T20:44:09.700546+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25253,19 +25253,19 @@ const APROVACOES_AUTO = {
  },
  "reltecimod": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999008+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:10.303403+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999008+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:10.303403+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:11.353089+00:00",
+   "verificadoEm": "2026-11-18T20:44:10.303266+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25286,19 +25286,19 @@ const APROVACOES_AUTO = {
  },
  "pegilodecakin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999105+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:10.825103+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999105+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:10.825103+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:58.269414+00:00",
+   "verificadoEm": "2026-11-18T20:44:10.824962+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25321,19 +25321,19 @@ const APROVACOES_AUTO = {
  },
  "fluciclatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999204+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:12.455773+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999204+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:12.455773+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:10.576179+00:00",
+   "verificadoEm": "2026-11-18T20:44:12.455660+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25354,19 +25354,19 @@ const APROVACOES_AUTO = {
  },
  "ociltide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999258+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:13.012485+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999258+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:13.012485+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:05.173900+00:00",
+   "verificadoEm": "2026-11-18T20:44:13.012370+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25387,19 +25387,19 @@ const APROVACOES_AUTO = {
  },
  "albuvirtide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999305+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:14.137050+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999305+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:14.137050+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:58:55.067810+00:00",
+   "verificadoEm": "2026-11-18T20:44:14.136907+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25421,19 +25421,19 @@ const APROVACOES_AUTO = {
  },
  "amy-101": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999424+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:15.433008+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999424+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:15.433008+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:20.415212+00:00",
+   "verificadoEm": "2026-11-18T20:44:15.432857+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25456,19 +25456,19 @@ const APROVACOES_AUTO = {
  },
  "foxy-5": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999555+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:17.631240+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999555+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:17.631240+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:29.274422+00:00",
+   "verificadoEm": "2026-11-18T20:44:17.631088+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25490,19 +25490,19 @@ const APROVACOES_AUTO = {
  },
  "bezisterim": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:09:01.035963+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:19.884360+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999647+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:19.884360+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:23.663416+00:00",
+   "verificadoEm": "2026-11-18T20:44:19.884232+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25523,19 +25523,19 @@ const APROVACOES_AUTO = {
  },
  "nerofe": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999720+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:19.884432+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999720+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:19.884432+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:06.508283+00:00",
+   "verificadoEm": "2026-11-18T20:44:18.868885+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25557,19 +25557,19 @@ const APROVACOES_AUTO = {
  },
  "pl-3994": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:34.999793+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:20.691289+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:34.999793+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:20.691289+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:09.601890+00:00",
+   "verificadoEm": "2026-11-18T20:44:20.691171+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25590,19 +25590,19 @@ const APROVACOES_AUTO = {
  },
  "pz-128": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:09:02.709161+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:21.195611+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.527858+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:21.195611+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:44.527691+00:00",
+   "verificadoEm": "2026-11-18T20:44:21.195498+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25624,19 +25624,19 @@ const APROVACOES_AUTO = {
  },
  "brimapitide-c-terminal-acid": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.527987+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:22.329647+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.527987+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:22.329647+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:40.990054+00:00",
+   "verificadoEm": "2026-11-18T20:44:22.329522+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25657,19 +25657,19 @@ const APROVACOES_AUTO = {
  },
  "cbp-501": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528107+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:23.128538+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528107+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:23.128538+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:19.312858+00:00",
+   "verificadoEm": "2026-11-18T20:44:23.128425+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25692,19 +25692,19 @@ const APROVACOES_AUTO = {
  },
  "ser-100": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528217+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:23.620161+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528217+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:23.620161+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:16.729218+00:00",
+   "verificadoEm": "2026-11-18T20:44:23.620027+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25725,19 +25725,19 @@ const APROVACOES_AUTO = {
  },
  "trv-120027": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528298+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:25.601108+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528298+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:25.601108+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:18.155073+00:00",
+   "verificadoEm": "2026-11-18T20:44:25.600978+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25760,19 +25760,19 @@ const APROVACOES_AUTO = {
  },
  "atn-161": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528372+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:26.129265+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528372+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:26.129265+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:30.853535+00:00",
+   "verificadoEm": "2026-11-18T20:44:26.129146+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25793,19 +25793,19 @@ const APROVACOES_AUTO = {
  },
  "zetomipzomib": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:09:06.576746+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:27.294255+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528449+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:27.294255+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:41.133743+00:00",
+   "verificadoEm": "2026-11-18T20:44:27.294134+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25827,19 +25827,19 @@ const APROVACOES_AUTO = {
  },
  "risuteganib": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528509+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:28.452417+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528509+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:28.452417+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:43.743483+00:00",
+   "verificadoEm": "2026-11-18T20:44:28.452284+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25861,19 +25861,19 @@ const APROVACOES_AUTO = {
  },
  "satoreotide-tetraxetan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528568+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:29.472283+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528568+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:29.472283+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:26.681860+00:00",
+   "verificadoEm": "2026-11-18T20:44:29.472160+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25894,19 +25894,19 @@ const APROVACOES_AUTO = {
  },
  "satoreotide-trizoxetan": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528613+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:31.398456+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528613+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:31.398456+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:40.173312+00:00",
+   "verificadoEm": "2026-11-18T20:44:31.398345+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25928,19 +25928,19 @@ const APROVACOES_AUTO = {
  },
  "troriluzole": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528650+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:32.422529+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528650+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:32.422529+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:36.279481+00:00",
+   "verificadoEm": "2026-11-18T20:44:32.422414+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25963,19 +25963,19 @@ const APROVACOES_AUTO = {
  },
  "mibenratide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:44.528695+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:33.487230+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:44.528695+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:33.487230+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:41.639404+00:00",
+   "verificadoEm": "2026-11-18T20:44:33.487115+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -25996,19 +25996,19 @@ const APROVACOES_AUTO = {
  },
  "ruxotemitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:09:14.770092+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:33.979300+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:55.421089+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:33.979300+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:55.420880+00:00",
+   "verificadoEm": "2026-11-18T20:44:33.979174+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26029,19 +26029,19 @@ const APROVACOES_AUTO = {
  },
  "brimapitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:55.421223+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:35.033763+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:55.421223+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:35.033763+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:31.651193+00:00",
+   "verificadoEm": "2026-11-18T20:44:35.033616+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26067,7 +26067,7 @@ const APROVACOES_AUTO = {
     "Anktiva"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:59:55.421336+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:36.503860+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2026-02-16",
@@ -26076,17 +26076,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/anktiva"
   },
-  "emaVerificadoEm": "2026-11-18T19:59:55.421336+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:36.503860+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:43.294913+00:00",
+   "verificadoEm": "2026-11-18T20:44:36.503735+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26110,19 +26110,19 @@ const APROVACOES_AUTO = {
  },
  "anfibatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:55.421430+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:37.071487+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:55.421430+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:37.071487+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:37.569851+00:00",
+   "verificadoEm": "2026-11-18T20:44:37.071358+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26149,7 +26149,7 @@ const APROVACOES_AUTO = {
     "Hepcludex"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T19:59:55.421506+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:38.643184+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2020-07-31",
@@ -26158,17 +26158,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/hepcludex"
   },
-  "emaVerificadoEm": "2026-11-18T19:59:55.421506+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:38.643184+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:46.248139+00:00",
+   "verificadoEm": "2026-11-18T20:44:38.643026+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26192,19 +26192,19 @@ const APROVACOES_AUTO = {
  },
  "dalazatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T19:59:55.421583+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:39.132633+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T19:59:55.421583+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:39.132633+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:39.651105+00:00",
+   "verificadoEm": "2026-11-18T20:44:39.132498+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26225,19 +26225,19 @@ const APROVACOES_AUTO = {
  },
  "onvitrelin-ucalontide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:09:20.924098+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:40.165949+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.505761+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:40.165949+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:19.505570+00:00",
+   "verificadoEm": "2026-11-18T20:44:40.165826+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26258,19 +26258,19 @@ const APROVACOES_AUTO = {
  },
  "nangibotide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.505859+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:41.408671+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.505859+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:41.408671+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:45.912904+00:00",
+   "verificadoEm": "2026-11-18T20:44:41.408521+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26298,7 +26298,7 @@ const APROVACOES_AUTO = {
     "Ngenla"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:00:19.505953+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:43.352945+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2022-02-14",
@@ -26307,17 +26307,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ngenla"
   },
-  "emaVerificadoEm": "2026-11-18T20:00:19.505953+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:43.352945+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:59:54.983626+00:00",
+   "verificadoEm": "2026-11-18T20:44:43.352763+00:00",
    "parcial": false,
    "registros": [
     {
@@ -26353,19 +26353,19 @@ const APROVACOES_AUTO = {
  },
  "efmitermant": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506095+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:44.092605+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506095+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:44.092605+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:06.619677+00:00",
+   "verificadoEm": "2026-11-18T20:44:44.092488+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26386,19 +26386,19 @@ const APROVACOES_AUTO = {
  },
  "solnatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506191+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:45.344269+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506191+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:45.344269+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:53.199812+00:00",
+   "verificadoEm": "2026-11-18T20:44:45.344147+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26420,19 +26420,19 @@ const APROVACOES_AUTO = {
  },
  "taldefgrobep": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506261+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:46.714010+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506261+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:46.714010+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:59.068410+00:00",
+   "verificadoEm": "2026-11-18T20:44:46.713899+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26455,19 +26455,19 @@ const APROVACOES_AUTO = {
  },
  "aclerastide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506320+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:47.416587+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506320+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:47.416587+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:58.523154+00:00",
+   "verificadoEm": "2026-11-18T20:44:47.416474+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26489,19 +26489,19 @@ const APROVACOES_AUTO = {
  },
  "avexitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506389+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:47.974110+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506389+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:47.974110+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:00.082677+00:00",
+   "verificadoEm": "2026-11-18T20:44:47.973987+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26525,19 +26525,19 @@ const APROVACOES_AUTO = {
  },
  "penetratin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506456+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:49.433270+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506456+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:49.433270+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:56.280308+00:00",
+   "verificadoEm": "2026-11-18T20:44:49.433151+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26558,19 +26558,19 @@ const APROVACOES_AUTO = {
  },
  "gi-heptapeptide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506539+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:49.961443+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506539+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:49.961443+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:00.709310+00:00",
+   "verificadoEm": "2026-11-18T20:44:49.961285+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26591,19 +26591,19 @@ const APROVACOES_AUTO = {
  },
  "peptide-b27pd": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506614+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:51.318986+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506614+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:51.318986+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:55.787836+00:00",
+   "verificadoEm": "2026-11-18T20:44:51.318880+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26624,19 +26624,19 @@ const APROVACOES_AUTO = {
  },
  "anx-042": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506683+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:51.842828+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506683+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:51.842828+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:01.167213+00:00",
+   "verificadoEm": "2026-11-18T20:44:51.842682+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26658,19 +26658,19 @@ const APROVACOES_AUTO = {
  },
  "glucagon-like-peptide-1": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506758+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:54.052305+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506758+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:54.052305+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:59:59.694267+00:00",
+   "verificadoEm": "2026-11-18T20:44:54.052181+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26699,19 +26699,19 @@ const APROVACOES_AUTO = {
     "Mimrylo"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506837+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:54.052396+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506837+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:54.052396+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:19.348035+00:00",
+   "verificadoEm": "2026-11-18T20:44:53.533165+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26734,19 +26734,19 @@ const APROVACOES_AUTO = {
  },
  "nendratareotide-uzatansine": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:19.506913+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:55.837505+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:19.506913+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:55.837505+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:03.637547+00:00",
+   "verificadoEm": "2026-11-18T20:44:55.837315+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26767,19 +26767,19 @@ const APROVACOES_AUTO = {
  },
  "zelpultide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.958986+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:57.429964+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.958986+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:57.429964+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:23.958772+00:00",
+   "verificadoEm": "2026-11-18T20:44:57.429845+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26802,19 +26802,19 @@ const APROVACOES_AUTO = {
  },
  "bms-686117": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.959092+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:58.689254+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.959092+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:58.689254+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:11.345061+00:00",
+   "verificadoEm": "2026-11-18T20:44:58.689140+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26835,19 +26835,19 @@ const APROVACOES_AUTO = {
  },
  "pegloxenatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.959205+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:44:59.159488+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.959205+00:00",
+  "emaVerificadoEm": "2026-11-18T20:44:59.159488+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:09.566625+00:00",
+   "verificadoEm": "2026-11-18T20:44:59.159374+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26868,19 +26868,19 @@ const APROVACOES_AUTO = {
  },
  "sulanemadlin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.959283+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:00.886736+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.959283+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:00.886736+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:21.670876+00:00",
+   "verificadoEm": "2026-11-18T20:45:00.886616+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26901,19 +26901,19 @@ const APROVACOES_AUTO = {
  },
  "cobitolimod": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.959362+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:01.143516+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.959362+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:01.143516+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:16.986993+00:00",
+   "verificadoEm": "2026-11-18T20:45:01.143402+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26935,19 +26935,19 @@ const APROVACOES_AUTO = {
  },
  "peltopepimut-s": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.959437+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:02.671021+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.959437+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:02.671021+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:15.787933+00:00",
+   "verificadoEm": "2026-11-18T20:45:02.670905+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -26968,19 +26968,19 @@ const APROVACOES_AUTO = {
  },
  "zetomipzomib-maleate": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.959531+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:04.261070+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.959531+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:04.261070+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:11.115605+00:00",
+   "verificadoEm": "2026-11-18T20:45:04.260940+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27001,19 +27001,19 @@ const APROVACOES_AUTO = {
  },
  "bt-5528": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.959624+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:05.034019+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.959624+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:05.034019+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:12.380050+00:00",
+   "verificadoEm": "2026-11-18T20:45:05.033873+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27036,19 +27036,19 @@ const APROVACOES_AUTO = {
  },
  "tindupepimut": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:23.959710+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:07.236794+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:23.959710+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:07.236794+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:23.475386+00:00",
+   "verificadoEm": "2026-11-18T20:45:07.236637+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27069,19 +27069,19 @@ const APROVACOES_AUTO = {
  },
  "colulintide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:36.196892+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:07.236881+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:36.196892+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:07.236881+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:36.196634+00:00",
+   "verificadoEm": "2026-11-18T20:45:06.733472+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27102,19 +27102,19 @@ const APROVACOES_AUTO = {
  },
  "fulipiftide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:36.197006+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:07.236919+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:36.197006+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:07.236919+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:12.801055+00:00",
+   "verificadoEm": "2026-11-18T20:45:06.945137+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27135,19 +27135,19 @@ const APROVACOES_AUTO = {
  },
  "macupatide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:36.197081+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:08.254907+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:36.197081+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:08.254907+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:14.927446+00:00",
+   "verificadoEm": "2026-11-18T20:45:08.254790+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27170,19 +27170,19 @@ const APROVACOES_AUTO = {
  },
  "alm-201": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:36.197176+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:09.283127+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:36.197176+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:09.283127+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:16.336609+00:00",
+   "verificadoEm": "2026-11-18T20:45:09.282966+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27203,19 +27203,19 @@ const APROVACOES_AUTO = {
  },
  "bt-1718": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:54.409354+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:10.836278+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.409354+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:10.836278+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:54.409193+00:00",
+   "verificadoEm": "2026-11-18T20:45:10.836157+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27238,19 +27238,19 @@ const APROVACOES_AUTO = {
  },
  "imcy-0098": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:54.409485+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:11.404934+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.409485+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:11.404934+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:18.479826+00:00",
+   "verificadoEm": "2026-11-18T20:45:11.404814+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27272,19 +27272,19 @@ const APROVACOES_AUTO = {
  },
  "lti-03": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:54.409567+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:12.787375+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.409567+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:12.787375+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:22.457162+00:00",
+   "verificadoEm": "2026-11-18T20:45:12.787237+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27307,19 +27307,19 @@ const APROVACOES_AUTO = {
  },
  "silk-fibroin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:09:55.261962+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:13.293017+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.409650+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:13.293017+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:54.304142+00:00",
+   "verificadoEm": "2026-11-18T20:45:13.292876+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27342,19 +27342,19 @@ const APROVACOES_AUTO = {
  },
  "tifalibep": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:54.505536+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:14.653757+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.505536+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:14.653757+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:54.505385+00:00",
+   "verificadoEm": "2026-11-18T20:45:14.653637+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27375,19 +27375,19 @@ const APROVACOES_AUTO = {
  },
  "g-3215": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:54.505637+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:16.145530+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.505637+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:16.145530+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:32.064286+00:00",
+   "verificadoEm": "2026-11-18T20:45:16.145419+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27409,19 +27409,19 @@ const APROVACOES_AUTO = {
  },
  "rugecitide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:54.505769+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:17.018770+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.505769+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:17.018770+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:45.966728+00:00",
+   "verificadoEm": "2026-11-18T20:45:17.018634+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27442,19 +27442,19 @@ const APROVACOES_AUTO = {
  },
  "medi-7219": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:09:57.765540+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:18.859738+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.505942+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:18.859738+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:52.732861+00:00",
+   "verificadoEm": "2026-11-18T20:45:18.859605+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27475,19 +27475,19 @@ const APROVACOES_AUTO = {
  },
  "bombesin": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:00:54.506040+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:45:19.434994+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:00:54.506040+00:00",
+  "emaVerificadoEm": "2026-11-18T20:45:19.434994+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:36.439697+00:00",
+   "verificadoEm": "2026-11-18T20:45:19.434845+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27509,19 +27509,19 @@ const APROVACOES_AUTO = {
  },
  "18f-fba-a20fmdv2": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427047+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.491905+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427047+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.491905+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:10.426726+00:00",
+   "verificadoEm": "2026-11-18T20:47:45.491774+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27543,19 +27543,19 @@ const APROVACOES_AUTO = {
  },
  "spr-741": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427193+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.491991+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427193+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.491991+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:53.912088+00:00",
+   "verificadoEm": "2026-11-18T20:45:20.467061+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27577,19 +27577,19 @@ const APROVACOES_AUTO = {
  },
  "friulimicin-b": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-16T21:11:59.619804+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492030+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427272+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492030+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:55.559570+00:00",
+   "verificadoEm": "2026-11-18T20:45:21.485014+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27610,19 +27610,19 @@ const APROVACOES_AUTO = {
  },
  "fba-a20fmdv2": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427345+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492057+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427345+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492057+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:37.085591+00:00",
+   "verificadoEm": "2026-11-18T20:45:22.887732+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27644,19 +27644,19 @@ const APROVACOES_AUTO = {
  },
  "gdc-0152": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427433+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492087+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427433+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492087+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:36.958603+00:00",
+   "verificadoEm": "2026-11-18T20:45:23.464983+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27677,19 +27677,19 @@ const APROVACOES_AUTO = {
  },
  "tigapotide-triflutate": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427510+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492116+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427510+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492116+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:54.716003+00:00",
+   "verificadoEm": "2026-11-18T20:45:24.908084+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27710,19 +27710,19 @@ const APROVACOES_AUTO = {
  },
  "mmi-0100": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427586+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492144+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427586+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492144+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:55.473744+00:00",
+   "verificadoEm": "2026-11-18T20:45:25.518053+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27743,19 +27743,19 @@ const APROVACOES_AUTO = {
  },
  "adh-1": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427639+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492169+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427639+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492169+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:55.687604+00:00",
+   "verificadoEm": "2026-11-18T20:45:26.471864+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27776,19 +27776,19 @@ const APROVACOES_AUTO = {
  },
  "px-478": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427723+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492194+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427723+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492194+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:56.150553+00:00",
+   "verificadoEm": "2026-11-18T20:45:28.366580+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27809,19 +27809,19 @@ const APROVACOES_AUTO = {
  },
  "sor-c13": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427793+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492222+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427793+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492222+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:54.933170+00:00",
+   "verificadoEm": "2026-11-18T20:45:28.861534+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27843,19 +27843,19 @@ const APROVACOES_AUTO = {
  },
  "nbi-6024": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427861+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492265+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427861+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492265+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:00:57.246722+00:00",
+   "verificadoEm": "2026-11-18T20:45:30.949799+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27876,19 +27876,19 @@ const APROVACOES_AUTO = {
  },
  "go-203-2c": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427926+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492300+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427926+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492300+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:02.017337+00:00",
+   "verificadoEm": "2026-11-18T20:45:31.473302+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27909,19 +27909,19 @@ const APROVACOES_AUTO = {
  },
  "alfa-caroteno": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.427991+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492347+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.427991+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492347+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:08.893903+00:00",
+   "verificadoEm": "2026-11-18T20:45:33.049186+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27942,19 +27942,19 @@ const APROVACOES_AUTO = {
  },
  "omega-9": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428057+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492389+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428057+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492389+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:05.982279+00:00",
+   "verificadoEm": "2026-11-18T20:45:33.450596+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -27975,19 +27975,19 @@ const APROVACOES_AUTO = {
  },
  "acido-oleico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428168+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492428+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428168+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492428+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T20:01:20.251973+00:00",
+   "verificadoEm": "2026-11-18T20:45:40.264685+00:00",
    "parcial": true,
    "registros": [
     {
@@ -28039,19 +28039,19 @@ const APROVACOES_AUTO = {
  },
  "acido-malico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428271+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492476+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428271+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492476+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T20:01:09.979874+00:00",
+   "verificadoEm": "2026-11-18T20:45:36.640240+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 2
@@ -28075,19 +28075,19 @@ const APROVACOES_AUTO = {
  },
  "acido-lactico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428346+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492513+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428346+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492513+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T20:01:15.228964+00:00",
+   "verificadoEm": "2026-11-18T20:45:41.766872+00:00",
    "parcial": true,
    "registros": [],
    "totalCorrespondenciasExatas": 60
@@ -28111,19 +28111,19 @@ const APROVACOES_AUTO = {
  },
  "carotenoide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428417+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492547+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428417+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492547+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:12.093928+00:00",
+   "verificadoEm": "2026-11-18T20:45:37.993976+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28147,12 +28147,12 @@ const APROVACOES_AUTO = {
  },
  "benfotiamina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428489+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492580+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428489+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492580+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 6,
    "registros": [
     {
@@ -28190,7 +28190,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:11.788804+00:00",
+   "verificadoEm": "2026-11-18T20:45:38.533319+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28212,19 +28212,19 @@ const APROVACOES_AUTO = {
  },
  "crocetina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428561+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492621+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428561+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492621+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:13.277434+00:00",
+   "verificadoEm": "2026-11-18T20:45:39.818959+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28245,19 +28245,19 @@ const APROVACOES_AUTO = {
  },
  "flavonoide": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428623+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492654+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428623+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492654+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:15.812086+00:00",
+   "verificadoEm": "2026-11-18T20:45:40.152288+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28281,19 +28281,19 @@ const APROVACOES_AUTO = {
  },
  "molibdenio": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428693+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492689+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428693+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492689+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T20:01:22.741632+00:00",
+   "verificadoEm": "2026-11-18T20:45:43.179528+00:00",
    "parcial": false,
    "registros": [
     {
@@ -28333,12 +28333,12 @@ const APROVACOES_AUTO = {
  },
  "diosmina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428762+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492738+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428762+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492738+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 2,
    "registros": [
     {
@@ -28358,7 +28358,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:18.854348+00:00",
+   "verificadoEm": "2026-11-18T20:45:42.219974+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28382,19 +28382,19 @@ const APROVACOES_AUTO = {
  },
  "inositol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428829+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492773+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428829+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492773+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T20:01:24.940723+00:00",
+   "verificadoEm": "2026-11-18T20:45:48.291601+00:00",
    "parcial": true,
    "registros": [
     {
@@ -28449,19 +28449,19 @@ const APROVACOES_AUTO = {
  },
  "acido-lipoico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428910+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492816+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428910+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492816+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:15.540813+00:00",
+   "verificadoEm": "2026-11-18T20:45:44.070309+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28485,19 +28485,19 @@ const APROVACOES_AUTO = {
  },
  "acido-linoleico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.428983+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492851+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.428983+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492851+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "consulta_parcial",
-   "verificadoEm": "2026-11-18T20:01:25.464418+00:00",
+   "verificadoEm": "2026-11-18T20:45:51.389442+00:00",
    "parcial": true,
    "registros": [
     {
@@ -28556,19 +28556,19 @@ const APROVACOES_AUTO = {
     "Nouress"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429057+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492895+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429057+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492895+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:21.856554+00:00",
+   "verificadoEm": "2026-11-18T20:45:48.608249+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28592,19 +28592,19 @@ const APROVACOES_AUTO = {
  },
  "hesperidina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429145+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492932+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429145+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492932+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T20:01:24.056017+00:00",
+   "verificadoEm": "2026-11-18T20:45:51.073406+00:00",
    "parcial": false,
    "registros": [
     {
@@ -28653,19 +28653,19 @@ const APROVACOES_AUTO = {
  },
  "crisina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429222+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.492972+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429222+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.492972+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:20.431885+00:00",
+   "verificadoEm": "2026-11-18T20:45:51.069294+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28686,19 +28686,19 @@ const APROVACOES_AUTO = {
  },
  "flavan-3-ol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429289+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493005+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429289+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493005+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:22.922298+00:00",
+   "verificadoEm": "2026-11-18T20:45:50.544222+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28720,19 +28720,19 @@ const APROVACOES_AUTO = {
  },
  "clorofila": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429358+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493038+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429358+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493038+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T20:01:23.361452+00:00",
+   "verificadoEm": "2026-11-18T20:45:53.486142+00:00",
    "parcial": false,
    "registros": [
     {
@@ -28771,7 +28771,7 @@ const APROVACOES_AUTO = {
     "Dexamethasone Sodium Phosphate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429433+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493074+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "1998-02-04",
@@ -28784,17 +28784,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spinraza"
   },
-  "emaVerificadoEm": "2026-11-18T20:03:10.429433+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493074+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T20:01:25.351145+00:00",
+   "verificadoEm": "2026-11-18T20:45:55.501515+00:00",
    "parcial": false,
    "registros": [
     {
@@ -28825,19 +28825,19 @@ const APROVACOES_AUTO = {
  },
  "acido-estearico": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429516+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493116+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429516+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493116+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T20:01:35.001868+00:00",
+   "verificadoEm": "2026-11-18T20:45:54.904063+00:00",
    "parcial": false,
    "registros": [
     {
@@ -28877,19 +28877,19 @@ const APROVACOES_AUTO = {
  },
  "gamacaroteno": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429591+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493153+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429591+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493153+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:25.320966+00:00",
+   "verificadoEm": "2026-11-18T20:46:00.206390+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28910,19 +28910,19 @@ const APROVACOES_AUTO = {
  },
  "selenometionina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429663+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493187+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429663+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493187+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:29.374903+00:00",
+   "verificadoEm": "2026-11-18T20:45:54.585578+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28945,19 +28945,19 @@ const APROVACOES_AUTO = {
  },
  "pantenol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429738+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493219+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429738+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493219+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:49.798250+00:00",
+   "verificadoEm": "2026-11-18T20:45:59.967355+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -28980,19 +28980,19 @@ const APROVACOES_AUTO = {
  },
  "tabimorelina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429809+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493254+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429809+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493254+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:47.923828+00:00",
+   "verificadoEm": "2026-11-18T20:46:13.555510+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29013,19 +29013,19 @@ const APROVACOES_AUTO = {
  },
  "somatrem": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429858+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493289+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429858+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493289+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T20:01:38.190318+00:00",
+   "verificadoEm": "2026-11-18T20:46:09.535173+00:00",
    "parcial": false,
    "registros": [
     {
@@ -29071,12 +29071,12 @@ const APROVACOES_AUTO = {
  },
  "sotatercepte": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.429949+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493337+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.429949+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493337+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -29090,7 +29090,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:01.952022+00:00",
+   "verificadoEm": "2026-11-18T20:46:02.703203+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29111,19 +29111,19 @@ const APROVACOES_AUTO = {
  },
  "tesofensina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430026+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493371+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430026+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493371+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:58.991791+00:00",
+   "verificadoEm": "2026-11-18T20:46:03.481734+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29144,19 +29144,19 @@ const APROVACOES_AUTO = {
  },
  "retalamina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430101+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493401+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430101+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493401+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:59.852321+00:00",
+   "verificadoEm": "2026-11-18T20:46:15.202090+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29177,19 +29177,19 @@ const APROVACOES_AUTO = {
  },
  "cortistatina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430167+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493431+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430167+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493431+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:58.223791+00:00",
+   "verificadoEm": "2026-11-18T20:46:07.445930+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29210,19 +29210,19 @@ const APROVACOES_AUTO = {
  },
  "pacap": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430198+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493465+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430198+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493465+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:11.935502+00:00",
+   "verificadoEm": "2026-11-18T20:46:01.675533+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29244,19 +29244,19 @@ const APROVACOES_AUTO = {
  },
  "apelina": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493496+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430224+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493496+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:58.111388+00:00",
+   "verificadoEm": "2026-11-18T20:46:06.668147+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29277,19 +29277,19 @@ const APROVACOES_AUTO = {
  },
  "irisina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430246+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493527+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430246+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493527+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:46.495524+00:00",
+   "verificadoEm": "2026-11-18T20:46:16.451545+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29310,19 +29310,19 @@ const APROVACOES_AUTO = {
  },
  "adiponectina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430269+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493558+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430269+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493558+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:48.822423+00:00",
+   "verificadoEm": "2026-11-18T20:46:04.878049+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29343,19 +29343,19 @@ const APROVACOES_AUTO = {
  },
  "bradicinina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430290+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493590+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430290+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493590+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:56.358944+00:00",
+   "verificadoEm": "2026-11-18T20:46:18.877760+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29376,19 +29376,19 @@ const APROVACOES_AUTO = {
  },
  "tiroliberina-trh": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430314+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493624+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430314+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493624+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:52.704972+00:00",
+   "verificadoEm": "2026-11-18T20:46:22.642753+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29414,7 +29414,7 @@ const APROVACOES_AUTO = {
     "Rezdiffra"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430337+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493657+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2025-08-18",
@@ -29423,17 +29423,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rezdiffra"
   },
-  "emaVerificadoEm": "2026-11-18T20:03:10.430337+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493657+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:53.072070+00:00",
+   "verificadoEm": "2026-11-18T20:46:14.038537+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29457,19 +29457,19 @@ const APROVACOES_AUTO = {
  },
  "danuglipron": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430358+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493690+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430358+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493690+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:14.798835+00:00",
+   "verificadoEm": "2026-11-18T20:46:30.144525+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29496,7 +29496,7 @@ const APROVACOES_AUTO = {
     "Onswik"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430383+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493722+00:00",
   "ema": {
    "situacao": "retirado",
    "desde": null,
@@ -29505,17 +29505,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/onswik"
   },
-  "emaVerificadoEm": "2026-11-18T20:03:10.430383+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493722+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:14.798254+00:00",
+   "verificadoEm": "2026-11-18T20:46:17.814456+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29537,19 +29537,19 @@ const APROVACOES_AUTO = {
  },
  "obicetrapibe": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430404+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493754+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430404+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493754+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:01:59.427073+00:00",
+   "verificadoEm": "2026-11-18T20:46:40.062198+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29570,19 +29570,19 @@ const APROVACOES_AUTO = {
  },
  "selonsertib": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430424+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493784+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430424+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493784+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:19.724794+00:00",
+   "verificadoEm": "2026-11-18T20:46:36.757604+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29605,19 +29605,19 @@ const APROVACOES_AUTO = {
  },
  "lanifibranor": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430446+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493826+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430446+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493826+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:00.220596+00:00",
+   "verificadoEm": "2026-11-18T20:46:20.347461+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29640,19 +29640,19 @@ const APROVACOES_AUTO = {
  },
  "inclisirana": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430467+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493857+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430467+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493857+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:03.837632+00:00",
+   "verificadoEm": "2026-11-18T20:46:19.713770+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29673,19 +29673,19 @@ const APROVACOES_AUTO = {
  },
  "zilebesirana": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430487+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493889+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430487+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493889+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:04.621354+00:00",
+   "verificadoEm": "2026-11-18T20:46:33.921631+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29706,12 +29706,12 @@ const APROVACOES_AUTO = {
  },
  "teprotumumabe": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430507+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493919+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430507+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493919+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -29725,7 +29725,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:15.382152+00:00",
+   "verificadoEm": "2026-11-18T20:46:35.631158+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -29751,7 +29751,7 @@ const APROVACOES_AUTO = {
     "Nplate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430528+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493953+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2009-02-04",
@@ -29760,10 +29760,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nplate"
   },
-  "emaVerificadoEm": "2026-11-18T20:03:10.430528+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493953+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -29777,7 +29777,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T20:02:10.713047+00:00",
+   "verificadoEm": "2026-11-18T20:46:37.905181+00:00",
    "parcial": false,
    "registros": [
     {
@@ -29823,7 +29823,7 @@ const APROVACOES_AUTO = {
     "Nypozi"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430556+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.493992+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2002-08-22",
@@ -29836,10 +29836,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nylaspeg"
   },
-  "emaVerificadoEm": "2026-11-18T20:03:10.430556+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.493992+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 6,
    "registros": [
     {
@@ -29877,7 +29877,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T20:02:19.428574+00:00",
+   "verificadoEm": "2026-11-18T20:46:38.697940+00:00",
    "parcial": true,
    "registros": [
     {
@@ -29937,7 +29937,7 @@ const APROVACOES_AUTO = {
     "Palynziq"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430579+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494045+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2019-05-03",
@@ -29946,10 +29946,10 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/palynziq"
   },
-  "emaVerificadoEm": "2026-11-18T20:03:10.430579+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494045+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -29963,7 +29963,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T20:02:18.350960+00:00",
+   "verificadoEm": "2026-11-18T20:46:36.445353+00:00",
    "parcial": false,
    "registros": [
     {
@@ -30010,7 +30010,7 @@ const APROVACOES_AUTO = {
     "Ganirelix Acetate"
    ]
   },
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430598+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494086+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2000-05-16",
@@ -30020,17 +30020,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ganirelix-gedeon-richter"
   },
-  "emaVerificadoEm": "2026-11-18T20:03:10.430598+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494086+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:17.723145+00:00",
+   "verificadoEm": "2026-11-18T20:46:34.696098+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30053,7 +30053,7 @@ const APROVACOES_AUTO = {
  },
  "detemir": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430619+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494117+00:00",
   "ema": {
    "situacao": "autorizado",
    "desde": "2004-06-01",
@@ -30062,17 +30062,17 @@ const APROVACOES_AUTO = {
    ],
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/levemir"
   },
-  "emaVerificadoEm": "2026-11-18T20:03:10.430619+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494117+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:18.332145+00:00",
+   "verificadoEm": "2026-11-18T20:46:33.416412+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30096,19 +30096,19 @@ const APROVACOES_AUTO = {
  },
  "glulisina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430641+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494150+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430641+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494150+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:13.090668+00:00",
+   "verificadoEm": "2026-11-18T20:46:39.023744+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30129,19 +30129,19 @@ const APROVACOES_AUTO = {
  },
  "edotreotida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430663+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494181+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430663+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494181+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:23.323223+00:00",
+   "verificadoEm": "2026-11-18T20:46:41.832882+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30162,19 +30162,19 @@ const APROVACOES_AUTO = {
  },
  "imetelstate": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430683+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494212+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430683+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494212+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:19.419395+00:00",
+   "verificadoEm": "2026-11-18T20:46:42.612082+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30195,12 +30195,12 @@ const APROVACOES_AUTO = {
  },
  "bortezomibe": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430704+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494242+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430704+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494242+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 23,
    "registros": [
     {
@@ -30238,7 +30238,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:18.040452+00:00",
+   "verificadoEm": "2026-11-18T20:46:42.857552+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30259,12 +30259,12 @@ const APROVACOES_AUTO = {
  },
  "carfilzomibe": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430724+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494279+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430724+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494279+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 8,
    "registros": [
     {
@@ -30302,7 +30302,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:21.129400+00:00",
+   "verificadoEm": "2026-11-18T20:46:55.848340+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30323,12 +30323,12 @@ const APROVACOES_AUTO = {
  },
  "ciclosporina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430744+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494318+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430744+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494318+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 5,
    "registros": [
     {
@@ -30366,7 +30366,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:20.956519+00:00",
+   "verificadoEm": "2026-11-18T20:46:47.111759+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30390,12 +30390,12 @@ const APROVACOES_AUTO = {
  },
  "vancomicina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430765+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494366+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430765+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494366+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -30421,7 +30421,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:21.384178+00:00",
+   "verificadoEm": "2026-11-18T20:46:53.923945+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30445,12 +30445,12 @@ const APROVACOES_AUTO = {
  },
  "teicoplanina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430785+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494403+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430785+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494403+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 9,
    "registros": [
     {
@@ -30488,7 +30488,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:24.806062+00:00",
+   "verificadoEm": "2026-11-18T20:46:54.991926+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30510,12 +30510,12 @@ const APROVACOES_AUTO = {
  },
  "daptomicina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430806+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494443+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430806+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494443+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 9,
    "registros": [
     {
@@ -30553,7 +30553,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:27.673788+00:00",
+   "verificadoEm": "2026-11-18T20:46:43.931186+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30577,19 +30577,19 @@ const APROVACOES_AUTO = {
  },
  "polimixina-b": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:10.430828+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494480+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:10.430828+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494480+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:28.353044+00:00",
+   "verificadoEm": "2026-11-18T20:46:49.409160+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30613,19 +30613,19 @@ const APROVACOES_AUTO = {
  },
  "colistina": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494507+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965080+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494507+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:20.964799+00:00",
+   "verificadoEm": "2026-11-18T20:47:03.409173+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30648,12 +30648,12 @@ const APROVACOES_AUTO = {
  },
  "modafinila": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965176+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494531+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965176+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494531+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -30667,7 +30667,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:30.327189+00:00",
+   "verificadoEm": "2026-11-18T20:47:00.173173+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30688,12 +30688,12 @@ const APROVACOES_AUTO = {
  },
  "armodafinila": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965237+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494556+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965237+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494556+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 1,
    "registros": [
     {
@@ -30707,7 +30707,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:31.139875+00:00",
+   "verificadoEm": "2026-11-18T20:47:00.794813+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30728,19 +30728,19 @@ const APROVACOES_AUTO = {
  },
  "pramiracetam": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965271+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494583+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965271+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494583+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:31.902821+00:00",
+   "verificadoEm": "2026-11-18T20:46:59.406041+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30762,19 +30762,19 @@ const APROVACOES_AUTO = {
  },
  "oxiracetam": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965297+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494607+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965297+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494607+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:33.300414+00:00",
+   "verificadoEm": "2026-11-18T20:47:04.132313+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30796,19 +30796,19 @@ const APROVACOES_AUTO = {
  },
  "fasoracetam": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965320+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494633+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965320+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494633+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:33.525839+00:00",
+   "verificadoEm": "2026-11-18T20:47:10.221262+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30829,19 +30829,19 @@ const APROVACOES_AUTO = {
  },
  "fenilpiracetam": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965352+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494657+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965352+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494657+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:35.603325+00:00",
+   "verificadoEm": "2026-11-18T20:47:06.750053+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30862,19 +30862,19 @@ const APROVACOES_AUTO = {
  },
  "huperzina-a": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965393+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494681+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965393+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494681+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:35.056379+00:00",
+   "verificadoEm": "2026-11-18T20:47:01.971819+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30895,19 +30895,19 @@ const APROVACOES_AUTO = {
  },
  "alfa-gpc": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965419+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494705+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965419+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494705+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:41.696222+00:00",
+   "verificadoEm": "2026-11-18T20:47:06.124920+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30928,12 +30928,12 @@ const APROVACOES_AUTO = {
  },
  "fosfatidilserina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965442+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494729+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965442+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494729+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -30953,7 +30953,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:37.880298+00:00",
+   "verificadoEm": "2026-11-18T20:47:12.897750+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -30974,19 +30974,19 @@ const APROVACOES_AUTO = {
  },
  "uridina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965465+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494756+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965465+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494756+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:38.290228+00:00",
+   "verificadoEm": "2026-11-18T20:47:18.002086+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31007,19 +31007,19 @@ const APROVACOES_AUTO = {
  },
  "bacopa-monnieri": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:20.965491+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:47:45.494783+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:20.965491+00:00",
+  "emaVerificadoEm": "2026-11-18T20:47:45.494783+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:03.495382+00:00",
+   "verificadoEm": "2026-11-18T20:47:04.521792+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31042,19 +31042,19 @@ const APROVACOES_AUTO = {
  },
  "cogumelo-juba-de-leao-hericium-erinaceus": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:06.893000+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201273+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.893844+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:54.201076+00:00",
+   "verificadoEm": "2026-11-18T20:48:06.893702+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31075,19 +31075,19 @@ const APROVACOES_AUTO = {
  },
  "bdnf": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:54.201367+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:06.893937+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201367+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.893937+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:04.166992+00:00",
+   "verificadoEm": "2026-11-18T20:47:12.133982+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31109,19 +31109,19 @@ const APROVACOES_AUTO = {
  },
  "ngf": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:06.893984+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201423+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.893984+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:23.999535+00:00",
+   "verificadoEm": "2026-11-18T20:47:11.087850+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31145,19 +31145,19 @@ const APROVACOES_AUTO = {
  },
  "ubiquinol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:54.201466+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:06.894020+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201466+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.894020+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:21.901009+00:00",
+   "verificadoEm": "2026-11-18T20:47:15.133428+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31180,19 +31180,19 @@ const APROVACOES_AUTO = {
  },
  "mitoquinona-mitoq": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:06.894057+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201502+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.894057+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:14.858605+00:00",
+   "verificadoEm": "2026-11-18T20:47:13.153968+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31213,19 +31213,19 @@ const APROVACOES_AUTO = {
  },
  "visomitina-skq1": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:54.201531+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:06.894093+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201531+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.894093+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:57.051637+00:00",
+   "verificadoEm": "2026-11-18T20:47:14.584842+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31246,19 +31246,19 @@ const APROVACOES_AUTO = {
  },
  "idebenona": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:06.894125+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201560+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.894125+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:15.808252+00:00",
+   "verificadoEm": "2026-11-18T20:47:16.966105+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31279,12 +31279,12 @@ const APROVACOES_AUTO = {
  },
  "dasatinibe": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:06.894156+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201586+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.894156+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 3,
    "registros": [
     {
@@ -31310,7 +31310,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:17.449639+00:00",
+   "verificadoEm": "2026-11-18T20:47:19.963909+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31331,19 +31331,19 @@ const APROVACOES_AUTO = {
  },
  "boldenona": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:03:54.201610+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:06.894195+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:03:54.201610+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:06.894195+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:02:57.774304+00:00",
+   "verificadoEm": "2026-11-18T20:47:17.708860+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31364,19 +31364,19 @@ const APROVACOES_AUTO = {
  },
  "gonadotrofina-menopausica-hmg": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:21.003000+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:02.600016+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:21.003890+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:04:02.599830+00:00",
+   "verificadoEm": "2026-11-18T20:48:21.003773+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31397,12 +31397,12 @@ const APROVACOES_AUTO = {
  },
  "tadalafila": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:02.600090+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:21.003968+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:02.600090+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:21.003968+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 26,
    "registros": [
     {
@@ -31440,7 +31440,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:08.462645+00:00",
+   "verificadoEm": "2026-11-18T20:47:18.760315+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31461,19 +31461,19 @@ const APROVACOES_AUTO = {
  },
  "sildenafila": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:02.600207+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:21.004017+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:02.600207+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:21.004017+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:25.554251+00:00",
+   "verificadoEm": "2026-11-18T20:47:22.153127+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31494,19 +31494,19 @@ const APROVACOES_AUTO = {
  },
  "niacinamida": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:02.600275+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:21.004047+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:02.600275+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:21.004047+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:22.698746+00:00",
+   "verificadoEm": "2026-11-18T20:47:23.308433+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31527,12 +31527,12 @@ const APROVACOES_AUTO = {
  },
  "acido-azelaico": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:26.843000+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:14.642219+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:26.843387+00:00",
   "anvisa": {
    "situacao": "autorizado",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 3,
    "registros": [
     {
@@ -31558,7 +31558,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:04:14.642037+00:00",
+   "verificadoEm": "2026-11-18T20:48:26.843255+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31581,19 +31581,19 @@ const APROVACOES_AUTO = {
  },
  "acido-glicolico": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:27.871000+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:16.276549+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:27.871060+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:04:16.276401+00:00",
+   "verificadoEm": "2026-11-18T20:48:27.870929+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31614,12 +31614,12 @@ const APROVACOES_AUTO = {
  },
  "acido-salicilico": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:28.730000+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:20.184013+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:28.730140+00:00",
   "anvisa": {
    "situacao": "sem_registro_ativo",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [
     {
@@ -31645,7 +31645,7 @@ const APROVACOES_AUTO = {
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:04:20.183844+00:00",
+   "verificadoEm": "2026-11-18T20:48:28.730018+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31669,19 +31669,19 @@ const APROVACOES_AUTO = {
  },
  "bakuchiol": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:20.184104+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:28.730238+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:20.184104+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:28.730238+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:19.146550+00:00",
+   "verificadoEm": "2026-11-18T20:47:28.313634+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31703,19 +31703,19 @@ const APROVACOES_AUTO = {
  },
  "ectoina": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:29.724000+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:22.992974+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:29.724686+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:04:22.992805+00:00",
+   "verificadoEm": "2026-11-18T20:48:29.724566+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31736,19 +31736,19 @@ const APROVACOES_AUTO = {
  },
  "lutecio-177-dotatato": {
   "fda": null,
-  "fdaVerificadoEm": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373000+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:24.739951+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:30.373069+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:04:24.739794+00:00",
+   "verificadoEm": "2026-11-18T20:48:30.372960+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31769,19 +31769,19 @@ const APROVACOES_AUTO = {
  },
  "cicloprolilglicina-cpg": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:24.740016+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373138+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:24.740016+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:30.373138+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:25.912038+00:00",
+   "verificadoEm": "2026-11-18T20:47:30.126402+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31802,19 +31802,19 @@ const APROVACOES_AUTO = {
  },
  "anserina": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:24.740079+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373178+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:24.740079+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:30.373178+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:27.968938+00:00",
+   "verificadoEm": "2026-11-18T20:47:32.211113+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31835,19 +31835,19 @@ const APROVACOES_AUTO = {
  },
  "ss-20": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:24.740158+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373209+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:24.740158+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:30.373209+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:28.517492+00:00",
+   "verificadoEm": "2026-11-18T20:47:32.488907+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31868,19 +31868,19 @@ const APROVACOES_AUTO = {
  },
  "pe-22-28": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:24.740203+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373236+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:24.740203+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:30.373236+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:29.261091+00:00",
+   "verificadoEm": "2026-11-18T20:47:33.597944+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31901,19 +31901,19 @@ const APROVACOES_AUTO = {
  },
  "na-semax": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:24.740240+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373257+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:24.740240+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:30.373257+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:30.311157+00:00",
+   "verificadoEm": "2026-11-18T20:47:35.291657+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31934,19 +31934,19 @@ const APROVACOES_AUTO = {
  },
  "des-1-3-igf-1": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:24.740268+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373279+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:24.740268+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:30.373279+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:32.538599+00:00",
+   "verificadoEm": "2026-11-18T20:47:36.941908+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31967,19 +31967,19 @@ const APROVACOES_AUTO = {
  },
  "adamax": {
   "fda": null,
-  "fdaVerificadoEm": "2026-11-18T20:04:24.740292+00:00",
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373298+00:00",
   "ema": null,
-  "emaVerificadoEm": "2026-11-18T20:04:24.740292+00:00",
+  "emaVerificadoEm": "2026-11-18T20:48:30.373298+00:00",
   "anvisa": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T19:40:40.685296+00:00",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
    "registrosAtivos": 0,
    "registros": [],
    "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
   },
   "canada": {
    "situacao": "sem_registro",
-   "verificadoEm": "2026-11-18T20:03:31.080796+00:00",
+   "verificadoEm": "2026-11-18T20:47:38.004502+00:00",
    "parcial": false,
    "registros": [],
    "totalCorrespondenciasExatas": 0
@@ -31995,6 +31995,42 @@ const APROVACOES_AUTO = {
     "fase1": 0,
     "fase2": 0,
     "fase3": 0
+   }
+  }
+ },
+ "acido-graxo": {
+  "fda": null,
+  "fdaVerificadoEm": "2026-11-18T20:48:30.373336+00:00",
+  "ema": null,
+  "emaVerificadoEm": "2026-11-18T20:48:30.373336+00:00",
+  "anvisa": {
+   "situacao": "sem_registro",
+   "verificadoEm": "2026-11-18T20:32:33.759778+00:00",
+   "registrosAtivos": 0,
+   "registros": [],
+   "correspondencia": "ingrediente exato; registros combinados não são associados automaticamente"
+  },
+  "canada": {
+   "situacao": "consulta_parcial",
+   "verificadoEm": "2026-11-18T20:47:40.173723+00:00",
+   "parcial": false,
+   "registros": [],
+   "totalCorrespondenciasExatas": 3
+  },
+  "estudos": {
+   "ensaios": 6437,
+   "fase1": 671,
+   "fase2": 1391,
+   "fase3": 985,
+   "recrutando": 391,
+   "ultimaAtualizacao": "2026-11-18",
+   "foco": {
+    "fase1": 3,
+    "inicio1": "2015-01-22",
+    "fase2": 15,
+    "inicio2": "2015-03",
+    "fase3": 11,
+    "inicio3": "2016-03"
    }
   }
  }

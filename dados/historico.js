@@ -2,6 +2,21 @@
 const HISTORICO_AUTO = [
  {
   "data": "2026-11-18",
+  "slug": "timosina-alfa-1",
+  "nome": "Timosina alfa-1",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-18",
+  "slug": "acarbose",
+  "nome": "Acarbose",
+  "tipo": "conteudo",
+  "texto": "Bula da FDA atualizada (2026-08-11 → 2026-11-10). Reveja riscos e status.",
+  "fato": "2026-11-10"
+ },
+ {
+  "data": "2026-11-18",
   "slug": "semaglutida",
   "nome": "Semaglutida",
   "tipo": "seguranca",
@@ -2261,19 +2276,5 @@ const HISTORICO_AUTO = [
   "nome": "Estrona (E1)",
   "tipo": "seguranca",
   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (0 → 64 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-16",
-  "slug": "pregnenolona",
-  "nome": "Pregnenolona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 0 → 48; fase 1/2/3 0/0/0 → 9/24/2; recrutando 0 → 5; registro mais recente 2026-11-12."
- },
- {
-  "data": "2026-11-16",
-  "slug": "pregnenolona",
-  "nome": "Pregnenolona",
-  "tipo": "conteudo",
-  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
  }
 ];

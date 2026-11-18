@@ -33,7 +33,6 @@ Gerado em 2026-11-18. Ativos de rótulos de suplementos no mercado dos EUA que a
 | Cupric ascorbate | Suplemento e metabólito | 6803 |
 | Linolenic acid | Suplemento e metabólito | 6218 |
 | Alpha-Linolenic Acid | Suplemento e metabólito | 5876 |
-| Fatty acids | Suplemento e metabólito | 5829 |
 | DHA | Suplemento e metabólito | 5697 |
 | Omega-3 fatty acids | Suplemento e metabólito | 5610 |
 | L-Leucine | Suplemento e metabólito | 5473 |
