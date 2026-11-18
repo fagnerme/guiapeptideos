@@ -1082,6 +1082,7 @@ header .aviso,header p.aviso{display:block;max-width:44rem;margin:.9rem auto;pad
 /* A busca ocupa a linha toda; os seletores têm largura limitada para opções longas não espremerem os demais campos. */
 .filtros #busca{flex:1 1 100%;min-width:0}
 .filtros select{flex:0 1 16rem;min-width:0;max-width:100%;text-overflow:ellipsis}
+@media (max-width:640px){.filtros #busca,.filtros select{flex:0 0 auto}}
 
 /* Calculadoras em abas */
 .calc-abas{position:sticky;top:0;z-index:5;display:flex;gap:.4rem;margin:.6rem 0;padding:.45rem 0;background:var(--bg)}
