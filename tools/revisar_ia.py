@@ -1,4 +1,4 @@
-"""Revisão automática dos textos das fichas por um modelo de IA (Google Gemini, camada gratuita), sem aprovação manual.
+﻿"""Revisão automática dos textos das fichas por um modelo de IA (Google Gemini, camada gratuita), sem aprovação manual.
 
 Uso: python tools/revisar_ia.py [--limite N] [--slug nome-do-item]
 Em cada execução revisa até N itens (padrão 60), priorizando fichas sinalizadas pela coleta, depois as nunca
@@ -140,7 +140,7 @@ def escrever_bloco(registros):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--limite", type=int, default=int(os.environ.get("IA_LIMITE", "60")))
+    ap.add_argument("--limite", type=int, default=int(os.environ.get("IA_LIMITE", "18")))
     ap.add_argument("--slug", default="")
     args = ap.parse_args()
     token = os.environ.get("GEMINI_API_KEY") or os.environ.get("IA_API_KEY")
