@@ -11,10 +11,14 @@ on:
       - "tools/atualizar.py"
       - "tools/atualizar_chembl.py"
       - "tools/atualizar_dsld.py"
-      - "tools/revisar_ia.py"
 
 permissions:
   contents: write
+
+# um run por vez: o seguinte espera o anterior terminar, em vez de disputar o commit
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
 
 jobs:
   atualizar:
@@ -38,11 +42,6 @@ jobs:
       - name: Suplementos do DSLD/NIH (relatorio, mercado e fichas novas; valida e desfaz se algo falhar)
         continue-on-error: true
         run: python tools/atualizar_dsld.py --importar --min 300 --limite 10
-      - name: Revisão dos textos por IA (Google Gemini; travas de segurança e registro em dados/revisao-ia.json)
-        continue-on-error: true
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python tools/revisar_ia.py
       - name: Gerar cartões, sitemap e service worker
         run: |
           python tools/gerar_cartoes.py "${{ vars.SITE_URL || 'https://fagnerme.github.io/guiapeptideos' }}"
@@ -54,5 +53,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dados js/core.js tools/novos tools/relatorio_dsld.md sitemap.xml robots.txt sw.js cards "*.html" fichas comparar
           git diff --staged --quiet || git commit -m "chore: atualiza dados ao vivo"
-          git pull --rebase --autostash origin main
-          git push
+          # se o main mudou durante o run, os arquivos gerados em conflito ficam com a versão deste run (mais recente)
+          for i in 1 2 3; do
+            git pull --rebase --autostash -X theirs origin main || { git rebase --abort; exit 1; }
+            git push && exit 0
+            sleep 5
+          done
+          exit 1

@@ -1,4 +1,4 @@
-﻿# Guia Educativo de Peptídeos, Hormônios e Suplementos
+# Guia Educativo de Peptídeos, Hormônios e Suplementos
 
 Site estático (HTML, CSS e JavaScript, sem framework) publicado no GitHub Pages: <https://fagnerme.github.io/guiapeptideos>.
 Conteúdo exclusivamente educativo: não é recomendação médica nem sugere doses.
@@ -30,10 +30,9 @@ Conteúdo exclusivamente educativo: não é recomendação médica nem sugere do
 Coleta manual das fontes: `python tools\atualizar.py`, depois `python tools\build.py`.
 Os tokens de API (openFDA, NCBI) devem ficar em segredos do GitHub, nunca no código.
 
-- Revisão semanal dos textos por IA (`tools/revisar_ia.py`, Google Gemini gratuito, secret `GEMINI_API_KEY`): publica sem aprovação humana, com travas (sem doses nem instruções de uso, coerência com aprovações oficiais) e histórico em `dados/revisao-ia.json`. Revisa até 18 itens por semana (a cota gratuita é de 20 por dia), priorizando fichas sinalizadas. Sem o secret, o passo é ignorado.
-
 ## Para fazer
 - Push real para lembretes com o app fechado (servidor Web Push).
+- Revisão dos textos por IA: `tools/revisar_ia.py` está pronto (Google Gemini gratuito, secret `GEMINI_API_KEY`, cerca de 18 itens por rodada pela cota de 20/dia), mas fora do workflow. Para ativar, adicionar um passo `python tools/revisar_ia.py` antes de "Gerar cartões" em `.github/workflows/atualizar.yml`.
 - Preencher os IDs de bloco do AdSense em `js/ads.js`.
 - Revisar textos dos itens adicionados manualmente, conferindo as fontes.
 

@@ -1,4 +1,4 @@
-﻿"""Revisão automática dos textos das fichas por um modelo de IA (Google Gemini, camada gratuita), sem aprovação manual.
+"""Revisão automática dos textos das fichas por um modelo de IA (Google Gemini, camada gratuita), sem aprovação manual.
 
 Uso: python tools/revisar_ia.py [--limite N] [--slug nome-do-item]
 Em cada execução revisa até N itens (padrão 60), priorizando fichas sinalizadas pela coleta, depois as nunca
