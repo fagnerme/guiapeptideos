@@ -1079,3 +1079,6 @@ header .aviso,header p.aviso{display:block;max-width:44rem;margin:.9rem auto;pad
 @media (prefers-color-scheme:dark){:root:not([data-tema="claro"]) header .aviso{background:#3a2c08;color:#ffe9a8;border-color:#b8860b;border-left-color:#f0b429;box-shadow:none}}
 .aviso .aviso-1{display:block;font-size:1.02rem;font-weight:800}
 .aviso .aviso-2{display:block;font-weight:600}
+/* A busca ocupa a linha toda; os seletores têm largura limitada para opções longas não espremerem os demais campos. */
+.filtros #busca{flex:1 1 100%;min-width:0}
+.filtros select{flex:0 1 16rem;min-width:0;max-width:100%;text-overflow:ellipsis}
