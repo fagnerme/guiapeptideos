@@ -846,8 +846,25 @@ Object.assign(EXTRA, {
   "Adamax": ["Peptídeo experimental.", "Sem estudos humanos."],
 });
 
+Object.assign(EXTRA, {
+  "Ácido graxo": ["Ácidos graxos (português brasileiro) ou ácidos gordos (português europeu) são ácidos carboxílicos com cadeias hidrocarbonadas de comprimento variando de 4 a 36 carbonos. Estes compostos podem variar entre aqueles que apresentam insaturações na sua longa cadeia carbônica, isto é, uma ou mais ligações duplas, e ácidos graxos sem nenhuma insaturação. Com base nisso, os ácidos graxos podem ser classificados quanto a comprimento da cadeia carbônica, onde é estabelecido uma nomenclatura convencional; e quanto ao número de insaturações, podendo variar entre saturados, insaturados e poliinsaturados. Também podem apresentar cadeias ramificadas ou estruturas em anel, como a prostaglandina.", "Esta ficha é automática e não traz texto editorial sobre benefícios; consulte os estudos e as revisões nas fontes."],
+});
+
 PEPTIDES.forEach(p => {
   const e = EXTRA[p.nome];
   p.oQueFaz = e ? e[0] : SEM_DADO;
   p.beneficios = e ? e[1] : SEM_DADO;
 });
+
+var DSLD_DADOS = (typeof DSLD_DADOS !== "undefined" ? DSLD_DADOS : []).concat(["acido-graxo"]);
+
+/*IA:INICIO*/
+/* Gerado por tools/revisar_ia.py: revisão automática por IA, sem aprovação humana. Histórico em dados/revisao-ia.json. */
+const REVISAO_IA = {};
+PEPTIDES.forEach(p => {
+  const r = REVISAO_IA[p.nome];
+  if (!r) return;
+  Object.assign(p, r.campos);
+  p.revisaoIA = r.data;
+});
+/*IA:FIM*/

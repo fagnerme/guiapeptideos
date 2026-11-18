@@ -41,22 +41,6 @@
   ]
  },
  {
-  "nome": "CARFILZOMIB",
-  "chembl": "CHEMBL451887",
-  "fase": "4.0",
-  "aprov": 2009,
-  "seq": "",
-  "tam": 0,
-  "sinonimos": [
-   "Carfilzomib",
-   "Carfilzomib",
-   "Carfilzomib",
-   "Carfilzomib",
-   "Carfilzomib",
-   "Carfilzomib"
-  ]
- },
- {
   "nome": "PEGFILGRASTIM",
   "chembl": "CHEMBL1201568",
   "fase": "4.0",
@@ -134,22 +118,6 @@
    "Becaplermin",
    "Becaplermin",
    "Becaplermin"
-  ]
- },
- {
-  "nome": "SOMATREM",
-  "chembl": "CHEMBL1201620",
-  "fase": "4.0",
-  "aprov": 1985,
-  "seq": "MFPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF",
-  "tam": 192,
-  "sinonimos": [
-   "Protropin",
-   "Protropin (genentech)",
-   "Somatotropin methionyl human growth hormone",
-   "Somatrem",
-   "Somatrem",
-   "Somatrem"
   ]
  },
  {
@@ -241,22 +209,6 @@
    "Albumin, chromated cr 51 serum",
    "Albumin, chromated cr-51 serum",
    "Albumin,chromated cr-51 serum"
-  ]
- },
- {
-  "nome": "FILGRASTIM",
-  "chembl": "CHEMBL1201567",
-  "fase": "4.0",
-  "aprov": 1991,
-  "seq": "MTPLGPASSLPQSFLLKCLEQVRKIQGDGAALQEKLCATYKLCHPEELVLLGHSLGIPWAPLSSCPSQALQLAGCLSQLHSGLFLYQGLLQALEGISPELGPTLDTLQLDVADFATTIWQQMEELGMAPALQPTQGAMPAFASAFQRRAGGVLVASHLQSFLEVSYRVLRHLAQP",
-  "tam": 175,
-  "sinonimos": [
-   "Accofil",
-   "Biograstim",
-   "EP-2006",
-   "Ep2006",
-   "Filgrastim",
-   "Filgrastim"
   ]
  },
  {
@@ -665,22 +617,6 @@
   ]
  },
  {
-  "nome": "ROMIPLOSTIM",
-  "chembl": "CHEMBL1201832",
-  "fase": "4.0",
-  "aprov": 2008,
-  "seq": "MDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGKGGGGGIEGPTLRQWLAARAGGGGGGGGIEGPTLRQWLAARA",
-  "tam": 269,
-  "sinonimos": [
-   "AMG 531",
-   "Nplate",
-   "Romiplate",
-   "Romiplostim",
-   "Romiplostim",
-   "Romiplostim"
-  ]
- },
- {
   "nome": "AMINOPHYLLINE",
   "chembl": "CHEMBL1370561",
   "fase": "4.0",
@@ -775,22 +711,6 @@
   ]
  },
  {
-  "nome": "SOTATERCEPT",
-  "chembl": "CHEMBL1743073",
-  "fase": "4.0",
-  "aprov": null,
-  "seq": "ILGRSETQECLFFNANWEKDRTNQTGVEPCYGDKDKRRHCFATWKNISGSIEIVKQGCWLDDINCYDRTDCVEKKDSPEVYFCCCEGNMCNEKFSYFPEMEVTQPTSNPVTPKPPTGGGTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPVPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
-  "tam": 344,
-  "sinonimos": [
-   "ACE-001",
-   "ACE-011",
-   "ACE011",
-   "Sotatercept",
-   "Sotatercept",
-   "Sotatercept"
-  ]
- },
- {
   "nome": "PEGINESATIDE",
   "chembl": "CHEMBL1963684",
   "fase": "4.0",
@@ -820,22 +740,6 @@
    "Microplasmin (synthetic human)",
    "Ocriplasmin",
    "Ocriplasmin"
-  ]
- },
- {
-  "nome": "INSULIN DETEMIR",
-  "chembl": "CHEMBL2104391",
-  "fase": "4.0",
-  "aprov": 2004,
-  "seq": "GIVEQCCTSICSLYQLENYCN",
-  "tam": 21,
-  "sinonimos": [
-   "Detemir",
-   "Ins levemir",
-   "Insulina detemir",
-   "Insulin detemir",
-   "Insulin detemir",
-   "Insulin detemir"
   ]
  },
  {

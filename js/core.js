@@ -1002,3 +1002,5 @@ Object.assign(TERMO_EN, {"Alfa-Caroteno": "alpha-carotene", "Ômega 9": "omega-9
 Object.assign(TERMO_EN, {"Clorofila": "chlorophyll", "Sódio": "sodium", "Ácido esteárico": "stearic acid", "Gamacaroteno": "gamma-carotene", "Selenometionina": "selenomethionine"});
 
 Object.assign(TERMO_EN, {"Pantenol": "panthenol"});
+
+Object.assign(TERMO_EN, {"Ácido graxo": "fatty acids"});

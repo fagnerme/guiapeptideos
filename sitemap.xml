@@ -791,6 +791,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-azelaico.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-estearico.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-glicolico.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-graxo.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-hialuronico.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-linoleico.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/fichas/acido-lipoico.html</loc></url>
@@ -2482,6 +2483,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/gamacaroteno-vs-l-carnitina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/l-carnitina-vs-selenometionina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/l-carnitina-vs-pantenol.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acido-graxo-vs-l-carnitina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acetil-l-carnitina-vs-n-acetilcisteina-nac.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acetil-l-carnitina-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acido-alfa-lipoico-vs-n-acetilcisteina-nac.html</loc></url>
@@ -2536,6 +2538,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/gamacaroteno-vs-n-acetilcisteina-nac.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/n-acetilcisteina-nac-vs-selenometionina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/n-acetilcisteina-nac-vs-pantenol.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acido-graxo-vs-n-acetilcisteina-nac.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/coenzima-q10-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/creatina-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/omega-3-epa-dha-vs-taurina.html</loc></url>
@@ -2585,6 +2588,7 @@
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/gamacaroteno-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/omega-3-epa-dha-vs-selenometionina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/omega-3-epa-dha-vs-pantenol.html</loc></url>
+  <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/acido-graxo-vs-omega-3-epa-dha.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/dermorfina-vs-difelikefalina.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/dermorfina-vs-ziconotida.html</loc></url>
   <url><loc>https://fagnerme.github.io/guiapeptideos/comparar/difelikefalina-vs-ziconotida.html</loc></url>
