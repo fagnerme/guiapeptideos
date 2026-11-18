@@ -11,6 +11,7 @@ on:
       - "tools/atualizar.py"
       - "tools/atualizar_chembl.py"
       - "tools/atualizar_dsld.py"
+      - "tools/revisar_ia.py"
 
 permissions:
   contents: write
@@ -37,6 +38,11 @@ jobs:
       - name: Suplementos do DSLD/NIH (relatorio, mercado e fichas novas; valida e desfaz se algo falhar)
         continue-on-error: true
         run: python tools/atualizar_dsld.py --importar --min 300 --limite 10
+      - name: Revisão dos textos por IA (Google Gemini; travas de segurança e registro em dados/revisao-ia.json)
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python tools/revisar_ia.py
       - name: Gerar cartões, sitemap e service worker
         run: |
           python tools/gerar_cartoes.py "${{ vars.SITE_URL || 'https://fagnerme.github.io/guiapeptideos' }}"

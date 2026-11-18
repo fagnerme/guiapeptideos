@@ -323,6 +323,17 @@ function normalizarProtocolo(x) {
     criado: s(x.criado),
   };
 }
+function dataProgramada(x, iso) {
+  if (!x.inicio || iso < x.inicio || (x.fim && iso > x.fim) || x.freq === "Se necessário") return false;
+  if (x.freq === "Dias alternados") {
+    const inicio = new Date(x.inicio + "T12:00:00"), data = new Date(iso + "T12:00:00");
+    return Math.round((data - inicio) / 864e5) % 2 === 0;
+  }
+  return x.diasSemana.includes(new Date(iso + "T12:00:00").getDay());
+}
+function doseDiariaProgramada(x) {
+  return x.freq === "2× ao dia" ? 2 : x.freq === "Diária" ? Math.max(1, Math.min(24, Number(x.aplicacoesDia) || 1)) : 1;
+}
 function lerProtocolos() { try { return (JSON.parse(localStorage.getItem(CH_MEUS)) || []).map(normalizarProtocolo); } catch { return []; } }
 function gravarProtocolos(l) { try { localStorage.setItem(CH_MEUS, JSON.stringify(l)); return true; } catch { alert("Não foi possível salvar neste navegador (armazenamento cheio ou bloqueado)."); return false; } }
 function migrarProtocolosAntigos() {
@@ -342,15 +353,28 @@ function migrarProtocolosAntigos() {
 }
 /* Tipo de substância: o que ela é quimicamente (diferente da categoria, que é o uso/área). */
 const TIPOS = {
-  peptideo: { icone: "🧬", rotulo: "Peptídeo ou proteína", def: "Cadeia curta de aminoácidos que funciona como sinal entre as células, regulando apetite, glicemia, reparo de tecidos e outras funções. Ex.: semaglutida, BPC-157, insulina. Costuma ser injetável, pois o estômago digere peptídeos antes de absorvê-los." },
-  hormonio: { icone: "⚗️", rotulo: "Hormônio (não peptídico)", def: "Mensageiro químico produzido por glândulas, que viaja pelo sangue e regula metabolismo, humor, crescimento e reprodução. Aqui entram os de estrutura não peptídica, como esteroides e hormônios da tireoide. Ex.: testosterona, estradiol, levotiroxina. Quase sempre exige prescrição e acompanhamento médico." },
-  vitamina: { icone: "🍊", rotulo: "Vitamina", def: "Micronutriente orgânico que o corpo não produz em quantidade suficiente e precisa obter da alimentação, em doses pequenas. Participa de reações do metabolismo, da imunidade e da saúde dos ossos. Ex.: vitaminas D, C e B12." },
-  mineral: { icone: "🪨", rotulo: "Mineral", def: "Elemento químico essencial, de origem inorgânica, que o corpo usa em ossos, músculos, nervos e enzimas. Também não é produzido pelo organismo. Ex.: zinco, magnésio, ferro." },
-  suplemento: { icone: "💊", rotulo: "Suplemento ou composto", def: "Molécula pequena que não se encaixa nos outros tipos: aminoácidos, ácidos graxos, antioxidantes e metabólitos. Muitas existem naturalmente no corpo ou nos alimentos e são vendidas como complemento. Ex.: creatina, carnitina, NAD+." }
+  peptideo: { curto: "peptídeo", icone: "🧬", rotulo: "Peptídeo ou proteína", def: "Cadeia curta de aminoácidos que funciona como sinal entre as células, regulando apetite, glicemia, reparo de tecidos e outras funções. Ex.: semaglutida, BPC-157, insulina. Costuma ser injetável, pois o estômago digere peptídeos antes de absorvê-los." },
+  hormonio: { curto: "hormônio", icone: "⚗️", rotulo: "Hormônio (não peptídico)", def: "Mensageiro químico produzido por glândulas, que viaja pelo sangue e regula metabolismo, humor, crescimento e reprodução. Aqui entram os de estrutura não peptídica, como esteroides e hormônios da tireoide. Ex.: testosterona, estradiol, levotiroxina. Quase sempre exige prescrição e acompanhamento médico." },
+  vitamina: { curto: "vitamina", icone: "🍊", rotulo: "Vitamina", def: "Micronutriente orgânico que o corpo não produz em quantidade suficiente e precisa obter da alimentação, em doses pequenas. Participa de reações do metabolismo, da imunidade e da saúde dos ossos. Ex.: vitaminas D, C e B12." },
+  mineral: { curto: "mineral", icone: "🪨", rotulo: "Mineral", def: "Elemento químico essencial, de origem inorgânica, que o corpo usa em ossos, músculos, nervos e enzimas. Também não é produzido pelo organismo. Ex.: zinco, magnésio, ferro." },
+  suplemento: { curto: "suplemento", icone: "💊", rotulo: "Suplemento ou composto", def: "Molécula pequena que não se encaixa nos outros tipos: aminoácidos, ácidos graxos, antioxidantes e metabólitos. Muitas existem naturalmente no corpo ou nos alimentos e são vendidas como complemento. Ex.: creatina, carnitina, NAD+." },
+  farmaco: { curto: "medicamento", icone: "🧪", rotulo: "Medicamento de molécula pequena", def: "Fármaco sintético de estrutura química simples, que não é peptídeo, hormônio natural nem nutriente. Costuma ser tomado por via oral e exige prescrição. Ex.: metformina, tadalafila, anastrozol, modafinila." },
+  biologico: { curto: "biológico", icone: "🔬", rotulo: "Biológico (proteína grande, anticorpo ou RNA)", def: "Produto feito em células vivas ou por biotecnologia: anticorpos, enzimas, fatores de crescimento, citocinas e terapias de RNA. São moléculas grandes, quase sempre injetáveis e de uso médico. Ex.: teprotumumabe, inclisirana, folistatina." }
 };
+/* Exceções por nome, para quando categoria e família não bastam. Todo item novo cai em "peptideo" se não estiver aqui. */
+const TIPO_NOME = {
+  farmaco: ["Metformina", "Acarbose", "Orforglipron", "Netazepide", "Tzp-102", "Px-478", "Intermedine", "Piracetam", "Aniracetam", "Pramiracetam", "Oxiracetam", "Fasoracetam", "Fenilpiracetam", "Modafinila", "Armodafinila", "Tesofensina", "Resmetirom", "Danuglipron", "Obicetrapibe", "Selonsertib", "Lanifibranor", "Dasatinibe", "Tadalafila", "Sildenafila", "Bortezomibe", "Carfilzomibe", "Zetomipzomib", "Zetomipzomib Maleate", "Lítio (microdoses/orotato)", "Rapamicina (sirolimo)", "Amlisimod", "Limaresiquimod", "Bezisterim", "Anastrozol", "Letrozol", "Tamoxifeno", "Clomifeno", "Enclomifeno", "Raloxifeno", "Finasterida", "Dutasterida", "Espironolactona", "Tibolona", "Medroxiprogesterona", "Drospirenona", "Etinilestradiol", "Prednisona", "Dexametasona", "Fludrocortisona"],
+  biologico: ["Sotatercepte", "Teprotumumabe", "Pegvaliase", "Inclisirana", "Zilebesirana", "Imetelstate", "BDNF", "NGF", "Folistatina-344", "Folistatina-315", "Ramatercepte (ACE-031)", "Pegbelfermina", "Efruxifermina", "Pegozafermina", "Aldafermin", "Dulanermin", "Sonermin", "Plusonermin", "Rilunermin", "Ersofermin", "Zalfermin", "Canoctakin", "Denenicokin", "Pegilodecakin", "Eflepedocokin", "Mobenakin", "Atexakin", "Nogapendekin", "Pimrocktakin (bovine)", "Lerodalcibep", "Ensovibep", "Palsucibep Pegol", "Elarekibep", "Azirkitug", "Brivekimig", "Tifalibep", "Taldefgrobep", "Somatosalm", "Somenopor", "Somagrebove", "Sometribove", "Somavubove", "Sometripor", "Somidobove", "Somalapor", "Inpegsomatropin", "Gonadotropin, Serum", "Gelsolin", "Silk Fibroin", "Anfibatide", "Cobitolimod", "Cerebrolisina", "Cortexina (Cortexin)", "Retalamina"],
+  peptideo: ["Gonadotrofina coriônica (hCG)", "Glucagon", "Calcitonina", "Metreleptina", "FSH (hormônio folículo-estimulante)", "LH (hormônio luteinizante)", "TSH (tireotropina)", "ACTH / cosintropina", "Eritropoetina (EPO)", "Relaxina (serelaxin)", "Somatrem", "Tiroliberina (TRH)", "Efsitora alfa", "Romiplostim", "Filgrastim", "Ganirelix", "Detemir", "Glulisina", "Gonadotrofina menopáusica (hMG)"],
+  suplemento: ["Mitoquinona (MitoQ)", "Visomitina (SkQ1)", "Alfa-GPC", "Huperzina A", "Niacinamida", "Ácido azelaico", "Ácido glicólico", "Ácido salicílico", "Bakuchiol", "Ectoína", "PQQ (pirroloquinolina quinona)", "GABA", "Cafeína", "5-HTP", "HMB (beta-hidroxi-beta-metilbutirato)"]
+};
+const TIPO_POR_NOME = {};
+Object.entries(TIPO_NOME).forEach(([k, l]) => l.forEach(n => { TIPO_POR_NOME[n] = k; }));
 const TIPO_FAMILIA = { "hormonios-sexuais": "hormonio", "tireoide-adrenais": "hormonio", "hormonios-metabolicos": "hormonio", "vitaminas-lipo": "vitamina", "vitaminas-hidro": "vitamina", "minerais": "mineral",
   "suplementos-metabolicos": "suplemento", "nad-sirtuinas": "suplemento", "polifenois-longevidade": "suplemento", "mimeticos-exercicio": "suplemento", "antioxidante": "suplemento" };
 function chaveTipo(p) {
+  if (TIPO_POR_NOME[p.nome]) return TIPO_POR_NOME[p.nome];
+  if (/(umabe?|ximabe?|zumabe?|mab)$/i.test(p.nome.trim())) return "biologico";
   if (p.categoria === "Vitamina") return "vitamina";
   if (p.categoria === "Mineral") return "mineral";
   if (p.categoria === "Cosmético" || /glutation|carnosin|anserin/i.test(p.nome)) return "peptideo";
@@ -608,7 +632,8 @@ function sugestoesBusca() {
   inp.addEventListener("input", () => {
     const ws = norm(inp.value).split(/\s+/).filter(Boolean);
     if (inp.value.trim().length < 2) return fechar();
-    const pts = PEPTIDES.map(p => ({ p, n: norm(p.nome) })).filter(x => ws.every(w => x.n.includes(w)));
+    const so = s => s.replace(/[^a-z0-9]/g, "");
+    const pts = PEPTIDES.map(p => ({ p, n: norm(p.nome) })).filter(x => ws.every(w => x.n.includes(w) || (so(w).length > 2 && so(x.n).includes(so(w)))));
     pts.sort((a, b) => (b.n.startsWith(ws[0]) ? 1 : 0) - (a.n.startsWith(ws[0]) ? 1 : 0) || a.n.length - b.n.length);
     const cats = !pts.length ? PEPTIDES.filter(p => ws.every(w => norm(p.categoria).includes(w))) : [];
     const itens = pts.slice(0, 7).map(x => `<li role="option"><a href="fichas/${esc(slug(x.p.nome))}.html"><b>${esc(x.p.nome)}</b> <small>${esc(tr(x.p.categoria))} · ${esc(tr(x.p.fase))}</small></a></li>`);
@@ -643,15 +668,14 @@ function montarLayout(titulo) {
   }
   const topo = document.getElementById("topo");
   if (topo) {
-    topo.innerHTML = `<button id="tema" type="button" aria-label="Alternar tema">🌓</button>
+    topo.innerHTML = `<div class="topo-acoes"><button type="button" id="instalar-app" class="btn btn-pwa" title="Instalar no celular e usar offline">📲 Instalar app</button><button id="tema" type="button" aria-label="Alternar tema">🌓</button></div>
       <h1><a href="index.html" class="home">${esc(titulo || "Guia Educativo de Peptídeos, Hormônios e Suplementos")}</a></h1>
       <p class="aviso"><span class="aviso-1">⚠️ Conteúdo exclusivamente educativo.</span> <span class="aviso-2">Não é recomendação médica nem fornece doses de autoadministração.</span></p>
       <form class="busca-global" action="buscar.html" role="search"><input type="search" name="q" placeholder="Buscar em todo o guia..." aria-label="Buscar em todo o guia"><button type="submit" aria-label="Buscar">🔍</button></form>
       <nav aria-label="Principal">${NAV_PRINCIPAL.map(([h, n]) => `<a href="${h}"${location.pathname.endsWith("/" + h) ? ' aria-current="page"' : ""}>${n}</a>`).join(" ")}
         <details class="nav-mais"><summary>Mais ▾</summary><div class="nav-grupos">${NAV_GRUPOS.map(([g, l]) => `<div><b>${g}</b>${l.map(([h, n]) => `<a href="${h}">${n}</a>`).join("")}</div>`).join("")}</div></details></nav>
       <details class="ajustes"><summary>⚙️ Ajustes</summary><div class="ajustes-corpo">
-      <span class="leitura-ctrl"><button type="button" id="fonte-menos" aria-label="Diminuir fonte">A−</button><button type="button" id="fonte-mais" aria-label="Aumentar fonte">A+</button><button type="button" id="modo-leitura" aria-label="Modo leitura" aria-pressed="${_leitura}">📖</button></span>
-      <p class="pwa-cta"><button type="button" id="instalar-app" class="btn btn-pwa">📲 Instalar no celular · usar offline</button></p></div></details>
+      <span class="leitura-ctrl"><button type="button" id="fonte-menos" aria-label="Diminuir fonte">A−</button><button type="button" id="fonte-mais" aria-label="Aumentar fonte">A+</button>      <button type="button" id="modo-leitura" aria-label="Modo leitura" aria-pressed="${_leitura}">📖</button></span></div></details>
       <dialog id="pwa-ajuda" aria-labelledby="pwa-titulo">
         <div class="pwa-dialog">
           <button type="button" class="pwa-fechar" aria-label="Fechar">×</button>
@@ -677,6 +701,9 @@ function montarLayout(titulo) {
       e.currentTarget.setAttribute("aria-pressed", _leitura); aplicarLeitura();
     });
     ligarInstalacaoPwa();
+    if (localStorage.getItem("notif_ativas_v1") === "1" && !document.getElementById("acomp-semanal")) {
+      const s = document.createElement("script"); s.src = "js/notificacoes.js"; s.defer = true; document.head.appendChild(s);
+    }
   }
   const main = document.querySelector("main");
   if (main && !main.id) main.id = "principal";
@@ -930,7 +957,7 @@ function ligarInstalacaoPwa() {
   if (!botao || !dialogo || botao.dataset.pwaLigado) return;
   botao.dataset.pwaLigado = "1";
   if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) {
-    botao.textContent = tr("✅ Instalado · acessar offline");
+    botao.hidden = true;
   }
   botao.addEventListener("click", async () => {
     if (_instalarApp) {
@@ -939,7 +966,7 @@ function ligarInstalacaoPwa() {
       try {
         await evento.prompt();
         const escolha = await evento.userChoice;
-        if (escolha.outcome === "accepted") botao.textContent = tr("✅ App instalado");
+        if (escolha.outcome === "accepted") botao.hidden = true;
       } catch (erro) {
         console.error("Não foi possível iniciar a instalação do guia.", erro);
         dialogo.showModal();
@@ -955,12 +982,12 @@ window.addEventListener("beforeinstallprompt", e => {
   e.preventDefault();
   _instalarApp = e;
   const botao = document.getElementById("instalar-app");
-  if (botao) botao.textContent = tr("📲 Instalar o app");
+  if (botao) botao.hidden = false;
 });
 window.addEventListener("appinstalled", () => {
   _instalarApp = null;
   const botao = document.getElementById("instalar-app");
-  if (botao) botao.textContent = tr("✅ Instalado · acessar offline");
+  if (botao) botao.hidden = true;
 });
 Object.assign(TERMO_EN, {"VIP (peptídeo intestinal vasoativo) / aviptadil": "vasoactive intestinal peptide", "Timogeno (Thymogen)": "thymogen (alpha-glutamyl-tryptophan)", "Cortexina (Cortexin)": "cortexin", "Cortagen": "cortagen (synthetic tetrapeptide)", "Vilon (Lys-Glu)": "vilon (lysyl-glutamate)", "Cartalax": "cartalax", "Livagen": "livagen", "Chonluten": "chonluten", "Ovagen": "ovagen", "Vesugen": "vesugen", "Prostamax": "prostamax", "Crystagen": "crystagen", "Bronchogen": "bronchogen", "Pancragen": "pancragen", "Testagen": "testagen", "Cardiogen": "cardiogen", "DSIP (peptídeo indutor do sono delta)": "delta sleep-inducing peptide", "P21": "P21 peptide", "Noopept (GVS-111, dipeptídeo sintético)": "omberacetam (Noopept; GVS-111)", "Trofinetida (Trofinetide, análogo do GPE)": "trofinetide", "Goralatida (Ac-SDKP)": "N-acetyl-seryl-aspartyl-lysyl-proline (Ac-SDKP)", "Ciclo-His-Pro (cHP)": "cyclo(His-Pro)", "Substância P": "substance P", "Neuropeptídeo Y": "neuropeptide Y", "Orexina-A (hipocretina-1)": "orexin-A (hypocretin-1)", "Galanina": "galanin", "Encefalinas (Met/Leu-encefalina)": "methionine-enkephalin and leucine-enkephalin", "Dinorfina A": "dynorphin A", "Beta-endorfina": "beta-endorphin", "Nociceptina": "nociceptin (orphanin FQ)", "Apamina": "apamin", "Cecropina": "cecropin", "Magainina / Pexiganan": "magainin; pexiganan", "Lactoferricina": "lactoferricin", "Histatina-5": "histatin-5", "Palmitoil tripeptídeo-1 (Pal-GHK)": "palmitoyl tripeptide-1", "Palmitoil tetrapeptídeo-7": "palmitoyl tetrapeptide-7", "Snap-8 (acetil octapeptídeo-3)": "acetyl octapeptide-3", "Acetil tetrapeptídeo-3 (Redensyl)": "acetyl tetrapeptide-3", "Leuphasyl (pentapeptídeo-18)": "pentapeptide-18", "Syn-Ake (dipeptídeo diaminobutiroil benzilamida diacetato)": "dipeptide diaminobutyroyl benzylamide diacetate", "Palmitoil tripeptídeo-5": "palmitoyl tripeptide-5", "Macimorelina": "macimorelin", "Anamorelina": "anamorelin", "Capromorelina": "capromorelin", "Alexamorelina": "alexamorelin", "Ibutamoren (MK-677; não peptideo, secretagogo oral)": "ibutamoren (MK-677)", "Fragmento 176-191 do hormônio do crescimento (HGH Frag)": "human growth hormone fragment 176-191", "IGF-1 DES(1-3)": "des(1-3) IGF-I", "Mecasermina (IGF-1 recombinante)": "mecasermin (recombinant human IGF-1)", "Estrona (E1)": "estrone", "Estriol (E3)": "estriol", "Pregnenolona": "pregnenolone", "Androstenediona": "androstenedione", "Di-hidrotestosterona (DHT)": "dihydrotestosterone", "Nandrolona": "nandrolone", "Oxandrolona": "oxandrolone", "Estanozolol": "stanozolol", "Trembolona": "trenbolone", "Cortisona": "cortisone", "Prednisona": "prednisone", "Dexametasona": "dexamethasone", "Fludrocortisona": "fludrocortisone", "Aldosterona": "aldosterone", "Adrenalina (epinefrina)": "epinephrine", "Noradrenalina (norepinefrina)": "norepinephrine", "Dopamina": "dopamine", "Serotonina (5-HT)": "serotonin", "Prolactina": "prolactin", "FSH (hormônio folículo-estimulante)": "follicle-stimulating hormone", "LH (hormônio luteinizante)": "luteinizing hormone", "TSH (tireotropina)": "thyrotropin alfa", "ACTH / cosintropina": "corticotropin cosyntropin", "Eritropoetina (EPO)": "erythropoietin", "Paratormônio (PTH 1-84)": "parathyroid hormone 1-84", "Cabergolina": "cabergoline", "Bromocriptina": "bromocriptine", "Anastrozol": "anastrozole", "Letrozol": "letrozole", "Tamoxifeno": "tamoxifen", "Clomifeno": "clomiphene citrate", "Enclomifeno": "enclomiphene", "Raloxifeno": "raloxifene", "Finasterida": "finasteride", "Dutasterida": "dutasteride", "Espironolactona": "spironolactone", "Calcitriol (1,25-di-hidroxivitamina D)": "calcitriol", "Tibolona": "tibolone", "Medroxiprogesterona": "medroxyprogesterone acetate", "Drospirenona": "drospirenone", "Etinilestradiol": "ethinylestradiol", "Relaxina (serelaxin)": "relaxin serelaxin", "Metformina": "metformin", "Sulfato de DHEA (DHEA-S)": "dehydroepiandrosterone sulfate", "Vitamina B5 (ácido pantotênico)": "pantothenic acid", "Vitamina K1 (filoquinona)": "phylloquinone", "Vitamina D2 (ergocalciferol)": "ergocalciferol", "Colina": "choline", "Mio-inositol": "myo-inositol", "Cálcio": "calcium", "Potássio": "potassium", "Iodo": "iodine", "Cobre": "copper", "Manganês": "manganese", "Cromo": "chromium", "Boro": "boron", "Lítio (microdoses/orotato)": "lithium orotate", "L-arginina": "L-arginine", "L-citrulina": "L-citrulline", "L-glutamina": "L-glutamine", "Leucina / BCAA": "leucine / branched-chain amino acids", "L-triptofano": "L-tryptophan", "5-HTP": "5-hydroxytryptophan", "L-teanina": "L-theanine", "L-tirosina": "L-tyrosine", "Beta-alanina": "beta-alanine", "HMB (beta-hidroxi-beta-metilbutirato)": "beta-hydroxy beta-methylbutyrate", "GABA": "gamma-aminobutyric acid", "Ashwagandha (Withania somnifera)": "Withania somnifera", "Curcumina": "curcumin", "Berberina": "berberine", "Rhodiola rosea": "Rhodiola rosea", "Ginseng (Panax)": "Panax ginseng", "Maca (Lepidium meyenii)": "Lepidium meyenii", "Tribulus terrestris": "Tribulus terrestris", "Cafeína": "caffeine", "Colágeno hidrolisado": "hydrolyzed collagen", "Probióticos": "probiotics", "Apigenina": "apigenin", "Sulforafano": "sulforaphane", "EGCG (epigalocatequina galato, chá verde)": "epigallocatechin gallate", "Astaxantina": "astaxanthin", "Luteína": "lutein", "Alfa-cetoglutarato": "alpha-ketoglutarate", "Ácido hialurônico": "hyaluronic acid", "Glucosamina": "glucosamine", "Condroitina": "chondroitin sulfate", "Lactoferrina": "lactoferrin", "Rapamicina (sirolimo)": "sirolimus (rapamycin)", "Acarbose": "acarbose", "Éster de cetona (beta-hidroxibutirato)": "ketone ester (beta-hydroxybutyrate)", "Tongkat ali (Eurycoma longifolia)": "Eurycoma longifolia", "Espirulina": "Arthrospira platensis", "Piracetam": "piracetam", "Aniracetam": "aniracetam"});
 

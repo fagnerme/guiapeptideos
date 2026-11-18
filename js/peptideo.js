@@ -127,6 +127,7 @@ if (!p) {
       <h2 class="titulo-pep">${esc(p.nome)}</h2>
       <p><span class="tag tag-tipo" title="${esc(tr(tipoDe(p).def))}">${tipoDe(p).icone} ${esc(tr(tipoDe(p).rotulo))}</span> <span class="tag">${esc(p.categoria)}</span> <span class="tag ${faseClasse(p.fase)}">${esc(p.fase)}</span> ${htmlSelo(p)}</p>
       <p>${htmlRevisao()}</p>
+      ${p.revisaoIA ? `<p><small>🤖 Texto revisado automaticamente por IA em ${esc(dataBR(p.revisaoIA))}, sem revisão humana. Confira nas fontes antes de decidir qualquer coisa.</small></p>` : ""}
       ${htmlRevisaoHumana(p)}
       <p><b>Status regulatório:</b> ${esc(p.status)}</p>
       <section class="boas"><h2>${tr("Situação nas fontes regulatórias")}</h2>${htmlLocais(p, true)}</section>

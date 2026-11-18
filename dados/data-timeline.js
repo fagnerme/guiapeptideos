@@ -70,6 +70,7 @@ const TIMELINE = {
   "Carnosina": [[1900, "Vladimir Gulewitsch identifica a carnosina em extratos musculares."]],
   "Urolitina A": [[2019, "Estudo cl\u00ednico inicial em humanos sobre seguran\u00e7a e marcadores mitocondriais publicado."]],
   "SLU-PP-332": [[2023, "Agonista ERR SLU-PP-332 descrito em estudo pre-cl\u00ednico de resist\u00eancia f\u00edsica em camundongos."]],
+  "AICAR (acadesina)": [[2008, "AICAR descrito como mimético de exercício que aumentou a resistência de camundongos (Cell)."]],
   "Exenatida": [[2005, "Aprovada pela FDA para diabetes tipo 2 (Byetta)."]],
   "Lixisenatida": [[2016, "Aprovada pela FDA para diabetes tipo 2 (Adlyxin)."]],
   "Dulaglutida": [[2014, "Aprovada pela FDA para diabetes tipo 2 (Trulicity)."]],

@@ -109,6 +109,7 @@ const EXTRA = {
 "Quercetina": ["É um flavonoide alimentar estudado por atividade antioxidante em modelos.", "Ensaios pequenos não comprovam benefício amplo ou prolongamento da vida."],
 "SLU-PP-332": ["É uma molécula experimental que ativa receptores ERR em modelos de pesquisa.", "Resultados em animais não demonstram que imite exercício ou seja segura e eficaz em pessoas."],
 "5-amino-1MQ": ["É um inibidor experimental de NNMT estudado em modelos pré-clínicos.", "Não há demonstração de benefício clínico ou segurança em humanos."],
+"AICAR (acadesina)": ["Ativa a AMPK, sensor de energia da célula, o que levou a chamá-lo de mimético de exercício.", "Em animais aumentou resistência física; em humanos, o ensaio em cirurgia cardíaca não mostrou benefício e o uso é proibido no esporte."],
 "Magnésio": ["Mineral essencial para músculos, nervos, ossos e produção de energia.", "Corrigir deficiência é importante; para quem já ingere o suficiente, os benefícios adicionais variam e não são garantidos."],
 "Zinco": ["Mineral necessário à imunidade, à síntese de DNA e à cicatrização.", "A reposição ajuda quando há deficiência; suplementar sem deficiência não demonstrou benefício universal."],
 "Selênio": ["Mineral incorporado a proteínas antioxidantes e enzimas da tireoide.", "A correção da deficiência é útil, mas suplementar pessoas com ingestão adequada não previne de forma comprovada câncer ou doença cardíaca."],
@@ -144,11 +145,7 @@ const EXTRA = {
 };
 
 const SEM_DADO = "Sem dados organizados para este item; consulte as fontes.";
-PEPTIDES.forEach(p => {
-  const e = EXTRA[p.nome];
-  p.oQueFaz = e ? e[0] : SEM_DADO;
-  p.beneficios = e ? e[1] : SEM_DADO;
-});
+/* A aplicação de EXTRA nas fichas fica no fim do arquivo, depois de todos os Object.assign. */
 
 /* Data da última revisão manual do conteúdo (atualize ao revisar). */
 const DATA_REVISAO = "2026-11-05";
@@ -771,3 +768,86 @@ Object.assign(EXTRA, {
 });
 
 var DSLD_DADOS = (typeof DSLD_DADOS !== "undefined" ? DSLD_DADOS : []).concat(["pantenol"]);
+
+Object.assign(EXTRA, {
+  "Tabimorelina": ["Secretagogo oral de GH que imita a grelina.", "Aumentou GH e IGF-1 em estudos curtos; sem aprovação."],
+  "Somatrem": ["Versão do hormônio do crescimento com um aminoácido extra.", "Usado no passado para deficiência de GH; hoje a somatropina o substituiu."],
+  "Sotatercepte": ["Biológico injetável para hipertensão pulmonar.", "Melhorou a capacidade de exercício em pacientes com HAP."],
+  "Tesofensina": ["Molécula oral que reduz o apetite por ação no cérebro.", "Perda de peso em ensaios de fase 2; não é peptídeo nem aprovada."],
+  "Retalamina": ["Extrato peptídico de retina usado em oftalmologia em alguns países.", "Benefício não confirmado por estudos independentes."],
+  "Cortistatina": ["Neuropeptídeo natural com ação anti-inflamatória em animais.", "Sem uso clínico estabelecido."],
+  "PACAP": ["Neuropeptídeo ligado à enxaqueca.", "É alvo de terapias novas, não de uso como suplemento."],
+  "Apelina": ["Peptídeo natural que atua no coração e nos vasos.", "Ainda experimental."],
+  "Irisina": ["Hormônio proposto liberado pelo músculo durante o exercício.", "Efeito em pessoas ainda debatido."],
+  "Adiponectina": ["Hormônio do tecido adiposo ligado à sensibilidade à insulina.", "Sem tratamento aprovado."],
+  "Bradicinina": ["Peptídeo natural da inflamação e do tônus dos vasos.", "Seu bloqueio trata angioedema hereditário."],
+  "Tiroliberina (TRH)": ["Hormônio do hipotálamo que controla a tireoide.", "Usado como teste diagnóstico."],
+  "Resmetirom": ["Comprimido que atua no fígado para reduzir gordura.", "Aprovado para NASH com fibrose."],
+  "Danuglipron": ["GLP-1 em comprimido, não peptídico.", "Programa encerrado por segurança."],
+  "Efsitora alfa": ["Insulina de aplicação uma vez por semana.", "Em avaliação regulatória; verificar a situação atual."],
+  "Obicetrapibe": ["Comprimido para reduzir LDL.", "Benefício cardiovascular ainda não demonstrado."],
+  "Selonsertib": ["Pequena molécula para fibrose hepática.", "Não mostrou benefício nos ensaios de fase 3."],
+  "Lanifibranor": ["Molécula oral para esteato-hepatite.", "Ensaios de fase 3 em andamento."],
+  "Inclisirana": ["Injeção aplicada duas vezes ao ano para reduzir LDL.", "Não é peptídeo, é RNA."],
+  "Zilebesirana": ["Injeção semestral estudada para hipertensão.", "Em fase 3."],
+  "Teprotumumabe": ["Anticorpo que reduz protrusão ocular.", "Atua no receptor de IGF-1."],
+  "Romiplostim": ["Proteína com porção peptídica que aumenta plaquetas.", "Usada em PTI."],
+  "Filgrastim": ["Proteína que aumenta glóbulos brancos.", "Usada em quimioterapia."],
+  "Pegvaliase": ["Enzima injetável para fenilcetonúria.", "Tem alerta de anafilaxia."],
+  "Ganirelix": ["Peptídeo usado em tratamentos de fertilidade.", "Evita ovulação precoce."],
+  "Detemir": ["Insulina de ação prolongada.", "Disponibilidade variável."],
+  "Glulisina": ["Insulina de ação rápida.", "Para refeições."],
+  "Edotreotida": ["Peptídeo marcado com radiação para tumores neuroendócrinos.", "Usado em diagnóstico e terapia."],
+  "Imetelstate": ["Inibidor de telomerase.", "Para síndrome mielodisplásica."],
+  "Bortezomibe": ["Medicamento oncológico baseado em dipeptídeo.", "Padrão no mieloma."],
+  "Carfilzomibe": ["Medicamento oncológico peptídico.", "Para mieloma."],
+  "Ciclosporina": ["Peptídeo cíclico de fungo usado como imunossupressor.", "Evita rejeição de órgãos."],
+  "Vancomicina": ["Antibiótico glicopeptídico.", "Usado contra bactérias resistentes."],
+  "Teicoplanina": ["Antibiótico semelhante à vancomicina.", "Usado fora dos EUA."],
+  "Daptomicina": ["Antibiótico lipopeptídico.", "Para infecções graves."],
+  "Polimixina B": ["Antibiótico peptídico polimixina.", "Tóxico para os rins."],
+  "Colistina": ["Antibiótico peptídico de reserva.", "Usado em multirresistência."],
+  "Modafinila": ["Medicamento que promove vigília.", "Controlado em muitos países."],
+  "Armodafinila": ["Versão da modafinila.", "Controlada."],
+  "Pramiracetam": ["Derivado do piracetam.", "Evidência limitada."],
+  "Oxiracetam": ["Derivado do piracetam.", "Benefício modesto."],
+  "Fasoracetam": ["Racetam estudado em TDAH.", "Sem aprovação."],
+  "Fenilpiracetam": ["Racetam com ação estimulante.", "Proibido no esporte."],
+  "Huperzina A": ["Inibidor natural da acetilcolinesterase.", "Evidência inconclusiva."],
+  "Alfa-GPC": ["Fonte de colina.", "Evidência modesta."],
+  "Fosfatidilserina": ["Fosfolipídeo de membranas neuronais.", "Efeito modesto."],
+  "Uridina": ["Nucleosídeo usado em suplementos.", "Evidência limitada."],
+  "Bacopa monnieri": ["Planta com efeito modesto em memória.", "Qualidade varia."],
+  "Cogumelo juba-de-leão (Hericium erinaceus)": ["Cogumelo com efeito proposto no NGF.", "Evidência limitada."],
+  "BDNF": ["Fator de crescimento do cérebro.", "Sem uso clínico."],
+  "NGF": ["Fator de crescimento do nervo.", "Aprovado como colírio."],
+  "Ubiquinol": ["Forma ativa da coenzima Q10.", "Suplemento."],
+  "Mitoquinona (MitoQ)": ["Antioxidante mitocondrial.", "Evidência limitada."],
+  "Visomitina (SkQ1)": ["Antioxidante mitocondrial em colírio.", "Estudado em olho seco."],
+  "Idebenona": ["Análogo da CoQ10.", "Usado em doença mitocondrial."],
+  "Dasatinibe": ["Quimioterápico oral usado em senolíticos.", "Uso fora de oncologia é experimental."],
+  "Boldenona": ["Esteroide veterinário.", "Proibido no esporte."],
+  "Gonadotrofina menopáusica (hMG)": ["Gonadotrofina para fertilidade.", "Uso sob supervisão médica."],
+  "Tadalafila": ["Medicamento para disfunção erétil.", "Contraindicado com nitratos."],
+  "Sildenafila": ["Medicamento para disfunção erétil.", "Contraindicado com nitratos."],
+  "Niacinamida": ["Vitamina B3 em cosméticos.", "Uniformiza o tom da pele."],
+  "Ácido azelaico": ["Ácido tópico para acne.", "Clareia manchas."],
+  "Ácido glicólico": ["Esfoliante químico.", "Use protetor solar."],
+  "Ácido salicílico": ["Esfoliante para acne.", "Cuidado em áreas extensas."],
+  "Bakuchiol": ["Alternativa vegetal ao retinol.", "Poucos estudos."],
+  "Ectoína": ["Protetor de células.", "Hidratante."],
+  "Lutécio-177 dotatato": ["Radioterapia dirigida por peptídeo.", "Tumores neuroendócrinos."],
+  "Cicloprolilglicina (cPG)": ["Dipeptídeo cíclico derivado do IGF-1.", "Experimental."],
+  "Anserina": ["Dipeptídeo parente da carnosina.", "Evidência modesta."],
+  "SS-20": ["Peptídeo mitocondrial experimental.", "Sem estudos humanos."],
+  "PE-22-28": ["Peptídeo experimental.", "Candidato a antidepressivo."],
+  "NA-Semax": ["Variante do Semax.", "Evidência limitada."],
+  "Des(1-3)IGF-1": ["IGF-1 truncado.", "Proibido no esporte."],
+  "Adamax": ["Peptídeo experimental.", "Sem estudos humanos."],
+});
+
+PEPTIDES.forEach(p => {
+  const e = EXTRA[p.nome];
+  p.oQueFaz = e ? e[0] : SEM_DADO;
+  p.beneficios = e ? e[1] : SEM_DADO;
+});

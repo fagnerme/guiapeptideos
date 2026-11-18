@@ -775,17 +775,6 @@ function inicioSemana(iso = hojeISO()) {
   d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
-function dataProgramada(x, iso) {
-  if (!x.inicio || iso < x.inicio || (x.fim && iso > x.fim) || x.freq === "Se necessário") return false;
-  if (x.freq === "Dias alternados") {
-    const inicio = new Date(x.inicio + "T12:00:00"), data = new Date(iso + "T12:00:00");
-    return Math.round((data - inicio) / 864e5) % 2 === 0;
-  }
-  return x.diasSemana.includes(new Date(iso + "T12:00:00").getDay());
-}
-function doseDiariaProgramada(x) {
-  return x.freq === "2× ao dia" ? 2 : x.freq === "Diária" ? Math.max(1, Math.min(24, Number(x.aplicacoesDia) || 1)) : 1;
-}
 function deslocarDia(iso, quantidade) {
   const data = new Date(iso + "T12:00:00");
   data.setDate(data.getDate() + quantidade);

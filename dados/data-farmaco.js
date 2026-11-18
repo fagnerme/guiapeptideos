@@ -78,6 +78,7 @@ Object.assign(FARMACO, {
   "quercetina": { h:null, txt:"Dados de meia-vida variam conforme composto, apresentação e estudo; não há um valor único aplicável a todos os produtos.", arm:"Siga as informações do fabricante para o produto específico; composição e estabilidade variam." },
   "slu-pp-332": { h:null, txt:"Sem dados farmacocinéticos humanos; estudos pré-clínicos não estabelecem meia-vida clínica.", arm:"Siga as informações do fabricante para o produto específico; composição e estabilidade variam." },
   "5-amino-1mq": { h:null, txt:"Sem dados farmacocinéticos humanos; estudos pré-clínicos não estabelecem meia-vida clínica.", arm:"Siga as informações do fabricante para o produto específico; composição e estabilidade variam." },
+  "aicar-acadesina": { h:null, txt:"Eliminação rápida após infusão intravenosa em estudos clínicos; não há meia-vida estabelecida para uso fora de ensaios.", arm:"Siga as informações do fabricante para o produto específico; composição e estabilidade variam." },
 });
 Object.assign(FARMACO, {
   "magnesio": { h: null, txt: "Não há meia-vida única para sais e formas nutricionais; absorção e eliminação variam", arm: "Conforme o rótulo; manter seco e protegido da umidade." },

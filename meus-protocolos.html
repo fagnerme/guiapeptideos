@@ -108,7 +108,7 @@
         <label>Horário <select id="f-hora"></select></label>
         <fieldset id="f-horarios-dia" class="prot-dias" hidden>
           <legend>Horários das aplicações</legend>
-          <p><small>Informe os horários conforme a orientação recebida. Os lembretes aparecem quando esta página estiver aberta.</small></p>
+          <p><small>Informe os horários conforme a orientação recebida. Os lembretes saem no horário com o app aberto; veja Notificações de aplicação acima.</small></p>
           <label id="f-aplicacoes-dia-wrap">Aplicações por dia
             <input type="number" id="f-aplicacoes-dia" min="1" max="24" step="1" value="1" required>
           </label>
@@ -288,7 +288,7 @@
       </div>
     </form>
   </dialog>
-  <div class="aviso">⚠️ Registro pessoal, não prescrição. Os lembretes aparecem somente quando esta página está aberta; não são notificações do sistema. Em caso de efeito adverso, procure atendimento médico (SAMU 192). Veja também <a href="interacoes.html">Interações e cuidados</a>.</div>
+  <div class="aviso">⚠️ Registro pessoal, não prescrição. Os lembretes saem com o app ou o site aberto; com o app fechado, só onde o navegador permite (veja Notificações de aplicação) ou pela agenda .ics. Em caso de efeito adverso, procure atendimento médico (SAMU 192). Veja também <a href="interacoes.html">Interações e cuidados</a>.</div>
   <div class="ad-slot" data-slot="meio"></div>
 </main>
 <footer id="rodape"></footer>
@@ -302,6 +302,7 @@
 <script defer src="dados/revisao-pendente.js"></script><script defer src="js/core.js"></script>
 <script defer src="js/i18n.js"></script>
 <script defer src="js/protocolos.js"></script>
+<script defer src="js/notificacoes.js"></script>
 <script defer src="js/ads.js"></script>
 </body>
 </html>

@@ -113,7 +113,11 @@ def main():
     data = data[:ult.end()] + "\n" + "\n".join(ps) + data[ult.end():]
     gravar("data.js", data)
     gravar("data-mecanismos.js", mecs)
-    gravar("data-extra.js", ler("data-extra.js") + "\nObject.assign(EXTRA, {\n" + "\n".join(extra) + "\n});\n")
+    ant = "\nPEPTIDES.forEach(p => {\n  const e = EXTRA[p.nome];"
+    xt = ler("data-extra.js")
+    bloco_extra = "\nObject.assign(EXTRA, {\n" + "\n".join(extra) + "\n});\n"
+    # o laço que aplica EXTRA às fichas deve rodar depois de todos os blocos
+    gravar("data-extra.js", xt.replace(ant, bloco_extra + ant, 1) if ant in xt else xt + bloco_extra)
     gravar("data-detalhes.js", ler("data-detalhes.js") + "\nObject.assign(DETALHES, {\n" + "\n".join(det) + "\n});\n")
     gravar("data-vias.js", ler("data-vias.js") + "\nObject.assign(VIAS, {\n" + "\n".join(vias) + "\n});\n")
     gravar("data-farmaco.js", ler("data-farmaco.js") + "\nObject.assign(FARMACO, {\n" + "\n".join(farm) + "\n});\n")

@@ -1,5 +1,5 @@
 // Rede primeiro (conteúdo sempre atual); se estiver offline, usa o cache.
-const VERSAO = "guia-202611162115";
+const VERSAO = "guia-202611181551";
 const BASE = ["index.html", "style.css", "manifest.webmanifest", "dados/data.js", "dados/data-extra.js", "dados/data-mecanismos.js", "dados/revisoes.js", "dados/aprovacoes.js", "js/core.js", "js/i18n.js", "js/app.js", "js/ads.js", "icons/icon-192.png"];
 
 self.addEventListener("install", e => {
@@ -7,6 +7,14 @@ self.addEventListener("install", e => {
 });
 self.addEventListener("activate", e => {
   e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VERSAO).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+});
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  const alvo = new URL(e.notification.data?.url || "meus-protocolos.html", self.registration.scope).href;
+  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(lista => {
+    const aberta = lista.find(c => c.url.startsWith(alvo.split("#")[0]));
+    return aberta ? aberta.focus() : self.clients.openWindow(alvo);
+  }));
 });
 self.addEventListener("fetch", e => {
   const req = e.request;

@@ -11,7 +11,8 @@ const trecho = (t, ws) => {
 
 function buscar(texto) {
   const ws = norm(texto).split(/\s+/).filter(Boolean);
-  const bate = campos => { const n = norm(campos.join(" ")); return ws.every(w => n.includes(w)); };
+  const so = s => s.replace(/[^a-z0-9]/g, "");
+  const bate = campos => { const n = norm(campos.join(" ")), c = so(n); return ws.every(w => n.includes(w) || (so(w).length > 2 && c.includes(so(w)))); };
   return {
     ws,
     peptideos: PEPTIDES.filter(p => bate([p.nome, p.categoria, p.fase, p.status, p.mecanismo, p.oQueFaz, p.beneficios, p.riscos])),

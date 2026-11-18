@@ -74,6 +74,7 @@ Object.assign(VIAS, {
   "quercetina": [["oral","h"]],
   "slu-pp-332": [],
   "5-amino-1mq": [],
+  "aicar-acadesina": [["iv","h"]],
 });
 Object.assign(LOCAIS_APLIC, { "l-carnitina":["braco"], "acido-alfa-lipoico":["braco"], "n-acetilcisteina-nac":["braco"] });
 Object.assign(VIAS, {

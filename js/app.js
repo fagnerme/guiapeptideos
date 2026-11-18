@@ -13,7 +13,9 @@ const tipoSel = document.getElementById("tipo");
 const ITENS_POR_PAGINA = 40;
 let limiteVisivel = ITENS_POR_PAGINA;
 Object.entries(TIPOS).forEach(([k, s]) => { const o = document.createElement("option"); o.value = k; o.textContent = `${s.icone} ${s.rotulo}`; tipoSel.appendChild(o); });
-document.getElementById("legenda-tipos").innerHTML = Object.values(TIPOS).map(s => `<li><b>${s.icone} ${esc(tr(s.rotulo))}:</b> ${esc(tr(s.def))}</li>`).join("");
+document.getElementById("legenda-tipos").innerHTML = Object.entries(TIPOS).map(([k, s]) => `<li><b>${s.icone} ${esc(tr(s.rotulo))}</b> (${PEPTIDES.filter(p => chaveTipo(p) === k).length}): ${esc(tr(s.def))}</li>`).join("");
+const tituloTipos = document.getElementById("titulo-tipos");
+if (tituloTipos) tituloTipos.textContent = tr("Qual a diferença entre") + " " + Object.values(TIPOS).map(s => s.curto).join(", ").replace(/, ([^,]*)$/, " e $1") + "?";
 Object.entries(ORIGENS).forEach(([k, s]) => { const o = document.createElement("option"); o.value = k; o.textContent = `${s.icone} ${s.rotulo}`; origemSel.appendChild(o); });
 const chaveOrigem = p => Object.keys(ORIGENS).find(k => ORIGENS[k] === origemDe(p));
 const facilChk = document.getElementById("facil-idx");
@@ -65,7 +67,7 @@ function render(alvoSlug = "") {
     (!favSel.checked || ehFav(slug(p.nome))) &&
     (!seloSel.value || chaveSelo(p) === seloSel.value) &&
     (!origemSel.value || chaveOrigem(p) === origemSel.value) &&
-    (!q || (p.nome + " " + p.mecanismo + " " + p.categoria + " " + tipoDe(p).rotulo + " " + p.status).toLowerCase().includes(q))
+    (!q || ((t, c) => t.includes(q) || c.includes(q.replace(/[^a-z0-9]/g, "")))((p.nome + " " + p.mecanismo + " " + p.categoria + " " + tipoDe(p).rotulo + " " + p.status).toLowerCase(), (p.nome + " " + p.mecanismo).toLowerCase().replace(/[^a-z0-9]/g, "")))
   );
   if (ordemSel.value === "fase") itens.sort((a, b) => FASES.indexOf(a.fase) - FASES.indexOf(b.fase) || cmpNome(a, b));
   else if (ordemSel.value === "confianca") itens.sort((a, b) => ORDEM_SELO.indexOf(chaveSelo(a)) - ORDEM_SELO.indexOf(chaveSelo(b)) || cmpNome(a, b));
@@ -131,21 +133,21 @@ document.getElementById("legenda-selos").innerHTML = Object.values(SELOS).map(s 
 
 mostrarAlertas(document.getElementById("alertas"));
 
-/* Aviso de fichas atualizadas automaticamente nos últimos 30 dias (fonte: revisao-pendente.js). */
+/* Aviso das fichas atualizadas na coleta automática mais recente (fonte: revisao-pendente.js). O histórico completo fica em revisao.html. */
 (function avisoAtualizados() {
   if (typeof REVISAO_PENDENTE === "undefined") return;
-  const limite = Date.now() - 30 * 864e5;
+  const ultima = Object.values(REVISAO_PENDENTE).flat().map(x => x.data).sort().pop();
+  if (!ultima) return;
   const recentes = Object.entries(REVISAO_PENDENTE)
-    .map(([s, l]) => [porSlug(s), l.filter(x => Date.parse(x.data) >= limite).sort((a, b) => b.data.localeCompare(a.data))])
-    .filter(([p, l]) => p && l.length)
-    .sort((a, b) => b[1][0].data.localeCompare(a[1][0].data));
+    .map(([s, l]) => [porSlug(s), l.filter(x => x.data === ultima)])
+    .filter(([p, l]) => p && l.length);
   if (!recentes.length) return;
   const caixa = document.createElement("details");
   caixa.className = "boas legenda-tipos";
   caixa.id = "atualizados-recentes";
   caixa.innerHTML = `<summary>🔄 <b>${esc(tr("Atualizadas recentemente"))}</b> (${recentes.length})</summary>
-    <p><small>${esc(tr("Fichas atualizadas automaticamente nos últimos 30 dias a partir das fontes oficiais."))}</small></p>
-    <ul>${recentes.slice(0, 6).map(([p, l]) => `<li><a href="fichas/${esc(slug(p.nome))}.html"><b>${esc(p.nome)}</b></a> · ${esc(l[0].data)} — ${esc(notaAuto(l[0].texto))}</li>`).join("")}</ul>
-    <p><a href="revisao.html">${esc(tr("Ver todas as atualizações"))} →</a></p>`;
+    <p><small>${esc(tr("Fichas atualizadas automaticamente na última coleta, em"))} ${esc(ultima)}.</small></p>
+    <ul>${recentes.slice(0, 5).map(([p, l]) => `<li><a href="fichas/${esc(slug(p.nome))}.html"><b>${esc(p.nome)}</b></a> · ${esc(l[0].data)} — ${esc(notaAuto(l[0].texto))}</li>`).join("")}</ul>
+    <p><a class="btn" href="revisao.html">${esc(tr("Ver mais"))}${recentes.length > 5 ? ` (+${recentes.length - 5})` : ""} →</a></p>`;
   document.getElementById("alertas").before(caixa);
 })();

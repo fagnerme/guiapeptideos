@@ -84,6 +84,24 @@
     <div id="conv-saida" class="conv-saida" aria-live="polite" hidden><span class="conv-big" id="conv-big"></span><span id="conv-conta" class="conv-conta"></span></div>
     <p id="conv-vazio" class="conv-nota">Preencha os passos acima para ver o resultado.</p>
     <p class="conv-nota">⚠️ A potência muda conforme o produto e o fabricante: o rótulo ou a bula sempre prevalecem sobre as referências da lista. Para vitaminas, 1 UI não equivale ao mesmo número de mg em todas as formas.</p></section>
+  <section class="boas nao-imprimir" id="raw"><h3>Calculadora de matéria-prima (RAW): % e mg</h3>
+    <div class="raw-card"><b>🧪 Quanto de ativo fica no meu produto?</b>
+      <div class="conv-form">
+        <label>Tamanho do frasco (mL ou g) <input type="number" id="raw-a-total" min="0" step="any" inputmode="decimal" placeholder="Ex.: 30"></label>
+        <label>Pó que coloquei <span class="raw-qtd"><input type="number" id="raw-a-po" min="0" step="any" inputmode="decimal" placeholder="Ex.: 1" aria-label="Quantidade de pó"><select id="raw-a-un" aria-label="Unidade do pó"><option value="1000">g</option><option value="1">mg</option></select></span></label>
+      </div>
+      <div id="raw-saida" class="conv-saida" aria-live="polite" hidden><span class="conv-big" id="raw-big"></span><span id="raw-conta" class="conv-conta"></span></div>
+      <p id="raw-vazio" class="conv-nota">Preencha o tamanho do frasco e quanto pó colocou.</p>
+      <details class="raw-mais"><summary>Sei a pureza do pó (opcional)</summary>
+        <div class="conv-form"><label>Pureza (%) <small>vem no laudo; sem laudo, deixe 100</small> <input type="number" id="raw-a-pur" min="0" max="100" step="any" inputmode="decimal" value="100"></label></div></details></div>
+    <div class="raw-card"><b>🎯 Quero uma % específica: quanto pó coloco?</b>
+      <div class="conv-form">
+        <label>Tamanho do frasco (mL ou g) <input type="number" id="raw-b-total" min="0" step="any" inputmode="decimal" placeholder="Ex.: 30"></label>
+        <label>% que eu quero <input type="number" id="raw-b-pct" min="0" max="100" step="any" inputmode="decimal" placeholder="Ex.: 1"></label>
+      </div>
+      <div class="conv-saida" aria-live="polite" id="raw-b-saida" hidden><span class="conv-big" id="raw-b-big"></span><span class="conv-conta" id="raw-b-conta"></span></div></div>
+    <p class="conv-nota">Dica: 1% = 10 mg por mL (ou por g). Considera que 1 g ≈ 1 mL.</p>
+    <p class="conv-nota">⚠️ Ferramenta apenas de cálculo, sem sugerir concentração: use a que consta da sua formulação, prescrição ou do fornecedor. Matéria-prima não substitui produto registrado; veja <a href="seguranca.html">Segurança e legalidade</a>.</p></section>
   <div class="ad-slot" data-slot="meio"></div>
 </main>
 <footer id="rodape"></footer>
