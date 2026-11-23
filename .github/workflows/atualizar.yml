@@ -23,9 +23,10 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
       - name: Coletar fontes oficiais (Anvisa, FDA, EMA, Health Canada, ClinicalTrials.gov e PubMed)
@@ -43,9 +44,11 @@ jobs:
         continue-on-error: true
         run: python tools/atualizar_dsld.py --importar --min 300 --limite 10
       - name: Gerar cartões, sitemap e service worker
+        env:
+          SITE_URL: ${{ vars.SITE_URL || 'https://fagnerme.github.io/guiapeptideos' }}
         run: |
-          python tools/gerar_cartoes.py "${{ vars.SITE_URL || 'https://fagnerme.github.io/guiapeptideos' }}"
-          python tools/build.py "${{ vars.SITE_URL || 'https://fagnerme.github.io/guiapeptideos' }}"
+          python tools/gerar_cartoes.py "$SITE_URL"
+          python tools/build.py "$SITE_URL"
       - name: Commit se houver mudanças
         if: always()
         run: |
@@ -53,7 +56,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dados js/core.js tools/novos tools/relatorio_dsld.md sitemap.xml robots.txt sw.js cards "*.html" fichas comparar
           git diff --staged --quiet || git commit -m "chore: atualiza dados ao vivo"
-          # se o main mudou durante o run, os arquivos gerados em conflito ficam com a versão deste run (mais recente)
+          # se o main mudou durante o run, só os arquivos gerados podem ficar com a versão deste run;
+          # se alguém mexeu num arquivo que não é gerado, aborta para não sobrescrever a edição
+          git fetch origin main
+          base=$(git merge-base HEAD origin/main)
+          git diff --name-only "$base" HEAD | sort > /tmp/meus.txt
+          git diff --name-only "$base" origin/main | sort > /tmp/remotos.txt
+          conflito=$(comm -12 /tmp/meus.txt /tmp/remotos.txt | grep -Ev '^(fichas/|cards/|comparar/)|^(sw\.js|sitemap\.xml)$' || true)
+          if [ -n "$conflito" ]; then
+            echo "::error::O main recebeu edições em arquivos que a coleta também alterou; a próxima execução refaz:"
+            echo "$conflito"
+            exit 1
+          fi
           for i in 1 2 3; do
             git pull --rebase --autostash -X theirs origin main || { git rebase --abort; exit 1; }
             git push && exit 0

@@ -248,7 +248,7 @@ function rawMostrar(prefixo, big, conta) {
   $c(prefixo + "big").textContent = big; $c(prefixo + "conta").textContent = conta;
 }
 function rawCalcular() {
-  const total = rawNum("raw-a-total"), po = rawNum("raw-a-po"), un = parseFloat($c("raw-a-un").value), pur = rawNum("raw-a-pur") || 100;
+  const total = rawNum("raw-a-total"), po = rawNum("raw-a-po"), un = parseFloat($c("raw-a-un").value), purNum = rawNum("raw-a-pur"), pur = Number.isFinite(purNum) ? purNum : 100;
   let ok = false;
   if (total > 0 && po > 0 && pur > 0) {
     const mg = po * un, ativo = mg * pur / 100, pct = ativo / total / 10;
@@ -257,7 +257,7 @@ function rawCalcular() {
   } else rawMostrar("raw-", "", "");
   $c("raw-vazio").hidden = ok;
   const tb = rawNum("raw-b-total"), pb = rawNum("raw-b-pct");
-  if (tb > 0 && pb > 0) {
+  if (tb > 0 && pb > 0 && pur > 0) {
     const mg = tb * pb * 10, p = pur;
     rawMostrar("raw-b-", `Coloque ${nf(mg / (p / 100), 1)} mg de pó`, `Isso dá ${nf(mg / (p / 100) / 1000, 3)} g de pó para ${nf(tb, 2)} mL, chegando a ${nf(pb, 2)}%.`);
   } else rawMostrar("raw-b-", "", "");

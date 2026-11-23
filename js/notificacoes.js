@@ -57,11 +57,18 @@ function verificarNotificacoes() {
   if (novas.length) localStorage.setItem(CH_NOTIF_ENVIADAS, JSON.stringify([...enviadas, ...novas].slice(-300)));
 }
 /* Onde houver suporte, deixa as próximas 48 h agendadas no sistema, para avisar com o app fechado. */
+async function cancelarAgendadas() {
+  try {
+    const reg = await navigator.serviceWorker.ready;
+    (await reg.getNotifications({ includeTriggered: false })).forEach(n => n.close());
+  } catch { /* sem service worker: nada agendado */ }
+}
+
 async function agendarFuturas() {
   if (!notifAtiva() || !("showTrigger" in Notification.prototype) || typeof TimestampTrigger === "undefined") return;
   try {
     const reg = await navigator.serviceWorker.ready;
-    (await reg.getNotifications({ includeTriggered: false })).forEach(n => n.close());
+    await cancelarAgendadas();
     agendaProxima(2).filter(ev => ev.quando > Date.now()).forEach(ev =>
       reg.showNotification("💉 Hora da aplicação", { body: textoAplicacao(ev), tag: ev.chave, icon: "icons/icon-192.png", lang: "pt-BR", data: { url: "meus-protocolos.html" }, showTrigger: new TimestampTrigger(ev.quando) }));
   } catch { /* sem suporte real: segue só com a verificação em página aberta */ }
@@ -102,7 +109,7 @@ function montarPainelNotificacoes() {
       <button type="button" class="btn btn-sec" id="notif-ics">📅 Baixar agenda (.ics)</button></p>
       <p id="notif-msg" role="status"><small>${msg || ""}</small></p>`;
     sec.querySelector("#notif-alternar").onclick = async () => {
-      if (notifAtiva()) { localStorage.setItem(CH_NOTIF, "0"); return desenhar("Notificações desativadas."); }
+      if (notifAtiva()) { localStorage.setItem(CH_NOTIF, "0"); cancelarAgendadas(); return desenhar("Notificações desativadas."); }
       const r = Notification.permission === "granted" ? "granted" : await Notification.requestPermission();
       if (r === "granted") { localStorage.setItem(CH_NOTIF, "1"); verificarNotificacoes(); agendarFuturas(); desenhar("Notificações ativadas."); } else desenhar("Permissão não concedida.");
     };
