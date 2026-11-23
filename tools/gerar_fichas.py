@@ -238,7 +238,7 @@ def gerar(site):
                     f'<section class="boas"><h2>Fontes</h2><ul>{fontes}</ul></section>'
                     f'<p><small>Conteúdo educativo, não é orientação médica. Veja a <a href="sobre.html">metodologia e a política editorial</a>.</small></p>'
                     f'</article><p class="prox-ant">{nav}</p></div>')
-        cab = (f'<!DOCTYPE html>\n<html lang="pt-BR">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<base href="../">\n'
+        cab = (f'<!DOCTYPE html>\n<html lang="pt-BR">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta http-equiv="Content-Security-Policy" content="object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">\n<base href="../">\n'
                f'<title>{e(titulo)}</title>\n<meta name="description" content="{e(desc)}">\n'
                '<link rel="manifest" href="manifest.webmanifest">\n<meta name="theme-color" content="#1f3a5f">\n'
                '<link rel="icon" href="icons/icon-192.png">\n<link rel="apple-touch-icon" href="icons/icon-192.png">\n<link rel="stylesheet" href="style.css">\n'
@@ -294,14 +294,14 @@ def gerar_comparacoes(site, itens, familias):
                          f'<a href="fichas/{slug(x["nome"])}.html">Ficha de {e(x["nome"])}</a> · <a href="fichas/{slug(y["nome"])}.html">Ficha de {e(y["nome"])}</a></p>'
                          f'</article></div>')
                 ld = {"@context": "https://schema.org", "@type": "WebPage", "name": titulo, "description": desc, "inLanguage": "pt-BR", "url": url}
-                cab = (f'<!DOCTYPE html>\n<html lang="pt-BR">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<base href="../">\n'
+                cab = (f'<!DOCTYPE html>\n<html lang="pt-BR">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta http-equiv="Content-Security-Policy" content="object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">\n<base href="../">\n'
                        f'<title>{e(titulo)}</title>\n<meta name="description" content="{e(desc)}">\n'
                        '<link rel="manifest" href="manifest.webmanifest">\n<meta name="theme-color" content="#1f3a5f">\n<link rel="icon" href="icons/icon-192.png">\n<link rel="stylesheet" href="style.css">\n'
                        f'<link rel="canonical" href="{url}">\n<meta property="og:type" content="article">\n<meta property="og:title" content="{e(titulo)}">\n'
                        f'<meta property="og:description" content="{e(desc)}">\n<meta property="og:url" content="{url}">\n<meta property="og:image" content="{site}/icons/icon-512.png">\n'
                        f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n</head>\n')
                 pag = resto.replace('<div id="conteudo"></div>', corpo, 1).replace("<body>", "", 1)
-                pag = re.sub(r'<script(?: defer)? src="peptideo.js"></script>', '', pag)
+                pag = re.sub(r'<script(?: defer)? src="(?:js/)?peptideo\.js"></script>', '', pag)
                 (raiz / arq).write_text(cab + "<body>\n" + pag, encoding="utf-8")
                 feitos.append(arq)
     print(f"{len(feitos)} paginas de comparacao geradas")

@@ -492,6 +492,7 @@ async function carregarEstudos(el) {
 
 /* ---- Alertas de mudança nos favoritos (comparam o live-data.json com a última visita) ---- */
 async function alertasFavoritos() {
+  if (!getFavs().length) return [];
   const snap = await snapshot();
   const itens = snap?.itens;
   if (!itens) return [];

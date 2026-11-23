@@ -1,8 +1,8 @@
 // Rede primeiro (conteúdo sempre atual); se estiver offline, usa o cache.
 <<<<<<< Updated upstream
-const VERSAO = "guia-202611231722";
+const VERSAO = "guia-202611231730";
 =======
-const VERSAO = "guia-202611231722";
+const VERSAO = "guia-202611231730";
 >>>>>>> Stashed changes
 const BASE = ["index.html", "style.css", "manifest.webmanifest", "dados/data.js", "dados/data-extra.js", "dados/data-mecanismos.js", "dados/revisoes.js", "dados/aprovacoes.js", "js/core.js", "js/i18n.js", "js/app.js", "js/ads.js", "icons/icon-192.png"];
 
