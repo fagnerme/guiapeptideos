@@ -1107,7 +1107,7 @@ function cartao(x) {
     : !podeRegistrarHoje ? tr("Sem aplicação programada hoje")
       : limiteAtingido ? tr("Meta de hoje atingida") : "";
   const calc = p ? `calculadora.html?p=${encodeURIComponent(x.slug)}${x.via === "im" || x.via === "sc" ? "&via=" + x.via : ""}${x.calc ? "&c=" + encodeURIComponent(JSON.stringify(x.calc)) : ""}` : (x.calc ? `calculadora.html?c=${encodeURIComponent(JSON.stringify(x.calc))}` : "");
-  return `<article class="prot-card st-${x.status}" data-id="${x.id}">
+  return `<article class="prot-card st-${x.status}" data-id="${esc(x.id)}">
     <h3>${p ? `<a href="${urlPeptideo(p.nome)}">${esc(x.nome)}</a>` : esc(x.nome)} <span class="via-tag">${tr(STATUS_P[x.status] || x.status)}</span></h3>
     ${p ? `<p>${htmlSelo(p)}</p>` : ""}
     <p class="prot-resumo">${esc(resumoItem(x)) || `<small>${tr("Sem dose registrada")}</small>`}</p>

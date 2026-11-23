@@ -1,7 +1,7 @@
 /* O site é escrito só em português; outros idiomas vêm do Google Tradutor (iniciarTraducaoAutomatica). */
 const LANG = "pt";
 const LOCALE = "pt-BR";
-const esc = s => { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; };
+const esc = s => { const d = document.createElement("div"); d.textContent = s; return d.innerHTML.replace(/"/g, "&quot;").replace(/'/g, "&#39;"); };
 const semAcento = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const slug = nome => semAcento(nome.toLowerCase()).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 const porSlug = s => PEPTIDES.find(p => slug(p.nome) === s);

@@ -18,7 +18,8 @@ Conteúdo exclusivamente educativo: não é recomendação médica nem sugere do
 | `fichas/` | Uma página HTML por item (gerada) |
 | `comparar/`, `cards/` | Páginas de comparação e cartões (gerados) |
 | `tools/` | Scripts Python de coleta e geração |
-| `.github/workflows/atualizar.yml` | Coleta semanal automática |
+| `.github/workflows/atualizar.yml` | Coleta semanal automática (actions fixadas por SHA; o Dependabot sugere atualizações) |
+| `.github/skills/` | Skills do Copilot (revisão de workflows, acessibilidade, testes no navegador etc.), instaladas do awesome-copilot |
 | `sw.js` | Service worker (rede primeiro, cache offline). Reescrito pelo build |
 
 ## Fluxo de trabalho
@@ -33,6 +34,7 @@ Os tokens de API (openFDA, NCBI) devem ficar em segredos do GitHub, nunca no có
 ## Para fazer
 - Push real para lembretes com o app fechado (servidor Web Push).
 - Revisão dos textos por IA: `tools/revisar_ia.py` está pronto (Google Gemini gratuito, secret `GEMINI_API_KEY`, cerca de 18 itens por rodada pela cota de 20/dia), mas fora do workflow. Para ativar, adicionar um passo `python tools/revisar_ia.py` antes de "Gerar cartões" em `.github/workflows/atualizar.yml`.
+- Política de segurança de conteúdo (CSP) completa: hoje só `object-src`, `base-uri` e `form-action` estão restritos nas páginas; `script-src` exige testar o AdSense e o Tradutor do Google.
 - Preencher os IDs de bloco do AdSense em `js/ads.js`.
 - Revisar textos dos itens adicionados manualmente, conferindo as fontes.
 

@@ -176,7 +176,7 @@ const slugCtx = new URLSearchParams(location.search).get("p");
 })();
 function desenharProt() {
   const l = lerProtocolos().filter(x => x.calc).slice(-5).reverse();
-  $c("prot-lista").innerHTML = l.length ? l.map(x => `<li><b>${esc(x.nome)}</b> <small>${esc(x.dose ? nf(x.dose, 2) + " " + x.unid : "")}</small> <button type="button" class="btn" data-ac="abrir" data-id="${x.id}">Abrir</button></li>`).join("") : "<li><small>Nenhum protocolo salvo ainda.</small></li>";
+  $c("prot-lista").innerHTML = l.length ? l.map(x => `<li><b>${esc(x.nome)}</b> <small>${esc(x.dose ? nf(x.dose, 2) + " " + x.unid : "")}</small> <button type="button" class="btn" data-ac="abrir" data-id="${esc(x.id)}">Abrir</button></li>`).join("") : "<li><small>Nenhum protocolo salvo ainda.</small></li>";
 }
 $c("prot-salvar").addEventListener("click", () => {
   const nome = $c("prot-nome").value.trim() || "Sem nome", cat = PEPTIDES.find(p => semAcento(p.nome.toLowerCase()) === semAcento(nome.toLowerCase())), l = lerProtocolos(), hoje = new Date().toISOString().slice(0, 10);

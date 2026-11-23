@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
 <title>Guia Educativo de Peptídeos, Hormônios e Suplementos</title>
 <meta name="description" content="Guia educativo sobre peptídeos, hormônios, vitaminas, minerais, NAD+ e suplementos: evidências, riscos e informações regulatórias.">
 <link rel="manifest" href="manifest.webmanifest">
@@ -29,10 +30,10 @@
 <header id="topo"></header>
 <main>
   <div class="filtros">
-    <input id="busca" type="search" placeholder="Buscar substância, mecanismo, categoria...">
+    <input id="busca" type="search" aria-label="Buscar no cat?logo" placeholder="Buscar substância, mecanismo, categoria...">
     <select id="tipo" aria-label="Tipo de substância"><option value="">Todos os tipos</option></select>
-    <select id="fase"><option value="">Todas as fases</option></select>
-    <select id="categoria"><option value="">Todas as categorias</option></select>
+    <select id="fase" aria-label="Fase de desenvolvimento"><option value="">Todas as fases</option></select>
+    <select id="categoria" aria-label="Categoria"><option value="">Todas as categorias</option></select>
     <select id="selo" aria-label="Nível de confiança"><option value="">Todos os níveis de confiança</option></select>
     <select id="origem" aria-label="Origem do texto"><option value="">Qualquer origem do texto</option></select>
     <select id="ordem" aria-label="Ordenar"><option value="az">Ordem A–Z</option><option value="fase">Ordenar por fase</option><option value="confianca">Ordenar por confiança</option></select>
