@@ -2288,6 +2288,11 @@ const REVISAO_PENDENTE = {
  "aldosterona": [
   {
    "data": "2026-11-23",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-23",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 392 → 392; fase 1/2/3 18/47/50 → 18/47/50; recrutando 45 → 46; registro mais recente 2026-11-23.",
    "fato": "2026-11-23"
@@ -6958,6 +6963,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "sodio": [
+  {
+   "data": "2026-11-23",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",

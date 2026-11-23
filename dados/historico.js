@@ -2,6 +2,20 @@
 const HISTORICO_AUTO = [
  {
   "data": "2026-11-23",
+  "slug": "aldosterona",
+  "nome": "Aldosterona",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-23",
+  "slug": "sodio",
+  "nome": "Sódio",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-23",
   "slug": "semaglutida",
   "nome": "Semaglutida",
   "tipo": "estudos",
@@ -2298,20 +2312,5 @@ const HISTORICO_AUTO = [
   "tipo": "conteudo",
   "texto": "Bula da FDA atualizada (2026-09-10 → 2026-10-30). Reveja riscos e status.",
   "fato": "2026-10-30"
- },
- {
-  "data": "2026-11-18",
-  "slug": "vitamina-d3-colecalciferol",
-  "nome": "Vitamina D3 (colecalciferol)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3320 → 3321; fase 1/2/3 204/483/391 → 204/483/391; recrutando 162 → 161; registro mais recente 2026-11-18.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "vitamina-b12-cobalamina",
-  "nome": "Vitamina B12 (cobalamina)",
-  "tipo": "seguranca",
-  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
  }
 ];
