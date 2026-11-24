@@ -781,6 +781,11 @@ const REVISAO_PENDENTE = {
  ],
  "insulina": [
   {
+   "data": "2026-11-24",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4804 → 4811 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-23",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 8264 → 8269; fase 1/2/3 787/990/935 → 787/990/935; recrutando 521 → 523; registro mais recente 2026-11-23.",
@@ -968,6 +973,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "glutationa": [
+  {
+   "data": "2026-11-24",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3701 → 3709 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",
@@ -1291,6 +1301,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "melatonina": [
+  {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",
@@ -1885,6 +1900,16 @@ const REVISAO_PENDENTE = {
  ],
  "zinco": [
   {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-24",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2549 → 2555 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-23",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1149 → 1150; fase 1/2/3 70/153/148 → 70/153/148; recrutando 80 → 79; registro mais recente 2026-11-23.",
@@ -1979,6 +2004,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "ferro": [
+  {
+   "data": "2026-11-24",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3960 → 3972 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",
@@ -2325,6 +2355,16 @@ const REVISAO_PENDENTE = {
   }
  ],
  "cobre": [
+  {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-24",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2243 → 2251 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",
@@ -4998,6 +5038,11 @@ const REVISAO_PENDENTE = {
  ],
  "calcio": [
   {
+   "data": "2026-11-24",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4233 → 4244 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-23",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -5078,6 +5123,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "potassio": [
+  {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",
@@ -6964,6 +7014,16 @@ const REVISAO_PENDENTE = {
  ],
  "sodio": [
   {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "3 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-24",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (5773 → 5783 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-23",
    "tipo": "conteudo",
    "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
@@ -7514,6 +7574,16 @@ const REVISAO_PENDENTE = {
  ],
  "acido-graxo": [
   {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-24",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2519 → 2525 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-23",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 6437 → 6437; fase 1/2/3 671/1391/985 → 671/1391/985; recrutando 391 → 391; registro mais recente 2026-11-23.",
@@ -7523,6 +7593,13 @@ const REVISAO_PENDENTE = {
    "data": "2026-11-23",
    "tipo": "seguranca",
    "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2513 → 2519 no último ano). Reveja riscos."
+  }
+ ],
+ "romiplostim": [
+  {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
   }
  ]
 };

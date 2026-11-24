@@ -1,6 +1,125 @@
 /* Gerado por tools/atualizar.py: mudanças detectadas entre coletas. */
 const HISTORICO_AUTO = [
  {
+  "data": "2026-11-24",
+  "slug": "insulina",
+  "nome": "Insulina",
+  "tipo": "conteudo",
+  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "insulina",
+  "nome": "Insulina",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4804 → 4811 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "glutationa",
+  "nome": "Glutationa",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3701 → 3709 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "melatonina",
+  "nome": "Melatonina",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "zinco",
+  "nome": "Zinco",
+  "tipo": "conteudo",
+  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "zinco",
+  "nome": "Zinco",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2549 → 2555 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "ferro",
+  "nome": "Ferro",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "ferro",
+  "nome": "Ferro",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3960 → 3972 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "calcio",
+  "nome": "Cálcio",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4233 → 4244 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "potassio",
+  "nome": "Potássio",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "cobre",
+  "nome": "Cobre",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "cobre",
+  "nome": "Cobre",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2243 → 2251 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "sodio",
+  "nome": "Sódio",
+  "tipo": "conteudo",
+  "texto": "3 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "sodio",
+  "nome": "Sódio",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (5773 → 5783 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "romiplostim",
+  "nome": "Romiplostim",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "acido-graxo",
+  "nome": "Ácido graxo",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "acido-graxo",
+  "nome": "Ácido graxo",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2519 → 2525 no último ano). Reveja riscos."
+ },
+ {
   "data": "2026-11-23",
   "slug": "aldosterona",
   "nome": "Aldosterona",
@@ -2180,137 +2299,5 @@ const HISTORICO_AUTO = [
   "tipo": "estudos",
   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1039 → 1039; fase 1/2/3 106/280/181 → 106/280/181; recrutando 99 → 99; registro mais recente 2026-11-18.",
   "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "testosterona",
-  "nome": "Testosterona",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-10-22 → 2026-11-10). Reveja riscos e status.",
-  "fato": "2026-11-10"
- },
- {
-  "data": "2026-11-18",
-  "slug": "testosterona",
-  "nome": "Testosterona",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-18",
-  "slug": "testosterona",
-  "nome": "Testosterona",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1156 → 1165 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-18",
-  "slug": "estradiol",
-  "nome": "Estradiol",
-  "tipo": "aprovacao",
-  "texto": "Registro de aprovação no Drugs@FDA mudou."
- },
- {
-  "data": "2026-11-18",
-  "slug": "estradiol",
-  "nome": "Estradiol",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2028 → 2029; fase 1/2/3 437/569/358 → 438/570/358; recrutando 208 → 209; registro mais recente 2026-11-18.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "estradiol",
-  "nome": "Estradiol",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-06 → 2026-11-10). Reveja riscos e status.",
-  "fato": "2026-11-10"
- },
- {
-  "data": "2026-11-18",
-  "slug": "progesterona",
-  "nome": "Progesterona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1265 → 1265; fase 1/2/3 103/273/214 → 103/273/214; recrutando 124 → 124; registro mais recente 2026-11-18.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "hidrocortisona-cortisol",
-  "nome": "Hidrocortisona (cortisol)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1602 → 1606; fase 1/2/3 134/264/163 → 134/264/163; recrutando 176 → 176; registro mais recente 2026-11-18.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "dhea-prasterona",
-  "nome": "DHEA (prasterona)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 141 → 142; fase 1/2/3 12/35/47 → 12/35/47; recrutando 7 → 7; registro mais recente 2026-11-17.",
-  "fato": "2026-11-17"
- },
- {
-  "data": "2026-11-18",
-  "slug": "levotiroxina-t4",
-  "nome": "Levotiroxina (T4)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 342 → 342; fase 1/2/3 41/44/37 → 41/44/37; recrutando 29 → 30; registro mais recente 2026-11-18.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "levotiroxina-t4",
-  "nome": "Levotiroxina (T4)",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-09 → 2026-11-12). Reveja riscos e status.",
-  "fato": "2026-11-12"
- },
- {
-  "data": "2026-11-18",
-  "slug": "liotironina-t3",
-  "nome": "Liotironina (T3)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 909 → 912; fase 1/2/3 80/98/46 → 81/98/46; recrutando 117 → 118; registro mais recente 2026-11-18.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "liotironina-t3",
-  "nome": "Liotironina (T3)",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-02 → 2026-11-12). Reveja riscos e status.",
-  "fato": "2026-11-12"
- },
- {
-  "data": "2026-11-18",
-  "slug": "melatonina",
-  "nome": "Melatonina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 730 → 730; fase 1/2/3 55/154/100 → 55/154/100; recrutando 89 → 89; registro mais recente 2026-11-18.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "glucagon",
-  "nome": "Glucagon",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1541 → 1544; fase 1/2/3 242/308/252 → 242/310/253; recrutando 196 → 197; registro mais recente 2026-11-18.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-18",
-  "slug": "glucagon",
-  "nome": "Glucagon",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2250 → 2268 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-18",
-  "slug": "calcitonina",
-  "nome": "Calcitonina",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-09-10 → 2026-10-30). Reveja riscos e status.",
-  "fato": "2026-10-30"
  }
 ];
