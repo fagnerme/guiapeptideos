@@ -296,3 +296,17 @@ document.querySelectorAll("#raw input, #raw select").forEach(i => i.addEventList
 })();
 desenharProt();
 desenhar();
+/* Faixa fixa no celular: mantém o volume visível enquanto o resultado completo está fora da tela */
+(function faixa() {
+  const f = $c("calc-faixa"), res = document.querySelector(".calc-res"), dest = $c("destaque"), painel = $c("aba-reconst");
+  let visivel = true;
+  function atualizar() {
+    const txt = dest.textContent.trim(), tem = txt && txt !== "—" && txt !== "Escolha a dose";
+    f.textContent = "💉 " + txt;
+    f.classList.toggle("on", !visivel && tem && !painel.hidden);
+  }
+  new IntersectionObserver(([e]) => { visivel = e.isIntersecting; atualizar(); }).observe(res);
+  new MutationObserver(atualizar).observe(dest, { childList: true, characterData: true, subtree: true });
+  new MutationObserver(atualizar).observe(painel, { attributes: true, attributeFilter: ["hidden"] });
+  atualizar();
+})();
