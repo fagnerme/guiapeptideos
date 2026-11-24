@@ -7,7 +7,7 @@ from urllib.parse import quote
 
 raiz = pathlib.Path(__file__).resolve().parent.parent
 CACHE = raiz / "tools" / "_pep.json"
-NOME_SITE = "Guia Educativo de Peptídeos, Hormônios e Suplementos"
+NOME_SITE = "Guia de Peptídeos, Hormônios e Suplementos"
 SCRIPTS = ["dados/data.js", "dados/data-extra.js", "dados/data-timeline.js", "dados/data-mecanismos.js", "dados/data-alegacoes.js", "dados/data-mudancas.js",
            "dados/historico.js", "dados/aprovacoes.js", "dados/data-vias.js", "dados/data-alvos.js", "dados/data-farmaco.js", "dados/data-interacoes.js",
            "dados/data-detalhes.js", "js/core.js"]

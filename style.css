@@ -36,7 +36,7 @@ dd{margin:0 0 0 1rem}
 .ad-slot:empty{display:none}
 .ad-label{display:block;opacity:.6;font-size:.7rem}
 footer{text-align:center;padding:1.5rem;opacity:.8}
-.consent{position:fixed;bottom:0;left:0;right:0;background:var(--card);color:var(--fg);padding:.8rem 1rem;box-shadow:0 -2px 8px #0004;display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;z-index:10}
+.consent{position:fixed;bottom:0;left:0;right:0;background:var(--card);color:var(--fg);padding:.8rem 1rem;box-shadow:0 -2px 8px #0004;display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;z-index:80}
 .consent span{flex:1;min-width:220px}
 .consent button{padding:.5rem 1rem;border-radius:6px;border:1px solid #888;cursor:pointer}
 a.home{color:inherit;text-decoration:none}
@@ -1162,3 +1162,16 @@ header .aviso,header p.aviso{display:block;max-width:44rem;margin:.9rem auto;pad
 .chip-filtro:hover,.chip-filtro:focus-visible{border-color:var(--azul);outline:none}
 .chip-limpar{background:transparent;font-weight:650;color:var(--azul)}
 @media print{#progresso-leitura{display:none}}
+
+/* Cabeçalho compacto no celular: o conteúdo aparece mais cedo */
+.auto-trad>summary{cursor:pointer;font-weight:600;list-style:none}
+.auto-trad>summary::-webkit-details-marker{display:none}
+@media (min-width:760px){.auto-trad>summary{display:none}}
+@media (max-width:759px){
+  header .aviso{margin:.5rem auto;padding:.5rem .75rem;font-size:.82rem;line-height:1.35}
+  .aviso .aviso-1{font-size:.9rem}
+  header h1{font-size:1.35rem;margin:.4rem 0}
+  .auto-trad{margin:.4rem 0;padding:.4rem .7rem}
+  header nav>a,.nav-mais>summary{min-height:34px;padding:.25rem .6rem;font-size:.9rem}
+  header nav{line-height:1.5}
+}

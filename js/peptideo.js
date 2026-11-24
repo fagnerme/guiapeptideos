@@ -137,11 +137,11 @@ function montarMenuFicha() {
 
 if (!p) {
   seoNaoIndexar();
-  document.title = "Item não encontrado — Guia Educativo de Peptídeos, Hormônios e Suplementos";
+  document.title = "Item não encontrado — Guia de Peptídeos, Hormônios e Suplementos";
   alvo.innerHTML = `<section class="boas"><h2>${tr("Item não encontrado")}</h2><p><a href="index.html">${tr("Voltar ao catálogo")}</a></p></section>`;
 } else {
   const desc = `${p.nome}: ${p.oQueFaz} Fase: ${p.fase}. Conteúdo educativo.`;
-  document.title = `${p.nome} — o que é, evidências e riscos | Guia Educativo de Peptídeos, Hormônios e Suplementos`;
+  document.title = `${p.nome} — o que é, evidências e riscos | Guia de Peptídeos, Hormônios e Suplementos`;
   document.querySelector('meta[name="description"]').content = desc;
   const faq = faqDe(p);
   seoAtualizar("fichas/" + slug(p.nome) + ".html", [
@@ -214,7 +214,7 @@ if (!p) {
   });
   document.getElementById("compartilhar").addEventListener("click", async e => {
     const url = new URL("fichas/" + slug(p.nome) + ".html", document.baseURI).href;
-    if (navigator.share) { try { await navigator.share({ title: p.nome + " — Guia Educativo de Peptídeos, Hormônios e Suplementos", url }); return; } catch { return; } }
+    if (navigator.share) { try { await navigator.share({ title: p.nome + " — Guia de Peptídeos, Hormônios e Suplementos", url }); return; } catch { return; } }
     try { await navigator.clipboard.writeText(url); e.currentTarget.textContent = "✅ Link copiado"; } catch { prompt("Copie o link:", url); }
   });
   const art = alvo.querySelector(".pagina-pep"), btnF = document.getElementById("facil");

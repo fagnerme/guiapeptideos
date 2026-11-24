@@ -60,7 +60,7 @@ function jogar(fam) {
       if (!nome) return document.getElementById("nome-cert").focus();
       cert.hidden = false;
       cert.innerHTML = `<h2>Certificado de estudo</h2><p>Certificamos que <b>${esc(nome)}</b> concluiu o quiz educativo da família <b>${esc(tr(fam.nome))}</b> com ${pct}% de acertos, em ${new Date().toLocaleDateString()}.</p>
-        <p><small>Documento de autoestudo do Guia Educativo de Peptídeos, Hormônios e Suplementos. Não é certificação profissional nem valida competência clínica.</small></p>
+        <p><small>Documento de autoestudo do Guia de Peptídeos, Hormônios e Suplementos. Não é certificação profissional nem valida competência clínica.</small></p>
         <p class="nao-imprimir"><button class="btn" id="imp">ðŸ–¨ï¸ Imprimir / salvar em PDF</button></p>`;
       document.getElementById("imp").addEventListener("click", () => { document.body.classList.add("imprimindo-cert"); window.print(); document.body.classList.remove("imprimindo-cert"); });
       cert.scrollIntoView();

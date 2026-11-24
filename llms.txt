@@ -1,4 +1,4 @@
-# Guia Educativo de Peptídeos, Hormônios e Suplementos
+# Guia de Peptídeos, Hormônios e Suplementos
 
 > Guia em português do Brasil, gratuito e sem fins de aconselhamento médico. Reúne fichas educativas de cerca de 800 substâncias (peptídeos, hormônios, suplementos e medicamentos) com o que são, evidências, riscos e situação regulatória (Anvisa, FDA, EMA e Health Canada), além de calculadoras e ferramentas de estudo. Os dados regulatórios são coletados automaticamente toda semana de fontes oficiais. Não fornece prescrição, dose recomendada nem orientação de uso: sempre consulte um profissional de saúde.
 

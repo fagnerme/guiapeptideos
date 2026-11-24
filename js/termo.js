@@ -6,7 +6,7 @@ if (!g) {
   seoNaoIndexar();
   alvo.innerHTML = `<h2>Termo não encontrado</h2><p><a href="glossario.html">Ver o glossário completo</a></p>`;
 } else {
-  document.title = `${g.termo}: o que significa | Guia Educativo de Peptídeos, Hormônios e Suplementos`;
+  document.title = `${g.termo}: o que significa | Guia de Peptídeos, Hormônios e Suplementos`;
   document.querySelector('meta[name="description"]').content = `${g.termo}: ${g.def}`.slice(0, 300);
   document.getElementById("mig-termo").textContent = g.termo;
   seoAtualizar("termo.html?t=" + new URLSearchParams(location.search).get("t"), [

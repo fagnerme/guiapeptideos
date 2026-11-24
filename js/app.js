@@ -247,6 +247,7 @@ document.getElementById("az").addEventListener("click", e => {
 });
 montarMenu();
 montarSugestoes();
+if (matchMedia("(hover:hover)").matches) busca.placeholder += " (tecle /)";
 lerFiltrosUrl();
 render();
 

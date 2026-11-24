@@ -9,7 +9,7 @@ HEAD = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">
-<title>{titulo} — Guia Educativo de Peptídeos, Hormônios e Suplementos</title>
+<title>{titulo} — Guia de Peptídeos, Hormônios e Suplementos</title>
 <meta name="description" content="{desc}">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#1f3a5f">

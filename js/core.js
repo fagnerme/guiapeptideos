@@ -722,7 +722,7 @@ function montarLayout(titulo) {
   const topo = document.getElementById("topo");
   if (topo) {
     topo.innerHTML = `<div class="topo-acoes"><button type="button" id="instalar-app" class="btn btn-pwa" title="Instalar no celular e usar offline">📲 Instalar app</button><button id="tema" type="button" aria-label="Alternar tema">🌓</button></div>
-      <h1><a href="index.html" class="home">${esc(titulo || "Guia Educativo de Peptídeos, Hormônios e Suplementos")}</a></h1>
+      <h1><a href="index.html" class="home">${esc(titulo || "Guia de Peptídeos, Hormônios e Suplementos")}</a></h1>
       <p class="aviso"><span class="aviso-1">⚠️ Conteúdo exclusivamente educativo.</span> <span class="aviso-2">Não é recomendação médica nem fornece doses de autoadministração.</span></p>
       <form class="busca-global" action="buscar.html" role="search"><input type="search" name="q" placeholder="Buscar em todo o guia..." aria-label="Buscar em todo o guia"><button type="submit" aria-label="Buscar">🔍</button></form>
       <nav aria-label="Principal">${NAV_PRINCIPAL.map(([h, n]) => `<a href="${h}"${location.pathname.endsWith("/" + h) ? ' aria-current="page"' : ""}>${n}</a>`).join(" ")}
@@ -963,9 +963,13 @@ function marcarNaoTraduzir() {
 }
 function iniciarTraducaoAutomatica(topo) {
   if (!topo) return;
-  const caixa = document.createElement("div");
+  const caixa = document.createElement("details");
   caixa.className = "auto-trad nao-imprimir";
-  caixa.innerHTML = `<p><small>🌐 Tradutor do Google (escolha o idioma abaixo). Tradução automática, sem revisão humana: ao traduzir, o texto da página é enviado ao Google. Em saúde, confira termos e avisos no original em português. Avisos de segurança e a calculadora não são traduzidos.</small></p><div id="google_translate_element"></div>`;
+  caixa.innerHTML = `<summary>🌐 Traduzir esta página</summary><p><small>Tradutor do Google (escolha o idioma abaixo). Tradução automática, sem revisão humana: ao traduzir, o texto da página é enviado ao Google. Em saúde, confira termos e avisos no original em português. Avisos de segurança e a calculadora não são traduzidos.</small></p><div id="google_translate_element"></div>`;
+  const mqTrad = matchMedia("(min-width:760px)");
+  const sincTrad = () => { caixa.open = mqTrad.matches; };
+  sincTrad();
+  mqTrad.addEventListener("change", sincTrad);
   topo.appendChild(caixa);
   marcarNaoTraduzir();
   new MutationObserver(() => marcarNaoTraduzir()).observe(document.body, { childList: true, subtree: true });
