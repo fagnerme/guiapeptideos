@@ -1182,3 +1182,33 @@ header .aviso,header p.aviso{display:block;max-width:44rem;margin:.9rem auto;pad
 .topo-acoes .goog-te-gadget-simple{padding:.35rem .6rem!important;border-radius:999px!important;font-size:.85rem!important}
 .auto-trad{margin:.3rem 0;padding:.25rem .7rem;text-align:center}
 .auto-trad>summary{font-size:.8rem;font-weight:500;opacity:.85}
+
+/* Fichas: blocos escaneáveis (ícone, cor por tipo e texto mais leve) */
+.conteudo-ficha section.boas{--acento:var(--menta);border-left:5px solid var(--acento);padding:1.1rem 1.3rem}
+.conteudo-ficha section.boas[data-bloco=risco]{--acento:#dc2626}
+.conteudo-ficha section.boas[data-bloco=beneficio]{--acento:#16a34a}
+.conteudo-ficha section.boas[data-bloco=ciencia]{--acento:#2563eb}
+.conteudo-ficha section.boas[data-bloco=simples]{--acento:#7c3aed}
+.conteudo-ficha section.boas[data-bloco=oficial]{--acento:#0b7fa5}
+.conteudo-ficha section.boas[data-bloco=fontes]{--acento:#64748b}
+.conteudo-ficha section.boas[data-bloco=auto]{--acento:#d99a00}
+.conteudo-ficha section.boas>h2{display:flex;align-items:center;gap:.55rem;font-size:1.2rem;margin:0 0 .7rem}
+.bloco-icone{display:inline-grid;place-items:center;flex:none;width:2rem;height:2rem;border-radius:10px;background:color-mix(in srgb,var(--acento) 16%,transparent);font-size:1.05rem}
+.conteudo-ficha section.boas p,.conteudo-ficha section.boas li{line-height:1.7}
+.conteudo-ficha section.boas ul,.conteudo-ficha section.boas ol{padding-left:1.3rem}
+.conteudo-ficha section.boas li+li{margin-top:.35rem}
+.detalhes-ricos h3{margin:1.2rem 0 .4rem;font-size:1rem;color:var(--acento);text-transform:uppercase;letter-spacing:.04em}
+.detalhes-ricos h3:first-of-type{margin-top:.4rem}
+.detalhes-ricos ol{list-style:none;counter-reset:passo;padding-left:0}
+.detalhes-ricos ol>li{counter-increment:passo;position:relative;padding:.1rem 0 .1rem 2.4rem;min-height:1.8rem}
+.detalhes-ricos ol>li::before{content:counter(passo);position:absolute;left:0;top:.1rem;width:1.7rem;height:1.7rem;border-radius:50%;background:var(--acento);color:#fff;font-weight:700;font-size:.85rem;display:grid;place-items:center}
+/* Novidades nas fontes */
+.sinais-sub{margin:0 0 .6rem;color:var(--sec);font-size:.9rem}
+.sinais-lista{list-style:none;margin:0;padding:0!important}
+.sinal{display:flex;gap:.8rem;align-items:flex-start;padding:.55rem 0;border-top:1px solid rgba(0,0,0,.08)}
+.sinal:first-child{border-top:0}
+.sinal-data{flex:none;min-width:5.6rem;padding:.15rem .5rem;border-radius:999px;background:rgba(217,154,0,.2);font-size:.8rem;font-weight:700;text-align:center}
+.sinal-corpo{display:flex;flex-direction:column;gap:.1rem}
+.sinais-mais{margin:.4rem 0}
+.sinais-mais>summary{cursor:pointer;font-weight:600}
+@media (max-width:759px){.sinal{flex-direction:column;gap:.3rem}.conteudo-ficha section.boas{padding:1rem}}

@@ -26,16 +26,62 @@ function htmlOficiais(p) {
 }
 function htmlRevisaoHumana(p) {
   const s = slug(p.nome), rev = typeof REVISOES !== "undefined" && REVISOES[s];
-  const pend = (typeof REVISAO_PENDENTE !== "undefined" && REVISAO_PENDENTE[s]) || [];
   const linha = rev
     ? `<small class="revisao">✔️ Revisado por ${esc(rev.por)} em ${dataBR(rev.data)}</small>`
     : "";
-  const aviso = pend.length ? `<section class="boas aviso-det"><h2>Atualizado automaticamente: sinais nas fontes</h2><ul>${pend.slice(0, 4).map(x => `<li>${esc(datasSinal(x))} — ${esc(typeof notaAuto === "function" ? notaAuto(x.texto) : x.texto)}</li>`).join("")}</ul><p><small>O status regulatório, os dados de estudos e os sinais documentados de segurança são atualizados em cada coleta, com data e fonte. Textos editoriais não são inferidos de contagens. Confira nas fontes oficiais.</small></p></section>` : "";
   const auto = typeof AUTO_DADOS !== "undefined" && AUTO_DADOS.includes(s)
     ? `<section class="boas aviso-det"><h2>Dados do ChEMBL</h2><p>Fase, mecanismo e indicações desta ficha vêm do ChEMBL, base de dados pública do EMBL-EBI. Confira a bula e os órgãos reguladores antes de qualquer decisão.</p></section>` : "";
   const dsld = typeof DSLD_DADOS !== "undefined" && DSLD_DADOS.includes(s)
     ? `<section class="boas aviso-det"><h2>${tr("Ficha automática: DSLD (NIH) e Wikipédia")}</h2><p>${tr("Este ativo foi identificado no DSLD, base pública do NIH sobre rótulos de suplementos. O texto de apresentação é adaptado da Wikipédia (licença CC BY-SA 4.0; link nas fontes) e a fase vem do ClinicalTrials.gov. Não há avaliação editorial de benefícios e riscos: confira as fontes e converse com um profissional de saúde.")}</p></section>` : "";
-  return `${linha ? `<p>${linha}</p>` : ""}${auto}${dsld}${aviso}`;
+  return `${linha ? `<p>${linha}</p>` : ""}${auto}${dsld}`;
+}
+/* Novidades das coletas automáticas em linguagem direta: data, tipo e uma frase curta. Fica depois do conteúdo principal. */
+const ROTULO_SINAL = { aprovacao: "✅ Aprovação", seguranca: "⚠️ Segurança", estudos: "🧪 Estudos", conteudo: "📚 Pesquisa", fase: "🔬 Fase" };
+function frasesSinal(x) {
+  const ct = /estudos \d+ → (\d+).*recrutando \d+ → (\d+)/.exec(x.texto);
+  if (ct) return `ClinicalTrials.gov: ${ct[1]} estudos registrados, ${ct[2]} recrutando agora.`;
+  return (typeof notaAuto === "function" ? notaAuto(x.texto) : x.texto).replace(/\s*Reveja [^.]*\.?$/, "").trim();
+}
+function htmlSinais(p) {
+  const pend = ((typeof REVISAO_PENDENTE !== "undefined" && REVISAO_PENDENTE[slug(p.nome)]) || []).slice().sort((a, b) => b.data.localeCompare(a.data));
+  if (!pend.length) return "";
+  let viuEstudos = false;
+  const itens = pend.filter(x => {
+    if (!/ClinicalTrials/.test(x.texto)) return true;
+    if (viuEstudos) return false;
+    viuEstudos = true;
+    return true;
+  });
+  const li = x => `<li class="sinal"><span class="sinal-data">${esc(dataMarco(x.data))}</span><span class="sinal-corpo"><b>${esc(ROTULO_SINAL[x.tipo] || x.tipo)}</b><span>${esc(frasesSinal(x))}</span></span></li>`;
+  return `<section class="boas aviso-det sinais"><h2>Novidades nas fontes</h2>
+    <p class="sinais-sub">Avisos automáticos de bases públicas, do mais novo para o mais antigo.</p>
+    <ul class="sinais-lista">${itens.slice(0, 3).map(li).join("")}</ul>
+    ${itens.length > 3 ? `<details class="sinais-mais"><summary>Ver mais ${itens.length - 3} aviso(s)</summary><ul class="sinais-lista">${itens.slice(3).map(li).join("")}</ul></details>` : ""}
+    <p><small>Isso é só um aviso de que algo mudou nas fontes: não prova benefício nem segurança. Confira nas fontes oficiais.</small></p></section>`;
+}
+/* Ícone e cor por tipo de bloco, para a ficha ser escaneável sem ler tudo. */
+const BLOCOS_ESTILO = [
+  [/riscos|alertas de seguran|interações|cuidados/i, "⚠️", "risco"],
+  [/benef[ií]cios/i, "✅", "beneficio"],
+  [/evid[eê]ncia/i, "🔬", "ciencia"],
+  [/mecanismo|age em|molecular|vias/i, "⚙️", "ciencia"],
+  [/palavras simples/i, "💬", "simples"],
+  [/o que faz|entenda melhor/i, "🎯", "simples"],
+  [/novidades|resumo autom|atualiza[cç][aã]o autom|dados ao vivo|estudos recentes|dados do chembl|ficha autom/i, "🔄", "auto"],
+  [/situa[cç][aã]o nas fontes|status/i, "🏛️", "oficial"],
+  [/fontes|oficiais|citar/i, "📚", "fontes"],
+  [/dura[cç][aã]o|protocolo|linha do tempo/i, "🕰️", "info"],
+  [/perguntas/i, "❓", "info"]
+];
+function decorarBlocos() {
+  alvo.querySelectorAll(".conteudo-ficha section.boas").forEach(sec => {
+    const h = sec.querySelector(":scope > h2");
+    if (!h || sec.dataset.decorado) return;
+    const est = BLOCOS_ESTILO.find(([re]) => re.test(h.textContent));
+    sec.dataset.decorado = "1";
+    sec.dataset.bloco = est ? est[2] : "info";
+    h.insertAdjacentHTML("afterbegin", `<span class="bloco-icone" aria-hidden="true">${est ? est[1] : "📄"}</span> `);
+  });
 }
 function htmlCitar(p) {
   const raiz = (document.querySelector('meta[name="site-root"]')?.content || location.origin).replace(/\/$/, "");
@@ -62,8 +108,10 @@ montarLayout();
 const alvo = document.getElementById("conteudo");
 const p = porSlug(window.PEP_SLUG || new URLSearchParams(location.search).get("p") || "");
 
+/* As notas automáticas coladas no texto ([Atualização automática ...]) aparecem no bloco "Novidades nas fontes"; no texto corrido elas só atrapalham a leitura. */
+const semNotasAuto = t => String(t).replace(/\s*\[Atualização automática[^\]]*\]/g, "").replace(/\.(\s*\.)+/g, ".").trim();
 function secao(titulo, texto, classe = "", tipo = "") {
-  return `<section class="boas ${classe}"><h2>${titulo}</h2><p>${comGlossario(texto)}</p>${tipo ? `<p>${verificar(p, tipo)}</p>` : ""}</section>`;
+  return `<section class="boas ${classe}"><h2>${titulo}</h2><p>${comGlossario(semNotasAuto(texto))}</p>${tipo ? `<p>${verificar(p, tipo)}</p>` : ""}</section>`;
 }
 
 function htmlResumoAtualizacao(p, d) {
@@ -165,8 +213,7 @@ if (!p) {
       <p>${htmlRevisao()}</p>
       ${p.revisaoIA ? `<p><small>🤖 Texto revisado automaticamente por IA em ${esc(dataBR(p.revisaoIA))}, sem revisão humana. Confira nas fontes antes de decidir qualquer coisa.</small></p>` : ""}
       ${htmlRevisaoHumana(p)}
-      <p><b>Status regulatório:</b> ${esc(p.status)}</p>
-      <section class="boas"><h2>${tr("Situação nas fontes regulatórias")}</h2>${htmlLocais(p, true)}</section>
+      <section class="boas"><h2>${tr("Situação nas fontes regulatórias")}</h2><p><b>Status regulatório:</b> ${esc(semNotasAuto(p.status))}</p>${htmlLocais(p, true)}</section>
       <p class="acoes"><button type="button" class="btn fav" data-slug="${slug(p.nome)}">${rotuloFav(slug(p.nome))}</button> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a> <a class="btn btn-prim" href="meus-protocolos.html?add=${slug(p.nome)}">📒 Adicionar aos Meus protocolos</a> <a class="btn" href="calculadora.html?p=${slug(p.nome)}">🧮 Calculadora</a> <button type="button" class="btn" id="pdf">🖨️ Salvar em PDF / imprimir</button> <button type="button" class="btn" id="facil" aria-pressed="false">🧒 Explique fácil</button> <button type="button" class="btn" id="compartilhar">🔗 Compartilhar</button></p>
       <section class="boas facil-box"><h2>Em palavras simples</h2><p>${esc(explicaFacil(p))}</p></section>
       ${secao("O que faz", p.oQueFaz)}
@@ -181,6 +228,7 @@ if (!p) {
       ${secao("Nível de evidência", p.evidencia, "tecnico", "evidencia")}
       ${secao("Riscos", p.riscos, "", "riscos")}
       <div id="riscos-auto"></div>
+      ${htmlSinais(p)}
       ${secao("Protocolo / contexto de uso", p.protocolo, "tecnico")}
       <section class="boas"><h2>Perguntas frequentes</h2>${faq.map(([q, a]) => `<details class="faq"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>
       <section class="boas"><h2>Linha do tempo</h2>${htmlEtapas(p)}${marcosDoItem(p).length ? `<ul class="marcos">${marcosDoItem(p).map(([a, t]) => `<li><b>${a}</b> — ${esc(t)}</li>`).join("")}</ul>` : "<p><small>Sem marcos históricos cadastrados para este item.</small></p>"}</section>
@@ -197,6 +245,7 @@ if (!p) {
     <p class="prox-ant">${ant ? `<a href="${urlPeptideo(ant.nome)}">← ${esc(ant.nome)}</a>` : "<span></span>"}${prox ? `<a href="${urlPeptideo(prox.nome)}">${esc(prox.nome)} →</a>` : ""}</p>
     </div></div>`;
   document.body.classList.add("pagina-ficha");
+  decorarBlocos();
   try {
     const rec = JSON.parse(localStorage.getItem("recentes_v1") || "[]").filter(s => s !== slug(p.nome));
     rec.unshift(slug(p.nome));
@@ -210,6 +259,7 @@ if (!p) {
     const automatico = snap?.itens?.[slug(p.nome)] || null;
     document.getElementById("resumo-auto").innerHTML = htmlResumoAtualizacao(p, automatico);
     document.getElementById("riscos-auto").innerHTML = htmlRiscosAtualizados(p, automatico);
+    decorarBlocos();
     montarMenuFicha();
   });
   document.getElementById("compartilhar").addEventListener("click", async e => {
