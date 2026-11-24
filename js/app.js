@@ -99,6 +99,67 @@ function render(alvoSlug = "") {
   carregarMais.textContent = tr("Carregar mais");
 }
 
+/* Menu lateral: atalhos para as seções da página. */
+const SECOES_MENU = [["filtros-topo", "🔎 Buscar e filtrar"], ["lista", "🧬 Catálogo"], ["indice", "🔤 Índice A–Z"], ["glossario", "📖 Glossário"], ["fontes", "🏛️ Fontes de referência"], ["selos", "🏷️ Selos de confiança"], ["boas-praticas", "✅ Boas práticas"]];
+function montarMenu() {
+  const alvo = document.getElementById("menu-lateral-corpo");
+  alvo.innerHTML = `<ul>${SECOES_MENU.map(([id, r]) => `<li><a href="#${id}" data-secao="${id}">${esc(tr(r))}</a></li>`).join("")}</ul>`;
+  const det = document.getElementById("menu-lateral-det");
+  const mq = matchMedia("(min-width:1000px)");
+  alvo.addEventListener("click", e => {
+    const a = e.target.closest("a[data-secao]");
+    if (!a) return;
+    e.preventDefault();
+    document.getElementById(a.dataset.secao)?.scrollIntoView({ behavior: "smooth" });
+    if (!mq.matches) det.open = false;
+  });
+  const sinc = () => { det.open = mq.matches; };
+  sinc();
+  mq.addEventListener("change", sinc);
+}
+/* Sugestões ao digitar no campo do catálogo: nomes que combinam; clicar abre a ficha, Enter mantém o filtro da lista. */
+function montarSugestoes() {
+  const sug = document.createElement("ul");
+  sug.className = "sug-busca";
+  sug.id = "sug-catalogo";
+  sug.hidden = true;
+  sug.setAttribute("role", "listbox");
+  busca.parentElement.appendChild(sug);
+  let ativo = -1;
+  const norm = s => semAcento(String(s).toLowerCase());
+  const so = s => s.replace(/[^a-z0-9]/g, "");
+  const fechar = () => { sug.hidden = true; ativo = -1; };
+  const marcar = i => { [...sug.children].forEach((li, k) => li.classList.toggle("ativo", k === i)); ativo = i; };
+  busca.addEventListener("input", () => {
+    const ws = norm(busca.value).split(/\s+/).filter(Boolean);
+    if (!ws.length) return fechar();
+    const achados = PEPTIDES.map(p => ({ p, n: norm(p.nome) }))
+      .filter(x => ws.every(w => x.n.includes(w) || (so(w).length > 2 && so(x.n).includes(so(w)))))
+      .sort((a, b) => (b.n.startsWith(ws[0]) ? 1 : 0) - (a.n.startsWith(ws[0]) ? 1 : 0) || a.n.length - b.n.length);
+    if (!achados.length) return fechar();
+    sug.innerHTML = achados.slice(0, 8).map(x => `<li role="option"><a href="${urlPeptideo(x.p.nome)}"><b>${esc(x.p.nome)}</b> <small>${esc(tr(x.p.categoria))} · ${esc(tr(x.p.fase))}</small></a></li>`).join("")
+      + `<li role="option" class="sug-todos"><a href="#lista" data-lista="1">${esc(tr("Ver os resultados na lista"))} (${achados.length})</a></li>`;
+    sug.hidden = false;
+    ativo = -1;
+  });
+  busca.addEventListener("keydown", e => {
+    const n = sug.children.length;
+    if (sug.hidden || !n) return;
+    if (e.key === "ArrowDown") { e.preventDefault(); marcar((ativo + 1) % n); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); marcar((ativo - 1 + n) % n); }
+    else if (e.key === "Enter" && ativo >= 0) { e.preventDefault(); sug.children[ativo].querySelector("a").click(); }
+    else if (e.key === "Enter") { fechar(); lista.scrollIntoView({ behavior: "smooth" }); }
+    else if (e.key === "Escape") fechar();
+  });
+  sug.addEventListener("click", e => {
+    if (!e.target.closest("[data-lista]")) return;
+    e.preventDefault();
+    fechar();
+    lista.scrollIntoView({ behavior: "smooth" });
+  });
+  document.addEventListener("click", e => { if (!busca.parentElement.contains(e.target)) fechar(); });
+}
+
 [busca, tipoSel, catSel, faseSel, favSel, seloSel, origemSel, ordemSel].forEach(el => el.addEventListener(el === busca ? "input" : "change", () => {
   limiteVisivel = ITENS_POR_PAGINA;
   render();
@@ -128,6 +189,8 @@ document.getElementById("az").addEventListener("click", e => {
   render(id);
   document.getElementById(id).scrollIntoView({ behavior: "smooth" });
 });
+montarMenu();
+montarSugestoes();
 render();
 
 

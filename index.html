@@ -29,10 +29,17 @@
 <body class="pagina-inicial">
 <header id="topo"></header>
 <main>
-  <div class="filtros">
+  <div class="layout-home">
+  <aside class="menu-lateral" aria-label="Menu do catálogo">
+    <details id="menu-lateral-det" open>
+      <summary>☰ Menu do guia</summary>
+      <nav id="menu-lateral-corpo"></nav>
+    </details>
+  </aside>
+  <div class="conteudo-home">
+  <div class="filtros" id="filtros-topo">
     <label class="filtros-pesquisa" for="busca">Buscar no catálogo
-      <input id="busca" type="search" placeholder="Substância, mecanismo ou categoria...">
-    </label>
+      <span class="busca-wrap"><input id="busca" type="search" placeholder="Substância, mecanismo ou categoria..." autocomplete="off" aria-controls="sug-catalogo"></span>    </label>
     <details class="filtros-avancados">
       <summary>Filtros e ordenação</summary>
       <div class="filtros-controles">
@@ -77,6 +84,8 @@
     <ul id="boas"></ul>
   </section>
 <div class="ad-slot" data-slot="rodape"></div>
+  </div>
+  </div>
 </main>
 <footer id="rodape"></footer>
 <script defer src="dados/data.js"></script>

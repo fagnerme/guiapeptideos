@@ -1002,6 +1002,7 @@ input[type=checkbox],input[type=radio]{min-height:0;width:1.25rem;height:1.25rem
 .filtros input,.filtros select{background-color:var(--card);transition:border-color .2s,box-shadow .2s}
 .filtros input:hover,.filtros select:hover{border-color:rgba(11,127,165,.4)}
 .pagina-inicial .busca-global{display:none}
+.busca-wrap{position:relative;display:block}
 .filtros{display:grid;grid-template-columns:minmax(0,1fr)}
 .filtros-pesquisa{display:grid;gap:.35rem;font-size:.9rem;font-weight:600}
 .filtros-pesquisa input{width:100%;min-height:48px}
@@ -1022,6 +1023,47 @@ input[type=checkbox],input[type=radio]{min-height:0;width:1.25rem;height:1.25rem
 .card .fav{background:transparent;border:1px solid var(--borda);border-radius:999px;color:var(--sec);font-size:.8rem;min-height:32px;padding:.2rem .7rem}
 .card .fav:hover{border-color:var(--azul);color:var(--azul)}
 .card-detalhes{border:1px solid var(--borda);border-radius:var(--r-md);padding:.65rem .75rem}
+
+/* Menu lateral da ficha */
+#voltar-topo{position:fixed;right:1rem;bottom:calc(1rem + env(safe-area-inset-bottom));z-index:60;display:flex;align-items:center;gap:.35rem;min-height:52px;padding:0 1.1rem;border:2px solid #fff;border-radius:999px;background:var(--azul);color:#fff;font:inherit;font-size:1rem;font-weight:700;line-height:1;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.4);animation:topo-pulso 2.5s ease-in-out infinite}
+#voltar-topo span{font-size:1.4rem}
+#voltar-topo:hover,#voltar-topo:focus-visible{transform:translateY(-3px);filter:brightness(1.15)}
+@keyframes topo-pulso{0%,100%{box-shadow:0 8px 24px rgba(0,0,0,.4),0 0 0 0 rgba(37,99,235,.5)}50%{box-shadow:0 8px 24px rgba(0,0,0,.4),0 0 0 10px rgba(37,99,235,0)}}
+@media (prefers-reduced-motion:reduce){#voltar-topo{animation:none}}
+#voltar-topo[hidden]{display:none}
+@media print{#voltar-topo{display:none}}
+.menu-lateral,.menu-ficha{position:sticky;top:0;z-index:30;max-height:80vh;overflow-y:auto}
+.menu-lateral details:not([open]),.menu-ficha details:not([open]){margin:0}
+.menu-ficha{margin-bottom:1rem;background:var(--card);border:1px solid var(--borda);border-radius:var(--r-lg);padding:.75rem .9rem}
+.menu-ficha summary{font-weight:650}
+.menu-ficha ul{list-style:none;margin:.6rem 0 0;padding:0}
+.menu-ficha a{display:block;padding:.38rem .5rem;border-radius:var(--r-sm);text-decoration:none;font-size:.9rem;line-height:1.35}
+.menu-ficha a:hover{background:var(--tag)}
+.menu-ficha a.ativo{background:var(--tag);font-weight:650;box-shadow:inset 3px 0 0 var(--azul)}
+.menu-ficha .menu-topo{margin:.5rem 0 0;border-top:1px solid var(--borda);padding-top:.4rem}
+.conteudo-ficha{min-width:0}
+@media (min-width:1000px){
+  .pagina-ficha main{max-width:1240px;width:min(100%,1240px)}
+  .layout-ficha{display:grid;grid-template-columns:250px minmax(0,1fr);gap:1.5rem;align-items:start}
+  .menu-ficha{position:sticky;top:.75rem;max-height:calc(100vh - 1.5rem);overflow-y:auto;margin-bottom:0}
+  .menu-ficha summary{pointer-events:none;list-style:none}
+  .menu-ficha summary::-webkit-details-marker{display:none}
+}
+@media print{.menu-ficha{display:none}.layout-ficha{display:block}}
+
+/* Menu lateral da pagina inicial */
+.menu-lateral{margin-bottom:1rem;background:var(--card);border:1px solid var(--borda);border-radius:var(--r-lg);padding:.75rem .9rem}
+.menu-lateral summary{font-weight:650}
+.menu-lateral ul{list-style:none;margin:.6rem 0 0;padding:0}
+.menu-lateral li a{display:block;padding:.4rem .5rem;border-radius:var(--r-sm);text-decoration:none;font-size:.92rem}
+.menu-lateral li a:hover{background:var(--tag)}
+@media (min-width:1000px){
+  .pagina-inicial main{max-width:1320px;width:min(100%,1320px)}
+  .layout-home{display:grid;grid-template-columns:250px minmax(0,1fr);gap:1.5rem;align-items:start}
+  .menu-lateral{position:sticky;top:.75rem;max-height:calc(100vh - 1.5rem);overflow-y:auto;margin-bottom:0}
+  .menu-lateral summary{pointer-events:none;list-style:none}
+  .menu-lateral summary::-webkit-details-marker{display:none}
+}
 .card-detalhes summary{font-size:.9rem}
 .card-detalhes .locais-lista{padding-left:1.2rem}
 .card .acoes{gap:.5rem}

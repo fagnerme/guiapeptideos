@@ -101,6 +101,40 @@ function htmlRiscosAtualizados(p, d) {
     <p><small>${tr("Fontes")}: <a href="https://open.fda.gov/data/drug/label/" target="_blank" rel="noopener">FDA</a> · <a href="https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts" target="_blank" rel="noopener">recalls FDA</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/?term=${termo}" target="_blank" rel="noopener">PubMed</a></small></p></section>`;
 }
 
+/* Menu lateral da ficha: lista todos os blocos (h2) e destaca o bloco visível. Pode ser chamada de novo quando entram blocos carregados depois. */
+let observadorMenu = null;
+function montarMenuFicha() {
+  const corpo = document.getElementById("menu-ficha-corpo");
+  if (!corpo) return;
+  const blocos = [...alvo.querySelectorAll(".conteudo-ficha section.boas > h2")];
+  blocos.forEach((h, n) => {
+    const sec = h.parentElement;
+    if (!sec.id || sec.dataset.menuAuto) { sec.id = `bloco-${n + 1}`; sec.dataset.menuAuto = "1"; }
+  });
+  corpo.innerHTML = `<ul>${blocos.map(h => `<li><a href="#${h.parentElement.id}">${esc(h.textContent)}</a></li>`).join("")}</ul><p class="menu-topo"><a href="#pep-topo">↑ ${tr("Voltar ao topo")}</a></p>`;
+  if (observadorMenu) observadorMenu.disconnect();
+  observadorMenu = new IntersectionObserver(es => {
+    es.filter(x => x.isIntersecting).forEach(x => {
+      corpo.querySelectorAll("a").forEach(a => a.classList.toggle("ativo", a.getAttribute("href") === "#" + x.target.id));
+    });
+  }, { rootMargin: "-10% 0px -75% 0px" });
+  blocos.forEach(h => observadorMenu.observe(h.parentElement));
+  if (!corpo.dataset.pronto) {
+    corpo.dataset.pronto = "1";
+    const det = document.getElementById("menu-ficha-det"), mq = matchMedia("(min-width:1000px)");
+    const sinc = () => { det.open = mq.matches; };
+    sinc();
+    mq.addEventListener("change", sinc);
+    corpo.addEventListener("click", e => {
+      const a = e.target.closest("a[href^='#']");
+      if (!a) return;
+      e.preventDefault();
+      document.getElementById(a.getAttribute("href").slice(1))?.scrollIntoView({ behavior: "smooth" });
+      if (!mq.matches) det.open = false;
+    });
+  }
+}
+
 if (!p) {
   seoNaoIndexar();
   document.title = "Item não encontrado — Guia Educativo de Peptídeos, Hormônios e Suplementos";
@@ -122,6 +156,8 @@ if (!p) {
   const relac = PEPTIDES.filter(x => x.categoria === p.categoria && x !== p).slice(0, 6);
 
   alvo.innerHTML = `
+    <div class="layout-ficha"><aside class="menu-ficha" aria-label="${tr("Seções desta ficha")}"><details id="menu-ficha-det" open><summary>☰ ${tr("Nesta ficha")}</summary><nav id="menu-ficha-corpo"></nav></details></aside>
+    <div class="conteudo-ficha">
     <nav class="migalhas"><a href="index.html">Catálogo</a> › ${esc(p.categoria)} › ${esc(p.nome)}</nav>
     <article class="pagina-pep" id="pep-topo">
       <h2 class="titulo-pep">${esc(p.nome)}</h2>
@@ -158,7 +194,10 @@ if (!p) {
     ${htmlMolecula(p)}
     <section class="boas"><h2>Explore mais sobre ${esc(p.nome)}</h2><ul class="explore">${explorar(p).map(([h, tx]) => `<li><a href="${h}">${tx}</a></li>`).join("")}</ul></section>
     ${relac.length ? `<section class="boas"><h2>Veja também (${esc(p.categoria)})</h2><p>${relac.map(r => `<a href="${urlPeptideo(r.nome)}">${esc(r.nome)}</a>`).join(" · ")}</p></section>` : ""}
-    <p class="prox-ant">${ant ? `<a href="${urlPeptideo(ant.nome)}">← ${esc(ant.nome)}</a>` : "<span></span>"}${prox ? `<a href="${urlPeptideo(prox.nome)}">${esc(prox.nome)} →</a>` : ""}</p>`;
+    <p class="prox-ant">${ant ? `<a href="${urlPeptideo(ant.nome)}">← ${esc(ant.nome)}</a>` : "<span></span>"}${prox ? `<a href="${urlPeptideo(prox.nome)}">${esc(prox.nome)} →</a>` : ""}</p>
+    </div></div>`;
+  document.body.classList.add("pagina-ficha");
+  montarMenuFicha();
   carregarLive(alvo.querySelector(".live"));
   carregarEstudos(alvo.querySelector(".estudos-box"));
   snapshot().then(snap => {
@@ -166,6 +205,7 @@ if (!p) {
     const automatico = snap?.itens?.[slug(p.nome)] || null;
     document.getElementById("resumo-auto").innerHTML = htmlResumoAtualizacao(p, automatico);
     document.getElementById("riscos-auto").innerHTML = htmlRiscosAtualizados(p, automatico);
+    montarMenuFicha();
   });
   document.getElementById("compartilhar").addEventListener("click", async e => {
     const url = new URL("fichas/" + slug(p.nome) + ".html", document.baseURI).href;

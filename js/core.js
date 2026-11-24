@@ -654,8 +654,28 @@ function sugestoesBusca() {
   });
   document.addEventListener("click", e => { if (!form.contains(e.target)) fechar(); });
 }
+/* Botão flutuante de voltar ao topo, visível depois de rolar a página. */
+function botaoTopo() {
+  if (document.getElementById("voltar-topo")) return;
+  const b = document.createElement("button");
+  b.type = "button";
+  b.id = "voltar-topo";
+  b.hidden = true;
+  b.setAttribute("aria-label", tr("Voltar ao topo"));
+  b.title = tr("Voltar ao topo");
+  b.innerHTML = '<span aria-hidden="true">↑</span> ' + tr("Topo");
+  b.addEventListener("click", () => window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion:reduce)").matches ? "auto" : "smooth" }));
+  document.body.appendChild(b);
+  let pendente = false;
+  addEventListener("scroll", () => {
+    if (pendente) return;
+    pendente = true;
+    requestAnimationFrame(() => { b.hidden = scrollY < 600; pendente = false; });
+  }, { passive: true });
+}
 function montarLayout(titulo) {
   setTimeout(sugestoesBusca, 0);
+  botaoTopo();
   if (!window.__menuMaisFecha) {
     window.__menuMaisFecha = true;
     document.addEventListener("click", e => {
