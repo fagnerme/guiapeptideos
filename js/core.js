@@ -963,14 +963,11 @@ function marcarNaoTraduzir() {
 }
 function iniciarTraducaoAutomatica(topo) {
   if (!topo) return;
-  const caixa = document.createElement("details");
-  caixa.className = "auto-trad nao-imprimir";
-  caixa.innerHTML = `<summary>🌐 Traduzir esta página</summary><p><small>Tradutor do Google (escolha o idioma abaixo). Tradução automática, sem revisão humana: ao traduzir, o texto da página é enviado ao Google. Em saúde, confira termos e avisos no original em português. Avisos de segurança e a calculadora não são traduzidos.</small></p><div id="google_translate_element"></div>`;
-  const mqTrad = matchMedia("(min-width:760px)");
-  const sincTrad = () => { caixa.open = mqTrad.matches; };
-  sincTrad();
-  mqTrad.addEventListener("change", sincTrad);
-  topo.appendChild(caixa);
+  const seletor = document.createElement("div");
+  seletor.id = "google_translate_element";
+  seletor.className = "nao-imprimir";
+  const acoes = topo.querySelector(".topo-acoes");
+  if (acoes) acoes.insertBefore(seletor, document.getElementById("tema")); else topo.appendChild(seletor);
   marcarNaoTraduzir();
   new MutationObserver(() => marcarNaoTraduzir()).observe(document.body, { childList: true, subtree: true });
   window.googleTranslateElementInit = () => new google.translate.TranslateElement({ pageLanguage: "pt", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, "google_translate_element");
