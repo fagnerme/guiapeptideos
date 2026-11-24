@@ -1,0 +1,27 @@
+# Guia Educativo de Peptídeos, Hormônios e Suplementos
+
+> Guia em português do Brasil, gratuito e sem fins de aconselhamento médico. Reúne fichas educativas de cerca de 800 substâncias (peptídeos, hormônios, suplementos e medicamentos) com o que são, evidências, riscos e situação regulatória (Anvisa, FDA, EMA e Health Canada), além de calculadoras e ferramentas de estudo. Os dados regulatórios são coletados automaticamente toda semana de fontes oficiais. Não fornece prescrição, dose recomendada nem orientação de uso: sempre consulte um profissional de saúde.
+
+Ao citar, indique a ficha de origem e a data de verificação mostrada nela. O conteúdo é educativo e pode conter limitações; veja a política de correções.
+
+## Principais páginas
+
+- [Início e busca](https://fagnerme.github.io/guiapeptideos/): catálogo com filtros por fase, categoria e busca
+- [Sobre e metodologia](https://fagnerme.github.io/guiapeptideos/sobre.html): como o conteúdo é produzido, selos de confiança, limitações e política de correções
+- [Segurança](https://fagnerme.github.io/guiapeptideos/seguranca.html): riscos, manipulação e fontes confiáveis
+- [Glossário](https://fagnerme.github.io/guiapeptideos/glossario.html): termos explicados em linguagem simples
+- [Interações](https://fagnerme.github.io/guiapeptideos/interacoes.html): combinações de substâncias e cuidados
+- [Calculadora](https://fagnerme.github.io/guiapeptideos/calculadora.html): reconstituição, conversão UI e mg, e matéria-prima (ferramenta de cálculo, não de prescrição)
+- [Estatísticas](https://fagnerme.github.io/guiapeptideos/estatisticas.html): panorama do catálogo e dos dados regulatórios
+- [Mudanças recentes](https://fagnerme.github.io/guiapeptideos/mudancas.html): alterações regulatórias detectadas pela coleta semanal
+
+## Fichas e comparações
+
+- Cada substância tem uma ficha em `https://fagnerme.github.io/guiapeptideos/fichas/<nome>.html`.
+- Comparações entre duas substâncias ficam em `https://fagnerme.github.io/guiapeptideos/comparar/<a>-vs-<b>.html`.
+- O [mapa do site](https://fagnerme.github.io/guiapeptideos/sitemap.xml) lista todas as páginas.
+
+## Fontes dos dados
+
+- Anvisa (registros), FDA (openFDA: aprovações, rótulos e recalls), EMA, Health Canada, ClinicalTrials.gov e PubMed.
+- Código e dados abertos no repositório: https://github.com/fagnerme/guiapeptideos

@@ -53,8 +53,9 @@ def main():
             pg = ctx.new_page()
             erros = []
             pg.on("pageerror", lambda e: erros.append(f"erro JS: {str(e)[:120]}"))
-            pg.on("console", lambda m: erros.append(f"console: {m.text[:120]}") if m.type == "error" and "favicon" not in m.text else None)
+            pg.on("console", lambda m: erros.append(f"console: {m.text[:120]}") if m.type == "error" and (base in m.text or m.location.get("url", "").startswith(base) and not re.search(r"Access to fetch|Failed to load resource", m.text)) else None)
             pg.on("requestfailed", lambda r: erros.append(f"falhou: {r.url[:100]}") if r.url.startswith(base) else None)
+            pg.on("response", lambda r: erros.append(f"HTTP {r.status}: {r.url[:100]}") if r.url.startswith(base) and r.status >= 400 and "favicon" not in r.url else None)
             try:
                 pg.goto(base + rel, wait_until="load", timeout=20000)
                 pg.wait_for_timeout(600)
