@@ -97,7 +97,63 @@ function render(alvoSlug = "") {
     </article>`).join("") : `<p>${tr("Nenhum resultado.")}</p><p><small>${tr("Tente outro termo ou limpe os filtros.")}</small></p><p><button type="button" class="btn btn-prim" id="limpar-filtros">${tr("Limpar filtros")}</button></p>`;
   paginacao.hidden = exibidos.length >= itens.length;
   carregarMais.textContent = tr("Carregar mais");
+  atualizarFiltrosAtivos();
 }
+
+/* Filtros ativos como chips removíveis, contador no resumo e estado compartilhável na URL. */
+const FILTROS_URL = [["q", busca], ["tipo", tipoSel], ["cat", catSel], ["fase", faseSel], ["selo", seloSel], ["origem", origemSel], ["ordem", ordemSel]];
+function filtrosAtivos() {
+  const sel = s => s.selectedOptions[0]?.textContent || s.value;
+  const l = [];
+  if (busca.value.trim()) l.push(["busca", `“${busca.value.trim()}”`]);
+  [["tipo", tipoSel], ["categoria", catSel], ["fase", faseSel], ["selo", seloSel], ["origem", origemSel]].forEach(([k, s]) => { if (s.value) l.push([k, sel(s)]); });
+  if (favSel.checked) l.push(["fav", "⭐ " + tr("Só favoritos")]);
+  return l;
+}
+function limparFiltro(k) {
+  if (k === "busca") busca.value = "";
+  else if (k === "fav") favSel.checked = false;
+  else ({ tipo: tipoSel, categoria: catSel, fase: faseSel, selo: seloSel, origem: origemSel })[k].value = "";
+}
+function atualizarFiltrosAtivos() {
+  const ativos = filtrosAtivos();
+  const box = document.getElementById("filtros-ativos");
+  box.hidden = !ativos.length;
+  box.innerHTML = ativos.length ? ativos.map(([k, r]) => `<button type="button" class="chip-filtro" data-limpar="${k}" aria-label="${esc(tr("Remover filtro"))}: ${esc(r)}">${esc(r)} <span aria-hidden="true">✕</span></button>`).join("") + `<button type="button" class="chip-filtro chip-limpar" data-limpar="tudo">${esc(tr("Limpar tudo"))}</button>` : "";
+  const nFiltros = ativos.filter(([k]) => k !== "busca").length;
+  document.getElementById("filtros-resumo").textContent = tr("Filtros e ordenação") + (nFiltros ? ` (${nFiltros})` : "");
+  const rec = document.getElementById("recentes");
+  if (rec.dataset.tem) rec.hidden = ativos.length > 0;
+  const u = new URLSearchParams();
+  FILTROS_URL.forEach(([k, el]) => { const v = el.value.trim(); if (v && !(k === "ordem" && v === "az")) u.set(k, v); });
+  if (favSel.checked) u.set("fav", "1");
+  const qs = u.toString();
+  history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
+}
+function lerFiltrosUrl() {
+  const u = new URLSearchParams(location.search);
+  FILTROS_URL.forEach(([k, el]) => { if (u.has(k)) el.value = u.get(k); });
+  favSel.checked = u.get("fav") === "1";
+  if (filtrosAtivos().some(([k]) => k !== "busca") || ordemSel.value !== "az") document.getElementById("filtros-avancados").open = true;
+}
+document.getElementById("filtros-ativos").addEventListener("click", e => {
+  const b = e.target.closest("[data-limpar]");
+  if (!b) return;
+  if (b.dataset.limpar === "tudo") filtrosAtivos().forEach(([k]) => limparFiltro(k));
+  else limparFiltro(b.dataset.limpar);
+  limiteVisivel = ITENS_POR_PAGINA;
+  render();
+});
+/* Últimas fichas abertas neste aparelho, para voltar rápido. */
+(function recentes() {
+  let l = [];
+  try { l = JSON.parse(localStorage.getItem("recentes_v1") || "[]").map(porSlug).filter(Boolean).slice(0, 6); } catch { /* sem armazenamento */ }
+  if (!l.length) return;
+  const box = document.getElementById("recentes");
+  box.dataset.tem = "1";
+  box.innerHTML = `<span class="recentes-rotulo">🕘 ${esc(tr("Vistos recentemente"))}:</span> ` + l.map(p => `<a class="chip-filtro" href="${urlPeptideo(p.nome)}">${esc(p.nome)}</a>`).join(" ");
+  box.hidden = false;
+})();
 
 /* Menu lateral: atalhos para as seções da página. */
 const SECOES_MENU = [["filtros-topo", "🔎 Buscar e filtrar"], ["lista", "🧬 Catálogo"], ["indice", "🔤 Índice A–Z"], ["glossario", "📖 Glossário"], ["fontes", "🏛️ Fontes de referência"], ["selos", "🏷️ Selos de confiança"], ["boas-praticas", "✅ Boas práticas"]];
@@ -191,6 +247,7 @@ document.getElementById("az").addEventListener("click", e => {
 });
 montarMenu();
 montarSugestoes();
+lerFiltrosUrl();
 render();
 
 

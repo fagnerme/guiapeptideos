@@ -197,6 +197,11 @@ if (!p) {
     <p class="prox-ant">${ant ? `<a href="${urlPeptideo(ant.nome)}">← ${esc(ant.nome)}</a>` : "<span></span>"}${prox ? `<a href="${urlPeptideo(prox.nome)}">${esc(prox.nome)} →</a>` : ""}</p>
     </div></div>`;
   document.body.classList.add("pagina-ficha");
+  try {
+    const rec = JSON.parse(localStorage.getItem("recentes_v1") || "[]").filter(s => s !== slug(p.nome));
+    rec.unshift(slug(p.nome));
+    localStorage.setItem("recentes_v1", JSON.stringify(rec.slice(0, 8)));
+  } catch { /* armazenamento indisponível */ }
   montarMenuFicha();
   carregarLive(alvo.querySelector(".live"));
   carregarEstudos(alvo.querySelector(".estudos-box"));

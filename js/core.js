@@ -673,9 +673,41 @@ function botaoTopo() {
     requestAnimationFrame(() => { b.hidden = scrollY < 600; pendente = false; });
   }, { passive: true });
 }
+/* Barra fina no topo que mostra o quanto da página já foi lida. */
+function barraProgresso() {
+  if (document.getElementById("progresso-leitura")) return;
+  const b = document.createElement("div");
+  b.id = "progresso-leitura";
+  b.setAttribute("aria-hidden", "true");
+  document.body.prepend(b);
+  let pendente = false;
+  const atualizar = () => {
+    const total = document.documentElement.scrollHeight - innerHeight;
+    b.style.transform = `scaleX(${total > 0 ? Math.min(1, scrollY / total) : 0})`;
+    pendente = false;
+  };
+  addEventListener("scroll", () => { if (!pendente) { pendente = true; requestAnimationFrame(atualizar); } }, { passive: true });
+}
+/* Atalhos: "/" ou Ctrl+K focam a busca (do catálogo, se existir; senão a do topo). */
+function atalhoBusca() {
+  if (window.__atalhoBusca) return;
+  window.__atalhoBusca = true;
+  document.addEventListener("keydown", e => {
+    const digitando = /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable;
+    if (!((e.key === "/" && !digitando && !e.ctrlKey && !e.metaKey && !e.altKey) || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k"))) return;
+    const campo = document.getElementById("busca") || document.querySelector(".busca-global input");
+    if (!campo) return;
+    e.preventDefault();
+    campo.scrollIntoView({ block: "center" });
+    campo.focus();
+    campo.select();
+  });
+}
 function montarLayout(titulo) {
   setTimeout(sugestoesBusca, 0);
   botaoTopo();
+  barraProgresso();
+  atalhoBusca();
   if (!window.__menuMaisFecha) {
     window.__menuMaisFecha = true;
     document.addEventListener("click", e => {

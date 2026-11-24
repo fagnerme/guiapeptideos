@@ -39,9 +39,11 @@
   <div class="conteudo-home">
   <div class="filtros" id="filtros-topo">
     <label class="filtros-pesquisa" for="busca">Buscar no catálogo
-      <span class="busca-wrap"><input id="busca" type="search" placeholder="Substância, mecanismo ou categoria..." autocomplete="off" aria-controls="sug-catalogo"></span>    </label>
-    <details class="filtros-avancados">
-      <summary>Filtros e ordenação</summary>
+      <span class="busca-wrap"><input id="busca" type="search" placeholder="Substância, mecanismo ou categoria... (tecle /)" autocomplete="off" aria-controls="sug-catalogo" aria-keyshortcuts="/"></span>    </label>
+    <div id="recentes" class="recentes" hidden></div>
+    <div id="filtros-ativos" class="filtros-ativos" aria-live="polite" hidden></div>
+    <details class="filtros-avancados" id="filtros-avancados">
+      <summary id="filtros-resumo">Filtros e ordenação</summary>
       <div class="filtros-controles">
         <select id="tipo" aria-label="Tipo de substância"><option value="">Todos os tipos</option></select>
         <select id="fase" aria-label="Fase de desenvolvimento"><option value="">Todas as fases</option></select>

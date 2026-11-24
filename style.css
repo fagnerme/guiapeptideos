@@ -1152,3 +1152,13 @@ header .aviso,header p.aviso{display:block;max-width:44rem;margin:.9rem auto;pad
 .calc-ajuda>summary{cursor:pointer}
 #conv .calc-ajuda{margin:.2rem 0 .8rem}
 @media(max-width:480px){.calc-abas{gap:.3rem}.calc-abas button{padding:.35rem .25rem;font-size:.82rem;line-height:1.15;white-space:normal;overflow-wrap:anywhere}}
+/* Barra de progresso de leitura */
+#progresso-leitura{position:fixed;top:0;left:0;right:0;height:4px;z-index:70;background:linear-gradient(90deg,var(--azul),#7c3aed);transform:scaleX(0);transform-origin:0 50%;pointer-events:none}
+/* Chips de filtros ativos e vistos recentemente */
+.filtros-ativos,.recentes{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;margin:.5rem 0}
+.filtros-ativos[hidden],.recentes[hidden]{display:none}
+.recentes-rotulo{font-size:.85rem;color:var(--sec)}
+.chip-filtro{display:inline-flex;align-items:center;gap:.35rem;min-height:32px;padding:.2rem .7rem;border:1px solid var(--borda,#cbd5e1);border-radius:999px;background:var(--tag);color:var(--fg);font:inherit;font-size:.85rem;text-decoration:none;cursor:pointer}
+.chip-filtro:hover,.chip-filtro:focus-visible{border-color:var(--azul);outline:none}
+.chip-limpar{background:transparent;font-weight:650;color:var(--azul)}
+@media print{#progresso-leitura{display:none}}
