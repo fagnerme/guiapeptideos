@@ -866,6 +866,11 @@ const REVISAO_PENDENTE = {
  "insulina": [
   {
    "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-24",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 8269 → 8270; fase 1/2/3 787/990/935 → 787/990/935; recrutando 523 → 521; registro mais recente 2026-11-24.",
    "fato": "2026-11-24"
@@ -1118,6 +1123,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "testosterona": [
+  {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-24",
    "tipo": "estudos",
@@ -4572,6 +4582,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "lh-hormonio-luteinizante": [
+  {
+   "data": "2026-11-24",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",

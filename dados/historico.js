@@ -2,6 +2,41 @@
 const HISTORICO_AUTO = [
  {
   "data": "2026-11-24",
+  "slug": "insulina",
+  "nome": "Insulina",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "testosterona",
+  "nome": "Testosterona",
+  "tipo": "conteudo",
+  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "estradiol",
+  "nome": "Estradiol",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "adrenalina-epinefrina",
+  "nome": "Adrenalina (epinefrina)",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
+  "slug": "lh-hormonio-luteinizante",
+  "nome": "LH (hormônio luteinizante)",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-24",
   "slug": "semaglutida",
   "nome": "Semaglutida",
   "tipo": "estudos",
@@ -2293,43 +2328,5 @@ const HISTORICO_AUTO = [
   "nome": "GABA",
   "tipo": "seguranca",
   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (342 → 347 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "curcumina",
-  "nome": "Curcumina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 404 → 405; fase 1/2/3 59/103/42 → 59/103/42; recrutando 28 → 28; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "curcumina",
-  "nome": "Curcumina",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "rhodiola-rosea",
-  "nome": "Rhodiola rosea",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "ginseng-panax",
-  "nome": "Ginseng (Panax)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 226 → 226; fase 1/2/3 17/42/27 → 17/42/27; recrutando 20 → 20; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "cafeina",
-  "nome": "Cafeína",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1248 → 1250; fase 1/2/3 161/73/70 → 161/73/70; recrutando 113 → 115; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
  }
 ];
