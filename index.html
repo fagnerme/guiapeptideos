@@ -26,19 +26,26 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Guia Educativo de Peptídeos, Hormônios e Suplementos", "url": "https://fagnerme.github.io/guiapeptideos/", "logo": "https://fagnerme.github.io/guiapeptideos/icons/icon-512.png"}</script>
 <!--/seo-->
 </head>
-<body>
+<body class="pagina-inicial">
 <header id="topo"></header>
 <main>
   <div class="filtros">
-    <input id="busca" type="search" aria-label="Buscar no cat?logo" placeholder="Buscar substância, mecanismo, categoria...">
-    <select id="tipo" aria-label="Tipo de substância"><option value="">Todos os tipos</option></select>
-    <select id="fase" aria-label="Fase de desenvolvimento"><option value="">Todas as fases</option></select>
-    <select id="categoria" aria-label="Categoria"><option value="">Todas as categorias</option></select>
-    <select id="selo" aria-label="Nível de confiança"><option value="">Todos os níveis de confiança</option></select>
-    <select id="origem" aria-label="Origem do texto"><option value="">Qualquer origem do texto</option></select>
-    <select id="ordem" aria-label="Ordenar"><option value="az">Ordem A–Z</option><option value="fase">Ordenar por fase</option><option value="confianca">Ordenar por confiança</option></select>
-    <label class="chk"><input type="checkbox" id="so-fav"> Só favoritos</label>
-    <label class="chk"><input type="checkbox" id="facil-idx"> Explique fácil</label>
+    <label class="filtros-pesquisa" for="busca">Buscar no catálogo
+      <input id="busca" type="search" placeholder="Substância, mecanismo ou categoria...">
+    </label>
+    <details class="filtros-avancados">
+      <summary>Filtros e ordenação</summary>
+      <div class="filtros-controles">
+        <select id="tipo" aria-label="Tipo de substância"><option value="">Todos os tipos</option></select>
+        <select id="fase" aria-label="Fase de desenvolvimento"><option value="">Todas as fases</option></select>
+        <select id="categoria" aria-label="Categoria"><option value="">Todas as categorias</option></select>
+        <select id="selo" aria-label="Nível de confiança"><option value="">Todos os níveis de confiança</option></select>
+        <select id="origem" aria-label="Origem do texto"><option value="">Qualquer origem do texto</option></select>
+        <select id="ordem" aria-label="Ordenar"><option value="az">Ordem A–Z</option><option value="fase">Ordenar por fase</option><option value="confianca">Ordenar por confiança</option></select>
+        <label class="chk"><input type="checkbox" id="so-fav"> Só favoritos</label>
+        <label class="chk"><input type="checkbox" id="facil-idx"> Explique fácil</label>
+      </div>
+    </details>
   </div>
   <details class="boas legenda-tipos"><summary><b id="titulo-tipos">Qual a diferença entre peptídeo, hormônio, vitamina, mineral, suplemento, medicamento e biológico?</b></summary><ul id="legenda-tipos"></ul><p><small><b>Resumindo:</b> o <b>tipo</b> diz o que a substância é (a sua natureza química); a <b>categoria</b> diz para que ela é estudada ou usada (emagrecimento, sono, pele, desempenho). Um mesmo tipo pode ter várias categorias, e uma categoria pode reunir tipos diferentes. Nenhuma dessas informações substitui a avaliação de um profissional de saúde.</small></p></details>
   <div id="alertas"></div>

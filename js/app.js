@@ -81,12 +81,18 @@ function render(alvoSlug = "") {
   document.getElementById("contagem").textContent = `${exibidos.length} ${tr("itens exibidos")} · ${itens.length} de ${PEPTIDES.length} ${tr("substâncias")}`;
   lista.innerHTML = exibidos.length ? exibidos.map(p => `
     <article class="card" id="${slug(p.nome)}">
-      <h3><a href="${urlPeptideo(p.nome)}">${esc(p.nome)}</a> <button type="button" class="fav" data-slug="${slug(p.nome)}" aria-label="Favoritar">${rotuloFav(slug(p.nome))}</button></h3>
-      <p><span class="tag tag-tipo" title="${esc(tr(tipoDe(p).def))}">${tipoDe(p).icone} ${esc(tr(tipoDe(p).rotulo))}</span> <span class="tag">${esc(p.categoria)}</span> <span class="tag ${faseClasse(p.fase)}">${esc(p.fase)}</span></p>
-      <p>${htmlSelo(p)}</p>
-      <p><b>Status:</b> ${esc(p.status)}</p>
-      <p><b>Aprovado em:</b> ${htmlLocais(p)}</p>
+      <div class="card-cabecalho">
+        <h3><a href="${urlPeptideo(p.nome)}">${esc(p.nome)}</a></h3>
+        <button type="button" class="fav" data-slug="${slug(p.nome)}" aria-label="Favoritar">${rotuloFav(slug(p.nome))}</button>
+      </div>
+      <div class="card-tags"><span class="tag tag-tipo" title="${esc(tr(tipoDe(p).def))}">${tipoDe(p).icone} ${esc(tr(tipoDe(p).rotulo))}</span> <span class="tag">${esc(p.categoria)}</span> ${p.fase !== "Aprovado" ? `<span class="tag ${faseClasse(p.fase)}">${esc(p.fase)}</span>` : ""}</div>
+      <p class="card-selo">${htmlSelo(p)}</p>
+      <p class="card-locais">${htmlLocais(p, false)}</p>
       <p class="resumo">${esc(facil ? explicaFacil(p) : p.oQueFaz)}</p>
+      <details class="card-detalhes">
+        <summary>Detalhes regulatórios e estudos</summary>
+        ${htmlLocais(p, true)}
+      </details>
       <p class="acoes"><a class="btn btn-prim" href="${urlPeptideo(p.nome)}">Ver detalhes →</a> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a>${p.fase === "Aprovado" ? ' <a class="btn" href="calculadora.html">🧮 Calculadora</a>' : ""}</p>
     </article>`).join("") : `<p>${tr("Nenhum resultado.")}</p><p><small>${tr("Tente outro termo ou limpe os filtros.")}</small></p><p><button type="button" class="btn btn-prim" id="limpar-filtros">${tr("Limpar filtros")}</button></p>`;
   paginacao.hidden = exibidos.length >= itens.length;
