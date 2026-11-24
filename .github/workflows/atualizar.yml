@@ -61,13 +61,6 @@ jobs:
         if: steps.guarda.outputs.pular != 'true'
         continue-on-error: true
         run: python tools/atualizar_dsld.py --importar --min 300 --limite 10
-      - name: Revisão por IA das fichas (opcional, só roda se o Secret GEMINI_API_KEY existir)
-        if: steps.guarda.outputs.pular != 'true'
-        continue-on-error: true
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          if [ -n "$GEMINI_API_KEY" ]; then python tools/revisar_ia.py --limite 20; else echo "Sem GEMINI_API_KEY; pulando."; fi
       - name: Gerar cartões, sitemap e service worker
         if: steps.guarda.outputs.pular != 'true'
         env:
@@ -80,7 +73,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dados js/core.js tools/novos tools/relatorio_dsld.md sitemap.xml robots.txt sw.js cards "*.html" fichas comparar
+          git add api dados js/core.js tools/novos tools/relatorio_dsld.md sitemap.xml robots.txt sw.js cards "*.html" fichas comparar
           git diff --staged --quiet || git commit -m "chore: atualiza dados ao vivo"
           # se o main mudou durante o run, só os arquivos gerados podem ficar com a versão deste run;
           # se alguém mexeu num arquivo que não é gerado, aborta para não sobrescrever a edição

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">
+  <title>API pública de dados | Guia Educativo</title>
+  <meta name="description" content="API estática, gratuita e somente leitura com dados regulatórios e de pesquisa do catálogo.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="conteudo">
+  <h1>API pública de dados</h1>
+  <p>Alfa gratuita, somente leitura e sem chave. Entrega um retrato estático do catálogo; não é uma API de busca em tempo real nem tem garantia de disponibilidade (SLA). O host atual permite leitura de navegador de outras origens (CORS).</p>
+  <h2>Endpoint v1</h2>
+  <p><a href="v1/catalog.json"><code>GET /api/v1/catalog.json</code></a> — catálogo completo em JSON.</p>
+  <p><a href="v1/openapi.json">Especificação OpenAPI 3.1</a></p>
+  <h2>Exemplo</h2>
+  <pre><code>curl https://fagnerme.github.io/guiapeptideos/api/v1/catalog.json</code></pre>
+  <p>O arquivo contém <code>apiVersion</code>, data e estado da última coleta, fontes oficiais e itens identificados por <code>id</code>. Cada item reúne categoria, fase, situação regulatória, métricas de pesquisa, datas de verificação e estado das consultas. Consultas sem resposta são diferenciadas de resultados vazios; valores anteriores podem ser preservados.</p>
+  <h2>Uso responsável</h2>
+  <ul>
+    <li>Cacheie o arquivo e consulte a data de coleta e o estado de cada fonte antes de usar os dados.</li>
+    <li>Links e atribuições das fontes acompanham cada registro. Os termos de reutilização variam por fonte; esta API não concede uma licença geral sobre dados de terceiros.</li>
+    <li>Resultados regulatórios dependem de correspondência por ingrediente e cobertura das bases; ausência de resultado não prova ausência de aprovação.</li>
+    <li>Contagens de estudos e artigos não demonstram eficácia. O conteúdo é educativo, não é orientação médica, jurídica ou regulatória.</li>
+  </ul>
+  <p><a href="../sobre.html">Metodologia e limitações</a> · <a href="../index.html">Voltar ao guia</a></p>
+</main>
+</body>
+</html>

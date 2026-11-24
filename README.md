@@ -6,6 +6,7 @@ Conteúdo exclusivamente educativo: não é recomendação médica nem sugere do
 ## Recursos
 - Catálogo com ~800 itens (peptídeos, hormônios, vitaminas, minerais, suplementos, medicamentos e biológicos), fichas, comparador e busca.
 - Espelho de órgãos reguladores, com coleta semanal automática e histórico em "Atualizações automáticas".
+- API alfa pública, gratuita e somente leitura: [documentação](api/index.html), [catálogo JSON](api/v1/catalog.json), [OpenAPI](api/v1/openapi.json).
 - Calculadoras em abas (reconstituição, UI ↔ mg e matéria-prima; link direto com `calculadora.html#conv` ou `#raw`, e a página lembra a última aba usada) e **Meus protocolos** (calendário, estoque, meia-vida).
 - App instalável (PWA) com uso offline. Lembretes de aplicação: notificações com o app aberto e agenda `.ics`.
 - Dados do usuário ficam só no aparelho (`localStorage`).
@@ -17,7 +18,7 @@ Conteúdo exclusivamente educativo: não é recomendação médica nem sugere do
 | `dados/` | Catálogo e complementos (`data.js`, `data-extra.js`, `data-detalhes.js` etc.), coleta (`live-data.json`, `revisao-pendente.js`, `historico.js`) |
 | `fichas/` | Uma página HTML por item (gerada) |
 | `comparar/`, `cards/` | Páginas de comparação e cartões (gerados) |
-| `tools/` | Scripts Python de coleta e geração |
+| `tools/` | Scripts Python de coleta e geração, incluindo a exportação da API v1 |
 | `.github/workflows/atualizar.yml` | Coleta semanal automática (actions fixadas por SHA; o Dependabot sugere atualizações) |
 | `.github/skills/` | Skills do Copilot (revisão de workflows, acessibilidade, testes no navegador etc.), instaladas do awesome-copilot |
 | `sw.js` | Service worker (rede primeiro, cache offline). Reescrito pelo build |
@@ -30,10 +31,11 @@ Conteúdo exclusivamente educativo: não é recomendação médica nem sugere do
 
 Coleta manual das fontes: `python tools\atualizar.py`, depois `python tools\build.py`.
 Os tokens de API (openFDA, NCBI) devem ficar em segredos do GitHub, nunca no código.
+O endpoint da API é um snapshot estático sem SLA. Confira datas e estado de coleta; resultados sem correspondência não provam ausência de aprovação. Termos de reutilização dos dados de terceiros variam por fonte.
 
 ## Para fazer
 - Push real para lembretes com o app fechado (servidor Web Push).
-- Revisão dos textos por IA: `tools/revisar_ia.py` está pronto (Google Gemini gratuito, secret `GEMINI_API_KEY`, cerca de 18 itens por rodada pela cota de 20/dia), mas fora do workflow. Para ativar, adicionar um passo `python tools/revisar_ia.py` antes de "Gerar cartões" em `.github/workflows/atualizar.yml`.
+- Revisão por IA não faz parte da coleta automática; `tools/revisar_ia.py` não é executado pelo workflow.
 - Política de segurança de conteúdo (CSP) completa: hoje só `object-src`, `base-uri` e `form-action` estão restritos nas páginas; `script-src` exige testar o AdSense e o Tradutor do Google.
 - Preencher os IDs de bloco do AdSense em `js/ads.js`.
 - Revisar textos dos itens adicionados manualmente, conferindo as fontes.

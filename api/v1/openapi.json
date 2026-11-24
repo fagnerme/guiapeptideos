@@ -1,0 +1,57 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Guia Educativo — API pública de dados",
+    "version": "1.0.0",
+    "description": "Snapshot estático gratuito e somente leitura. Consulte generatedAt, lastCollection e collection por fonte. Dados de terceiros mantêm os termos das fontes originais; ausência de resultado não prova ausência de aprovação."
+  },
+  "servers": [
+    {
+      "url": "https://fagnerme.github.io/guiapeptideos"
+    }
+  ],
+  "paths": {
+    "/api/v1/catalog.json": {
+      "get": {
+        "operationId": "getCatalog",
+        "summary": "Baixar o catálogo completo",
+        "responses": {
+          "200": {
+            "description": "Snapshot JSON do catálogo",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["apiVersion", "generatedAt", "access", "lastCollection", "sources", "items"],
+                  "properties": {
+                    "apiVersion": {"type": "string"},
+                    "generatedAt": {"type": ["string", "null"], "format": "date-time"},
+                    "access": {"const": "public_free_read_only"},
+                    "lastCollection": {"type": "object"},
+                    "sources": {"type": "object"},
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["id", "name", "category", "phase", "regulatory", "research", "limitations"],
+                        "properties": {
+                          "id": {"type": "string"},
+                          "name": {"type": "string"},
+                          "category": {"type": ["string", "null"]},
+                          "phase": {"type": "string"},
+                          "regulatory": {"type": "object"},
+                          "research": {"type": "object"},
+                          "limitations": {"type": "array", "items": {"type": "string"}}
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

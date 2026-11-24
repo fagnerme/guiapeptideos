@@ -13,7 +13,7 @@ from playwright.sync_api import sync_playwright
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 PAGINAS = [
-    "index.html", "buscar.html?q=bpc", "calculadora.html", "calculadora.html#conv", "calculadora.html#raw",
+    "index.html", "api/index.html", "buscar.html?q=bpc", "calculadora.html", "calculadora.html#conv", "calculadora.html#raw",
     "meus-protocolos.html", "comparar.html?a=semaglutida&b=tirzepatida", "glossario.html", "seguranca.html",
     "sobre.html", "alvos.html", "classes.html", "quiz.html", "interacoes.html", "grafo.html", "corpo.html",
     "revisao.html", "estatisticas.html", "novidades.html", "sinais.html", "linha-do-tempo.html", "mecanismos.html",

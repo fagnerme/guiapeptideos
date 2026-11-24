@@ -34,6 +34,35 @@ def com_chave(url, host):
     return f"{url}{'&' if '?' in url else '?'}api_key={chave}" if chave else url
 ANVISA_URL = "https://dados.anvisa.gov.br/dados/CONSULTAS/PRODUTOS/TA_CONSULTA_MEDICAMENTOS.CSV"
 CANADA_API = "https://health-products.canada.ca/api/drug/"
+FONTES_CONSULTA = {
+    "clinicalTrials": ("ensaios", "fase1", "fase2", "fase3", "recrutando", "estudosFoco", "ultimaAtualizacao"),
+    "pubmed": ("artigos", "artigosAno", "segurancaAno", "revisoesAno"),
+    "fda": ("fdaRegistros", "fdaAprovacao", "bula", "alertas"),
+    "ema": ("ema",),
+    "healthCanada": ("canada",),
+    "anvisa": ("anvisa",),
+}
+
+
+def _status_fontes(base, falhas, agora, anvisa_falhou=False):
+    estados_anteriores = base.get("fontesStatus", {})
+    if not isinstance(estados_anteriores, dict):
+        estados_anteriores = {}
+    estados = {}
+    for fonte, campos in FONTES_CONSULTA.items():
+        falhas_fonte = [campo for campo in campos if campo in falhas]
+        if fonte == "anvisa" and anvisa_falhou:
+            falhas_fonte = ["anvisa"]
+        anterior = estados_anteriores.get(fonte, {})
+        completa = not falhas_fonte
+        estados[fonte] = {
+            "status": "ok" if completa else "parcial" if len(falhas_fonte) < len(campos) else "falha",
+            "tentadoEm": agora,
+            "ultimaConsultaCompletaEm": agora if completa else anterior.get("ultimaConsultaCompletaEm"),
+            "consultasSemResposta": falhas_fonte,
+        }
+    return estados
+
 
 def slug(nome):
     s = unicodedata.normalize("NFD", nome.lower())
@@ -442,6 +471,7 @@ def main():
             item.update({k: v for k, v in atual.items() if v is not FALHA})
             item["fdaOk"] = item.get("fdaRegistros") is not None
             agora = datetime.now(timezone.utc).isoformat()
+            item["fontesStatus"] = _status_fontes(base, falhas, agora, dados_anvisa is FALHA)
             if "fdaRegistros" not in falhas:
                 item["fdaVerificadoEm"] = agora
             item["emaVerificado"] = ema_base() is not FALHA if "ema" not in falhas else base.get("emaVerificado", False)

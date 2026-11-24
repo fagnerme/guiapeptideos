@@ -23,5 +23,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install playwright && playwright install --with-deps chromium
+      - name: Validar contrato da API
+        run: python -m unittest tools.test_api
       - name: Abrir páginas no navegador (erros de JS, título, "Item não encontrado", rolagem lateral)
         run: python tools/testar_site.py

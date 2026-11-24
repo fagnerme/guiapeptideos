@@ -15,8 +15,10 @@ nomes = re.findall(r'^\s*nome: "([^"]+)"', texto, re.M) + re.findall(r'^P\("([^"
 
 import gerar_fichas
 fichas, comps = gerar_fichas.gerar(site)
+import gerar_api
+gerar_api.gerar()
 paginas = ["index.html", "privacidade.html"] + [f"fichas/{s}.html" for s in fichas] + comps
-for extra in ["comparar.html", "aprender.html", "quiz.html", "linha-do-tempo.html", "novidades.html", "sobre.html",
+for extra in ["api/index.html", "comparar.html", "aprender.html", "quiz.html", "linha-do-tempo.html", "novidades.html", "sobre.html",
               "buscar.html", "grafo.html", "mecanismos.html", "alegacoes.html", "seguranca.html", "estatisticas.html",
               "alertas.html", "mudancas.html", "revisao.html", "glossario.html", "consulta.html", "calculadora.html", "meus-protocolos.html", "como-usar.html", "quiz-familias.html",
               "leituras.html", "favoritos.html", "alvos.html", "corpo.html", "interacoes.html", "duracao.html", "classes.html", "sinais.html"]:

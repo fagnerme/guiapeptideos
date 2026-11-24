@@ -14,6 +14,9 @@ Ao citar, indique a ficha de origem e a data de verificação mostrada nela. O c
 - [Calculadora](https://fagnerme.github.io/guiapeptideos/calculadora.html): reconstituição, conversão UI e mg, e matéria-prima (ferramenta de cálculo, não de prescrição)
 - [Estatísticas](https://fagnerme.github.io/guiapeptideos/estatisticas.html): panorama do catálogo e dos dados regulatórios
 - [Mudanças recentes](https://fagnerme.github.io/guiapeptideos/mudancas.html): alterações regulatórias detectadas pela coleta semanal
+- [API pública de dados](https://fagnerme.github.io/guiapeptideos/api/): snapshot gratuito, somente leitura, com estado e datas por fonte
+- [Catálogo JSON v1](https://fagnerme.github.io/guiapeptideos/api/v1/catalog.json): exportação completa e versionada
+- [OpenAPI v1](https://fagnerme.github.io/guiapeptideos/api/v1/openapi.json): especificação do endpoint
 
 ## Fichas e comparações
 
