@@ -273,8 +273,12 @@ mostrarAlertas(document.getElementById("alertas"));
   caixa.className = "boas legenda-tipos";
   caixa.id = "atualizados-recentes";
   caixa.innerHTML = `<summary>🔄 <b>${esc(tr("Atualizadas recentemente"))}</b> (${recentes.length})</summary>
-    <p><small>${esc(tr("Fichas atualizadas automaticamente na última coleta, em"))} ${esc(ultima)}.</small></p>
-    <ul>${recentes.slice(0, 5).map(([p, l]) => `<li><a href="fichas/${esc(slug(p.nome))}.html"><b>${esc(p.nome)}</b></a> · ${esc(l[0].data)} — ${esc(notaAuto(l[0].texto))}</li>`).join("")}</ul>
+    <p class="atual-sub">${esc(tr("Fichas com novidades nas fontes públicas na última coleta automática, em"))} <b>${esc(dataMarco(ultima))}</b>.</p>
+    <ul class="atual-lista">${recentes.slice(0, 5).map(([p, l]) => {
+      const x = l[0], ct = /estudos \d+ → (\d+).*recrutando \d+ → (\d+)/.exec(x.texto);
+      const frase = ct ? `${ct[1]} ${tr("estudos registrados")}, ${ct[2]} ${tr("recrutando agora")}` : notaAuto(x.texto);
+      return `<li><a href="fichas/${esc(slug(p.nome))}.html"><b>${esc(p.nome)}</b></a><span>${esc(frase)}</span></li>`;
+    }).join("")}</ul>
     <p><a class="btn" href="revisao.html">${esc(tr("Ver mais"))}${recentes.length > 5 ? ` (+${recentes.length - 5})` : ""} →</a></p>`;
   document.getElementById("alertas").before(caixa);
 })();

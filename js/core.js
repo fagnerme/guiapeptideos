@@ -20,6 +20,8 @@ function marcosOficiais(nome) {
   [1, 2, 3].forEach(n => { if (foco["inicio" + n]) out.push({ data: foco["inicio" + n], atualizado: a.fdaVerificadoEm || a.emaVerificadoEm, txt: `Início do estudo de fase ${n} mais antigo registrado com o ativo (desde 2015).`, fonte: "ClinicalTrials.gov" }); });
   return out;
 }
+/* Estudos por fase, cada número com seu rótulo (evita o "1/2/3" ambíguo) */
+const chipsFases = d => `<span class="fases">${[1, 2, 3].map(n => `<span class="fase-chip"><b>${num(d["fase" + n])}</b> ${tr("na fase")} ${n}</span>`).join("")}</span>`;
 const dataMarco = d => d.split("-").reverse().join("/");
 const dataAtualizacao = d => d ? ` · ${tr("atualizado automaticamente em")} ${new Date(d).toLocaleDateString(LOCALE)}` : "";
 /* Sinal da fila de revisão: data do fato (quando a fonte informa) e data da detecção automática. */
@@ -93,7 +95,17 @@ function faseDosEstudos(foco) {
 }
 /* Os resultados de estudos são apresentados como sinais de pesquisa; busca por nome não altera sozinha a fase editorial. */
 /* Notas automáticas ficam em português; a tradução para outros idiomas é feita pelo Google Tradutor. */
-const notaAuto = texto => texto;
+/* Reescreve os textos automáticos em frases diretas, com cada fase rotulada (nunca "1/2/3"). */
+const ROTULO_ESTADO = { sem_registro: "sem registro", autorizado: "autorizado", consulta_parcial: "consulta parcial", sem_registro_ativo: "sem registro ativo", retirado: "retirado" };
+const notaAuto = texto => {
+  let t = String(texto).replace(/\s*Reveja [^.]*\.?$/, "").trim();
+  const ct = /estudos \d+ → (\d+); fase 1\/2\/3 \d+\/\d+\/\d+ → (\d+)\/(\d+)\/(\d+); recrutando \d+ → (\d+)(?:; registro mais recente ([\d-]+))?/.exec(t);
+  if (ct) return `ClinicalTrials.gov: ${ct[1]} estudos registrados (${ct[2]} na fase 1, ${ct[3]} na fase 2, ${ct[4]} na fase 3), ${ct[5]} recrutando agora${ct[6] ? `; registro mais recente em ${dataMarco(ct[6])}` : ""}.`;
+  t = t.replace(/(\d+) ensaio\(s\) de fase (\d) encontrados, catálogo marca '([^']+)'/, "$1 estudo(s) de fase $2 encontrados, mas a ficha marca '$3'");
+  t = t.replace(/\b(sem_registro_ativo|sem_registro|autorizado|consulta_parcial)\b/g, m => ROTULO_ESTADO[m]);
+  t = t.replace(/\((\d{4})-(\d{2})-(\d{2}) → (\d{4})-(\d{2})-(\d{2})\)/, "($3/$2/$1 → $6/$5/$4)");
+  return t;
+};
 if (typeof REVISAO_PENDENTE !== "undefined") {
   /* Demais sinais viram notas automáticas datadas no campo correspondente da ficha. */
   const CAMPO = { seguranca: "riscos", estudos: "evidencia", conteudo: "status", aprovacao: "status" };
@@ -157,7 +169,7 @@ function htmlLocais(p, completo) {
   }
   const lista = fontes.map(x => `<li><b>${esc(x.orgao)}:</b> ${esc(rotulo[x.situacao] || tr("Consulta parcial; não conclusiva"))}${datasFonte(x)}${x.detalhe ? ` — ${esc(x.detalhe)}` : ""} · <a href="${esc(x.url)}" target="_blank" rel="noopener">${tr("fonte oficial")}</a></li>`).join("");
   const estudosHtml = temEstudos
-    ? `<p>${tr("ClinicalTrials.gov")}: ${num(estudos.ensaios)} ${tr("estudos registrados")}; ${tr("fases 1/2/3")}: ${num(estudos.fase1)}/${num(estudos.fase2)}/${num(estudos.fase3)}; ${num(estudos.recrutando)} ${tr("recrutando")}. <a href="https://clinicaltrials.gov/search?term=${encodeURIComponent(termoEn(p.nome))}" target="_blank" rel="noopener">${tr("consultar estudos")}</a></p>`
+    ? `<p>${tr("ClinicalTrials.gov")}: ${num(estudos.ensaios)} ${tr("estudos registrados")}; ${num(estudos.recrutando)} ${tr("recrutando")}.</p><p>${chipsFases(estudos)} <a href="https://clinicaltrials.gov/search?term=${encodeURIComponent(termoEn(p.nome))}" target="_blank" rel="noopener">${tr("consultar estudos")}</a></p>`
     : "";
   const resumo = aprovados.length
     ? `<p>${tr("Autorização localizada em")}: ${esc(aprovados.map(x => x.orgao).join(", "))}. ${tr("A autorização depende do produto e da indicação registrados.")}</p>`
@@ -917,7 +929,7 @@ function htmlLive(p, d) {
   return `<div class="live-box">
     <b>📡 Dados ao vivo</b> <small>(consultado em ${new Date(d.quando).toLocaleString(LOCALE)})</small>
     <ul>
-      <li>ClinicalTrials.gov: ${num(d.ensaios)} ensaios (fase 1: ${num(d.fase1)}, fase 2: ${num(d.fase2)}, fase 3: ${num(d.fase3)}); ${num(d.recrutando)} recrutando; última atualização: ${esc(d.ultimaAtualizacao || "—")}</li>
+      <li>ClinicalTrials.gov: ${num(d.ensaios)} estudos registrados; ${num(d.recrutando)} recrutando; última atualização: ${esc(d.ultimaAtualizacao || "—")}.<br>${chipsFases(d)}</li>
       <li>PubMed: ${num(d.artigos)} artigos (${num(d.artigosAno)} nos últimos 12 meses)</li>
       <li>FDA: ${d.fdaOk ? (d.fdaRegistros > 0 ? `${num(d.fdaRegistros)} registro(s) de medicamento encontrados` : "nenhum medicamento registrado encontrado") : "indisponível"}</li>
     </ul>${aviso}

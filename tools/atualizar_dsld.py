@@ -204,7 +204,8 @@ def ensaios(termo):
 def txt_cond(e):
     if not e.get("cond"):
         return ""
-    return "Condições mais estudadas nos ensaios (termos do registro, em inglês): %s." % ", ".join("%s (%d)" % (k, v) for k, v in e["cond"])
+    from condicoes_pt import traduzir_lista
+    return "Condições mais estudadas nos ensaios: %s." % ", ".join("%s (%d)" % (k, v) for k, v in traduzir_lista(e["cond"]))
 
 
 def fase_de(cat, e):

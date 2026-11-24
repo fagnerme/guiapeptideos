@@ -2,11 +2,20 @@ montarLayout();
 const total = PEPTIDES.length;
 const revisados = Object.keys(REVISOES).length;
 const pend = Object.entries(REVISAO_PENDENTE).filter(([s]) => porSlug(s));
-const TIPOS_REVISAO = { aprovacao: "✅ Aprovação", seguranca: "⚠️ Segurança", estudos: "🧪 Estudos", conteudo: "✏️ Conteúdo", fase: "🔬 Fase" };
+const TIPOS_REVISAO = { aprovacao: "✅ Aprovação", seguranca: "⚠️ Segurança", estudos: "🧪 Estudos", conteudo: "📚 Pesquisa", fase: "🔬 Fase" };
 document.getElementById("resumo-revisao").innerHTML =
   `<b>${revisados}</b> ${tr("de")} <b>${total}</b> ${tr("fichas têm revisão por profissional de saúde registrada.")} <b>${pend.length}</b> ${tr("fichas têm sinais automáticos pendentes de revisão.")}`;
+/* Por ficha: do mais novo ao mais antigo, só o aviso mais recente do ClinicalTrials (os antigos repetem os mesmos números) */
+const itensRevisao = l => {
+  let viu = false;
+  return l.slice().sort((a, b) => b.data.localeCompare(a.data)).filter(x => {
+    if (!/ClinicalTrials/.test(x.texto)) return true;
+    if (viu) return false;
+    return (viu = true);
+  });
+};
 document.getElementById("lista-revisao").innerHTML = pend.length
-  ? pend.map(([s, l]) => `<section class="boas"><h3><a href="fichas/${esc(s)}.html">${esc(porSlug(s).nome)}</a></h3><ul>${l.map(x => `<li><b>${esc(TIPOS_REVISAO[x.tipo] || x.tipo)}</b> · ${esc(datasSinal(x))} — ${esc(notaAuto(x.texto))}</li>`).join("")}</ul></section>`).join("")
+  ? pend.map(([s, l]) => `<section class="boas"><h3><a href="fichas/${esc(s)}.html">${esc(porSlug(s).nome)}</a></h3><ul class="sinais-lista">${itensRevisao(l).map(x => `<li class="sinal"><span class="sinal-data">${esc(dataMarco(x.data))}</span><span class="sinal-corpo"><b>${esc(TIPOS_REVISAO[x.tipo] || x.tipo)}</b><span>${esc(notaAuto(x.texto))}</span>${x.fato ? `<small>${tr("data do fato")}: ${esc(dataMarco(x.fato))}</small>` : ""}</span></li>`).join("")}</ul></section>`).join("")
   : "<p>Nenhum sinal pendente no momento.</p>";
 
 snapshot().then(snap => {

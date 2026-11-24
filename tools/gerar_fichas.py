@@ -56,6 +56,7 @@ def carregar():
 
 e = lambda t: html.escape(str(t or ""), quote=True)
 en = lambda t: html.escape(str("—" if t is None else t), quote=True)
+chips_fases = lambda d: '<span class="fases">' + "".join(f'<span class="fase-chip"><b>{en(d.get("fase" + str(n)))}</b> na fase {n}</span>' for n in (1, 2, 3)) + "</span>"
 
 def html_resumo_auto(dados, termo):
     if not dados:
@@ -66,10 +67,9 @@ def html_resumo_auto(dados, termo):
     return (
         '<section class="boas atualizacao-auto"><h2>Resumo automático da pesquisa</h2>'
         f'<p>Coleta registrada em {e(data)}.</p><ul>'
-        f'<li>ClinicalTrials.gov: {en(dados.get("ensaios"))} ensaio(s); fases 1/2/3: '
-        f'{en(dados.get("fase1"))}/{en(dados.get("fase2"))}/{en(dados.get("fase3"))}; '
+        f'<li>ClinicalTrials.gov: {en(dados.get("ensaios"))} estudo(s) registrado(s); '
         f'{en(dados.get("recrutando"))} recrutando; atualização mais recente do registro: '
-        f'{e(dados.get("ultimaAtualizacao") or "—")}.</li>'
+        f'{e(dados.get("ultimaAtualizacao") or "—")}.<br>{chips_fases(dados)}</li>'
         f'<li>PubMed: {en(dados.get("artigosAno"))} artigo(s) nos últimos 12 meses e '
         f'{en(dados.get("revisoesAno"))} revisão(ões) sistemática(s)/meta-análise(s).</li></ul>'
         '<p><small>Busca textual por nome: os números descrevem atividade de pesquisa e não demonstram eficácia, benefício ou segurança.</small></p>'
@@ -138,8 +138,7 @@ def html_status_auto(dados, termo):
     if isinstance(dados.get("ensaios"), int) and dados["ensaios"] > 0:
         estudos = (
             f'<p>ClinicalTrials.gov: {en(dados.get("ensaios"))} estudo(s) com correspondência textual; '
-            f'fases 1/2/3: {en(dados.get("fase1"))}/{en(dados.get("fase2"))}/{en(dados.get("fase3"))}; '
-            f'{en(dados.get("recrutando"))} recrutando. '
+            f'{en(dados.get("recrutando"))} recrutando.</p><p>{chips_fases(dados)} '
             f'<a href="https://clinicaltrials.gov/search?term={quote(termo)}" target="_blank" rel="noopener">Consultar estudos</a>.</p>'
         )
     return (

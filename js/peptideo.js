@@ -38,9 +38,7 @@ function htmlRevisaoHumana(p) {
 /* Novidades das coletas automáticas em linguagem direta: data, tipo e uma frase curta. Fica depois do conteúdo principal. */
 const ROTULO_SINAL = { aprovacao: "✅ Aprovação", seguranca: "⚠️ Segurança", estudos: "🧪 Estudos", conteudo: "📚 Pesquisa", fase: "🔬 Fase" };
 function frasesSinal(x) {
-  const ct = /estudos \d+ → (\d+).*recrutando \d+ → (\d+)/.exec(x.texto);
-  if (ct) return `ClinicalTrials.gov: ${ct[1]} estudos registrados, ${ct[2]} recrutando agora.`;
-  return (typeof notaAuto === "function" ? notaAuto(x.texto) : x.texto).replace(/\s*Reveja [^.]*\.?$/, "").trim();
+  return notaAuto(x.texto);
 }
 function htmlSinais(p) {
   const pend = ((typeof REVISAO_PENDENTE !== "undefined" && REVISAO_PENDENTE[slug(p.nome)]) || []).slice().sort((a, b) => b.data.localeCompare(a.data));
@@ -121,7 +119,7 @@ function htmlResumoAtualizacao(p, d) {
   return `<section class="boas atualizacao-auto"><h2>${tr("Resumo automático da pesquisa")}</h2>
     <p>${tr("Coleta registrada em")} ${esc(data)}.</p>
     <ul>
-      <li>ClinicalTrials.gov: ${num(d.ensaios)} ${tr("estudos registrados")}; ${tr("fases 1/2/3")}: ${num(d.fase1)}/${num(d.fase2)}/${num(d.fase3)}; ${num(d.recrutando)} ${tr("recrutando")}; ${tr("última atualização do registro")}: ${esc(d.ultimaAtualizacao || "—")}.</li>
+      <li>ClinicalTrials.gov: ${num(d.ensaios)} ${tr("estudos registrados")}; ${num(d.recrutando)} ${tr("recrutando")}; ${tr("última atualização do registro")}: ${esc(d.ultimaAtualizacao || "—")}.<br>${chipsFases(d)}</li>
       <li>PubMed: ${num(d.artigosAno)} ${tr("artigos nos últimos 12 meses")}; ${num(d.revisoesAno)} ${tr("revisões sistemáticas/meta-análises")}.</li>
     </ul>
     <p><small>${tr("Busca textual por nome: os números descrevem atividade de pesquisa, não comprovam eficácia, benefício ou segurança.")}</small></p>
