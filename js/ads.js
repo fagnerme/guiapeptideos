@@ -1,7 +1,8 @@
 /* Configuração de anúncios do Google AdSense. */
 const ADS_CONFIG = {
   clientId: "ca-pub-5947360009880377",
-  slots: { topo: "", meio: "", rodape: "" } // IDs dos blocos criados no painel do AdSense
+  // bloco in-article do painel do AdSense; pode-se criar blocos separados por posição
+  slots: { topo: "1778908415", meio: "1778908415", rodape: "1778908415" }
 };
 
 const CONSENT_KEY = "consent-ads";
@@ -16,8 +17,9 @@ function carregarAds() {
   document.querySelectorAll(".ad-slot").forEach(el => {
     const slot = ADS_CONFIG.slots[el.dataset.slot];
     if (!slot) return;
-    el.innerHTML = `<small class="ad-label">Publicidade</small><ins class="adsbygoogle" style="display:block"
-      data-ad-client="${ADS_CONFIG.clientId}" data-ad-slot="${slot}" data-ad-format="auto" data-full-width-responsive="true"></ins>`;
+    el.innerHTML = `<small class="ad-label">Publicidade</small><ins class="adsbygoogle" style="display:block;text-align:center"
+      data-ad-layout="in-article" data-ad-format="fluid"
+      data-ad-client="${ADS_CONFIG.clientId}" data-ad-slot="${slot}"></ins>`;
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   });
 }
