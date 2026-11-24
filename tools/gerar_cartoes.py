@@ -66,7 +66,7 @@ for nome, cat, fase in itens:
     desc = faz.get(nome, f"Peptídeo da categoria {cat}.")
     img = Image.new("RGB", (1200, 630), "#1f3a5f")
     d = ImageDraw.Draw(img)
-    d.text((60, 50), "GUIA EDUCATIVO DE PEPTÍDEOS E HORMÔNIOS", font=fonte(30, True), fill="#9fb8d9")
+    d.text((60, 50), "GUIA DE PEPTÍDEOS E HORMÔNIOS", font=fonte(30, True), fill="#9fb8d9")
     d.text((60, 120), nome, font=fonte(76, True), fill="#ffffff")
     cor = next((v for k, v in CORES.items() if fase.startswith(k)), "#546e7a")
     d.rounded_rectangle((60, 230, 60 + d.textlength(fase, font=fonte(34, True)) + 50, 290), 14, fill=cor)

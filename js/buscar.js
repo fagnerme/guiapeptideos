@@ -15,7 +15,7 @@ function buscar(texto) {
   const bate = campos => { const n = norm(campos.join(" ")), c = so(n); return ws.every(w => n.includes(w) || (so(w).length > 2 && c.includes(so(w)))); };
   return {
     ws,
-    peptideos: PEPTIDES.filter(p => bate([p.nome, p.categoria, p.fase, p.status, p.mecanismo, p.oQueFaz, p.beneficios, p.riscos])),
+    peptideos: PEPTIDES.filter(p => bate([p.nome, p.categoria, p.fase, p.status, p.mecanismo, p.oQueFaz, p.beneficios, p.riscos]) || casaBusca(p, texto, false)),
     glossario: GLOSSARIO.filter(g => bate([g.termo, g.def])),
     licoes: LICOES.filter(l => bate([l.titulo, semTags(l.html)])),
     alegacoes: ALEGACOES.filter(a => bate([a.texto, a.explicacao])),
@@ -39,5 +39,5 @@ if (q.length < 2) {
     secao("Lições", r.licoes.map(l => `<li><a href="aprender.html">${esc(l.titulo)}</a><br><small>${esc(trecho(semTags(l.html), r.ws))}</small></li>`)),
     secao("Alegações", r.alegacoes.map(a => `<li><a href="alegacoes.html#${a.id}">${esc(a.texto)}</a> — <small>${esc(VEREDITOS[a.veredito].rotulo)}</small></li>`)),
     secao("Mecanismos", r.mecanismos.map(m => `<li><a href="mecanismos.html#${m.id}">${esc(m.nome)}</a><br><small>${esc(m.desc)}</small></li>`)),
-  ].join("") : `<p>${tr("Nenhum resultado. Tente outro termo (por exemplo, o nome da substância ou da condição).")}</p>`;
+  ].join("") : `<p>${tr("Nenhum resultado. Tente outro termo (por exemplo, o nome da substância ou da condição).")}</p><p><small>${tr("Dicas: confira a grafia, use só uma palavra ou busque pelo nome comercial.")}</small></p><p><a class="btn" href="index.html">${tr("Ver o catálogo completo")}</a></p>`;
 }

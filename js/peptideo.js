@@ -59,6 +59,7 @@ function htmlSinais(p) {
 }
 /* Ícone e cor por tipo de bloco, para a ficha ser escaneável sem ler tudo. */
 const BLOCOS_ESTILO = [
+  [/resumo r[aá]pido/i, "⚡", "simples"],
   [/riscos|alertas de seguran|interações|cuidados/i, "⚠️", "risco"],
   [/benef[ií]cios/i, "✅", "beneficio"],
   [/evid[eê]ncia/i, "🔬", "ciencia"],
@@ -76,15 +77,37 @@ function decorarBlocos() {
     const h = sec.querySelector(":scope > h2");
     if (!h || sec.dataset.decorado) return;
     const est = BLOCOS_ESTILO.find(([re]) => re.test(h.textContent));
+    if (h.textContent.trim() === "Riscos") sec.id = "bloco-riscos";
     sec.dataset.decorado = "1";
     sec.dataset.bloco = est ? est[2] : "info";
     h.insertAdjacentHTML("afterbegin", `<span class="bloco-icone" aria-hidden="true">${est ? est[1] : "📄"}</span> `);
   });
 }
+/* Blocos técnicos começam fechados: o título vira um botão que abre e fecha o conteúdo. */
+const BLOCOS_RECOLHIDOS = /^(fontes|como citar|alertas de seguran[çc]a|estudos recentes|dados ao vivo|conferir nas fontes oficiais|atualiza[çc][ãa]o autom[áa]tica de riscos)/i;
+function recolherBlocos() {
+  alvo.querySelectorAll(".conteudo-ficha section.boas").forEach(sec => {
+    const h = sec.querySelector(":scope > h2");
+    if (!h || sec.dataset.recolhivel || !BLOCOS_RECOLHIDOS.test(h.textContent.replace(/^[^\p{L}]+/u, "").trim())) return;
+    sec.dataset.recolhivel = "1";
+    sec.classList.add("recolhivel", "fechado");
+    h.tabIndex = 0;
+    h.setAttribute("role", "button");
+    h.setAttribute("aria-expanded", "false");
+    const alternar = () => { const f = sec.classList.toggle("fechado"); h.setAttribute("aria-expanded", String(!f)); };
+    h.addEventListener("click", alternar);
+    h.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); alternar(); } });
+  });
+}
+function abrirBloco(sec) {
+  if (!sec?.classList.contains("recolhivel")) return;
+  sec.classList.remove("fechado");
+  sec.querySelector(":scope > h2")?.setAttribute("aria-expanded", "true");
+}
 function htmlCitar(p) {
   const raiz = (document.querySelector('meta[name="site-root"]')?.content || location.origin).replace(/\/$/, "");
   const url = `${raiz}/fichas/${slug(p.nome)}.html`;
-  const cit = `GUIA EDUCATIVO DE PEPTÍDEOS, HORMÔNIOS E SUPLEMENTOS. ${p.nome}. Conteúdo atualizado em ${dataBR(DATA_REVISAO)}. Disponível em: ${url}. Acesso em: ${new Date().toLocaleDateString(LOCALE)}.`;
+  const cit = `GUIA DE PEPTÍDEOS, HORMÔNIOS E SUPLEMENTOS. ${p.nome}. Conteúdo atualizado em ${dataBR(DATA_REVISAO)}. Disponível em: ${url}. Acesso em: ${new Date().toLocaleDateString(LOCALE)}.`;
   return `<section class="boas citar"><h2>Como citar esta ficha</h2><p><small>${esc(cit)}</small></p><p><small>Este guia é um resumo educativo: em trabalhos acadêmicos, cite também as fontes primárias listadas acima.</small></p></section>`;
 }
 function explorar(p) {
@@ -108,6 +131,20 @@ const p = porSlug(window.PEP_SLUG || new URLSearchParams(location.search).get("p
 
 /* As notas automáticas coladas no texto ([Atualização automática ...]) aparecem no bloco "Novidades nas fontes"; no texto corrido elas só atrapalham a leitura. */
 const semNotasAuto = t => String(t).replace(/\s*\[Atualização automática[^\]]*\]/g, "").replace(/\.(\s*\.)+/g, ".").trim();
+/* Resumo no topo da ficha: o essencial em três linhas antes dos blocos longos. */
+const primeirasFrases = (t, n, max) => {
+  const fr = semNotasAuto(t).split(/(?<=[.!?])\s+/).filter(Boolean);
+  let out = fr.slice(0, n).join(" ");
+  if (out.length > max) out = out.slice(0, max).replace(/\s+\S*$/, "") + "…";
+  return out;
+};
+function htmlResumoRapido(p) {
+  return `<section class="boas resumo-rapido"><h2>Resumo rápido</h2><dl>
+    <dt>O que é</dt><dd>${esc(primeirasFrases(p.oQueFaz, 1, 200))}</dd>
+    <dt>Situação</dt><dd>${htmlLocais(p, false)} <small>${tr("Fase")}: ${esc(p.fase)}</small></dd>
+    <dt>Atenção</dt><dd>${esc(primeirasFrases(p.riscos, 2, 240))}</dd></dl>
+    <p><small><a href="#bloco-riscos">${tr("Ver todos os riscos")} →</a></small></p></section>`;
+}
 function secao(titulo, texto, classe = "", tipo = "") {
   return `<section class="boas ${classe}"><h2>${titulo}</h2><p>${comGlossario(semNotasAuto(texto))}</p>${tipo ? `<p>${verificar(p, tipo)}</p>` : ""}</section>`;
 }
@@ -175,7 +212,9 @@ function montarMenuFicha() {
       const a = e.target.closest("a[href^='#']");
       if (!a) return;
       e.preventDefault();
-      document.getElementById(a.getAttribute("href").slice(1))?.scrollIntoView({ behavior: "smooth" });
+      const alvoBloco = document.getElementById(a.getAttribute("href").slice(1));
+      abrirBloco(alvoBloco);
+      alvoBloco?.scrollIntoView({ behavior: "smooth" });
       if (!mq.matches) det.open = false;
     });
   }
@@ -191,7 +230,7 @@ if (!p) {
   document.querySelector('meta[name="description"]').content = desc;
   const faq = faqDe(p);
   seoAtualizar("fichas/" + slug(p.nome) + ".html", [
-    { "@type": "MedicalWebPage", name: p.nome, description: desc, inLanguage: "pt-BR", isPartOf: { "@type": "WebSite", name: "Guia Educativo de Pept\u00eddeos, Horm\u00f4nios e Suplementos" }, about: { "@type": "Drug", name: p.nome } },
+    { "@type": "MedicalWebPage", name: p.nome, description: desc, inLanguage: "pt-BR", isPartOf: { "@type": "WebSite", name: "Guia de Pept\u00eddeos, Horm\u00f4nios e Suplementos" }, about: { "@type": "Drug", name: p.nome } },
     { "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
     { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "In\u00edcio", item: (document.querySelector('meta[name="site-root"]')?.content || location.origin) + "/index.html" }, { "@type": "ListItem", position: 2, name: p.nome }] }
   ]);
@@ -202,7 +241,7 @@ if (!p) {
   const relac = PEPTIDES.filter(x => x.categoria === p.categoria && x !== p).slice(0, 6);
 
   alvo.innerHTML = `
-    <div class="layout-ficha"><aside class="menu-ficha" aria-label="${tr("Seções desta ficha")}"><details id="menu-ficha-det" open><summary>☰ ${tr("Nesta ficha")}</summary><nav id="menu-ficha-corpo"></nav></details></aside>
+    <div class="layout-ficha"><aside class="menu-ficha" aria-label="${tr("Seções desta ficha")}"><details id="menu-ficha-det" open><summary>☰ ${tr("Seções")}</summary><nav id="menu-ficha-corpo"></nav></details></aside>
     <div class="conteudo-ficha">
     <nav class="migalhas"><a href="index.html">Catálogo</a> › ${esc(p.categoria)} › ${esc(p.nome)}</nav>
     <article class="pagina-pep" id="pep-topo">
@@ -211,8 +250,9 @@ if (!p) {
       <p>${htmlRevisao()}</p>
       ${p.revisaoIA ? `<p><small>🤖 Texto revisado automaticamente por IA em ${esc(dataBR(p.revisaoIA))}, sem revisão humana. Confira nas fontes antes de decidir qualquer coisa.</small></p>` : ""}
       ${htmlRevisaoHumana(p)}
+      ${htmlResumoRapido(p)}
       <section class="boas"><h2>${tr("Situação nas fontes regulatórias")}</h2><p><b>Status regulatório:</b> ${esc(semNotasAuto(p.status))}</p>${htmlLocais(p, true)}</section>
-      <p class="acoes"><button type="button" class="btn fav" data-slug="${slug(p.nome)}">${rotuloFav(slug(p.nome))}</button> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a> <a class="btn btn-prim" href="meus-protocolos.html?add=${slug(p.nome)}">📒 Adicionar aos Meus protocolos</a> <a class="btn" href="calculadora.html?p=${slug(p.nome)}">🧮 Calculadora</a> <button type="button" class="btn" id="pdf">🖨️ Salvar em PDF / imprimir</button> <button type="button" class="btn" id="facil" aria-pressed="false">🧒 Explique fácil</button> <button type="button" class="btn" id="compartilhar">🔗 Compartilhar</button></p>
+      <p class="acoes"><button type="button" class="btn fav" data-slug="${slug(p.nome)}">${rotuloFav(slug(p.nome))}</button> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a> <a class="btn btn-prim" href="meus-protocolos.html?add=${slug(p.nome)}">📒 Adicionar aos Meus protocolos</a> <a class="btn" href="calculadora.html?p=${slug(p.nome)}">🧮 Calculadora</a> <button type="button" class="btn" id="pdf">🖨️ Salvar em PDF / imprimir</button> <button type="button" class="btn" id="facil" aria-pressed="false">🧒 Explique fácil</button> <button type="button" class="btn" id="leitura" aria-pressed="false">🔎 Modo leitura</button> <button type="button" class="btn" id="compartilhar">🔗 Compartilhar</button></p>
       <section class="boas facil-box"><h2>Em palavras simples</h2><p>${esc(explicaFacil(p))}</p></section>
       ${secao("O que faz", p.oQueFaz)}
       ${htmlDetalhes(p)}
@@ -244,6 +284,7 @@ if (!p) {
     </div></div>`;
   document.body.classList.add("pagina-ficha");
   decorarBlocos();
+  recolherBlocos();
   try {
     const rec = JSON.parse(localStorage.getItem("recentes_v1") || "[]").filter(s => s !== slug(p.nome));
     rec.unshift(slug(p.nome));
@@ -258,6 +299,7 @@ if (!p) {
     document.getElementById("resumo-auto").innerHTML = htmlResumoAtualizacao(p, automatico);
     document.getElementById("riscos-auto").innerHTML = htmlRiscosAtualizados(p, automatico);
     decorarBlocos();
+    recolherBlocos();
     montarMenuFicha();
   });
   document.getElementById("compartilhar").addEventListener("click", async e => {
@@ -269,6 +311,10 @@ if (!p) {
   const aplicarFacil = on => { art.classList.toggle("modo-facil", on); btnF.setAttribute("aria-pressed", on); };
   aplicarFacil(localStorage.getItem("facil") === "1");
   btnF.addEventListener("click", () => { const on = !art.classList.contains("modo-facil"); localStorage.setItem("facil", on ? "1" : "0"); aplicarFacil(on); });
+  const btnL = document.getElementById("leitura");
+  const aplicarLeitura = on => { document.body.classList.toggle("modo-leitura", on); btnL.setAttribute("aria-pressed", on); };
+  try { aplicarLeitura(localStorage.getItem("leitura") === "1"); } catch { /* armazenamento indisponível */ }
+  btnL.addEventListener("click", () => { const on = !document.body.classList.contains("modo-leitura"); try { localStorage.setItem("leitura", on ? "1" : "0"); } catch { /* ignora */ } aplicarLeitura(on); });
 }
 
 

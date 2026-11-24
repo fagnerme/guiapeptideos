@@ -10,26 +10,39 @@ const ZONAS = {
   osso: `<rect x="72" y="250" width="14" height="80" rx="7"/><rect x="114" y="250" width="14" height="80" rx="7"/>`,
   pele: `<circle cx="48" cy="150" r="9"/>`, sangue: `<path d="M152 140c-8 12-12 18-12 24a12 12 0 0 0 24 0c0-6-4-12-12-24z"/>`
 };
-const CORPO = `<circle class="corpo" cx="100" cy="30" r="22"/><rect class="corpo" x="90" y="50" width="20" height="14"/>
-  <path class="corpo" d="M64 64h72l6 10v118c0 14-6 30-8 40H66c-2-10-8-26-8-40V74z"/>
-  <rect class="corpo" x="38" y="70" width="22" height="100" rx="11"/><rect class="corpo" x="140" y="70" width="22" height="100" rx="11"/>
-  <rect class="corpo" x="68" y="226" width="30" height="124" rx="14"/><rect class="corpo" x="102" y="226" width="30" height="124" rx="14"/>`;
+const CORPO = silhuetaBase();
+const GRUPOS = [["🧠 Cabeça", ["cerebro", "hipofise"]], ["🫀 Tórax e abdômen", ["coracao", "figado", "estomago", "pancreas", "intestino", "rim"]], ["💪 Corpo todo", ["gordura", "musculo", "osso", "pele", "sangue", "reprodutor"]]];
+const contar = o => new Set(Object.values(ALVOS).filter(a => a.orgaos.includes(o)).flatMap(a => a.peps)).size;
 let sel = new URLSearchParams(location.search).get("o");
-const svg = document.getElementById("corpo-svg"), painel = document.getElementById("corpo-painel"), botoes = document.getElementById("corpo-botoes");
+const svg = document.getElementById("corpo-svg"), painel = document.getElementById("corpo-painel"), botoes = document.getElementById("corpo-botoes"), dica = document.getElementById("corpo-dica");
 svg.innerHTML = CORPO + Object.entries(ZONAS).map(([k, g]) => `<g class="zona-org" data-o="${k}" tabindex="0" role="button" aria-label="${esc(ORGAOS[k])}"><title>${esc(ORGAOS[k])}</title>${g}</g>`).join("");
-botoes.innerHTML = Object.entries(ORGAOS).map(([k, n]) => `<button type="button" class="btn" data-o="${k}">${esc(n)}</button>`).join("");
-function mostrar(o) {
-  if (!ORGAOS[o]) { painel.innerHTML = `<p>${tr("Toque em um órgão no corpo, ou escolha na lista, para ver os alvos e as substâncias que agem nele.")}</p>`; return; }
+const agrupados = new Set(GRUPOS.flatMap(g => g[1]));
+const grupos = GRUPOS.concat([["Outros", Object.keys(ORGAOS).filter(k => !agrupados.has(k))]]).filter(g => g[1].some(k => ORGAOS[k]));
+botoes.innerHTML = grupos.map(([t, ks]) => `<div class="corpo-grupo"><h3>${t}</h3><div class="corpo-btns">${ks.filter(k => ORGAOS[k]).map(k => `<button type="button" class="btn corpo-btn" data-o="${k}"><i class="ponto" data-o="${k}"></i>${esc(ORGAOS[k])} <small>${contar(k)}</small></button>`).join("")}</div></div>`).join("");
+const textoDica = () => sel && ORGAOS[sel] ? `Selecionado: <b>${esc(ORGAOS[sel])}</b>` : "👆 Toque em um órgão";
+const mostrarDica = o => { dica.innerHTML = o && ORGAOS[o] ? `<b>${esc(ORGAOS[o])}</b> · ${contar(o)} substâncias` : textoDica(); };
+svg.addEventListener("pointerover", e => mostrarDica(e.target.closest("[data-o]")?.dataset.o));
+svg.addEventListener("pointerleave", () => mostrarDica());
+svg.addEventListener("focusin", e => mostrarDica(e.target.closest("[data-o]")?.dataset.o));
+svg.addEventListener("focusout", () => mostrarDica());
+function mostrar(o, rolar) {
+  if (!ORGAOS[o]) { painel.innerHTML = `<p>${tr("Toque em um órgão no corpo, ou escolha na lista, para ver os alvos e as substâncias que agem nele.")}</p>`; mostrarDica(); return; }
   sel = o;
   document.querySelectorAll("[data-o]").forEach(e => e.classList.toggle("ativo", e.dataset.o === o));
   const al = Object.entries(ALVOS).filter(([, a]) => a.orgaos.includes(o));
   const peps = [...new Set(al.flatMap(([, a]) => a.peps))];
-  painel.innerHTML = `<h3>${esc(ORGAOS[o])}</h3>
+  painel.innerHTML = `<h3><i class="ponto" data-o="${o}"></i>${esc(ORGAOS[o])}</h3>
     <p><b>Alvos que atuam aqui:</b> ${al.map(([k, a]) => `<a class="chip-alvo" href="alvo.html?a=${k}">${esc(a.nome)}</a>`).join("")}</p>
     <p><b>${tr("Substâncias:")}</b> ${peps.length}</p><ul class="peps-alvo">${peps.map(s => `<li>${linkPep(s)} ${rotuloFase(s)}</li>`).join("") || "<li>Nenhum</li>"}</ul>
+    <p><button type="button" class="btn" id="corpo-limpar">✕ Limpar seleção</button></p>
     <p><small>${tr("Mapa simplificado: uma substância pode agir em vários órgãos, e a posição é apenas ilustrativa.")}</small></p>`;
+  mostrarDica();
   history.replaceState(null, "", "?o=" + o);
+  if (rolar && matchMedia("(max-width:640px)").matches) painel.scrollIntoView({ behavior: "smooth", block: "start" });
 }
-document.addEventListener("click", e => { const t = e.target.closest("[data-o]"); if (t) mostrar(t.dataset.o); });
+document.addEventListener("click", e => {
+  if (e.target.closest("#corpo-limpar")) { sel = null; document.querySelectorAll("[data-o]").forEach(x => x.classList.remove("ativo")); history.replaceState(null, "", "corpo.html"); mostrar(null); return; }
+  const t = e.target.closest("[data-o]:not(.ponto)"); if (t) mostrar(t.dataset.o, true);
+});
 document.addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.o) { e.preventDefault(); mostrar(e.target.dataset.o); } });
 mostrar(sel);

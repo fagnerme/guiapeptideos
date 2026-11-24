@@ -11,6 +11,28 @@ const ordemSel = document.getElementById("ordem");
 const origemSel = document.getElementById("origem");
 const tipoSel = document.getElementById("tipo");
 const ITENS_POR_PAGINA = 40;
+/* Seleção para comparar: até 3 itens marcados nos cards; a barra fixa abre a comparação. */
+const selComparar = new Set();
+const barraCmp = document.createElement("div");
+barraCmp.id = "barra-comparar";
+barraCmp.hidden = true;
+document.body.appendChild(barraCmp);
+function atualizarBarraCmp() {
+  barraCmp.hidden = !selComparar.size;
+  const nomes = [...selComparar].map(s => esc(porSlug(s)?.nome || s));
+  const href = "comparar.html?" + [...selComparar].map((s, i) => "abc"[i] + "=" + s).join("&");
+  barraCmp.innerHTML = `<span><b>${tr("Comparar")}:</b> ${nomes.join(" · ")}${selComparar.size < 2 ? ` <small>(${tr("marque mais 1")})</small>` : ""}</span>
+    ${selComparar.size >= 2 ? `<a class="btn btn-prim" href="${href}">${tr("Comparar agora")} →</a>` : ""}
+    <button type="button" class="btn" id="cmp-limpar">${tr("Limpar")}</button>`;
+}
+barraCmp.addEventListener("click", e => { if (e.target.id === "cmp-limpar") { selComparar.clear(); lista.querySelectorAll(".cmp").forEach(c => { c.checked = false; }); atualizarBarraCmp(); } });
+lista.addEventListener("change", e => {
+  const c = e.target.closest(".cmp");
+  if (!c) return;
+  if (c.checked && selComparar.size >= 3) { c.checked = false; return; }
+  c.checked ? selComparar.add(c.dataset.slug) : selComparar.delete(c.dataset.slug);
+  atualizarBarraCmp();
+});
 let limiteVisivel = ITENS_POR_PAGINA;
 Object.entries(TIPOS).forEach(([k, s]) => { const o = document.createElement("option"); o.value = k; o.textContent = `${s.icone} ${s.rotulo}`; tipoSel.appendChild(o); });
 document.getElementById("legenda-tipos").innerHTML = Object.entries(TIPOS).map(([k, s]) => `<li><b>${s.icone} ${esc(tr(s.rotulo))}</b> (${PEPTIDES.filter(p => chaveTipo(p) === k).length}): ${esc(tr(s.def))}</li>`).join("");
@@ -67,7 +89,7 @@ function render(alvoSlug = "") {
     (!favSel.checked || ehFav(slug(p.nome))) &&
     (!seloSel.value || chaveSelo(p) === seloSel.value) &&
     (!origemSel.value || chaveOrigem(p) === origemSel.value) &&
-    (!q || ((t, c) => t.includes(q) || c.includes(q.replace(/[^a-z0-9]/g, "")))((p.nome + " " + p.mecanismo + " " + p.categoria + " " + tipoDe(p).rotulo + " " + p.status).toLowerCase(), (p.nome + " " + p.mecanismo).toLowerCase().replace(/[^a-z0-9]/g, "")))
+    (!q || casaBusca(p, q))
   );
   if (ordemSel.value === "fase") itens.sort((a, b) => FASES.indexOf(a.fase) - FASES.indexOf(b.fase) || cmpNome(a, b));
   else if (ordemSel.value === "confianca") itens.sort((a, b) => ORDEM_SELO.indexOf(chaveSelo(a)) - ORDEM_SELO.indexOf(chaveSelo(b)) || cmpNome(a, b));
@@ -93,7 +115,7 @@ function render(alvoSlug = "") {
         <summary>Detalhes regulatórios e estudos</summary>
         ${htmlLocais(p, true)}
       </details>
-      <p class="acoes"><a class="btn btn-prim" href="${urlPeptideo(p.nome)}">Ver detalhes →</a> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a>${p.fase === "Aprovado" ? ' <a class="btn" href="calculadora.html">🧮 Calculadora</a>' : ""}</p>
+      <p class="acoes"><a class="btn btn-prim" href="${urlPeptideo(p.nome)}">Ver detalhes →</a> <label class="btn cmp-sel"><input type="checkbox" class="cmp" data-slug="${slug(p.nome)}"${selComparar.has(slug(p.nome)) ? " checked" : ""}> ⚖️ ${tr("Comparar")}</label>${p.fase === "Aprovado" ? ' <a class="btn" href="calculadora.html">🧮 Calculadora</a>' : ""}</p>
     </article>`).join("") : `<p>${tr("Nenhum resultado.")}</p><p><small>${tr("Tente outro termo ou limpe os filtros.")}</small></p><p><button type="button" class="btn btn-prim" id="limpar-filtros">${tr("Limpar filtros")}</button></p>`;
   paginacao.hidden = exibidos.length >= itens.length;
   carregarMais.textContent = tr("Carregar mais");
@@ -183,14 +205,13 @@ function montarSugestoes() {
   busca.parentElement.appendChild(sug);
   let ativo = -1;
   const norm = s => semAcento(String(s).toLowerCase());
-  const so = s => s.replace(/[^a-z0-9]/g, "");
   const fechar = () => { sug.hidden = true; ativo = -1; };
   const marcar = i => { [...sug.children].forEach((li, k) => li.classList.toggle("ativo", k === i)); ativo = i; };
   busca.addEventListener("input", () => {
     const ws = norm(busca.value).split(/\s+/).filter(Boolean);
     if (!ws.length) return fechar();
-    const achados = PEPTIDES.map(p => ({ p, n: norm(p.nome) }))
-      .filter(x => ws.every(w => x.n.includes(w) || (so(w).length > 2 && so(x.n).includes(so(w)))))
+    const achados = PEPTIDES.map(p => ({ p, n: buscaNome(p) }))
+      .filter(x => casaBusca(x.p, busca.value, false))
       .sort((a, b) => (b.n.startsWith(ws[0]) ? 1 : 0) - (a.n.startsWith(ws[0]) ? 1 : 0) || a.n.length - b.n.length);
     if (!achados.length) return fechar();
     sug.innerHTML = achados.slice(0, 8).map(x => `<li role="option"><a href="${urlPeptideo(x.p.nome)}"><b>${esc(x.p.nome)}</b> <small>${esc(tr(x.p.categoria))} · ${esc(tr(x.p.fase))}</small></a></li>`).join("")

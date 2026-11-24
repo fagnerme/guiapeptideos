@@ -52,7 +52,7 @@ for f in sorted(raiz.glob("*.html")):
     tit = tit.group(1).strip()
     desc = _meta(t, "description")
     url = f"{site}/{f.name}"
-    nome_site = "Guia Educativo de Pept\u00eddeos, Horm\u00f4nios e Suplementos"
+    nome_site = "Guia de Pept\u00eddeos, Horm\u00f4nios e Suplementos"
     blocos = [
         f'<meta name="site-root" content="{site}">',
         f'<link rel="canonical" href="{url}">',

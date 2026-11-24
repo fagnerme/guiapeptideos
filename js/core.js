@@ -3,6 +3,12 @@ const LANG = "pt";
 const LOCALE = "pt-BR";
 const esc = s => { const d = document.createElement("div"); d.textContent = s; return d.innerHTML.replace(/"/g, "&quot;").replace(/'/g, "&#39;"); };
 const semAcento = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+/* Silhueta humana (viewBox 200x360) compartilhada pelo mapa do corpo e pelas vias de administração. */
+const SILHUETA_MEIO = "M100 52H112L113 64C128 68 146 70 154 80C162 90 164 116 165 140L168 172C169 184 157 186 155 176L150 142C149 128 148 112 144 100C143 130 142 160 139 182C137 200 141 214 140 236C140 270 138 300 137 328C137 338 140 346 138 352C132 356 120 356 116 350C115 330 114 290 112 262C111 248 108 238 100 234Z";
+const silhuetaBase = () => {
+  const metade = `<path d="${SILHUETA_MEIO}"/><path transform="translate(200 0) scale(-1 1)" d="${SILHUETA_MEIO}"/>`;
+  return `<g class="corpo-borda">${metade}<ellipse cx="100" cy="30" rx="20" ry="24"/></g><g class="corpo-miolo">${metade}<ellipse cx="100" cy="30" rx="20" ry="24"/></g>`;
+};
 const slug = nome => semAcento(nome.toLowerCase()).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 const porSlug = s => PEPTIDES.find(p => slug(p.nome) === s);
 const faseClasse = f => "fase-" + semAcento(f.toLowerCase()).replace(/[^a-z0-9]+/g, "");
@@ -106,15 +112,44 @@ const notaAuto = texto => {
   t = t.replace(/\((\d{4})-(\d{2})-(\d{2}) → (\d{4})-(\d{2})-(\d{2})\)/, "($3/$2/$1 → $6/$5/$4)");
   return t;
 };
-if (typeof REVISAO_PENDENTE !== "undefined") {
-  /* Demais sinais viram notas automáticas datadas no campo correspondente da ficha. */
-  const CAMPO = { seguranca: "riscos", estudos: "evidencia", conteudo: "status", aprovacao: "status" };
-  PEPTIDES.forEach(p => {
-    (REVISAO_PENDENTE[slug(p.nome)] || []).forEach(x => {
-      const c = CAMPO[x.tipo];
-      if (!c || typeof p[c] !== "string") return;
-      p[c] = `${p[c].replace(/\.?\s*$/, ".")} [Atualização automática ${dataMarco(x.data)}${x.fato ? `; data do fato ${dataMarco(x.fato)}` : ""}: ${notaAuto(x.texto).replace(/\.$/, "")}.]`;
-    });
+/* Os avisos automáticos aparecem só em "Novidades nas fontes"; não são mais colados nos textos de riscos, evidência e status. */
+
+/* Busca: sem acento, todas as palavras, nomes comerciais e tolerância a erro de digitação. */
+const SINONIMOS = {
+  semaglutida: "ozempic wegovy rybelsus", tirzepatida: "mounjaro zepbound", liraglutida: "victoza saxenda", dulaglutida: "trulicity",
+  exenatida: "byetta bydureon", cagrilintida: "cagrisema", tesamorelina: "egrifta", somatropina: "hormonio do crescimento gh hgh",
+  "bpc-157": "bpc157 pentadecapeptideo", "cjc-1295": "cjc1295", "ibutamoren": "mk677 mk-677", testosterona: "androgel deposteron durateston",
+  tamoxifeno: "nolvadex", anastrozol: "arimidex", letrozol: "femara", clomifeno: "clomid", finasterida: "propecia proscar", cabergolina: "dostinex",
+  oxandrolona: "anavar", nandrolona: "deca durabolin", estanozolol: "winstrol", trembolona: "tren", metformina: "glifage glucophage",
+  "gonadotrofina corionica": "hcg pregnyl ovidrel", melatonina: "hormonio do sono", creatina: "creatine", cafeina: "caffeine", curcumina: "curcuma turmeric",
+  ashwagandha: "withania ginseng indiano", glutationa: "glutathione", "omega-3": "fish oil oleo de peixe", "coenzima q10": "ubiquinol ubiquinona coq10",
+  "vitamina d3": "colecalciferol d3", "nad+": "nad nicotinamida adenina dinucleotideo", colageno: "collagen", probioticos: "probiotics"
+};
+const buscaNome = p => p._bn || (p._bn = (() => {
+  const n = semAcento(p.nome.toLowerCase());
+  const sin = Object.entries(SINONIMOS).filter(([k]) => n.startsWith(k)).map(([, v]) => v).join(" ");
+  return n + " " + sin;
+})());
+const buscaTexto = p => p._bt || (p._bt = semAcento((p.nome + " " + p.mecanismo + " " + p.categoria + " " + p.status).toLowerCase()));
+function distancia(a, b) {
+  if (Math.abs(a.length - b.length) > 2) return 9;
+  let ant = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const at = [i];
+    for (let j = 1; j <= b.length; j++) at[j] = Math.min(ant[j] + 1, at[j - 1] + 1, ant[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    ant = at;
+  }
+  return ant[b.length];
+}
+/* amplo=false: só nome e nomes comerciais (sugestões); amplo=true: também mecanismo, categoria e status (lista). */
+function casaBusca(p, q, amplo = true) {
+  const palavras = semAcento(q.toLowerCase()).split(/\s+/).filter(Boolean);
+  if (!palavras.length) return true;
+  const nome = buscaNome(p), compacto = nome.replace(/[^a-z0-9]/g, ""), pals = nome.split(/[^a-z0-9]+/).filter(x => x.length > 3);
+  return palavras.every(w => {
+    if (nome.includes(w) || (w.replace(/[^a-z0-9]/g, "").length > 2 && compacto.includes(w.replace(/[^a-z0-9]/g, "")))) return true;
+    if (amplo && buscaTexto(p).includes(w)) return true;
+    return w.length > 3 && pals.some(x => distancia(w, x) <= (w.length > 6 ? 2 : 1));
   });
 }
 /* Onde está aprovado: os resultados são limitados às bases e aos nomes consultados. */
@@ -167,7 +202,7 @@ function htmlLocais(p, completo) {
     if (temEstudos) chips.push(`<span class="local">${tr("Em estudo")}: ${num(estudos.ensaios)}</span>`);
     return `<span class="locais">${chips.join(" ")}</span>`;
   }
-  const lista = fontes.map(x => `<li><b>${esc(x.orgao)}:</b> ${esc(rotulo[x.situacao] || tr("Consulta parcial; não conclusiva"))}${datasFonte(x)}${x.detalhe ? ` — ${esc(x.detalhe)}` : ""} · <a href="${esc(x.url)}" target="_blank" rel="noopener">${tr("fonte oficial")}</a></li>`).join("");
+  const lista = fontes.map(x => `<li><b>${esc(x.orgao)}:</b> ${esc(rotulo[x.situacao] || tr("Consulta parcial; não conclusiva"))}${datasFonte(x)}${x.detalhe ? ` — ${esc([...new Set(String(x.detalhe).split("; "))].join("; ").replace(/\bApproved\b/g, "aprovado"))}` : ""} · <a href="${esc(x.url)}" target="_blank" rel="noopener">${tr("fonte oficial")}</a></li>`).join("");
   const estudosHtml = temEstudos
     ? `<p>${tr("ClinicalTrials.gov")}: ${num(estudos.ensaios)} ${tr("estudos registrados")}; ${num(estudos.recrutando)} ${tr("recrutando")}.</p><p>${chipsFases(estudos)} <a href="https://clinicaltrials.gov/search?term=${encodeURIComponent(termoEn(p.nome))}" target="_blank" rel="noopener">${tr("consultar estudos")}</a></p>`
     : "";

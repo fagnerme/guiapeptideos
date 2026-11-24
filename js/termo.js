@@ -10,7 +10,7 @@ if (!g) {
   document.querySelector('meta[name="description"]').content = `${g.termo}: ${g.def}`.slice(0, 300);
   document.getElementById("mig-termo").textContent = g.termo;
   seoAtualizar("termo.html?t=" + new URLSearchParams(location.search).get("t"), [
-    { "@type": "DefinedTerm", name: g.termo, description: g.def, inLanguage: "pt-BR", inDefinedTermSet: "Gloss\u00e1rio do Guia Educativo de Pept\u00eddeos, Horm\u00f4nios e Suplementos" }
+    { "@type": "DefinedTerm", name: g.termo, description: g.def, inLanguage: "pt-BR", inDefinedTermSet: "Gloss\u00e1rio do Guia de Pept\u00eddeos, Horm\u00f4nios e Suplementos" }
   ]);
   const n = semAcento(g.termo.toLowerCase());
   const bate = txt => semAcento(txt.toLowerCase()).includes(n);
