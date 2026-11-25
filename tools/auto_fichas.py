@@ -17,6 +17,8 @@ def cat_de(moa, ind, fase):
     t = (moa + " " + ind).lower()
     if re.search(r"bacteri|antibiotic|cell wall|ribosom", t):
         return "Antimicrobiano"
+    if re.search(r"interferon|interleukin|tumou?r necrosis|tnf|cd\d+|immun|cytokine|colony.stimulating|erythropoie|thrombopoie", t):
+        return "Imunomodulador"
     if re.search(r"opioid", t):
         return "Opioide"
     if re.search(r"tumor|cancer|neoplas|carcinoma|leuk|lymphom|myeloma", t):
@@ -51,7 +53,7 @@ def uma(x):
     return x, mol, moas, inds[:8]
 
 
-def ficha(x, mol, moas, inds):
+def ficha(x, mol, moas, inds, bio=False):
     fase_n = int(float(x["fase"]))
     nome = titulo(x["nome"])
     retirado = bool(mol.get("withdrawn_flag"))
@@ -76,7 +78,7 @@ def ficha(x, mol, moas, inds):
         "nome": nome, "termo_en": x["nome"].lower(), "categoria": cat_de(moa_txt, ind_txt, fase_n), "fase": fase,
         "status": status, "mecanismo": mec, "evidencia": ev, "riscos": riscos,
         "fontes": ["ChEMBL %s (https://www.ebi.ac.uk/chembl/compound_report_card/%s/)" % (x["chembl"], x["chembl"]), "ClinicalTrials.gov", "openFDA / EMA"],
-        "oque": "Peptídeo ou composto peptídico catalogado no ChEMBL%s." % ((", indicado em: %s" % ind_txt) if ind_txt else ""),
+        "oque": ("Proteína terapêutica (biológico, molécula grande) catalogada no ChEMBL%s." if bio else "Peptídeo ou composto peptídico catalogado no ChEMBL%s.") % ((", indicada em: %s" % ind_txt) if ind_txt else ""),
         "beneficios": "Esta ficha foi gerada a partir de bases oficiais e ainda não tem texto editorial sobre benefícios; veja as indicações e as fontes.",
         "det": {
             "oque": "Ficha gerada automaticamente a partir do ChEMBL. %s" % (("Indicações registradas: %s." % ind_txt) if ind_txt else "Não há indicações registradas na base."),
@@ -90,20 +92,26 @@ def ficha(x, mol, moas, inds):
     }
 
 
+EXC_BIO = re.compile(r"(theophylline|aminophylline|dactinomycin|trolamine|chromated|romidepsin|carfilzomib)", re.I)
+
+
 def main():
+    bio = "--biologicos" in sys.argv
     fmin = int(sys.argv[sys.argv.index("--fase-min") + 1]) if "--fase-min" in sys.argv else 1
-    lista = json.loads((NOVOS / "_chembl_pep.json").read_text("utf-8"))
-    lista = [x for x in lista if int(float(x["fase"])) >= fmin and not EXC.search(x["nome"])]
+    lista = json.loads((NOVOS / ("_chembl_faltam.json" if bio else "_chembl_pep.json")).read_text("utf-8"))
+    exc = EXC_BIO if bio else EXC
+    lista = [x for x in lista if int(float(x["fase"])) >= fmin and not exc.search(x["nome"])]
     print("itens:", len(lista))
     with ThreadPoolExecutor(6) as ex:
         res = list(ex.map(uma, lista))
-    for f in NOVOS.glob("novos_auto_*.py"):
+    pref = "novos_bio_" if bio else "novos_auto_"
+    for f in NOVOS.glob(pref + "*.py"):
         f.unlink()
-    fichas = [ficha(*r) for r in res]
+    fichas = [ficha(*r, bio=bio) for r in res]
     for i in range(0, len(fichas), 25):
         txt = "# gerado por tools/auto_fichas.py (dados do ChEMBL)\nNOVOS = " + json.dumps(fichas[i:i + 25], ensure_ascii=False, indent=1) + "\n"
         txt = txt.replace(": true", ": True").replace(": false", ": False").replace(": null", ": None")
-        (NOVOS / ("novos_auto_%d.py" % (i // 25 + 1))).write_text(txt, "utf-8")
+        (NOVOS / ("%s%d.py" % (pref, i // 25 + 1))).write_text(txt, "utf-8")
     print("arquivos:", (len(fichas) + 24) // 25)
 
 
