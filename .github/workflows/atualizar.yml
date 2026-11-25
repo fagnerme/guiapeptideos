@@ -69,6 +69,10 @@ jobs:
         if: steps.guarda.outputs.pular != 'true'
         continue-on-error: true
         run: python tools/coletar_bulas.py
+      - name: Coletar alvos moleculares (ChEMBL e UniProt)
+        if: steps.guarda.outputs.pular != 'true'
+        continue-on-error: true
+        run: python tools/coletar_alvos.py
       - name: Gerar cartões, sitemap e service worker
         if: steps.guarda.outputs.pular != 'true'
         env:

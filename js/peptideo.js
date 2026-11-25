@@ -168,12 +168,10 @@ async function carregarEstudosDose(p) {
     if (!lista.length) return;
     const caixa = document.getElementById("estudos-dose");
     if (!caixa) return;
-    caixa.innerHTML = `<section class="boas estudos-dose"><h2>👤 Em humanos: como os estudos foram conduzidos</h2>
+    caixa.innerHTML = `<section class="boas estudos-dose"><h2>Como os estudos foram conduzidos</h2>
       <p class="aviso-dose"><b>Só para entender a pesquisa.</b> Estas são as doses e os tempos usados em estudos clínicos, com acompanhamento de equipe de saúde. Não são recomendação de uso nem orientação de dose para você: quem define isso é o profissional que prescreve.</p>
       ${lista.map(htmlEstudoDose).join("")}
       <p><small>Dados extraídos automaticamente do registro público ClinicalTrials.gov (estudos concluídos de maior porte). A leitura automática pode errar: confira sempre no registro de cada estudo.</small></p></section>`;
-    ORIGEM.estudos = lista.length;
-    atualizarOrigem(p);
     decorarBlocos();
     recolherBlocos();
     montarMenuFicha();
@@ -186,21 +184,6 @@ function dividirAnimais(txt) {
   const humanos = [], animais = [];
   unidades.map(u => u.trim()).filter(Boolean).forEach(u => (RE_ANIMAL.test(u) ? animais : humanos).push(u));
   return { humanos, animais };
-}
-const ORIGEM = { vias: [], estudos: 0 };
-function atualizarOrigem(p) {
-  const el = document.getElementById("origem-evidencia");
-  if (!el) return;
-  const humanos = [];
-  if (ORIGEM.vias.length) humanos.push(`bula oficial (${ORIGEM.vias.join(", ").toLowerCase()})`);
-  if (ORIGEM.estudos) humanos.push(`${ORIGEM.estudos} estudo${ORIGEM.estudos > 1 ? "s" : ""} clínico${ORIGEM.estudos > 1 ? "s" : ""} com esquema de dose`);
-  const pre = /pr[eé]-cl[ií]nico|in vitro/i.test(p.fase);
-  const linhas = [];
-  if (humanos.length) linhas.push(`<li><b>👤 Em humanos:</b> ${esc(humanos.join(" e "))}.</li>`);
-  else if (pre) linhas.push(`<li><b>👤 Em humanos:</b> não há bula nem estudo clínico concluído com dose registrado aqui.</li>`);
-  if (pre) linhas.push(`<li><b>🧪 Animais e laboratório:</b> ${esc(p.fase)}. O que se sabe vem de pesquisa pré-clínica e não vale como prova de efeito ou segurança em pessoas.</li>`);
-  el.innerHTML = linhas.length ? `<section class="boas origem-evidencia"><h2>De onde vêm as informações</h2><ul>${linhas.join("")}</ul>
-    <p><small>Dados de humanos (bulas e estudos clínicos) ficam separados dos de animais e de laboratório. As seções abaixo indicam a origem.</small></p></section>` : "";
 }
 async function carregarBula(p) {
   const s = slug(p.nome);
@@ -225,16 +208,32 @@ async function carregarBula(p) {
         <p><small>Bula de ${esc(b.titulo)}${b.publicado ? `, publicada em ${esc(b.publicado)}` : ""}. <a href="https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=${esc(b.setid)}" target="_blank" rel="noopener">Ver a bula original</a>.</small></p></div>`;
     }).filter(Boolean);
     if (!grupos.length) return;
-    ORIGEM.vias = [...new Set(d.bulas.flatMap(b => b.via.split(" + ")))];
-    caixa.innerHTML = `<section class="boas bula-oficial"><h2>👤 Em humanos: o que diz a bula oficial</h2>
+    caixa.innerHTML = `<section class="boas bula-oficial"><h2>O que diz a bula oficial</h2>
       <p><small>A bula depende da via de administração (oral, subcutânea, intravenosa etc.): cada uma tem indicação, dose e cuidados próprios. Por isso as bulas abaixo estão separadas por via.</small></p>
       ${grupos.join("")}
       <p><small>Fonte: ${esc(d.fonte)}. Tradução automática do inglês, pode conter erros. Bulas dos EUA: as de outros países podem diferir. Não substitui a orientação de um profissional de saúde.</small></p></section>`;
-    atualizarOrigem(p);
     decorarBlocos();
     recolherBlocos();
     montarMenuFicha();
   } catch { /* sem bula para este item */ }
+}
+async function carregarAlvos(p) {
+  const s = slug(p.nome);
+  try {
+    const idx = await getJson("dados/alvos-bio/index.json");
+    if (!idx.includes(s)) return;
+    const d = await getJson(`dados/alvos-bio/${s}.json`);
+    const caixa = document.getElementById("alvos-bio");
+    if (!caixa || !d.alvos || !d.alvos.length) return;
+    const itens = d.alvos.map(a => `<li><b>${esc(a.acao ? a.acao + ": " : "")}${esc(a.nomePt || a.nome)}</b>${a.gene ? ` <small>(gene ${esc(a.gene)})</small>` : ""}
+      ${a.mecanismoPt ? `<br>${esc(a.mecanismoPt)}` : ""}${a.funcaoPt ? `<details><summary>O que essa proteína faz no corpo</summary><p>${esc(a.funcaoPt)}</p></details>` : ""}</li>`).join("");
+    caixa.innerHTML = `<section class="boas alvos-bio"><h2>🧪 Laboratório / molecular: onde atua</h2>
+      <p><small>Dados de bancos de pesquisa sobre a proteína-alvo. Descrevem o mecanismo, não provam efeito em pessoas.</small></p><ul>${itens}</ul>
+      <p><small>Fonte: ${esc(d.fontes)}. Tradução automática do inglês, pode conter erros.</small></p></section>`;
+    decorarBlocos();
+    recolherBlocos();
+    montarMenuFicha();
+  } catch { /* sem alvos para este item */ }
 }
 function htmlResumoRapido(p) {
   return `<section class="boas resumo-rapido"><h2>Resumo rápido</h2><dl>
@@ -284,6 +283,10 @@ function htmlRiscosAtualizados(p, d) {
 
 /* Menu lateral da ficha: lista todos os blocos (h2) e destaca o bloco visível. Pode ser chamada de novo quando entram blocos carregados depois. */
 let observadorMenu = null;
+/* Capítulos da ficha: dão uma sequência de história (quem é → como age → o que se descobriu → como é usado → riscos → situação oficial → ir além). */
+function capitulo(n, titulo, pergunta) {
+  return `<div class="capitulo" id="cap-${n}"><span class="cap-num">Capítulo ${n}</span><h3>${esc(titulo)}</h3><p>${esc(pergunta)}</p></div>`;
+}
 function montarMenuFicha() {
   const corpo = document.getElementById("menu-ficha-corpo");
   if (!corpo) return;
@@ -292,7 +295,10 @@ function montarMenuFicha() {
     const sec = h.parentElement;
     if (!sec.id || sec.dataset.menuAuto) { sec.id = `bloco-${n + 1}`; sec.dataset.menuAuto = "1"; }
   });
-  corpo.innerHTML = `<ul>${blocos.map(h => `<li><a href="#${h.parentElement.id}">${esc(h.textContent)}</a></li>`).join("")}</ul><p class="menu-topo"><a href="#pep-topo">↑ ${tr("Voltar ao topo")}</a></p>`;
+  const itens = [...alvo.querySelectorAll(".conteudo-ficha .capitulo, .conteudo-ficha section.boas > h2")].map(el => el.classList.contains("capitulo")
+    ? `<li class="menu-cap"><a href="#${el.id}">${esc(el.querySelector(".cap-num").textContent.replace("Capítulo ", ""))}. ${esc(el.querySelector("h3").textContent)}</a></li>`
+    : `<li><a href="#${el.parentElement.id}">${esc(el.textContent)}</a></li>`);
+  corpo.innerHTML = `<ul>${itens.join("")}</ul><p class="menu-topo"><a href="#pep-topo">↑ ${tr("Voltar ao topo")}</a></p>`;
   if (observadorMenu) observadorMenu.disconnect();
   observadorMenu = new IntersectionObserver(es => {
     es.filter(x => x.isIntersecting).forEach(x => {
@@ -349,36 +355,45 @@ if (!p) {
       ${p.revisaoIA ? `<p><small>🤖 Texto revisado automaticamente por IA em ${esc(dataBR(p.revisaoIA))}, sem revisão humana. Confira nas fontes antes de decidir qualquer coisa.</small></p>` : ""}
       ${htmlRevisaoHumana(p)}
       ${htmlResumoRapido(p)}
-      <div id="origem-evidencia"></div>
-      <section class="boas"><h2>${tr("Situação nas fontes regulatórias")}</h2><p><b>Status regulatório:</b> ${esc(semNotasAuto(p.status))}</p>${htmlLocais(p, true)}</section>
       <p class="acoes"><button type="button" class="btn fav" data-slug="${slug(p.nome)}">${rotuloFav(slug(p.nome))}</button> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a> <a class="btn btn-prim" href="meus-protocolos.html?add=${slug(p.nome)}">📒 Adicionar aos Meus protocolos</a> <a class="btn" href="calculadora.html?p=${slug(p.nome)}">🧮 Calculadora</a> <button type="button" class="btn" id="pdf">🖨️ Salvar em PDF / imprimir</button> <button type="button" class="btn" id="leitura" aria-pressed="false">🔎 Modo leitura</button> <button type="button" class="btn" id="compartilhar">🔗 Compartilhar</button></p>
+      ${capitulo(1, "Quem é", "O que é isso, em palavras simples?")}
       <section class="boas facil-box"><h2>Em palavras simples</h2><p>${esc(explicaFacil(p))}</p></section>
       ${secao("O que faz", p.oQueFaz)}
       ${htmlDetalhes(p)}
+      ${capitulo(2, "Como age no corpo", "Onde atua e como o corpo lida com isso?")}
       ${secao("Mecanismo de ação", p.mecanismo, "tecnico", "mecanismo")}
+      <div id="alvos-bio"></div>
+      ${htmlAgeEm(p)}
+      ${htmlFarmaco(p)}
+      ${htmlMolecula(p)}
+      ${capitulo(3, "O que a ciência encontrou", "Funciona? Qual a força das provas?")}, "O que a ciência encontrou", "Funciona? Qual a força das provas?")}
       ${secao("Benefícios observados nos estudos", p.beneficios, "", "beneficios")}
       <div id="resumo-auto"></div>
-      ${htmlAgeEm(p)}
+      ${secao("Nível de evidência", p.evidencia, "tecnico", "evidencia")}
+      <div class="ad-slot" data-slot="conteudo"></div>
+      ${capitulo(4, "Como é usado", "Em que vias, doses e por quanto tempo nos estudos e nas bulas?")}
       ${htmlVias(p)}
       <div id="estudos-dose"></div>
       <div id="bula-oficial"></div>
-      ${htmlInteracoes(p)}
-      ${htmlFarmaco(p)}
-      ${secao("Nível de evidência", p.evidencia, "tecnico", "evidencia")}
+      ${secao("Protocolo / contexto de uso", p.protocolo, "tecnico")}
+      ${capitulo(5, "O que pode dar errado", "Quais os riscos, as interações e os sinais de alerta?")}
       ${secao("Riscos", p.riscos, "", "riscos")}
       <div id="riscos-auto"></div>
+      ${htmlInteracoes(p)}
       ${htmlSinais(p)}
-      ${secao("Protocolo / contexto de uso", p.protocolo, "tecnico")}
+      <section class="boas"><h2>Alertas de segurança</h2><div class="alertas-box"><small>Carregando...</small></div></section>
+      <div class="ad-slot" data-slot="conteudo"></div>
+      ${capitulo(6, "Situação oficial", "É aprovado? Onde e para quê?")}
+      <section class="boas"><h2>${tr("Situação nas fontes regulatórias")}</h2><p><b>Status regulatório:</b> ${esc(semNotasAuto(p.status))}</p>${htmlLocais(p, true)}</section>
+      ${htmlOficiais(p)}
+      ${capitulo(7, "Para ir além", "Dúvidas comuns, história, fontes e novidades")}
       <section class="boas"><h2>Perguntas frequentes</h2>${faq.map(([q, a]) => `<details class="faq"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>
       <section class="boas"><h2>Linha do tempo</h2>${htmlEtapas(p)}${marcosDoItem(p).length ? `<ul class="marcos">${marcosDoItem(p).map(([a, t]) => `<li><b>${a}</b> — ${esc(t)}</li>`).join("")}</ul>` : "<p><small>Sem marcos históricos cadastrados para este item.</small></p>"}</section>
       <section class="boas"><h2>Fontes</h2><p>${p.fontes.map(linkFonte).join("; ")}</p><p><b>Buscar:</b> ${links(p.nome)}</p></section>
-      ${htmlOficiais(p)}
       ${htmlCitar(p)}
-      <section class="boas"><h2>Alertas de segurança</h2><div class="alertas-box"><small>Carregando...</small></div></section>
       <section class="boas"><h2>Estudos recentes</h2><div class="estudos-box" data-nome="${esc(p.nome)}"><small>Carregando...</small></div></section>
       <section class="boas"><h2>Dados ao vivo</h2><div class="live" data-nome="${esc(p.nome)}"><small>Carregando...</small></div></section>
     </article>
-    ${htmlMolecula(p)}
     <section class="boas"><h2>Explore mais sobre ${esc(p.nome)}</h2><ul class="explore">${explorar(p).map(([h, tx]) => `<li><a href="${h}">${tx}</a></li>`).join("")}</ul></section>
     ${relac.length ? `<section class="boas"><h2>Veja também (${esc(p.categoria)})</h2><p>${relac.map(r => `<a href="${urlPeptideo(r.nome)}">${esc(r.nome)}</a>`).join(" · ")}</p></section>` : ""}
     <p class="prox-ant">${ant ? `<a href="${urlPeptideo(ant.nome)}">← ${esc(ant.nome)}</a>` : "<span></span>"}${prox ? `<a href="${urlPeptideo(prox.nome)}">${esc(prox.nome)} →</a>` : ""}</p>
@@ -395,7 +410,7 @@ if (!p) {
   carregarLive(alvo.querySelector(".live"));
   carregarEstudosDose(p);
   carregarBula(p);
-  atualizarOrigem(p);
+  carregarAlvos(p);
   carregarEstudos(alvo.querySelector(".estudos-box"));
   snapshot().then(snap => {
     alvo.querySelector(".alertas-box").innerHTML = htmlAlertas(p);

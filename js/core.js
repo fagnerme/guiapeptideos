@@ -596,7 +596,7 @@ const NAV = [
   ["glossario.html", "Glossário"],
   ["calculadora.html", "Calculadora"],
   ["meus-protocolos.html", "Meus protocolos"],
-  ["index.html#fontes", "Fontes"],
+  ["sobre.html#fontes", "Fontes"],
 ];
 const NAV_MAIS = [
   ["alertas.html", "Alertas de segurança"],
@@ -772,7 +772,7 @@ function montarLayout(titulo) {
       <a href="index.html" class="logo-marca" aria-label="Guia de Peptídeos: início"><img src="icons/logo.svg" alt="" width="64" height="64" decoding="async"></a>
       <h1><a href="index.html" class="home">${esc(titulo || "Guia de Peptídeos, Hormônios e Suplementos")}</a></h1>
       <p class="aviso"><span class="aviso-1">⚠️ Conteúdo exclusivamente educativo.</span> <span class="aviso-2">Não é recomendação médica nem fornece doses de autoadministração.</span></p>
-      <form class="busca-global" action="buscar.html" role="search"><input type="search" name="q" placeholder="Buscar em todo o guia..." aria-label="Buscar em todo o guia"><button type="submit" aria-label="Buscar">🔍</button></form>
+      <form class="busca-global" action="buscar.html" role="search"><input type="search" name="q" placeholder="Busque no guia" aria-label="Buscar em todo o guia" autocomplete="off"></form>
       <nav aria-label="Principal">${NAV_PRINCIPAL.map(([h, n]) => `<a href="${h}"${location.pathname.endsWith("/" + h) ? ' aria-current="page"' : ""}>${n}</a>`).join(" ")}
         <details class="nav-mais"><summary>Mais ▾</summary><div class="nav-grupos">${NAV_GRUPOS.map(([g, l]) => `<div><b>${g}</b>${l.map(([h, n]) => `<a href="${h}">${n}</a>`).join("")}</div>`).join("")}</div></details></nav>
       <details class="ajustes"><summary>⚙️ Ajustes</summary><div class="ajustes-corpo">

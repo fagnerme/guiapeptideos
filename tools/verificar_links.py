@@ -14,6 +14,8 @@ URL = re.compile(r"""https?://[^\s"'<>)\\`]+""")
 IGNORAR = ("localhost", "127.0.0.1", "fonts.googleapis", "fonts.gstatic", "pagead2.googlesyndication",
            "translate.google", "translate.googleapis", "w3.org", "schema.org", "fagnerme.github.io", "example.")
 UA = {"User-Agent": "Mozilla/5.0 (compatible; GuiaPeptideosLinkCheck/1.0)"}
+# Respondem 404 falso para robôs de datacenter (os links abrem normalmente no navegador)
+BARRAM_ROBOS = ("www.fda.gov",)
 
 
 def coletar():
@@ -51,7 +53,7 @@ def main():
     print(f"{len(urls)} links externos fixos")
     with cf.ThreadPoolExecutor(8) as ex:
         res = list(ex.map(checar, urls))
-    quebrados = [(u, s) for u, s in res if s in (404, 410, "dns")]
+    quebrados = [(u, s) for u, s in res if s in (404, 410, "dns") and not (s == 404 and any(d in u for d in BARRAM_ROBOS))]
     avisos = [(u, s) for u, s in res if s != 200 and (u, s) not in quebrados and not (isinstance(s, int) and 200 <= s < 400)]
     for u, s in avisos:
         print(f"AVISO {s}: {u} ({urls[u]})")

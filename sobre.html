@@ -36,12 +36,26 @@
     <li>Não fornece doses ou protocolos de autoadministração.</li>
     <li>Não substitui consulta médica.</li></ul>
     <h2>Como o conteúdo é produzido</h2>
-    <p>Cada item do catálogo apresenta informações sobre o que faz, mecanismo, benefícios observados nos estudos, nível de evidência, riscos, status regulatório e fontes. Informações vêm de bulas, artigos científicos e bases como PubMed, ClinicalTrials.gov, FDA, EMA e ANVISA. Os dados "ao vivo" (número de ensaios e artigos) são consultados automaticamente nessas bases; o restante é redigido e revisado manualmente.</p>
-    <h2>Selos de confiança</h2>
+    <p>Cada item do catálogo apresenta o que faz, mecanismo, benefícios observados nos estudos, nível de evidência, riscos, status regulatório e fontes. Parte do conteúdo é coletada automaticamente toda semana e o restante é texto educativo redigido a partir de fontes públicas.</p>
+    <p><b>Coletado automaticamente:</b></p>
+    <ul>
+      <li><b>Aprovações e alertas:</b> FDA, EMA, Health Canada e Anvisa.</li>
+      <li><b>Pesquisa:</b> número de ensaios (ClinicalTrials.gov) e de artigos (PubMed).</li>
+      <li><b>Estudos clínicos com dose, via, duração e esquema:</b> ClinicalTrials.gov, traduzidos para o português. A extração é automática e pode errar.</li>
+      <li><b>Bulas oficiais:</b> DailyMed (EUA), separadas por via de administração (oral, subcutânea, intravenosa etc.): alerta de caixa preta, contraindicações e interações.</li>
+      <li><b>Onde a substância atua:</b> ChEMBL e UniProt (proteína-alvo e função).</li>
+      <li><b>Novas fichas:</b> peptídeos, biológicos e suplementos novos entram a partir do ChEMBL e do DSLD/NIH.</li>
+    </ul>
+    <h2>Humanos, animais e laboratório</h2>
+    <p>As informações são separadas pela origem. <b>👤 Em humanos</b> são as bulas e os estudos clínicos; <b>🐭 Em animais e laboratório</b> são os resultados em roedores, outros animais ou in vitro, e <b>🧪 Laboratório / molecular</b> são os dados da proteína-alvo. Dentro das bulas, as frases sobre animais são separadas automaticamente por palavras-chave e podem falhar. Resultado de animal ou de laboratório não prova efeito nem segurança em pessoas.</p>
+    <h2 id="selos">Selos de confiança</h2>
     <ul id="legenda-selos"></ul>
     <p>O selo combina a <b>fase de desenvolvimento</b> com o <b>nível de evidência</b> descrito. Ele resume o estado do conhecimento; não indica que o uso seja seguro ou adequado para uma pessoa específica.</p>
     <h2>Origem das fichas</h2>
     <p>Todo item do acervo é mostrado, e cada ficha indica de onde vêm as informações: <b>🏛️ Base de dados: ChEMBL (EMBL-EBI)</b>, quando fase, mecanismo e indicações vêm direto dessa base pública, e <b>📝 Texto educativo</b>, quando é um resumo baseado em fontes públicas. Nenhum deles substitui a bula, o órgão regulador ou um profissional de saúde. Que uma substância ainda não esteja aprovada não significa que a informação sobre ela não valha: significa que o nível de certeza é menor, e o selo de evidência mostra isso.</p>
+    <h2 id="fontes">Fontes de referência</h2>
+    <p>Este catálogo não é exaustivo: existem milhares de peptídeos e inúmeras outras substâncias, como hormônios, vitaminas e suplementos. Confirme sempre as informações nas fontes oficiais.</p>
+    <ul id="fontes-lista"></ul>
     <h2>Limitações</h2>
     <p>Fases de pesquisa e aprovações mudam com frequência. Contagens automáticas vêm de buscas por texto e podem incluir estudos que apenas citam a substância. Sempre confirme nas fontes primárias.</p>
     <h2>Origem das informações</h2>

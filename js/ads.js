@@ -2,7 +2,7 @@
 const ADS_CONFIG = {
   clientId: "ca-pub-5947360009880377",
   // bloco in-article do painel do AdSense; pode-se criar blocos separados por posição
-  slots: { topo: "1778908415", meio: "1778908415", rodape: "1778908415" }
+  slots: { topo: "1778908415", meio: "1778908415", rodape: "1778908415", conteudo: "1778908415" }
 };
 
 const CONSENT_KEY = "consent-ads";

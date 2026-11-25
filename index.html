@@ -30,16 +30,19 @@
 <header id="topo"></header>
 <main>
   <div class="layout-home">
-  <aside class="menu-lateral" aria-label="Menu do catálogo">
-    <details id="menu-lateral-det" open>
-      <summary>☰ Menu do guia</summary>
-      <nav id="menu-lateral-corpo"></nav>
-    </details>
-  </aside>
   <div class="conteudo-home">
   <div class="filtros" id="filtros-topo">
-    <label class="filtros-pesquisa" for="busca">Buscar no catálogo
-      <span class="busca-wrap"><input id="busca" type="search" placeholder="Substância, mecanismo ou categoria..." autocomplete="off" aria-controls="sug-catalogo" aria-keyshortcuts="/"></span>    </label>
+    <h2 class="busca-titulo">Busque no guia</h2>
+    <p class="busca-sub">Substâncias, mecanismos e categorias em um só lugar</p>
+    <label class="filtros-pesquisa" for="busca"><span class="so-leitor">Buscar no catálogo</span>
+      <span class="busca-wrap"><input id="busca" type="search" placeholder="Busque por nome ou efeito" autocomplete="off" aria-controls="sug-catalogo" aria-keyshortcuts="/"></span>    </label>
+    <nav class="busca-atalhos" aria-label="Atalhos">
+      <a class="btn" href="corpo.html">🫀 Buscar pelo corpo</a>
+      <a class="btn" href="interacoes.html">⚠️ Misturas e riscos</a>
+      <a class="btn" href="alegacoes.html">🧪 Mito ou verdade?</a>
+      <a class="btn" href="aprender.html">📖 Aprender do zero</a>
+    </nav>
+    <div id="chips-tipo" class="chips-tipo" aria-label="Filtrar por tipo"></div>
     <div id="recentes" class="recentes" hidden></div>
     <div id="filtros-ativos" class="filtros-ativos" aria-live="polite" hidden></div>
     <details class="filtros-avancados" id="filtros-avancados">
@@ -56,35 +59,12 @@
       </div>
     </details>
   </div>
-  <details class="boas legenda-tipos"><summary><b id="titulo-tipos">Qual a diferença entre peptídeo, hormônio, vitamina, mineral, suplemento, medicamento e biológico?</b></summary><ul id="legenda-tipos"></ul><p><small><b>Resumindo:</b> o <b>tipo</b> diz o que a substância é (a sua natureza química); a <b>categoria</b> diz para que ela é estudada ou usada (emagrecimento, sono, pele, desempenho). Um mesmo tipo pode ter várias categorias, e uma categoria pode reunir tipos diferentes. Nenhuma dessas informações substitui a avaliação de um profissional de saúde.</small></p></details>
   <div id="alertas"></div>
   <div class="ad-slot" data-slot="topo"></div>
   <p id="contagem" class="contagem"></p>
   <section id="lista" class="grid"></section>
   <div id="paginacao" class="paginacao" hidden><button id="carregar-mais" class="btn" type="button">Carregar mais</button></div>
   <div class="ad-slot" data-slot="meio"></div>
-  <section id="indice" class="boas">
-    <h2>Índice A–Z</h2>
-    <p id="az"></p>
-  </section>
-  <section id="glossario" class="boas">
-    <h2>Glossário</h2>
-    <dl id="gloss"></dl>
-  </section>
-  <section id="fontes" class="boas">
-    <h2>Fontes de referência</h2>
-    <p>Este catálogo não é exaustivo: existem milhares de peptídeos e inúmeras outras substâncias, como hormônios, vitaminas e suplementos. Confirme sempre as informações nas fontes oficiais.</p>
-    <ul id="fontes-lista"></ul>
-  </section>
-  <section class="boas" id="selos">
-    <h2>Como ler os selos de confiança</h2>
-    <ul id="legenda-selos"></ul>
-    <p><small>Os selos são um resumo educativo (fase de desenvolvimento + evidência descrita). Não indicam que o uso é seguro ou recomendado para você.</small></p>
-  </section>
-  <section id="boas-praticas" class="boas">
-    <h2>Boas práticas de estudo</h2>
-    <ul id="boas"></ul>
-  </section>
 <div class="ad-slot" data-slot="rodape"></div>
   </div>
   </div>

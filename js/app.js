@@ -10,7 +10,7 @@ const seloSel = document.getElementById("selo");
 const ordemSel = document.getElementById("ordem");
 const origemSel = document.getElementById("origem");
 const tipoSel = document.getElementById("tipo");
-const ITENS_POR_PAGINA = 40;
+const ITENS_POR_PAGINA = 36;
 /* Seleção para comparar: até 3 itens marcados nos cards; a barra fixa abre a comparação. */
 const selComparar = new Set();
 const barraCmp = document.createElement("div");
@@ -35,9 +35,6 @@ lista.addEventListener("change", e => {
 });
 let limiteVisivel = ITENS_POR_PAGINA;
 Object.entries(TIPOS).forEach(([k, s]) => { const o = document.createElement("option"); o.value = k; o.textContent = `${s.icone} ${s.rotulo}`; tipoSel.appendChild(o); });
-document.getElementById("legenda-tipos").innerHTML = Object.entries(TIPOS).map(([k, s]) => `<li><b>${s.icone} ${esc(tr(s.rotulo))}</b> (${PEPTIDES.filter(p => chaveTipo(p) === k).length}): ${esc(tr(s.def))}</li>`).join("");
-const tituloTipos = document.getElementById("titulo-tipos");
-if (tituloTipos) tituloTipos.textContent = tr("Qual a diferença entre") + " " + Object.values(TIPOS).map(s => s.curto).join(", ").replace(/, ([^,]*)$/, " e $1") + "?";
 Object.entries(ORIGENS).forEach(([k, s]) => { const o = document.createElement("option"); o.value = k; o.textContent = `${s.icone} ${s.rotulo}`; origemSel.appendChild(o); });
 const chaveOrigem = p => Object.keys(ORIGENS).find(k => ORIGENS[k] === origemDe(p));
 const facilChk = document.getElementById("facil-idx");
@@ -64,18 +61,6 @@ categorias.sort((a, b) => {
   return a.localeCompare(b, "pt");
 });
 preencher(catSel, categorias);
-
-document.getElementById("boas").innerHTML = BOAS_PRATICAS.map(b => `<li>${esc(b)}</li>`).join("");
-document.getElementById("gloss").innerHTML = GLOSSARIO
-  .slice().sort((a, b) => a.termo.localeCompare(b.termo, "pt"))
-  .map(g => `<dt><a href="termo.html?t=${slug(g.termo)}">${esc(g.termo)}</a></dt><dd>${esc(g.def)}</dd>`).join("");
-document.getElementById("fontes-lista").innerHTML = FONTES_REF
-  .map(f => `<li><a href="${f.url}" target="_blank" rel="noopener">${esc(f.nome)}</a> — ${esc(f.desc)}</li>`).join("");
-
-
-document.getElementById("az").innerHTML = PEPTIDES.map(p => p.nome)
-  .sort((a, b) => a.localeCompare(b, "pt"))
-  .map(n => `<a href="#${slug(n)}" data-nome="${esc(n)}" class="az-link">${esc(n)}</a>`).join(" · ");
 
 
 
@@ -177,24 +162,6 @@ document.getElementById("filtros-ativos").addEventListener("click", e => {
   box.hidden = false;
 })();
 
-/* Menu lateral: atalhos para as seções da página. */
-const SECOES_MENU = [["filtros-topo", "🔎 Buscar e filtrar"], ["lista", "🧬 Catálogo"], ["indice", "🔤 Índice A–Z"], ["glossario", "📖 Glossário"], ["fontes", "🏛️ Fontes de referência"], ["selos", "🏷️ Selos de confiança"], ["boas-praticas", "✅ Boas práticas"]];
-function montarMenu() {
-  const alvo = document.getElementById("menu-lateral-corpo");
-  alvo.innerHTML = `<ul>${SECOES_MENU.map(([id, r]) => `<li><a href="#${id}" data-secao="${id}">${esc(tr(r))}</a></li>`).join("")}</ul>`;
-  const det = document.getElementById("menu-lateral-det");
-  const mq = matchMedia("(min-width:1000px)");
-  alvo.addEventListener("click", e => {
-    const a = e.target.closest("a[data-secao]");
-    if (!a) return;
-    e.preventDefault();
-    document.getElementById(a.dataset.secao)?.scrollIntoView({ behavior: "smooth" });
-    if (!mq.matches) det.open = false;
-  });
-  const sinc = () => { det.open = mq.matches; };
-  sinc();
-  mq.addEventListener("change", sinc);
-}
 /* Sugestões ao digitar no campo do catálogo: nomes que combinam; clicar abre a ficha, Enter mantém o filtro da lista. */
 function montarSugestoes() {
   const sug = document.createElement("ul");
@@ -256,17 +223,26 @@ lista.addEventListener("click", e => {
   b.textContent = rotuloFav(b.dataset.slug);
 });
 
-// Link do índice A–Z limpa filtros para garantir que o card exista e o abre
-document.getElementById("az").addEventListener("click", e => {
-  const a = e.target.closest(".az-link");
-  if (!a) return;
-  e.preventDefault();
-  busca.value = ""; tipoSel.value = ""; catSel.value = ""; faseSel.value = ""; favSel.checked = false; seloSel.value = "";   origemSel.value = "";
-  const id = a.getAttribute("href").slice(1);
-  render(id);
-  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-});
-montarMenu();
+/* Filtro rápido por tipo, logo abaixo da busca: um clique filtra, outro clique no mesmo tipo (ou em "Todos") limpa. */
+(function chipsTipo() {
+  const box = document.getElementById("chips-tipo");
+  if (!box) return;
+  const marcar = () => box.querySelectorAll("[data-tipo]").forEach(b => b.classList.toggle("ativo", b.dataset.tipo === tipoSel.value));
+  box.innerHTML = [`<button type="button" class="chip-filtro" data-tipo="">${esc(tr("Todos"))}</button>`]
+    .concat(Object.entries(TIPOS).map(([k, s]) => `<button type="button" class="chip-filtro" data-tipo="${k}">${s.icone} ${esc(tr(s.rotulo))}</button>`)).join(" ");
+  box.addEventListener("click", e => {
+    const b = e.target.closest("[data-tipo]");
+    if (!b) return;
+    tipoSel.value = b.dataset.tipo === tipoSel.value ? "" : b.dataset.tipo;
+    limiteVisivel = ITENS_POR_PAGINA;
+    render();
+    const alvo = document.getElementById("contagem");
+    if (alvo) alvo.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  tipoSel.addEventListener("change", marcar);
+  box.addEventListener("click", marcar);
+  marcar();
+})();
 montarSugestoes();
 if (matchMedia("(hover:hover)").matches) busca.placeholder += " (tecle /)";
 lerFiltrosUrl();
@@ -274,9 +250,6 @@ render();
 
 
 
-
-
-document.getElementById("legenda-selos").innerHTML = Object.values(SELOS).map(s => `<li><span class="selo ${s.classe}">${s.icone} ${s.rotulo}</span></li>`).join("") + Object.values(ORIGENS).map(o => `<li><span class="selo ${o.classe}">${o.icone} ${o.rotulo}</span> <small>${o.dica}</small></li>`).join("");
 
 
 mostrarAlertas(document.getElementById("alertas"));

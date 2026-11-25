@@ -1,4 +1,6 @@
 montarLayout();
+document.getElementById("legenda-tipos").innerHTML = Object.entries(TIPOS).map(([k, s]) => `<li><b>${s.icone} ${esc(tr(s.rotulo))}</b> (${PEPTIDES.filter(p => chaveTipo(p) === k).length}): ${esc(tr(s.def))}</li>`).join("");
+document.getElementById("boas").innerHTML = BOAS_PRATICAS.map(b => `<li>${esc(b)}</li>`).join("");
 
 const lidas = new Set(JSON.parse(localStorage.getItem("licoes-lidas") || "[]"));
 const salvar = () => localStorage.setItem("licoes-lidas", JSON.stringify([...lidas]));

@@ -35,7 +35,7 @@ if (q.length < 2) {
   document.getElementById("resumo").textContent = `${total} resultado(s) para “${q}”`;
   document.getElementById("resultados").innerHTML = total ? [
     secao(tr("Substâncias"), r.peptideos.map(p => `<li><a href="${urlPeptideo(p.nome)}">${esc(p.nome)}</a> <span class="tag ${faseClasse(p.fase)}">${esc(p.fase)}</span><br><small>${esc(p.oQueFaz)}</small></li>`)),
-    secao("Glossário", r.glossario.map(g => `<li><a href="index.html#glossario"><b>${esc(g.termo)}</b></a><br><small>${esc(trecho(g.def, r.ws))}</small></li>`)),
+    secao("Glossário", r.glossario.map(g => `<li><a href="termo.html?t=${slug(g.termo)}"><b>${esc(g.termo)}</b></a><br><small>${esc(trecho(g.def, r.ws))}</small></li>`)),
     secao("Lições", r.licoes.map(l => `<li><a href="aprender.html">${esc(l.titulo)}</a><br><small>${esc(trecho(semTags(l.html), r.ws))}</small></li>`)),
     secao("Alegações", r.alegacoes.map(a => `<li><a href="alegacoes.html#${a.id}">${esc(a.texto)}</a> — <small>${esc(VEREDITOS[a.veredito].rotulo)}</small></li>`)),
     secao("Mecanismos", r.mecanismos.map(m => `<li><a href="mecanismos.html#${m.id}">${esc(m.nome)}</a><br><small>${esc(m.desc)}</small></li>`)),
