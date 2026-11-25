@@ -38,7 +38,8 @@ ATC2 = {"A01": "Estomatológicos", "A02": "Acidez e úlcera (antiácidos, IBPs)"
         "V03": "Outros terapêuticos", "V04": "Diagnósticos", "V06": "Nutrientes", "V08": "Meios de contraste", "V09": "Radiodiagnóstico", "V10": "Radioterápicos"}
 SAIS = re.compile(r"\b(cloridrato|cloreto|sulfato|fosfato|acetato|maleato|besilato|mesilato|tartarato|succinato|citrato|bromidrato|brometo|nitrato|fumarato|"
                   r"valerato|propionato|dipropionato|decanoato|cipionato|enantato|sodico|sodica|potassico|calcico|magnesico|monoidratado|anidro|di-?hidratado|"
-                  r"hydrochloride|sulfate|phosphate|acetate|maleate|besylate|mesylate|tartrate|succinate|citrate|hydrobromide|bromide|nitrate|fumarate|sodium|potassium|calcium|de)\b")
+                  r"hydrochloride|sulfate|phosphate|acetate|maleate|besylate|mesylate|tartrate|succinate|citrate|hydrobromide|bromide|nitrate|fumarate|sodium|potassium|calcium|"
+                  r"pamoate|pamoato|embonate|tosylate|lactate|gluconate|oxalate|malate|bitartrate|dihydrate|trihydrate|hemihydrate|disodium|dimesylate|diacetate|hcl|de)\b")
 
 
 # nomes usados no Brasil que diferem do nome em inglês/espanhol do ChEMBL
@@ -61,7 +62,22 @@ def chave(n):
     s = sem_acento(n.lower())
     s = re.sub(r"\(.*?\)", " ", s)
     s = SAIS.sub(" ", s)
-    return re.sub(r"[^a-z0-9]+", "", s)
+    return canonico(re.sub(r"[^a-z0-9]+", "", s))
+
+
+def canonico(k):
+    """Aproxima grafias português/inglês/espanhol do mesmo INN (triptorrelina = triptorelin, prednisona = prednisone) só para casar nomes."""
+    k = re.sub(r"(.)\1+", r"\1", k)
+    return re.sub(r"(ina|ine)$", "in", re.sub(r"(ida|ide)$", "id", re.sub(r"(ona|one)$", "on", re.sub(r"(ato|ate)$", "at", k))))
+
+
+def sem_sal(n):
+    """'Amlodipine Besylate' -> 'Amlodipine': a ficha do ativo não leva o nome do sal."""
+    r = " ".join(w for w in n.split() if not SAIS.fullmatch(sem_acento(w.lower())))
+    return r or n
+
+
+PT_NOME = {canonico(k): v for k, v in PT_NOME.items()}
 
 
 def get(u, tent=4):
@@ -152,7 +168,7 @@ def main():
         syn = m.get("molecule_synonyms") or []
         es = next((s["molecule_synonym"] for s in syn if s["syn_type"] == "INN_SPANISH"), None)
         comerciais = sorted({s["molecule_synonym"].strip().title() for s in syn if s["syn_type"] == "TRADE_NAME" and len(s["molecule_synonym"]) < 32})
-        nome = PT_NOME.get(chave(en)) or titulo(es or en)
+        nome = PT_NOME.get(chave(en)) or titulo(sem_sal(es or en))
         chaves = {chave(en), chave(nome)} - {""}
         br = next((anv[k] for k in chaves if k in anv), [])
         s = slug(nome)

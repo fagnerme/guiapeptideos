@@ -126,18 +126,38 @@ def coletar_item(nome, termo):
     return {"fonte": "DailyMed (NIH/NLM)", "bulas": bulas}
 
 
+def medicamentos_promovidos(ja, limite):
+    """Medicamentos com ficha estática (5+ nomes comerciais, mesma regra de js/core.js) que ainda não têm bula coletada; poucos por rodada."""
+    arq = raiz / "dados" / "medicamentos.js"
+    if not arq.exists():
+        return []
+    t = arq.read_text(encoding="utf-8")
+    itens = json.loads(t[t.index("{"):t.rindex("}") + 1])["itens"]
+    novos = [(i["n"], "Aprovado", i["n"]) for i in itens if not i.get("f") and not i.get("r") and len(i.get("m") or []) >= 5 and A.slug(i["n"]) not in ja]
+    return novos[:limite]
+
+
 def main():
     args = sys.argv[1:]
     so = set(args[args.index("--so") + 1:]) if "--so" in args else set()
     limite = int(args[args.index("--limite") + 1]) if "--limite" in args else 0
+    novos_med = int(args[args.index("--novos") + 1]) if "--novos" in args else 40
     cat = [c for c in A.catalogo() if c[1] == "Aprovado" or so]
+    PASTA.mkdir(exist_ok=True)
+    idx_path = PASTA / "index.json"
+    idx = set(json.loads(idx_path.read_text(encoding="utf-8"))) if idx_path.exists() else set()
+    sem_path = PASTA / "sem-bula.json"  # medicamentos sem bula no DailyMed: não são tentados de novo a cada rodada
+    sem = set(json.loads(sem_path.read_text(encoding="utf-8"))) if sem_path.exists() else set()
+    cat_base = {A.slug(c[0]) for c in cat}
+    meds = medicamentos_promovidos(idx | sem | cat_base, 100000 if so else novos_med)
+    cat += meds
+    if "--so-med" in args:
+        cat = meds
+    meds_slugs = {A.slug(c[0]) for c in meds}
     if so:
         cat = [c for c in cat if A.slug(c[0]) in so]
     if limite:
         cat = cat[:limite]
-    PASTA.mkdir(exist_ok=True)
-    idx_path = PASTA / "index.json"
-    idx = set(json.loads(idx_path.read_text(encoding="utf-8"))) if idx_path.exists() else set()
 
     def trabalho(c):
         try:
@@ -155,9 +175,12 @@ def main():
             elif r:
                 f.write_text(json.dumps(r, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
                 idx.add(s)
+            elif s in meds_slugs:
+                sem.add(s)
             if feitos % 25 == 0:
                 print(feitos, "/", len(cat), flush=True)
     idx_path.write_text(json.dumps(sorted(idx), separators=(",", ":")), encoding="utf-8")
+    sem_path.write_text(json.dumps(sorted(sem), separators=(",", ":")), encoding="utf-8")
     E.salvar_cache()
     print("itens com bula:", len(idx))
 

@@ -1,5 +1,6 @@
 """Gera sitemap.xml e robots.txt. Uso: python tools/build.py https://seusite.com"""
-import re, sys, unicodedata, pathlib
+import re, sys, time, unicodedata, pathlib
+_inicio = time.time()
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 raiz = pathlib.Path(__file__).resolve().parent.parent
@@ -52,7 +53,7 @@ for f in sorted(raiz.glob("*.html")):
     tit = tit.group(1).strip()
     desc = _meta(t, "description")
     url = f"{site}/{f.name}"
-    nome_site = "Guia de Pept\u00eddeos, Horm\u00f4nios e Suplementos"
+    nome_site = gerar_fichas.NOME_SITE
     blocos = [
         f'<meta name="site-root" content="{site}">',
         f'<link rel="canonical" href="{url}">',
@@ -105,3 +106,13 @@ sw = re.sub(r'const VERSAO = "[^"]*";', f'const VERSAO = "guia-{time.strftime("%
 sw = re.sub(r'const BASE = \[.*?\];', lambda m: "const BASE = " + __import__("json").dumps(arqs) + ";", sw, flags=re.S)
 (raiz / "sw.js").write_text(sw, encoding="utf-8")
 print(f"sw.js: shell essencial com {len(arqs)} arquivos; demais recursos entram no cache sob demanda")
+
+# Acompanhamento de crescimento: avisa quando algo passa do limite que o GitHub Pages e a navegação suportam bem.
+def _mb(b):
+    return b / 1048576
+_tot = sum(f.stat().st_size for f in raiz.rglob("*") if f.is_file() and ".git" not in f.parts)
+_med = (raiz / "dados" / "medicamentos.js").stat().st_size if (raiz / "dados" / "medicamentos.js").exists() else 0
+print(f"Tamanho do site: {_mb(_tot):.0f} MB (limite do Pages: 1024 MB) | dados/medicamentos.js: {_mb(_med):.2f} MB | fichas estaticas: {len(fichas)} | tempo de build: {time.time() - _inicio:.0f}s")
+for _nome, _val, _lim in (("site", _mb(_tot), 700), ("medicamentos.js", _mb(_med), 2.0), ("fichas estaticas", len(fichas), 4000)):
+    if _val > _lim:
+        print(f"ATENCAO: {_nome} passou de {_lim} ({_val:.1f}); considere dividir os dados ou subir o corte de nomes comerciais (MIN_MARCAS_FICHA).")
