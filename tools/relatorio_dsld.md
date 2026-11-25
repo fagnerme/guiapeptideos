@@ -1,6 +1,6 @@
 # Suplementos e ativos que faltam no catálogo (DSLD/NIH)
 
-Gerado em 2026-11-24. Ativos de rótulos de suplementos no mercado dos EUA que ainda não têm ficha, com pelo menos 300 rótulos. Sem marcas. Esta lista é só um aviso: as fichas só entram com `--importar`, e apenas quando há texto confiável em português.
+Gerado em 2026-11-25. Ativos de rótulos de suplementos no mercado dos EUA que ainda não têm ficha, com pelo menos 300 rótulos. Sem marcas. Esta lista é só um aviso: as fichas só entram com `--importar`, e apenas quando há texto confiável em português.
 
 | Ativo | Tipo | Rótulos no mercado |
 |---|---|---|

@@ -1,6 +1,1109 @@
 /* Gerado por tools/atualizar.py: mudanças detectadas entre coletas. */
 const HISTORICO_AUTO = [
  {
+  "data": "2026-11-25",
+  "slug": "semaglutida",
+  "nome": "Semaglutida",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 809 → 813; fase 1/2/3 129/156/189 → 129/157/189; recrutando 185 → 184; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "semaglutida",
+  "nome": "Semaglutida",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "tirzepatida",
+  "nome": "Tirzepatida",
+  "tipo": "seguranca",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "tirzepatida",
+  "nome": "Tirzepatida",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 321 → 324; fase 1/2/3 42/81/61 → 42/81/61; recrutando 109 → 109; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "tirzepatida",
+  "nome": "Tirzepatida",
+  "tipo": "conteudo",
+  "texto": "Bula da FDA atualizada (2026-08-28 → 2026-07-29). Reveja riscos e status.",
+  "fato": "2026-07-29"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "ocitocina",
+  "nome": "Ocitocina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 940 → 941; fase 1/2/3 92/185/73 → 92/185/73; recrutando 77 → 78; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "insulina",
+  "nome": "Insulina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 8270 → 8270; fase 1/2/3 787/990/935 → 787/990/935; recrutando 521 → 521; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "survodutida",
+  "nome": "Survodutida",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 30 → 30; fase 1/2/3 15/3/12 → 15/3/12; recrutando 5 → 5; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "setmelanotida",
+  "nome": "Setmelanotida",
+  "tipo": "seguranca",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "kisspeptina-10",
+  "nome": "Kisspeptina-10",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 36 → 36; fase 1/2/3 12/8/3 → 12/8/3; recrutando 5 → 5; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "gonadorelina-gnrh",
+  "nome": "Gonadorelina (GnRH)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1164 → 1164; fase 1/2/3 103/408/300 → 103/408/300; recrutando 114 → 114; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "leuprorrelina",
+  "nome": "Leuprorrelina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 520 → 520; fase 1/2/3 44/212/124 → 44/212/124; recrutando 55 → 55; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "octreotida",
+  "nome": "Octreotida",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 329 → 329; fase 1/2/3 49/111/74 → 49/111/74; recrutando 29 → 29; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vosoritida",
+  "nome": "Vosoritida",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 17 → 17; fase 1/2/3 2/12/5 → 2/12/5; recrutando 3 → 2; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glutationa",
+  "nome": "Glutationa",
+  "tipo": "seguranca",
+  "texto": "2 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glutationa",
+  "nome": "Glutationa",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 281 → 281; fase 1/2/3 41/71/28 → 41/71/28; recrutando 24 → 24; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glutationa",
+  "nome": "Glutationa",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3711 → 3719 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "testosterona",
+  "nome": "Testosterona",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "testosterona",
+  "nome": "Testosterona",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1039 → 1040; fase 1/2/3 106/280/181 → 106/280/182; recrutando 98 → 98; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "estradiol",
+  "nome": "Estradiol",
+  "tipo": "aprovacao",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "estradiol",
+  "nome": "Estradiol",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2033 → 2034; fase 1/2/3 439/571/359 → 439/571/360; recrutando 213 → 217; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "hidrocortisona-cortisol",
+  "nome": "Hidrocortisona (cortisol)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1610 → 1611; fase 1/2/3 134/265/163 → 134/265/163; recrutando 172 → 172; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "levotiroxina-t4",
+  "nome": "Levotiroxina (T4)",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "liotironina-t3",
+  "nome": "Liotironina (T3)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 915 → 917; fase 1/2/3 81/98/46 → 81/98/46; recrutando 120 → 120; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "melatonina",
+  "nome": "Melatonina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 731 → 732; fase 1/2/3 55/154/101 → 55/154/101; recrutando 89 → 89; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glucagon",
+  "nome": "Glucagon",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1546 → 1550; fase 1/2/3 243/310/253 → 243/311/253; recrutando 200 → 200; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "calcitonina",
+  "nome": "Calcitonina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 155 → 156; fase 1/2/3 11/15/17 → 11/15/17; recrutando 14 → 14; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-d3-colecalciferol",
+  "nome": "Vitamina D3 (colecalciferol)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3325 → 3326; fase 1/2/3 204/483/391 → 204/483/391; recrutando 162 → 162; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-b12-cobalamina",
+  "nome": "Vitamina B12 (cobalamina)",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-b12-cobalamina",
+  "nome": "Vitamina B12 (cobalamina)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 771 → 772; fase 1/2/3 42/127/100 → 42/127/100; recrutando 64 → 64; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-c-acido-ascorbico",
+  "nome": "Vitamina C (ácido ascórbico)",
+  "tipo": "aprovacao",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-c-acido-ascorbico",
+  "nome": "Vitamina C (ácido ascórbico)",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-c-acido-ascorbico",
+  "nome": "Vitamina C (ácido ascórbico)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1257 → 1259; fase 1/2/3 111/240/161 → 111/240/161; recrutando 97 → 97; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-b6-piridoxina",
+  "nome": "Vitamina B6 (piridoxina)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 392 → 393; fase 1/2/3 23/64/75 → 23/64/75; recrutando 28 → 28; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "folato-vitamina-b9",
+  "nome": "Folato (vitamina B9)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2754 → 2758; fase 1/2/3 474/1155/580 → 475/1156/581; recrutando 316 → 317; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-a-retinol",
+  "nome": "Vitamina A (retinol)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 795 → 795; fase 1/2/3 83/163/116 → 83/163/116; recrutando 43 → 43; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-e-tocoferol",
+  "nome": "Vitamina E (tocoferol)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 282 → 282; fase 1/2/3 23/74/48 → 23/74/48; recrutando 13 → 13; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "niacina-vitamina-b3",
+  "nome": "Niacina (vitamina B3)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1459 → 1460; fase 1/2/3 318/555/221 → 318/555/221; recrutando 106 → 107; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "nad",
+  "nome": "NAD+",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 271 → 271; fase 1/2/3 45/71/26 → 45/71/26; recrutando 47 → 47; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "nicotinamida-ribosideo-nr",
+  "nome": "Nicotinamida ribosídeo (NR)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 127 → 127; fase 1/2/3 20/48/5 → 20/48/5; recrutando 36 → 37; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "l-carnitina",
+  "nome": "L-carnitina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 316 → 316; fase 1/2/3 16/89/55 → 16/89/55; recrutando 20 → 21; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acetil-l-carnitina",
+  "nome": "Acetil-L-carnitina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 68 → 68; fase 1/2/3 6/21/9 → 6/21/9; recrutando 1 → 2; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-alfa-lipoico",
+  "nome": "Ácido alfa-lipoico",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 243 → 243; fase 1/2/3 39/67/37 → 39/67/37; recrutando 19 → 19; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "n-acetilcisteina-nac",
+  "nome": "N-acetilcisteína (NAC)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 676 → 676; fase 1/2/3 105/225/113 → 105/225/113; recrutando 47 → 47; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "coenzima-q10",
+  "nome": "Coenzima Q10",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 266 → 266; fase 1/2/3 20/64/41 → 20/64/41; recrutando 24 → 24; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "creatina",
+  "nome": "Creatina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 372 → 372; fase 1/2/3 17/37/23 → 17/37/23; recrutando 50 → 51; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "omega-3-epa-dha",
+  "nome": "Ômega-3 (EPA/DHA)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 528 → 528; fase 1/2/3 30/88/64 → 30/88/64; recrutando 41 → 41; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "urolitina-a",
+  "nome": "Urolitina A",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 38 → 38; fase 1/2/3 1/4/1 → 1/4/1; recrutando 7 → 7; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "magnesio",
+  "nome": "Magnésio",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "magnesio",
+  "nome": "Magnésio",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2162 → 2162; fase 1/2/3 211/397/311 → 211/397/311; recrutando 185 → 185; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "zinco",
+  "nome": "Zinco",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "zinco",
+  "nome": "Zinco",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1151 → 1152; fase 1/2/3 70/153/148 → 70/153/149; recrutando 79 → 81; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "selenio",
+  "nome": "Selênio",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 351 → 352; fase 1/2/3 23/54/58 → 23/54/58; recrutando 17 → 17; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "selenio",
+  "nome": "Selênio",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (974 → 982 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "ferro",
+  "nome": "Ferro",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2474 → 2476; fase 1/2/3 166/322/306 → 166/322/306; recrutando 206 → 206; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "ferro",
+  "nome": "Ferro",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "tiamina-vitamina-b1",
+  "nome": "Tiamina (vitamina B1)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 268 → 269; fase 1/2/3 20/55/46 → 20/55/46; recrutando 22 → 22; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "riboflavina-vitamina-b2",
+  "nome": "Riboflavina (vitamina B2)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 353 → 354; fase 1/2/3 24/75/76 → 24/75/76; recrutando 28 → 28; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "biotina-vitamina-b7",
+  "nome": "Biotina (vitamina B7)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 124 → 125; fase 1/2/3 22/19/10 → 22/19/10; recrutando 13 → 13; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "dulaglutida",
+  "nome": "Dulaglutida",
+  "tipo": "seguranca",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "dulaglutida",
+  "nome": "Dulaglutida",
+  "tipo": "conteudo",
+  "texto": "Bula da FDA atualizada (2026-06-16 → 2025-07-03). Reveja riscos e status.",
+  "fato": "2025-07-03"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "orforglipron",
+  "nome": "Orforglipron",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 53 → 53; fase 1/2/3 21/3/27 → 21/3/27; recrutando 10 → 10; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "goserelina",
+  "nome": "Goserelina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 417 → 417; fase 1/2/3 38/184/126 → 38/184/126; recrutando 49 → 49; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "linaclotida",
+  "nome": "Linaclotida",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 60 → 61; fase 1/2/3 6/14/16 → 6/14/16; recrutando 2 → 1; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "cortisona",
+  "nome": "Cortisona",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 204 → 204; fase 1/2/3 41/91/40 → 41/91/40; recrutando 39 → 39; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "prednisona",
+  "nome": "Prednisona",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2517 → 2518; fase 1/2/3 398/1160/632 → 398/1160/632; recrutando 317 → 317; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "dexametasona",
+  "nome": "Dexametasona",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 4859 → 4860; fase 1/2/3 741/1707/952 → 741/1707/952; recrutando 569 → 568; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "dexametasona",
+  "nome": "Dexametasona",
+  "tipo": "conteudo",
+  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "aldosterona",
+  "nome": "Aldosterona",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 392 → 393; fase 1/2/3 18/47/50 → 19/47/50; recrutando 46 → 46; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "adrenalina-epinefrina",
+  "nome": "Adrenalina (epinefrina)",
+  "tipo": "aprovacao",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "adrenalina-epinefrina",
+  "nome": "Adrenalina (epinefrina)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3653 → 3655; fase 1/2/3 243/650/491 → 243/650/491; recrutando 387 → 388; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "noradrenalina-norepinefrina",
+  "nome": "Noradrenalina (norepinefrina)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 882 → 882; fase 1/2/3 55/107/123 → 55/107/123; recrutando 128 → 128; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "dopamina",
+  "nome": "Dopamina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 928 → 928; fase 1/2/3 145/178/109 → 145/178/109; recrutando 111 → 111; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "serotonina-5-ht",
+  "nome": "Serotonina (5-HT)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 846 → 846; fase 1/2/3 90/157/88 → 90/157/88; recrutando 92 → 92; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "eritropoetina-epo",
+  "nome": "Eritropoetina (EPO)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 979 → 979; fase 1/2/3 86/289/303 → 86/289/303; recrutando 27 → 27; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "anastrozol",
+  "nome": "Anastrozol",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 495 → 495; fase 1/2/3 50/214/121 → 50/214/121; recrutando 68 → 68; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "letrozol",
+  "nome": "Letrozol",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 909 → 910; fase 1/2/3 109/409/202 → 109/409/203; recrutando 140 → 142; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "tamoxifeno",
+  "nome": "Tamoxifeno",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 687 → 687; fase 1/2/3 52/254/202 → 52/254/202; recrutando 68 → 68; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "metformina",
+  "nome": "Metformina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3154 → 3157; fase 1/2/3 572/654/760 → 572/655/761; recrutando 171 → 171; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-b5-acido-pantotenico",
+  "nome": "Vitamina B5 (ácido pantotênico)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 85 → 86; fase 1/2/3 6/14/8 → 6/14/8; recrutando 4 → 4; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-k1-filoquinona",
+  "nome": "Vitamina K1 (filoquinona)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 475 → 475; fase 1/2/3 34/45/72 → 34/45/72; recrutando 39 → 39; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vitamina-d2-ergocalciferol",
+  "nome": "Vitamina D2 (ergocalciferol)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 157 → 157; fase 1/2/3 6/16/15 → 6/16/15; recrutando 3 → 3; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "calcio",
+  "nome": "Cálcio",
+  "tipo": "aprovacao",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "calcio",
+  "nome": "Cálcio",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "calcio",
+  "nome": "Cálcio",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 5825 → 5826; fase 1/2/3 893/1298/874 → 894/1299/874; recrutando 474 → 473; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "calcio",
+  "nome": "Cálcio",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "potassio",
+  "nome": "Potássio",
+  "tipo": "aprovacao",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "potassio",
+  "nome": "Potássio",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2073 → 2073; fase 1/2/3 184/341/314 → 184/341/314; recrutando 192 → 191; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "potassio",
+  "nome": "Potássio",
+  "tipo": "conteudo",
+  "texto": "Bula da FDA atualizada (2026-11-16 → 2026-11-18). Reveja riscos e status.",
+  "fato": "2026-11-18"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "potassio",
+  "nome": "Potássio",
+  "tipo": "seguranca",
+  "texto": "A bula da FDA passou a ter alerta em caixa preta (boxed warning)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "potassio",
+  "nome": "Potássio",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "iodo",
+  "nome": "Iodo",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1291 → 1291; fase 1/2/3 115/200/130 → 115/200/130; recrutando 99 → 99; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "iodo",
+  "nome": "Iodo",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "cobre",
+  "nome": "Cobre",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 434 → 435; fase 1/2/3 44/67/37 → 44/67/37; recrutando 38 → 39; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "cromo",
+  "nome": "Cromo",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 317 → 317; fase 1/2/3 8/20/29 → 8/20/29; recrutando 28 → 28; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "litio-microdoses-orotato",
+  "nome": "Lítio (microdoses/orotato)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3 → 3; fase 1/2/3 1/1/0 → 1/1/0; recrutando 0 → 0; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "l-arginina",
+  "nome": "L-arginina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 796 → 796; fase 1/2/3 129/149/98 → 129/149/98; recrutando 71 → 70; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "l-tirosina",
+  "nome": "L-tirosina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2122 → 2122; fase 1/2/3 537/976/255 → 537/976/255; recrutando 289 → 289; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "beta-alanina",
+  "nome": "Beta-alanina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 87 → 87; fase 1/2/3 18/27/6 → 18/27/6; recrutando 9 → 9; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "gaba",
+  "nome": "GABA",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1068 → 1068; fase 1/2/3 96/216/249 → 96/216/249; recrutando 57 → 57; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "ashwagandha-withania-somnifera",
+  "nome": "Ashwagandha (Withania somnifera)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 88 → 89; fase 1/2/3 6/13/3 → 6/13/3; recrutando 12 → 12; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "ginseng-panax",
+  "nome": "Ginseng (Panax)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 226 → 226; fase 1/2/3 17/42/27 → 17/42/27; recrutando 20 → 20; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "cafeina",
+  "nome": "Cafeína",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1253 → 1254; fase 1/2/3 161/73/70 → 161/73/70; recrutando 116 → 116; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "probioticos",
+  "nome": "Probióticos",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2896 → 2897; fase 1/2/3 158/373/210 → 158/373/210; recrutando 268 → 269; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-hialuronico",
+  "nome": "Ácido hialurônico",
+  "tipo": "seguranca",
+  "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-hialuronico",
+  "nome": "Ácido hialurônico",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1765 → 1766; fase 1/2/3 104/172/141 → 104/172/141; recrutando 144 → 143; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "rapamicina-sirolimo",
+  "nome": "Rapamicina (sirolimo)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1035 → 1035; fase 1/2/3 388/500/104 → 388/500/104; recrutando 78 → 78; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "ester-de-cetona-beta-hidroxibutirato",
+  "nome": "Éster de cetona (beta-hidroxibutirato)",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 41 → 41; fase 1/2/3 3/7/2 → 3/7/2; recrutando 3 → 3; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glepaglutida",
+  "nome": "Glepaglutida",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 9 → 9; fase 1/2/3 3/0/6 → 3/0/6; recrutando 1 → 1; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "peptide-t",
+  "nome": "Peptide T",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1818 → 1818; fase 1/2/3 691/927/178 → 691/927/178; recrutando 253 → 253; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glucagon-like-peptide-ii",
+  "nome": "Glucagon-like Peptide Ii",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 23 → 23; fase 1/2/3 2/14/2 → 2/14/2; recrutando 5 → 5; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "calcitonin-eel",
+  "nome": "Calcitonin Eel",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 154 → 155; fase 1/2/3 11/15/17 → 11/15/17; recrutando 14 → 14; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "c-peptide",
+  "nome": "C-peptide",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2375 → 2376; fase 1/2/3 638/989/427 → 638/989/427; recrutando 266 → 267; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "brivekimig",
+  "nome": "Brivekimig",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 5 → 5; fase 1/2/3 0/5/0 → 0/5/0; recrutando 3 → 3; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "angiotensin-ii",
+  "nome": "Angiotensin Ii",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 357 → 357; fase 1/2/3 21/71/55 → 21/71/55; recrutando 41 → 41; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glp-1",
+  "nome": "Glp-1",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2211 → 2215; fase 1/2/3 315/395/313 → 315/396/313; recrutando 331 → 331; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glp-1",
+  "nome": "Glp-1",
+  "tipo": "conteudo",
+  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "somatostatin",
+  "nome": "Somatostatin",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 364 → 364; fase 1/2/3 75/117/57 → 75/117/57; recrutando 55 → 55; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "nepidermin",
+  "nome": "Nepidermin",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 535 → 535; fase 1/2/3 149/240/88 → 149/240/88; recrutando 103 → 103; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glucagon-like-peptide-1",
+  "nome": "Glucagon-like Peptide 1",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1546 → 1550; fase 1/2/3 243/310/253 → 243/311/253; recrutando 200 → 200; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "go-203-2c",
+  "nome": "Go-203-2c",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3 → 3; fase 1/2/3 3/1/0 → 3/1/0; recrutando 0 → 0; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-oleico",
+  "nome": "Ácido oleico",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 165 → 166; fase 1/2/3 14/27/10 → 14/27/10; recrutando 10 → 10; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-malico",
+  "nome": "Ácido málico",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 333 → 333; fase 1/2/3 74/174/32 → 74/174/32; recrutando 15 → 16; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-lactico",
+  "nome": "Ácido láctico",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1519 → 1519; fase 1/2/3 99/172/162 → 99/172/162; recrutando 133 → 134; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "carotenoide",
+  "nome": "Carotenoide",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 852 → 854; fase 1/2/3 132/242/133 → 132/242/133; recrutando 52 → 52; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-lipoico",
+  "nome": "Ácido lipoico",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 249 → 249; fase 1/2/3 40/68/38 → 40/68/38; recrutando 19 → 19; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "cisteina",
+  "nome": "Cisteína",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 747 → 747; fase 1/2/3 115/226/117 → 115/226/117; recrutando 50 → 50; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "hesperidina",
+  "nome": "Hesperidina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 64 → 64; fase 1/2/3 2/7/9 → 2/7/9; recrutando 8 → 9; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "clorofila",
+  "nome": "Clorofila",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (939 → 944 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "sodio",
+  "nome": "Sódio",
+  "tipo": "aprovacao",
+  "texto": "Registro de aprovação no Drugs@FDA mudou."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "sodio",
+  "nome": "Sódio",
+  "tipo": "seguranca",
+  "texto": "3 novo(s) recall(s) na FDA (janela de 3 anos)."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "sodio",
+  "nome": "Sódio",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 13149 → 13154; fase 1/2/3 1918/2897/2319 → 1918/2897/2320; recrutando 1093 → 1091; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "sodio",
+  "nome": "Sódio",
+  "tipo": "conteudo",
+  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-estearico",
+  "nome": "Ácido esteárico",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 455 → 455; fase 1/2/3 61/102/57 → 61/102/57; recrutando 27 → 28; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "selenometionina",
+  "nome": "Selenometionina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 47 → 48; fase 1/2/3 6/11/9 → 6/11/9; recrutando 1 → 1; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "romiplostim",
+  "nome": "Romiplostim",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 124 → 124; fase 1/2/3 11/63/26 → 11/63/26; recrutando 19 → 19; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "vancomicina",
+  "nome": "Vancomicina",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 710 → 710; fase 1/2/3 65/143/126 → 65/143/126; recrutando 82 → 82; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "bdnf",
+  "nome": "BDNF",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 304 → 304; fase 1/2/3 12/20/6 → 12/20/6; recrutando 39 → 38; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "tadalafila",
+  "nome": "Tadalafila",
+  "tipo": "aprovacao",
+  "texto": "Situação ou registros na Anvisa mudaram: autorizado → autorizado."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-azelaico",
+  "nome": "Ácido azelaico",
+  "tipo": "aprovacao",
+  "texto": "Situação ou registros na Anvisa mudaram: autorizado → autorizado."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-salicilico",
+  "nome": "Ácido salicílico",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 853 → 854; fase 1/2/3 32/60/51 → 32/60/51; recrutando 64 → 65; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "acido-graxo",
+  "nome": "Ácido graxo",
+  "tipo": "estudos",
+  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 6439 → 6439; fase 1/2/3 671/1391/985 → 671/1391/985; recrutando 392 → 391; registro mais recente 2026-11-25.",
+  "fato": "2026-11-25"
+ },
+ {
   "data": "2026-11-24",
   "slug": "insulina",
   "nome": "Insulina",
@@ -1237,1096 +2340,5 @@ const HISTORICO_AUTO = [
   "tipo": "estudos",
   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 22 → 22; fase 1/2/3 6/15/4 → 6/15/4; recrutando 2 → 2; registro mais recente 2026-11-19.",
   "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "glutationa",
-  "nome": "Glutationa",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 279 → 281; fase 1/2/3 41/71/28 → 41/71/28; recrutando 23 → 24; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "glutationa",
-  "nome": "Glutationa",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3689 → 3701 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "testosterona",
-  "nome": "Testosterona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1039 → 1039; fase 1/2/3 106/280/181 → 106/280/181; recrutando 99 → 98; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "testosterona",
-  "nome": "Testosterona",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1165 → 1175 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "estradiol",
-  "nome": "Estradiol",
-  "tipo": "aprovacao",
-  "texto": "Registro de aprovação no Drugs@FDA mudou."
- },
- {
-  "data": "2026-11-23",
-  "slug": "estradiol",
-  "nome": "Estradiol",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2029 → 2031; fase 1/2/3 438/570/358 → 438/570/358; recrutando 209 → 211; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "progesterona",
-  "nome": "Progesterona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1265 → 1265; fase 1/2/3 103/273/214 → 103/273/214; recrutando 124 → 124; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "progesterona",
-  "nome": "Progesterona",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-10-31 → 2026-11-13). Reveja riscos e status.",
-  "fato": "2026-11-13"
- },
- {
-  "data": "2026-11-23",
-  "slug": "progesterona",
-  "nome": "Progesterona",
-  "tipo": "conteudo",
-  "texto": "4 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "progesterona",
-  "nome": "Progesterona",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (609 → 614 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "hidrocortisona-cortisol",
-  "nome": "Hidrocortisona (cortisol)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1606 → 1610; fase 1/2/3 134/264/163 → 134/265/163; recrutando 176 → 173; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "hidrocortisona-cortisol",
-  "nome": "Hidrocortisona (cortisol)",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-06 → 2026-11-16). Reveja riscos e status.",
-  "fato": "2026-11-16"
- },
- {
-  "data": "2026-11-23",
-  "slug": "hidrocortisona-cortisol",
-  "nome": "Hidrocortisona (cortisol)",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "dhea-prasterona",
-  "nome": "DHEA (prasterona)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 142 → 142; fase 1/2/3 12/35/47 → 12/35/47; recrutando 7 → 7; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "levotiroxina-t4",
-  "nome": "Levotiroxina (T4)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 342 → 343; fase 1/2/3 41/44/37 → 41/44/37; recrutando 30 → 30; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "liotironina-t3",
-  "nome": "Liotironina (T3)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 912 → 914; fase 1/2/3 81/98/46 → 81/98/46; recrutando 118 → 120; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "melatonina",
-  "nome": "Melatonina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 730 → 731; fase 1/2/3 55/154/100 → 55/154/101; recrutando 89 → 89; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "gonadotrofina-corionica-hcg",
-  "nome": "Gonadotrofina coriônica (hCG)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 414 → 414; fase 1/2/3 22/57/64 → 22/57/64; recrutando 26 → 26; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "gonadotrofina-corionica-hcg",
-  "nome": "Gonadotrofina coriônica (hCG)",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "glucagon",
-  "nome": "Glucagon",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1544 → 1546; fase 1/2/3 242/310/253 → 243/310/253; recrutando 197 → 201; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "glucagon",
-  "nome": "Glucagon",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2268 → 2288 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "desmopressina",
-  "nome": "Desmopressina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 127 → 127; fase 1/2/3 6/19/23 → 6/19/23; recrutando 10 → 10; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "metreleptina",
-  "nome": "Metreleptina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 39 → 39; fase 1/2/3 4/23/6 → 4/23/6; recrutando 5 → 5; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-d3-colecalciferol",
-  "nome": "Vitamina D3 (colecalciferol)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3321 → 3324; fase 1/2/3 204/483/391 → 204/483/391; recrutando 161 → 161; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-b12-cobalamina",
-  "nome": "Vitamina B12 (cobalamina)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 769 → 771; fase 1/2/3 42/127/100 → 42/127/100; recrutando 62 → 64; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-c-acido-ascorbico",
-  "nome": "Vitamina C (ácido ascórbico)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1256 → 1257; fase 1/2/3 111/240/161 → 111/240/161; recrutando 98 → 97; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-c-acido-ascorbico",
-  "nome": "Vitamina C (ácido ascórbico)",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-b6-piridoxina",
-  "nome": "Vitamina B6 (piridoxina)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 392 → 392; fase 1/2/3 23/64/75 → 23/64/75; recrutando 30 → 29; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "folato-vitamina-b9",
-  "nome": "Folato (vitamina B9)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2749 → 2754; fase 1/2/3 472/1154/580 → 474/1155/580; recrutando 309 → 316; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-a-retinol",
-  "nome": "Vitamina A (retinol)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 793 → 794; fase 1/2/3 83/162/116 → 83/163/116; recrutando 43 → 43; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-a-retinol",
-  "nome": "Vitamina A (retinol)",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-e-tocoferol",
-  "nome": "Vitamina E (tocoferol)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 282 → 282; fase 1/2/3 23/74/48 → 23/74/48; recrutando 13 → 13; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "niacina-vitamina-b3",
-  "nome": "Niacina (vitamina B3)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1459 → 1459; fase 1/2/3 318/555/221 → 318/555/221; recrutando 105 → 106; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "l-carnitina",
-  "nome": "L-carnitina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 316 → 316; fase 1/2/3 16/89/55 → 16/89/55; recrutando 19 → 20; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "acido-alfa-lipoico",
-  "nome": "Ácido alfa-lipoico",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 243 → 243; fase 1/2/3 39/67/37 → 39/67/37; recrutando 18 → 19; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "n-acetilcisteina-nac",
-  "nome": "N-acetilcisteína (NAC)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 675 → 676; fase 1/2/3 105/224/113 → 105/225/113; recrutando 46 → 47; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "n-acetilcisteina-nac",
-  "nome": "N-acetilcisteína (NAC)",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "n-acetilcisteina-nac",
-  "nome": "N-acetilcisteína (NAC)",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (431 → 437 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "coenzima-q10",
-  "nome": "Coenzima Q10",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 265 → 265; fase 1/2/3 20/64/41 → 20/64/41; recrutando 24 → 24; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "creatina",
-  "nome": "Creatina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 371 → 371; fase 1/2/3 17/37/23 → 17/37/23; recrutando 51 → 50; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "creatina",
-  "nome": "Creatina",
-  "tipo": "conteudo",
-  "texto": "3 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "glicina",
-  "nome": "Glicina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 250 → 250; fase 1/2/3 38/66/24 → 38/66/24; recrutando 17 → 17; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "omega-3-epa-dha",
-  "nome": "Ômega-3 (EPA/DHA)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 528 → 528; fase 1/2/3 30/88/64 → 30/88/64; recrutando 41 → 41; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "resveratrol",
-  "nome": "Resveratrol",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 238 → 238; fase 1/2/3 33/40/18 → 33/40/18; recrutando 13 → 13; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "resveratrol",
-  "nome": "Resveratrol",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (516 → 522 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "urolitina-a",
-  "nome": "Urolitina A",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 36 → 38; fase 1/2/3 1/4/1 → 1/4/1; recrutando 7 → 7; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "espermidina",
-  "nome": "Espermidina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 25 → 24; fase 1/2/3 2/3/1 → 2/3/1; recrutando 4 → 4; registro mais recente 2026-10-27.",
-  "fato": "2026-10-27"
- },
- {
-  "data": "2026-11-23",
-  "slug": "fisetina",
-  "nome": "Fisetina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 38 → 38; fase 1/2/3 8/26/2 → 8/26/2; recrutando 10 → 10; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "quercetina",
-  "nome": "Quercetina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 135 → 135; fase 1/2/3 29/40/5 → 29/40/5; recrutando 16 → 16; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "quercetina",
-  "nome": "Quercetina",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (894 → 901 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "magnesio",
-  "nome": "Magnésio",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2160 → 2162; fase 1/2/3 211/397/311 → 211/397/311; recrutando 185 → 185; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "magnesio",
-  "nome": "Magnésio",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-11 → 2026-11-17). Reveja riscos e status.",
-  "fato": "2026-11-17"
- },
- {
-  "data": "2026-11-23",
-  "slug": "zinco",
-  "nome": "Zinco",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1149 → 1150; fase 1/2/3 70/153/148 → 70/153/148; recrutando 80 → 79; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "zinco",
-  "nome": "Zinco",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-16 → 2026-11-18). Reveja riscos e status.",
-  "fato": "2026-11-18"
- },
- {
-  "data": "2026-11-23",
-  "slug": "zinco",
-  "nome": "Zinco",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "zinco",
-  "nome": "Zinco",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2542 → 2548 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "selenio",
-  "nome": "Selênio",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 351 → 351; fase 1/2/3 23/54/58 → 23/54/58; recrutando 17 → 17; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "selenio",
-  "nome": "Selênio",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (961 → 969 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "ferro",
-  "nome": "Ferro",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2472 → 2474; fase 1/2/3 166/322/306 → 166/322/306; recrutando 209 → 207; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "ferro",
-  "nome": "Ferro",
-  "tipo": "conteudo",
-  "texto": "4 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "tiamina-vitamina-b1",
-  "nome": "Tiamina (vitamina B1)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 268 → 268; fase 1/2/3 20/55/46 → 20/55/46; recrutando 23 → 22; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "tiamina-vitamina-b1",
-  "nome": "Tiamina (vitamina B1)",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "riboflavina-vitamina-b2",
-  "nome": "Riboflavina (vitamina B2)",
-  "tipo": "aprovacao",
-  "texto": "Registro de aprovação no Drugs@FDA mudou."
- },
- {
-  "data": "2026-11-23",
-  "slug": "riboflavina-vitamina-b2",
-  "nome": "Riboflavina (vitamina B2)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 353 → 353; fase 1/2/3 24/75/76 → 24/75/76; recrutando 29 → 28; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "exenatida",
-  "nome": "Exenatida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 381 → 381; fase 1/2/3 59/74/93 → 59/74/93; recrutando 12 → 12; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "lixisenatida",
-  "nome": "Lixisenatida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 78 → 78; fase 1/2/3 7/9/33 → 7/9/33; recrutando 2 → 2; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "dulaglutida",
-  "nome": "Dulaglutida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 145 → 145; fase 1/2/3 24/28/36 → 24/28/36; recrutando 10 → 10; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "eloralintida",
-  "nome": "Eloralintida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 22 → 22; fase 1/2/3 10/4/8 → 10/4/8; recrutando 11 → 11; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "orforglipron",
-  "nome": "Orforglipron",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 53 → 53; fase 1/2/3 21/3/27 → 21/3/27; recrutando 10 → 10; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "cetrorrelix",
-  "nome": "Cetrorrelix",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 140 → 140; fase 1/2/3 5/26/29 → 5/26/29; recrutando 6 → 6; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "triptorrelina",
-  "nome": "Triptorrelina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 298 → 299; fase 1/2/3 6/80/86 → 6/80/86; recrutando 38 → 38; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "goserelina",
-  "nome": "Goserelina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 417 → 417; fase 1/2/3 38/184/126 → 38/184/126; recrutando 49 → 49; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "substancia-p",
-  "nome": "Substância P",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "orexina-a-hipocretina-1",
-  "nome": "Orexina-A (hipocretina-1)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 78 → 79; fase 1/2/3 5/21/4 → 5/21/4; recrutando 21 → 21; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "beta-endorfina",
-  "nome": "Beta-endorfina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 180 → 180; fase 1/2/3 9/32/24 → 9/32/24; recrutando 17 → 16; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "estriol-e3",
-  "nome": "Estriol (E3)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 82 → 82; fase 1/2/3 15/22/9 → 15/22/9; recrutando 6 → 6; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "cortisona",
-  "nome": "Cortisona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 203 → 204; fase 1/2/3 41/91/40 → 41/91/40; recrutando 39 → 39; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "prednisona",
-  "nome": "Prednisona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2514 → 2517; fase 1/2/3 398/1160/632 → 398/1160/632; recrutando 314 → 316; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "prednisona",
-  "nome": "Prednisona",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (604 → 614 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "dexametasona",
-  "nome": "Dexametasona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 4856 → 4858; fase 1/2/3 741/1707/951 → 741/1707/952; recrutando 564 → 569; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "dexametasona",
-  "nome": "Dexametasona",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "dexametasona",
-  "nome": "Dexametasona",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1260 → 1268 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "fludrocortisona",
-  "nome": "Fludrocortisona",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "aldosterona",
-  "nome": "Aldosterona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 392 → 392; fase 1/2/3 18/47/50 → 18/47/50; recrutando 45 → 46; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "aldosterona",
-  "nome": "Aldosterona",
-  "tipo": "conteudo",
-  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "adrenalina-epinefrina",
-  "nome": "Adrenalina (epinefrina)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3649 → 3652; fase 1/2/3 243/649/490 → 243/650/491; recrutando 384 → 387; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "adrenalina-epinefrina",
-  "nome": "Adrenalina (epinefrina)",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "noradrenalina-norepinefrina",
-  "nome": "Noradrenalina (norepinefrina)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 879 → 881; fase 1/2/3 55/107/123 → 55/107/123; recrutando 125 → 127; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "noradrenalina-norepinefrina",
-  "nome": "Noradrenalina (norepinefrina)",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "dopamina",
-  "nome": "Dopamina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 926 → 927; fase 1/2/3 145/177/109 → 145/177/109; recrutando 111 → 111; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "dopamina",
-  "nome": "Dopamina",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1070 → 1079 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "serotonina-5-ht",
-  "nome": "Serotonina (5-HT)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 844 → 844; fase 1/2/3 90/156/88 → 90/156/88; recrutando 90 → 91; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "prolactina",
-  "nome": "Prolactina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 189 → 189; fase 1/2/3 12/23/8 → 12/23/8; recrutando 23 → 23; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "fsh-hormonio-foliculo-estimulante",
-  "nome": "FSH (hormônio folículo-estimulante)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 491 → 491; fase 1/2/3 34/52/87 → 34/52/87; recrutando 31 → 31; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "lh-hormonio-luteinizante",
-  "nome": "LH (hormônio luteinizante)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 353 → 353; fase 1/2/3 30/91/69 → 30/91/69; recrutando 35 → 35; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "tsh-tireotropina",
-  "nome": "TSH (tireotropina)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 108 → 108; fase 1/2/3 9/31/18 → 9/31/18; recrutando 8 → 8; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "acth-cosintropina",
-  "nome": "ACTH / cosintropina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 28 → 28; fase 1/2/3 3/4/2 → 3/4/2; recrutando 2 → 1; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "cabergolina",
-  "nome": "Cabergolina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 83 → 83; fase 1/2/3 8/22/20 → 8/22/20; recrutando 7 → 7; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "cabergolina",
-  "nome": "Cabergolina",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-06-30 → 2026-11-17). Reveja riscos e status.",
-  "fato": "2026-11-17"
- },
- {
-  "data": "2026-11-23",
-  "slug": "anastrozol",
-  "nome": "Anastrozol",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 495 → 495; fase 1/2/3 50/214/121 → 50/214/121; recrutando 67 → 68; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "letrozol",
-  "nome": "Letrozol",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 908 → 908; fase 1/2/3 109/409/202 → 109/409/202; recrutando 139 → 139; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "letrozol",
-  "nome": "Letrozol",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "letrozol",
-  "nome": "Letrozol",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (153 → 158 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "tamoxifeno",
-  "nome": "Tamoxifeno",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 687 → 687; fase 1/2/3 52/254/202 → 52/254/202; recrutando 68 → 68; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "tamoxifeno",
-  "nome": "Tamoxifeno",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "tamoxifeno",
-  "nome": "Tamoxifeno",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (231 → 236 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "clomifeno",
-  "nome": "Clomifeno",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 260 → 260; fase 1/2/3 25/50/51 → 25/50/51; recrutando 8 → 8; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "enclomifeno",
-  "nome": "Enclomifeno",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 263 → 263; fase 1/2/3 26/51/51 → 26/51/51; recrutando 9 → 9; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "espironolactona",
-  "nome": "Espironolactona",
-  "tipo": "aprovacao",
-  "texto": "Registro de aprovação no Drugs@FDA mudou."
- },
- {
-  "data": "2026-11-23",
-  "slug": "espironolactona",
-  "nome": "Espironolactona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 331 → 331; fase 1/2/3 25/73/54 → 25/73/54; recrutando 32 → 32; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "espironolactona",
-  "nome": "Espironolactona",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-09 → 2026-11-16). Reveja riscos e status.",
-  "fato": "2026-11-16"
- },
- {
-  "data": "2026-11-23",
-  "slug": "medroxiprogesterona",
-  "nome": "Medroxiprogesterona",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "drospirenona",
-  "nome": "Drospirenona",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 170 → 170; fase 1/2/3 37/17/48 → 37/17/48; recrutando 10 → 10; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "etinilestradiol",
-  "nome": "Etinilestradiol",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "metformina",
-  "nome": "Metformina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 3151 → 3154; fase 1/2/3 571/654/760 → 572/654/760; recrutando 167 → 170; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "metformina",
-  "nome": "Metformina",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-10 → 2026-11-17). Reveja riscos e status.",
-  "fato": "2026-11-17"
- },
- {
-  "data": "2026-11-23",
-  "slug": "sulfato-de-dhea-dhea-s",
-  "nome": "Sulfato de DHEA (DHEA-S)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 139 → 139; fase 1/2/3 12/35/45 → 12/35/45; recrutando 7 → 7; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-k1-filoquinona",
-  "nome": "Vitamina K1 (filoquinona)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 475 → 475; fase 1/2/3 34/45/72 → 34/45/72; recrutando 39 → 39; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "vitamina-d2-ergocalciferol",
-  "nome": "Vitamina D2 (ergocalciferol)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 157 → 157; fase 1/2/3 6/16/15 → 6/16/15; recrutando 3 → 3; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "colina",
-  "nome": "Colina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 383 → 383; fase 1/2/3 37/58/51 → 37/58/51; recrutando 37 → 36; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "mio-inositol",
-  "nome": "Mio-inositol",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "calcio",
-  "nome": "Cálcio",
-  "tipo": "aprovacao",
-  "texto": "Registro de aprovação no Drugs@FDA mudou."
- },
- {
-  "data": "2026-11-23",
-  "slug": "calcio",
-  "nome": "Cálcio",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 5820 → 5823; fase 1/2/3 893/1298/872 → 893/1298/873; recrutando 474 → 473; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "calcio",
-  "nome": "Cálcio",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-12 → 2026-11-17). Reveja riscos e status.",
-  "fato": "2026-11-17"
- },
- {
-  "data": "2026-11-23",
-  "slug": "calcio",
-  "nome": "Cálcio",
-  "tipo": "conteudo",
-  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "calcio",
-  "nome": "Cálcio",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4228 → 4233 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "potassio",
-  "nome": "Potássio",
-  "tipo": "aprovacao",
-  "texto": "Registro de aprovação no Drugs@FDA mudou."
- },
- {
-  "data": "2026-11-23",
-  "slug": "potassio",
-  "nome": "Potássio",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2067 → 2069; fase 1/2/3 184/340/313 → 184/341/314; recrutando 186 → 189; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "potassio",
-  "nome": "Potássio",
-  "tipo": "conteudo",
-  "texto": "Bula da FDA atualizada (2026-11-13 → 2026-11-16). Reveja riscos e status.",
-  "fato": "2026-11-16"
- },
- {
-  "data": "2026-11-23",
-  "slug": "potassio",
-  "nome": "Potássio",
-  "tipo": "conteudo",
-  "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
- },
- {
-  "data": "2026-11-23",
-  "slug": "iodo",
-  "nome": "Iodo",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1290 → 1290; fase 1/2/3 115/199/129 → 115/199/129; recrutando 99 → 99; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "cobre",
-  "nome": "Cobre",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 433 → 434; fase 1/2/3 44/67/37 → 44/67/37; recrutando 38 → 38; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "cromo",
-  "nome": "Cromo",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 317 → 317; fase 1/2/3 8/20/29 → 8/20/29; recrutando 28 → 28; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "boro",
-  "nome": "Boro",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 992 → 992; fase 1/2/3 305/581/139 → 305/581/139; recrutando 73 → 73; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "boro",
-  "nome": "Boro",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (332 → 337 no último ano). Reveja riscos."
- },
- {
-  "data": "2026-11-23",
-  "slug": "litio-microdoses-orotato",
-  "nome": "Lítio (microdoses/orotato)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2 → 3; fase 1/2/3 1/1/0 → 1/1/0; recrutando 0 → 0; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "l-arginina",
-  "nome": "L-arginina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 795 → 796; fase 1/2/3 129/149/98 → 129/149/98; recrutando 73 → 73; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "l-citrulina",
-  "nome": "L-citrulina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 162 → 162; fase 1/2/3 23/27/11 → 23/27/11; recrutando 16 → 15; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "l-teanina",
-  "nome": "L-teanina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 59 → 59; fase 1/2/3 1/2/1 → 1/2/1; recrutando 7 → 8; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "l-tirosina",
-  "nome": "L-tirosina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2119 → 2120; fase 1/2/3 537/974/255 → 537/974/255; recrutando 287 → 288; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "gaba",
-  "nome": "GABA",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1066 → 1067; fase 1/2/3 96/216/249 → 96/216/249; recrutando 56 → 56; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "gaba",
-  "nome": "GABA",
-  "tipo": "seguranca",
-  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (342 → 347 no último ano). Reveja riscos."
  }
 ];
