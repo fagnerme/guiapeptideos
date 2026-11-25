@@ -94,13 +94,16 @@ function render(alvoSlug = "") {
       </div>
       <div class="card-tags"><span class="tag tag-tipo" title="${esc(tr(tipoDe(p).def))}">${tipoDe(p).icone} ${esc(tr(tipoDe(p).rotulo))}</span> <span class="tag">${esc(p.categoria)}</span> ${p.fase !== "Aprovado" ? `<span class="tag ${faseClasse(p.fase)}">${esc(p.fase)}</span>` : ""}</div>
       <p class="card-selo">${htmlSelo(p)}</p>
+      ${marcasDe(p).length ? `<p class="card-marcas"><small>${tr("Nomes comerciais")}: ${esc(marcasDe(p).slice(0, 4).join(", "))}${marcasDe(p).length > 4 ? "…" : ""}</small></p>` : ""}
+      ${p.combo ? `<p class="card-marcas"><small>💊+💊 <b>${tr("Associação")}</b>: ${esc(p.combo.map(s => porSlug(s)?.nome).filter(Boolean).concat(p.outrosAtivos).join(" + "))}</small></p>` : ""}
+      ${p._assoc ? `<p class="card-marcas"><small>💊+💊 ${tr("Em associações")}: ${esc(p._assoc.slice(0, 3).join(", "))}${p._assoc.length > 3 ? "…" : ""}</small></p>` : ""}
       <p class="card-locais">${htmlLocais(p, false)}</p>
       <p class="resumo">${esc(facil ? explicaFacil(p) : p.oQueFaz)}</p>
       <details class="card-detalhes">
         <summary>Detalhes regulatórios e estudos</summary>
         ${htmlLocais(p, true)}
       </details>
-      <p class="acoes"><a class="btn btn-prim" href="${urlPeptideo(p.nome)}">Ver detalhes →</a> <label class="btn cmp-sel"><input type="checkbox" class="cmp" data-slug="${slug(p.nome)}"${selComparar.has(slug(p.nome)) ? " checked" : ""}> ⚖️ ${tr("Comparar")}</label>${p.fase === "Aprovado" ? ' <a class="btn" href="calculadora.html">🧮 Calculadora</a>' : ""}</p>
+      <p class="acoes"><a class="btn btn-prim" href="${urlPeptideo(p.nome)}">Ver detalhes →</a> <label class="btn cmp-sel"><input type="checkbox" class="cmp" data-slug="${slug(p.nome)}"${selComparar.has(slug(p.nome)) ? " checked" : ""}> ⚖️ ${tr("Comparar")}</label>${p.fase === "Aprovado" && !p._med ? ' <a class="btn" href="calculadora.html">🧮 Calculadora</a>' : ""}</p>
     </article>`).join("") : `<p>${tr("Nenhum resultado.")}</p><p><small>${tr("Tente outro termo ou limpe os filtros.")}</small></p><p><button type="button" class="btn btn-prim" id="limpar-filtros">${tr("Limpar filtros")}</button></p>`;
   paginacao.hidden = exibidos.length >= itens.length;
   carregarMais.textContent = tr("Carregar mais");

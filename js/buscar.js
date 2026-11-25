@@ -33,11 +33,13 @@ if (q.length < 2) {
   const r = buscar(q);
   const total = r.peptideos.length + r.glossario.length + r.licoes.length + r.alegacoes.length + r.mecanismos.length;
   document.getElementById("resumo").textContent = `${total} resultado(s) para “${q}”`;
-  document.getElementById("resultados").innerHTML = total ? [
-    secao(tr("Substâncias"), r.peptideos.map(p => `<li><a href="${urlPeptideo(p.nome)}">${esc(p.nome)}</a> <span class="tag ${faseClasse(p.fase)}">${esc(p.fase)}</span><br><small>${esc(p.oQueFaz)}</small></li>`)),
+  const vazio = `<p>${tr("Nenhum resultado. Tente outro termo (por exemplo, o nome da substância ou da condição).")}</p><p><small>${tr("Dicas: confira a grafia, use só uma palavra ou busque pelo nome comercial.")}</small></p><p><a class="btn" href="index.html">${tr("Ver o catálogo completo")}</a></p>`;
+  const html = total ? [
+    secao(tr("Substâncias"), r.peptideos.slice(0, 60).map(p => `<li><a href="${urlPeptideo(p.nome)}">${esc(p.nome)}</a> <span class="tag ${faseClasse(p.fase)}">${esc(p.fase)}</span>${marcasDe(p).length ? `<br><small>${tr("Nomes comerciais")}: ${esc(marcasDe(p).slice(0, 6).join(", "))}</small>` : ""}${p.combo ? `<br><small>💊+💊 <b>${tr("Associação")}</b>: ${esc(p.combo.map(s => porSlug(s)?.nome).filter(Boolean).concat(p.outrosAtivos).join(" + "))}</small>` : ""}<br><small>${esc(p.oQueFaz)}</small></li>`)),
     secao("Glossário", r.glossario.map(g => `<li><a href="termo.html?t=${slug(g.termo)}"><b>${esc(g.termo)}</b></a><br><small>${esc(trecho(g.def, r.ws))}</small></li>`)),
     secao("Lições", r.licoes.map(l => `<li><a href="aprender.html">${esc(l.titulo)}</a><br><small>${esc(trecho(semTags(l.html), r.ws))}</small></li>`)),
     secao("Alegações", r.alegacoes.map(a => `<li><a href="alegacoes.html#${a.id}">${esc(a.texto)}</a> — <small>${esc(VEREDITOS[a.veredito].rotulo)}</small></li>`)),
     secao("Mecanismos", r.mecanismos.map(m => `<li><a href="mecanismos.html#${m.id}">${esc(m.nome)}</a><br><small>${esc(m.desc)}</small></li>`)),
-  ].join("") : `<p>${tr("Nenhum resultado. Tente outro termo (por exemplo, o nome da substância ou da condição).")}</p><p><small>${tr("Dicas: confira a grafia, use só uma palavra ou busque pelo nome comercial.")}</small></p><p><a class="btn" href="index.html">${tr("Ver o catálogo completo")}</a></p>`;
+  ].join("") : vazio;
+  document.getElementById("resultados").innerHTML = html;
 }

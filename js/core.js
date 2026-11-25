@@ -14,6 +14,48 @@ const porSlug = s => PEPTIDES.find(p => slug(p.nome) === s);
 const faseClasse = f => "fase-" + semAcento(f.toLowerCase()).replace(/[^a-z0-9]+/g, "");
 const urlPeptideo = nome => "peptideo.html?p=" + slug(nome);
 
+/* Medicamentos (dados/medicamentos.js, quando a página o carrega) entram no mesmo catálogo, com busca, filtros e ficha iguais. */
+(function integrarMedicamentos() {
+  if (typeof MEDICAMENTOS === "undefined" || typeof PEPTIDES === "undefined") return;
+  MEDICAMENTOS.itens.forEach(i => {
+    if (i.f) return;
+    const grupo = i.a ? MEDICAMENTOS.atc1[i.a[0]] : "Medicamento";
+    const classe = i.a ? [MEDICAMENTOS.atc1[i.a[0]], MEDICAMENTOS.atc2[i.a.slice(0, 3)]].filter(Boolean).join(" › ") : "classe não informada na base";
+    const vias = i.v.length ? ` Vias registradas: ${i.v.join(", ")}.` : "";
+    PEPTIDES.push({
+      nome: i.n, categoria: grupo || "Medicamento", fase: i.r ? "Descontinuado" : "Aprovado", _med: i.b ? "biologico" : "farmaco", marcas: i.m,
+      status: `Aprovado em pelo menos um país segundo o ChEMBL${i.y ? ` (primeira aprovação registrada: ${i.y})` : ""}; o status varia por país, então confira a Anvisa, a FDA ou a EMA.${i.r ? " Retirado do mercado em pelo menos um país." : ""}`,
+      mecanismo: `Classe terapêutica (ATC): ${classe}. O mecanismo detalhado não foi organizado nesta ficha; consulte a bula.`,
+      evidencia: "Medicamento aprovado. Ficha automática, sem avaliação editorial da qualidade das evidências.",
+      riscos: (i.cx ? "O ChEMBL registra alerta de caixa preta (boxed warning) para este medicamento; leia a bula. " : "") + "Os riscos não foram organizados automaticamente; consulte a bula e um profissional de saúde.",
+      protocolo: "Esta ficha não traz doses. Use somente com prescrição e siga a bula.",
+      fontes: [`ChEMBL ${i.c} (https://www.ebi.ac.uk/chembl/compound_report_card/${i.c}/)`, "Anvisa (dados abertos)", "DailyMed"],
+      oQueFaz: `Medicamento (${i.e}) da classe ${classe}.${vias}`,
+      beneficios: "Ficha automática, sem texto editorial sobre benefícios; veja a bula oficial."
+    });
+  });
+  /* Associações: marca com 2+ princípios ativos, ligada à ficha de cada ativo. */
+  const ativoDe = {};
+  PEPTIDES.forEach(p => { ativoDe[slug(p.nome)] = p; });
+  (MEDICAMENTOS.combos || []).forEach(([marca, ids, faltam]) => {
+    const ativos = ids.map(s => ativoDe[s]).filter(Boolean);
+    if (ativos.length < 2 || ativoDe[slug(marca)]) return;
+    const nomes = ativos.map(a => a.nome).concat(faltam || []);
+    const p = {
+      nome: marca, categoria: "Associação medicamentosa", fase: "Aprovado", _med: "associacao", combo: ativos.map(a => slug(a.nome)), outrosAtivos: faltam || [],
+      status: "Aprovado em pelo menos um país (Anvisa ou FDA) como associação em dose fixa; a composição varia por país e por apresentação, então confira a bula do produto.",
+      mecanismo: `Associação de ${nomes.length} princípios ativos (${nomes.join(" + ")}). Cada ativo age pelo seu próprio mecanismo; veja o quadro da associação nesta ficha.`,
+      evidencia: "Medicamento aprovado. Ficha automática, sem avaliação editorial; a evidência da combinação específica não foi avaliada aqui.",
+      riscos: `Em uma associação, os riscos, os efeitos colaterais e as contraindicações de cada ativo (${nomes.join(", ")}) valem ao mesmo tempo. Leia a bula e fale com um profissional de saúde.`,
+      protocolo: "Esta ficha não traz doses. Use somente com prescrição e siga a bula.",
+      fontes: ["Anvisa (dados abertos)", "openFDA (Drugs@FDA)", "DailyMed"],
+      oQueFaz: `Associação em dose fixa de ${nomes.join(" + ")}.`,
+      beneficios: "Ficha automática, sem texto editorial sobre benefícios; veja a bula oficial."
+    };
+    PEPTIDES.push(p);
+    ativos.forEach(a => { (a._assoc = a._assoc || []).push(p.nome); });
+  });
+})();
 /* Marcos com a data real do fato (aprovação, início de estudo), vindos das fontes oficiais coletadas, não a data da coleta. */
 function marcosOficiais(nome) {
   const a = (typeof APROVACOES_AUTO !== "undefined" && APROVACOES_AUTO[slug(nome)]) || {};
@@ -115,6 +157,9 @@ const notaAuto = texto => {
 /* Os avisos automáticos aparecem só em "Novidades nas fontes"; não são mais colados nos textos de riscos, evidência e status. */
 
 /* Busca: sem acento, todas as palavras, nomes comerciais e tolerância a erro de digitação. */
+/*marcas-auto:inicio*/
+const MARCAS_AUTO = {"abaloparatida":["Eladynos","Tymlos"],"abarelix":["Plenaxis"],"abatacept":["Orencia"],"acarbose":["Aglucose","Glucobay","Precose"],"acido-azelaico":["Azelan","Aczeo","Zella","Azelex","Finacea","Skinoren"],"adrenalina-epinefrina":["Adren Co","Adrenaclick","Adrenalin","Ana-Guard","Ana-Kit","Anapen","Anaphylactic Shock Drug Kit","Asma-Vydrin","Asthmahaler","Auvi-Q","Bronkaid Mist","Brovon","Emerade","Epi E Z Pen Jr","Epipen","Eppy","Gppe Inh Soln","Jext","Neffy","Primatene","Riddobron","Riddofan","Rybarvin","Simplene","Soln Made To Rybarvin For","Sus-Phrine","Symjepi","Twinject 0.15","Twinject 0.3"],"afamelanotida":["Scenesse"],"aflibercept":["Eylea","Yesafili","Zaltrap"],"albiglutida":["Eperzan"],"aldesleukin":["Proleukin"],"alefacept":["Amevive"],"anakinra":["Antril","Kineret"],"anastrozol":["Arimidex","Anya","Arazabi","Arothazy","Cermaz","Hanaz","Nastrosa"],"angiotensin-ii":["Giapreza"],"atosiban":["Atosiban Sun","Tractocile"],"bacitracin":["Albac 50","Baci-Rx","Baciferm 50","Baciguent","Baciim"],"becaplermin":["Regranex"],"belatacept":["Nujolix","Nulojix"],"biotina-vitamina-b7":["Bhio","Kerabio","Untral","Bioepiderm","Biotin 100","Biotin Component Of Vitaped","Vitamin H"],"bivalirudina":["Angiomax","Angiox"],"botulinum-toxin-type-a":["Nuceiva"],"bromocriptina":["Parlodel"],"bulevirtide":["Hepcludex"],"cabergolina":["Dostinex","Caberedux","Cabertrix","Cabaser","Velactis"],"calcitonina":["Calcitare","Calsynar","Miacalcic"],"calcitriol-1-25-di-hidroxivitamina-d":["Ostriol","Sigmatriol","Calcijex","Dihydroxyvitamin D 3","Rocaltrol","Silkis","Vectical"],"capreomycin":["Capastat"],"carbetocina":["Duratocin","Tocynae","Pabal"],"catridecacog":["Novothirteen"],"cenegermin":["Oxervate"],"clomifeno":["Clomid","Indux"],"colistina":["Sogecoli"],"cortisona":["Cortate","Cortelan","Cortistab","Cortisyl","Cortone"],"cosyntropin":["Cortrosyn","Synacthen"],"cyclosporine":["Restasis","Sandimmun","Sigmasporin Microral","Capimune","Capsorin","Cequa","Deximune","Gengraf","Ikervis","Neoral","Optimmune","Sandimmune","Sangcya","Vanquoral","Verkazia","Vevye"],"daptomicina":["Dopcym","Exfuno","Gapobak","Reldaptos","Trisk","Cubicin","Daptomycin Hospira","Dapzura Rt"],"defibrotide":["Defitelio"],"degarelix":["Degarelix Accord","Firmagon"],"denileukin-diftitox":["Ontak"],"desirudin":["Iprivask","Revasc"],"dexametasona":["Maxidex","Ozurdex","Bexeton","Cetadex","Cortitop","Decadron","Dexaden","Dexadermil","Furp-Dexametasona","Lqfex - Dexametasona","Aeroseb-Dex","Decaderm","Decadron-75","Decaspray","Dexa-Sine","Dexacortal","Dexacortin","Dexacortisyl","Dexafree","Dexamethasone Intensol","Dexamonozon","Dexapos","Dexasite","Dexasone","Dexone","Dexsol","Dextenza","Dexycu Kit","Dropodex","Fortecortin"],"diosmina":["Flebodia","Roydass","Diovenor"],"dopamina":["Dopabane","Dopacris","Inotropisa","Teudom"],"drospirenona":["Ammy","Slinda","Drospirenone Component Of Beyaz","Drospirenone Component Of Yaz","Slynd"],"dulaglutida":["Trulicity"],"dutasterida":["Avodart","Dastene","Droalfa","Dutasteride Component Of Jalyn"],"eflapegrastim":["Rolvedon"],"enfuvirtida":["Fuzeon"],"epoetin-delta":["Dynepo"],"epoetin-theta":["Biopoin","Eporatio"],"epoetin-zeta":["Retacrit","Silapo"],"eptifibatide":["Eptifibatide Accord","Integrilin"],"espironolactona":["Aldactone","Diacqua","Abbolactone","Carospir","Diatensec","Gx Spironol","Laractone","Qaialdo","Spiretic","Spiroctan 100","Spiroctan 25","Spiroctan 50","Spironolactone Ceva","Spirospare 100","Spirospare 25"],"estanozolol":["Stromba","Tevabolin","Winstrol"],"estradiol":["Sandrena","Femring","Femtrace"],"estriol-e3":["Stele","Gynest","Incurin","Ortho-Gynest","Ovestin"],"estrona-e1":["Estrogenic Substance","Theelin"],"etanercept":["Benepali","Enbrel","Erelzi","Lifmior","Nepexto"],"etinilestradiol":["Estinyl","Etinestryl","Feminone","Follicoral","Lynoral"],"exenatida":["Bydureon","Byetta"],"filgrastim":["Fil","Fiprima","Granulokine","Zarzio","Accofil","Biograstim","Filgrastim Hexal","Filgrastim Ratiopharm","Gran 300","Gran Injection 150","Granix","Grastofil","Neupogen","Nivestim","Nivestym","Nypozi","Ratiograstim","Releuko","Tevagrastim","Zarxio"],"finasterida":["Excalv","Fendical","Finalop","Finarid","Prohair","Aindeem","Propecia","Proscar","Prostide"],"fludrocortisona":["Florinefe","Astonin","Florinef","Fludrocortone","Panotile"],"follitropin-delta":["Rekovelle"],"ganirelix":["Ganirelix Acetate Injection","Ganirelix Gedeon Richter"],"glicina":["Baxter Glicina","Glycolixir"],"glucagon":["Glucagen"],"gonadorelina-gnrh":["Fertiral Lh-Rh","Relefact Lh-Rh"],"hidrocortisona-cortisol":["Acecorthyl","Androcortil","Ariscorten","Cortigen","Gliocort","Acetasol Hc","Acticort","Aeroseb-Hc","Ala-Cort","Ala-Scalp","Alkindi","Alphaderm","Anflam","Anucort-Hc","Anugesic Hc","Anusol Hc","Anusol Plus Hc","Anusol Soothing Relief","Anusol-Hc","Balneol-Hc","Beta-Hc","Calmurid Hc","Canesten Hc","Cetacort","Cipro Hc","Cobadex","Colocort","Corlan","Cort-Dome","Cortef"],"icatibanto":["Firazyr","Gulandaripa"],"idebenona":["Raxone"],"insulin-glulisine":["Apidra","Ins Apidra"],"insulin-neutral":["Insulin Human Winthrop"],"insulina-glargina":["Basaglar","Glargilin","Glatus","Lantus","Semglee","Toujeo","Abasaglar","Ins Lantus","Lusduna"],"insulina-lispro":["Humalog","Ins Humalog","Insulin Lispro Sanofi","Liprolog","Lyumjev (Previously Liumjev)"],"interferon-alfacon-1":["Infergen"],"interferon-gamma-1b":["Actimmune","Immukin"],"lanreotida":["Somatuline Autogel","Somatuline La"],"lenograstim":["Granocyte-13","Granocyte-34"],"lepirudin":["Refludan"],"letrozol":["Femara","Ivevi","Lefémi","Lemol","Lethozy","Mahila","Noazy","Sabine"],"levotiroxina-t4":["Puran T4","Synthroid","Euthyrox"],"linaclotida":["Constella","Linzess"],"lipegfilgrastim":["Lonquex"],"liraglutida":["Aribet","Lirux","Lyrza","Olire","Wylovol","Liraclick","Saxenda","Victoza"],"lixisenatida":["Lyxumia"],"lonapegsomatropin":["Skytrofa","Stem-Stat Ortho"],"luspatercept":["Reblozyl"],"lypressin":["Diapid"],"macimorelina":["Macrilen","Solorel"],"mecasermina-igf-1-recombinante":["Bio-Fd&C Igf1","Increlex","Myotrophin","Nexpure Plant-Made Igf-1"],"medroxiprogesterona":["Depo-Provera","Provera","Contracep","Demedrox","Adgyn Medro","Amen","Climanor","Curretab","Cycrin","Depo-Progevera","Depo-Subq Provera 104","Farlutal","Sayana Press"],"metformina":["Glifage","Meglize","Diglixx","Formyn","Funed Metformina","Glicefor","Glicomet","Lfm – Metformina","Metta Sr"],"metreleptina":["Myalept","Myalepta"],"mifamurtide":["Mepact"],"motixafortide":["Aphexda"],"nesiritide":["Natrecor"],"ocriplasmin":["Jetrea"],"octreotida":["Sandostatin","Octride"],"oprelvekin":["Neumega"],"oxandrolona":["Anavar","Oxandrin"],"palifermin":["Kepivance"],"palopegteriparatide":["Yorvipath"],"parathyroid-hormone":["Natpar","Preotact"],"pasireotida":["Signifor"],"pegfilgrastim":["Bioce","Fulphila","Neulastim","Pegneucyte","Pegtima","Pegty","Pelgraz","Ziextenzo","Grasustek","Neulasta","Neupopeg","Nyvepria","Pelmeg","Ristempa","Stimufend","Udenyca"],"peginesatide":["Hematide"],"pegvaliase":["Palynziq"],"piracetam":["Nootropil","Gabacet","Nootrop"],"plecanatida":["Trulance"],"polymyxin-b":["Aerosporin","Gppe Pdr Ster","Poly-Rx","Polyfax","Polymycin B Sulfate"],"prednisona":["Meticorten","Ciclorten","Corticorten","Crispred","Flamape","Funed Prednisona","Nisbal","Predcort","Predinis","Cortan","Cortancyl","Decortisyl","Delta-Dome","Deltasone","Fernisone","Liquid Pred","Lodotra","Orasone","Paracort","Prednicen-M","Prednisone Intensol","Rayos","Servisone","Sterapred"],"progesterona":["Crinone","Prolutex","Utrogestan","Gynpro","Junno","Cyclogest","Endometrin","Lutigest","Milprosa","Prochieve","Progesta-Care","Progestasert","Progestin","Prometrium","Regumate","Serenity For Women","Syngestrone"],"protirelin":["Thypinone","Thyrel Trh","Trh-Cambridge"],"raloxifeno":["Evista","Ralxfem"],"resmetirom":["Rezdiffra"],"riboflavina-vitamina-b2":["E-B2","Freeda","Riboflavin Component Of Vitaped","Vitamin B 2"],"rilonacept":["Arcalyst"],"rimabotulinumtoxinb":["Myobloc","Neurobloc"],"romiplostim":["Nplate"],"saralasin":["Sarenin"],"sargramostim":["Leukine"],"secretina":["Secretin-Ferring"],"selenometionina":["Sethotope"],"selvacovatein":["Bimervax"],"semaglutida":["Embeltah","Ozivy","Seemasun","Semavy","Sevema","Zempneo","Extensior","Loryvia","Orsema","Owozy","Ozempic","Rybelsus","Wegovy"],"sermorelina":["Geref"],"setmelanotida":["Imcivree"],"sincalida-cck-8":["Kinevac"],"sodio":["Cifoban","Hipertonic 5%","Jp Fisiológico","Maresis Ht","Nice","Oraice","Snif 3%","Solução Fisiológica","Tricit","Phosphotope"],"somatorelin":["Ghrh Ferring"],"somatrem":["Protropin"],"somatrogon":["Ngenla"],"tagraxofusp":["Elzonris"],"tamoxifeno":["Nolvadex","Tacfen","Taxofen"],"tasonermin":["Beromun"],"tebentafusp":["Kimmtrak"],"teduglutida":["Revestive","Gattex Kit"],"telavancin":["Vibativ"],"teriparatida":["Bonmide","Forteo","Forzy","Sondelbay","Terrosa","Bonsity","Forsteo","Kauliv","Livogiva","Movymia","Qutavina","Teriparatide Sun"],"tesamorelina":["Egrifta"],"testosterona":["Androgel","Deposteron","Testocyp","Testogel","Androderm","Andropatch","Axiron","Fortesta","Intrinsa","Livensa","Natesto","Striant","Testim","Testoderm","Testopatch","Testopel","Testoral","Tostran","Vogelxo"],"thyrotropin":["Thytropar"],"tiamina-vitamina-b1":["Acesyl","Benerva","Beneum","Hipovit B","Naévia","Nervamin","Neurivit","Vitamina B1 Neo Química","Vitaum","Thiamine Component Of Vitaped","Vitamin B1"],"tibolona":["Livial","Clindella","Libiam","Reduclim","Tibial","Tiboclin"],"tirzepatida":["Mounjaro","Zepbound"],"trafermin":["Fiblast"],"trofinetida-trofinetide-analogo-do-gpe":["Daybue"],"tyrothricin":["Bactratycin","Coltirot","Dermotricine","Hydrotricine","Martricin","Solutricine","Tyri 10","Tyroderm","Tyrosur"],"urofollitropin":["Fostimon-M","Bravelle","Fertinex","Fostimon","Gonadotraphon Fsh","Metrodin High Purity","Orgafol"],"vancomicina":["Vancocina Cp","Hicovan","Novamicin","Vancoson","Vancotrat","Vank"],"viomycin":["Viocin Sulfate"],"voclosporin":["Lupkynis"],"vosoritida":["Voxzogo"]};
+/*marcas-auto:fim*/
 const SINONIMOS = {
   semaglutida: "ozempic wegovy rybelsus", tirzepatida: "mounjaro zepbound", liraglutida: "victoza saxenda", dulaglutida: "trulicity",
   exenatida: "byetta bydureon", cagrilintida: "cagrisema", tesamorelina: "egrifta", somatropina: "hormonio do crescimento gh hgh",
@@ -125,10 +170,45 @@ const SINONIMOS = {
   ashwagandha: "withania ginseng indiano", glutationa: "glutathione", "omega-3": "fish oil oleo de peixe", "coenzima q10": "ubiquinol ubiquinona coq10",
   "vitamina d3": "colecalciferol d3", "nad+": "nad nicotinamida adenina dinucleotideo", colageno: "collagen", probioticos: "probiotics"
 };
+/* Nomes comerciais curados (prefixo do nome da ficha, sem acento) para quem a Anvisa/FDA/EMA não cobre. */
+const MARCAS_EXTRA = {
+  leuprorrelina: ["Lupron", "Lupron Depot", "Lucrin", "Lucrin Depot", "Eligard", "Camcevi", "Fensolvi", "Viadur"],
+  goserelina: ["Zoladex", "Zoladex LA"], triptorrelina: ["Decapeptyl", "Trelstar", "Diphereline", "Triptodur"],
+  "hormonio do crescimento": ["Genotropin", "Norditropin", "Humatrope", "Omnitrope", "Saizen", "Nutropin", "Zomacton", "Serostim", "Scitropin"],
+  somatropina: ["Genotropin", "Norditropin", "Humatrope", "Omnitrope", "Saizen", "Nutropin", "Zomacton", "Serostim"],
+  "gonadotrofina corionica": ["Ovidrel", "Pregnyl", "Novarel", "Choragon", "Profasi", "Gonakor"],
+  insulina: ["Humulin", "Novolin", "NovoRapid", "Levemir", "Tresiba", "Lantus", "Humalog", "Fiasp", "Toujeo", "Apidra", "Admelog"],
+  ocitocina: ["Syntocinon", "Pitocin", "Ocitocina Blau"], vasopressina: ["Pitressin", "Vasostrict"],
+  desmopressina: ["Minirin", "DDAVP", "Noctiva", "Nocdurna"], melatonina: ["Circadin", "Slenyto"], "bremelanotida": ["Vyleesi"],
+  pramlintida: ["Symlin"], cetrorrelix: ["Cetrotide"], ganirelix: ["Orgalutran", "Fyremadel"], glucagon: ["GlucaGen", "Gvoke", "Baqsimi"],
+  "liotironina": ["Cytomel", "Tertroxin"], "dhea": ["Intrarosa", "Prasterona"], pegvisomanto: ["Somavert"], terlipressina: ["Terlivaz", "Glypressin"],
+  nandrolona: ["Deca-Durabolin", "Durabolin"], testosterona: ["Durateston", "Sustanon", "Nebido", "Androgel", "Testogel"],
+  ipamorelina: [], sermorelina: ["Geref"], tesamorelina: ["Egrifta"], "follitropina": ["Gonal-f", "Puregon", "Bemfola", "Ovaleap"],
+  menotropina: ["Menopur", "Menogon"], "levotiroxina": ["Synthroid", "Puran T4", "Euthyrox", "Levoid", "Tyrosint"], "calcitonina": ["Miacalcic"],
+  teriparatida: ["Forteo", "Forsteo"], abaloparatida: ["Tymlos"], octreotida: ["Sandostatin", "Sandostatin LAR"], lanreotida: ["Somatuline"]
+};
+const SEM_MARCAS_APROV = /^(mineral|vitamina|suplemento|antioxidante|nad|probiotico)/;
+/* Marcas de aprovações (FDA, EMA, Anvisa, Canadá) limpas de embalagens e soluções; só para busca e ficha. */
+const marcasAprovacao = p => {
+  if (SEM_MARCAS_APROV.test(semAcento((p.categoria || "").toLowerCase()))) return [];
+  const a = (typeof APROVACOES_AUTO !== "undefined" && APROVACOES_AUTO[slug(p.nome)]) || {};
+  const bruto = [].concat(a.fda?.marcas || [], a.ema?.marcas || [], (a.anvisa?.registros || []).map(x => x.nome), (a.canada?.registros || []).map(x => x.produto));
+  return bruto.filter(Boolean).map(m => m.replace(/\(.*?\)/g, "").trim()).filter(m => m.length > 2 && m.length < 28 && !/\d|%| in |injection|\btab\b|\bkit\b|usp|solution|plastic|container|\bsodium\b|chloride|\bacetate\b/i.test(m))
+    .map(m => m === m.toUpperCase() ? m.toLowerCase().replace(/(^|[\s-])\w/g, c => c.toUpperCase()) : m);
+};
+const marcasDe = p => p._mc || (p._mc = (() => {
+  if (p.marcas) return p.marcas;
+  const n = semAcento(p.nome.toLowerCase()), extra = Object.entries(MARCAS_EXTRA).filter(([k]) => n.startsWith(k)).flatMap(([, v]) => v);
+  const nomes = n.split(/[^a-z0-9]+/).filter(Boolean);
+  const todos = [...(MARCAS_AUTO[slug(p.nome)] || []), ...extra, ...marcasAprovacao(p)], vistos = new Set(nomes), r = [];
+  for (const m of todos) { const c = semAcento(m.toLowerCase()).replace(/[^a-z0-9]/g, ""); if (c && !vistos.has(c)) { vistos.add(c); r.push(m); } }
+  return r.slice(0, 40);
+})());
 const buscaNome = p => p._bn || (p._bn = (() => {
   const n = semAcento(p.nome.toLowerCase());
   const sin = Object.entries(SINONIMOS).filter(([k]) => n.startsWith(k)).map(([, v]) => v).join(" ");
-  return n + " " + sin;
+  const marcas = marcasDe(p).join(" ") + " " + (p.combo || []).join(" ").replace(/-/g, " ") + " " + (p.outrosAtivos || []).join(" ");
+  return n + " " + sin + " " + semAcento(marcas.toLowerCase());
 })());
 const buscaTexto = p => p._bt || (p._bt = semAcento((p.nome + " " + p.mecanismo + " " + p.categoria + " " + p.status).toLowerCase()));
 function distancia(a, b) {
@@ -406,6 +486,7 @@ const TIPOS = {
   mineral: { curto: "mineral", icone: "🪨", rotulo: "Mineral", def: "Elemento químico essencial, de origem inorgânica, que o corpo usa em ossos, músculos, nervos e enzimas. Também não é produzido pelo organismo. Ex.: zinco, magnésio, ferro." },
   suplemento: { curto: "suplemento", icone: "💊", rotulo: "Suplemento ou composto", def: "Molécula pequena que não se encaixa nos outros tipos: aminoácidos, ácidos graxos, antioxidantes e metabólitos. Muitas existem naturalmente no corpo ou nos alimentos e são vendidas como complemento. Ex.: creatina, carnitina, NAD+." },
   farmaco: { curto: "medicamento", icone: "🧪", rotulo: "Medicamento de molécula pequena", def: "Fármaco sintético de estrutura química simples, que não é peptídeo, hormônio natural nem nutriente. Costuma ser tomado por via oral e exige prescrição. Ex.: metformina, tadalafila, anastrozol, modafinila." },
+  associacao: { curto: "associação", icone: "💊+💊", rotulo: "Associação de princípios ativos", def: "Medicamento comercial com dois ou mais princípios ativos na mesma apresentação. Os efeitos, os riscos e as contraindicações de cada ativo se somam. Ex.: Janumet (sitagliptina + metformina)." },
   biologico: { curto: "biológico", icone: "🔬", rotulo: "Biológico (proteína grande, anticorpo ou RNA)", def: "Produto feito em células vivas ou por biotecnologia: anticorpos, enzimas, fatores de crescimento, citocinas e terapias de RNA. São moléculas grandes, quase sempre injetáveis e de uso médico. Ex.: teprotumumabe, inclisirana, folistatina." }
 };
 /* Exceções por nome, para quando categoria e família não bastam. Todo item novo cai em "peptideo" se não estiver aqui. */
@@ -420,6 +501,7 @@ Object.entries(TIPO_NOME).forEach(([k, l]) => l.forEach(n => { TIPO_POR_NOME[n] 
 const TIPO_FAMILIA = { "hormonios-sexuais": "hormonio", "tireoide-adrenais": "hormonio", "hormonios-metabolicos": "hormonio", "vitaminas-lipo": "vitamina", "vitaminas-hidro": "vitamina", "minerais": "mineral",
   "suplementos-metabolicos": "suplemento", "nad-sirtuinas": "suplemento", "polifenois-longevidade": "suplemento", "mimeticos-exercicio": "suplemento", "antioxidante": "suplemento" };
 function chaveTipo(p) {
+  if (p._med) return p._med;
   if (TIPO_POR_NOME[p.nome]) return TIPO_POR_NOME[p.nome];
   if (/(umabe?|ximabe?|zumabe?|mab)$/i.test(p.nome.trim())) return "biologico";
   if (p.categoria === "Vitamina") return "vitamina";
@@ -437,6 +519,7 @@ const ORIGENS = {
   ia:   { icone: "📝", rotulo: "Texto educativo", classe: "origem-ia", dica: "Resumo educativo baseado em fontes públicas; confira nas fontes primárias." }
 };
 function origemDe(p) {
+  if (p._med) return ORIGENS.auto;
   const s = slug(p.nome);
   if (typeof AUTO_DADOS !== "undefined" && AUTO_DADOS.includes(s)) return ORIGENS.auto;
   if (typeof DSLD_DADOS !== "undefined" && DSLD_DADOS.includes(s)) return ORIGENS.dsld;
@@ -770,7 +853,7 @@ function montarLayout(titulo) {
   if (topo) {
     topo.innerHTML = `<div class="topo-acoes"><button type="button" id="instalar-app" class="btn btn-pwa" title="Instalar no celular e usar offline">📲 Instalar app</button><button id="tema" type="button" aria-label="Alternar tema">🌓</button></div>
       <a href="index.html" class="logo-marca" aria-label="Guia de Peptídeos: início"><img src="icons/logo.svg" alt="" width="64" height="64" decoding="async"></a>
-      <h1><a href="index.html" class="home">${esc(titulo || "Guia de Peptídeos, Hormônios e Suplementos")}</a></h1>
+      <h1><a href="index.html" class="home">${esc(titulo || "Guia de Peptídeos, Hormônios, Suplementos e Medicamentos")}</a></h1>
       <p class="aviso"><span class="aviso-1">⚠️ Conteúdo exclusivamente educativo.</span> <span class="aviso-2">Não é recomendação médica nem fornece doses de autoadministração.</span></p>
       <form class="busca-global" action="buscar.html" role="search"><input type="search" name="q" placeholder="Busque no guia" aria-label="Buscar em todo o guia" autocomplete="off"></form>
       <nav aria-label="Principal">${NAV_PRINCIPAL.map(([h, n]) => `<a href="${h}"${location.pathname.endsWith("/" + h) ? ' aria-current="page"' : ""}>${n}</a>`).join(" ")}

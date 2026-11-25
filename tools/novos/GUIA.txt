@@ -1,4 +1,4 @@
-GUIA PARA NOVOS ITENS DO CATALOGO (Guia Educativo de Peptideos, Hormonios e Suplementos)
+GUIA PARA NOVOS ITENS DO CATALOGO (Guia Educativo de Peptideos, Hormonios, Suplementos e Medicamentos)
 
 Voce escreve conteudo em PORTUGUES (pt-BR, com acentos corretos) para novos itens. NAO edite nenhum arquivo do site.
 Crie APENAS arquivos Python em UTF-8 em: c:\Users\BR0436417018\Documents\Projetos Pessoais\guia-peptideos\tools\novos\novos_<SEU_ID>_<n>.py

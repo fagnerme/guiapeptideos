@@ -6,7 +6,7 @@ if (!alvo) {
   seoNaoIndexar();
   alvoEl.innerHTML = `<h2>Alvo não encontrado</h2><p><a href="alvos.html">Ver todos os hormônios e alvos</a></p>`;
 } else {
-  document.title = `${alvo.nome} — o que faz e quais substâncias agem nele | Guia de Peptídeos, Hormônios e Suplementos`;
+  document.title = `${alvo.nome} — o que faz e quais substâncias agem nele | Guia de Peptídeos, Hormônios, Suplementos e Medicamentos`;
   const descAlvo = `${alvo.nome}: ${alvo.oque}`.slice(0, 300);
   document.querySelector('meta[name="description"]').content = descAlvo;
   seoAtualizar("alvo.html?a=" + chaveAlvo, [{ "@type": "MedicalWebPage", name: alvo.nome, description: descAlvo, inLanguage: "pt-BR" }]);

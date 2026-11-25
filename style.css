@@ -1427,3 +1427,14 @@ main input[type=checkbox],main input[type=radio]{accent-color:var(--fx-b);width:
 .raw-qtd{display:flex;gap:.5rem;align-items:center}
 .raw-qtd input{flex:1 1 0;min-width:0;width:100%}
 .raw-qtd select{flex:0 0 5.5rem;width:5.5rem}
+
+/* Associações de princípios ativos */
+.assoc-box{border:1px solid var(--cor-primaria,#6c8cff);border-radius:14px;background:linear-gradient(135deg,rgba(108,140,255,.10),rgba(140,90,255,.08))}
+.assoc-formula{font-size:1.25rem;display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+.assoc-mais{font-size:1.4rem;opacity:.7;margin:0 .2rem}
+.assoc-grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:.8rem;margin:.8rem 0}
+.assoc-ativo{border:1px solid rgba(128,140,200,.35);border-radius:12px;padding:.8rem 1rem;background:rgba(255,255,255,.04)}
+.assoc-ativo h3{margin:.1rem 0 .4rem}
+.assoc-alerta{font-weight:600;color:#e5484d}
+.assoc-em{margin-top:.6rem}
+.tag-assoc{text-decoration:none}

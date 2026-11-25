@@ -65,6 +65,10 @@ jobs:
         if: steps.guarda.outputs.pular != 'true'
         continue-on-error: true
         run: python tools/coletar_estudos.py
+      - name: Medicamentos e nomes comerciais (ChEMBL e Anvisa)
+        if: steps.guarda.outputs.pular != 'true'
+        continue-on-error: true
+        run: python tools/coletar_medicamentos.py
       - name: Coletar bulas oficiais (DailyMed)
         if: steps.guarda.outputs.pular != 'true'
         continue-on-error: true

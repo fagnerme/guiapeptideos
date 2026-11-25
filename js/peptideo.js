@@ -16,6 +16,35 @@ function htmlDetalhes(p) {
     <p><small>Texto educativo resumido; confirme na bula e nas fontes oficiais. Não é orientação médica.</small></p></section>`;
 }
 
+function htmlAssociacao(p) {
+  const ativos = p.combo.map(s => porSlug(s)).filter(Boolean);
+  const cx = a => /caixa preta|boxed warning/i.test(a.riscos || "");
+  const cartao = a => `<div class="assoc-ativo"><h3><a href="${urlPeptideo(a.nome)}">${esc(a.nome)}</a></h3>
+    <p><span class="tag">${esc(a.categoria)}</span></p>
+    <p><b>${tr("O que faz")}:</b> ${esc((a.oQueFaz || "").slice(0, 220))}</p>
+    <p><b>${tr("Mecanismo")}:</b> ${esc((a.mecanismo || "").slice(0, 260))}</p>
+    <p><b>${tr("Cuidados")}:</b> ${esc((a.riscos || "").slice(0, 260))}</p>
+    ${cx(a) ? `<p class="assoc-alerta">⚠️ ${tr("Este ativo tem alerta de caixa preta; leia a bula.")}</p>` : ""}
+    <p><a class="btn" href="${urlPeptideo(a.nome)}">${tr("Ver ficha completa")} →</a></p></div>`;
+  const nomes = ativos.map(a => a.nome).concat(p.outrosAtivos || []);
+  const q = encodeURIComponent(p.nome);
+  return `<section class="boas assoc-box" id="associacao"><h2>💊+💊 ${tr("Associação de")} ${nomes.length} ${tr("princípios ativos")}</h2>
+    <p class="assoc-formula">${nomes.map((n, i) => `${i ? '<span class="assoc-mais">+</span>' : ""}<b>${esc(n)}</b>`).join("")}</p>
+    <p>${tr("Este nome comercial reúne mais de um ativo no mesmo produto. Os efeitos, os efeitos colaterais e os riscos de cada ativo somam-se, e as interações entre eles também importam.")}</p>
+    <div class="assoc-grade">${ativos.map(cartao).join("")}</div>
+    ${p.outrosAtivos && p.outrosAtivos.length ? `<p><small>${tr("Sem ficha neste guia")}: ${esc(p.outrosAtivos.join(", "))}.</small></p>` : ""}
+    <p class="acoes"><a class="btn" href="interacoes.html">${tr("Checar interações")}</a> <a class="btn" href="https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=${q}" target="_blank" rel="noopener">DailyMed</a> <a class="btn" href="https://consultas.anvisa.gov.br/#/medicamentos/" target="_blank" rel="noopener">Anvisa</a></p>
+    <p><small>${tr("Composição segundo Anvisa e FDA; varia por país e apresentação. Confira a bula.")}</small></p></section>`;
+}
+function htmlMarcas(p) {
+  if (p.combo) return htmlAssociacao(p);
+  const marcas = marcasDe(p);
+  const assoc = (p._assoc || []).length
+    ? `<p class="assoc-em"><b>💊+💊 ${tr("Aparece em associações")}:</b> ${p._assoc.map(n => `<a class="tag tag-assoc" href="${urlPeptideo(n)}">${esc(n)}</a>`).join(" ")}</p><p><small>${tr("Nesses produtos o ativo vem junto com outros; os riscos somam-se.")}</small></p>` : "";
+  return `<section class="boas marcas-ficha" id="nomes-comerciais"><h2>${tr("Nomes comerciais")}</h2>${marcas.length
+    ? `<p><b>${esc(p.nome)}</b> é o princípio ativo de: ${marcas.map(m => `<span class="tag">${esc(m)}</span>`).join(" ")}</p><p><small>${tr("Nomes do Brasil, EUA, Europa e outros países, segundo ChEMBL e dados abertos da Anvisa. Variam por país e fabricante; confira o produto na bula.")}</small></p>`
+    : `<p><small>${tr("Nenhum nome comercial registrado nas fontes consultadas (ChEMBL e Anvisa).")}</small></p>`}${assoc}</section>`;
+}
 function htmlOficiais(p) {
   const q = encodeURIComponent(termoEn(p.nome).replace(/\s*\(.*\)/, ""));
   const a = (u, t) => `<li><a href="${u}" target="_blank" rel="noopener">${t}</a></li>`;
@@ -326,11 +355,11 @@ function montarMenuFicha() {
 
 if (!p) {
   seoNaoIndexar();
-  document.title = "Item não encontrado — Guia de Peptídeos, Hormônios e Suplementos";
+  document.title = "Item não encontrado — Guia de Peptídeos, Hormônios, Suplementos e Medicamentos";
   alvo.innerHTML = `<section class="boas"><h2>${tr("Item não encontrado")}</h2><p><a href="index.html">${tr("Voltar ao catálogo")}</a></p></section>`;
 } else {
   const desc = `${p.nome}: ${p.oQueFaz} Fase: ${p.fase}. Conteúdo educativo.`;
-  document.title = `${p.nome} — o que é, evidências e riscos | Guia de Peptídeos, Hormônios e Suplementos`;
+  document.title = `${p.nome} — o que é, evidências e riscos | Guia de Peptídeos, Hormônios, Suplementos e Medicamentos`;
   document.querySelector('meta[name="description"]').content = desc;
   const faq = faqDe(p);
   seoAtualizar("fichas/" + slug(p.nome) + ".html", [
@@ -359,6 +388,7 @@ if (!p) {
       ${capitulo(1, "Quem é", "O que é isso, em palavras simples?")}
       <section class="boas facil-box"><h2>Em palavras simples</h2><p>${esc(explicaFacil(p))}</p></section>
       ${secao("O que faz", p.oQueFaz)}
+      ${htmlMarcas(p)}
       ${htmlDetalhes(p)}
       ${capitulo(2, "Como age no corpo", "Onde atua e como o corpo lida com isso?")}
       ${secao("Mecanismo de ação", p.mecanismo, "tecnico", "mecanismo")}
@@ -366,7 +396,7 @@ if (!p) {
       ${htmlAgeEm(p)}
       ${htmlFarmaco(p)}
       ${htmlMolecula(p)}
-      ${capitulo(3, "O que a ciência encontrou", "Funciona? Qual a força das provas?")}, "O que a ciência encontrou", "Funciona? Qual a força das provas?")}
+      ${capitulo(3, "O que a ciência encontrou", "Funciona? Qual a força das provas?")}
       ${secao("Benefícios observados nos estudos", p.beneficios, "", "beneficios")}
       <div id="resumo-auto"></div>
       ${secao("Nível de evidência", p.evidencia, "tecnico", "evidencia")}
@@ -423,7 +453,7 @@ if (!p) {
   });
   document.getElementById("compartilhar").addEventListener("click", async e => {
     const url = new URL("fichas/" + slug(p.nome) + ".html", document.baseURI).href;
-    if (navigator.share) { try { await navigator.share({ title: p.nome + " — Guia de Peptídeos, Hormônios e Suplementos", url }); return; } catch { return; } }
+    if (navigator.share) { try { await navigator.share({ title: p.nome + " — Guia de Peptídeos, Hormônios, Suplementos e Medicamentos", url }); return; } catch { return; } }
     try { await navigator.clipboard.writeText(url); e.currentTarget.textContent = "✅ Link copiado"; } catch { prompt("Copie o link:", url); }
   });
   const art = alvo.querySelector(".pagina-pep");

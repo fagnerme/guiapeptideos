@@ -1,4 +1,4 @@
-# Guia de Peptídeos, Hormônios e Suplementos
+# Guia de Peptídeos, Hormônios, Suplementos e Medicamentos
 
 Site estático (HTML, CSS e JavaScript, sem framework) publicado no GitHub Pages: <https://fagnerme.github.io/guiapeptideos>.
 Conteúdo exclusivamente educativo: não é recomendação médica nem sugere doses.

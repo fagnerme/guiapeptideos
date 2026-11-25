@@ -26,8 +26,8 @@ with sync_playwright() as p:
     pg.set_viewport_size({"width": 1200, "height": 630})
     pg.set_content(pagina(f"""<div style="width:1200px;height:630px;display:flex;align-items:center;justify-content:center;gap:56px;background:linear-gradient(135deg,#eef9fa,#d9f1ee);font-family:'Segoe UI',Arial,sans-serif">
       <div style="width:300px;height:300px;filter:drop-shadow(0 18px 30px rgba(10,95,127,.35))">{svg.replace('<svg ','<svg width="300" height="300" ')}</div>
-      <div style="max-width:660px"><div style="font-size:78px;font-weight:800;line-height:1.05;background:linear-gradient(90deg,#0a5f7f,#1fa38a);-webkit-background-clip:text;color:transparent">Guia de Peptídeos</div>
-      <div style="font-size:38px;color:#10323d;margin-top:14px;font-weight:600">Hormônios e Suplementos</div>
+      <div style="max-width:660px"><div style="font-size:64px;font-weight:800;line-height:1.05;background:linear-gradient(90deg,#0a5f7f,#1fa38a);-webkit-background-clip:text;color:transparent">Peptídeos e Hormônios</div>
+      <div style="font-size:40px;color:#10323d;margin-top:14px;font-weight:600">Suplementos e Medicamentos</div>
       <div style="font-size:26px;color:#3b5a64;margin-top:18px">Evidências, riscos e status regulatório, em linguagem clara.</div></div></div>""", 1200, 630))
     pg.screenshot(path=str(raiz / "icons" / "og-logo.png"))
     b.close()

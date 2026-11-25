@@ -19,7 +19,7 @@ PAGINAS = [
     "revisao.html", "estatisticas.html", "novidades.html", "sinais.html", "linha-do-tempo.html", "mecanismos.html",
     "duracao.html", "leituras.html", "consulta.html", "favoritos.html", "aprender.html", "como-usar.html",
     "privacidade.html", "alertas.html", "alegacoes.html", "mudancas.html", "quiz-familias.html", "404.html",
-    "peptideo.html?p=semaglutida", "termo.html?t=agonista", "alvo.html?a=glp1r",
+    "peptideo.html?p=semaglutida", "peptideo.html?p=diazepam", "buscar.html?q=mounjaro", "index.html?q=valium", "termo.html?t=agonista", "alvo.html?a=glp1r",
     "fichas/semaglutida.html", "comparar/semaglutida-vs-tirzepatida.html",
 ]
 AMOSTRA_FICHAS = 15
