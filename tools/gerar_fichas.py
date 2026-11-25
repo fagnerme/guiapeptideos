@@ -204,7 +204,7 @@ def gerar(site):
         url = f"{site}/fichas/{s}.html"
         desc = f'{p["nome"]}: {p.get("oQueFaz", "")} Fase: {p.get("fase", "")}. Conteúdo educativo.'.strip()
         titulo = f'{p["nome"]} — o que é, evidências e riscos | {NOME_SITE}'
-        card = f"{site}/cards/{s}.png" if (raiz / "cards" / f"{s}.png").exists() else f"{site}/icons/icon-512.png"
+        card = f"{site}/cards/{s}.png" if (raiz / "cards" / f"{s}.png").exists() else f"{site}/icons/og-logo.png"
         ld = [
             {"@context": "https://schema.org", "@type": "MedicalWebPage", "name": p["nome"], "description": desc, "inLanguage": "pt-BR",
              "url": url, "isPartOf": {"@type": "WebSite", "name": NOME_SITE, "url": f"{site}/"}, "about": {"@type": "Drug", "name": p["nome"]}},
@@ -297,7 +297,7 @@ def gerar_comparacoes(site, itens, familias):
                        f'<title>{e(titulo)}</title>\n<meta name="description" content="{e(desc)}">\n'
                        '<link rel="manifest" href="manifest.webmanifest">\n<meta name="theme-color" content="#1f3a5f">\n<link rel="icon" href="icons/icon-192.png">\n<link rel="stylesheet" href="style.css">\n'
                        f'<link rel="canonical" href="{url}">\n<meta property="og:type" content="article">\n<meta property="og:title" content="{e(titulo)}">\n'
-                       f'<meta property="og:description" content="{e(desc)}">\n<meta property="og:url" content="{url}">\n<meta property="og:image" content="{site}/icons/icon-512.png">\n'
+                       f'<meta property="og:description" content="{e(desc)}">\n<meta property="og:url" content="{url}">\n<meta property="og:image" content="{site}/icons/og-logo.png">\n'
                        f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n</head>\n')
                 pag = resto.replace('<div id="conteudo"></div>', corpo, 1).replace("<body>", "", 1)
                 pag = re.sub(r'<script(?: defer)? src="(?:js/)?peptideo\.js"></script>', '', pag)

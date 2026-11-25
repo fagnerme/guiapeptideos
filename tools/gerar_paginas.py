@@ -48,7 +48,7 @@ PAGINAS = {
     <ol class="passos">
       <li>Na página <a href="index.html">Catálogo</a>, digite o nome na caixa de busca ou use os filtros (fase, categoria, nível de confiança, origem do texto).</li>
       <li>Clique no cartão para abrir a <b>ficha</b>: o que é, mecanismo, evidência, riscos, status regulatório e fontes.</li>
-      <li>Na ficha, use ⭐ para guardar nos <a href="favoritos.html">Favoritos</a>, ⚖️ para comparar e 🧒 “Explique fácil” se o texto estiver técnico.</li>
+      <li>Na ficha, use ⭐ para guardar nos <a href="favoritos.html">Favoritos</a>, ⚖️ para comparar e veja o bloco “Em palavras simples” no topo se o texto estiver técnico.</li>
     </ol>
     <p><small>A busca no topo de todas as páginas procura em todo o guia (fichas, glossário, interações).</small></p>
   </section>

@@ -62,7 +62,7 @@ for f in sorted(raiz.glob("*.html")):
         f'<meta property="og:title" content="{tit}">',
         f'<meta property="og:description" content="{desc}">',
         f'<meta property="og:url" content="{url}">',
-        f'<meta property="og:image" content="{site}/icons/icon-512.png">',
+        f'<meta property="og:image" content="{site}/icons/og-logo.png">',
         '<meta name="twitter:card" content="summary">',
     ]
     if f.name == "index.html":

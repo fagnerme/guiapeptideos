@@ -51,8 +51,8 @@ snapshot().then(snap => {
   };
   log.innerHTML = linhas.map(x => {
     const data = new Date(x.concluidaEm).toLocaleString(LOCALE);
-    const total = x.itensProcessados === null ? "" : ` · ${x.itensProcessados}/${x.itensNoCatalogo} ${tr("itens processados")}`;
-    const falhas = x.consultasSemResposta === null ? "" : ` · ${x.consultasSemResposta} ${tr("consultas sem resposta")}`;
+    const total = x.itensProcessados == null ? "" : ` · ${x.itensProcessados}/${x.itensNoCatalogo ?? "?"} ${tr("itens processados")}`;
+    const falhas = x.consultasSemResposta == null ? "" : ` · ${x.consultasSemResposta} ${tr("consultas sem resposta")}`;
     const escopo = x.escopo === "parcial" ? tr("execução parcial") : x.escopo === "catalogo" ? tr("catálogo completo") : "";
     const erro = x.erro ? ` · ${esc(x.erro)}` : "";
     return `<li><time>${esc(data)}</time> · ${esc(rotulos[x.status] || x.status)}${escopo ? ` · ${esc(escopo)}` : ""}${total}${falhas}${erro}</li>`;

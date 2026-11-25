@@ -769,6 +769,7 @@ function montarLayout(titulo) {
   const topo = document.getElementById("topo");
   if (topo) {
     topo.innerHTML = `<div class="topo-acoes"><button type="button" id="instalar-app" class="btn btn-pwa" title="Instalar no celular e usar offline">📲 Instalar app</button><button id="tema" type="button" aria-label="Alternar tema">🌓</button></div>
+      <a href="index.html" class="logo-marca" aria-label="Guia de Peptídeos: início"><img src="icons/logo.svg" alt="" width="64" height="64" decoding="async"></a>
       <h1><a href="index.html" class="home">${esc(titulo || "Guia de Peptídeos, Hormônios e Suplementos")}</a></h1>
       <p class="aviso"><span class="aviso-1">⚠️ Conteúdo exclusivamente educativo.</span> <span class="aviso-2">Não é recomendação médica nem fornece doses de autoadministração.</span></p>
       <form class="busca-global" action="buscar.html" role="search"><input type="search" name="q" placeholder="Buscar em todo o guia..." aria-label="Buscar em todo o guia"><button type="submit" aria-label="Buscar">🔍</button></form>
@@ -813,7 +814,7 @@ function montarLayout(titulo) {
     document.body.prepend(a);
   }
   const rod = document.getElementById("rodape");
-  if (rod) rod.innerHTML = `<p class="mais-links">${NAV_MAIS.map(([h, n]) => `<a href="${h}">${n}</a>`).join(" · ")}</p><a href="privacidade.html">Privacidade e aviso médico</a> · <span>Conteúdo educativo, não é aconselhamento médico.</span> · <a href="sobre.html">Sobre e metodologia</a><p class="credito-desenvolvedor">Desenvolvido por Fagner Felipe Creto Alves</p>`;
+  if (rod) rod.innerHTML = `<p class="mais-links">${NAV_MAIS.map(([h, n]) => `<a href="${h}">${n}</a>`).join(" · ")}</p><a href="privacidade.html">Privacidade e aviso médico</a> · <span>Conteúdo educativo, não é aconselhamento médico.</span> · <a href="sobre.html">Sobre e metodologia</a><p class="credito-desenvolvedor">Desenvolvido por Fagner Felipe Creto Alves</p><p class="direitos-autorais">© ${new Date().getFullYear()} Fagner Felipe Creto Alves. Todos os direitos reservados. A cópia, a redistribuição e o uso do conteúdo, do código e da API dependem de autorização prévia ou de contrato de licenciamento. <a href="privacidade.html#direitos-autorais">Saiba mais</a></p>`;
   if (!/como-usar|privacidade/.test(location.pathname)) setTimeout(() => iniciarOnboarding(false), 600);
 }
 /* ---- Dados ao vivo (ClinicalTrials.gov, PubMed, openFDA) ---- */

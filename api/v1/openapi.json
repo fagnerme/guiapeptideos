@@ -3,7 +3,9 @@
   "info": {
     "title": "Guia de Peptídeos — API pública de dados",
     "version": "1.0.0",
-    "description": "Snapshot estático gratuito e somente leitura. Consulte generatedAt, lastCollection e collection por fonte. Dados de terceiros mantêm os termos das fontes originais; ausência de resultado não prova ausência de aprovação."
+    "description": "Snapshot estático somente leitura. © 2026 Fagner Felipe Creto Alves, todos os direitos reservados: o uso da API e dos dados em outros sites, aplicativos ou serviços depende de autorização do autor e pode envolver pagamento de licença. Consulte generatedAt, lastCollection e collection por fonte. Dados de terceiros mantêm os termos das fontes originais; ausência de resultado não prova ausência de aprovação.",
+    "contact": { "name": "Fagner Felipe Creto Alves" },
+    "license": { "name": "Todos os direitos reservados (uso mediante autorização)" }
   },
   "servers": [
     {

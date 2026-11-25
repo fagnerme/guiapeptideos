@@ -61,6 +61,10 @@ jobs:
         if: steps.guarda.outputs.pular != 'true'
         continue-on-error: true
         run: python tools/atualizar_dsld.py --importar --min 300 --limite 10
+      - name: Estudos clínicos (doses, via, duração e esquema, traduzidos para português)
+        if: steps.guarda.outputs.pular != 'true'
+        continue-on-error: true
+        run: python tools/coletar_estudos.py
       - name: Gerar cartões, sitemap e service worker
         if: steps.guarda.outputs.pular != 'true'
         env:

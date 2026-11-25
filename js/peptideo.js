@@ -60,6 +60,7 @@ function htmlSinais(p) {
 /* Ícone e cor por tipo de bloco, para a ficha ser escaneável sem ler tudo. */
 const BLOCOS_ESTILO = [
   [/resumo r[aá]pido/i, "⚡", "simples"],
+  [/como os estudos foram conduzidos/i, "💉", "ciencia"],
   [/riscos|alertas de seguran|interações|cuidados/i, "⚠️", "risco"],
   [/benef[ií]cios/i, "✅", "beneficio"],
   [/evid[eê]ncia/i, "🔬", "ciencia"],
@@ -138,6 +139,44 @@ const primeirasFrases = (t, n, max) => {
   if (out.length > max) out = out.slice(0, max).replace(/\s+\S*$/, "") + "…";
   return out;
 };
+/* Doses, via e duração usadas nos ensaios (ClinicalTrials.gov), carregadas só na ficha: dados/estudos/<slug>.json. */
+function htmlEstudoDose(e) {
+  const linha = (rot, v) => v && v.length ? `<div><dt>${rot}</dt><dd>${Array.isArray(v) ? v.map(esc).join(" · ") : esc(v)}</dd></div>` : "";
+  const anos = e.inicio && e.fim && e.inicio !== e.fim ? `${e.inicio}–${e.fim}` : (e.inicio || "");
+  const durRot = e.duracaoOrigem === "desfecho" ? "Acompanhamento até a avaliação principal" : "Duração segundo o braço do estudo";
+  const b = e.braco || {};
+  const nomePt = b.nomePt || b.nome, textoPt = b.textoPt || b.texto;
+  const nome = nomePt ? `<b>${esc(nomePt)}</b>${textoPt ? ": " + esc(textoPt) : ""}` : "";
+  const orig = b.nome ? `<p lang="en"><b>${esc(b.nome)}</b>${b.texto ? ": " + esc(b.texto) : ""}</p>` : "";
+  const trechos = e.esquema ? (e.esquema.trechosPt || e.esquema.trechos) : [];
+  const tit = e.tituloPt || e.titulo;
+  return `<article class="estudo-dose">
+    <header><b>${esc(e.fase)}</b>${e.n ? ` · ${e.n.toLocaleString(LOCALE)} participantes` : ""}${anos ? ` · ${esc(anos)}` : ""} · <a href="https://clinicaltrials.gov/study/${esc(e.nct)}" target="_blank" rel="noopener">${esc(e.nct)}</a></header>
+    ${tit ? `<p class="estudo-cond"><b>Estudo:</b> ${esc(tit)}</p>` : ""}
+    ${e.condicoes?.length ? `<p class="estudo-cond">Condição estudada: ${e.condicoes.map(esc).join(", ")}</p>` : ""}
+    <dl class="estudo-dl">${linha("Dose testada", e.doses)}${linha("Frequência", e.frequencia)}${linha("Via", e.via)}${linha(durRot, e.duracao)}</dl>
+    ${e.esquema ? `<div class="estudo-esquema"><b>Esquema (ciclos, pausas e fases)</b><p>${e.esquema.tags.map(t => `<span class="tag">${esc(t)}</span>`).join(" ")}</p>${trechos.map(t => `<blockquote>${esc(t)}</blockquote>`).join("")}</div>` : ""}
+    ${nome ? `<details class="estudo-orig"><summary>Ver descrição do estudo e texto original</summary><p>${nome}</p><p><small>${esc(e.tituloPt ? e.titulo : "")}</small></p>${orig}</details>` : ""}
+  </article>`;
+}
+async function carregarEstudosDose(p) {
+  const s = slug(p.nome);
+  try {
+    const idx = await getJson("dados/estudos/index.json");
+    if (!idx.includes(s)) return;
+    const lista = await getJson(`dados/estudos/${s}.json`);
+    if (!lista.length) return;
+    const caixa = document.getElementById("estudos-dose");
+    if (!caixa) return;
+    caixa.innerHTML = `<section class="boas estudos-dose"><h2>Como os estudos foram conduzidos</h2>
+      <p class="aviso-dose"><b>Só para entender a pesquisa.</b> Estas são as doses e os tempos usados em estudos clínicos, com acompanhamento de equipe de saúde. Não são recomendação de uso nem orientação de dose para você: quem define isso é o profissional que prescreve.</p>
+      ${lista.map(htmlEstudoDose).join("")}
+      <p><small>Dados extraídos automaticamente do registro público ClinicalTrials.gov (estudos concluídos de maior porte). A leitura automática pode errar: confira sempre no registro de cada estudo.</small></p></section>`;
+    decorarBlocos();
+    recolherBlocos();
+    montarMenuFicha();
+  } catch { /* sem dados de dose para este item */ }
+}
 function htmlResumoRapido(p) {
   return `<section class="boas resumo-rapido"><h2>Resumo rápido</h2><dl>
     <dt>O que é</dt><dd>${esc(primeirasFrases(p.oQueFaz, 1, 200))}</dd>
@@ -252,7 +291,7 @@ if (!p) {
       ${htmlRevisaoHumana(p)}
       ${htmlResumoRapido(p)}
       <section class="boas"><h2>${tr("Situação nas fontes regulatórias")}</h2><p><b>Status regulatório:</b> ${esc(semNotasAuto(p.status))}</p>${htmlLocais(p, true)}</section>
-      <p class="acoes"><button type="button" class="btn fav" data-slug="${slug(p.nome)}">${rotuloFav(slug(p.nome))}</button> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a> <a class="btn btn-prim" href="meus-protocolos.html?add=${slug(p.nome)}">📒 Adicionar aos Meus protocolos</a> <a class="btn" href="calculadora.html?p=${slug(p.nome)}">🧮 Calculadora</a> <button type="button" class="btn" id="pdf">🖨️ Salvar em PDF / imprimir</button> <button type="button" class="btn" id="facil" aria-pressed="false">🧒 Explique fácil</button> <button type="button" class="btn" id="leitura" aria-pressed="false">🔎 Modo leitura</button> <button type="button" class="btn" id="compartilhar">🔗 Compartilhar</button></p>
+      <p class="acoes"><button type="button" class="btn fav" data-slug="${slug(p.nome)}">${rotuloFav(slug(p.nome))}</button> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a> <a class="btn btn-prim" href="meus-protocolos.html?add=${slug(p.nome)}">📒 Adicionar aos Meus protocolos</a> <a class="btn" href="calculadora.html?p=${slug(p.nome)}">🧮 Calculadora</a> <button type="button" class="btn" id="pdf">🖨️ Salvar em PDF / imprimir</button> <button type="button" class="btn" id="leitura" aria-pressed="false">🔎 Modo leitura</button> <button type="button" class="btn" id="compartilhar">🔗 Compartilhar</button></p>
       <section class="boas facil-box"><h2>Em palavras simples</h2><p>${esc(explicaFacil(p))}</p></section>
       ${secao("O que faz", p.oQueFaz)}
       ${htmlDetalhes(p)}
@@ -261,6 +300,7 @@ if (!p) {
       <div id="resumo-auto"></div>
       ${htmlAgeEm(p)}
       ${htmlVias(p)}
+      <div id="estudos-dose"></div>
       ${htmlInteracoes(p)}
       ${htmlFarmaco(p)}
       ${secao("Nível de evidência", p.evidencia, "tecnico", "evidencia")}
@@ -292,6 +332,7 @@ if (!p) {
   } catch { /* armazenamento indisponível */ }
   montarMenuFicha();
   carregarLive(alvo.querySelector(".live"));
+  carregarEstudosDose(p);
   carregarEstudos(alvo.querySelector(".estudos-box"));
   snapshot().then(snap => {
     alvo.querySelector(".alertas-box").innerHTML = htmlAlertas(p);
@@ -307,10 +348,8 @@ if (!p) {
     if (navigator.share) { try { await navigator.share({ title: p.nome + " — Guia de Peptídeos, Hormônios e Suplementos", url }); return; } catch { return; } }
     try { await navigator.clipboard.writeText(url); e.currentTarget.textContent = "✅ Link copiado"; } catch { prompt("Copie o link:", url); }
   });
-  const art = alvo.querySelector(".pagina-pep"), btnF = document.getElementById("facil");
-  const aplicarFacil = on => { art.classList.toggle("modo-facil", on); btnF.setAttribute("aria-pressed", on); };
-  aplicarFacil(localStorage.getItem("facil") === "1");
-  btnF.addEventListener("click", () => { const on = !art.classList.contains("modo-facil"); localStorage.setItem("facil", on ? "1" : "0"); aplicarFacil(on); });
+  const art = alvo.querySelector(".pagina-pep");
+  art.classList.toggle("modo-facil", localStorage.getItem("facil") === "1");
   const btnL = document.getElementById("leitura");
   const aplicarLeitura = on => { document.body.classList.toggle("modo-leitura", on); btnL.setAttribute("aria-pressed", on); };
   try { aplicarLeitura(localStorage.getItem("leitura") === "1"); } catch { /* armazenamento indisponível */ }
