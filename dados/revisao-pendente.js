@@ -966,6 +966,11 @@ const REVISAO_PENDENTE = {
  "insulina": [
   {
    "data": "2026-11-25",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4809 → 4816 no último ano). Reveja riscos."
+  },
+  {
+   "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 8270 → 8270; fase 1/2/3 787/990/935 → 787/990/935; recrutando 521 → 521; registro mais recente 2026-11-25.",
    "fato": "2026-11-25"
@@ -1188,6 +1193,11 @@ const REVISAO_PENDENTE = {
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3719 → 3724 no último ano). Reveja riscos."
+  },
+  {
+   "data": "2026-11-25",
+   "tipo": "seguranca",
    "texto": "2 novo(s) recall(s) na FDA (janela de 3 anos)."
   },
   {
@@ -1256,6 +1266,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "testosterona": [
+  {
+   "data": "2026-11-25",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1179 → 1184 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
@@ -2258,6 +2273,11 @@ const REVISAO_PENDENTE = {
  "creatina": [
   {
    "data": "2026-11-25",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 372 → 372; fase 1/2/3 17/37/23 → 17/37/23; recrutando 50 → 51; registro mais recente 2026-11-25.",
    "fato": "2026-11-25"
@@ -2505,6 +2525,11 @@ const REVISAO_PENDENTE = {
  "selenio": [
   {
    "data": "2026-11-25",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (982 → 988 no último ano). Reveja riscos."
+  },
+  {
+   "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 351 → 352; fase 1/2/3 23/54/58 → 23/54/58; recrutando 17 → 17; registro mais recente 2026-11-25.",
    "fato": "2026-11-25"
@@ -2548,6 +2573,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "ferro": [
+  {
+   "data": "2026-11-25",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3977 → 3986 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -2970,6 +3000,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "cobre": [
+  {
+   "data": "2026-11-25",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2256 → 2263 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -3694,6 +3729,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "lerodalcibep": [
+  {
+   "data": "2026-11-25",
+   "tipo": "aprovacao",
+   "texto": "Situação na EMA mudou: retirado → autorizado."
+  },
   {
    "data": "2026-11-16",
    "tipo": "fase",
@@ -6023,6 +6063,11 @@ const REVISAO_PENDENTE = {
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4246 → 4257 no último ano). Reveja riscos."
+  },
+  {
+   "data": "2026-11-25",
+   "tipo": "seguranca",
    "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
   },
   {
@@ -8255,6 +8300,11 @@ const REVISAO_PENDENTE = {
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (5785 → 5796 no último ano). Reveja riscos."
+  },
+  {
+   "data": "2026-11-25",
+   "tipo": "seguranca",
    "texto": "3 novo(s) recall(s) na FDA (janela de 3 anos)."
   },
   {
@@ -9083,6 +9133,289 @@ const REVISAO_PENDENTE = {
    "data": "2026-11-25",
    "tipo": "aprovacao",
    "texto": "Situação ou registros na Anvisa mudaram: autorizado → autorizado."
+  }
+ ],
+ "nomlabofusp": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "insulin-efsitora": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "rezpegaldesleukin": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "3 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "elritercept": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "3 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "timdarpacept": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "2 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "empegfilgrastim": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "peginterferon-alfacon-2": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "albipagrastim": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "amulirafusp": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "efimosfermin": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "4 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "efsubaglutide": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "2 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "tabirafusp": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "4 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "tabirafusp-tedromer": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "2 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "bone-morphogenetic-protein-2": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "3 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "atacicept": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "iboctadekin": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "cetermin": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "insulin-tregopil": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "binetrakin": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "10 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "insulin-extended": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "64 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "insulin-prompt": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "interferon": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "interferon-n1": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "3 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "telbermin": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "2 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "balugrastim": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "2 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "epoetin-omega": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "ancestim": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "tozuleristide": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "evorpacept": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "simlukafusp": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "inbakicept": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "3 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  },
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "tividenofusp": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "2 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  },
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "trenibotulinumtoxine": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "mecapegfilgrastim": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "12 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "nemvaleukin": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "povetacicept": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "4 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "ficerafusp": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "defibrotide": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
+  }
+ ],
+ "bevemipretide": [
+  {
+   "data": "2026-11-25",
+   "tipo": "fase",
+   "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
   }
  ]
 };

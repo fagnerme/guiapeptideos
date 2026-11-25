@@ -2,6 +2,83 @@
 const HISTORICO_AUTO = [
  {
   "data": "2026-11-25",
+  "slug": "insulina",
+  "nome": "Insulina",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4809 → 4816 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "glutationa",
+  "nome": "Glutationa",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3719 → 3724 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "testosterona",
+  "nome": "Testosterona",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1179 → 1184 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "creatina",
+  "nome": "Creatina",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "selenio",
+  "nome": "Selênio",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (982 → 988 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "ferro",
+  "nome": "Ferro",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3977 → 3986 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "calcio",
+  "nome": "Cálcio",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4246 → 4257 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "cobre",
+  "nome": "Cobre",
+  "tipo": "conteudo",
+  "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "cobre",
+  "nome": "Cobre",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2256 → 2263 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "lerodalcibep",
+  "nome": "Lerodalcibep",
+  "tipo": "aprovacao",
+  "texto": "Situação na EMA mudou: retirado → autorizado."
+ },
+ {
+  "data": "2026-11-25",
+  "slug": "sodio",
+  "nome": "Sódio",
+  "tipo": "seguranca",
+  "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (5785 → 5796 no último ano). Reveja riscos."
+ },
+ {
+  "data": "2026-11-25",
   "slug": "semaglutida",
   "nome": "Semaglutida",
   "tipo": "estudos",
@@ -2252,93 +2329,5 @@ const HISTORICO_AUTO = [
   "tipo": "estudos",
   "texto": "Dados do ClinicalTrials.gov mudaram: estudos 8264 → 8269; fase 1/2/3 787/990/935 → 787/990/935; recrutando 521 → 523; registro mais recente 2026-11-23.",
   "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "retatrutida",
-  "nome": "Retatrutida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 33 → 33; fase 1/2/3 14/4/14 → 14/4/14; recrutando 2 → 2; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "cagrilintida",
-  "nome": "Cagrilintida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 45 → 45; fase 1/2/3 17/5/23 → 17/5/23; recrutando 11 → 11; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "pramlintida",
-  "nome": "Pramlintida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 65 → 65; fase 1/2/3 8/19/8 → 8/19/8; recrutando 1 → 3; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "folistatina-344",
-  "nome": "Folistatina-344",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 16 → 17; fase 1/2/3 4/2/1 → 4/2/1; recrutando 2 → 2; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "gonadorelina-gnrh",
-  "nome": "Gonadorelina (GnRH)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1164 → 1164; fase 1/2/3 103/408/300 → 103/408/300; recrutando 114 → 114; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "leuprorrelina",
-  "nome": "Leuprorrelina",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 520 → 520; fase 1/2/3 44/212/124 → 44/212/124; recrutando 55 → 55; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "octreotida",
-  "nome": "Octreotida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 328 → 329; fase 1/2/3 49/111/74 → 49/111/74; recrutando 28 → 29; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
- },
- {
-  "data": "2026-11-23",
-  "slug": "ll-37",
-  "nome": "LL-37",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 20 → 21; fase 1/2/3 3/5/1 → 3/5/1; recrutando 2 → 2; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "larazotida",
-  "nome": "Larazotida",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 30 → 30; fase 1/2/3 6/13/10 → 6/13/10; recrutando 1 → 1; registro mais recente 2026-11-20.",
-  "fato": "2026-11-20"
- },
- {
-  "data": "2026-11-23",
-  "slug": "angiotensina-1-7",
-  "nome": "Angiotensina-(1-7)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 80 → 81; fase 1/2/3 17/32/8 → 17/32/8; recrutando 13 → 13; registro mais recente 2026-11-23.",
-  "fato": "2026-11-23"
- },
- {
-  "data": "2026-11-23",
-  "slug": "elamipretida-ss-31",
-  "nome": "Elamipretida (SS-31)",
-  "tipo": "estudos",
-  "texto": "Dados do ClinicalTrials.gov mudaram: estudos 22 → 22; fase 1/2/3 6/15/4 → 6/15/4; recrutando 2 → 2; registro mais recente 2026-11-19.",
-  "fato": "2026-11-19"
  }
 ];
