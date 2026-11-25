@@ -158,6 +158,8 @@ function explorar(p) {
 montarLayout();
 const alvo = document.getElementById("conteudo");
 const p = porSlug(window.PEP_SLUG || new URLSearchParams(location.search).get("p") || "");
+/* Item com ficha estática aberto pelo endereço dinâmico: segue para a página indexável. */
+if (p && !window.PEP_SLUG && temFichaEstatica(p)) location.replace("fichas/" + slug(p.nome) + ".html" + location.hash);
 
 /* As notas automáticas coladas no texto ([Atualização automática ...]) aparecem no bloco "Novidades nas fontes"; no texto corrido elas só atrapalham a leitura. */
 const semNotasAuto = t => String(t).replace(/\s*\[Atualização automática[^\]]*\]/g, "").replace(/\.(\s*\.)+/g, ".").trim();

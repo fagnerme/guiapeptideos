@@ -10,9 +10,16 @@ const silhuetaBase = () => {
   return `<g class="corpo-borda">${metade}<ellipse cx="100" cy="30" rx="20" ry="24"/></g><g class="corpo-miolo">${metade}<ellipse cx="100" cy="30" rx="20" ry="24"/></g>`;
 };
 const slug = nome => semAcento(nome.toLowerCase()).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-const porSlug = s => PEPTIDES.find(p => slug(p.nome) === s);
+let _mapaSlug, _mapaN = -1;
+const porSlug = s => {
+  if (_mapaN !== PEPTIDES.length) { _mapaSlug = new Map(); PEPTIDES.forEach(p => { const k = slug(p.nome); if (!_mapaSlug.has(k)) _mapaSlug.set(k, p); }); _mapaN = PEPTIDES.length; }
+  return _mapaSlug.get(s);
+};
 const faseClasse = f => "fase-" + semAcento(f.toLowerCase()).replace(/[^a-z0-9]+/g, "");
-const urlPeptideo = nome => "peptideo.html?p=" + slug(nome);
+/* Ficha estática (indexável): todo item do catálogo e os medicamentos com 5+ nomes comerciais. Os demais abrem em peptideo.html?p=. A mesma regra está em tools/gerar_fichas.py. */
+const MIN_MARCAS_FICHA = 5;
+const temFichaEstatica = p => !p._med || ((p._med === "farmaco" || p._med === "biologico") && p.fase !== "Descontinuado" && marcasDe(p).length >= MIN_MARCAS_FICHA);
+const urlPeptideo = nome => { const s = slug(nome), p = porSlug(s); return p && temFichaEstatica(p) ? "fichas/" + s + ".html" : "peptideo.html?p=" + s; };
 
 /* Medicamentos (dados/medicamentos.js, quando a página o carrega) entram no mesmo catálogo, com busca, filtros e ficha iguais. */
 (function integrarMedicamentos() {

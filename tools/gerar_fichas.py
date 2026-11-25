@@ -10,7 +10,14 @@ CACHE = raiz / "tools" / "_pep.json"
 NOME_SITE = "Guia de Peptídeos, Hormônios, Suplementos e Medicamentos"
 SCRIPTS = ["dados/data.js", "dados/data-extra.js", "dados/data-timeline.js", "dados/data-mecanismos.js", "dados/data-alegacoes.js", "dados/data-mudancas.js",
            "dados/historico.js", "dados/aprovacoes.js", "dados/data-vias.js", "dados/data-alvos.js", "dados/data-farmaco.js", "dados/data-interacoes.js",
-           "dados/data-detalhes.js", "js/core.js"]
+           "dados/data-detalhes.js", "dados/medicamentos.js", "js/core.js"]
+MIN_MARCAS_FICHA = 5  # mesma regra de temFichaEstatica em js/core.js
+
+def tem_ficha_estatica(p):
+    """Itens do catálogo sempre; medicamentos só com 5+ nomes comerciais (o resto abre em peptideo.html?p=)."""
+    if not p.get("_med"):
+        return True
+    return p["_med"] in ("farmaco", "biologico") and p.get("fase") != "Descontinuado" and len(p.get("_marcas") or []) >= MIN_MARCAS_FICHA
 
 def slug(nome):
     s = unicodedata.normalize("NFD", nome.lower())
@@ -31,7 +38,7 @@ def despejar():
     tags = "".join(f'<script src="{s}"></script>' for s in SCRIPTS)
     pagina = raiz / "_dump.html"
     pagina.write_text('<!DOCTYPE html><html><head><meta charset="UTF-8"></head><body><pre id="o"></pre>' + tags +
-                      '<script>document.getElementById("o").textContent="@@"+JSON.stringify({P:PEPTIDES,M:MECANISMOS,T:TERMO_EN})+"@@"</script></body></html>', encoding="utf-8")
+                      '<script>document.getElementById("o").textContent="@@"+JSON.stringify({P:PEPTIDES.map(p=>Object.assign({},p,{_marcas:marcasDe(p)})),M:MECANISMOS,T:TERMO_EN})+"@@"</script></body></html>', encoding="utf-8")
     try:
         with tempfile.TemporaryDirectory() as perfil:
             r = subprocess.run([edge, "--headless=new", "--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage", f"--user-data-dir={perfil}", "--virtual-time-budget=8000",
@@ -197,12 +204,17 @@ def gerar(site):
     (raiz / "fichas").mkdir(exist_ok=True)
     for f in (raiz / "fichas").glob("*.html"):
         f.unlink()
-    ordenados = sorted(itens, key=lambda p: p["nome"].lower())
+    ordenados, vistos_slug = [], set()
+    for p in sorted(itens, key=lambda p: p["nome"].lower()):
+        if tem_ficha_estatica(p) and slug(p["nome"]) not in vistos_slug:
+            vistos_slug.add(slug(p["nome"]))
+            ordenados.append(p)
     for i, p in enumerate(ordenados):
         s = slug(p["nome"])
         termo_busca = termos_en.get(p["nome"]) or p["nome"]
         url = f"{site}/fichas/{s}.html"
-        desc = f'{p["nome"]}: {p.get("oQueFaz", "")} Fase: {p.get("fase", "")}. Conteúdo educativo.'.strip()
+        marcas = p.get("_marcas") or []
+        desc = f'{p["nome"]}: {p.get("oQueFaz", "")} Fase: {p.get("fase", "")}.{" Nomes comerciais: " + ", ".join(marcas[:6]) + "." if marcas else ""} Conteúdo educativo.'.strip()
         titulo = f'{p["nome"]} — o que é, evidências e riscos | {NOME_SITE}'
         card = f"{site}/cards/{s}.png" if (raiz / "cards" / f"{s}.png").exists() else f"{site}/icons/og-logo.png"
         ld = [
@@ -233,7 +245,9 @@ def gerar(site):
         estatico = (f'<div id="conteudo"><nav class="migalhas"><a href="index.html">Catálogo</a> › {e(p.get("categoria"))} › {e(p["nome"])}</nav>'
                     f'<article class="pagina-pep"><h1 class="titulo-pep">{e(p["nome"])}</h1>'
                     f'<p><span class="tag">{e(p.get("categoria"))}</span> <span class="tag">{e(p.get("fase"))}</span></p>'
-                    f'<p><b>Status do catálogo:</b> {e(p.get("status"))}</p>{html_status_auto(atualizado, termo_busca)}{corpo}'
+                    f'<p><b>Status do catálogo:</b> {e(p.get("status"))}</p>'
+                    + (f'<p><b>Nomes comerciais:</b> {e(", ".join(marcas))}</p>' if marcas else "")
+                    + f'{html_status_auto(atualizado, termo_busca)}{corpo}'
                     f'<section class="boas"><h2>Fontes</h2><ul>{fontes}</ul></section>'
                     f'<p><small>Conteúdo educativo, não é orientação médica. Veja a <a href="sobre.html">metodologia e a política editorial</a>.</small></p>'
                     f'</article><p class="prox-ant">{nav}</p></div>')
