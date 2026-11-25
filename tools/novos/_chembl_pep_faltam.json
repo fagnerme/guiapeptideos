@@ -1,0 +1,397 @@
+[
+ {
+  "nome": "ULIMORELIN",
+  "chembl": "CHEMBL1963249",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "TZP-101 FREE BASE",
+   "Ulimorelin",
+   "Ulimorelin",
+   "Ulimorelin",
+   "Ulimorelin",
+   "Ulimorelina"
+  ]
+ },
+ {
+  "nome": "OROTIRELIN",
+  "chembl": "CHEMBL2105278",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Cg-3509",
+   "Cg3509",
+   "Orotirelin",
+   "Orotirelina",
+   "Orotireline"
+  ]
+ },
+ {
+  "nome": "RELAMORELIN",
+  "chembl": "CHEMBL4297525",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "BIM-28131",
+   "BIM28131",
+   "Relamorelin",
+   "Relamorelin",
+   "Relamorelin",
+   "Relamorelina"
+  ]
+ },
+ {
+  "nome": "ROVATIRELIN",
+  "chembl": "CHEMBL4297622",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Kps-0373",
+   "KPS-0373",
+   "Rovatirelin",
+   "Rovatirelin",
+   "Rovatirelina",
+   "Rovatireline"
+  ]
+ },
+ {
+  "nome": "DANEGAPTIDE",
+  "chembl": "CHEMBL560592",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Danegaptida",
+   "Danegaptide",
+   "Danegaptide",
+   "Danegaptide",
+   "GAP-134",
+   "ZP-1609"
+  ]
+ },
+ {
+  "nome": "CAPROMAB PENDETIDE",
+  "chembl": "CHEMBL1201579",
+  "fase": "4.0",
+  "aprov": 1996,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Capromab pendetide",
+   "Capromab pendetide",
+   "CYT-356",
+   "Oncoscint prostate",
+   "Prostascint"
+  ]
+ },
+ {
+  "nome": "MURAMYL DIPEPTIDE",
+  "chembl": "CHEMBL1779325",
+  "fase": "1.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Acetylmuramyl-alanyl-isoglutamine",
+   "Mdp (adjuvant)",
+   "Muramyl dipeptide",
+   "Muramyl dipeptide",
+   "N-acetylmuramyl dipeptide"
+  ]
+ },
+ {
+  "nome": "MURABUTIDE",
+  "chembl": "CHEMBL1908312",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Murabutida",
+   "Murabutide"
+  ]
+ },
+ {
+  "nome": "ROMURTIDE",
+  "chembl": "CHEMBL1908331",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nopia",
+   "Romurtida",
+   "Romurtide"
+  ]
+ },
+ {
+  "nome": "NOSIHEPTIDE",
+  "chembl": "CHEMBL2103750",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Nosiheptida",
+   "Nosiheptide",
+   "Nosiheptide",
+   "Nosiheptide",
+   "NSC-307240",
+   "RP 9671"
+  ]
+ },
+ {
+  "nome": "DIAMFENETIDE",
+  "chembl": "CHEMBL2104259",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "COMPOUND 68-198",
+   "COMPOUND-68-198",
+   "Diamfenetida",
+   "Diamfenetide",
+   "NSC-291838"
+  ]
+ },
+ {
+  "nome": "ILATREOTIDE",
+  "chembl": "CHEMBL2104390",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Ilatreotida",
+   "Ilatreotide",
+   "SDZ CO 611",
+   "SDZ-CO-611"
+  ]
+ },
+ {
+  "nome": "GLISENTIDE",
+  "chembl": "CHEMBL2105089",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Glisentida",
+   "Glisentide",
+   "Staticum",
+   "SU-661",
+   "SU661",
+   "UR-661"
+  ]
+ },
+ {
+  "nome": "DICLOMETIDE",
+  "chembl": "CHEMBL2106106",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Diclometida",
+   "Diclometide"
+  ]
+ },
+ {
+  "nome": "MIFAMURTIDE",
+  "chembl": "CHEMBL2107354",
+  "fase": "4.0",
+  "aprov": 2009,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "L-MTP-PE",
+   "Mepact",
+   "Mifamurtida",
+   "Mifamurtide",
+   "Mifamurtide",
+   "Mifamurtide"
+  ]
+ },
+ {
+  "nome": "DEFIBROTIDE",
+  "chembl": "CHEMBL2108396",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bos taurus lung defibrotide",
+   "Defibrotida",
+   "Defibrotide",
+   "Defibrotide",
+   "Defibrotide",
+   "Defibrotide"
+  ]
+ },
+ {
+  "nome": "PENDETIDE",
+  "chembl": "CHEMBL2108754",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Gyk-dtpa",
+   "Pendetida",
+   "Pendetide",
+   "Pendetide"
+  ]
+ },
+ {
+  "nome": "GOZETOTIDE",
+  "chembl": "CHEMBL3578202",
+  "fase": "4.0",
+  "aprov": 2020,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Gozetotide",
+   "Psma-11",
+   "Psma-hbed-cc"
+  ]
+ },
+ {
+  "nome": "PIMELAUTIDE",
+  "chembl": "CHEMBL3989437",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Pimelautida",
+   "Pimelautide"
+  ]
+ },
+ {
+  "nome": "TEMURTIDE",
+  "chembl": "CHEMBL3989635",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "RS-37449",
+   "Temurtida",
+   "Temurtide",
+   "Temurtide",
+   "Temurtide"
+  ]
+ },
+ {
+  "nome": "TABILAUTIDE",
+  "chembl": "CHEMBL3989637",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Tabilautida",
+   "Tabilautide"
+  ]
+ },
+ {
+  "nome": "ALMURTIDE",
+  "chembl": "CHEMBL3989787",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Almurtida",
+   "Almurtide",
+   "CGP-11637",
+   "Desmethylmuramoyldipeptide",
+   "Nor-mdp",
+   "NORMDP"
+  ]
+ },
+ {
+  "nome": "ETARFOLATIDE",
+  "chembl": "CHEMBL4297280",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "EC-20",
+   "Etarfolatide"
+  ]
+ },
+ {
+  "nome": "DAZDOTUFTIDE",
+  "chembl": "CHEMBL5095261",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Dazdotuftida",
+   "Dazdotuftide",
+   "Dazdotuftide",
+   "Dazdotuftide",
+   "TRS-01",
+   "TRS01"
+  ]
+ },
+ {
+  "nome": "BEVEMIPRETIDE",
+  "chembl": "CHEMBL5314506",
+  "fase": "2.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bevemipretida",
+   "Bevemipretide",
+   "Bevemipretide",
+   "SBT-272"
+  ]
+ },
+ {
+  "nome": "UROFOLLITROPIN",
+  "chembl": "CHEMBL1201520",
+  "fase": "4.0",
+  "aprov": 1986,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Bravelle",
+   "Fertinex",
+   "Fertinorm",
+   "Follitropin human",
+   "Fostimon",
+   "Gonadotraphon fsh"
+  ]
+ },
+ {
+  "nome": "ALBUSOMATROPIN",
+  "chembl": "CHEMBL4298125",
+  "fase": "3.0",
+  "aprov": null,
+  "seq": "",
+  "tam": 0,
+  "sinonimos": [
+   "Albusomatropin",
+   "Albusomatropin",
+   "Albusomatropina",
+   "Albusomatropine",
+   "Albutropin",
+   "Somatropin-albumin fusion protein"
+  ]
+ }
+]

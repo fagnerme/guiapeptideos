@@ -93,18 +93,21 @@ def ficha(x, mol, moas, inds, bio=False):
 
 
 EXC_BIO = re.compile(r"(theophylline|aminophylline|dactinomycin|trolamine|chromated|romidepsin|carfilzomib)", re.I)
+EXC_PEP2 = re.compile(r"(diamfenetide|glisentide|diclometide|capromab|pendetide|nosiheptide)", re.I)
 
 
 def main():
     bio = "--biologicos" in sys.argv
+    pep2 = "--peptideos" in sys.argv
     fmin = int(sys.argv[sys.argv.index("--fase-min") + 1]) if "--fase-min" in sys.argv else 1
-    lista = json.loads((NOVOS / ("_chembl_faltam.json" if bio else "_chembl_pep.json")).read_text("utf-8"))
-    exc = EXC_BIO if bio else EXC
+    arq = "_chembl_pep_faltam.json" if pep2 else "_chembl_faltam.json" if bio else "_chembl_pep.json"
+    lista = json.loads((NOVOS / arq).read_text("utf-8"))
+    exc = EXC_PEP2 if pep2 else EXC_BIO if bio else EXC
     lista = [x for x in lista if int(float(x["fase"])) >= fmin and not exc.search(x["nome"])]
     print("itens:", len(lista))
     with ThreadPoolExecutor(6) as ex:
         res = list(ex.map(uma, lista))
-    pref = "novos_bio_" if bio else "novos_auto_"
+    pref = "novos_pep2_" if pep2 else "novos_bio_" if bio else "novos_auto_"
     for f in NOVOS.glob(pref + "*.py"):
         f.unlink()
     fichas = [ficha(*r, bio=bio) for r in res]

@@ -1283,3 +1283,7 @@ footer .direitos-autorais{max-width:46rem;margin:.4rem auto 0;font-size:.8rem;li
 .logo-marca+h1{margin-top:.6rem}
 @media (max-width:759px){.logo-marca{width:60px;height:60px;border-radius:17px;margin-top:.5rem}}
 @media (prefers-reduced-motion:reduce){.logo-marca{transition:none}}
+
+.bula-via{margin:.8rem 0;padding-top:.5rem;border-top:1px dashed var(--borda,#cfd8dc)}.bula-via h3{margin:.2rem 0 .4rem;font-size:1rem}.origem-evidencia ul{margin:.3rem 0;padding-left:1.1rem}.origem-evidencia li{margin:.25rem 0}
+
+.bula-humanos h4,.bula-animais h4{margin:.5rem 0 .2rem;font-size:.92rem}.bula-animais{margin:.6rem 0;padding:.5rem .7rem;border-left:4px solid #c98a1b;background:rgba(201,138,27,.09);border-radius:6px}

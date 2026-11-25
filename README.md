@@ -3,12 +3,12 @@
 Site estático (HTML, CSS e JavaScript, sem framework) publicado no GitHub Pages: <https://fagnerme.github.io/guiapeptideos>.
 Conteúdo exclusivamente educativo: não é recomendação médica nem sugere doses.
 
-© 2026 Fagner Felipe Creto Alves. Todos os direitos reservados. Copiar, redistribuir ou usar o conteúdo, o código, o logotipo, os dados ou a API em outros sites, aplicativos ou serviços exige autorização prévia do autor e pode envolver pagamento de licença. Dados de terceiros mantêm os termos das fontes originais.
+© 2026 Fagner Felipe Creto Alves. Projeto educativo e não comercial. Uso acadêmico permitido com citação do autor e da fonte; uso comercial do conteúdo, do código, do logotipo, dos dados ou da API exige autorização prévia do autor. Dados de terceiros mantêm os termos das fontes originais.
 
 ## Recursos
 - Catálogo com ~800 itens (peptídeos, hormônios, vitaminas, minerais, suplementos, medicamentos e biológicos), fichas, comparador e busca.
 - Espelho de órgãos reguladores, com coleta semanal automática e histórico em "Atualizações automáticas".
-- API alfa pública e somente leitura (uso mediante autorização do autor): [documentação](api/index.html), [catálogo JSON](api/v1/catalog.json), [OpenAPI](api/v1/openapi.json).
+- API alfa pública e somente leitura (uso educativo e acadêmico com citação; uso comercial mediante autorização do autor): [documentação](api/index.html), [catálogo JSON](api/v1/catalog.json), [OpenAPI](api/v1/openapi.json).
 - Calculadoras em abas (reconstituição, UI ↔ mg e matéria-prima; link direto com `calculadora.html#conv` ou `#raw`, e a página lembra a última aba usada) e **Meus protocolos** (calendário, estoque, meia-vida).
 - App instalável (PWA) com uso offline. Lembretes de aplicação: notificações com o app aberto e agenda `.ics`.
 - Dados do usuário ficam só no aparelho (`localStorage`).

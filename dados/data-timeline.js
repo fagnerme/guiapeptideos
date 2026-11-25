@@ -278,3 +278,9 @@ Object.assign(TIMELINE, {
   "Lonoctocog": [[2017, "Primeira aprovação registrada no ChEMBL"]],
   "Efanesoctocog": [[2023, "Primeira aprovação registrada no ChEMBL"]],
 });
+
+Object.assign(TIMELINE, {
+  "Mifamurtide": [[2009, "Primeira aprovação registrada no ChEMBL"]],
+  "Gozetotide": [[2020, "Primeira aprovação registrada no ChEMBL"]],
+  "Urofollitropin": [[1986, "Primeira aprovação registrada no ChEMBL"]],
+});

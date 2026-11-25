@@ -168,14 +168,73 @@ async function carregarEstudosDose(p) {
     if (!lista.length) return;
     const caixa = document.getElementById("estudos-dose");
     if (!caixa) return;
-    caixa.innerHTML = `<section class="boas estudos-dose"><h2>Como os estudos foram conduzidos</h2>
+    caixa.innerHTML = `<section class="boas estudos-dose"><h2>👤 Em humanos: como os estudos foram conduzidos</h2>
       <p class="aviso-dose"><b>Só para entender a pesquisa.</b> Estas são as doses e os tempos usados em estudos clínicos, com acompanhamento de equipe de saúde. Não são recomendação de uso nem orientação de dose para você: quem define isso é o profissional que prescreve.</p>
       ${lista.map(htmlEstudoDose).join("")}
       <p><small>Dados extraídos automaticamente do registro público ClinicalTrials.gov (estudos concluídos de maior porte). A leitura automática pode errar: confira sempre no registro de cada estudo.</small></p></section>`;
+    ORIGEM.estudos = lista.length;
+    atualizarOrigem(p);
     decorarBlocos();
     recolherBlocos();
     montarMenuFicha();
   } catch { /* sem dados de dose para este item */ }
+}
+const RE_ANIMAL = /(?<![\p{L}])(roedor|rato|ratazana|camundong|coelho|cães|cão|cachorro|macaco|primata|porco|suíno|animai|animal|in vitro|não clínic|pré-clínic|ex vivo|rodent|mice|mouse|rats?\b|rabbit|dogs?\b|monkey|nonclinical|animal)/iu;
+// separa o texto da bula em trechos de humanos e de animais/laboratório
+function dividirAnimais(txt) {
+  const unidades = /•/.test(txt) ? txt.split(/\s*•\s*/) : txt.split(/(?<=[.;])\s+/);
+  const humanos = [], animais = [];
+  unidades.map(u => u.trim()).filter(Boolean).forEach(u => (RE_ANIMAL.test(u) ? animais : humanos).push(u));
+  return { humanos, animais };
+}
+const ORIGEM = { vias: [], estudos: 0 };
+function atualizarOrigem(p) {
+  const el = document.getElementById("origem-evidencia");
+  if (!el) return;
+  const humanos = [];
+  if (ORIGEM.vias.length) humanos.push(`bula oficial (${ORIGEM.vias.join(", ").toLowerCase()})`);
+  if (ORIGEM.estudos) humanos.push(`${ORIGEM.estudos} estudo${ORIGEM.estudos > 1 ? "s" : ""} clínico${ORIGEM.estudos > 1 ? "s" : ""} com esquema de dose`);
+  const pre = /pr[eé]-cl[ií]nico|in vitro/i.test(p.fase);
+  const linhas = [];
+  if (humanos.length) linhas.push(`<li><b>👤 Em humanos:</b> ${esc(humanos.join(" e "))}.</li>`);
+  else if (pre) linhas.push(`<li><b>👤 Em humanos:</b> não há bula nem estudo clínico concluído com dose registrado aqui.</li>`);
+  if (pre) linhas.push(`<li><b>🧪 Animais e laboratório:</b> ${esc(p.fase)}. O que se sabe vem de pesquisa pré-clínica e não vale como prova de efeito ou segurança em pessoas.</li>`);
+  el.innerHTML = linhas.length ? `<section class="boas origem-evidencia"><h2>De onde vêm as informações</h2><ul>${linhas.join("")}</ul>
+    <p><small>Dados de humanos (bulas e estudos clínicos) ficam separados dos de animais e de laboratório. As seções abaixo indicam a origem.</small></p></section>` : "";
+}
+async function carregarBula(p) {
+  const s = slug(p.nome);
+  try {
+    const idx = await getJson("dados/bulas/index.json");
+    if (!idx.includes(s)) return;
+    const d = await getJson(`dados/bulas/${s}.json`);
+    const caixa = document.getElementById("bula-oficial");
+    if (!caixa || !d.bulas) return;
+    const ROT = { caixa: "⚠️ Alerta de caixa preta", contraindicacoes: "Contraindicações", interacoes: "Interações com outros medicamentos" };
+    const grupos = d.bulas.map(b => {
+      const blocos = ["caixa", "contraindicacoes", "interacoes"].filter(k => b.secoes[k]).map(k => {
+        const x = b.secoes[k], txt = x.pt || x.en;
+        const { humanos, animais } = dividirAnimais(txt);
+        const lista = us => us.length > 1 || /•/.test(txt) ? `<ul>${us.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : `<p>${esc(us[0])}</p>`;
+        const corpo = (humanos.length ? `<div class="bula-humanos"><h4>👤 Em humanos</h4>${lista(humanos)}</div>` : "")
+          + (animais.length ? `<div class="bula-animais"><h4>🐭 Em animais e laboratório</h4>${lista(animais)}<p><small>Resultados de animais não valem como prova de efeito ou segurança em pessoas.</small></p></div>` : "");
+        return `<details${k === "caixa" ? " open" : ""}><summary>${ROT[k]}</summary>${corpo}${x.cortado ? "<p><small><i>Trecho inicial; a bula completa tem mais.</i></small></p>" : ""}${x.pt ? "" : "<p><small>Em inglês: tradução indisponível.</small></p>"}</details>`;
+      });
+      if (!blocos.length) return "";
+      return `<div class="bula-via"><h3>💉 Bula para uso ${esc(b.via.toLowerCase())}</h3>${blocos.join("")}
+        <p><small>Bula de ${esc(b.titulo)}${b.publicado ? `, publicada em ${esc(b.publicado)}` : ""}. <a href="https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=${esc(b.setid)}" target="_blank" rel="noopener">Ver a bula original</a>.</small></p></div>`;
+    }).filter(Boolean);
+    if (!grupos.length) return;
+    ORIGEM.vias = [...new Set(d.bulas.flatMap(b => b.via.split(" + ")))];
+    caixa.innerHTML = `<section class="boas bula-oficial"><h2>👤 Em humanos: o que diz a bula oficial</h2>
+      <p><small>A bula depende da via de administração (oral, subcutânea, intravenosa etc.): cada uma tem indicação, dose e cuidados próprios. Por isso as bulas abaixo estão separadas por via.</small></p>
+      ${grupos.join("")}
+      <p><small>Fonte: ${esc(d.fonte)}. Tradução automática do inglês, pode conter erros. Bulas dos EUA: as de outros países podem diferir. Não substitui a orientação de um profissional de saúde.</small></p></section>`;
+    atualizarOrigem(p);
+    decorarBlocos();
+    recolherBlocos();
+    montarMenuFicha();
+  } catch { /* sem bula para este item */ }
 }
 function htmlResumoRapido(p) {
   return `<section class="boas resumo-rapido"><h2>Resumo rápido</h2><dl>
@@ -290,6 +349,7 @@ if (!p) {
       ${p.revisaoIA ? `<p><small>🤖 Texto revisado automaticamente por IA em ${esc(dataBR(p.revisaoIA))}, sem revisão humana. Confira nas fontes antes de decidir qualquer coisa.</small></p>` : ""}
       ${htmlRevisaoHumana(p)}
       ${htmlResumoRapido(p)}
+      <div id="origem-evidencia"></div>
       <section class="boas"><h2>${tr("Situação nas fontes regulatórias")}</h2><p><b>Status regulatório:</b> ${esc(semNotasAuto(p.status))}</p>${htmlLocais(p, true)}</section>
       <p class="acoes"><button type="button" class="btn fav" data-slug="${slug(p.nome)}">${rotuloFav(slug(p.nome))}</button> <a class="btn" href="comparar.html?a=${slug(p.nome)}">⚖️ Comparar</a> <a class="btn btn-prim" href="meus-protocolos.html?add=${slug(p.nome)}">📒 Adicionar aos Meus protocolos</a> <a class="btn" href="calculadora.html?p=${slug(p.nome)}">🧮 Calculadora</a> <button type="button" class="btn" id="pdf">🖨️ Salvar em PDF / imprimir</button> <button type="button" class="btn" id="leitura" aria-pressed="false">🔎 Modo leitura</button> <button type="button" class="btn" id="compartilhar">🔗 Compartilhar</button></p>
       <section class="boas facil-box"><h2>Em palavras simples</h2><p>${esc(explicaFacil(p))}</p></section>
@@ -301,6 +361,7 @@ if (!p) {
       ${htmlAgeEm(p)}
       ${htmlVias(p)}
       <div id="estudos-dose"></div>
+      <div id="bula-oficial"></div>
       ${htmlInteracoes(p)}
       ${htmlFarmaco(p)}
       ${secao("Nível de evidência", p.evidencia, "tecnico", "evidencia")}
@@ -333,6 +394,8 @@ if (!p) {
   montarMenuFicha();
   carregarLive(alvo.querySelector(".live"));
   carregarEstudosDose(p);
+  carregarBula(p);
+  atualizarOrigem(p);
   carregarEstudos(alvo.querySelector(".estudos-box"));
   snapshot().then(snap => {
     alvo.querySelector(".alertas-box").innerHTML = htmlAlertas(p);
