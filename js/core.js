@@ -769,8 +769,8 @@ function sugestoesBusca() {
     const pts = PEPTIDES.map(p => ({ p, n: norm(p.nome) })).filter(x => ws.every(w => x.n.includes(w) || (so(w).length > 2 && so(x.n).includes(so(w)))));
     pts.sort((a, b) => (b.n.startsWith(ws[0]) ? 1 : 0) - (a.n.startsWith(ws[0]) ? 1 : 0) || a.n.length - b.n.length);
     const cats = !pts.length ? PEPTIDES.filter(p => ws.every(w => norm(p.categoria).includes(w))) : [];
-    const itens = pts.slice(0, 7).map(x => `<li role="option"><a href="fichas/${esc(slug(x.p.nome))}.html"><b>${esc(x.p.nome)}</b> <small>${esc(tr(x.p.categoria))} · ${esc(tr(x.p.fase))}</small></a></li>`);
-    if (cats.length) itens.push(...cats.slice(0, 7).map(p => `<li role="option"><a href="fichas/${esc(slug(p.nome))}.html"><b>${esc(p.nome)}</b> <small>${esc(tr(p.categoria))} · ${esc(tr(p.fase))}</small></a></li>`));
+    const itens = pts.slice(0, 7).map(x => `<li role="option"><a href="${esc(urlPeptideo(x.p.nome))}"><b>${esc(x.p.nome)}</b> <small>${esc(tr(x.p.categoria))} · ${esc(tr(x.p.fase))}</small></a></li>`);
+    if (cats.length) itens.push(...cats.slice(0, 7).map(p => `<li role="option"><a href="${esc(urlPeptideo(p.nome))}"><b>${esc(p.nome)}</b> <small>${esc(tr(p.categoria))} · ${esc(tr(p.fase))}</small></a></li>`));
     itens.push(`<li role="option" class="sug-todos"><a href="buscar.html?q=${encodeURIComponent(inp.value.trim())}">🔎 ${esc(tr("Ver todos os resultados no guia"))}${pts.length > 7 ? ` (${pts.length}+)` : ""}</a></li>`);
     lista.innerHTML = itens.join("");
     lista.hidden = false;

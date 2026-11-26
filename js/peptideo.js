@@ -136,7 +136,7 @@ function abrirBloco(sec) {
 }
 function htmlCitar(p) {
   const raiz = (document.querySelector('meta[name="site-root"]')?.content || location.origin).replace(/\/$/, "");
-  const url = `${raiz}/fichas/${slug(p.nome)}.html`;
+  const url = `${raiz}/${urlPeptideo(p.nome)}`;
   const cit = `GUIA DE PEPTÍDEOS, HORMÔNIOS E SUPLEMENTOS. ${p.nome}. Conteúdo atualizado em ${dataBR(DATA_REVISAO)}. Disponível em: ${url}. Acesso em: ${new Date().toLocaleDateString(LOCALE)}.`;
   return `<section class="boas citar"><h2>Como citar esta ficha</h2><p><small>${esc(cit)}</small></p><p><small>Este guia é um resumo educativo: em trabalhos acadêmicos, cite também as fontes primárias listadas acima.</small></p></section>`;
 }
@@ -364,7 +364,7 @@ if (!p) {
   document.title = `${p.nome} — o que é, evidências e riscos | Guia de Peptídeos, Hormônios, Suplementos e Medicamentos`;
   document.querySelector('meta[name="description"]').content = desc;
   const faq = faqDe(p);
-  seoAtualizar("fichas/" + slug(p.nome) + ".html", [
+  seoAtualizar(urlPeptideo(p.nome), [
     { "@type": "MedicalWebPage", name: p.nome, description: desc, inLanguage: "pt-BR", isPartOf: { "@type": "WebSite", name: "Guia de Pept\u00eddeos, Horm\u00f4nios e Suplementos" }, about: { "@type": "Drug", name: p.nome } },
     { "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
     { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "In\u00edcio", item: (document.querySelector('meta[name="site-root"]')?.content || location.origin) + "/index.html" }, { "@type": "ListItem", position: 2, name: p.nome }] }
@@ -454,7 +454,7 @@ if (!p) {
     montarMenuFicha();
   });
   document.getElementById("compartilhar").addEventListener("click", async e => {
-    const url = new URL("fichas/" + slug(p.nome) + ".html", document.baseURI).href;
+    const url = new URL(urlPeptideo(p.nome), document.baseURI).href;
     if (navigator.share) { try { await navigator.share({ title: p.nome + " — Guia de Peptídeos, Hormônios, Suplementos e Medicamentos", url }); return; } catch { return; } }
     try { await navigator.clipboard.writeText(url); e.currentTarget.textContent = "✅ Link copiado"; } catch { prompt("Copie o link:", url); }
   });
