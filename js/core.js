@@ -1091,9 +1091,27 @@ function iniciarTraducaoAutomatica(topo) {
   seletor.className = "nao-imprimir";
   const acoes = topo.querySelector(".topo-acoes");
   if (acoes) acoes.insertBefore(seletor, document.getElementById("tema")); else topo.appendChild(seletor);
+  /* Seletor nativo (abre o picker do sistema no celular) que comanda o combo escondido do Google. */
+  const IDIOMAS = [["", "🌐 Idioma"], ["pt", "Português"], ["en", "English"], ["es", "Español"], ["fr", "Français"], ["de", "Deutsch"], ["it", "Italiano"], ["nl", "Nederlands"], ["pl", "Polski"], ["ru", "Русский"], ["uk", "Українська"], ["tr", "Türkçe"], ["ar", "العربية"], ["hi", "हिन्दी"], ["zh-CN", "中文"], ["ja", "日本語"], ["ko", "한국어"]];
+  const idSel = document.createElement("select");
+  idSel.id = "idioma-sel"; idSel.className = "nao-imprimir notranslate"; idSel.setAttribute("translate", "no"); idSel.setAttribute("aria-label", "Idioma / Language");
+  idSel.innerHTML = IDIOMAS.map(([c, n]) => `<option value="${c}">${n}</option>`).join("");
+  const atual = (document.cookie.match(/googtrans=\/[^/]*\/([^;]+)/) || [])[1];
+  if (atual && IDIOMAS.some(i => i[0] === atual)) idSel.value = atual;
+  idSel.addEventListener("change", () => {
+    const combo = document.querySelector(".goog-te-combo");
+    if (!combo) {
+      const d = location.hostname, v = idSel.value && idSel.value !== "pt" ? `/pt/${idSel.value}` : "";
+      document.cookie = `googtrans=${v}; path=/; max-age=${v ? 31536000 : 0}`; document.cookie = `googtrans=${v}; path=/; domain=${d}; max-age=${v ? 31536000 : 0}`;
+      location.reload(); return;
+    }
+    combo.value = idSel.value === "pt" ? "" : idSel.value;
+    combo.dispatchEvent(new Event("change"));
+  });
+  seletor.before(idSel);
   marcarNaoTraduzir();
   new MutationObserver(() => marcarNaoTraduzir()).observe(document.body, { childList: true, subtree: true });
-  window.googleTranslateElementInit = () => new google.translate.TranslateElement({ pageLanguage: "pt", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, "google_translate_element");
+  window.googleTranslateElementInit = () => new google.translate.TranslateElement({ pageLanguage: "pt", layout: google.translate.TranslateElement.InlineLayout.VERTICAL, autoDisplay: false }, "google_translate_element");
   const s = document.createElement("script");
   s.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
   s.async = true;

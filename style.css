@@ -1565,3 +1565,9 @@ header h1{font-size:clamp(1.3rem,2.4vw,1.75rem);max-width:none}
 .med-classe h4{position:sticky;top:0;z-index:1;margin:.9rem 0 .4rem;padding:.35rem .6rem;background:#eaf5f9;border-radius:8px;font-size:.95rem}
 .med-classe h4 small{opacity:.7}
 .corpo-aviso{margin:.4rem 0}
+
+/* Idioma: seletor nativo; o widget do Google fica escondido (seu menu estoura a tela no celular) */
+#google_translate_element{position:absolute!important;width:1px!important;height:1px!important;min-height:0!important;overflow:hidden!important;opacity:0;pointer-events:none}
+.topo-acoes #idioma-sel{min-height:40px;max-width:9.5rem;padding:.35rem .6rem;border-radius:999px;font:inherit;font-size:.85rem;border:1px solid rgba(11,127,165,.35);background:rgba(255,255,255,.85);color:inherit;cursor:pointer}
+.goog-te-banner-frame,.skiptranslate>iframe.goog-te-banner-frame{display:none!important}
+body{top:0!important}
