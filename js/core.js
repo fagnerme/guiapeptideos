@@ -704,14 +704,9 @@ const NAV_MAIS = [
   ["classes.html", "Comparar classes"],
   ["sinais.html", "Sinais de alerta"],
 ];
-/* Acessibilidade de leitura: tamanho da fonte (A-/A+) e modo leitura, guardados no navegador. */
-let _fonte = parseInt(localStorage.getItem("fonte") || "100", 10) || 100;
-let _leitura = localStorage.getItem("leitura") === "1";
-function aplicarLeitura() {
-  document.documentElement.style.fontSize = _fonte + "%";
-  document.documentElement.classList.toggle("leitura", _leitura);
-}
-aplicarLeitura();
+/* Tamanho da fonte e modo leitura são do navegador; limpa preferências antigas. */
+try { localStorage.removeItem("fonte"); localStorage.removeItem("leitura"); } catch { /* ignora */ }
+document.documentElement.classList.remove("leitura");
 
 /* Boas-vindas na primeira visita (3 passos, pode pular; reabre em "Como usar") */
 const ONB_PASSOS = [
@@ -861,12 +856,10 @@ function montarLayout(titulo) {
     topo.innerHTML = `<div class="topo-acoes"><button type="button" id="instalar-app" class="btn btn-pwa" title="Instalar no celular e usar offline">📲 Instalar app</button><button id="tema" type="button" aria-label="Alternar tema">🌓</button></div>
       <a href="index.html" class="logo-marca" aria-label="Guia de Peptídeos: início"><img src="icons/logo.svg" alt="" width="64" height="64" decoding="async"></a>
       <h1><a href="index.html" class="home">${esc(titulo || "Guia de Peptídeos, Hormônios, Suplementos e Medicamentos")}</a></h1>
-      <p class="aviso"><span class="aviso-1">⚠️ Conteúdo exclusivamente educativo.</span> <span class="aviso-2">Não é recomendação médica nem fornece doses de autoadministração.</span></p>
+      <p class="aviso"><span class="aviso-1">⚠️ Conteúdo exclusivamente educativo.</span> <span class="aviso-2">Não é indicação de uso, prescrição nem recomendação médica. Procure sempre um profissional de saúde.</span></p>
       <form class="busca-global" action="buscar.html" role="search"><input type="search" name="q" placeholder="Busque no guia" aria-label="Buscar em todo o guia" autocomplete="off"></form>
       <nav aria-label="Principal">${NAV_PRINCIPAL.map(([h, n]) => `<a href="${h}"${location.pathname.endsWith("/" + h) ? ' aria-current="page"' : ""}>${n}</a>`).join(" ")}
         <details class="nav-mais"><summary>Mais ▾</summary><div class="nav-grupos">${NAV_GRUPOS.map(([g, l]) => `<div><b>${g}</b>${l.map(([h, n]) => `<a href="${h}">${n}</a>`).join("")}</div>`).join("")}</div></details></nav>
-      <details class="ajustes"><summary>⚙️ Ajustes</summary><div class="ajustes-corpo">
-      <span class="leitura-ctrl"><button type="button" id="fonte-menos" aria-label="Diminuir fonte">A−</button><button type="button" id="fonte-mais" aria-label="Aumentar fonte">A+</button>      <button type="button" id="modo-leitura" aria-label="Modo leitura" aria-pressed="${_leitura}">📖</button></span></div></details>
       <dialog id="pwa-ajuda" aria-labelledby="pwa-titulo">
         <div class="pwa-dialog">
           <button type="button" class="pwa-fechar" aria-label="Fechar">×</button>
@@ -881,16 +874,8 @@ function montarLayout(titulo) {
           <button type="button" class="btn btn-prim pwa-fechar">Entendi</button>
         </div>
       </dialog>`;
-    const ajd = topo.querySelector(".ajustes"); const mq = matchMedia("(min-width:760px)"); const sincAj = () => { ajd.open = mq.matches; }; sincAj(); mq.addEventListener("change", sincAj);
     iniciarTraducaoAutomatica(document.getElementById("topo"));
     document.getElementById("tema").addEventListener("click", alternarTema);
-    const ajustar = d => { _fonte = Math.min(160, Math.max(80, _fonte + d)); localStorage.setItem("fonte", _fonte); aplicarLeitura(); };
-    document.getElementById("fonte-menos").addEventListener("click", () => ajustar(-10));
-    document.getElementById("fonte-mais").addEventListener("click", () => ajustar(10));
-    document.getElementById("modo-leitura").addEventListener("click", e => {
-      _leitura = !_leitura; localStorage.setItem("leitura", _leitura ? "1" : "0");
-      e.currentTarget.setAttribute("aria-pressed", _leitura); aplicarLeitura();
-    });
     ligarInstalacaoPwa();
     if (localStorage.getItem("notif_ativas_v1") === "1" && !document.getElementById("acomp-semanal")) {
       const s = document.createElement("script"); s.src = "js/notificacoes.js"; s.defer = true; document.head.appendChild(s);

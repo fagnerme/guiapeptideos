@@ -948,11 +948,11 @@ main p,main li{color:var(--fg)}
 small,.contagem,.card small{color:var(--sec)}
 
 /* Cabecalho mais enxuto e hierarquico */
-header{padding:1.25rem 1.25rem 1rem}
-header h1{margin:1.6rem auto .7rem;font-size:clamp(1.45rem,3.2vw,2.2rem)}
-header .aviso{padding:.5rem .9rem;font-size:.82rem;line-height:1.4}
-header nav>a,.nav-mais>summary{font-size:.95rem;min-height:38px;display:inline-flex;align-items:center}
-header nav>a{padding:.4rem .8rem}
+header{padding:.6rem 1rem .5rem}
+header h1{margin:.5rem auto .4rem;font-size:clamp(1.15rem,2.4vw,1.6rem)}
+header .aviso{padding:.3rem .7rem;font-size:.78rem;line-height:1.3;margin:.3rem auto}
+header nav>a,.nav-mais>summary{font-size:.9rem;min-height:32px;display:inline-flex;align-items:center}
+header nav>a{padding:.25rem .65rem}
 #tema,.leitura-ctrl button{min-height:38px;border-radius:var(--r-sm)}
 .leitura-ctrl{gap:.35rem;margin-top:.6rem}
 .busca-global input{min-height:44px;font-size:1rem;padding-left:.95rem}
@@ -1438,3 +1438,28 @@ main input[type=checkbox],main input[type=radio]{accent-color:var(--fx-b);width:
 .assoc-alerta{font-weight:600;color:#e5484d}
 .assoc-em{margin-top:.6rem}
 .tag-assoc{text-decoration:none}
+
+/* Cabeçalho ultra compacto */
+header{padding:.4rem .8rem .35rem}
+header .logo-marca{width:36px;height:36px;border-radius:10px;margin:0 auto;box-shadow:none}
+header h1{margin:.25rem auto .2rem;font-size:clamp(1rem,2vw,1.3rem)}
+header .aviso{margin:.15rem auto;padding:.15rem .5rem;font-size:.72rem}
+header .aviso .aviso-2{display:inline;font-weight:600}
+header .busca-global{margin:.3rem auto}
+body:not(.pagina-inicial) header .busca-global{margin:.3rem auto}
+body:not(.pagina-inicial) header .busca-global input{min-height:40px;font-size:1rem;padding:.4rem 1rem .4rem 3rem;background-position:1rem center}
+body:not(.pagina-inicial) header .busca-global button{min-height:40px;min-width:40px}
+header nav>a,header .nav-mais>summary{min-height:28px;padding:.15rem .55rem;font-size:.85rem}
+.topo-acoes .btn-pwa{min-height:30px;padding:.2rem .7rem;font-size:.82rem}
+@media (max-width:759px){header .logo-marca{width:32px;height:32px;margin-top:0}.topo-acoes{margin:0 0 .2rem}}
+/* Menu Mais na mesma linha dos links; painel ancorado no nav */
+header nav{position:relative}
+header .nav-mais{position:static;flex:0 0 auto;margin:0}
+header .nav-mais>summary{border-radius:999px}
+header p.aviso{margin:.3rem auto;padding:.3rem .7rem;font-size:.75rem;line-height:1.3;font-weight:600;text-align:center;border-left-width:4px;border-radius:8px;box-shadow:none;max-width:60rem}
+header p.aviso .aviso-1,header p.aviso .aviso-2{display:inline;font-size:inherit;font-weight:inherit}
+header p.aviso{display:block;width:fit-content;max-width:min(60rem,calc(100% - 1.5rem))}
+header h1{font-size:clamp(.95rem,1.6vw,1.1rem);margin:.15rem auto .1rem;line-height:1.25;letter-spacing:0}
+header .logo-marca{width:28px;height:28px;border-radius:8px}
+header{padding-top:.5rem}
+@media (max-width:759px){header h1{font-size:.95rem}header .logo-marca{width:26px;height:26px}}
