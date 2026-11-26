@@ -426,6 +426,11 @@ const REVISAO_PENDENTE = {
  ],
  "quercetina": [
   {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (902 → 911 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-23",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 135 → 135; fase 1/2/3 29/40/5 → 29/40/5; recrutando 16 → 16; registro mais recente 2026-11-23.",
@@ -604,6 +609,16 @@ const REVISAO_PENDENTE = {
   }
  ],
  "semaglutida": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "5 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1116 → 1122 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -815,6 +830,11 @@ const REVISAO_PENDENTE = {
  ],
  "tirzepatida": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "seguranca",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -947,6 +967,11 @@ const REVISAO_PENDENTE = {
  ],
  "liraglutida": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "4 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-23",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 522 → 522; fase 1/2/3 72/79/113 → 72/79/113; recrutando 26 → 26; registro mais recente 2026-11-20.",
@@ -964,6 +989,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "insulina": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4816 → 4836 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
@@ -1191,6 +1221,11 @@ const REVISAO_PENDENTE = {
  ],
  "glutationa": [
   {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3724 → 3749 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "seguranca",
    "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3719 → 3724 no último ano). Reveja riscos."
@@ -1266,6 +1301,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "testosterona": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1184 → 1191 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
@@ -1348,6 +1388,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "estradiol": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-10 → 2026-11-23). Reveja riscos e status.",
+   "fato": "2026-11-23"
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -1538,6 +1584,12 @@ const REVISAO_PENDENTE = {
  ],
  "levotiroxina-t4": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-12 → 2026-11-18). Reveja riscos e status.",
+   "fato": "2026-11-18"
+  },
+  {
    "data": "2026-11-25",
    "tipo": "conteudo",
    "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
@@ -1672,6 +1724,16 @@ const REVISAO_PENDENTE = {
   }
  ],
  "glucagon": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "4 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2296 → 2303 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -1928,6 +1990,11 @@ const REVISAO_PENDENTE = {
  ],
  "vitamina-b6-piridoxina": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 392 → 393; fase 1/2/3 23/64/75 → 23/64/75; recrutando 28 → 28; registro mais recente 2026-11-25.",
@@ -1968,6 +2035,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "folato-vitamina-b9": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (390 → 395 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -2051,6 +2123,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "vitamina-e-tocoferol": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (77 → 83 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -2272,6 +2349,16 @@ const REVISAO_PENDENTE = {
  ],
  "creatina": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (672 → 677 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "conteudo",
    "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
@@ -2436,6 +2523,12 @@ const REVISAO_PENDENTE = {
  ],
  "zinco": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-18 → 2026-11-23). Reveja riscos e status.",
+   "fato": "2026-11-23"
+  },
+  {
    "data": "2026-11-25",
    "tipo": "seguranca",
    "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
@@ -2574,6 +2667,11 @@ const REVISAO_PENDENTE = {
  ],
  "ferro": [
   {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3986 → 4009 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "seguranca",
    "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3977 → 3986 no último ano). Reveja riscos."
@@ -2644,6 +2742,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "tiamina-vitamina-b1": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-13 → 2026-11-23). Reveja riscos e status.",
+   "fato": "2026-11-23"
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -3000,6 +3104,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "cobre": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2263 → 2276 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
@@ -3429,6 +3538,11 @@ const REVISAO_PENDENTE = {
  ],
  "acido-hialuronico": [
   {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1088 → 1093 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "seguranca",
    "texto": "1 novo(s) recall(s) na FDA (janela de 3 anos)."
@@ -3544,6 +3658,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "gastrin": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",
@@ -3829,6 +3948,16 @@ const REVISAO_PENDENTE = {
  ],
  "glp-1": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "4 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2170 → 2179 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2211 → 2215; fase 1/2/3 315/395/313 → 315/396/313; recrutando 331 → 331; registro mais recente 2026-11-25.",
@@ -3992,6 +4121,16 @@ const REVISAO_PENDENTE = {
   }
  ],
  "glucagon-like-peptide-1": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "4 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2111 → 2117 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -4603,6 +4742,12 @@ const REVISAO_PENDENTE = {
  ],
  "prednisona": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-13 → 2026-11-20). Reveja riscos e status.",
+   "fato": "2026-11-20"
+  },
+  {
    "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 2517 → 2518; fase 1/2/3 398/1160/632 → 398/1160/632; recrutando 317 → 317; registro mais recente 2026-11-25.",
@@ -4983,6 +5128,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "serotonina-5-ht": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1052 → 1059 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -5507,6 +5657,12 @@ const REVISAO_PENDENTE = {
  ],
  "finasterida": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-10-14 → 2026-11-20). Reveja riscos e status.",
+   "fato": "2026-11-20"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -5555,6 +5711,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "espironolactona": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-16 → 2026-11-20). Reveja riscos e status.",
+   "fato": "2026-11-20"
+  },
   {
    "data": "2026-11-24",
    "tipo": "estudos",
@@ -5745,6 +5907,12 @@ const REVISAO_PENDENTE = {
   }
  ],
  "metformina": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-17 → 2026-11-18). Reveja riscos e status.",
+   "fato": "2026-11-18"
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -5962,6 +6130,11 @@ const REVISAO_PENDENTE = {
  ],
  "colina": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-24",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 383 → 383; fase 1/2/3 37/58/51 → 37/58/51; recrutando 36 → 36; registro mais recente 2026-11-24.",
@@ -6060,6 +6233,17 @@ const REVISAO_PENDENTE = {
   }
  ],
  "calcio": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-17 → 2026-11-20). Reveja riscos e status.",
+   "fato": "2026-11-20"
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (4257 → 4282 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
@@ -6168,6 +6352,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "potassio": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1632 → 1639 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -6371,6 +6560,11 @@ const REVISAO_PENDENTE = {
  ],
  "cromo": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 317 → 317; fase 1/2/3 8/20/29 → 8/20/29; recrutando 28 → 28; registro mais recente 2026-11-25.",
@@ -6410,6 +6604,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "boro": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-24",
    "tipo": "estudos",
@@ -6741,6 +6940,11 @@ const REVISAO_PENDENTE = {
  ],
  "cafeina": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 1253 → 1254; fase 1/2/3 161/73/70 → 161/73/70; recrutando 116 → 116; registro mais recente 2026-11-25.",
@@ -6814,6 +7018,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "probioticos": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1873 → 1881 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -6973,6 +7182,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "lactoferrina": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-23",
    "tipo": "estudos",
@@ -7814,6 +8028,11 @@ const REVISAO_PENDENTE = {
  ],
  "acido-oleico": [
   {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (237 → 242 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 165 → 166; fase 1/2/3 14/27/10 → 14/27/10; recrutando 10 → 10; registro mais recente 2026-11-25.",
@@ -7893,6 +8112,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "acido-lactico": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1106 → 1111 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -8013,6 +8237,11 @@ const REVISAO_PENDENTE = {
  ],
  "flavonoide": [
   {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (1665 → 1688 no último ano). Reveja riscos."
+  },
+  {
    "data": "2026-11-24",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 563 → 564; fase 1/2/3 78/139/50 → 78/139/50; recrutando 45 → 45; registro mais recente 2026-11-24.",
@@ -8121,6 +8350,11 @@ const REVISAO_PENDENTE = {
  ],
  "acido-linoleico": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-16",
    "tipo": "seguranca",
    "texto": "Situação ou registros na Health Canada mudaram: sem_registro → consulta_parcial."
@@ -8142,6 +8376,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "cisteina": [
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (778 → 784 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -8279,6 +8518,12 @@ const REVISAO_PENDENTE = {
  ],
  "bivalirudina": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-08-20 → 2026-11-23). Reveja riscos e status.",
+   "fato": "2026-11-23"
+  },
+  {
    "data": "2026-11-16",
    "tipo": "aprovacao",
    "texto": "Registro de aprovação no Drugs@FDA mudou."
@@ -8297,6 +8542,22 @@ const REVISAO_PENDENTE = {
   }
  ],
  "sodio": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "Bula da FDA atualizada (2026-11-16 → 2026-11-20). Reveja riscos e status.",
+   "fato": "2026-11-20"
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "A bula da FDA passou a ter alerta em caixa preta (boxed warning)."
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (5796 → 5824 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "seguranca",
@@ -8780,6 +9041,11 @@ const REVISAO_PENDENTE = {
  ],
  "bdnf": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "estudos",
    "texto": "Dados do ClinicalTrials.gov mudaram: estudos 304 → 304; fase 1/2/3 12/20/6 → 12/20/6; recrutando 39 → 38; registro mais recente 2026-11-25.",
@@ -8803,6 +9069,11 @@ const REVISAO_PENDENTE = {
   }
  ],
  "acarbose": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
   {
    "data": "2026-11-18",
    "tipo": "conteudo",
@@ -9034,6 +9305,16 @@ const REVISAO_PENDENTE = {
   }
  ],
  "acido-graxo": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (2528 → 2537 no último ano). Reveja riscos."
+  },
   {
    "data": "2026-11-25",
    "tipo": "estudos",
@@ -9284,6 +9565,11 @@ const REVISAO_PENDENTE = {
  ],
  "interferon": [
   {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "1 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
    "data": "2026-11-25",
    "tipo": "fase",
    "texto": "aprovação oficial detectada; o site já mostra 'Aprovado' automaticamente. Revise o texto do catálogo."
@@ -9416,6 +9702,25 @@ const REVISAO_PENDENTE = {
    "data": "2026-11-25",
    "tipo": "fase",
    "texto": "1 ensaio(s) de fase 3 encontrados, catálogo marca 'Fase 2'."
+  }
+ ],
+ "etanercept": [
+  {
+   "data": "2026-11-26",
+   "tipo": "aprovacao",
+   "texto": "Registro de aprovação no Drugs@FDA mudou."
+  }
+ ],
+ "albumin": [
+  {
+   "data": "2026-11-26",
+   "tipo": "conteudo",
+   "texto": "2 nova(s) revisão(ões) sistemática(s)/meta-análise(s) no PubMed. Reveja evidência e benefícios."
+  },
+  {
+   "data": "2026-11-26",
+   "tipo": "seguranca",
+   "texto": "Aumento de publicações sobre segurança/efeitos adversos no PubMed (3242 → 3268 no último ano). Reveja riscos."
   }
  ]
 };
