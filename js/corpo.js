@@ -36,9 +36,11 @@ const ATC_ORGAO = {
 const MEDS_ORGAO = {};
 if (typeof MEDICAMENTOS !== "undefined") MEDICAMENTOS.itens.forEach(i => {
   if (i.f || i.r || !i.a) return;
-  (ATC_ORGAO[i.a.slice(0, 3)] || []).forEach(o => (MEDS_ORGAO[o] = MEDS_ORGAO[o] || new Map()).set(slug(i.n), i.n));
+  (ATC_ORGAO[i.a.slice(0, 3)] || []).forEach(o => (MEDS_ORGAO[o] = MEDS_ORGAO[o] || new Map()).set(slug(i.n), [i.n, i.a.slice(0, 3)]));
 });
-const medsDe = (o, peps) => [...(MEDS_ORGAO[o] || new Map())].filter(([s]) => !peps.includes(s)).sort((a, b) => a[1].localeCompare(b[1], "pt"));const CORPO = silhuetaBase();
+const medsDe = (o, peps) => [...(MEDS_ORGAO[o] || new Map())].filter(([s]) => !peps.includes(s)).sort((a, b) => a[1][0].localeCompare(b[1][0], "pt"));
+let abaAtual = "guia";
+const medsHtml = meds => { const g = {}; meds.forEach(([s, [n, c]]) => (g[c] = g[c] || []).push([s, n])); return Object.entries(g).sort((a, b) => (MEDICAMENTOS.atc2[a[0]] || a[0]).localeCompare(MEDICAMENTOS.atc2[b[0]] || b[0], "pt")).map(([c, l]) => `<section class="med-classe"><h4>${esc(MEDICAMENTOS.atc2[c] || c)} <small>(<span class="med-n">${l.length}</span>)</small></h4><ul class="peps-alvo peps-grade">${l.map(([s, n]) => `<li data-s="${esc(semAcento(n.toLowerCase()))}" data-f="ap"><a href="peptideo.html?p=${s}">${esc(n)}</a></li>`).join("")}</ul></section>`).join(""); };const CORPO = silhuetaBase();
 const GRUPOS = [["🧠 Cabeça", ["cerebro", "hipofise"]], ["🫀 Tórax e abdômen", ["coracao", "figado", "estomago", "pancreas", "intestino", "rim"]], ["💪 Corpo todo", ["gordura", "musculo", "osso", "pele", "sangue", "reprodutor"]]];
 const contar = o => new Set(Object.values(ALVOS).filter(a => a.orgaos.includes(o)).flatMap(a => a.peps)).size;
 let sel = new URLSearchParams(location.search).get("o");
@@ -66,19 +68,32 @@ function mostrar(o, rolar) {
     ${al.length > 5 ? `<details class="corpo-alvos"><summary><b>${tr("Alvos que atuam aqui")}</b> (${al.length})</summary><p>${alvosHtml}</p></details>` : `<p><b>${tr("Alvos que atuam aqui:")}</b> ${alvosHtml}</p>`}
     <div class="corpo-filtro"><input type="search" id="corpo-q" placeholder="${esc(tr("Filtrar substâncias"))}" aria-label="${esc(tr("Filtrar substâncias"))}" autocomplete="off">
       <select id="corpo-fase" aria-label="${esc(tr("Situação"))}"><option value="">${tr("Todas")}</option><option value="ap">${tr("Aprovadas")}</option><option value="est">${tr("Em estudo")}</option></select></div>
-    <p class="corpo-cont" id="corpo-cont" aria-live="polite"></p>
-    <ul class="peps-alvo peps-grade" id="corpo-lista">${peps.map(s => `<li data-s="${esc(semAcento(nomeDe(s).toLowerCase()))}" data-f="${/aprovad/i.test((porSlug(s) || {}).fase || "") ? "ap" : "est"}">${linkPep(s)} ${rotuloFase(s)}</li>`).join("") || "<li>Nenhum</li>"}</ul>
-    ${meds.length ? `<details class="corpo-meds" id="corpo-meds"><summary><b>💊 ${tr("Medicamentos desta região")}</b> (<span id="corpo-meds-n">${meds.length}</span>)</summary><p><small>${tr("Agrupados pela classe terapêutica (ATC) da região, o que é uma aproximação e não indica uso. Leia a bula e fale com um profissional de saúde.")}</small></p><ul class="peps-alvo peps-grade" id="corpo-lista-med">${meds.map(([s, n]) => `<li data-s="${esc(semAcento(n.toLowerCase()))}" data-f="ap"><a href="peptideo.html?p=${s}">${esc(n)}</a></li>`).join("")}</ul></details>` : ""}
+    ${meds.length ? `<div class="corpo-abas" role="tablist"><button type="button" role="tab" class="corpo-aba" data-aba="guia">${tr("Substâncias do guia")} <b id="n-guia"></b></button><button type="button" role="tab" class="corpo-aba" data-aba="med">💊 ${tr("Medicamentos")} <b id="n-med"></b></button></div>` : ""}
+    <div id="aba-guia"><p class="corpo-cont" id="corpo-cont" aria-live="polite"></p>
+    <ul class="peps-alvo peps-grade" id="corpo-lista">${peps.map(s => `<li data-s="${esc(semAcento(nomeDe(s).toLowerCase()))}" data-f="${/aprovad/i.test((porSlug(s) || {}).fase || "") ? "ap" : "est"}">${linkPep(s)} ${rotuloFase(s)}</li>`).join("") || "<li>Nenhum</li>"}</ul></div>
+    ${meds.length ? `<div id="aba-med" hidden><p class="corpo-aviso"><small>${tr("Agrupados pela classe terapêutica (ATC) da região: é uma aproximação e não indica uso. Leia a bula e fale com um profissional de saúde.")}</small></p>${medsHtml(meds)}<p class="corpo-vazio" hidden>${tr("Nenhum medicamento encontrado.")}</p></div>` : ""}
     <p class="corpo-voltar"><a href="#corpo-svg" class="btn">↑ ${tr("Voltar ao mapa")}</a></p><p><small>${tr("Mapa simplificado: uma substância pode agir em vários órgãos, e a posição é apenas ilustrativa.")}</small></p>`;
   const q = document.getElementById("corpo-q"), fs = document.getElementById("corpo-fase"), cont = document.getElementById("corpo-cont");
   const filtrar = () => {
     const t = semAcento(q.value.trim().toLowerCase()); let n = 0;
     painel.querySelectorAll("#corpo-lista li[data-s]").forEach(li => { const ok = li.dataset.s.includes(t) && (!fs.value || li.dataset.f === fs.value); li.hidden = !ok; if (ok) n++; });
     cont.textContent = `${n} ${tr("de")} ${peps.length} ${tr("substâncias")}`;
-    const dm = document.getElementById("corpo-meds");
-    if (dm) { let k = 0; dm.querySelectorAll("li[data-s]").forEach(li => { const ok = li.dataset.s.includes(t) && (!fs.value || li.dataset.f === fs.value); li.hidden = !ok; if (ok) k++; }); document.getElementById("corpo-meds-n").textContent = k; if (t) dm.open = true; }
+    const am = document.getElementById("aba-med");
+    if (am) {
+      let k = 0;
+      am.querySelectorAll(".med-classe").forEach(sec => { let c = 0; sec.querySelectorAll("li[data-s]").forEach(li => { const ok = li.dataset.s.includes(t) && (!fs.value || li.dataset.f === fs.value); li.hidden = !ok; if (ok) c++; }); sec.hidden = !c; sec.querySelector(".med-n").textContent = c; k += c; });
+      am.querySelector(".corpo-vazio").hidden = k > 0;
+      document.getElementById("n-med").textContent = k; document.getElementById("n-guia").textContent = n;
+    }  };
+  const irAba = a => {
+    if (!meds.length) a = "guia";
+    abaAtual = a;
+    painel.querySelectorAll(".corpo-aba").forEach(b => { const on = b.dataset.aba === a; b.classList.toggle("ativa", on); b.setAttribute("aria-selected", on); });
+    document.getElementById("aba-guia").hidden = a !== "guia";
+    const am = document.getElementById("aba-med"); if (am) am.hidden = a !== "med";
   };
-  q.addEventListener("input", filtrar); fs.addEventListener("change", filtrar); filtrar();
+  painel.querySelectorAll(".corpo-aba").forEach(b => b.addEventListener("click", () => irAba(b.dataset.aba)));
+  q.addEventListener("input", filtrar); fs.addEventListener("change", filtrar); filtrar(); irAba(abaAtual);
   svg.classList.add("tem-sel");
   mostrarDica();
   history.replaceState(null, "", "?o=" + o);
