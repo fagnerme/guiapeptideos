@@ -1628,3 +1628,13 @@ body>.skiptranslate{display:none!important}
   :root:not([data-tema="claro"]) #corpo-svg .zona-org{filter:brightness(1.6) saturate(1.15)}
   :root:not([data-tema="claro"]) #corpo-svg.tem-sel .zona-org:not(.ativo){fill-opacity:.55}
 }
+
+/* Interacoes: campos de busca com sugestoes */
+.verif-linha{gap:.6rem}
+.combo{position:relative;flex:1 1 220px;min-width:0}
+.combo-in{width:100%;min-height:48px;font-size:1rem;padding:.55rem .9rem;border-radius:12px;box-sizing:border-box}
+.combo-lista{position:absolute;left:0;right:0;top:calc(100% + 4px);z-index:30;margin:0;padding:.25rem;list-style:none;max-height:min(50vh,22rem);overflow:auto;background:var(--card,#fff);color:var(--fg,#123);border:1px solid rgba(11,127,165,.35);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.combo-lista li{padding:.7rem .9rem;min-height:44px;box-sizing:border-box;border-radius:8px;cursor:pointer;display:flex;align-items:center}
+.combo-lista li:hover,.combo-lista li.ativa{background:rgba(11,127,165,.16)}
+.combo-lista li.combo-vazio{cursor:default;opacity:.7}
+@media(max-width:640px){.verif-linha{flex-direction:column;align-items:stretch}.verif-mais{align-self:center;line-height:1}.combo{flex:0 0 auto}}
