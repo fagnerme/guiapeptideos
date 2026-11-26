@@ -14,10 +14,16 @@ let escolhidos = ["a", "b", "c"].map(k => params.get(k) || "");
 const opcoes = PEPTIDES.slice().sort((a, b) => a.nome.localeCompare(b.nome, "pt"));
 
 function desenharSeletores() {
-  document.getElementById("seletores").innerHTML = escolhidos.map((v, i) =>
-    `<select data-i="${i}" aria-label="${tr("Substância")}"><option value="">${tr("— Substância " + (i + 1) + " —")}</option>` +
-    opcoes.map(p => `<option value="${slug(p.nome)}"${slug(p.nome) === v ? " selected" : ""}>${esc(p.nome)}</option>`).join("") + `</select>`
-  ).join("");
+  const box = document.getElementById("seletores");
+  box.innerHTML = escolhidos.map(() => "<select></select>").join("");
+  const alvos = [...box.querySelectorAll("select")];
+  const campos = alvos.map((s, i) => combo(s, `${tr("Substância")} ${i + 1}`, () => {
+    escolhidos[i] = campos[i].value;
+    const q = new URLSearchParams();
+    escolhidos.forEach((v, k) => v && q.set("abc"[k], v));
+    history.replaceState(null, "", "?" + q);
+    desenharTabela();
+  }, escolhidos[i]));
 }
 
 function desenharTabela() {
@@ -28,13 +34,6 @@ function desenharTabela() {
     CAMPOS.map(([rot, k]) => `<tr><th>${rot}</th>${sel.map(p => `<td>${k === "selo" ? htmlSelo(p) : k === "fase" ? `<span class="tag ${faseClasse(p.fase)}">${esc(p.fase)}</span>` : esc(p[k])}</td>`).join("")}</tr>`).join("") + LINHAS_EXTRA.map(([rot, f]) => `<tr><th>${rot}</th>${sel.map(p => `<td>${f(p)}</td>`).join("")}</tr>`).join("") + "</tbody>";
 }
 
-document.getElementById("seletores").addEventListener("change", e => {
-  escolhidos[+e.target.dataset.i] = e.target.value;
-  const q = new URLSearchParams();
-  escolhidos.forEach((v, i) => v && q.set("abc"[i], v));
-  history.replaceState(null, "", "?" + q);
-  desenharTabela();
-});
 desenharSeletores();
 desenharTabela();
 
