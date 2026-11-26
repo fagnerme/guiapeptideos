@@ -1463,3 +1463,8 @@ header h1{font-size:clamp(.95rem,1.6vw,1.1rem);margin:.15rem auto .1rem;line-hei
 header .logo-marca{width:28px;height:28px;border-radius:8px}
 header{padding-top:.5rem}
 @media (max-width:759px){header h1{font-size:.95rem}header .logo-marca{width:26px;height:26px}}
+header h1{font-size:clamp(1.35rem,2.8vw,2.1rem);margin:.2rem auto .3rem;line-height:1.2;font-weight:800}
+header .logo-marca{width:44px;height:44px;border-radius:12px}
+@media (max-width:759px){header h1{font-size:1.3rem}header .logo-marca{width:40px;height:40px}}
+header h1{font-size:clamp(1.3rem,2.4vw,1.75rem);max-width:none}
+@media (max-width:759px){header h1{font-size:1.25rem}}
