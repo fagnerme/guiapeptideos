@@ -1553,3 +1553,6 @@ header h1{font-size:clamp(1.3rem,2.4vw,1.75rem);max-width:none}
   #corpo-svg{max-height:55vh}
   .peps-grade{grid-template-columns:1fr}
 }
+
+.corpo-meds{margin:.8rem 0;border-top:1px solid rgba(11,127,165,.2);padding-top:.6rem}
+.corpo-meds summary{cursor:pointer;padding:.3rem 0;font-size:1.02rem}

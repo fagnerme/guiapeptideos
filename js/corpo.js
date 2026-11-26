@@ -21,7 +21,24 @@ const ZONAS = {
   pele: `<circle cx="46" cy="152" r="11"/><path d="M40 150c2-3 4-3 6 0s4 3 6 0M40 156c2-3 4-3 6 0s4 3 6 0" ${D}/>`,
   sangue: `<path d="M152 140c-8 12-12 18-12 24a12 12 0 0 0 24 0c0-6-4-12-12-24z"/><path d="M147 160c0 4 2 7 5 8" ${D}/>`
 };
-const CORPO = silhuetaBase();
+/* Medicamentos entram pelo grupo terapêutico (ATC, 3 caracteres): é uma aproximação por região, não mecanismo. */
+const ATC_ORGAO = {
+  A02: ["estomago"], A03: ["estomago", "intestino"], A04: ["estomago"], A05: ["figado"], A06: ["intestino"], A07: ["intestino"], A08: ["gordura"], A09: ["intestino", "pancreas"], A10: ["pancreas"], A12: ["osso"], A14: ["musculo"],
+  B01: ["sangue", "coracao"], B02: ["sangue"], B03: ["sangue"], B05: ["sangue"],
+  C01: ["coracao"], C02: ["coracao"], C03: ["rim", "coracao"], C04: ["coracao"], C05: ["coracao"], C07: ["coracao"], C08: ["coracao"], C09: ["coracao", "rim"], C10: ["coracao", "figado"],
+  D01: ["pele"], D02: ["pele"], D03: ["pele"], D04: ["pele"], D05: ["pele"], D06: ["pele"], D07: ["pele"], D08: ["pele"], D10: ["pele"], D11: ["pele"],
+  G01: ["reprodutor"], G02: ["reprodutor"], G03: ["reprodutor"], G04: ["rim"],
+  H01: ["hipofise"], H04: ["pancreas"], H05: ["osso"],
+  J06: ["sangue"], J07: ["sangue"], L01: ["sangue"], L03: ["sangue"], L04: ["sangue"],
+  M01: ["musculo", "osso"], M02: ["musculo"], M03: ["musculo"], M05: ["osso"], M09: ["musculo"],
+  N01: ["cerebro"], N02: ["cerebro"], N03: ["cerebro"], N04: ["cerebro"], N05: ["cerebro"], N06: ["cerebro"], N07: ["cerebro"]
+};
+const MEDS_ORGAO = {};
+if (typeof MEDICAMENTOS !== "undefined") MEDICAMENTOS.itens.forEach(i => {
+  if (i.f || i.r || !i.a) return;
+  (ATC_ORGAO[i.a.slice(0, 3)] || []).forEach(o => (MEDS_ORGAO[o] = MEDS_ORGAO[o] || new Map()).set(slug(i.n), i.n));
+});
+const medsDe = (o, peps) => [...(MEDS_ORGAO[o] || new Map())].filter(([s]) => !peps.includes(s)).sort((a, b) => a[1].localeCompare(b[1], "pt"));const CORPO = silhuetaBase();
 const GRUPOS = [["🧠 Cabeça", ["cerebro", "hipofise"]], ["🫀 Tórax e abdômen", ["coracao", "figado", "estomago", "pancreas", "intestino", "rim"]], ["💪 Corpo todo", ["gordura", "musculo", "osso", "pele", "sangue", "reprodutor"]]];
 const contar = o => new Set(Object.values(ALVOS).filter(a => a.orgaos.includes(o)).flatMap(a => a.peps)).size;
 let sel = new URLSearchParams(location.search).get("o");
@@ -43,7 +60,7 @@ function mostrar(o, rolar) {
   sel = o; selOrg.value = o;
   document.querySelectorAll("[data-o]").forEach(e => e.classList.toggle("ativo", e.dataset.o === o));
   const al = Object.entries(ALVOS).filter(([, a]) => a.orgaos.includes(o));
-  const peps = [...new Set(al.flatMap(([, a]) => a.peps))];
+  const peps = [...new Set(al.flatMap(([, a]) => a.peps))], meds = medsDe(o, peps);
   const alvosHtml = al.map(([k, a]) => `<a class="chip-alvo" href="alvo.html?a=${k}">${esc(a.nome)}</a>`).join("");
   painel.innerHTML = `<div class="corpo-cab"><h3><i class="ponto" data-o="${o}"></i>${esc(ORGAOS[o])}</h3><button type="button" class="btn corpo-limpar" id="corpo-limpar">✕ ${tr("Limpar")}</button></div>
     ${al.length > 5 ? `<details class="corpo-alvos"><summary><b>${tr("Alvos que atuam aqui")}</b> (${al.length})</summary><p>${alvosHtml}</p></details>` : `<p><b>${tr("Alvos que atuam aqui:")}</b> ${alvosHtml}</p>`}
@@ -51,12 +68,15 @@ function mostrar(o, rolar) {
       <select id="corpo-fase" aria-label="${esc(tr("Situação"))}"><option value="">${tr("Todas")}</option><option value="ap">${tr("Aprovadas")}</option><option value="est">${tr("Em estudo")}</option></select></div>
     <p class="corpo-cont" id="corpo-cont" aria-live="polite"></p>
     <ul class="peps-alvo peps-grade" id="corpo-lista">${peps.map(s => `<li data-s="${esc(semAcento(nomeDe(s).toLowerCase()))}" data-f="${/aprovad/i.test((porSlug(s) || {}).fase || "") ? "ap" : "est"}">${linkPep(s)} ${rotuloFase(s)}</li>`).join("") || "<li>Nenhum</li>"}</ul>
+    ${meds.length ? `<details class="corpo-meds" id="corpo-meds"><summary><b>💊 ${tr("Medicamentos desta região")}</b> (<span id="corpo-meds-n">${meds.length}</span>)</summary><p><small>${tr("Agrupados pela classe terapêutica (ATC) da região, o que é uma aproximação e não indica uso. Leia a bula e fale com um profissional de saúde.")}</small></p><ul class="peps-alvo peps-grade" id="corpo-lista-med">${meds.map(([s, n]) => `<li data-s="${esc(semAcento(n.toLowerCase()))}" data-f="ap"><a href="peptideo.html?p=${s}">${esc(n)}</a></li>`).join("")}</ul></details>` : ""}
     <p class="corpo-voltar"><a href="#corpo-svg" class="btn">↑ ${tr("Voltar ao mapa")}</a></p><p><small>${tr("Mapa simplificado: uma substância pode agir em vários órgãos, e a posição é apenas ilustrativa.")}</small></p>`;
   const q = document.getElementById("corpo-q"), fs = document.getElementById("corpo-fase"), cont = document.getElementById("corpo-cont");
   const filtrar = () => {
     const t = semAcento(q.value.trim().toLowerCase()); let n = 0;
     painel.querySelectorAll("#corpo-lista li[data-s]").forEach(li => { const ok = li.dataset.s.includes(t) && (!fs.value || li.dataset.f === fs.value); li.hidden = !ok; if (ok) n++; });
     cont.textContent = `${n} ${tr("de")} ${peps.length} ${tr("substâncias")}`;
+    const dm = document.getElementById("corpo-meds");
+    if (dm) { let k = 0; dm.querySelectorAll("li[data-s]").forEach(li => { const ok = li.dataset.s.includes(t) && (!fs.value || li.dataset.f === fs.value); li.hidden = !ok; if (ok) k++; }); document.getElementById("corpo-meds-n").textContent = k; if (t) dm.open = true; }
   };
   q.addEventListener("input", filtrar); fs.addEventListener("change", filtrar); filtrar();
   svg.classList.add("tem-sel");
