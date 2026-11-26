@@ -1571,3 +1571,5 @@ header h1{font-size:clamp(1.3rem,2.4vw,1.75rem);max-width:none}
 .topo-acoes #idioma-sel{min-height:40px;max-width:9.5rem;padding:.35rem .6rem;border-radius:999px;font:inherit;font-size:.85rem;border:1px solid rgba(11,127,165,.35);background:rgba(255,255,255,.85);color:inherit;cursor:pointer}
 .goog-te-banner-frame,.skiptranslate>iframe.goog-te-banner-frame{display:none!important}
 body{top:0!important}
+iframe.VIpgJd-ZVi9od-ORHb-OEVmcd,body>.skiptranslate>iframe{display:none!important}
+body>.skiptranslate{display:none!important}
