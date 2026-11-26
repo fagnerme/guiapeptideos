@@ -1468,3 +1468,24 @@ header .logo-marca{width:44px;height:44px;border-radius:12px}
 @media (max-width:759px){header h1{font-size:1.3rem}header .logo-marca{width:40px;height:40px}}
 header h1{font-size:clamp(1.3rem,2.4vw,1.75rem);max-width:none}
 @media (max-width:759px){header h1{font-size:1.25rem}}
+
+/* Calculadora: resultado mais limpo e ações organizadas */
+.calc-res .mini-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem}
+.calc-res .mini-grid>div{display:flex;flex-direction:column;gap:.15rem;padding:.45rem .3rem;min-width:0}
+.calc-res .mini-grid .rotulo{font-size:.58rem;letter-spacing:0;line-height:1.15;overflow-wrap:anywhere}
+.calc-res .mini-grid b{font-size:.95rem}
+.calc-res .tab-res:has(tbody:empty){display:none}
+.calc-res .calc-acoes{display:grid;grid-template-columns:1fr 1fr;gap:.45rem;margin-top:.8rem}
+.calc-res .calc-acoes .btn{margin:0;width:100%;box-sizing:border-box;justify-content:center;text-align:center;min-height:42px;padding:.45rem .6rem;font-size:.9rem}
+.calc-res .calc-acoes .btn-prim{grid-column:1/-1;min-height:46px}
+.calc-res .calc-acoes .btn-sec{background:transparent;box-shadow:none}
+.calc-ajuda.como-usar-box{padding:.55rem 1rem;margin:.4rem 0 .8rem}
+.calc-ajuda.como-usar-box>summary{font-size:.95rem}
+.sub-calc{margin:.2rem 0 .6rem}
+#prot .prot-form{display:flex;flex-wrap:wrap;gap:.6rem}
+#prot .prot-form input{flex:1 1 14rem;min-width:0}
+#prot .prot-form .btn{flex:0 0 auto}
+@media (max-width:759px){
+  .calc-abas button{font-size:.85rem;padding:.5rem .4rem}
+  .calc-res .calc-acoes{grid-template-columns:1fr 1fr}
+}
