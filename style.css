@@ -1542,3 +1542,14 @@ header h1{font-size:clamp(1.3rem,2.4vw,1.75rem);max-width:none}
 #corpo-painel{border:1px solid rgba(11,127,165,.25);border-radius:16px;background:#fff;padding:1rem 1.2rem;box-shadow:0 6px 20px rgba(11,127,165,.12);max-height:calc(100vh - 11rem);overflow:auto;position:sticky;top:5rem}
 .peps-grade{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
 @media(max-width:900px){#corpo-painel{position:static;max-height:none;overflow:visible}}
+
+/* Mapa do corpo no celular: seletor, boneco e ficha em coluna unica */
+@media(max-width:900px){
+  .corpo-grade{grid-template-columns:minmax(0,1fr);gap:.8rem}
+  .corpo-grade>div:last-child{display:contents}
+  #corpo-botoes{order:-1;margin:0}
+  .corpo-fig{position:static;order:0}
+  #corpo-painel{order:1;min-width:0;padding:.9rem}
+  #corpo-svg{max-height:55vh}
+  .peps-grade{grid-template-columns:1fr}
+}

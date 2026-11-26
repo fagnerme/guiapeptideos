@@ -1,16 +1,25 @@
 montarLayout();
 /* Zonas clicáveis sobre a silhueta (viewBox 200x360). */
+const ESP = s => `<g transform="translate(200 0) scale(-1 1)">${s}</g>`;
+const RIM = `<path d="M80 138c-7-1-12 5-12 13s5 14 11 13c3-1 3-4 1-6-2-3-2-6 0-9 2-3 2-10 0-11z"/>`;
+const BICEPS = `<path d="M40 80c4-6 14-6 17 0 2 10 1 28-2 40-3 6-11 6-14 0-3-12-4-30-1-40z"/>`;
+const OSSO = `<g transform="translate(-3 0)"><path d="M73 252a5 5 0 0 1 3-9 5 5 0 0 1 5 3h2a5 5 0 0 1 5-3 5 5 0 0 1 3 9v66a5 5 0 0 1-3 9 5 5 0 0 1-5-3h-2a5 5 0 0 1-5 3 5 5 0 0 1-3-9z"/></g>`;
 const ZONAS = {
-  cerebro: `<ellipse cx="100" cy="24" rx="16" ry="12"/>`, hipofise: `<circle cx="100" cy="41" r="7"/>`,
-  coracao: `<ellipse cx="108" cy="98" rx="12" ry="13"/>`, figado: `<ellipse cx="84" cy="125" rx="17" ry="9"/>`,
-  estomago: `<ellipse cx="114" cy="128" rx="12" ry="9"/>`, pancreas: `<ellipse cx="100" cy="146" rx="20" ry="7"/>`,
-  intestino: `<rect x="82" y="156" width="36" height="28" rx="12"/>`, gordura: `<ellipse cx="70" cy="178" rx="7" ry="14"/><ellipse cx="130" cy="178" rx="7" ry="14"/>`,
-  rim: `<ellipse cx="78" cy="150" rx="8" ry="11"/><ellipse cx="122" cy="150" rx="8" ry="11"/>`,
-  reprodutor: `<ellipse cx="100" cy="205" rx="14" ry="9"/>`, musculo: `<rect x="40" y="76" width="16" height="44" rx="8"/><rect x="144" y="76" width="16" height="44" rx="8"/>`,
-  osso: `<rect x="72" y="250" width="14" height="80" rx="7"/><rect x="114" y="250" width="14" height="80" rx="7"/>`,
-  pele: `<circle cx="46" cy="152" r="11"/>`, sangue: `<path d="M152 140c-8 12-12 18-12 24a12 12 0 0 0 24 0c0-6-4-12-12-24z"/>`
-};
-const CORPO = silhuetaBase();
+  cerebro: `<path d="M84 27c-3-10 5-19 16-19s19 9 16 19c1 6-4 11-10 10-3 3-9 3-12 0-6 1-11-4-10-10z"/><path d="M100 10v24M90 18c4 2 6 5 5 9M110 18c-4 2-6 5-5 9" fill="none" stroke="#fff" stroke-width="1.2"/>`,
+  hipofise: `<circle cx="100" cy="42" r="5.5"/>`,
+  coracao: `<path d="M108 113c-12-9-17-15-17-21a8 8 0 0 1 17-3 8 8 0 0 1 17 3c0 6-5 12-17 21z"/>`,
+  figado: `<path d="M66 120c0-6 8-9 20-9h22c4 0 6 3 5 6-2 9-12 17-26 17-12 0-21-5-21-14z"/>`,
+  estomago: `<path d="M106 114c8-3 20-1 22 8 2 10-5 18-14 18-8 0-12-6-9-10 2-3 5-2 5-6 0-4-6-4-8-5z"/>`,
+  pancreas: `<path d="M80 147c8-6 20-7 32-4 6 2 11 0 14 3-2 6-9 8-16 7-12-2-22 2-30 1z"/>`,
+  intestino: `<path d="M82 161c0-4 4-6 8-6h20c4 0 8 2 8 6v17c0 5-4 8-8 8H90c-4 0-8-3-8-8z"/><path d="M88 164c8 4 16-4 24 0M88 171c8 4 16-4 24 0M88 178c8 4 16-4 24 0" fill="none" stroke="#fff" stroke-width="1.3"/>`,
+  gordura: `<ellipse cx="70" cy="178" rx="7" ry="14"/><ellipse cx="130" cy="178" rx="7" ry="14"/>`,
+  rim: RIM + ESP(RIM),
+  reprodutor: `<path d="M100 214c-6 0-9-4-9-9 0-5 3-9 9-14 6 5 9 9 9 14 0 5-3 9-9 9z"/><path d="M91 198c-8-2-12-1-16 3M109 198c8-2 12-1 16 3" fill="none" stroke="#7a3b8c" stroke-width="2"/><circle cx="73" cy="202" r="3.5"/><circle cx="127" cy="202" r="3.5"/>`,
+  musculo: BICEPS + ESP(BICEPS),
+  osso: OSSO + ESP(OSSO),
+  pele: `<circle cx="46" cy="152" r="11"/>`,
+  sangue: `<path d="M152 140c-8 12-12 18-12 24a12 12 0 0 0 24 0c0-6-4-12-12-24z"/>`
+};const CORPO = silhuetaBase();
 const GRUPOS = [["🧠 Cabeça", ["cerebro", "hipofise"]], ["🫀 Tórax e abdômen", ["coracao", "figado", "estomago", "pancreas", "intestino", "rim"]], ["💪 Corpo todo", ["gordura", "musculo", "osso", "pele", "sangue", "reprodutor"]]];
 const contar = o => new Set(Object.values(ALVOS).filter(a => a.orgaos.includes(o)).flatMap(a => a.peps)).size;
 let sel = new URLSearchParams(location.search).get("o");
